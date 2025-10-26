@@ -1,0 +1,468 @@
+test_item,language,prompt,answer
+B1T,English,"Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge. Mary says: ""If John is hungry, there is pizza in the oven"". Based on what Mary says, is it true that there is pizza in the oven?","The answer is ""yes"".
+
+The reason is that the sentence ""If John is hungry, there is pizza in the oven"" is a conditional sentence.
+
+A conditional sentence is a sentence that has two parts:"
+B1F,English,"Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridge either. Mary says: ""If John is hungry, there is pizza in the oven"". Based on what Mary says, is it true that there is pizza in the oven?","The answer is ""No"".
+
+The reason is that the statement ""If John is hungry, there is pizza in the oven"" is a conditional statement. It is not a statement about the truth value of the statement ""There is"
+B1C,English,"Here's the context: John is not hungry. There is pasta in the fridge. Mary says: ""If John is hungry, there is pizza in the oven"". Based on what Mary says, is it true that there is pizza in the oven?","The answer is ""yes"".
+
+The reason is that the sentence ""If John is hungry, there is pizza in the oven"" is a conditional statement.
+
+A conditional statement is a statement that has two parts:"
+B2T,English,"Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen in the drawer. Mary says: ""If Nicole's head hurts, there is aspirin on the table"". Based on what Mary says, is it true that there is aspirin on the table? ","The answer is ""Yes"".
+
+The reason is that Mary's statement is true.
+
+The statement ""If Nicole's head hurts, there is aspirin on the table"" is true if and only if the following"
+B2F,English,"Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen in the drawer either. Mary says:  ""If Nicole's head hurts, there is aspirin on the table"". Based on what Mary says, is it true that there is aspirin on the table?","The answer is ""No"".
+
+The reason is that Mary's statement is not a statement about the world. It is a statement about Nicole's headache.
+
+The statement is not about the world. It is about"
+B2C,English,"Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: ""If Nicole's head hurts, there is aspirin on the table"". Based on what Mary says, is it true that there is aspirin on the table?","The answer is ""yes"".
+
+The reason is that the sentence ""If Nicole's head hurts, there is aspirin on the table"" is a conditional sentence.
+
+A conditional sentence is a sentence that has"
+B3T,English,"Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on the shelf. Mary says: ""If Lucy is thirsty, there is water in the fridge"". Based on what Mary says, is it true that there is water in the fridge? ","The answer is ""Yes"".
+
+The reason is that the sentence ""If Lucy is thirsty, there is water in the fridge"" is a conditional sentence.
+
+A conditional sentence has two parts:"
+B3F,English,"Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on the shelf either. Mary says: ""If Lucy is thirsty, there is water in the fridge"". Based on what Mary says, is it true that there is water in the fridge?","The answer is ""No"".
+
+The reason is that the statement ""If Lucy is thirsty, there is water in the fridge"" is a conditional statement.
+
+A conditional statement is a statement that has the"
+B3C,English,"Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: ""If Lucy is thirsty, there is water in the fridge"". Based on what Mary says, is it true that there is water in the fridge? ","The answer is ""No"".
+
+The reason is that the conditional statement is not true.
+
+The conditional statement is:
+
+If Lucy is thirsty, there is water in the fridge.
+
+The"
+B4T,English,"Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a computer on the table. Mary says: ""If Peter's phone is dead, there is a charger in the drawer"". Based on what Mary says, is it true that there is a charger in the drawer?","The answer is ""yes"".
+
+The reason is that the sentence ""If Peter's phone is dead, there is a charger in the drawer"" is a conditional sentence.
+
+A conditional sentence has two parts:"
+B4F,English,"Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no computer on the table either. Mary says: ""If Peter's phone is dead, there is a charger in the drawer"". Based on what Mary says, is it true that there is a charger in the drawer?","The answer is ""No"".
+
+The reason is that Mary's statement is not a statement about the state of the drawer. It is a statement about the state of Peter's phone.
+
+The statement is: ""If"
+B4C,English,"Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: ""If Peter's phone is dead, there is a charger in the drawer"". Based on what Mary says, is it true that there is a charger in the drawer?","The answer is ""yes"".
+
+The reason is that the sentence ""If Peter's phone is dead, there is a charger in the drawer"" is a conditional sentence.
+
+The conditional sentence has two parts:"
+B5T,English,"Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a raincoat in the car. Mary says: ""If the weather is rainy, there is an umbrella on the coat rack"". Based on what Mary says, is it true that there is an umbrella on the coat rack?","The answer is ""Yes"".
+
+The reason is that the conditional statement is true.
+
+The conditional statement is:
+
+If the weather is rainy, there is an umbrella on the coat rack."
+B5F,English,"Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no raincoat in the car either. Mary says: ""If the weather is rainy, there is an umbrella on the coat rack"". Based on what Mary says, is it true that there is an umbrella on the coat rack?","The answer is ""No"".
+
+The reason is that the sentence ""If the weather is rainy, there is an umbrella on the coat rack"" is a conditional sentence.
+
+The conditional sentence has two parts"
+B5C,English,"Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: ""If the weather is rainy, there is an umbrella on the coat rack"". Based on what Mary says, is it true that there is an umbrella on the coat rack?","The answer is ""No"".
+
+The reason is that the conditional statement is not true.
+
+The conditional statement is:
+
+If the weather is rainy, there is an umbrella on the coat rack."
+B6T,English,"Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the front door. Mary says: ""If your tire is flat, there is a pump in the garage"". Based on what Mary says, is it true that there is a pump in the garage?","The answer is ""yes"".
+
+The reason is that the sentence ""If your tire is flat, there is a pump in the garage"" is a conditional sentence.
+
+A conditional sentence is a sentence that has a condition"
+B6F,English,"Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the front door either. Mary says: ""If your tire is flat, there is a pump in the garage"". Based on what Mary says, is it true that there is a pump in the garage?","The answer is ""No"".
+
+The reason is that the sentence ""If your tire is flat, there is a pump in the garage"" is a conditional sentence.
+
+The conditional sentence has two parts:
+
+1"
+B6C,English,"Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: ""If your tire is flat, there is a pump in the garage"". Based on what Mary says, is it true that there is a pump in the garage?","The answer is ""yes"".
+
+The reason is that the sentence ""If your tire is flat, there is a pump in the garage"" is a conditional sentence.
+
+A conditional sentence has two parts:
+
+1"
+B7T,English,"Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in the garden. Mary says: ""If the plant is dry, there is a water can on the shelf"". Based on what Mary says, is it true that there is a water can on the shelf? ","The answer is ""Yes"".
+
+The reason is that the sentence ""If the plant is dry, there is a water can on the shelf"" is a conditional sentence.
+
+A conditional sentence has two parts:"
+B7F,English,"Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the garden either. Mary says: ""If the plant is dry, there is a water can on the shelf"". Based on what Mary says, is it true that there is a water can on the shelf? ","The answer is ""No"".
+
+The reason is:
+
+The statement ""If the plant is dry, there is a water can on the shelf"" is a conditional statement.
+
+The conditional statement is true if the"
+B7C,English,"Here's the context: The plant is not dry. There is a hose in the garden. Mary says: ""If the plant is dry, there is a water can on the shelf"". Based on what Mary says, is it true that there is a water can on the shelf? ","The answer is ""No"".
+
+The reason is that the premise ""The plant is dry"" is not true.
+
+The premise ""The plant is dry"" is not true because the premise ""If the plant is"
+B8T,English,"Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ironing board on the balcony. Mary says: ""If George's shirt is wrinkled, there is an iron in the closet"". Based on what Mary says, is it true that there is an iron in the closet?","The answer is ""yes"".
+
+The reason is that the sentence ""If George's shirt is wrinkled, there is an iron in the closet"" is a conditional statement.
+
+A conditional statement is a statement"
+B8F,English,"Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironing board on the balcony either. Mary says: ""If George's shirt is wrinkled, there is an iron in the closet"". Based on what Mary says, is it true that there is an iron in the closet?","The answer is ""No"".
+
+The reason is that Mary's statement is not a sufficient condition for the existence of an iron in the closet.
+
+The statement ""If George's shirt is wrinkled, there is"
+B8C,English,"Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary says: ""If George's shirt is wrinkled, there is an iron in the closet"". Based on what Mary says, is it true that there is an iron in the closet?","The answer is ""No"".
+
+The reason is that the sentence ""If George's shirt is wrinkled, there is an iron in the closet"" is a conditional statement.
+
+The conditional statement is true if"
+B9T,English,"Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper on the couch. Mary says: ""If Susy wants to read, there are books on the shelf"". Based on what Mary says, is it true that there are books on the shelf?","The answer is ""Yes"".
+
+The reason is that the sentence ""If Susy wants to read, there are books on the shelf"" is a conditional sentence.
+
+A conditional sentence has two parts:
+
+1"
+B9F,English,"Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on the couch either. Mary says: ""If Susy wants to read, there are books on the shelf"". Based on what Mary says, is it true that there are books on the shelf?","The answer is ""No"".
+
+The reason is that Mary's statement is not a fact. It is a conditional statement.
+
+Mary's statement is: ""If Susy wants to read, there are books"
+B9C,English,"Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: ""If Susy wants to read, there are books on the shelf"". Based on what Mary says, is it true that there are books on the shelf?","The answer is ""Yes"".
+
+The reason is:
+
+Mary says: ""If Susy wants to read, there are books on the shelf"".
+
+This is a conditional statement.
+
+The conditional statement"
+F1T,English,"Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza in the fridge. In this context, is pizza more popular than pasta?","The answer is ""Yes"".
+
+Explanation:
+
+The question is asking whether pizza is more popular than pasta.
+
+The context states that pizza is more expensive than pasta, but people buy it more. This"
+F1F,English,"Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza in the fridge. In this context, is pasta more popular than pizza?","No, pizza is more popular than pasta.
+
+Explanation:
+
+The context is that pizza is more expensive than pasta, but people buy it more. This means that pizza is more popular than pasta.
+
+The"
+F2T,English,"Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. There is black coffee in the pot. In this context, is green tea more used than black coffee?","1. Yes, green tea is more used than black coffee.
+2. No, black coffee is more used than green tea.
+3. No, black coffee is not more used than green tea.
+4. Yes, black"
+F2F,English,"Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. There is black coffee in the pot. In this context, is black coffee more used than green tea?","1. No, black coffee is not more used than green tea.
+2. Yes, black coffee is more used than green tea.
+3. No, black coffee is not more used than green tea.
+4. Yes,"
+F3T,English,"Here's the context: Although water is healthier than soda, many choose soda. There is water in the freezer. In this context, is soda more in demand than water?","The answer is ""No"".
+
+The reason is:
+
+The sentence ""Although water is healthier than soda, many choose soda"" is a conditional sentence.
+
+The conditional sentence has two parts:"
+F3F,English,"Here's the context: Although water is healthier than soda, many choose soda. There is water in the freezer. In this context, is water more in demand than soda?","The answer is ""No"".
+
+The reason is:
+
+The sentence ""Although water is healthier than soda, many choose soda"" is a statement of fact. It is not a question.
+
+The sentence"
+F4T,English,"Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. There is broccoli in the oven. In this context, is broccoli more popular than gnocchi?","1. Yes, broccoli is more popular than gnocchi.
+2. No, broccoli is not more popular than gnocchi.
+3. It is not known whether broccoli is more popular than g"
+F4F,English,"Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. There is broccoli in the oven. In this context,  are gnocchi more popular than broccoli?","1. Yes, gnocchi are more popular than broccoli.
+2. No, broccoli is more popular than gnocchi.
+3. No, gnocchi is more popular than broccoli."
+F5T,English,"Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There is sushi on the table. In this context, are burgers more popular than sushi?","The answer is ""No"".
+
+The reason is:
+
+The question is asking about the popularity of burgers and sushi.
+
+The context is about the healthiness of burgers and sushi."
+F5F,English,"Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There is sushi on the table. In this context, is sushi more popular than burgers?","1. Yes, sushi is more popular than burgers.
+2. No, burgers are more popular than sushi.
+3. It depends on the context.
+4. It depends on the person"
+F6T,English,"Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There are bananas in the basket. In this context, are bananas more popular than kiwis?","1. Yes, because bananas are more expensive than kiwis.
+2. No, because bananas are more expensive than kiwis.
+3. Yes, because bananas are more expensive than kiwis."
+F6F,English,"Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There are bananas in the basket. In this context, are kiwis more popular than bananas?","The answer is ""No"".
+
+The question is ""Are kiwis more popular than bananas?""
+
+The answer is ""No"".
+
+The question is ""Are kiwis more popular than bananas?"""
+F7T,English,"Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up in the tree. In this context, are dogs more popular than cats?","1. Yes, dogs are more popular than cats.
+2. No, cats are more popular than dogs.
+3. Yes, cats are more popular than dogs.
+4. No, dogs are more popular than cats."
+F7F,English,"Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up in the tree. In this context, are cats more popular than dogs?","1. Yes, because people prefer cats.
+2. No, because people prefer dogs.
+3. No, because people prefer dogs.
+4. Yes, because people prefer cats.
+
+Correct Option: 1"
+F8T,English,"Here's the context: Although reading books is more educational than watching TV, many people watch TV. There is a book on the shelf. In this context, are more people watching TV than reading books?","1. No, more people are reading books than watching TV.
+2. Yes, more people are watching TV than reading books.
+3. No, more people are watching TV than reading books.
+4. Yes, more people"
+F8F,English,"Here's the context: Although reading books is more educational than watching TV, many people watch TV. There is a book on the shelf. In this context, are more people reading books than watching TV?","1. No, more people are watching TV than reading books.
+2. Yes, more people are reading books than watching TV.
+3. No, more people are watching TV than reading books.
+4. Yes, more people"
+F8T,English,"Here's the context: Although running is better for fitness than walking, most people prefer walking. There is a runner on the track. In this context, is walking more popular than running? ","1. Yes, because most people prefer walking.
+2. No, because running is better for fitness than walking.
+3. No, because running is better for fitness than walking.
+4. No, because most people prefer walking"
+F8F,English,"Here's the context: Although running is better for fitness than walking, most people prefer walking. There is a runner on the track. In this context, is running more popular than walking? ","1. Yes, running is more popular than walking.
+2. No, walking is more popular than running.
+3. Both running and walking are equally popular.
+4. It cannot be determined whether running is more popular than walking"
+S1T,English,"Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Mary had said: ""If the parrot is in the cage, Thomas will bring pizza"". Based on what Mary says, is it true that Thomas brought pizza?","The answer is ""Yes"".
+
+The reason is:
+
+The parrot is in the cage.
+
+Mary had said: ""If the parrot is in the cage, Thomas will bring pizza"".
+
+The par"
+S1F,English,"Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not bring pizza. Mary had said: ""If the parrot is in the cage, Thomas will bring pizza"". Based on what Mary says, is it true that Thomas brought pizza?","The answer is ""No"".
+
+The reason is:
+
+The parrot is in the cage.
+
+Also, the dog is in the doghouse.
+
+Thomas did not bring pizza.
+
+Mary"
+S1C,English,"Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had said: ""If the parrot is in the cage, Thomas will bring pizza"". Based on what Mary says, is it true that Thomas brought pizza?","The answer is ""No"".
+
+The reason is that the parrot is not in the cage.
+
+The parrot is not in the cage.
+
+The parrot is not in the cage.
+
+The parrot"
+S2T,English,"Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: ""If you finish your broccoli, Mark will give you a candy"". Based on what Mary says, is it true that Mark gave you a candy?","The answer is ""No"".
+
+The reason is that the sentence ""If you finish your broccoli, Mark will give you a candy"" is a conditional sentence.
+
+The conditional sentence has two parts:"
+S2F,English,"Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you a candy. Mary had said: ""If you finish your broccoli, Mark will give you a candy"". Based on what Mary says, is it true that Mark gave you a candy?","The answer is ""No"".
+
+The reason is that Mary's statement is not a promise. It is a conditional statement.
+
+The statement is: ""If you finish your broccoli, Mark will give you a"
+S2C,English,"Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had said: ""If you finish your broccoli, Mark will give you a candy"". Based on what Mary says, is it true that Mark gave you a candy?","The answer is ""No"".
+
+The reason is that the sentence ""If you finish your broccoli, Mark will give you a candy"" is a conditional sentence. It is a conditional sentence of type 1."
+S3T,English,"Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: ""If the foxes are dancing, Susan will get a camera"". Based on what Mary says, is it true that Susan got a camera?","The answer is ""No"".
+
+The reason is:
+
+The foxes are dancing.
+
+Mary had said: ""If the foxes are dancing, Susan will get a camera"".
+
+The fox"
+S3F,English,"Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shovel. Mary had said: ""If the foxes are dancing, Susan will get a camera"". Based on what Mary says, is it true that Susan got a camera?","The answer is ""Yes"".
+
+The reason is:
+
+The foxes are dancing.
+
+Mary said: ""If the foxes are dancing, Susan will get a camera"".
+
+Susan did"
+S3C,English,"Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: ""If the foxes are dancing, Susan will get a camera"". Based on what Mary says, is it true that Susan got a camera?","The answer is ""No"".
+
+The reason is:
+
+The foxes are not dancing.
+
+The squirrels are not eating either.
+
+Mary had said: ""If the foxes are"
+S4T,English,"Here's the context: The TV is on. The radio is also on. Mary had said: ""If the TV is on, Matthew will bake cookies"". Based on what Mary says, is it true that Matthew baked cookies?","The answer is ""Yes"".
+
+The reason is:
+
+The TV is on.
+
+The radio is also on.
+
+Mary had said: ""If the TV is on, Matthew will bake cookies""."
+S4F,English,"Here's the context: The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said: ""If the TV is on, Matthew will bake cookies"". Based on what Mary says, is it true that Matthew baked cookies?","The answer is ""No"".
+
+The reason is:
+
+The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said: ""If the TV is on, Matthew will bake cookies"
+S4C,English,"Here's the context: The TV is off. The radio is also off. Mary had said: ""If the TV is on, Matthew will bake cookies"". Based on what Mary says, is it true that Matthew baked cookies?","The answer is ""No"".
+
+The reason is:
+
+The TV is off.
+
+The radio is also off.
+
+Mary had said: ""If the TV is on, Matthew will bake cookies""."
+S5T,English,"Here's the context: Today, the weather is sunny. Also, there is no wind. Mary had said: ""If the weather is sunny, Emma will wear purple"". Based on what Mary says, is it true that Emma wore purple?","The answer is ""Yes"".
+
+Explanation:
+
+The given statement is:
+
+""If the weather is sunny, Emma will wear purple"".
+
+The statement is a conditional statement.
+
+The cond"
+S5F,English,"Here's the context: Today, the weather is sunny. Also, there is no wind. Emma is wearing green. Mary had said: ""If the weather is sunny, Emma will wear purple"". Based on what Mary says, is it true that Emma wore purple?","The answer is ""No"".
+
+Explanation:
+
+The statement is: ""If the weather is sunny, Emma will wear purple"".
+
+The statement is a conditional statement.
+
+The statement is a cond"
+S5C,English,"Here's the context: Today, the weather is rainy. Also, it is very windy. Mary had said: ""If the weather is sunny, Emma will wear purple"". Based on what Mary says, is it true that Emma wore purple?","The answer is ""No"".
+
+Explanation:
+
+The statement ""If the weather is sunny, Emma will wear purple"" is a conditional statement.
+
+The conditional statement is true if the condition is true"
+S6T,English,"Here's the context: The playground is empty.  Also, the streets are quiet. Mary had said: ""If the playground is empty, Angela will take a selfie"". Based on what Mary says, is it true that Angela took a selfie?","Step-by-step explanation:
+
+The playground is empty.
+
+Also, the streets are quiet.
+
+Mary had said: ""If the playground is empty, Angela will take a selfie""."
+S6F,English,"Here's the context: The playground is empty.  Also, the streets are quiet. Angela did not take a selfie. Mary had said: ""If the playground is empty, Angela will take a selfie"". Based on what Mary says, is it true that Angela took a selfie?","The answer is ""No"".
+
+The reason is:
+
+The playground is empty.
+
+Also, the streets are quiet.
+
+Angela did not take a selfie.
+
+Mary had said:"
+S6C,English,"Here's the context: The playground is crowded.  Also, the streets are lively. Mary had said: ""If the playground is empty, Angela will take a selfie"". Based on what Mary says, is it true that Angela took a selfie?","The answer is ""No"".
+
+The reason is:
+
+The playground is crowded.
+
+The streets are lively.
+
+Mary had said: ""If the playground is empty, Angela will take a self"
+S7T,English,"Here's the context: The lawn has been mowed. Also, the flowers have been watered. Mary had said: ""If Paul mows the lawn, he will get 50 euros"". Based on what Mary says, is it true that Paul got 50 euros?","The answer is ""Yes"".
+
+The reason is:
+
+The statement ""If Paul mows the lawn, he will get 50 euros"" is a conditional statement.
+
+The conditional statement is true if"
+S7F,English,"Here's the context: The lawn has been mowed. Also, the flowers have been watered. Paul did not get 50 euros. Mary had said: ""If Paul mows the lawn, he will get 50 euros"". Based on what Mary says, is it true that Paul got 50 euros?","The answer is ""No"".
+
+The reason is:
+
+The statement ""If Paul mows the lawn, he will get 50 euros"" is a conditional statement.
+
+The conditional statement is true if"
+S7C,English,"Here's the context: The lawn has not been mowed. Also, the flowers still need watering. Mary had said: ""If Paul mows the lawn, he will get 50 euros"". Based on what Mary says, is it true that Paul got 50 euros?","The answer is ""No"".
+
+The reason is:
+
+The statement ""If Paul mows the lawn, he will get 50 euros"" is a conditional statement.
+
+The conditional statement is true if"
+S8T,English,"Here's the context: The dog is playing. Also, the cat is climbing the tree. Mary had said: ""If the dog is playing, Anthony will read a book"". Based on what Mary says, is it true that Anthony read a book?","The answer is ""No"".
+
+The reason is:
+
+The statement ""If the dog is playing, Anthony will read a book"" is a conditional statement.
+
+The conditional statement is true if the condition is true"
+S8F,English,"Here's the context: The dog is playing. Also, the cat is climbing the tree. Anthony did not read a book. Mary had said: ""If the dog is playing, Anthony will read a book"". Based on what Mary says, is it true that Anthony read a book?","The answer is ""No"".
+
+The reason is:
+
+The dog is playing.
+
+Also, the cat is climbing the tree.
+
+Anthony did not read a book.
+
+Mary had said"
+S8C,English,"Here's the context: The dog is not playing. Also, the cat is sleeping. Mary had said: ""If the dog is playing, Anthony will read a book"". Based on what Mary says, is it true that Anthony read a book?","The answer is ""No"".
+
+The reason is:
+
+The dog is not playing.
+
+So, the condition in the if-clause is not satisfied.
+
+So, the consequent part of the if-"
+S9T,English,"Here's the context: The fridge is empty. Also, the oven is broken. Mary had said: ""If the fridge is empty, Amy will bring donuts"". Based on what Mary says, is it true that Amy brought donuts?","The answer is ""Yes"".
+
+The reason is:
+
+The fridge is empty.
+
+If the fridge is empty, Amy will bring donuts.
+
+Amy brought donuts.
+
+The answer is"
+S9F,English,"Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary had said: ""If the fridge is empty, Amy will bring donuts"". Based on what Mary says, is it true that Amy brought donuts?","The answer is ""No"".
+
+The reason is that the fridge is empty.
+
+The reason is that the oven is broken.
+
+The reason is that Amy did not bring donuts.
+
+The reason is that"
+S9C,English,"Here's the context: The fridge is full. Also, the oven is on. Mary had said: ""If the fridge is empty, Amy will bring donuts"". Based on what Mary says, is it true that Amy brought donuts?","The answer is ""Yes"".
+
+The reason is:
+
+The fridge is full.
+
+If the fridge is empty, Amy will bring donuts.
+
+The fridge is not empty.
+
+Therefore"
