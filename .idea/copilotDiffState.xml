@@ -3,14 +3,6 @@
   <component name="CopilotDiffPersistence">
     <option name="pendingDiffs">
       <map>
-        <entry key="$PROJECT_DIR$/test_encoding.py">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/test_encoding.py" />
-              <option name="updatedContent" value="&quot;&quot;&quot;Test encoding detection for CSV file&quot;&quot;&quot;&#10;import pandas as pd&#10;&#10;CSV_FILE = &quot;example.csv&quot;&#10;CSV_SEPARATOR = &quot;;&quot;&#10;&#10;encodings_to_try = ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1']&#10;&#10;print(&quot;Testing different encodings...\n&quot;)&#10;&#10;for encoding in encodings_to_try:&#10;    try:&#10;        df = pd.read_csv(CSV_FILE, sep=CSV_SEPARATOR, encoding=encoding)&#10;        df.columns = df.columns.str.strip().str.replace('\ufeff', '')&#10;        &#10;        print(f&quot;[OK] Encoding '{encoding}' works!&quot;)&#10;        print(f&quot;  - Rows: {len(df)}&quot;)&#10;        print(f&quot;  - Columns: {df.columns.tolist()}&quot;)&#10;        print(f&quot;  - First prompt preview: {df['prompt'].iloc[0][:50]}...\n&quot;)&#10;        break&#10;    except Exception as e:&#10;        print(f&quot;[FAIL] Encoding '{encoding}': {str(e)[:50]}\n&quot;)&#10;" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/test_logging.py">
           <value>
             <PendingDiffInfo>
