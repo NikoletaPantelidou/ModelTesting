@@ -13,6 +13,11 @@ from threading import Lock
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
+# Desactivar warnings de HuggingFace Hub
+os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
+os.environ['HF_HUB_DISABLE_TELEMETRY'] = '1'
+os.environ['HF_HUB_DISABLE_EXPERIMENTAL_WARNING'] = '1'
+
 import pandas as pd
 import torch
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
@@ -48,29 +53,35 @@ logger.addHandler(console_handler)
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
-# Lista de modelos a procesar
+# Lista de modelos a procesar (cada modelo tiene su configuración)
 MODELS = [
-    "mistralai/Mistral-7B-Instruct-v0.2",
-    "microsoft/phi-4",
-    "inclusionAI/Ling-1T-FP8",
-    "tiiuae/falcon-7b-instruct",
-    "google/gemma-3-1b-it",
-    "moonshotai/Kimi-K2-Instruct-0905",
-    "arcee-ai/Arcee-Blitz",
-    "arcee-ai/Virtuoso-Lite"
+    {"name": "mistralai/Mistral-7B-Instruct-v0.2", "use_qa_pipeline": False, "trust_remote_code": False},
+    {"name": "microsoft/phi-4", "use_qa_pipeline": False, "trust_remote_code": False},
+    {"name": "tiiuae/falcon-7b-instruct", "use_qa_pipeline": False, "trust_remote_code": False},  # Falcon ya está integrado en transformers
+    {"name": "arcee-ai/Arcee-Blitz", "use_qa_pipeline": False, "trust_remote_code": False},
+    {"name": "arcee-ai/Virtuoso-Lite", "use_qa_pipeline": False, "trust_remote_code": False},
 
-    # Agrega más modelos aquí, ejemplos:
-    # "gpt2",
-    # "facebook/opt-125m",
-    # "EleutherAI/gpt-neo-125M",
+    # Modelos que requieren autenticación (necesitas hacer login con huggingface-cli):
+    # {"name": "google/gemma-3-1b-it", "use_qa_pipeline": False, "trust_remote_code": False},  # Requiere acceso gated
+
+    # Modelos con código personalizado (se cargarán con trust_remote_code=True):
+    # {"name": "inclusionAI/Ling-1T-FP8", "use_qa_pipeline": False, "trust_remote_code": True},
+    # {"name": "moonshotai/Kimi-K2-Instruct-0905", "use_qa_pipeline": False, "trust_remote_code": True},
+
+    # Otros modelos públicos que puedes probar:
+    # {"name": "gpt2", "use_qa_pipeline": False, "trust_remote_code": False},
+    # {"name": "facebook/opt-125m", "use_qa_pipeline": False, "trust_remote_code": False},
+    # {"name": "EleutherAI/gpt-neo-125M", "use_qa_pipeline": False, "trust_remote_code": False},
+
+    # Ejemplo de modelo con QA pipeline:
+    # {"name": "distilbert-base-cased-distilled-squad", "use_qa_pipeline": True, "trust_remote_code": False},
 ]
 
-USE_QA_PIPELINE = False  # Set False if your model doesn't do QA
+INPUT_FILE = "prompts/example.csv"  # Input CSV file path
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
 MAX_WORKERS = 2  # Number of threads for parallel processing per model
-MAX_MODEL_WORKERS = 4  # Number of models to process in parallel
-INPUT_FILE = "prompts/example.csv"
+MAX_MODEL_WORKERS = 1  # Number of models to process in parallel
 OUTPUT_DIR = "answers"  # Directory for output files
 CSV_SEPARATOR = ";"
 
@@ -88,29 +99,38 @@ answers_lock = Lock()
 # FUNCTIONS
 # ============================================================================
 
-def load_model(model_name):
+def load_model(model_name, use_qa_pipeline=False, trust_remote_code=False):
     """Load the AI model (QA pipeline or generative model)."""
     logger.info(f"[INFO] Loading model: {model_name}")
     logger.info(f"[INFO] Using device: {DEVICE}")
+    logger.info(f"[INFO] Use QA pipeline: {use_qa_pipeline}")
+    logger.info(f"[INFO] Trust remote code: {trust_remote_code}")
 
     try:
-        if USE_QA_PIPELINE:
+        if use_qa_pipeline:
             qa_model = pipeline(
                 "question-answering",
                 model=model_name,
                 tokenizer=model_name,
-                device=0 if DEVICE == "cuda" else -1
+                device=0 if DEVICE == "cuda" else -1,
+                trust_remote_code=trust_remote_code
             )
             logger.info(f"[OK] QA pipeline loaded successfully for {model_name}")
             return {'type': 'qa', 'model': qa_model, 'tokenizer': None}
         else:
-            tokenizer = AutoTokenizer.from_pretrained(model_name)
+            tokenizer = AutoTokenizer.from_pretrained(
+                model_name,
+                trust_remote_code=trust_remote_code
+            )
             # Configurar pad_token para evitar warnings
             if tokenizer.pad_token is None:
                 tokenizer.pad_token = tokenizer.eos_token
                 tokenizer.pad_token_id = tokenizer.eos_token_id
 
-            model = AutoModelForCausalLM.from_pretrained(model_name).to(DEVICE)
+            model = AutoModelForCausalLM.from_pretrained(
+                model_name,
+                trust_remote_code=trust_remote_code
+            ).to(DEVICE)
             # Configurar pad_token_id en el modelo también
             model.config.pad_token_id = tokenizer.pad_token_id
             logger.info(f"[OK] Model and tokenizer loaded successfully for {model_name}")
@@ -267,13 +287,17 @@ def save_output(df, answers, model_name):
         raise
 
 
-def process_single_model(model_name, df):
+def process_single_model(model_config, df):
     """Process prompts with a single model."""
+    model_name = model_config["name"]
+    use_qa_pipeline = model_config.get("use_qa_pipeline", False)
+    trust_remote_code = model_config.get("trust_remote_code", False)
+
     try:
         logger.info(f"[INFO] ===== Starting processing for model: {model_name} =====")
 
         # Step 1: Load model
-        model_dict = load_model(model_name)
+        model_dict = load_model(model_name, use_qa_pipeline, trust_remote_code)
 
         # Step 2: Process prompts in parallel
         answers = process_prompts_parallel(df, model_dict, model_name)
@@ -293,10 +317,13 @@ def process_models_parallel(df):
     total_models = len(MODELS)
     logger.info(f"[INFO] Starting parallel model processing with {MAX_MODEL_WORKERS} workers")
 
+    successful_models = []
+    failed_models = []
+
     with ThreadPoolExecutor(max_workers=MAX_MODEL_WORKERS) as executor:
         futures = {
-            executor.submit(process_single_model, model_name, df): model_name
-            for model_name in MODELS
+            executor.submit(process_single_model, model_config, df): model_config["name"]
+            for model_config in MODELS
         }
 
         completed_count = 0
@@ -305,18 +332,39 @@ def process_models_parallel(df):
             try:
                 future.result()
                 completed_count += 1
-                logger.info(f"[PROGRESS] Models completed: {completed_count}/{total_models}")
+                successful_models.append(model_name)
+                logger.info(f"[PROGRESS] Models completed successfully: {completed_count}/{total_models}")
+                print(f"\n[OK] Model {model_name} completed successfully ({completed_count}/{total_models})")
             except Exception as e:
+                failed_models.append((model_name, str(e)))
                 logger.error(f"[ERROR] Model {model_name} failed: {str(e)}")
+                print(f"\n[ERROR] Model {model_name} failed. Check logs for details.")
 
-    logger.info(f"[OK] All {total_models} models processed")
+    logger.info(f"[OK] Processing finished: {len(successful_models)} successful, {len(failed_models)} failed")
+
+    if successful_models:
+        logger.info(f"[OK] Successful models: {successful_models}")
+        print(f"\n[OK] Successfully processed {len(successful_models)} models:")
+        for model in successful_models:
+            print(f"  ✓ {model}")
+
+    if failed_models:
+        logger.warning(f"[WARNING] Failed models: {[m[0] for m in failed_models]}")
+        print(f"\n[WARNING] {len(failed_models)} models failed:")
+        for model, error in failed_models:
+            print(f"  ✗ {model}")
+            # Mostrar solo la primera línea del error para no saturar la consola
+            error_summary = error.split('\n')[0][:100]
+            print(f"    Error: {error_summary}...")
+
+    return successful_models, failed_models
 
 
 def main():
     """Main execution function."""
     try:
         logger.info(f"[INFO] ===== Starting multi-model processing =====")
-        logger.info(f"[INFO] Models to process: {MODELS}")
+        logger.info(f"[INFO] Models to process: {[m['name'] for m in MODELS]}")
         logger.info(f"[INFO] Parallel model workers: {MAX_MODEL_WORKERS}")
 
         # Crear directorio de salida si no existe
@@ -326,10 +374,15 @@ def main():
         df = load_input_file()
 
         # Process all models in parallel
-        process_models_parallel(df)
+        successful_models, failed_models = process_models_parallel(df)
 
-        logger.info(f"[OK] ===== All models processed successfully! =====")
-        print(f"\n[OK] ===== All {len(MODELS)} models processed successfully! =====")
+        logger.info(f"[OK] ===== Processing finished! =====")
+        print(f"\n{'='*60}")
+        print(f"[OK] Processing Summary:")
+        print(f"  Total models: {len(MODELS)}")
+        print(f"  Successful: {len(successful_models)}")
+        print(f"  Failed: {len(failed_models)}")
+        print(f"{'='*60}")
 
     except Exception as e:
         logger.error(f"[FATAL] Fatal error in main execution: {str(e)}")
