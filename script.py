@@ -60,28 +60,19 @@ MODELS = [
     {"name": "tiiuae/falcon-7b-instruct", "use_qa_pipeline": False, "trust_remote_code": False},  # Falcon ya está integrado en transformers
     {"name": "arcee-ai/Arcee-Blitz", "use_qa_pipeline": False, "trust_remote_code": False},
     {"name": "arcee-ai/Virtuoso-Lite", "use_qa_pipeline": False, "trust_remote_code": False},
+    {"name": "inclusionAI/Ling-1T-FP8", "use_qa_pipeline": False, "trust_remote_code": True},
+    {"name": "moonshotai/Kimi-K2-Instruct-0905", "use_qa_pipeline": False, "trust_remote_code": True},
+    {"name": "distilbert-base-cased-distilled-squad", "use_qa_pipeline": True, "trust_remote_code": False},
 
     # Modelos que requieren autenticación (necesitas hacer login con huggingface-cli):
     # {"name": "google/gemma-3-1b-it", "use_qa_pipeline": False, "trust_remote_code": False},  # Requiere acceso gated
-
-    # Modelos con código personalizado (se cargarán con trust_remote_code=True):
-    # {"name": "inclusionAI/Ling-1T-FP8", "use_qa_pipeline": False, "trust_remote_code": True},
-    # {"name": "moonshotai/Kimi-K2-Instruct-0905", "use_qa_pipeline": False, "trust_remote_code": True},
-
-    # Otros modelos públicos que puedes probar:
-    # {"name": "gpt2", "use_qa_pipeline": False, "trust_remote_code": False},
-    # {"name": "facebook/opt-125m", "use_qa_pipeline": False, "trust_remote_code": False},
-    # {"name": "EleutherAI/gpt-neo-125M", "use_qa_pipeline": False, "trust_remote_code": False},
-
-    # Ejemplo de modelo con QA pipeline:
-    # {"name": "distilbert-base-cased-distilled-squad", "use_qa_pipeline": True, "trust_remote_code": False},
 ]
 
 INPUT_FILE = "prompts/example.csv"  # Input CSV file path
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
-MAX_WORKERS = 2  # Number of threads for parallel processing per model
-MAX_MODEL_WORKERS = 1  # Number of models to process in parallel
+MAX_WORKERS = 4  # Number of threads for parallel processing per model
+MAX_MODEL_WORKERS = 1  # Number of models to process in parallel (max 2 to avoid overload)
 OUTPUT_DIR = "answers"  # Directory for output files
 CSV_SEPARATOR = ";"
 
