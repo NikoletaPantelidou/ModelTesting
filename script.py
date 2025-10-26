@@ -45,17 +45,24 @@ logger.setLevel(logging.INFO)
 logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 
-
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
-MODEL_NAME = "mistralai/Mistral-7B-v0.1"
+# Lista de modelos a procesar
+MODELS = [
+    "mistralai/Mistral-7B-v0.1",
+    # Agrega más modelos aquí, ejemplos:
+    # "gpt2",
+    # "facebook/opt-125m",
+    # "EleutherAI/gpt-neo-125M",
+]
+
 USE_QA_PIPELINE = False  # Set False if your model doesn't do QA
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
-MAX_WORKERS = 5  # Number of threads for parallel processing
+MAX_WORKERS = 5  # Number of threads for parallel processing per model
 INPUT_FILE = "prompts/example.csv"
-OUTPUT_FILE = "answers/answers.csv"
+OUTPUT_DIR = "answers"  # Directory for output files
 CSV_SEPARATOR = ";"
 
 
@@ -72,35 +79,35 @@ answers_lock = Lock()
 # FUNCTIONS
 # ============================================================================
 
-def load_model():
+def load_model(model_name):
     """Load the AI model (QA pipeline or generative model)."""
-    global qa_model, tokenizer, model
-
-    logger.info(f"[INFO] Loading model: {MODEL_NAME}")
+    logger.info(f"[INFO] Loading model: {model_name}")
     logger.info(f"[INFO] Using device: {DEVICE}")
 
     try:
         if USE_QA_PIPELINE:
             qa_model = pipeline(
                 "question-answering",
-                model=MODEL_NAME,
-                tokenizer=MODEL_NAME,
+                model=model_name,
+                tokenizer=model_name,
                 device=0 if DEVICE == "cuda" else -1
             )
-            logger.info("[OK] QA pipeline loaded successfully")
+            logger.info(f"[OK] QA pipeline loaded successfully for {model_name}")
+            return {'type': 'qa', 'model': qa_model, 'tokenizer': None}
         else:
-            tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+            tokenizer = AutoTokenizer.from_pretrained(model_name)
             # Configurar pad_token para evitar warnings
             if tokenizer.pad_token is None:
                 tokenizer.pad_token = tokenizer.eos_token
                 tokenizer.pad_token_id = tokenizer.eos_token_id
 
-            model = AutoModelForCausalLM.from_pretrained(MODEL_NAME).to(DEVICE)
+            model = AutoModelForCausalLM.from_pretrained(model_name).to(DEVICE)
             # Configurar pad_token_id en el modelo también
             model.config.pad_token_id = tokenizer.pad_token_id
-            logger.info("[OK] Model and tokenizer loaded successfully")
+            logger.info(f"[OK] Model and tokenizer loaded successfully for {model_name}")
+            return {'type': 'generative', 'model': model, 'tokenizer': tokenizer}
     except Exception as e:
-        logger.error(f"[ERROR] Error loading model: {str(e)}")
+        logger.error(f"[ERROR] Error loading model {model_name}: {str(e)}")
         raise
 
 
@@ -153,17 +160,20 @@ def parse_prompt(raw_prompt):
     return context, question
 
 
-def generate_answer(context, question):
+def generate_answer(context, question, model_dict):
     """Generate an answer using the loaded model."""
     full_prompt = f"Context: {context}\nQuestion: {question}\n\nAnswer:"
 
-    if USE_QA_PIPELINE:
+    if model_dict['type'] == 'qa':
+        qa_model = model_dict['model']
         result = qa_model(question=question, context=context)
         if isinstance(result, list):
             answer = result[0]["answer"]
         else:
             answer = result["answer"]
     else:
+        model = model_dict['model']
+        tokenizer = model_dict['tokenizer']
         inputs = tokenizer(full_prompt, return_tensors="pt").to(DEVICE)
         with torch.no_grad():
             outputs = model.generate(
@@ -179,7 +189,7 @@ def generate_answer(context, question):
     return answer
 
 
-def process_row(idx, row, total_rows):
+def process_row(idx, row, total_rows, model_dict):
     """Process a single row and return the answer."""
     try:
         logger.info(f"[INFO] Processing row {idx + 1}/{total_rows}")
@@ -190,7 +200,7 @@ def process_row(idx, row, total_rows):
         logger.debug(f"[DEBUG] Row {idx + 1} - Context: {context[:50]}...")
         logger.debug(f"[DEBUG] Row {idx + 1} - Question: {question}")
 
-        answer = generate_answer(context, question)
+        answer = generate_answer(context, question, model_dict)
 
         logger.info(f"[OK] Row {idx + 1} completed")
         return idx, answer
@@ -200,16 +210,16 @@ def process_row(idx, row, total_rows):
         return idx, f"ERROR: {str(e)}"
 
 
-def process_prompts_parallel(df):
+def process_prompts_parallel(df, model_dict, model_name):
     """Process all prompts in parallel using ThreadPoolExecutor."""
     answers = [None] * len(df)
     total_rows = len(df)
 
-    logger.info(f"[INFO] Starting parallel processing with {MAX_WORKERS} workers")
+    logger.info(f"[INFO] Starting parallel processing for {model_name} with {MAX_WORKERS} workers")
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {
-            executor.submit(process_row, idx, row, total_rows): idx
+            executor.submit(process_row, idx, row, total_rows, model_dict): idx
             for idx, row in df.iterrows()
         }
 
@@ -220,26 +230,31 @@ def process_prompts_parallel(df):
                 with answers_lock:
                     answers[idx] = answer
                     completed_count += 1
-                    logger.info(f"[PROGRESS] {completed_count}/{total_rows} rows completed")
+                    logger.info(f"[PROGRESS] {model_name} - {completed_count}/{total_rows} rows completed")
             except Exception as e:
                 logger.error(f"[ERROR] Unexpected error in thread execution: {str(e)}")
 
-    logger.info("[OK] All rows processed")
+    logger.info(f"[OK] All rows processed for {model_name}")
     return answers
 
 
-def save_output(df, answers):
+def save_output(df, answers, model_name):
     """Save the results to a CSV file."""
     try:
-        df["answer"] = answers
-        df.to_csv(OUTPUT_FILE, index=False)
+        # Crear nombre de archivo seguro (reemplazar / por -)
+        safe_model_name = model_name.replace("/", "-")
+        output_file = os.path.join(OUTPUT_DIR, f"{safe_model_name}_answers.csv")
 
-        logger.info(f"[OK] Done! Answers saved to {OUTPUT_FILE}")
-        print(f"\n[OK] Done! Answers saved to {OUTPUT_FILE}")
+        df_copy = df.copy()
+        df_copy["answer"] = answers
+        df_copy.to_csv(output_file, index=False)
+
+        logger.info(f"[OK] Done! Answers saved to {output_file}")
+        print(f"\n[OK] Done! Answers for {model_name} saved to {output_file}")
         print("\n[INFO] Preview of results:")
-        print(df.head())
+        print(df_copy.head())
     except Exception as e:
-        logger.error(f"[ERROR] Error saving output file: {str(e)}")
+        logger.error(f"[ERROR] Error saving output file for {model_name}: {str(e)}")
         raise
 
 
@@ -247,20 +262,45 @@ def save_output(df, answers):
 # MAIN EXECUTION
 # ============================================================================
 
+def process_single_model(model_name, df):
+    """Process prompts with a single model."""
+    try:
+        logger.info(f"[INFO] ===== Starting processing for model: {model_name} =====")
+
+        # Step 1: Load model
+        model_dict = load_model(model_name)
+
+        # Step 2: Process prompts in parallel
+        answers = process_prompts_parallel(df, model_dict, model_name)
+
+        # Step 3: Save output
+        save_output(df, answers, model_name)
+
+        logger.info(f"[OK] ===== Completed processing for model: {model_name} =====\n")
+
+    except Exception as e:
+        logger.error(f"[ERROR] Error processing model {model_name}: {str(e)}")
+        raise
+
+
 def main():
     """Main execution function."""
     try:
-        # Step 1: Load model
-        load_model()
+        logger.info(f"[INFO] ===== Starting multi-model processing =====")
+        logger.info(f"[INFO] Models to process: {MODELS}")
 
-        # Step 2: Load input file
+        # Crear directorio de salida si no existe
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+        # Load input file (una sola vez)
         df = load_input_file()
 
-        # Step 3: Process prompts in parallel
-        answers = process_prompts_parallel(df)
+        # Process each model
+        for model_name in MODELS:
+            process_single_model(model_name, df)
 
-        # Step 4: Save output
-        save_output(df, answers)
+        logger.info(f"[OK] ===== All models processed successfully! =====")
+        print(f"\n[OK] ===== All {len(MODELS)} models processed successfully! =====")
 
     except Exception as e:
         logger.error(f"[FATAL] Fatal error in main execution: {str(e)}")
