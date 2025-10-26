@@ -12,16 +12,17 @@ import logging
 from threading import Lock
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
+import pandas as pd
+import torch
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
 # Desactivar warnings de HuggingFace Hub
 os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
 os.environ['HF_HUB_DISABLE_TELEMETRY'] = '1'
 os.environ['HF_HUB_DISABLE_EXPERIMENTAL_WARNING'] = '1'
 
-import pandas as pd
-import torch
-from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
-
+# Token de autenticación de HuggingFace (para modelos con acceso restringido)
+HF_TOKEN = "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"
 
 # ============================================================================
 # LOGGING CONFIGURATION
@@ -55,7 +56,7 @@ logger.addHandler(console_handler)
 # ============================================================================
 # Lista de modelos a procesar (cada modelo tiene su configuración)
 MODELS = [
-    {"name": "mistralai/Mistral-7B-Instruct-v0.2", "use_qa_pipeline": False, "trust_remote_code": False},
+    # {"name": "mistralai/Mistral-7B-Instruct-v0.2", "use_qa_pipeline": False, "trust_remote_code": False},
     {"name": "microsoft/phi-4", "use_qa_pipeline": False, "trust_remote_code": False},
     {"name": "tiiuae/falcon-7b-instruct", "use_qa_pipeline": False, "trust_remote_code": False},  # Falcon ya está integrado en transformers
     {"name": "arcee-ai/Arcee-Blitz", "use_qa_pipeline": False, "trust_remote_code": False},
@@ -63,9 +64,8 @@ MODELS = [
     {"name": "inclusionAI/Ling-1T-FP8", "use_qa_pipeline": False, "trust_remote_code": True},
     {"name": "moonshotai/Kimi-K2-Instruct-0905", "use_qa_pipeline": False, "trust_remote_code": True},
     {"name": "distilbert-base-cased-distilled-squad", "use_qa_pipeline": True, "trust_remote_code": False},
-
-    # Modelos que requieren autenticación (necesitas hacer login con huggingface-cli):
-    # {"name": "google/gemma-3-1b-it", "use_qa_pipeline": False, "trust_remote_code": False},  # Requiere acceso gated
+    # Modelos que requieren autenticación:
+    {"name": "google/gemma-3-1b-it", "use_qa_pipeline": False, "trust_remote_code": False},  # Requiere acceso gated
 ]
 
 INPUT_FILE = "prompts/example.csv"  # Input CSV file path
@@ -104,14 +104,16 @@ def load_model(model_name, use_qa_pipeline=False, trust_remote_code=False):
                 model=model_name,
                 tokenizer=model_name,
                 device=0 if DEVICE == "cuda" else -1,
-                trust_remote_code=trust_remote_code
+                trust_remote_code=trust_remote_code,
+                token=HF_TOKEN  # Usar token para modelos con acceso restringido
             )
             logger.info(f"[OK] QA pipeline loaded successfully for {model_name}")
             return {'type': 'qa', 'model': qa_model, 'tokenizer': None}
         else:
             tokenizer = AutoTokenizer.from_pretrained(
                 model_name,
-                trust_remote_code=trust_remote_code
+                trust_remote_code=trust_remote_code,
+                token=HF_TOKEN  # Usar token para modelos con acceso restringido
             )
             # Configurar pad_token para evitar warnings
             if tokenizer.pad_token is None:
@@ -120,7 +122,8 @@ def load_model(model_name, use_qa_pipeline=False, trust_remote_code=False):
 
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
-                trust_remote_code=trust_remote_code
+                trust_remote_code=trust_remote_code,
+                token=HF_TOKEN  # Usar token para modelos con acceso restringido
             ).to(DEVICE)
             # Configurar pad_token_id en el modelo también
             model.config.pad_token_id = tokenizer.pad_token_id
