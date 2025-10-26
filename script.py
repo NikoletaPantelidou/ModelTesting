@@ -50,7 +50,15 @@ logger.addHandler(console_handler)
 # ============================================================================
 # Lista de modelos a procesar
 MODELS = [
-    "mistralai/Mistral-7B-v0.1",
+    "mistralai/Mistral-7B-Instruct-v0.2",
+    "microsoft/phi-4",
+    "inclusionAI/Ling-1T-FP8",
+    "tiiuae/falcon-7b-instruct",
+    "google/gemma-3-1b-it",
+    "moonshotai/Kimi-K2-Instruct-0905",
+    "arcee-ai/Arcee-Blitz",
+    "arcee-ai/Virtuoso-Lite"
+
     # Agrega más modelos aquí, ejemplos:
     # "gpt2",
     # "facebook/opt-125m",
@@ -60,7 +68,8 @@ MODELS = [
 USE_QA_PIPELINE = False  # Set False if your model doesn't do QA
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
-MAX_WORKERS = 5  # Number of threads for parallel processing per model
+MAX_WORKERS = 2  # Number of threads for parallel processing per model
+MAX_MODEL_WORKERS = 4  # Number of models to process in parallel
 INPUT_FILE = "prompts/example.csv"
 OUTPUT_DIR = "answers"  # Directory for output files
 CSV_SEPARATOR = ";"
@@ -258,10 +267,6 @@ def save_output(df, answers, model_name):
         raise
 
 
-# ============================================================================
-# MAIN EXECUTION
-# ============================================================================
-
 def process_single_model(model_name, df):
     """Process prompts with a single model."""
     try:
@@ -283,11 +288,36 @@ def process_single_model(model_name, df):
         raise
 
 
+def process_models_parallel(df):
+    """Process all models in parallel using ThreadPoolExecutor."""
+    total_models = len(MODELS)
+    logger.info(f"[INFO] Starting parallel model processing with {MAX_MODEL_WORKERS} workers")
+
+    with ThreadPoolExecutor(max_workers=MAX_MODEL_WORKERS) as executor:
+        futures = {
+            executor.submit(process_single_model, model_name, df): model_name
+            for model_name in MODELS
+        }
+
+        completed_count = 0
+        for future in as_completed(futures):
+            model_name = futures[future]
+            try:
+                future.result()
+                completed_count += 1
+                logger.info(f"[PROGRESS] Models completed: {completed_count}/{total_models}")
+            except Exception as e:
+                logger.error(f"[ERROR] Model {model_name} failed: {str(e)}")
+
+    logger.info(f"[OK] All {total_models} models processed")
+
+
 def main():
     """Main execution function."""
     try:
         logger.info(f"[INFO] ===== Starting multi-model processing =====")
         logger.info(f"[INFO] Models to process: {MODELS}")
+        logger.info(f"[INFO] Parallel model workers: {MAX_MODEL_WORKERS}")
 
         # Crear directorio de salida si no existe
         os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -295,9 +325,8 @@ def main():
         # Load input file (una sola vez)
         df = load_input_file()
 
-        # Process each model
-        for model_name in MODELS:
-            process_single_model(model_name, df)
+        # Process all models in parallel
+        process_models_parallel(df)
 
         logger.info(f"[OK] ===== All models processed successfully! =====")
         print(f"\n[OK] ===== All {len(MODELS)} models processed successfully! =====")
@@ -305,6 +334,12 @@ def main():
     except Exception as e:
         logger.error(f"[FATAL] Fatal error in main execution: {str(e)}")
         raise
+
+# ============================================================================
+# MAIN EXECUTION
+# ============================================================================
+
+
 
 
 if __name__ == "__main__":
