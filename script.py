@@ -1,6 +1,6 @@
 """
-Script para procesamiento secuencial de prompts usando modelos de transformers.
-Incluye logging completo y manejo de errores.
+Script for sequential processing of prompts using transformer models.
+Includes complete logging and error handling.
 """
 
 # ============================================================================
@@ -14,56 +14,46 @@ import pandas as pd
 import torch
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
-# Desactivar warnings de HuggingFace Hub
+# Disable HuggingFace Hub warnings
 os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
 os.environ['HF_HUB_DISABLE_TELEMETRY'] = '1'
 os.environ['HF_HUB_DISABLE_EXPERIMENTAL_WARNING'] = '1'
 
-# Token de autenticación de HuggingFace (para modelos con acceso restringido)
+# HuggingFace authentication token (for gated models)
 HF_TOKEN = "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"
 
 # ============================================================================
 # LOGGING CONFIGURATION
 # ============================================================================
-# Configurar handlers manualmente para que INFO/OK salgan en stdout (blanco)
+os.makedirs('logs', exist_ok=True)
 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
 log_filename = f'logs/execution_{timestamp}.log'
 
-os.makedirs('logs', exist_ok=True)
-
-file_handler = logging.FileHandler(log_filename, encoding='utf-8')
-file_handler.setLevel(logging.INFO)
-
-# StreamHandler usando stdout explícitamente para evitar texto rojo
-console_handler = logging.StreamHandler(sys.stdout)
-console_handler.setLevel(logging.INFO)
-
-# Formato del log
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-file_handler.setFormatter(formatter)
-console_handler.setFormatter(formatter)
-
-# Configurar logger
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_filename, encoding='utf-8'),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-logger.addHandler(file_handler)
-logger.addHandler(console_handler)
 
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
-# Lista de modelos a procesar (cada modelo tiene su configuración)
+# List of models to process (each model has its own configuration)
 MODELS = [
     # {"name": "mistralai/Mistral-7B-Instruct-v0.2", "use_qa_pipeline": False, "trust_remote_code": False},
     {"name": "microsoft/phi-4", "use_qa_pipeline": False, "trust_remote_code": False},
-    {"name": "tiiuae/falcon-7b-instruct", "use_qa_pipeline": False, "trust_remote_code": False},  # Falcon ya está integrado en transformers
+    {"name": "tiiuae/falcon-7b-instruct", "use_qa_pipeline": False, "trust_remote_code": False},  # Falcon is already integrated in transformers
     {"name": "arcee-ai/Arcee-Blitz", "use_qa_pipeline": False, "trust_remote_code": False},
     {"name": "arcee-ai/Virtuoso-Lite", "use_qa_pipeline": False, "trust_remote_code": False},
     {"name": "inclusionAI/Ling-1T-FP8", "use_qa_pipeline": False, "trust_remote_code": True},
     {"name": "moonshotai/Kimi-K2-Instruct-0905", "use_qa_pipeline": False, "trust_remote_code": True},
     {"name": "distilbert-base-cased-distilled-squad", "use_qa_pipeline": True, "trust_remote_code": False},
-    # Modelos que requieren autenticación:
-    {"name": "google/gemma-3-1b-it", "use_qa_pipeline": False, "trust_remote_code": False},  # Requiere acceso gated
+    # Models that require authentication:
+    {"name": "google/gemma-3-1b-it", "use_qa_pipeline": False, "trust_remote_code": False},  # Requires gated access
 ]
 
 INPUT_FILE = "prompts/example.csv"  # Input CSV file path
@@ -73,13 +63,6 @@ OUTPUT_DIR = "answers"  # Directory for output files
 CSV_SEPARATOR = ";"
 
 
-# ============================================================================
-# GLOBAL VARIABLES
-# ============================================================================
-qa_model = None
-tokenizer = None
-model = None
-
 
 # ============================================================================
 # FUNCTIONS
@@ -87,10 +70,7 @@ model = None
 
 def load_model(model_name, use_qa_pipeline=False, trust_remote_code=False):
     """Load the AI model (QA pipeline or generative model)."""
-    logger.info(f"[INFO] Loading model: {model_name}")
-    logger.info(f"[INFO] Using device: {DEVICE}")
-    logger.info(f"[INFO] Use QA pipeline: {use_qa_pipeline}")
-    logger.info(f"[INFO] Trust remote code: {trust_remote_code}")
+    logger.info(f"[INFO] Loading model: {model_name} (device: {DEVICE})")
 
     try:
         if use_qa_pipeline:
@@ -100,61 +80,49 @@ def load_model(model_name, use_qa_pipeline=False, trust_remote_code=False):
                 tokenizer=model_name,
                 device=0 if DEVICE == "cuda" else -1,
                 trust_remote_code=trust_remote_code,
-                token=HF_TOKEN  # Usar token para modelos con acceso restringido
+                token=HF_TOKEN
             )
-            logger.info(f"[OK] QA pipeline loaded successfully for {model_name}")
-            return {'type': 'qa', 'model': qa_model, 'tokenizer': None}
+            logger.info(f"[OK] QA pipeline loaded successfully")
+            return {'type': 'qa', 'model': qa_model}
         else:
             tokenizer = AutoTokenizer.from_pretrained(
                 model_name,
                 trust_remote_code=trust_remote_code,
-                token=HF_TOKEN  # Usar token para modelos con acceso restringido
+                token=HF_TOKEN
             )
-            # Configurar pad_token para evitar warnings
             if tokenizer.pad_token is None:
                 tokenizer.pad_token = tokenizer.eos_token
-                tokenizer.pad_token_id = tokenizer.eos_token_id
 
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
                 trust_remote_code=trust_remote_code,
-                token=HF_TOKEN  # Usar token para modelos con acceso restringido
+                token=HF_TOKEN
             ).to(DEVICE)
-            # Configurar pad_token_id en el modelo también
             model.config.pad_token_id = tokenizer.pad_token_id
-            logger.info(f"[OK] Model and tokenizer loaded successfully for {model_name}")
+            logger.info(f"[OK] Model and tokenizer loaded successfully")
             return {'type': 'generative', 'model': model, 'tokenizer': tokenizer}
     except Exception as e:
-        logger.error(f"[ERROR] Error loading model {model_name}: {str(e)}")
+        logger.error(f"[ERROR] Error loading model: {str(e)}")
         raise
 
 
 def load_input_file():
     """Load and validate the input CSV file."""
-    logger.info(f"[INFO] Reading input file: {INPUT_FILE}")
-
     if not os.path.exists(INPUT_FILE):
-        logger.error(f"[ERROR] Could not find {INPUT_FILE}")
-        raise FileNotFoundError(
-            f"[ERROR] Could not find {INPUT_FILE}. "
-            "Please place it in the same folder as this script."
-        )
+        raise FileNotFoundError(f"Could not find {INPUT_FILE}")
 
     try:
         df = pd.read_csv(INPUT_FILE, sep=CSV_SEPARATOR)
         df.columns = df.columns.str.strip().str.replace('\ufeff', '')
 
-        logger.info(f"[OK] File loaded successfully. Rows: {len(df)}")
-        logger.info(f"[INFO] Columns detected: {df.columns.tolist()}")
-        print("[OK] Columns detected:", df.columns.tolist())
+        logger.info(f"[OK] File loaded: {len(df)} rows, columns: {df.columns.tolist()}")
 
         if "prompt" not in df.columns:
-            logger.error("[ERROR] CSV must contain a 'prompt' column")
-            raise ValueError("[ERROR] CSV must contain a 'prompt' column.")
+            raise ValueError("CSV must contain a 'prompt' column")
 
         return df
     except Exception as e:
-        logger.error(f"[ERROR] Error reading CSV file: {str(e)}")
+        logger.error(f"[ERROR] Error reading CSV: {str(e)}")
         raise
 
 
@@ -180,31 +148,25 @@ def parse_prompt(raw_prompt):
 
 def generate_answer(context, question, model_dict):
     """Generate an answer using the loaded model."""
-    full_prompt = f"Context: {context}\nQuestion: {question}\n\nAnswer:"
-
     if model_dict['type'] == 'qa':
-        qa_model = model_dict['model']
-        result = qa_model(question=question, context=context)
-        if isinstance(result, list):
-            answer = result[0]["answer"]
-        else:
-            answer = result["answer"]
+        result = model_dict['model'](question=question, context=context)
+        return result[0]["answer"] if isinstance(result, list) else result["answer"]
     else:
-        model = model_dict['model']
+        full_prompt = f"Context: {context}\nQuestion: {question}\n\nAnswer:"
         tokenizer = model_dict['tokenizer']
         inputs = tokenizer(full_prompt, return_tensors="pt").to(DEVICE)
+
         with torch.no_grad():
-            outputs = model.generate(
+            outputs = model_dict['model'].generate(
                 **inputs,
                 max_new_tokens=50,
                 temperature=TEMPERATURE if TEMPERATURE > 0 else None,
                 do_sample=TEMPERATURE > 0,
-                pad_token_id=tokenizer.pad_token_id  # Evitar warning de padding
+                pad_token_id=tokenizer.pad_token_id
             )
-        answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        answer = answer.replace(full_prompt, "").strip()
 
-    return answer
+        answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        return answer.replace(full_prompt, "").strip()
 
 
 def process_row(idx, row, total_rows, model_dict):
@@ -212,13 +174,8 @@ def process_row(idx, row, total_rows, model_dict):
     try:
         logger.info(f"[INFO] Processing row {idx + 1}/{total_rows}")
 
-        # Con itertuples(), row es un namedtuple - acceso por atributo
         raw_prompt = str(row.prompt)
         context, question = parse_prompt(raw_prompt)
-
-        logger.debug(f"[DEBUG] Row {idx + 1} - Context: {context[:50]}...")
-        logger.debug(f"[DEBUG] Row {idx + 1} - Question: {question}")
-
         answer = generate_answer(context, question, model_dict)
 
         logger.info(f"[OK] Row {idx + 1} completed")
@@ -230,39 +187,70 @@ def process_row(idx, row, total_rows, model_dict):
 
 
 def process_prompts_sequential(df, model_dict, model_name):
-    """Process all prompts sequentially (no parallel processing)."""
-    answers = []
+    """Process all prompts."""
     total_rows = len(df)
 
     logger.info(f"[INFO] Starting sequential processing for {model_name}")
 
+    # Load existing answers if they exist
+    answers, completed_count = load_existing_answers(df, model_name)
+
+    if completed_count > 0:
+        logger.info(f"[INFO] Resuming from row {completed_count + 1}")
+
     for idx, row in enumerate(df.itertuples(index=False)):
+        # Skip if a valid answer already exists (not empty and not an error)
+        if pd.notna(answers[idx]) and not str(answers[idx]).startswith("ERROR:"):
+            logger.info(f"[SKIP] Row {idx + 1}/{total_rows} already completed, skipping")
+            continue
+
         idx_result, answer = process_row(idx, row, total_rows, model_dict)
-        answers.append(answer)
+        answers[idx] = answer
+
+        # Save immediately after generating each answer
+        save_single_answer(df, answers, model_name, idx)
+
         logger.info(f"[PROGRESS] {model_name} - {idx + 1}/{total_rows} rows completed")
 
     logger.info(f"[OK] All rows processed for {model_name}")
-    return answers
+
+def get_output_file_path(model_name):
+    """Get the output file path for a model."""
+    safe_model_name = model_name.replace("/", "-")
+    return os.path.join(OUTPUT_DIR, f"{safe_model_name}_answers.csv")
 
 
-def save_output(df, answers, model_name):
-    """Save the results to a CSV file."""
+def load_existing_answers(df, model_name):
+    """Load existing answers from a previous execution if available."""
+    output_file = get_output_file_path(model_name)
+
+    if os.path.exists(output_file):
+        try:
+            existing_df = pd.read_csv(output_file)
+            if 'answer' in existing_df.columns and len(existing_df) == len(df):
+                logger.info(f"[INFO] Found existing answers file: {output_file}")
+                # Count completed answers (not empty and not errors)
+                completed = existing_df['answer'].notna().sum()
+                logger.info(f"[INFO] Existing progress: {completed}/{len(df)} answers completed")
+                return existing_df['answer'].tolist(), completed
+            else:
+                logger.info(f"[INFO] Existing file found but incomplete or size mismatch, starting fresh")
+        except Exception as e:
+            logger.warning(f"[WARNING] Could not load existing answers: {str(e)}")
+
+    # Return list of None if no previous answers
+    return [None] * len(df), 0
+
+
+def save_single_answer(df, answers, model_name, current_idx):
+    """Save answers incrementally to CSV file."""
     try:
-        # Crear nombre de archivo seguro (reemplazar / por -)
-        safe_model_name = model_name.replace("/", "-")
-        output_file = os.path.join(OUTPUT_DIR, f"{safe_model_name}_answers.csv")
-
-        # Crear DataFrame temporal solo con la columna answer para combinar sin duplicar datos
-        # Esto es más eficiente que df.copy() ya que solo duplica las referencias
+        output_file = get_output_file_path(model_name)
         df_temp = df.assign(answer=answers)
         df_temp.to_csv(output_file, index=False)
-
-        logger.info(f"[OK] Done! Answers saved to {output_file}")
-        print(f"\n[OK] Done! Answers for {model_name} saved to {output_file}")
-        print("\n[INFO] Preview of results:")
-        print(df_temp.head())
+        logger.info(f"[OK] Answer {current_idx + 1} saved to {output_file}")
     except Exception as e:
-        logger.error(f"[ERROR] Error saving output file for {model_name}: {str(e)}")
+        logger.error(f"[ERROR] Error saving answer {current_idx + 1}: {str(e)}")
         raise
 
 
@@ -275,14 +263,9 @@ def process_single_model(model_config, df):
     try:
         logger.info(f"[INFO] ===== Starting processing for model: {model_name} =====")
 
-        # Step 1: Load model
         model_dict = load_model(model_name, use_qa_pipeline, trust_remote_code)
+        process_prompts_sequential(df, model_dict, model_name)
 
-        # Step 2: Process prompts sequentially
-        answers = process_prompts_sequential(df, model_dict, model_name)
-
-        # Step 3: Save output
-        save_output(df, answers, model_name)
 
         logger.info(f"[OK] ===== Completed processing for model: {model_name} =====\n")
 
@@ -294,8 +277,6 @@ def process_single_model(model_config, df):
 def process_all_models(df):
     """Process all models sequentially."""
     total_models = len(MODELS)
-    logger.info(f"[INFO] Starting sequential model processing")
-
     successful_models = []
     failed_models = []
 
@@ -303,38 +284,29 @@ def process_all_models(df):
         model_name = model_config["name"]
         try:
             logger.info(f"[INFO] Processing model {idx}/{total_models}: {model_name}")
-            print(f"\n{'='*60}")
-            print(f"[INFO] Processing model {idx}/{total_models}: {model_name}")
-            print(f"{'='*60}")
-            
+
             process_single_model(model_config, df)
             
             successful_models.append(model_name)
-            logger.info(f"[PROGRESS] Models completed successfully: {len(successful_models)}/{total_models}")
-            print(f"\n[OK] Model {model_name} completed successfully ({len(successful_models)}/{total_models})")
-            
+            logger.info(f"[OK] Model {model_name} completed successfully ({len(successful_models)}/{total_models})")
+
         except Exception as e:
             failed_models.append((model_name, str(e)))
             logger.error(f"[ERROR] Model {model_name} failed: {str(e)}")
-            print(f"\n[ERROR] Model {model_name} failed. Check logs for details.")
-            print(f"[INFO] Continuing with next model...")
+            logger.info(f"[INFO] Continuing with next model...")
 
-    logger.info(f"[OK] Processing finished: {len(successful_models)} successful, {len(failed_models)} failed")
-
+    # Final summary
     if successful_models:
-        logger.info(f"[OK] Successful models: {successful_models}")
-        print(f"\n[OK] Successfully processed {len(successful_models)} models:")
+        logger.info(f"[OK] Successfully processed {len(successful_models)} models:")
         for model in successful_models:
-            print(f"  ✓ {model}")
+            logger.info(f"  ✓ {model}")
 
     if failed_models:
-        logger.warning(f"[WARNING] Failed models: {[m[0] for m in failed_models]}")
-        print(f"\n[WARNING] {len(failed_models)} models failed:")
+        logger.warning(f"[WARNING] {len(failed_models)} models failed:")
         for model, error in failed_models:
-            print(f"  ✗ {model}")
-            # Mostrar solo la primera línea del error para no saturar la consola
+            logger.warning(f"  ✗ {model}")
             error_summary = error.split('\n')[0][:100]
-            print(f"    Error: {error_summary}...")
+            logger.warning(f"    Error: {error_summary}...")
 
     return successful_models, failed_models
 
@@ -342,25 +314,14 @@ def process_all_models(df):
 def main():
     """Main execution function."""
     try:
-        logger.info(f"[INFO] ===== Starting multi-model processing =====")
-        logger.info(f"[INFO] Models to process: {[m['name'] for m in MODELS]}")
-
-        # Crear directorio de salida si no existe
         os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-        # Load input file (una sola vez)
         df = load_input_file()
-
-        # Process all models sequentially
         successful_models, failed_models = process_all_models(df)
 
-        logger.info(f"[OK] ===== Processing finished! =====")
-        print(f"\n{'='*60}")
-        print(f"[OK] Processing Summary:")
-        print(f"  Total models: {len(MODELS)}")
-        print(f"  Successful: {len(successful_models)}")
-        print(f"  Failed: {len(failed_models)}")
-        print(f"{'='*60}")
+        logger.info(f"[OK] Processing Summary:")
+        logger.info(f"  Total models: {len(MODELS)}")
+        logger.info(f"  Successful: {len(successful_models)}")
+        logger.info(f"  Failed: {len(failed_models)}")
 
     except Exception as e:
         logger.error(f"[FATAL] Fatal error in main execution: {str(e)}")
@@ -369,9 +330,6 @@ def main():
 # ============================================================================
 # MAIN EXECUTION
 # ============================================================================
-
-
-
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,22 @@
+2025-10-26 21:07:51,507 - INFO - [OK] File loaded: 72 rows, columns: ['test_item', 'language', 'prompt']
+2025-10-26 21:07:51,508 - INFO - [INFO] ===== Starting processing for model: microsoft/phi-4 =====
+2025-10-26 21:07:51,508 - INFO - [INFO] Loading model: microsoft/phi-4 (device: cpu)
+2025-10-26 21:08:44,192 - INFO - [OK] Model and tokenizer loaded successfully
+2025-10-26 21:08:44,204 - INFO - [INFO] Starting sequential processing for microsoft/phi-4
+2025-10-26 21:08:44,243 - INFO - [INFO] Processing row 1/72
+2025-10-26 21:32:12,862 - INFO - [OK] Row 1 completed
+2025-10-26 21:32:13,129 - INFO - [OK] Answer 1 saved to answers\microsoft-phi-4_answers.csv
+2025-10-26 21:32:13,129 - INFO - [PROGRESS] microsoft/phi-4 - 1/72 rows completed
+2025-10-26 21:32:13,130 - INFO - [INFO] Processing row 2/72
+2025-10-26 21:59:34,828 - INFO - [OK] Row 2 completed
+2025-10-26 21:59:34,939 - INFO - [OK] Answer 2 saved to answers\microsoft-phi-4_answers.csv
+2025-10-26 21:59:34,939 - INFO - [PROGRESS] microsoft/phi-4 - 2/72 rows completed
+2025-10-26 21:59:34,940 - INFO - [INFO] Processing row 3/72
+2025-10-26 22:27:54,264 - INFO - [OK] Row 3 completed
+2025-10-26 22:27:54,346 - INFO - [OK] Answer 3 saved to answers\microsoft-phi-4_answers.csv
+2025-10-26 22:27:54,347 - INFO - [PROGRESS] microsoft/phi-4 - 3/72 rows completed
+2025-10-26 22:27:54,347 - INFO - [INFO] Processing row 4/72
+2025-10-26 22:55:52,014 - INFO - [OK] Row 4 completed
+2025-10-26 22:55:52,117 - INFO - [OK] Answer 4 saved to answers\microsoft-phi-4_answers.csv
+2025-10-26 22:55:52,118 - INFO - [PROGRESS] microsoft/phi-4 - 4/72 rows completed
+2025-10-26 22:55:52,118 - INFO - [INFO] Processing row 5/72

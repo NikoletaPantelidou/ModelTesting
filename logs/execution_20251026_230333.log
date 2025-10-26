@@ -1,0 +1,14 @@
+2025-10-26 23:03:33,136 - INFO - [OK] File loaded: 72 rows, columns: ['test_item', 'language', 'prompt']
+2025-10-26 23:03:33,136 - INFO - [INFO] Processing model 1/8: microsoft/phi-4
+2025-10-26 23:03:33,136 - INFO - [INFO] ===== Starting processing for model: microsoft/phi-4 =====
+2025-10-26 23:03:33,136 - INFO - [INFO] Loading model: microsoft/phi-4 (device: cpu)
+2025-10-26 23:04:25,403 - INFO - [OK] Model and tokenizer loaded successfully
+2025-10-26 23:04:25,488 - INFO - [INFO] Starting sequential processing for microsoft/phi-4
+2025-10-26 23:04:26,265 - INFO - [INFO] Found existing answers file: answers\microsoft-phi-4_answers.csv
+2025-10-26 23:04:26,360 - INFO - [INFO] Existing progress: 4/72 answers completed
+2025-10-26 23:04:26,363 - INFO - [INFO] Resuming from row 5
+2025-10-26 23:04:26,463 - INFO - [SKIP] Row 1/72 already completed, skipping
+2025-10-26 23:04:26,464 - INFO - [SKIP] Row 2/72 already completed, skipping
+2025-10-26 23:04:26,464 - INFO - [SKIP] Row 3/72 already completed, skipping
+2025-10-26 23:04:26,466 - INFO - [SKIP] Row 4/72 already completed, skipping
+2025-10-26 23:04:26,469 - INFO - [INFO] Processing row 5/72
