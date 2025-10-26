@@ -1,0 +1,16 @@
+2025-10-26 20:19:55,331 - INFO - [INFO] ===== Starting multi-model processing =====
+2025-10-26 20:19:55,331 - INFO - [INFO] Models to process: ['microsoft/phi-4', 'tiiuae/falcon-7b-instruct', 'arcee-ai/Arcee-Blitz', 'arcee-ai/Virtuoso-Lite', 'inclusionAI/Ling-1T-FP8', 'moonshotai/Kimi-K2-Instruct-0905', 'distilbert-base-cased-distilled-squad', 'google/gemma-3-1b-it']
+2025-10-26 20:19:55,331 - INFO - [INFO] Reading input file: prompts/example.csv
+2025-10-26 20:19:55,346 - INFO - [OK] File loaded successfully. Rows: 72
+2025-10-26 20:19:55,346 - INFO - [INFO] Columns detected: ['test_item', 'language', 'prompt']
+2025-10-26 20:19:55,347 - INFO - [INFO] Starting sequential model processing
+2025-10-26 20:19:55,347 - INFO - [INFO] Processing model 1/8: microsoft/phi-4
+2025-10-26 20:19:55,347 - INFO - [INFO] ===== Starting processing for model: microsoft/phi-4 =====
+2025-10-26 20:19:55,347 - INFO - [INFO] Loading model: microsoft/phi-4
+2025-10-26 20:19:55,347 - INFO - [INFO] Using device: cpu
+2025-10-26 20:19:55,347 - INFO - [INFO] Use QA pipeline: False
+2025-10-26 20:19:55,347 - INFO - [INFO] Trust remote code: False
+2025-10-26 20:20:49,416 - INFO - [OK] Model and tokenizer loaded successfully for microsoft/phi-4
+2025-10-26 20:20:49,431 - INFO - [INFO] Starting parallel processing for microsoft/phi-4 with 2 workers
+2025-10-26 20:20:49,541 - INFO - [INFO] Processing row 1/72
+2025-10-26 20:20:49,550 - INFO - [INFO] Processing row 2/72

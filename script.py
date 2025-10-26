@@ -71,8 +71,7 @@ MODELS = [
 INPUT_FILE = "prompts/example.csv"  # Input CSV file path
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
-MAX_WORKERS = 4  # Number of threads for parallel processing per model
-MAX_MODEL_WORKERS = 1  # Number of models to process in parallel (max 2 to avoid overload)
+MAX_WORKERS = 2  # Number of threads for parallel processing per model
 OUTPUT_DIR = "answers"  # Directory for output files
 CSV_SEPARATOR = ";"
 
@@ -306,33 +305,33 @@ def process_single_model(model_config, df):
         raise
 
 
-def process_models_parallel(df):
-    """Process all models in parallel using ThreadPoolExecutor."""
+def process_all_models(df):
+    """Process all models sequentially."""
     total_models = len(MODELS)
-    logger.info(f"[INFO] Starting parallel model processing with {MAX_MODEL_WORKERS} workers")
+    logger.info(f"[INFO] Starting sequential model processing")
 
     successful_models = []
     failed_models = []
 
-    with ThreadPoolExecutor(max_workers=MAX_MODEL_WORKERS) as executor:
-        futures = {
-            executor.submit(process_single_model, model_config, df): model_config["name"]
-            for model_config in MODELS
-        }
-
-        completed_count = 0
-        for future in as_completed(futures):
-            model_name = futures[future]
-            try:
-                future.result()
-                completed_count += 1
-                successful_models.append(model_name)
-                logger.info(f"[PROGRESS] Models completed successfully: {completed_count}/{total_models}")
-                print(f"\n[OK] Model {model_name} completed successfully ({completed_count}/{total_models})")
-            except Exception as e:
-                failed_models.append((model_name, str(e)))
-                logger.error(f"[ERROR] Model {model_name} failed: {str(e)}")
-                print(f"\n[ERROR] Model {model_name} failed. Check logs for details.")
+    for idx, model_config in enumerate(MODELS, 1):
+        model_name = model_config["name"]
+        try:
+            logger.info(f"[INFO] Processing model {idx}/{total_models}: {model_name}")
+            print(f"\n{'='*60}")
+            print(f"[INFO] Processing model {idx}/{total_models}: {model_name}")
+            print(f"{'='*60}")
+            
+            process_single_model(model_config, df)
+            
+            successful_models.append(model_name)
+            logger.info(f"[PROGRESS] Models completed successfully: {len(successful_models)}/{total_models}")
+            print(f"\n[OK] Model {model_name} completed successfully ({len(successful_models)}/{total_models})")
+            
+        except Exception as e:
+            failed_models.append((model_name, str(e)))
+            logger.error(f"[ERROR] Model {model_name} failed: {str(e)}")
+            print(f"\n[ERROR] Model {model_name} failed. Check logs for details.")
+            print(f"[INFO] Continuing with next model...")
 
     logger.info(f"[OK] Processing finished: {len(successful_models)} successful, {len(failed_models)} failed")
 
@@ -359,7 +358,6 @@ def main():
     try:
         logger.info(f"[INFO] ===== Starting multi-model processing =====")
         logger.info(f"[INFO] Models to process: {[m['name'] for m in MODELS]}")
-        logger.info(f"[INFO] Parallel model workers: {MAX_MODEL_WORKERS}")
 
         # Crear directorio de salida si no existe
         os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -367,8 +365,8 @@ def main():
         # Load input file (una sola vez)
         df = load_input_file()
 
-        # Process all models in parallel
-        successful_models, failed_models = process_models_parallel(df)
+        # Process all models sequentially
+        successful_models, failed_models = process_all_models(df)
 
         logger.info(f"[OK] ===== Processing finished! =====")
         print(f"\n{'='*60}")
