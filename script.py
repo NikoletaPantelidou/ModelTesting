@@ -11,6 +11,7 @@ import sys
 import logging
 from threading import Lock
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime
 
 import pandas as pd
 import torch
@@ -21,7 +22,12 @@ from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 # LOGGING CONFIGURATION
 # ============================================================================
 # Configurar handlers manualmente para que INFO/OK salgan en stdout (blanco)
-file_handler = logging.FileHandler('script_execution.log', encoding='utf-8')
+timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+log_filename = f'logs/execution_{timestamp}.log'
+
+os.makedirs('logs', exist_ok=True)
+
+file_handler = logging.FileHandler(log_filename, encoding='utf-8')
 file_handler.setLevel(logging.INFO)
 
 # StreamHandler usando stdout explícitamente para evitar texto rojo
@@ -48,8 +54,8 @@ USE_QA_PIPELINE = False  # Set False if your model doesn't do QA
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
 MAX_WORKERS = 5  # Number of threads for parallel processing
-INPUT_FILE = "example.csv"
-OUTPUT_FILE = "answers.csv"
+INPUT_FILE = "prompts/example.csv"
+OUTPUT_FILE = "answers/answers.csv"
 CSV_SEPARATOR = ";"
 
 
