@@ -1,6 +1,6 @@
 """
-Script para procesamiento paralelo de prompts usando modelos de transformers.
-Incluye logging completo, manejo de errores y procesamiento multi-thread.
+Script para procesamiento secuencial de prompts usando modelos de transformers.
+Incluye logging completo y manejo de errores.
 """
 
 # ============================================================================
@@ -9,8 +9,6 @@ Incluye logging completo, manejo de errores y procesamiento multi-thread.
 import os
 import sys
 import logging
-from threading import Lock
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 import pandas as pd
 import torch
@@ -71,7 +69,6 @@ MODELS = [
 INPUT_FILE = "prompts/example.csv"  # Input CSV file path
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
-MAX_WORKERS = 2  # Number of threads for parallel processing per model
 OUTPUT_DIR = "answers"  # Directory for output files
 CSV_SEPARATOR = ";"
 
@@ -82,7 +79,6 @@ CSV_SEPARATOR = ";"
 qa_model = None
 tokenizer = None
 model = None
-answers_lock = Lock()
 
 
 # ============================================================================
@@ -216,7 +212,8 @@ def process_row(idx, row, total_rows, model_dict):
     try:
         logger.info(f"[INFO] Processing row {idx + 1}/{total_rows}")
 
-        raw_prompt = str(row["prompt"])
+        # Con itertuples(), row es un namedtuple - acceso por atributo
+        raw_prompt = str(row.prompt)
         context, question = parse_prompt(raw_prompt)
 
         logger.debug(f"[DEBUG] Row {idx + 1} - Context: {context[:50]}...")
@@ -232,29 +229,17 @@ def process_row(idx, row, total_rows, model_dict):
         return idx, f"ERROR: {str(e)}"
 
 
-def process_prompts_parallel(df, model_dict, model_name):
-    """Process all prompts in parallel using ThreadPoolExecutor."""
-    answers = [None] * len(df)
+def process_prompts_sequential(df, model_dict, model_name):
+    """Process all prompts sequentially (no parallel processing)."""
+    answers = []
     total_rows = len(df)
 
-    logger.info(f"[INFO] Starting parallel processing for {model_name} with {MAX_WORKERS} workers")
+    logger.info(f"[INFO] Starting sequential processing for {model_name}")
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {
-            executor.submit(process_row, idx, row, total_rows, model_dict): idx
-            for idx, row in df.iterrows()
-        }
-
-        completed_count = 0
-        for future in as_completed(futures):
-            try:
-                idx, answer = future.result()
-                with answers_lock:
-                    answers[idx] = answer
-                    completed_count += 1
-                    logger.info(f"[PROGRESS] {model_name} - {completed_count}/{total_rows} rows completed")
-            except Exception as e:
-                logger.error(f"[ERROR] Unexpected error in thread execution: {str(e)}")
+    for idx, row in enumerate(df.itertuples(index=False)):
+        idx_result, answer = process_row(idx, row, total_rows, model_dict)
+        answers.append(answer)
+        logger.info(f"[PROGRESS] {model_name} - {idx + 1}/{total_rows} rows completed")
 
     logger.info(f"[OK] All rows processed for {model_name}")
     return answers
@@ -267,14 +252,15 @@ def save_output(df, answers, model_name):
         safe_model_name = model_name.replace("/", "-")
         output_file = os.path.join(OUTPUT_DIR, f"{safe_model_name}_answers.csv")
 
-        df_copy = df.copy()
-        df_copy["answer"] = answers
-        df_copy.to_csv(output_file, index=False)
+        # Crear DataFrame temporal solo con la columna answer para combinar sin duplicar datos
+        # Esto es más eficiente que df.copy() ya que solo duplica las referencias
+        df_temp = df.assign(answer=answers)
+        df_temp.to_csv(output_file, index=False)
 
         logger.info(f"[OK] Done! Answers saved to {output_file}")
         print(f"\n[OK] Done! Answers for {model_name} saved to {output_file}")
         print("\n[INFO] Preview of results:")
-        print(df_copy.head())
+        print(df_temp.head())
     except Exception as e:
         logger.error(f"[ERROR] Error saving output file for {model_name}: {str(e)}")
         raise
@@ -292,8 +278,8 @@ def process_single_model(model_config, df):
         # Step 1: Load model
         model_dict = load_model(model_name, use_qa_pipeline, trust_remote_code)
 
-        # Step 2: Process prompts in parallel
-        answers = process_prompts_parallel(df, model_dict, model_name)
+        # Step 2: Process prompts sequentially
+        answers = process_prompts_sequential(df, model_dict, model_name)
 
         # Step 3: Save output
         save_output(df, answers, model_name)
