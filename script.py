@@ -1,18 +1,30 @@
 """
-Script for sequential processing of prompts using transformer models.
-Includes complete logging and error handling.
+This script processes a series of text prompts using various AI language models.
+It loads different models from HuggingFace Hub, processes each prompt, and saves the results.
+The script handles both question-answering and text generation tasks, with full logging and error handling.
+
+Key features:
+- Supports multiple AI models (Mistral, Phi, Falcon, etc.)
+- Processes prompts from CSV files
+- Saves results incrementally
+- Includes detailed logging
+- Handles errors gracefully
 """
 
 # ============================================================================
-# IMPORTS
+# IMPORTS - Required Python packages and modules
 # ============================================================================
-import os
-import sys
-import logging
-from datetime import datetime
-import pandas as pd
-import torch
-from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
+import os              # Operating system interface - for file and path operations
+import sys            # System-specific parameters and functions
+import logging        # Logging facility for tracking script execution
+from datetime import datetime  # Date and time utilities for log naming
+import pandas as pd   # Data manipulation and CSV file handling
+import torch         # PyTorch deep learning framework for model operations
+from transformers import (
+    pipeline,         # High-level interface for model tasks
+    AutoTokenizer,    # Automatic tokenizer loading
+    AutoModelForCausalLM  # Automatic model loading for text generation
+)
 
 # Disable HuggingFace Hub warnings
 os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
@@ -40,13 +52,18 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ============================================================================
-# CONFIGURATION
+# CONFIGURATION - Main settings and model configurations
 # ============================================================================
-# List of models to process (each model has its own configuration)
+# List of AI models to process, each with specific settings:
+#   - name: HuggingFace model identifier
+#   - use_qa_pipeline: True for question-answering, False for text generation
+#   - trust_remote_code: Whether to allow model-specific code from HuggingFace
+
+#All models are added to the MODELS list so only one run is needed.
 MODELS = [
     # {"name": "mistralai/Mistral-7B-Instruct-v0.2", "use_qa_pipeline": False, "trust_remote_code": False},
     {"name": "microsoft/phi-4", "use_qa_pipeline": False, "trust_remote_code": False},
-    {"name": "tiiuae/falcon-7b-instruct", "use_qa_pipeline": False, "trust_remote_code": False},  # Falcon is already integrated in transformers
+    {"name": "tiiuae/falcon-7b-instruct", "use_qa_pipeline": False, "trust_remote_code": False},
     {"name": "arcee-ai/Arcee-Blitz", "use_qa_pipeline": False, "trust_remote_code": False},
     {"name": "arcee-ai/Virtuoso-Lite", "use_qa_pipeline": False, "trust_remote_code": False},
     {"name": "inclusionAI/Ling-1T-FP8", "use_qa_pipeline": False, "trust_remote_code": True},
@@ -69,7 +86,21 @@ CSV_SEPARATOR = ";"
 # ============================================================================
 
 def load_model(model_name, use_qa_pipeline=False, trust_remote_code=False):
-    """Load the AI model (QA pipeline or generative model)."""
+    """
+    Load an AI model from HuggingFace Hub with appropriate configuration.
+
+    Args:
+        model_name (str): The name/path of the model on HuggingFace Hub
+        use_qa_pipeline (bool): If True, loads as Q&A pipeline; if False, as text generation
+        trust_remote_code (bool): Whether to allow custom code from model repository
+
+    Returns:
+        dict: Contains model type ('qa' or 'generative') and loaded model components
+
+    This function handles two types of models:
+    1. Question-Answering (QA) models - Uses HuggingFace pipeline
+    2. Text Generation models - Loads tokenizer and model separately
+    """
     logger.info(f"[INFO] Loading model: {model_name} (device: {DEVICE})")
 
     try:
@@ -107,7 +138,22 @@ def load_model(model_name, use_qa_pipeline=False, trust_remote_code=False):
 
 
 def load_input_file():
-    """Load and validate the input CSV file."""
+    """
+    Load and validate the input CSV file containing prompts.
+
+    The function performs several checks:
+    1. Verifies file exists at INPUT_FILE path
+    2. Loads CSV with specified separator
+    3. Cleans column names (strips whitespace and BOM)
+    4. Validates presence of required 'prompt' column
+
+    Returns:
+        pandas.DataFrame: Loaded and validated dataframe with prompts
+
+    Raises:
+        FileNotFoundError: If input file doesn't exist
+        ValueError: If required 'prompt' column is missing
+    """
     if not os.path.exists(INPUT_FILE):
         raise FileNotFoundError(f"Could not find {INPUT_FILE}")
 
@@ -127,7 +173,19 @@ def load_input_file():
 
 
 def parse_prompt(raw_prompt):
-    """Parse the raw prompt to extract context and question."""
+    """
+    Parse a raw text prompt to separate it into context and question parts.
+
+    The function handles two formats:
+    1. Text with comma: Everything before last comma is context, after is question
+    2. Text without comma: Last sentence is question, rest is context
+
+    Args:
+        raw_prompt (str): The complete text prompt to parse
+
+    Returns:
+        tuple: (context, question) where question always ends with '?'
+    """
     sentences = raw_prompt.split(".")
     joined_text = ".".join(sentences)
     last_comma_idx = joined_text.rfind(",")
@@ -147,7 +205,21 @@ def parse_prompt(raw_prompt):
 
 
 def generate_answer(context, question, model_dict):
-    """Generate an answer using the loaded model."""
+    """
+    Generate an answer using either QA pipeline or text generation model.
+
+    This function handles two types of answer generation:
+    1. Question-Answering (QA) pipeline: Directly extracts answer from context
+    2. Text Generation: Formats prompt with context and question, generates response
+
+    Args:
+        context (str): The background information or context
+        question (str): The specific question to answer
+        model_dict (dict): Dictionary containing model type and components
+
+    Returns:
+        str: The generated answer, with any prompt text removed for generation models
+    """
     if model_dict['type'] == 'qa':
         result = model_dict['model'](question=question, context=context)
         return result[0]["answer"] if isinstance(result, list) else result["answer"]
@@ -312,7 +384,21 @@ def process_all_models(df):
 
 
 def main():
-    """Main execution function."""
+    """
+    Main execution function that orchestrates the entire process.
+
+    This function coordinates the following steps:
+    1. Loads input prompts from CSV file
+    2. Creates output directory if needed
+    3. Iterates through configured models:
+        - Loads each model
+        - Processes all prompts
+        - Saves answers to model-specific CSV file
+    4. Handles errors and logs progress throughout
+
+    The function uses incremental saving to preserve progress
+    in case of interruption or errors with specific models.
+    """
     try:
         os.makedirs(OUTPUT_DIR, exist_ok=True)
         df = load_input_file()
