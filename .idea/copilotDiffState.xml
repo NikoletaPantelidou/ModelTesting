@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/models_config.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/models_config.py" />
+              <option name="updatedContent" value="&quot;&quot;&quot;&#10;Configuration file for models used in prompt processing.&#10;Each model has its own configuration including whether to use QA pipeline&#10;and whether to trust remote code.&#10;&quot;&quot;&quot;&#10;&#10;MODELS = [&#10;    {&quot;name&quot;: &quot;distilbert-base-cased-distilled-squad&quot;, &quot;use_qa_pipeline&quot;: True, &quot;trust_remote_code&quot;: False},&#10;    {&quot;name&quot;: &quot;mistralai/Mistral-7B-Instruct-v0.2&quot;, &quot;use_qa_pipeline&quot;: False, &quot;trust_remote_code&quot;: False},&#10;    {&quot;name&quot;: &quot;microsoft/phi-4&quot;, &quot;use_qa_pipeline&quot;: False, &quot;trust_remote_code&quot;: False},&#10;    {&quot;name&quot;: &quot;tiiuae/falcon-7b-instruct&quot;, &quot;use_qa_pipeline&quot;: False, &quot;trust_remote_code&quot;: False},  # Falcon is already integrated in transformers&#10;    {&quot;name&quot;: &quot;arcee-ai/Arcee-Blitz&quot;, &quot;use_qa_pipeline&quot;: False, &quot;trust_remote_code&quot;: False},&#10;    {&quot;name&quot;: &quot;arcee-ai/Virtuoso-Lite&quot;, &quot;use_qa_pipeline&quot;: False, &quot;trust_remote_code&quot;: False},&#10;    {&quot;name&quot;: &quot;inclusionAI/Ling-1T-FP8&quot;, &quot;use_qa_pipeline&quot;: False, &quot;trust_remote_code&quot;: True},&#10;    {&quot;name&quot;: &quot;moonshotai/Kimi-K2-Instruct-0905&quot;, &quot;use_qa_pipeline&quot;: False, &quot;trust_remote_code&quot;: True},&#10;&#10;    # Models that require authentication:&#10;    {&quot;name&quot;: &quot;google/gemma-3-1b-it&quot;, &quot;use_qa_pipeline&quot;: False, &quot;trust_remote_code&quot;: False},  # Requires gated access&#10;]&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -9,15 +9,12 @@ Includes complete logging and error handling.
 import os
 import sys
 import logging
-from datetime import datetime
 import pandas as pd
 import torch
-from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
-# Disable HuggingFace Hub warnings
-os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
-os.environ['HF_HUB_DISABLE_TELEMETRY'] = '1'
-os.environ['HF_HUB_DISABLE_EXPERIMENTAL_WARNING'] = '1'
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
+from script_models_config import MODELS
+from datetime import datetime
 
 # HuggingFace authentication token (for gated models)
 HF_TOKEN = "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"
@@ -43,26 +40,13 @@ logger = logging.getLogger(__name__)
 # CONFIGURATION
 # ============================================================================
 # List of models to process (each model has its own configuration)
-MODELS = [
-    # {"name": "mistralai/Mistral-7B-Instruct-v0.2", "use_qa_pipeline": False, "trust_remote_code": False},
-    {"name": "microsoft/phi-4", "use_qa_pipeline": False, "trust_remote_code": False},
-    {"name": "tiiuae/falcon-7b-instruct", "use_qa_pipeline": False, "trust_remote_code": False},  # Falcon is already integrated in transformers
-    {"name": "arcee-ai/Arcee-Blitz", "use_qa_pipeline": False, "trust_remote_code": False},
-    {"name": "arcee-ai/Virtuoso-Lite", "use_qa_pipeline": False, "trust_remote_code": False},
-    {"name": "inclusionAI/Ling-1T-FP8", "use_qa_pipeline": False, "trust_remote_code": True},
-    {"name": "moonshotai/Kimi-K2-Instruct-0905", "use_qa_pipeline": False, "trust_remote_code": True},
-    {"name": "distilbert-base-cased-distilled-squad", "use_qa_pipeline": True, "trust_remote_code": False},
-    # Models that require authentication:
-    {"name": "google/gemma-3-1b-it", "use_qa_pipeline": False, "trust_remote_code": False},  # Requires gated access
-]
+
 
 INPUT_FILE = "prompts/example.csv"  # Input CSV file path
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
 OUTPUT_DIR = "answers"  # Directory for output files
 CSV_SEPARATOR = ";"
-
-
 
 # ============================================================================
 # FUNCTIONS
@@ -90,6 +74,8 @@ def load_model(model_name, use_qa_pipeline=False, trust_remote_code=False):
                 trust_remote_code=trust_remote_code,
                 token=HF_TOKEN
             )
+            # Configure padding for decoder-only models
+            tokenizer.padding_side = 'left'
             if tokenizer.pad_token is None:
                 tokenizer.pad_token = tokenizer.eos_token
 
@@ -159,10 +145,11 @@ def generate_answer(context, question, model_dict):
         with torch.no_grad():
             outputs = model_dict['model'].generate(
                 **inputs,
-                max_new_tokens=50,
+                max_new_tokens=200,
                 temperature=TEMPERATURE if TEMPERATURE > 0 else None,
                 do_sample=TEMPERATURE > 0,
-                pad_token_id=tokenizer.pad_token_id
+                pad_token_id=tokenizer.pad_token_id,
+                eos_token_id=tokenizer.eos_token_id
             )
 
         answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
