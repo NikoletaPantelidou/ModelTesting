@@ -1,6 +1,6 @@
-# 🧠 LLM Linguistic Evaluation Benchmark
+# 🧠 Multi-LLM Linguistic Test Framework
 
-A Python-based framework for evaluating and comparing the performance of 25 large language models (LLMs) on a specialized **linguistic task**.  
+This project provides a **testing pipeline** for collecting responses from multiple large language models (LLMs) using a set of linguistic prompts.  
 This project provides automated testing to measure each model’s linguistic reasoning capabilities.
 
 ---
