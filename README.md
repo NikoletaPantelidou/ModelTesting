@@ -1,7 +1,6 @@
 # 🧠 Multi-LLM Linguistic Test Framework
 
-This project provides a **testing pipeline** for collecting responses from multiple large language models (LLMs) using a set of linguistic prompts.  
-This project provides automated testing to measure each model’s linguistic reasoning capabilities.
+This project provides a **testing pipeline** for collecting responses from multiple large language models (LLMs) using a set of linguistic prompts. It is an automated testing to measure each model’s linguistic reasoning capabilities.
 
 ---
 
