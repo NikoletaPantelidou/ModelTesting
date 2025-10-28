@@ -1,0 +1,4 @@
+2025-10-28 13:50:58,591 - INFO - [OK] File loaded: 72 rows, columns: ['test_item', 'language', 'prompt']
+2025-10-28 13:50:58,591 - INFO - [INFO] Processing model 1/9: distilbert-base-cased-distilled-squad
+2025-10-28 13:50:58,591 - INFO - [INFO] ===== Starting processing for model: distilbert-base-cased-distilled-squad =====
+2025-10-28 13:50:58,591 - INFO - [INFO] Loading model: distilbert-base-cased-distilled-squad (device: cpu)

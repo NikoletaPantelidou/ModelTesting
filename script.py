@@ -36,7 +36,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# ============================================================================
 # CONFIGURATION
 # ============================================================================
 # List of models to process (each model has its own configuration)
@@ -91,6 +90,27 @@ def load_model(model_name, use_qa_pipeline=False, trust_remote_code=False):
         logger.error(f"[ERROR] Error loading model: {str(e)}")
         raise
 
+def unload_model(model_dict, model_name):
+    """Unload model from memory and free up resources."""
+    logger.info(f"[INFO] Unloading model: {model_name}")
+
+    try:
+        if model_dict['type'] == 'generative':
+            # Move model to CPU before deleting (helps with CUDA memory)
+            if hasattr(model_dict['model'], 'to'):
+                model_dict['model'].to('cpu')
+            del model_dict['model']
+            del model_dict['tokenizer']
+        else:
+            del model_dict['model']
+
+        # Clear CUDA cache if using GPU
+        if DEVICE == "cuda":
+            torch.cuda.empty_cache()
+
+        logger.info(f"[OK] Model {model_name} unloaded successfully")
+    except Exception as e:
+        logger.warning(f"[WARNING] Error unloading model: {str(e)}")
 
 def load_input_file():
     """Load and validate the input CSV file."""
@@ -111,7 +131,6 @@ def load_input_file():
         logger.error(f"[ERROR] Error reading CSV: {str(e)}")
         raise
 
-
 def parse_prompt(raw_prompt):
     """Parse the raw prompt to extract context and question."""
     sentences = raw_prompt.split(".")
@@ -130,7 +149,6 @@ def parse_prompt(raw_prompt):
         question += "?"
 
     return context, question
-
 
 def generate_answer(context, question, model_dict):
     """Generate an answer using the loaded model."""
@@ -155,7 +173,6 @@ def generate_answer(context, question, model_dict):
         answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
         return answer.replace(full_prompt, "").strip()
 
-
 def process_row(idx, row, total_rows, model_dict):
     """Process a single row and return the answer."""
     try:
@@ -171,7 +188,6 @@ def process_row(idx, row, total_rows, model_dict):
     except Exception as e:
         logger.error(f"[ERROR] Error processing row {idx + 1}: {str(e)}")
         return idx, f"ERROR: {str(e)}"
-
 
 def process_prompts_sequential(df, model_dict, model_name):
     """Process all prompts."""
@@ -206,7 +222,6 @@ def get_output_file_path(model_name):
     safe_model_name = model_name.replace("/", "-")
     return os.path.join(OUTPUT_DIR, f"{safe_model_name}_answers.csv")
 
-
 def load_existing_answers(df, model_name):
     """Load existing answers from a previous execution if available."""
     output_file = get_output_file_path(model_name)
@@ -228,6 +243,18 @@ def load_existing_answers(df, model_name):
     # Return list of None if no previous answers
     return [None] * len(df), 0
 
+def check_pending_answers(df, model_name):
+    """Check if there are pending answers to complete for a model."""
+    answers, completed_count = load_existing_answers(df, model_name)
+    total_rows = len(df)
+
+    # Check how many valid answers exist (not None, not empty, not errors)
+    pending_count = 0
+    for answer in answers:
+        if pd.isna(answer) or str(answer).startswith("ERROR:"):
+            pending_count += 1
+
+    return pending_count, answers
 
 def save_single_answer(df, answers, model_name, current_idx):
     """Save answers incrementally to CSV file."""
@@ -240,7 +267,6 @@ def save_single_answer(df, answers, model_name, current_idx):
         logger.error(f"[ERROR] Error saving answer {current_idx + 1}: {str(e)}")
         raise
 
-
 def process_single_model(model_config, df):
     """Process prompts with a single model."""
     model_name = model_config["name"]
@@ -250,16 +276,28 @@ def process_single_model(model_config, df):
     try:
         logger.info(f"[INFO] ===== Starting processing for model: {model_name} =====")
 
-        model_dict = load_model(model_name, use_qa_pipeline, trust_remote_code)
-        process_prompts_sequential(df, model_dict, model_name)
+        # Check if there are pending answers before loading the model
+        pending_count, _ = check_pending_answers(df, model_name)
 
+        if pending_count == 0:
+            logger.info(f"[SKIP] Model {model_name} has all answers completed, skipping model load")
+            return
+
+        logger.info(f"[INFO] Model {model_name} has {pending_count} pending answers, loading model...")
+
+        model_dict = load_model(model_name, use_qa_pipeline, trust_remote_code)
+
+        try:
+            process_prompts_sequential(df, model_dict, model_name)
+        finally:
+            # Always unload the model, even if processing fails
+            unload_model(model_dict, model_name)
 
         logger.info(f"[OK] ===== Completed processing for model: {model_name} =====\n")
 
     except Exception as e:
         logger.error(f"[ERROR] Error processing model {model_name}: {str(e)}")
         raise
-
 
 def process_all_models(df):
     """Process all models sequentially."""
@@ -296,7 +334,6 @@ def process_all_models(df):
             logger.warning(f"    Error: {error_summary}...")
 
     return successful_models, failed_models
-
 
 def main():
     """Main execution function."""
