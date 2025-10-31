@@ -1,22 +1,26 @@
 @echo off
 echo ========================================
-echo Executing Ollama API Script
+echo Executing Ollama Cloud API Script
 echo ========================================
 echo.
 
-echo Checking internet connection...
-ping -n 1 ollama.com >nul 2>&1
-if errorlevel 1 (
+REM Check if API key is set
+if "%OLLAMA_API_KEY%"=="" (
+    echo ERROR: OLLAMA_API_KEY environment variable is not set!
     echo.
-    echo WARNING: Cannot reach ollama.com
-    echo Please check your internet connection
+    echo Please set your Ollama API key:
+    echo   set OLLAMA_API_KEY=your_api_key_here
     echo.
-    echo The script may fail if the API is not accessible
+    echo Or permanently:
+    echo   setx OLLAMA_API_KEY "your_api_key_here"
+    echo.
+    echo Get your API key from: https://ollama.com/
     echo.
     pause
+    exit /b 1
 )
 
-echo Internet connection OK
+echo API Key: [SET]
 echo.
 
 REM Activate virtual environment if it exists

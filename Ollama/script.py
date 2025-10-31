@@ -1,5 +1,5 @@
 """
-Script for sequential processing of prompts using Ollama API.
+Script for sequential processing of prompts using Ollama Cloud API.
 """
 
 import os
@@ -13,6 +13,7 @@ from datetime import datetime
 
 # CONFIGURATION
 OLLAMA_API_BASE = "https://ollama.com/api"
+OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY", "22a08bf076284620bf57da7b693d2ceb.rZHzLtRSbFMuY-p_bSeyloHb")
 INPUT_FILE = "prompts/example.csv"
 OUTPUT_DIR = "answers"
 CSV_SEPARATOR = ";"
@@ -36,8 +37,12 @@ logger = logging.getLogger(__name__)
 
 # API FUNCTIONS
 def check_ollama_api():
+    if not OLLAMA_API_KEY:
+        logger.error("[ERROR] OLLAMA_API_KEY not set. Set it as environment variable.")
+        return False
     try:
-        response = requests.get(f"{OLLAMA_API_BASE}/tags", timeout=10)
+        headers = {"Authorization": f"Bearer {OLLAMA_API_KEY}"}
+        response = requests.get(f"{OLLAMA_API_BASE}/tags", headers=headers, timeout=10)
         if response.status_code == 200:
             logger.info("[OK] Ollama API is accessible")
             return True
@@ -48,7 +53,10 @@ def check_ollama_api():
         return False
 
 def call_ollama_api(model_name, prompt, max_retries=3):
-    headers = {"Content-Type": "application/json"}
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {OLLAMA_API_KEY}"
+    }
     payload = {
         "model": model_name,
         "prompt": prompt,
@@ -211,7 +219,7 @@ def process_all_models(df):
 # MAIN
 def main():
     try:
-        logger.info("[INFO] ===== Ollama API Processing Started =====")
+        logger.info("[INFO] ===== Ollama Cloud API Processing Started =====")
         logger.info(f"[INFO] API: {OLLAMA_API_BASE}")
         logger.info(f"[INFO] Mode: Sequential")
 
