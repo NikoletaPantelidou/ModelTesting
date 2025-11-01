@@ -1,0 +1,441 @@
+2025-10-31 20:53:41,857 - INFO - [INFO] CUDA available: False
+2025-10-31 20:53:41,858 - WARNING - [WARNING] No CUDA device detected. Running on CPU.
+2025-10-31 20:53:41,858 - INFO - [INFO] Selected device: cpu
+2025-10-31 20:53:41,858 - INFO - [INFO] Max workers for parallel processing: 4
+2025-10-31 20:53:41,861 - INFO - [OK] File loaded: 72 rows, columns: ['test_item', 'language', 'prompt']
+2025-10-31 20:53:41,861 - INFO - [INFO] Processing model 1/8: distilbert-base-cased-distilled-squad
+2025-10-31 20:53:41,861 - INFO - [INFO] ===== Starting processing for model: distilbert-base-cased-distilled-squad =====
+2025-10-31 20:53:41,862 - INFO - [INFO] Found existing answers file: answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-10-31 20:53:41,863 - INFO - [INFO] Existing progress: 72/72 answers completed
+2025-10-31 20:53:41,863 - INFO - [SKIP] Model distilbert-base-cased-distilled-squad has all answers completed, skipping model load
+2025-10-31 20:53:41,863 - INFO - [OK] Model distilbert-base-cased-distilled-squad completed successfully (1/8)
+2025-10-31 20:53:41,863 - INFO - [INFO] Processing model 2/8: mistralai/Mistral-7B-Instruct-v0.2
+2025-10-31 20:53:41,863 - INFO - [INFO] ===== Starting processing for model: mistralai/Mistral-7B-Instruct-v0.2 =====
+2025-10-31 20:53:41,864 - INFO - [INFO] Found existing answers file: answers\mistralai-Mistral-7B-Instruct-v0.2_answers.csv
+2025-10-31 20:53:41,864 - INFO - [INFO] Existing progress: 72/72 answers completed
+2025-10-31 20:53:41,864 - INFO - [SKIP] Model mistralai/Mistral-7B-Instruct-v0.2 has all answers completed, skipping model load
+2025-10-31 20:53:41,864 - INFO - [OK] Model mistralai/Mistral-7B-Instruct-v0.2 completed successfully (2/8)
+2025-10-31 20:53:41,864 - INFO - [INFO] Processing model 3/8: tiiuae/falcon-7b-instruct
+2025-10-31 20:53:41,864 - INFO - [INFO] ===== Starting processing for model: tiiuae/falcon-7b-instruct =====
+2025-10-31 20:53:41,865 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-10-31 20:53:41,865 - INFO - [INFO] Existing progress: 72/72 answers completed
+2025-10-31 20:53:41,865 - INFO - [SKIP] Model tiiuae/falcon-7b-instruct has all answers completed, skipping model load
+2025-10-31 20:53:41,866 - INFO - [OK] Model tiiuae/falcon-7b-instruct completed successfully (3/8)
+2025-10-31 20:53:41,866 - INFO - [INFO] Processing model 4/8: microsoft/phi-4
+2025-10-31 20:53:41,866 - INFO - [INFO] ===== Starting processing for model: microsoft/phi-4 =====
+2025-10-31 20:53:41,866 - INFO - [INFO] Found existing answers file: answers\microsoft-phi-4_answers.csv
+2025-10-31 20:53:41,867 - INFO - [INFO] Existing progress: 72/72 answers completed
+2025-10-31 20:53:41,867 - INFO - [SKIP] Model microsoft/phi-4 has all answers completed, skipping model load
+2025-10-31 20:53:41,867 - INFO - [OK] Model microsoft/phi-4 completed successfully (4/8)
+2025-10-31 20:53:41,867 - INFO - [INFO] Processing model 5/8: arcee-ai/Virtuoso-Lite
+2025-10-31 20:53:41,867 - INFO - [INFO] ===== Starting processing for model: arcee-ai/Virtuoso-Lite =====
+2025-10-31 20:53:41,868 - INFO - [INFO] Found existing answers file: answers\arcee-ai-Virtuoso-Lite_answers.csv
+2025-10-31 20:53:41,868 - INFO - [INFO] Existing progress: 72/72 answers completed
+2025-10-31 20:53:41,868 - INFO - [SKIP] Model arcee-ai/Virtuoso-Lite has all answers completed, skipping model load
+2025-10-31 20:53:41,868 - INFO - [OK] Model arcee-ai/Virtuoso-Lite completed successfully (5/8)
+2025-10-31 20:53:41,869 - INFO - [INFO] Processing model 6/8: deepseek-ai/DeepSeek-V3.2-Exp
+2025-10-31 20:53:41,869 - INFO - [INFO] ===== Starting processing for model: deepseek-ai/DeepSeek-V3.2-Exp =====
+2025-10-31 20:53:41,869 - INFO - [INFO] Model deepseek-ai/DeepSeek-V3.2-Exp has 72 pending answers, loading model...
+2025-10-31 20:53:41,869 - INFO - [INFO] Loading model: deepseek-ai/DeepSeek-V3.2-Exp (device: cpu)
+2025-10-31 20:53:42,546 - ERROR - [ERROR] Error loading model: The checkpoint you are trying to load has model type `deepseek_v32` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+
+You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+2025-10-31 20:53:42,546 - ERROR - [ERROR] Model deepseek-ai/DeepSeek-V3.2-Exp failed: The checkpoint you are trying to load has model type `deepseek_v32` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+
+You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+2025-10-31 20:53:42,548 - INFO - [INFO] Continuing with next model...
+2025-10-31 20:53:42,560 - INFO - [INFO] Processing model 7/8: google/gemma-3-4b-it
+2025-10-31 20:53:42,561 - INFO - [INFO] ===== Starting processing for model: google/gemma-3-4b-it =====
+2025-10-31 20:53:42,561 - INFO - [INFO] Model google/gemma-3-4b-it has 72 pending answers, loading model...
+2025-10-31 20:53:42,561 - INFO - [INFO] Loading model: google/gemma-3-4b-it (device: cpu)
+2025-10-31 20:53:42,810 - ERROR - [ERROR] Error loading model: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+2025-10-31 20:53:42,812 - ERROR - [ERROR] Model google/gemma-3-4b-it failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+2025-10-31 20:53:42,816 - INFO - [INFO] Continuing with next model...
+2025-10-31 20:53:42,817 - INFO - [INFO] Processing model 8/8: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini
+2025-10-31 20:53:42,817 - INFO - [INFO] ===== Starting processing for model: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini =====
+2025-10-31 20:53:42,820 - INFO - [INFO] Found existing answers file: answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 20:53:42,821 - INFO - [INFO] Existing progress: 2/72 answers completed
+2025-10-31 20:53:42,821 - INFO - [INFO] Model mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini has 70 pending answers, loading model...
+2025-10-31 20:53:42,822 - INFO - [INFO] Loading model: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini (device: cpu)
+2025-10-31 20:54:04,253 - INFO - [OK] Model and tokenizer loaded successfully on cpu
+2025-10-31 20:54:04,260 - INFO - [INFO] Starting parallel processing for mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini with 4 workers
+2025-10-31 20:54:04,314 - INFO - [INFO] Found existing answers file: answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 20:54:04,319 - INFO - [INFO] Existing progress: 2/72 answers completed
+2025-10-31 20:54:04,320 - INFO - [INFO] Resuming from row 3
+2025-10-31 20:54:04,326 - INFO - [SKIP] Row 2/72 already completed, skipping
+2025-10-31 20:54:04,327 - INFO - [SKIP] Row 3/72 already completed, skipping
+2025-10-31 20:54:04,327 - INFO - [INFO] Processing 70 pending prompts...
+2025-10-31 20:54:04,343 - INFO - [INFO] Processing row 1/72 - test_item: B1T
+2025-10-31 20:54:04,343 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-10-31 20:54:04,343 - INFO - [INFO] Processing row 4/72 - test_item: B2T
+2025-10-31 20:54:04,347 - INFO - [INFO] Processing row 5/72 - test_item: B2F
+2025-10-31 20:54:04,347 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-10-31 20:54:04,347 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-10-31 20:54:04,348 - INFO - [INFO] Processing row 6/72 - test_item: B2C
+2025-10-31 20:54:04,356 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-10-31 20:57:55,136 - INFO - [OK] Row 1 completed
+2025-10-31 20:57:55,147 - INFO - [INFO] Processing row 7/72 - test_item: B3T
+2025-10-31 20:57:55,178 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-10-31 20:57:55,287 - INFO - [OK] Answer 1 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 20:57:55,288 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 1/70 pending prompts completed (3/72 total)
+2025-10-31 21:05:15,941 - INFO - [OK] Row 5 completed
+2025-10-31 21:05:16,019 - INFO - [INFO] Processing row 8/72 - test_item: B3F
+2025-10-31 21:05:16,059 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-10-31 21:05:16,159 - INFO - [OK] Answer 5 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:05:16,160 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 2/70 pending prompts completed (4/72 total)
+2025-10-31 21:14:26,556 - INFO - [OK] Row 7 completed
+2025-10-31 21:14:26,581 - INFO - [INFO] Processing row 9/72 - test_item: B3C
+2025-10-31 21:14:26,581 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-10-31 21:14:26,681 - INFO - [OK] Answer 7 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:14:26,683 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 3/70 pending prompts completed (5/72 total)
+2025-10-31 21:22:23,140 - INFO - [OK] Row 4 completed
+2025-10-31 21:22:23,170 - INFO - [INFO] Processing row 10/72 - test_item: B4T
+2025-10-31 21:22:23,222 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-10-31 21:22:23,259 - INFO - [OK] Answer 4 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:22:23,261 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 4/70 pending prompts completed (6/72 total)
+2025-10-31 21:26:11,602 - INFO - [OK] Row 6 completed
+2025-10-31 21:26:11,671 - INFO - [INFO] Processing row 11/72 - test_item: B4F
+2025-10-31 21:26:11,680 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...
+2025-10-31 21:26:11,766 - INFO - [OK] Answer 6 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:26:11,769 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 5/70 pending prompts completed (7/72 total)
+2025-10-31 21:40:50,580 - INFO - [OK] Row 8 completed
+2025-10-31 21:40:50,591 - INFO - [INFO] Processing row 12/72 - test_item: B4C
+2025-10-31 21:40:50,636 - INFO - [PROMPT] Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: "If...
+2025-10-31 21:40:50,669 - INFO - [OK] Answer 8 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:40:50,670 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 6/70 pending prompts completed (8/72 total)
+2025-10-31 21:41:25,018 - INFO - [OK] Row 9 completed
+2025-10-31 21:41:25,037 - INFO - [INFO] Processing row 13/72 - test_item: B5T
+2025-10-31 21:41:25,043 - INFO - [PROMPT] Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a ...
+2025-10-31 21:41:25,184 - INFO - [OK] Answer 9 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:41:25,187 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 7/70 pending prompts completed (9/72 total)
+2025-10-31 21:44:58,846 - INFO - [OK] Row 10 completed
+2025-10-31 21:44:58,859 - INFO - [INFO] Processing row 14/72 - test_item: B5F
+2025-10-31 21:44:58,886 - INFO - [PROMPT] Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no rain...
+2025-10-31 21:44:58,933 - INFO - [OK] Answer 10 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:44:58,941 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 8/70 pending prompts completed (10/72 total)
+2025-10-31 21:49:59,056 - INFO - [OK] Row 14 completed
+2025-10-31 21:49:59,069 - INFO - [INFO] Processing row 15/72 - test_item: B5C
+2025-10-31 21:49:59,081 - INFO - [PROMPT] Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: "If the weather...
+2025-10-31 21:49:59,132 - INFO - [OK] Answer 14 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:49:59,142 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 9/70 pending prompts completed (11/72 total)
+2025-10-31 21:50:17,123 - INFO - [OK] Row 13 completed
+2025-10-31 21:50:17,129 - INFO - [INFO] Processing row 16/72 - test_item: B6T
+2025-10-31 21:50:17,131 - INFO - [PROMPT] Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the...
+2025-10-31 21:50:17,135 - INFO - [OK] Answer 13 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:50:17,136 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 10/70 pending prompts completed (12/72 total)
+2025-10-31 21:55:18,817 - INFO - [OK] Row 16 completed
+2025-10-31 21:55:18,832 - INFO - [INFO] Processing row 17/72 - test_item: B6F
+2025-10-31 21:55:18,860 - INFO - [PROMPT] Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the fr...
+2025-10-31 21:55:18,968 - INFO - [OK] Answer 16 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:55:18,969 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 11/70 pending prompts completed (13/72 total)
+2025-10-31 21:56:24,247 - INFO - [OK] Row 11 completed
+2025-10-31 21:56:24,267 - INFO - [INFO] Processing row 18/72 - test_item: B6C
+2025-10-31 21:56:24,288 - INFO - [PROMPT] Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: "If your ti...
+2025-10-31 21:56:24,319 - INFO - [OK] Answer 11 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 21:56:24,320 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 12/70 pending prompts completed (14/72 total)
+2025-10-31 22:03:09,939 - INFO - [OK] Row 12 completed
+2025-10-31 22:03:09,955 - INFO - [INFO] Processing row 19/72 - test_item: B7T
+2025-10-31 22:03:09,980 - INFO - [PROMPT] Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in ...
+2025-10-31 22:03:10,017 - INFO - [OK] Answer 12 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:03:10,024 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 13/70 pending prompts completed (15/72 total)
+2025-10-31 22:09:07,755 - INFO - [OK] Row 18 completed
+2025-10-31 22:09:07,772 - INFO - [INFO] Processing row 20/72 - test_item: B7F
+2025-10-31 22:09:07,802 - INFO - [PROMPT] Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the...
+2025-10-31 22:09:07,821 - INFO - [OK] Answer 18 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:09:07,823 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 14/70 pending prompts completed (16/72 total)
+2025-10-31 22:12:01,121 - INFO - [OK] Row 17 completed
+2025-10-31 22:12:01,138 - INFO - [INFO] Processing row 21/72 - test_item: B7C
+2025-10-31 22:12:01,165 - INFO - [PROMPT] Here's the context: The plant is not dry. There is a hose in the garden. Mary says: "If the plant is...
+2025-10-31 22:12:01,188 - INFO - [OK] Answer 17 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:12:01,191 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 15/70 pending prompts completed (17/72 total)
+2025-10-31 22:13:20,126 - INFO - [OK] Row 15 completed
+2025-10-31 22:13:20,135 - INFO - [INFO] Processing row 22/72 - test_item: B8T
+2025-10-31 22:13:20,145 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ...
+2025-10-31 22:13:20,195 - INFO - [OK] Answer 15 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:13:20,197 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 16/70 pending prompts completed (18/72 total)
+2025-10-31 22:14:20,644 - INFO - [OK] Row 20 completed
+2025-10-31 22:14:20,652 - INFO - [INFO] Processing row 23/72 - test_item: B8F
+2025-10-31 22:14:20,679 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironi...
+2025-10-31 22:14:20,693 - INFO - [OK] Answer 20 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:14:20,694 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 17/70 pending prompts completed (19/72 total)
+2025-10-31 22:29:12,549 - INFO - [OK] Row 19 completed
+2025-10-31 22:29:12,568 - INFO - [INFO] Processing row 24/72 - test_item: B8C
+2025-10-31 22:29:12,696 - INFO - [OK] Answer 19 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:29:12,707 - INFO - [PROMPT] Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary s...
+2025-10-31 22:29:12,712 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 18/70 pending prompts completed (20/72 total)
+2025-10-31 22:33:47,154 - INFO - [OK] Row 21 completed
+2025-10-31 22:33:47,170 - INFO - [INFO] Processing row 25/72 - test_item: B9T
+2025-10-31 22:33:47,203 - INFO - [PROMPT] Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper o...
+2025-10-31 22:33:47,231 - INFO - [OK] Answer 21 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:33:47,232 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 19/70 pending prompts completed (21/72 total)
+2025-10-31 22:34:12,324 - INFO - [OK] Row 22 completed
+2025-10-31 22:34:12,331 - INFO - [INFO] Processing row 26/72 - test_item: B9F
+2025-10-31 22:34:12,335 - INFO - [PROMPT] Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on...
+2025-10-31 22:34:12,367 - INFO - [OK] Answer 22 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:34:12,369 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 20/70 pending prompts completed (22/72 total)
+2025-10-31 22:34:41,189 - INFO - [OK] Row 24 completed
+2025-10-31 22:34:41,192 - INFO - [INFO] Processing row 27/72 - test_item: B9C
+2025-10-31 22:34:41,196 - INFO - [PROMPT] Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: "If Su...
+2025-10-31 22:34:41,212 - INFO - [OK] Answer 24 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:34:41,213 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 21/70 pending prompts completed (23/72 total)
+2025-10-31 22:37:18,002 - INFO - [OK] Row 23 completed
+2025-10-31 22:37:18,099 - INFO - [INFO] Processing row 28/72 - test_item: F1T
+2025-10-31 22:37:18,122 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-10-31 22:37:18,160 - INFO - [OK] Answer 23 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:37:18,160 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 22/70 pending prompts completed (24/72 total)
+2025-10-31 22:37:48,725 - INFO - [OK] Row 25 completed
+2025-10-31 22:37:48,741 - INFO - [INFO] Processing row 29/72 - test_item: F1F
+2025-10-31 22:37:48,755 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-10-31 22:37:48,828 - INFO - [OK] Answer 25 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:37:48,829 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 23/70 pending prompts completed (25/72 total)
+2025-10-31 22:40:23,425 - INFO - [OK] Row 28 completed
+2025-10-31 22:40:23,436 - INFO - [INFO] Processing row 30/72 - test_item: F2T
+2025-10-31 22:40:23,459 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-10-31 22:40:23,490 - INFO - [OK] Answer 28 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:40:23,492 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 24/70 pending prompts completed (26/72 total)
+2025-10-31 22:41:22,568 - INFO - [OK] Row 27 completed
+2025-10-31 22:41:22,581 - INFO - [INFO] Processing row 31/72 - test_item: F2F
+2025-10-31 22:41:22,596 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-10-31 22:41:22,724 - INFO - [OK] Answer 27 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:41:22,727 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 25/70 pending prompts completed (27/72 total)
+2025-10-31 22:42:24,058 - INFO - [OK] Row 29 completed
+2025-10-31 22:42:24,067 - INFO - [INFO] Processing row 32/72 - test_item: F3T
+2025-10-31 22:42:24,089 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-10-31 22:42:24,105 - INFO - [OK] Answer 29 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 22:42:24,106 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 26/70 pending prompts completed (28/72 total)
+2025-10-31 23:04:06,922 - INFO - [OK] Row 26 completed
+2025-10-31 23:04:06,941 - INFO - [INFO] Processing row 33/72 - test_item: F3F
+2025-10-31 23:04:06,942 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-10-31 23:04:07,059 - INFO - [OK] Answer 26 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 23:04:07,060 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 27/70 pending prompts completed (29/72 total)
+2025-10-31 23:10:55,638 - INFO - [OK] Row 30 completed
+2025-10-31 23:10:55,650 - INFO - [INFO] Processing row 34/72 - test_item: F4T
+2025-10-31 23:10:55,663 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-10-31 23:10:55,727 - INFO - [OK] Answer 30 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 23:10:55,729 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 28/70 pending prompts completed (30/72 total)
+2025-10-31 23:13:25,240 - INFO - [OK] Row 31 completed
+2025-10-31 23:13:25,261 - INFO - [INFO] Processing row 35/72 - test_item: F4F
+2025-10-31 23:13:25,284 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-10-31 23:13:25,306 - INFO - [OK] Answer 31 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 23:13:25,308 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 29/70 pending prompts completed (31/72 total)
+2025-10-31 23:13:49,400 - INFO - [OK] Row 32 completed
+2025-10-31 23:13:49,405 - INFO - [INFO] Processing row 36/72 - test_item: F5T
+2025-10-31 23:13:49,434 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-10-31 23:13:49,449 - INFO - [OK] Answer 32 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 23:13:49,459 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 30/70 pending prompts completed (32/72 total)
+2025-10-31 23:16:09,457 - INFO - [OK] Row 36 completed
+2025-10-31 23:16:09,588 - INFO - [INFO] Processing row 37/72 - test_item: F5F
+2025-10-31 23:16:09,620 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-10-31 23:16:09,795 - INFO - [OK] Answer 36 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 23:16:09,811 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 31/70 pending prompts completed (33/72 total)
+2025-10-31 23:46:57,050 - INFO - [OK] Row 33 completed
+2025-10-31 23:46:57,073 - INFO - [INFO] Processing row 38/72 - test_item: F6T
+2025-10-31 23:46:57,207 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-10-31 23:46:57,235 - INFO - [OK] Answer 33 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 23:46:57,239 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 32/70 pending prompts completed (34/72 total)
+2025-10-31 23:53:11,899 - INFO - [OK] Row 34 completed
+2025-10-31 23:53:11,911 - INFO - [INFO] Processing row 39/72 - test_item: F6F
+2025-10-31 23:53:11,936 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-10-31 23:53:11,984 - INFO - [OK] Answer 34 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 23:53:11,989 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 33/70 pending prompts completed (35/72 total)
+2025-10-31 23:54:41,211 - INFO - [OK] Row 35 completed
+2025-10-31 23:54:41,224 - INFO - [INFO] Processing row 40/72 - test_item: F7T
+2025-10-31 23:54:41,248 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-10-31 23:54:41,260 - INFO - [OK] Answer 35 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 23:54:41,295 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 34/70 pending prompts completed (36/72 total)
+2025-10-31 23:56:23,825 - INFO - [OK] Row 37 completed
+2025-10-31 23:56:23,838 - INFO - [INFO] Processing row 41/72 - test_item: F7F
+2025-10-31 23:56:23,860 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-10-31 23:56:23,915 - INFO - [OK] Answer 37 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 23:56:23,917 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 35/70 pending prompts completed (37/72 total)
+2025-10-31 23:58:34,412 - INFO - [OK] Row 39 completed
+2025-10-31 23:58:34,426 - INFO - [INFO] Processing row 42/72 - test_item: F8T
+2025-10-31 23:58:34,453 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, many people watch T...
+2025-10-31 23:58:34,477 - INFO - [OK] Answer 39 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-10-31 23:58:34,483 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 36/70 pending prompts completed (38/72 total)
+2025-11-01 00:03:00,049 - INFO - [OK] Row 42 completed
+2025-11-01 00:03:00,059 - INFO - [INFO] Processing row 43/72 - test_item: F8F
+2025-11-01 00:03:00,087 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, many people watch T...
+2025-11-01 00:03:00,119 - INFO - [OK] Answer 42 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:03:00,123 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 37/70 pending prompts completed (39/72 total)
+2025-11-01 00:04:50,713 - INFO - [OK] Row 40 completed
+2025-11-01 00:04:50,723 - INFO - [INFO] Processing row 44/72 - test_item: F8T
+2025-11-01 00:04:50,746 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-01 00:04:50,778 - INFO - [OK] Answer 40 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:04:50,785 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 38/70 pending prompts completed (40/72 total)
+2025-11-01 00:06:07,656 - INFO - [OK] Row 38 completed
+2025-11-01 00:06:07,670 - INFO - [INFO] Processing row 45/72 - test_item: F8F
+2025-11-01 00:06:07,737 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-01 00:06:07,758 - INFO - [OK] Answer 38 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:06:07,763 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 39/70 pending prompts completed (41/72 total)
+2025-11-01 00:08:01,039 - INFO - [OK] Row 43 completed
+2025-11-01 00:08:01,062 - INFO - [INFO] Processing row 46/72 - test_item: S1T
+2025-11-01 00:08:01,098 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Mary had said: "If ...
+2025-11-01 00:08:01,115 - INFO - [OK] Answer 43 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:08:01,116 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 40/70 pending prompts completed (42/72 total)
+2025-11-01 00:08:52,971 - INFO - [OK] Row 45 completed
+2025-11-01 00:08:52,978 - INFO - [INFO] Processing row 47/72 - test_item: S1F
+2025-11-01 00:08:52,987 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not brin...
+2025-11-01 00:08:53,040 - INFO - [OK] Answer 45 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:08:53,045 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 41/70 pending prompts completed (43/72 total)
+2025-11-01 00:12:01,417 - INFO - [OK] Row 46 completed
+2025-11-01 00:12:01,433 - INFO - [INFO] Processing row 48/72 - test_item: S1C
+2025-11-01 00:12:01,471 - INFO - [PROMPT] Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had s...
+2025-11-01 00:12:01,542 - INFO - [OK] Answer 46 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:12:01,547 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 42/70 pending prompts completed (44/72 total)
+2025-11-01 00:12:28,777 - INFO - [OK] Row 41 completed
+2025-11-01 00:12:28,780 - INFO - [INFO] Processing row 49/72 - test_item: S2T
+2025-11-01 00:12:28,800 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: "If you...
+2025-11-01 00:12:28,827 - INFO - [OK] Answer 41 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:12:28,830 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 43/70 pending prompts completed (45/72 total)
+2025-11-01 00:14:54,468 - INFO - [OK] Row 49 completed
+2025-11-01 00:14:54,485 - INFO - [INFO] Processing row 50/72 - test_item: S2F
+2025-11-01 00:14:54,518 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you ...
+2025-11-01 00:14:54,573 - INFO - [OK] Answer 49 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:14:54,574 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 44/70 pending prompts completed (46/72 total)
+2025-11-01 00:18:25,124 - INFO - [OK] Row 44 completed
+2025-11-01 00:18:25,139 - INFO - [INFO] Processing row 51/72 - test_item: S2C
+2025-11-01 00:18:25,167 - INFO - [PROMPT] Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had s...
+2025-11-01 00:18:25,195 - INFO - [OK] Answer 44 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:18:25,198 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 45/70 pending prompts completed (47/72 total)
+2025-11-01 00:19:41,004 - INFO - [OK] Row 48 completed
+2025-11-01 00:19:41,009 - INFO - [INFO] Processing row 52/72 - test_item: S3T
+2025-11-01 00:19:41,034 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: "If the fo...
+2025-11-01 00:19:41,068 - INFO - [OK] Answer 48 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:19:41,070 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 46/70 pending prompts completed (48/72 total)
+2025-11-01 00:21:22,418 - INFO - [OK] Row 51 completed
+2025-11-01 00:21:22,429 - INFO - [INFO] Processing row 53/72 - test_item: S3F
+2025-11-01 00:21:22,474 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shove...
+2025-11-01 00:21:22,508 - INFO - [OK] Answer 51 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:21:22,513 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 47/70 pending prompts completed (49/72 total)
+2025-11-01 00:23:05,755 - INFO - [OK] Row 47 completed
+2025-11-01 00:23:05,778 - INFO - [INFO] Processing row 54/72 - test_item: S3C
+2025-11-01 00:23:05,800 - INFO - [PROMPT] Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: "...
+2025-11-01 00:23:05,813 - INFO - [OK] Answer 47 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:23:05,815 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 48/70 pending prompts completed (50/72 total)
+2025-11-01 00:25:52,991 - INFO - [OK] Row 53 completed
+2025-11-01 00:25:53,007 - INFO - [INFO] Processing row 55/72 - test_item: S4T
+2025-11-01 00:25:53,032 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Mary had said: "If the TV is on, Matthew wil...
+2025-11-01 00:25:53,080 - INFO - [OK] Answer 53 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:25:53,086 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 49/70 pending prompts completed (51/72 total)
+2025-11-01 00:26:59,768 - INFO - [OK] Row 52 completed
+2025-11-01 00:26:59,775 - INFO - [INFO] Processing row 56/72 - test_item: S4F
+2025-11-01 00:26:59,797 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said:...
+2025-11-01 00:26:59,820 - INFO - [OK] Answer 52 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:26:59,825 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 50/70 pending prompts completed (52/72 total)
+2025-11-01 00:28:00,087 - INFO - [OK] Row 55 completed
+2025-11-01 00:28:00,090 - INFO - [INFO] Processing row 57/72 - test_item: S4C
+2025-11-01 00:28:00,092 - INFO - [PROMPT] Here's the context: The TV is off. The radio is also off. Mary had said: "If the TV is on, Matthew w...
+2025-11-01 00:28:00,114 - INFO - [OK] Answer 55 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:28:00,115 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 51/70 pending prompts completed (53/72 total)
+2025-11-01 00:29:20,747 - INFO - [OK] Row 50 completed
+2025-11-01 00:29:20,753 - INFO - [INFO] Processing row 58/72 - test_item: S5T
+2025-11-01 00:29:20,777 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Mary had said: "If the weat...
+2025-11-01 00:29:20,797 - INFO - [OK] Answer 50 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:29:20,798 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 52/70 pending prompts completed (54/72 total)
+2025-11-01 00:30:36,770 - INFO - [OK] Row 56 completed
+2025-11-01 00:30:36,780 - INFO - [INFO] Processing row 59/72 - test_item: S5F
+2025-11-01 00:30:36,807 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Emma is wearing green. Mary...
+2025-11-01 00:30:36,821 - INFO - [OK] Answer 56 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:30:36,821 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 53/70 pending prompts completed (55/72 total)
+2025-11-01 00:33:10,939 - INFO - [OK] Row 57 completed
+2025-11-01 00:33:10,951 - INFO - [INFO] Processing row 60/72 - test_item: S5C
+2025-11-01 00:33:10,973 - INFO - [PROMPT] Here's the context: Today, the weather is rainy. Also, it is very windy. Mary had said: "If the weat...
+2025-11-01 00:33:11,013 - INFO - [OK] Answer 57 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:33:11,029 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 54/70 pending prompts completed (56/72 total)
+2025-11-01 00:33:47,931 - INFO - [OK] Row 58 completed
+2025-11-01 00:33:47,935 - INFO - [INFO] Processing row 61/72 - test_item: S6T
+2025-11-01 00:33:47,944 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Mary had said: "If the pl...
+2025-11-01 00:33:47,964 - INFO - [OK] Answer 58 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:33:47,964 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 55/70 pending prompts completed (57/72 total)
+2025-11-01 00:34:13,139 - INFO - [OK] Row 59 completed
+2025-11-01 00:34:13,147 - INFO - [INFO] Processing row 62/72 - test_item: S6F
+2025-11-01 00:34:13,153 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Angela did not take a sel...
+2025-11-01 00:34:13,211 - INFO - [OK] Answer 59 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:34:13,212 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 56/70 pending prompts completed (58/72 total)
+2025-11-01 00:37:51,546 - INFO - [OK] Row 54 completed
+2025-11-01 00:37:51,562 - INFO - [INFO] Processing row 63/72 - test_item: S6C
+2025-11-01 00:37:51,597 - INFO - [PROMPT] Here's the context: The playground is crowded.  Also, the streets are lively. Mary had said: "If the...
+2025-11-01 00:37:51,623 - INFO - [OK] Answer 54 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:37:51,628 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 57/70 pending prompts completed (59/72 total)
+2025-11-01 00:37:55,389 - INFO - [OK] Row 61 completed
+2025-11-01 00:37:55,390 - INFO - [INFO] Processing row 64/72 - test_item: S7T
+2025-11-01 00:37:55,394 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Mary had said: "If...
+2025-11-01 00:37:55,403 - INFO - [OK] Answer 61 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:37:55,403 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 58/70 pending prompts completed (60/72 total)
+2025-11-01 00:38:52,720 - INFO - [OK] Row 62 completed
+2025-11-01 00:38:52,727 - INFO - [INFO] Processing row 65/72 - test_item: S7F
+2025-11-01 00:38:52,753 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Paul did not get 5...
+2025-11-01 00:38:52,768 - INFO - [OK] Answer 62 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:38:52,775 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 59/70 pending prompts completed (61/72 total)
+2025-11-01 00:39:20,403 - INFO - [OK] Row 60 completed
+2025-11-01 00:39:20,405 - INFO - [INFO] Processing row 66/72 - test_item: S7C
+2025-11-01 00:39:20,409 - INFO - [PROMPT] Here's the context: The lawn has not been mowed. Also, the flowers still need watering. Mary had sai...
+2025-11-01 00:39:20,421 - INFO - [OK] Answer 60 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:39:20,421 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 60/70 pending prompts completed (62/72 total)
+2025-11-01 00:43:04,746 - INFO - [OK] Row 63 completed
+2025-11-01 00:43:04,758 - INFO - [INFO] Processing row 67/72 - test_item: S8T
+2025-11-01 00:43:04,790 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Mary had said: "If the d...
+2025-11-01 00:43:04,814 - INFO - [OK] Answer 63 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:43:04,818 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 61/70 pending prompts completed (63/72 total)
+2025-11-01 00:43:35,301 - INFO - [OK] Row 66 completed
+2025-11-01 00:43:35,302 - INFO - [INFO] Processing row 68/72 - test_item: S8F
+2025-11-01 00:43:35,306 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Anthony did not read a b...
+2025-11-01 00:43:35,311 - INFO - [OK] Answer 66 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:43:35,311 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 62/70 pending prompts completed (64/72 total)
+2025-11-01 00:43:41,774 - INFO - [OK] Row 65 completed
+2025-11-01 00:43:41,779 - INFO - [INFO] Processing row 69/72 - test_item: S8C
+2025-11-01 00:43:41,783 - INFO - [PROMPT] Here's the context: The dog is not playing. Also, the cat is sleeping. Mary had said: "If the dog is...
+2025-11-01 00:43:41,808 - INFO - [OK] Answer 65 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:43:41,809 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 63/70 pending prompts completed (65/72 total)
+2025-11-01 00:43:55,858 - INFO - [OK] Row 64 completed
+2025-11-01 00:43:55,864 - INFO - [INFO] Processing row 70/72 - test_item: S9T
+2025-11-01 00:43:55,891 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Mary had said: "If the fridge is ...
+2025-11-01 00:43:55,905 - INFO - [OK] Answer 64 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:43:55,906 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 64/70 pending prompts completed (66/72 total)
+2025-11-01 00:47:44,737 - INFO - [OK] Row 68 completed
+2025-11-01 00:47:44,755 - INFO - [INFO] Processing row 71/72 - test_item: S9F
+2025-11-01 00:47:44,779 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary ha...
+2025-11-01 00:47:44,824 - INFO - [OK] Answer 68 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:47:44,825 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 65/70 pending prompts completed (67/72 total)
+2025-11-01 00:47:53,566 - INFO - [OK] Row 67 completed
+2025-11-01 00:47:53,568 - INFO - [INFO] Processing row 72/72 - test_item: S9C
+2025-11-01 00:47:53,572 - INFO - [PROMPT] Here's the context: The fridge is full. Also, the oven is on. Mary had said: "If the fridge is empty...
+2025-11-01 00:47:53,581 - INFO - [OK] Answer 67 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:47:53,583 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 66/70 pending prompts completed (68/72 total)
+2025-11-01 00:47:54,764 - INFO - [OK] Row 70 completed
+2025-11-01 00:47:54,774 - INFO - [OK] Answer 70 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:47:54,775 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 67/70 pending prompts completed (69/72 total)
+2025-11-01 00:48:08,522 - INFO - [OK] Row 69 completed
+2025-11-01 00:48:08,529 - INFO - [OK] Answer 69 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:48:08,530 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 68/70 pending prompts completed (70/72 total)
+2025-11-01 00:49:56,360 - INFO - [OK] Row 71 completed
+2025-11-01 00:49:56,417 - INFO - [OK] Answer 71 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:49:56,418 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 69/70 pending prompts completed (71/72 total)
+2025-11-01 00:52:18,513 - INFO - [OK] Row 72 completed
+2025-11-01 00:52:18,587 - INFO - [OK] Answer 72 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-01 00:52:18,588 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 70/70 pending prompts completed (72/72 total)
+2025-11-01 00:52:18,629 - INFO - [OK] All rows processed for mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini
+2025-11-01 00:52:18,635 - INFO - [INFO] Unloading model: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini
+2025-11-01 00:52:18,948 - INFO - [OK] Model mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini unloaded successfully
+2025-11-01 00:52:18,948 - INFO - [OK] ===== Completed processing for model: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini =====
+
+2025-11-01 00:52:18,949 - INFO - [OK] Model mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini completed successfully (6/8)
+2025-11-01 00:52:18,950 - INFO - [OK] Successfully processed 6 models:
+2025-11-01 00:52:18,950 - INFO -   ✓ distilbert-base-cased-distilled-squad
+2025-11-01 00:52:18,950 - INFO -   ✓ mistralai/Mistral-7B-Instruct-v0.2
+2025-11-01 00:52:18,950 - INFO -   ✓ tiiuae/falcon-7b-instruct
+2025-11-01 00:52:18,950 - INFO -   ✓ microsoft/phi-4
+2025-11-01 00:52:18,951 - INFO -   ✓ arcee-ai/Virtuoso-Lite
+2025-11-01 00:52:18,951 - INFO -   ✓ mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini
+2025-11-01 00:52:18,951 - WARNING - [WARNING] 2 models failed:
+2025-11-01 00:52:18,951 - WARNING -   ✗ deepseek-ai/DeepSeek-V3.2-Exp
+2025-11-01 00:52:18,951 - WARNING -     Error: The checkpoint you are trying to load has model type `deepseek_v32` but Transformers does not recogn...
+2025-11-01 00:52:18,952 - WARNING -   ✗ google/gemma-3-4b-it
+2025-11-01 00:52:18,952 - WARNING -     Error: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cac...
+2025-11-01 00:52:18,952 - INFO - [OK] Processing Summary:
+2025-11-01 00:52:18,952 - INFO -   Total models: 8
+2025-11-01 00:52:18,952 - INFO -   Successful: 6
+2025-11-01 00:52:18,952 - INFO -   Failed: 2
