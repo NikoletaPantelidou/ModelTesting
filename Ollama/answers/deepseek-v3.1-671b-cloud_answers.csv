@@ -1,0 +1,1643 @@
+test_item,language,prompt,answer
+B1T,English,"Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge. Mary says: ""If John is hungry, there is pizza in the oven"". Based on what Mary says, is it true that there is pizza in the oven?","Let’s break this down.  
+
+Mary says:  
+> ""If John is hungry, there is pizza in the oven.""
+
+This is a **conditional statement**:  
+- **If** \( P \) (John is hungry), **then** \( Q \) (there is pizza in the oven).  
+
+We know from the context that \( P \) is true (John is hungry).  
+From \( P \rightarrow Q \) and \( P \) being true, we can logically conclude \( Q \) is true.  
+
+So, **yes**, it is true that there is pizza in the oven.  
+
+**Answer:** Yes."
+B1F,English,"Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridge either. Mary says: ""If John is hungry, there is pizza in the oven"". Based on what Mary says, is it true that there is pizza in the oven?","Let’s break this down.  
+
+We know:  
+- **Fact 1:** John is hungry.  
+- **Fact 2:** There is no pizza in the oven.  
+- **Fact 3:** There is no pasta in the fridge.  
+- **Mary’s statement:** ""If John is hungry, there is pizza in the oven.""  
+
+---
+
+**Mary’s statement** is:  
+\[
+\text{Hungry} \rightarrow \text{Pizza in oven}
+\]  
+In logic, \(P \rightarrow Q\) is **false** only when \(P\) is true and \(Q\) is false.  
+
+Here:  
+- \(P\) (John is hungry) = **True**  
+- \(Q\) (Pizza in oven) = **False**  
+
+So \(P \rightarrow Q\) is **False** in reality.  
+
+But the question asks:  
+> Is it true that there is pizza in the oven?  
+
+We know from **Fact 2** that there is **no pizza in the oven**.  
+So the answer is **No**, regardless of Mary’s statement being false.  
+
+---
+
+**Final answer:**  
+\[
+\boxed{\text{No}}
+\]"
+B1C,English,"Here's the context: John is not hungry. There is pasta in the fridge. Mary says: ""If John is hungry, there is pizza in the oven"". Based on what Mary says, is it true that there is pizza in the oven?","Let’s break this down.
+
+---
+
+**Given facts:**
+- John is **not hungry**.
+- There is pasta in the fridge.
+- Mary says: *""If John is hungry, there is pizza in the oven.""*
+
+---
+
+**Logical form of Mary’s statement:**
+- Let \( H \) = ""John is hungry""
+- Let \( P \) = ""There is pizza in the oven""
+- Mary’s statement: \( H \rightarrow P \) (If H is true, then P is true)
+
+---
+
+**We know \( H \) is false** (John is not hungry).
+
+In logic, \( H \rightarrow P \) is **true** whenever \( H \) is false, regardless of whether \( P \) is true or false.  
+So Mary’s statement being true does **not** tell us anything about \( P \) when \( H \) is false.
+
+---
+
+**Conclusion:**
+We cannot determine whether there is pizza in the oven from Mary’s statement and the given facts.  
+The answer is: **We don’t know**.
+
+---
+
+\[
+\boxed{\text{We don't know}}
+\]"
+B2T,English,"Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen in the drawer. Mary says: ""If Nicole's head hurts, there is aspirin on the table"". Based on what Mary says, is it true that there is aspirin on the table? ","Let’s break this down.  
+
+Mary says:  
+> ""If Nicole's head hurts, there is aspirin on the table.""
+
+We know from the context:  
+- Nicole's head hurts.  
+- There is aspirin on the table.  
+- There is also ibuprofen in the drawer.  
+
+The statement Mary made is a conditional:  
+- **If P, then Q**, where:  
+  P = ""Nicole's head hurts""  
+  Q = ""There is aspirin on the table""  
+
+We are told **P is true** (Nicole's head hurts).  
+If P is true and Mary’s conditional statement is true, then Q must be true.  
+
+But here, we also know from the context that Q is actually true (there is aspirin on the table).  
+
+The question is:  
+> Is it true that there is aspirin on the table?  
+
+From the **context** (not just Mary’s statement), we know there is aspirin on the table.  
+So the answer is **yes**, it is true.  
+
+**Final answer:** Yes."
+B2F,English,"Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen in the drawer either. Mary says:  ""If Nicole's head hurts, there is aspirin on the table"". Based on what Mary says, is it true that there is aspirin on the table?","Let’s break this down.  
+
+Mary says:  
+> ""If Nicole's head hurts, there is aspirin on the table.""
+
+We know from the context:  
+- Nicole's head hurts.  
+- There is **no** aspirin on the table.  
+
+So the **if–then** statement Mary made is:  
+- **If** \( P \) (Nicole's head hurts), **then** \( Q \) (there is aspirin on the table).  
+
+In logic: \( P \rightarrow Q \).  
+
+Given \( P \) is true (Nicole's head hurts) and \( Q \) is false (no aspirin on the table), the implication \( P \rightarrow Q \) is **false** in reality.  
+
+But the question asks:  
+> Is it true that there is aspirin on the table?  
+
+We know from the context: **No**, it is not true — there is no aspirin on the table.  
+
+Mary’s statement is a conditional claim about the world, not a statement of fact that aspirin is on the table. The facts show Mary’s claim is wrong, but that doesn’t make \( Q \) true.  
+
+**Answer:** No.  
+
+\[
+\boxed{\text{No}}
+\]"
+B2C,English,"Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: ""If Nicole's head hurts, there is aspirin on the table"". Based on what Mary says, is it true that there is aspirin on the table?","Let’s break this down.
+
+---
+
+**Given facts:**
+1. Nicole’s head does **not** hurt.
+2. There is ibuprofen in the drawer.
+3. Mary says: *""If Nicole's head hurts, there is aspirin on the table.""*
+
+---
+
+**Logical form of Mary’s statement:**
+\[
+H \rightarrow A
+\]
+where  
+\( H \) = ""Nicole's head hurts""  
+\( A \) = ""There is aspirin on the table""
+
+---
+
+**Truth value of \( H \):**
+From fact 1: \( H \) is **false**.
+
+---
+
+**Implication truth table:**
+\[
+\text{If } H \text{ is false, then } H \rightarrow A \text{ is true regardless of whether } A \text{ is true or false.}
+\]
+
+So Mary’s statement is **vacuously true** given \( H \) is false.
+
+---
+
+**But does that mean \( A \) is true?**
+No — from \( H \rightarrow A \) and \( H = \text{false} \), we cannot conclude \( A \) is true.  
+\( A \) could be true or false; the implication would still be true.
+
+---
+
+**Conclusion:**
+We don’t have enough information to determine whether there is aspirin on the table.  
+The answer is: **It is not necessarily true.**
+
+---
+
+\[
+\boxed{\text{No}}
+\]"
+B3T,English,"Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on the shelf. Mary says: ""If Lucy is thirsty, there is water in the fridge"". Based on what Mary says, is it true that there is water in the fridge? ","Let’s break this down.  
+
+Mary says:  
+> ""If Lucy is thirsty, there is water in the fridge.""
+
+This is a **conditional statement** of the form:  
+If \( P \) (Lucy is thirsty), then \( Q \) (there is water in the fridge).  
+
+We know from the context that \( P \) is true (Lucy is thirsty).  
+If \( P \) is true and the conditional ""If P then Q"" is true, then \( Q \) must be true.  
+
+So, **based only on what Mary says** and the fact that Lucy is thirsty, we can conclude:  
+Yes, it is true that there is water in the fridge.  
+
+**Answer:** Yes."
+B3F,English,"Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on the shelf either. Mary says: ""If Lucy is thirsty, there is water in the fridge"". Based on what Mary says, is it true that there is water in the fridge?","Let’s break this down.  
+
+We know:  
+- Lucy is thirsty.  
+- There is **no** water in the fridge.  
+- There is **no** apple juice on the shelf.  
+
+Mary says:  
+> ""If Lucy is thirsty, there is water in the fridge.""
+
+In logic, this is:  
+\[
+\text{Thirsty} \rightarrow \text{WaterInFridge}
+\]  
+
+But we know **Thirsty** is true (Lucy is thirsty), and **WaterInFridge** is false (there is no water in the fridge).  
+
+So the implication \( \text{True} \rightarrow \text{False} \) is **false**.  
+
+That means **Mary’s statement is false** in reality.  
+
+The question asks:  
+> Is it true that there is water in the fridge?  
+
+From the facts given, we know there is **no** water in the fridge.  
+
+So the answer is:  
+
+**No, it is not true that there is water in the fridge.**  
+
+\[
+\boxed{\text{No}}
+\]"
+B3C,English,"Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: ""If Lucy is thirsty, there is water in the fridge"". Based on what Mary says, is it true that there is water in the fridge? ","Let’s break this down.  
+
+Mary says:  
+> ""If Lucy is thirsty, there is water in the fridge.""
+
+This is a **conditional statement**:  
+- **P**: Lucy is thirsty.  
+- **Q**: There is water in the fridge.  
+- Mary’s statement: \( P \rightarrow Q \).
+
+We know from the context:  
+- \( P \) is false (Lucy is not thirsty).  
+
+In logic, \( P \rightarrow Q \) is **true** whenever \( P \) is false, regardless of whether \( Q \) is true or false.  
+So Mary’s statement is **true** in this situation, but that doesn’t tell us whether \( Q \) is actually true.  
+
+The question asks:  
+> Is it true that there is water in the fridge?  
+
+We cannot conclude \( Q \) from \( P \rightarrow Q \) and \( \neg P \) alone.  
+
+**Answer:** We don’t know.  
+
+\[
+\boxed{\text{We don't know}}
+\]"
+B4T,English,"Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a computer on the table. Mary says: ""If Peter's phone is dead, there is a charger in the drawer"". Based on what Mary says, is it true that there is a charger in the drawer?","Let’s break this down.  
+
+Mary says:  
+> ""If Peter's phone is dead, there is a charger in the drawer.""
+
+We know from the context:  
+- Peter's phone **is** dead.  
+- There is a charger in the drawer (this is stated in the context, but the question is whether Mary’s statement makes it *true*).  
+
+Mary’s statement is a conditional:  
+- **If P, then Q**  
+  where P = ""Peter's phone is dead""  
+  and Q = ""there is a charger in the drawer""  
+
+From logic:  
+- If P is true and ""If P then Q"" is true, then Q must be true.  
+
+But here, we don’t know if Mary’s statement itself is **true** in reality — we only know she said it.  
+The context says there *is* a charger in the drawer, so Q is true in reality.  
+
+However, the question is:  
+> Based on what Mary says, is it true that there is a charger in the drawer?  
+
+""Based on what Mary says"" means: assuming Mary’s statement is true, and given P is true, does it follow that Q is true?  
+
+Yes — if Mary’s conditional is true and P is true, then Q is true.  
+
+But the problem: we are told in the context that Q is true anyway, so the answer is yes, but"
+B4F,English,"Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no computer on the table either. Mary says: ""If Peter's phone is dead, there is a charger in the drawer"". Based on what Mary says, is it true that there is a charger in the drawer?","Let’s break this down.  
+
+**Given facts from the context:**  
+1. Peter’s phone is dead.  
+2. There is no charger in the drawer.  
+3. There is no computer on the table.  
+
+**Mary’s statement:**  
+> ""If Peter’s phone is dead, there is a charger in the drawer.""  
+
+In logical form:  
+\[
+\text{Phone dead} \rightarrow \text{Charger in drawer}
+\]
+
+---
+
+**Step 1 – Check the truth of the antecedent**  
+The antecedent ""Peter’s phone is dead"" is **true** (given in the context).  
+
+**Step 2 – Check the truth of the consequent**  
+The consequent ""there is a charger in the drawer"" is **false** (given in the context).  
+
+**Step 3 – Evaluate the conditional**  
+For a material implication \(P \rightarrow Q\), if \(P\) is true and \(Q\) is false, the implication is **false**.  
+
+So Mary’s statement is **false** in this situation.  
+
+---
+
+**Step 4 – What the question asks**  
+The question is:  
+> Is it true that there is a charger in the drawer?  
+
+We know from the context: **No**, there is no charger in the drawer.  
+
+Mary’s statement being false doesn’t change the actual facts about the charger.  
+
+---
+
+**Final answer:**  
+\[
+\boxed"
+B4C,English,"Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: ""If Peter's phone is dead, there is a charger in the drawer"". Based on what Mary says, is it true that there is a charger in the drawer?","Let’s break this down.  
+
+Mary says:  
+> ""If Peter's phone is dead, there is a charger in the drawer.""
+
+This is a conditional statement:  
+- **If** (phone is dead) → **then** (charger in drawer).
+
+We know from the context:  
+- Peter's phone is **fully charged**, so the phone is **not dead**.
+
+In logic, if the ""if"" part (antecedent) is false, the conditional statement is **true** regardless of whether the ""then"" part (consequent) is true or false.  
+
+So Mary’s statement is **true** in this situation (because the antecedent is false), but that does **not** tell us whether there actually is a charger in the drawer.  
+
+The question asks:  
+> Is it true that there is a charger in the drawer?  
+
+We cannot conclude that from Mary’s statement alone, given the phone is not dead.  
+
+**Answer:** No, we cannot determine that it is true."
+B5T,English,"Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a raincoat in the car. Mary says: ""If the weather is rainy, there is an umbrella on the coat rack"". Based on what Mary says, is it true that there is an umbrella on the coat rack?","Let’s break this down.  
+
+Mary says:  
+> ""If the weather is rainy, there is an umbrella on the coat rack.""
+
+We know from the context:  
+- The weather is rainy.  
+- There is an umbrella on the coat rack.  
+- There is also a raincoat in the car (irrelevant to the logic here).  
+
+The statement is a conditional:  
+**If P, then Q**  
+where:  
+P = ""the weather is rainy""  
+Q = ""there is an umbrella on the coat rack""  
+
+We are told **P is true** (the weather is rainy).  
+If ""If P then Q"" is true and P is true, then Q must be true.  
+
+But here, we already know Q is true from the context, so there’s no logical conflict.  
+
+The question is:  
+> Is it true that there is an umbrella on the coat rack?  
+
+From the context, yes — it’s stated as a fact.  
+From Mary’s statement alone, if we assume Mary’s statement is true and we observe rainy weather, then we can deduce Q.  
+
+So the answer is:  
+
+**Yes, it is true.**"
+B5F,English,"Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no raincoat in the car either. Mary says: ""If the weather is rainy, there is an umbrella on the coat rack"". Based on what Mary says, is it true that there is an umbrella on the coat rack?","Let’s break this down.  
+
+Mary says:  
+> ""If the weather is rainy, there is an umbrella on the coat rack.""
+
+In logic:  
+Let \( R \) = ""The weather is rainy""  
+Let \( U \) = ""There is an umbrella on the coat rack""  
+
+Mary’s statement: \( R \rightarrow U \)  
+
+We know from the context:  
+- \( R \) is true (the weather is rainy)  
+- \( U \) is unknown from Mary’s statement alone, but the context says: ""there is no umbrella on the coat rack"" (so \( U \) is false in reality).  
+
+But the question is: **Based on what Mary says**, is it true that there is an umbrella on the coat rack?  
+
+From Mary’s statement \( R \rightarrow U \) and the fact \( R \) is true, we can deduce \( U \) must be true **if Mary’s statement is true**.  
+
+But the problem doesn’t explicitly say Mary’s statement is true — it just says “Based on what Mary says” — meaning we take her statement as a given fact.  
+
+So:  
+Premise 1: \( R \rightarrow U \) (Mary’s statement, taken as true)  
+Premise 2: \( R \) is true (given in context)  
+
+Conclusion: \( U \) is true.  
+
+So **based only on Mary’s statement and the rainy weather**, yes,"
+B5C,English,"Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: ""If the weather is rainy, there is an umbrella on the coat rack"". Based on what Mary says, is it true that there is an umbrella on the coat rack?","Let’s break this down.  
+
+Mary says:  
+> ""If the weather is rainy, there is an umbrella on the coat rack.""
+
+This is a **conditional statement**:  
+- **If** (weather is rainy) → **then** (umbrella on coat rack).  
+
+We know from the context:  
+- The weather is **sunny** (not rainy).  
+
+In logic, if the ""if"" part (the antecedent) is false, the conditional statement is **true** regardless of whether the ""then"" part (the consequent) is true or false.  
+
+So Mary’s statement is **true** in this situation (since the weather is not rainy), but that doesn’t tell us whether the umbrella is actually on the coat rack.  
+
+The question asks:  
+> Is it true that there is an umbrella on the coat rack?  
+
+We cannot conclude that from Mary’s statement alone, because the condition (rainy weather) is not met.  
+
+**Answer:** No, we cannot determine that it is true."
+B6T,English,"Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the front door. Mary says: ""If your tire is flat, there is a pump in the garage"". Based on what Mary says, is it true that there is a pump in the garage?","Let’s break this down.  
+
+Mary says:  
+> ""If your tire is flat, there is a pump in the garage.""
+
+We know from the context:  
+- Your tire **is** flat.  
+- There **is** a pump in the garage (context says so, but Mary’s statement is a conditional).  
+
+Since the tire **is** flat, the antecedent of Mary’s conditional is true.  
+In logic, if ""If P then Q"" is true and P is true, then Q must be true.  
+
+So, from Mary’s statement alone, given the tire is flat, we can conclude:  
+**Yes, there is a pump in the garage.**
+
+But note: the context already tells us there is a pump in the garage independently.  
+The question asks: *Based on what Mary says*, is it true that there is a pump in the garage?  
+
+**Answer:** Yes, because Mary’s statement together with the fact that the tire is flat guarantees it.  
+
+\[
+\boxed{\text{Yes}}
+\]"
+B6F,English,"Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the front door either. Mary says: ""If your tire is flat, there is a pump in the garage"". Based on what Mary says, is it true that there is a pump in the garage?","Let’s break this down.  
+
+Mary says:  
+> ""If your tire is flat, there is a pump in the garage.""
+
+We know from the context:  
+- Your tire **is** flat.  
+- There is **no** pump in the garage.  
+- There is no bike by the front door (irrelevant to the logic here).  
+
+So the statement Mary made is of the form:  
+\[
+P \rightarrow Q
+\]
+where:  
+- \(P\) = ""your tire is flat"" (true)  
+- \(Q\) = ""there is a pump in the garage"" (false)  
+
+Truth table for \(P \rightarrow Q\):  
+- If \(P\) is true and \(Q\) is false, then \(P \rightarrow Q\) is **false**.  
+
+So Mary’s statement is **false** in this situation.  
+
+But the question asks:  
+> Is it true that there is a pump in the garage?  
+
+We know from the context: **No, there is no pump in the garage**.  
+
+So the answer is:  
+
+**No.**"
+B6C,English,"Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: ""If your tire is flat, there is a pump in the garage"". Based on what Mary says, is it true that there is a pump in the garage?","Let’s break it down.  
+
+Mary says:  
+> ""If your tire is flat, there is a pump in the garage.""
+
+This is a **conditional statement**:  
+- **If** P (tire is flat), **then** Q (pump in garage).  
+
+We know from the context:  
+- P is false (tire is **not** flat).  
+
+In logic, when the **if** part (P) is false, the conditional statement ""If P then Q"" is **true** regardless of whether Q is true or false.  
+So Mary’s statement is **true** in this situation, but that doesn’t tell us whether Q is actually true.  
+
+We cannot conclude **there is a pump in the garage** from Mary’s statement plus the fact that the tire is not flat.  
+
+**Answer:** We don’t know — it’s not necessarily true."
+B7T,English,"Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in the garden. Mary says: ""If the plant is dry, there is a water can on the shelf"". Based on what Mary says, is it true that there is a water can on the shelf? ","Let’s break this down.  
+
+Mary says:  
+> ""If the plant is dry, there is a water can on the shelf.""
+
+This is a conditional statement:  
+- **If P (plant is dry), then Q (water can on shelf).**  
+
+We know from the context that **P is true** (the plant is dry).  
+
+From logic:  
+If P → Q is true, and P is true, then Q must be true.  
+
+So, **yes**, it is true that there is a water can on the shelf.  
+
+**Answer:** Yes."
+B7F,English,"Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the garden either. Mary says: ""If the plant is dry, there is a water can on the shelf"". Based on what Mary says, is it true that there is a water can on the shelf? ","Let’s break this down.  
+
+Mary says:  
+> ""If the plant is dry, there is a water can on the shelf.""
+
+In logic, this is:  
+**If P, then Q**  
+where  
+P = ""the plant is dry""  
+Q = ""there is a water can on the shelf""
+
+We know from the context:  
+- P is true (the plant is dry)  
+- Q is false (there is no water can on the shelf)  
+
+So the situation is:  
+P is true, Q is false.  
+
+That means Mary’s statement **""If P, then Q""** is **false** in this situation.  
+
+But the question is:  
+> Is it true that there is a water can on the shelf?  
+
+We already know from the context: **No, it is not true** — there is no water can on the shelf.  
+
+So the answer is:  
+
+**No.**"
+B7C,English,"Here's the context: The plant is not dry. There is a hose in the garden. Mary says: ""If the plant is dry, there is a water can on the shelf"". Based on what Mary says, is it true that there is a water can on the shelf? ","Let’s break this down.
+
+**Given facts:**
+1. The plant is **not dry**.
+2. Mary says: *""If the plant is dry, there is a water can on the shelf.""*
+
+---
+
+### Step 1: Understanding the logical structure
+Mary’s statement is a conditional:  
+\[
+\text{If } P \text{ then } Q
+\]
+where  
+\(P\) = ""the plant is dry""  
+\(Q\) = ""there is a water can on the shelf""
+
+We know \(P\) is **false** (the plant is not dry).
+
+---
+
+### Step 2: Truth table for implication
+In logic, \(P \to Q\) is **true** when:
+- \(P\) is true and \(Q\) is true, or
+- \(P\) is false (regardless of \(Q\)).
+
+So if \(P\) is false, \(P \to Q\) is **vacuously true** no matter what \(Q\) is.
+
+---
+
+### Step 3: Applying to the situation
+Mary’s statement is **true** in the actual situation (since \(P\) is false), but that doesn’t tell us whether \(Q\) is true or false.  
+We cannot conclude \(Q\) is true from \(P \to Q\) and \(\neg P\).
+
+---
+
+### Step 4: Conclusion
+We have no information about the water can’s presence from Mary’s statement"
+B8T,English,"Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ironing board on the balcony. Mary says: ""If George's shirt is wrinkled, there is an iron in the closet"". Based on what Mary says, is it true that there is an iron in the closet?","Let’s break this down.  
+
+Mary says:  
+> ""If George's shirt is wrinkled, there is an iron in the closet.""
+
+We know from the context:  
+- George's shirt **is** wrinkled.  
+- There **is** an iron in the closet.  
+- There is also an ironing board on the balcony.  
+
+Mary’s statement is a conditional:  
+\[
+\text{Wrinkled} \rightarrow \text{Iron in closet}
+\]  
+
+Given that the shirt **is** wrinkled, the conditional tells us that the iron **should be** in the closet.  
+From the context, we also know independently that there **is** an iron in the closet.  
+
+So the answer to the question ""Is it true that there is an iron in the closet?"" is **yes**, but not *only* because Mary said so — it’s also stated as a fact in the context.  
+
+**Final answer:**  
+\[
+\boxed{\text{Yes}}
+\]"
+B8F,English,"Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironing board on the balcony either. Mary says: ""If George's shirt is wrinkled, there is an iron in the closet"". Based on what Mary says, is it true that there is an iron in the closet?","Let’s break this down.  
+
+Mary says:  
+> ""If George's shirt is wrinkled, there is an iron in the closet.""
+
+This is a conditional statement:  
+**Wrinkled → Iron in closet**  
+
+We know from the context:  
+- George's shirt **is** wrinkled (true).  
+- There is **no** iron in the closet (true).  
+
+So we have:  
+- Wrinkled = True  
+- Iron in closet = False  
+
+The conditional statement ""If Wrinkled, then Iron in closet"" is **Wrinkled → Iron in closet**.  
+In logic, **True → False** is **False**.  
+
+That means Mary’s statement is **false** in this situation.  
+
+But the question is:  
+> Is it true that there is an iron in the closet?  
+
+We already know from the context: **No, there is no iron in the closet**.  
+
+So the answer is:  
+
+**No, it is not true that there is an iron in the closet.**  
+
+\[
+\boxed{\text{No}}
+\]"
+B8C,English,"Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary says: ""If George's shirt is wrinkled, there is an iron in the closet"". Based on what Mary says, is it true that there is an iron in the closet?","Let’s break this down.
+
+---
+
+**1. Restating the facts**  
+- George’s shirt is **not wrinkled**.  
+- Mary says:  
+> ""If George's shirt is wrinkled, there is an iron in the closet.""
+
+That’s a conditional statement:  
+\[
+\text{Shirt wrinkled} \implies \text{Iron in closet}.
+\]
+
+---
+
+**2. Logical evaluation**  
+In logic, \( P \implies Q \) is **true** if either:
+- \( P \) is true and \( Q \) is true, or
+- \( P \) is false (regardless of \( Q \)).
+
+Here, \( P \) = ""Shirt is wrinkled"" is **false** (since we know the shirt is not wrinkled).  
+So the implication \( P \implies Q \) is **vacuously true** no matter whether \( Q \) is true or false.
+
+---
+
+**3. What does that mean for the iron?**  
+Mary’s statement being **true** does **not** guarantee the iron is in the closet.  
+It only guarantees that *if* the shirt were wrinkled, the iron would be there.  
+But since the shirt isn’t wrinkled, we cannot conclude anything about the iron’s location from Mary’s statement alone.
+
+---
+
+**4. Conclusion**  
+We don’t know whether there is an iron in the closet.  
+The answer to the question ""Is it true that there is an iron in"
+B9T,English,"Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper on the couch. Mary says: ""If Susy wants to read, there are books on the shelf"". Based on what Mary says, is it true that there are books on the shelf?","Let’s break this down.  
+
+Mary says:  
+> ""If Susy wants to read, there are books on the shelf.""
+
+This is a conditional statement:  
+- **If P** (Susy wants to read), **then Q** (there are books on the shelf).  
+
+We know from the context that **P is true** (Susy wants to read).  
+If P is true and the conditional ""If P then Q"" is asserted as true, then **Q must be true** for the whole statement to be true.  
+
+So, if we take Mary’s statement as true, and we know Susy wants to read, then it follows that there are books on the shelf.  
+
+**Answer:** Yes, it is true that there are books on the shelf."
+B9F,English,"Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on the couch either. Mary says: ""If Susy wants to read, there are books on the shelf"". Based on what Mary says, is it true that there are books on the shelf?","Let’s break this down.  
+
+Mary says:  
+> ""If Susy wants to read, there are books on the shelf.""
+
+We know from the context:  
+- Susy wants to read (given).  
+- There are **no** books on the shelf (given).  
+
+So the situation is:  
+- The antecedent ""Susy wants to read"" is **true**.  
+- The consequent ""there are books on the shelf"" is **false**.  
+
+That means Mary’s statement ""If P then Q"" is **false** in reality, because P is true and Q is false.  
+
+But the question asks:  
+> Is it true that there are books on the shelf?  
+
+From the context, we know directly: **No, it is not true** — there are no books on the shelf.  
+
+**Answer:** No."
+B9C,English,"Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: ""If Susy wants to read, there are books on the shelf"". Based on what Mary says, is it true that there are books on the shelf?","Let’s break it down.  
+
+Mary says:  
+> ""If Susy wants to read, there are books on the shelf.""
+
+This is a conditional statement:  
+- **If** (Susy wants to read) → (there are books on the shelf).  
+
+We know from the context:  
+- Susy does **not** want to read.  
+
+In logic, if the ""if"" part (antecedent) is false, the conditional statement is **true** regardless of whether the ""then"" part (consequent) is true or false.  
+
+So Mary’s statement is **true** in this situation (since the antecedent is false), but that doesn’t tell us whether ""there are books on the shelf"" is actually true in reality — only that the whole conditional holds.  
+
+The question asks:  
+> Is it true that there are books on the shelf?  
+
+We cannot conclude that from Mary’s statement and the given facts.  
+
+**Answer:** No, we cannot determine that it is true."
+F1T,English,"Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza in the fridge. In this context, is pizza more popular than pasta?","Let’s break it down.  
+
+The context says:  
+- Pizza is more expensive than pasta.  
+- People buy pizza more (despite the higher price).  
+- There is pizza in the fridge.  
+
+The question: “Is pizza more popular than pasta?”  
+
+From the statement “people buy it more,” we can infer that pizza has higher demand, which suggests it is more popular. The fact that it’s more expensive but still bought more strengthens that inference.  
+
+So the answer is:  
+
+**Yes, pizza is more popular than pasta.**"
+F1F,English,"Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza in the fridge. In this context, is pasta more popular than pizza?","Let’s break it down:  
+
+The context says:  
+- Pizza is more expensive than pasta.  
+- People buy pizza more (despite the higher price).  
+- There is pizza in the fridge.  
+
+The question is: **Is pasta more popular than pizza?**  
+
+From the statement “people buy it more” (where “it” refers to pizza), we know pizza is bought more often than pasta.  
+If pizza is bought more despite being more expensive, that suggests pizza is more popular.  
+
+So the answer is: **No, pasta is not more popular than pizza.**  
+
+**Answer:** No."
+F2T,English,"Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. There is black coffee in the pot. In this context, is green tea more used than black coffee?","Let’s break it down:  
+
+The context says:  
+- Black coffee is cheaper than green tea.  
+- Most people prefer green tea.  
+- There is black coffee in the pot.  
+
+The question is: **Is green tea more used than black coffee?**  
+
+From the statement “most people prefer green tea,” we can infer that if most people prefer it, they are likely to consume it more often, meaning green tea is more used.  
+The fact that there is black coffee in the pot right now doesn’t change the general preference statement.  
+
+So the answer is:  
+
+**Yes, green tea is more used than black coffee.**"
+F2F,English,"Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. There is black coffee in the pot. In this context, is black coffee more used than green tea?","Let’s break it down:  
+
+- The context says **most people prefer green tea** over black coffee.  
+- It also says there is black coffee in the pot, but that doesn’t tell us about overall usage — only current availability.  
+- Since most people prefer green tea, it’s reasonable to infer that **green tea is more used** than black coffee, despite black coffee being cheaper.  
+
+So the answer is:  
+
+**No, black coffee is not more used than green tea.**"
+F3T,English,"Here's the context: Although water is healthier than soda, many choose soda. There is water in the freezer. In this context, is soda more in demand than water?","Based on the context provided, the answer is **yes**.
+
+The context states: ""Although water is healthier than soda, many choose soda.""
+This directly indicates that, despite the health benefits of water, a greater number of people (implied by ""many"") opt for soda, suggesting a higher demand for it in this scenario.
+
+The fact that there is water in the freezer is an additional detail but doesn't change the core comparison about people's choices."
+F3F,English,"Here's the context: Although water is healthier than soda, many choose soda. There is water in the freezer. In this context, is water more in demand than soda?","Based on the context provided, the answer is **no**.
+
+The context states that ""many choose soda"" over water, even though water is healthier and readily available (in the freezer). This implies that, in this specific scenario, soda is actually in higher demand than water."
+F4T,English,"Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. There is broccoli in the oven. In this context, is broccoli more popular than gnocchi?","Let’s break this down.  
+
+The context says:  
+- Broccoli is more difficult to cook than gnocchi.  
+- People use broccoli more (than gnocchi).  
+- There is broccoli in the oven.  
+
+The question: Is broccoli more popular than gnocchi?  
+
+If “people use it more” means it is used more frequently in cooking/eating, that implies greater popularity despite the difficulty.  
+
+So the answer is:  
+
+**Yes.**"
+F4F,English,"Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. There is broccoli in the oven. In this context,  are gnocchi more popular than broccoli?","Let’s break this down.  
+
+The context says:  
+- Broccoli is more difficult to cook than gnocchi.  
+- People use broccoli more (than gnocchi, presumably).  
+- There is broccoli in the oven.  
+
+The question: Are gnocchi more popular than broccoli?  
+
+From the statement “people use it more” (where “it” refers to broccoli), we know broccoli is used more than gnocchi.  
+If broccoli is used more, then gnocchi are **not** more popular than broccoli.  
+
+**Answer:** No."
+F5T,English,"Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There is sushi on the table. In this context, are burgers more popular than sushi?","Yes, based on the context provided, burgers are more popular than sushi.
+
+The context states that ""people eat burgers more often"" than sushi, which is a direct indicator of popularity. The fact that there is sushi on the table in this specific situation doesn't change the general statement about overall consumption habits."
+F5F,English,"Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There is sushi on the table. In this context, is sushi more popular than burgers?","Based on the context provided, the answer is **no**.
+
+The context states that ""people eat burgers more often,"" which directly indicates that burgers are more popular than sushi, even though sushi is present on the table."
+F6T,English,"Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There are bananas in the basket. In this context, are bananas more popular than kiwis?","Yes, bananas are more popular than kiwis in this context.
+
+The reasoning is:
+
+1.  The context states that ""people purchase them more,"" with ""them"" referring to bananas.
+2.  Popularity in this case is directly related to purchase frequency. Since bananas are purchased more often than kiwis, they are considered more popular.
+3.  The fact that bananas are more expensive but still purchased more strongly supports the conclusion that they are more popular."
+F6F,English,"Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There are bananas in the basket. In this context, are kiwis more popular than bananas?","Let’s break it down:  
+
+- The context says bananas are **more expensive** than kiwis, yet **people purchase them more**.  
+- If people buy bananas more despite the higher price, that suggests bananas are **more popular** than kiwis.  
+- The question asks: *Are kiwis more popular than bananas?*  
+
+From the information given, the answer is **no**, kiwis are not more popular.  
+
+**Answer:** No."
+F7T,English,"Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up in the tree. In this context, are dogs more popular than cats?","Let’s break this down.  
+
+The context says:  
+> Although dogs are more lively than cats, people prefer them.  
+
+The word “them” here is ambiguous — it could refer to dogs or cats.  
+Often, in “although A is [trait], people prefer B” structures, “them” refers to B (the second item mentioned in the contrast).  
+But here, “dogs are more lively than cats, people prefer them” — if “them” refers to cats, it would mean:  
+Even though dogs are more lively, people prefer cats.  
+If “them” refers to dogs, it would mean:  
+Even though dogs are more lively, people prefer dogs (which is less logically contrasting).  
+
+The second sentence (“There is a cat up in the tree”) doesn’t directly help, but the first sentence is the key.  
+In common usage, “although X, people prefer Y” sets up a contrast where Y is the less expected choice given X.  
+So “dogs are more lively” (a positive trait) contrasts with “people prefer cats” (the less obvious preference).  
+
+Thus, the implication is: **No, dogs are not more popular than cats** — people prefer cats.  
+
+**Answer:** No."
+F7F,English,"Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up in the tree. In this context, are cats more popular than dogs?","Let’s break this down.  
+
+The context says:  
+> Although dogs are more lively than cats, people prefer them.  
+
+The word “them” here is ambiguous — it could refer to dogs or cats.  
+- If “them” refers to **dogs**, then people prefer dogs, so cats are **not** more popular.  
+- If “them” refers to **cats**, then people prefer cats, so cats **are** more popular.  
+
+In English, when you have a structure like “A is more X than B, but people prefer them,” the pronoun “them” usually refers to the second noun mentioned before (B = cats) because it’s the closest plural noun.  
+So, “Although dogs are more lively than cats, people prefer them” → “them” = cats.  
+
+Thus, in this context, **people prefer cats**, so cats are more popular than dogs.  
+
+**Answer:** Yes, cats are more popular than dogs."
+F8T,English,"Here's the context: Although reading books is more educational than watching TV, many people watch TV. There is a book on the shelf. In this context, are more people watching TV than reading books?","Let’s break it down.  
+
+The context says:  
+- Reading books is more educational than watching TV.  
+- Many people watch TV.  
+- There is a book on the shelf.  
+
+The question:  
+> Are more people watching TV than reading books?  
+
+From the context, we know “many people watch TV,” but we don’t know how many people read books.  
+We only know there is *a* book on the shelf, which doesn’t tell us about the number of readers.  
+
+So, strictly from the given information, we cannot conclude whether **more** people watch TV than read books — we lack the comparison data.  
+
+**Answer:** It is unknown from the given context."
+F8F,English,"Here's the context: Although reading books is more educational than watching TV, many people watch TV. There is a book on the shelf. In this context, are more people reading books than watching TV?","Based on the context provided, the answer is **no**.
+
+The context states: ""Although reading books is more educational than watching TV, **many people watch TV**.""
+
+This implies that watching TV is a common activity for many people. The presence of a single book on the shelf doesn't change the general statement that many people are engaged in watching TV, and there is no information to suggest that *more* people are reading books."
+F8T,English,"Here's the context: Although running is better for fitness than walking, most people prefer walking. There is a runner on the track. In this context, is walking more popular than running? ","Yes, based on the context provided, walking is more popular than running.
+
+The context states: ""Although running is better for fitness than walking, **most people prefer walking**."" This directly answers the question."
+F8F,English,"Here's the context: Although running is better for fitness than walking, most people prefer walking. There is a runner on the track. In this context, is running more popular than walking? ","Based on the context provided, the answer is **no**.
+
+The context states: ""Although running is better for fitness than walking, **most people prefer walking**.""
+
+This directly indicates that walking is more popular than running. The presence of a single runner on the track is an anecdotal detail that does not override the general statement about popular preference."
+S1T,English,"Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Mary had said: ""If the parrot is in the cage, Thomas will bring pizza"". Based on what Mary says, is it true that Thomas brought pizza?","Let’s break it down.  
+
+Mary’s statement:  
+> ""If the parrot is in the cage, Thomas will bring pizza.""  
+
+This is a conditional:  
+**Parrot in cage → Thomas brings pizza.**
+
+We know from the context:  
+- The parrot is in the cage.  
+- The dog is in the doghouse.  
+
+The condition ""parrot is in the cage"" is **true**.  
+If the conditional statement is true, then when the antecedent is true, the consequent must be true.  
+
+So, **yes**, it is true that Thomas brought pizza — assuming Mary’s statement was correct.  
+
+**Answer:** Yes."
+S1F,English,"Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not bring pizza. Mary had said: ""If the parrot is in the cage, Thomas will bring pizza"". Based on what Mary says, is it true that Thomas brought pizza?","Let’s break it down.
+
+---
+
+**1. Restating the facts from the context:**
+
+- Parrot is in the cage.  
+- Dog is in the doghouse.  
+- Thomas did not bring pizza.  
+- Mary said: *""If the parrot is in the cage, Thomas will bring pizza.""*
+
+---
+
+**2. Logical form of Mary’s statement:**
+
+Mary’s statement:  
+\[
+P \rightarrow T
+\]
+where:  
+\(P\) = ""The parrot is in the cage""  
+\(T\) = ""Thomas will bring pizza""
+
+---
+
+**3. Truth values of \(P\) and \(T\) from the context:**
+
+- \(P\) is **true** (given: parrot is in the cage).  
+- \(T\) is **false** (given: Thomas did not bring pizza).
+
+---
+
+**4. Evaluating Mary’s statement given the facts:**
+
+We check \(P \rightarrow T\) with \(P = \text{True}\), \(T = \text{False}\):
+
+\[
+\text{True} \rightarrow \text{False} \quad \text{is} \quad \text{False}.
+\]
+
+So Mary’s statement is **false** in reality.
+
+---
+
+**5. But the question is not about whether Mary’s statement was true.**
+
+The question is:  
+> Is it true that Thomas brought pizza?
+
+From the context: **Thomas did not bring pizza**.  
+So the answer is **No"
+S1C,English,"Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had said: ""If the parrot is in the cage, Thomas will bring pizza"". Based on what Mary says, is it true that Thomas brought pizza?","Let’s break this down step by step.
+
+---
+
+**1. Restating the facts from the context:**
+
+- The parrot is **not** in the cage.  
+- The dog is **not** in the doghouse.  
+- Mary’s statement:  
+> ""If the parrot is in the cage, Thomas will bring pizza.""
+
+In logical form:  
+\[
+P \rightarrow T
+\]
+where  
+\(P\) = ""The parrot is in the cage""  
+\(T\) = ""Thomas will bring pizza""
+
+---
+
+**2. Truth value of \(P\):**
+
+We are told: ""The parrot is not in the cage.""  
+So \(P\) is **false**.
+
+---
+
+**3. Implication truth table:**
+
+An implication \(P \rightarrow T\) is **true** except when \(P\) is true and \(T\) is false.
+
+If \(P\) is false, then \(P \rightarrow T\) is **true** regardless of whether \(T\) is true or false.
+
+---
+
+**4. What we know about \(T\):**
+
+Mary’s statement \(P \rightarrow T\) is given as something she said — but we don’t know if her statement itself is true or false in reality.  
+However, the problem says: ""Based on what Mary says"" — meaning we should treat Mary’s statement as a true fact for reasoning.
+
+So we accept \(P \rightarrow T\) is **true**.
+
+---
+
+**5. Applying \("
+S2T,English,"Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: ""If you finish your broccoli, Mark will give you a candy"". Based on what Mary says, is it true that Mark gave you a candy?","Let’s break this down.  
+
+Mary’s statement:  
+> ""If you finish your broccoli, Mark will give you a candy.""
+
+This is a conditional statement:  
+- **If P (you finish your broccoli), then Q (Mark gives you a candy).**  
+
+We know:  
+- P is true (you finished your broccoli).  
+
+From logic:  
+- If P is true and the statement ""If P then Q"" is true, then Q must be true.  
+
+But here’s the catch:  
+We know **P is true**, but we don’t know for certain that Mary’s statement itself is **true** in reality.  
+The question asks: ""Is it true that Mark gave you a candy?""  
+
+We can only deduce that **if Mary’s statement was true**, then Mark gave you a candy.  
+But since we don’t know if Mary was telling the truth, we can’t conclude with certainty that Mark actually gave you a candy.  
+
+So the answer is:  
+
+**No, it is not necessarily true that Mark gave you a candy, because Mary’s statement might have been false.**"
+S2F,English,"Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you a candy. Mary had said: ""If you finish your broccoli, Mark will give you a candy"". Based on what Mary says, is it true that Mark gave you a candy?","Let’s break this down.  
+
+Mary said:  
+> ""If you finish your broccoli, Mark will give you a candy.""
+
+This is a conditional statement:  
+- **If** (you finish your broccoli) → **then** (Mark will give you a candy).
+
+From the context:  
+- You finished your broccoli.  
+- You also finished your pasta.  
+- Mary did not give you a candy. (But Mary’s statement is about Mark, not herself.)  
+
+The truth of Mary’s statement depends on whether Mark actually gave you a candy **after** you finished your broccoli.  
+
+We know the **antecedent** (you finished broccoli) is true.  
+If Mary’s statement is true, then the **consequent** (Mark gives you a candy) must also be true.  
+
+But the problem doesn’t explicitly say whether Mark gave you a candy. It only says Mary didn’t give you a candy — which is irrelevant to Mark’s action.  
+
+Since we don’t have information about Mark’s action, we can’t conclude that Mark gave you a candy.  
+We only know what Mary promised, not whether her promise was kept.  
+
+**Answer:** No, it is not necessarily true that Mark gave you a candy based solely on the information given."
+S2C,English,"Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had said: ""If you finish your broccoli, Mark will give you a candy"". Based on what Mary says, is it true that Mark gave you a candy?","Let’s break it down.  
+
+Mary’s statement:  
+> ""If you finish your broccoli, Mark will give you a candy.""  
+
+This is a conditional statement:  
+- **If P, then Q**  
+- P = ""you finish your broccoli""  
+- Q = ""Mark will give you a candy""  
+
+From the context:  
+- You did **not** finish your broccoli (P is false).  
+
+In logic, if P is false, the statement ""If P then Q"" is **vacuously true** regardless of Q.  
+That means Mary’s statement can still be true even if Mark did **not** give you a candy.  
+
+So, from the information given, we **cannot conclude** that Mark gave you a candy.  
+
+**Answer:** No, it is not necessarily true that Mark gave you a candy."
+S3T,English,"Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: ""If the foxes are dancing, Susan will get a camera"". Based on what Mary says, is it true that Susan got a camera?","Let’s break it down.  
+
+Mary said:  
+> ""If the foxes are dancing, Susan will get a camera.""
+
+We know from the context:  
+- The foxes are dancing.  
+
+So the condition ""the foxes are dancing"" is true.  
+In logic, if the ""if"" part (antecedent) is true, and the statement is true, then the ""then"" part (consequent) must be true.  
+
+But here, we only know Mary said it — we don’t know if Mary’s statement itself is true in reality. The problem asks: ""Based on what Mary says"" — meaning we assume Mary’s statement is correct.  
+
+So:  
+- Mary’s statement is accepted as true.  
+- The antecedent is true.  
+- Therefore, Susan got a camera.  
+
+**Answer:** Yes, it is true that Susan got a camera."
+S3F,English,"Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shovel. Mary had said: ""If the foxes are dancing, Susan will get a camera"". Based on what Mary says, is it true that Susan got a camera?","Let’s break it down.
+
+---
+
+**Given facts:**
+1. The foxes are dancing.  
+2. The squirrels are eating.  
+3. Susan did not get a shovel.  
+4. Mary said: *""If the foxes are dancing, Susan will get a camera.""*
+
+---
+
+**Mary’s statement** is a conditional:  
+\[
+\text{Foxes dancing} \rightarrow \text{Susan gets a camera}.
+\]
+
+From fact 1, we know the antecedent (*foxes are dancing*) is **true**.
+
+In logic, if \( P \rightarrow Q \) and \( P \) is true, then \( Q \) must be true for the conditional to be true.
+
+---
+
+But here’s the subtlety:  
+We don’t know whether Mary’s statement itself is **true** in reality — we only know she *said* it.  
+The problem says: *""Based on what Mary says""* — meaning we should treat Mary’s statement as a true fact for the purpose of answering the question.
+
+If we take Mary’s statement as true, then:
+
+- Foxes dancing = true  
+- Therefore Susan gets a camera = true.
+
+---
+
+**Answer:** Yes, it is true that Susan got a camera.
+
+\[
+\boxed{\text{Yes}}
+\]"
+S3C,English,"Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: ""If the foxes are dancing, Susan will get a camera"". Based on what Mary says, is it true that Susan got a camera?","Let’s break this down logically.  
+
+---
+
+**1. Restating the facts**  
+- Foxes are **not** dancing.  
+- Squirrels are **not** eating.  
+- Mary’s statement:  
+> ""If the foxes are dancing, Susan will get a camera.""  
+
+In logical form:  
+\[
+\text{Foxes dancing} \implies \text{Susan gets a camera}
+\]
+
+---
+
+**2. Understanding the implication**  
+An implication \( P \implies Q \) is **false** only when \( P \) is true and \( Q \) is false.  
+If \( P \) is false, the implication is **true** regardless of \( Q \).  
+
+Here:  
+\( P \) = ""Foxes are dancing"" = **False** (given in context).  
+So \( P \implies Q \) is **vacuously true** no matter whether Susan got a camera or not.
+
+---
+
+**3. Can we determine if Susan got a camera?**  
+From \( P \) being false, we **cannot** conclude \( Q \) is true or false.  
+We only know Mary’s statement is **true** in this situation, but that doesn’t tell us whether Susan got a camera.
+
+---
+
+**4. Conclusion**  
+We do **not** have enough information to say ""Susan got a camera"" is true.  
+The answer is: **No, it is not necessarily true** (it’s unknown based on"
+S4T,English,"Here's the context: The TV is on. The radio is also on. Mary had said: ""If the TV is on, Matthew will bake cookies"". Based on what Mary says, is it true that Matthew baked cookies?","Let’s break it down.  
+
+Mary’s statement:  
+> ""If the TV is on, Matthew will bake cookies.""  
+
+In logic:  
+- \( P \): The TV is on.  
+- \( Q \): Matthew bakes cookies.  
+Mary said: \( P \rightarrow Q \).  
+
+Given:  
+- The TV is on (\( P \) is true).  
+- The radio is on (irrelevant to Mary’s conditional).  
+
+From \( P \) true and \( P \rightarrow Q \) true, we can deduce \( Q \) must be true.  
+
+So: **Yes, it is true that Matthew baked cookies.**  
+
+**Answer:** Yes."
+S4F,English,"Here's the context: The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said: ""If the TV is on, Matthew will bake cookies"". Based on what Mary says, is it true that Matthew baked cookies?","Let’s break it down.  
+
+Mary said:  
+> ""If the TV is on, Matthew will bake cookies.""
+
+In logical form:  
+- \( TV \rightarrow Bake \)  
+- TV = TV is on  
+- Bake = Matthew bakes cookies  
+
+We know:  
+1. TV is on → \( TV = \text{True} \)  
+2. Matthew did not bake cookies → \( Bake = \text{False} \)  
+
+From \( TV = \text{True} \) and \( Bake = \text{False} \), the implication \( TV \rightarrow Bake \) is **False** (because True → False is False).  
+
+But the question is not about whether Mary’s statement is true — it’s about whether **Matthew baked cookies**.  
+
+We know from the context: Matthew did not bake cookies.  
+
+So the answer is:  
+
+**No, it is not true that Matthew baked cookies.**"
+S4C,English,"Here's the context: The TV is off. The radio is also off. Mary had said: ""If the TV is on, Matthew will bake cookies"". Based on what Mary says, is it true that Matthew baked cookies?","Let’s break it down.
+
+Mary’s statement:  
+> ""If the TV is on, Matthew will bake cookies.""
+
+In logical form:  
+**TV on → Matthew bakes cookies**
+
+We know:  
+- TV is off.  
+- Radio is off.  
+
+---
+
+**Key point:**  
+The statement only tells us what happens *if the TV is on*.  
+If the TV is off, the statement says nothing about whether Matthew bakes cookies or not.  
+He may or may not bake them — both are consistent with Mary’s statement.
+
+---
+
+So, from the given information, we **cannot conclude** that Matthew baked cookies.
+
+**Answer:** No, it is not necessarily true."
+S5T,English,"Here's the context: Today, the weather is sunny. Also, there is no wind. Mary had said: ""If the weather is sunny, Emma will wear purple"". Based on what Mary says, is it true that Emma wore purple?","Let’s break it down.  
+
+Mary’s statement:  
+> ""If the weather is sunny, Emma will wear purple.""
+
+In logical form:  
+**Sunny → Wear purple**
+
+We know:  
+- The weather is sunny (true).  
+- There is no wind (irrelevant to the conditional).  
+
+From **Sunny → Wear purple** and **Sunny = true**, we can deduce:  
+Emma wore purple.  
+
+So the answer is:  
+
+**Yes, it is true that Emma wore purple.**"
+S5F,English,"Here's the context: Today, the weather is sunny. Also, there is no wind. Emma is wearing green. Mary had said: ""If the weather is sunny, Emma will wear purple"". Based on what Mary says, is it true that Emma wore purple?","Let’s break it down.  
+
+Mary said:  
+> ""If the weather is sunny, Emma will wear purple.""
+
+We know:  
+- The weather is sunny today.  
+- Emma is wearing green.  
+
+From logic:  
+- The statement ""If P, then Q"" (P = sunny, Q = Emma wears purple) means: **when P is true, Q must be true**.  
+- Here, P is true (sunny), but Q is false (Emma is not wearing purple).  
+
+So the conditional statement ""If sunny, then purple"" is **false** in this situation.  
+
+But the question asks:  
+> Is it true that Emma wore purple?  
+
+The answer is **no**, because she wore green.  
+
+**Final answer:** No."
+S5C,English,"Here's the context: Today, the weather is rainy. Also, it is very windy. Mary had said: ""If the weather is sunny, Emma will wear purple"". Based on what Mary says, is it true that Emma wore purple?","Let’s break this down.  
+
+Mary said:  
+> ""If the weather is sunny, Emma will wear purple.""
+
+This is a conditional statement:  
+- **If** sunny → wear purple.  
+
+We know today’s weather: rainy and windy.  
+That means the condition ""weather is sunny"" is **false**.  
+
+In logic, when the ""if"" part (antecedent) of a conditional is false, the statement as a whole is **true** regardless of whether Emma wore purple or not.  
+So Mary’s statement doesn’t tell us anything about what Emma wears on non-sunny days.  
+
+Therefore, from the information given, we **cannot conclude** whether Emma wore purple.  
+
+**Answer:** No, it is not necessarily true that Emma wore purple."
+S6T,English,"Here's the context: The playground is empty.  Also, the streets are quiet. Mary had said: ""If the playground is empty, Angela will take a selfie"". Based on what Mary says, is it true that Angela took a selfie?","Let’s break it down.  
+
+Mary said:  
+> ""If the playground is empty, Angela will take a selfie.""
+
+We know:  
+- The playground is empty.  
+- The streets are quiet (this is extra information not directly relevant to the conditional).  
+
+Since the condition ""playground is empty"" is true, Mary’s statement tells us that Angela will take a selfie.  
+
+So, based only on Mary’s statement and the fact that the playground is empty, the conclusion is:  
+
+**Yes, it is true that Angela took a selfie.**"
+S6F,English,"Here's the context: The playground is empty.  Also, the streets are quiet. Angela did not take a selfie. Mary had said: ""If the playground is empty, Angela will take a selfie"". Based on what Mary says, is it true that Angela took a selfie?","Let’s break it down.
+
+Mary said:  
+> ""If the playground is empty, Angela will take a selfie.""
+
+In logical form:  
+Playground empty → Angela takes selfie.
+
+We are told:  
+- The playground is empty.  
+- The streets are quiet.  
+- Angela did not take a selfie.
+
+From Mary’s statement:  
+If the playground is empty (which it is), then Angela should have taken a selfie.  
+But we know Angela did **not** take a selfie.
+
+So the situation is:  
+- P (playground empty) = True  
+- Q (Angela takes selfie) = False  
+- P → Q = True (Mary’s claim)  
+
+But with P true and Q false, P → Q would be **false** in reality.  
+That means Mary’s statement is **false** in this scenario — it’s not true that “if playground empty, Angela takes selfie” because the antecedent is true and the consequent is false.
+
+The question asks:  
+> Is it true that Angela took a selfie?
+
+We are told directly: Angela did not take a selfie.  
+So the answer is **No**.
+
+**Final answer:** No."
+S6C,English,"Here's the context: The playground is crowded.  Also, the streets are lively. Mary had said: ""If the playground is empty, Angela will take a selfie"". Based on what Mary says, is it true that Angela took a selfie?","Let’s break it down.  
+
+Mary’s statement:  
+> ""If the playground is empty, Angela will take a selfie.""  
+
+In logical form:  
+- **If** playground is empty → Angela takes a selfie.  
+- This does **not** mean that if the playground is **not** empty, Angela will **not** take a selfie.  
+
+Given context:  
+- Playground is **crowded** (so **not empty**).  
+
+Since the condition ""playground is empty"" is **false**, the implication ""If false, then …"" is **vacuously true** regardless of whether Angela took a selfie or not.  
+
+So from Mary’s statement alone, we **cannot** conclude Angela took a selfie.  
+
+**Answer:** No, it is not necessarily true that Angela took a selfie."
+S7T,English,"Here's the context: The lawn has been mowed. Also, the flowers have been watered. Mary had said: ""If Paul mows the lawn, he will get 50 euros"". Based on what Mary says, is it true that Paul got 50 euros?","Let’s break this down.  
+
+Mary said:  
+> ""If Paul mows the lawn, he will get 50 euros.""
+
+This is a conditional statement:  
+- **If** Paul mows the lawn → **then** Paul gets 50 euros.  
+
+From the context:  
+- The lawn has been mowed.  
+- But it doesn’t say **Paul** mowed the lawn.  
+
+The conditional only guarantees Paul gets 50 euros **if Paul mows the lawn**.  
+If someone else mowed the lawn, the condition isn’t triggered for Paul.  
+
+Since we don’t know who mowed the lawn, we can’t conclude Paul got 50 euros.  
+
+**Answer:** No, it is not necessarily true that Paul got 50 euros."
+S7F,English,"Here's the context: The lawn has been mowed. Also, the flowers have been watered. Paul did not get 50 euros. Mary had said: ""If Paul mows the lawn, he will get 50 euros"". Based on what Mary says, is it true that Paul got 50 euros?","Let’s break it down.
+
+1. **Mary’s statement**:  
+   ""If Paul mows the lawn, he will get 50 euros.""  
+   This is:  
+   \[
+   Mow \rightarrow Get50
+   \]
+
+2. **Facts given**:  
+   - The lawn has been mowed.  
+   - Paul did not get 50 euros.  
+
+3. **Logical check**:  
+   From \(Mow \rightarrow Get50\) and \(Mow = \text{true}\), we can deduce \(Get50 = \text{true}\) (by modus ponens).  
+   But the facts say \(Get50 = \text{false}\).  
+
+4. **Conclusion**:  
+   This is a **contradiction** if Mary’s statement is taken as true.  
+   Since the facts are given as true, Mary’s statement must be false in reality.  
+
+But the question asks:  
+> Is it true that Paul got 50 euros?  
+
+Given the facts: **No**, Paul did not get 50 euros.  
+
+\[
+\boxed{\text{No}}
+\]"
+S7C,English,"Here's the context: The lawn has not been mowed. Also, the flowers still need watering. Mary had said: ""If Paul mows the lawn, he will get 50 euros"". Based on what Mary says, is it true that Paul got 50 euros?","Let’s break this down.  
+
+Mary said:  
+> ""If Paul mows the lawn, he will get 50 euros.""  
+
+This is a conditional statement:  
+- **If** Paul mows the lawn → **then** Paul gets 50 euros.  
+
+From the context:  
+- The lawn has not been mowed.  
+
+So the condition ""Paul mows the lawn"" is **false**.  
+
+In logic, when the ""if"" part of a conditional is false, the statement as a whole is **vacuously true**, but it doesn’t tell us whether the ""then"" part happened.  
+We only know that **if** he had mowed the lawn, he would have gotten 50 euros. Since he didn’t mow it, Mary’s promise doesn’t require that he gets the money.  
+
+Therefore, we cannot conclude that Paul got 50 euros.  
+
+**Answer:** No, it is not true that Paul got 50 euros (based on the given information)."
+S8T,English,"Here's the context: The dog is playing. Also, the cat is climbing the tree. Mary had said: ""If the dog is playing, Anthony will read a book"". Based on what Mary says, is it true that Anthony read a book?","Let’s break it down.  
+
+Mary said:  
+> ""If the dog is playing, Anthony will read a book.""
+
+We know from the context:  
+- The dog is playing.  
+
+So the condition ""the dog is playing"" is true.  
+When the condition of an ""if P then Q"" statement is true, the statement tells us Q should be true.  
+
+Therefore, based on Mary’s statement and the fact that the dog is playing, **yes, it is true that Anthony read a book**.  
+
+**Answer:** Yes."
+S8F,English,"Here's the context: The dog is playing. Also, the cat is climbing the tree. Anthony did not read a book. Mary had said: ""If the dog is playing, Anthony will read a book"". Based on what Mary says, is it true that Anthony read a book?","Let’s break it down.
+
+---
+
+**1. Restating the facts from the context:**
+
+- The dog is playing.  
+- Anthony did not read a book.  
+- Mary said: *""If the dog is playing, Anthony will read a book.""*
+
+---
+
+**2. Mary’s statement in logic form:**
+
+Mary’s statement:  
+\[
+\text{Dog playing} \rightarrow \text{Anthony reads a book}.
+\]
+
+In logic, \(P \rightarrow Q\) is **false** only when \(P\) is true and \(Q\) is false.  
+Otherwise, it’s **true**.
+
+---
+
+**3. Checking truth value of Mary’s statement given the facts:**
+
+- \(P\) (Dog playing) = **True**  
+- \(Q\) (Anthony reads a book) = **False**  
+
+So \(P \rightarrow Q\) = **True → False** = **False**.
+
+That means Mary’s statement is **false** in reality.
+
+---
+
+**4. Question asked:**
+
+> Is it true that Anthony read a book?
+
+We know from the context: *Anthony did not read a book*.  
+So the answer is **No**, it is not true that Anthony read a book.
+
+---
+
+**5. Final answer:**
+
+\[
+\boxed{\text{No}}
+\]"
+S8C,English,"Here's the context: The dog is not playing. Also, the cat is sleeping. Mary had said: ""If the dog is playing, Anthony will read a book"". Based on what Mary says, is it true that Anthony read a book?","Let’s break it down.
+
+1. **Mary’s statement**:  
+   ""If the dog is playing, Anthony will read a book.""  
+   This is:  
+   \[
+   \text{Dog playing} \implies \text{Anthony reads a book}
+   \]
+
+2. **Given facts**:  
+   - The dog is **not** playing.  
+   - The cat is sleeping (irrelevant to the implication).
+
+3. **Logic**:  
+   In logic, \( P \implies Q \) is **true** when \( P \) is false, regardless of \( Q \).  
+   Here \( P \) = ""dog is playing"" (false), \( Q \) = ""Anthony reads a book"" (unknown).  
+   Since \( P \) is false, the implication \( P \implies Q \) is **vacuously true**, but that doesn’t tell us whether \( Q \) is true.
+
+4. **Conclusion**:  
+   We cannot determine whether Anthony read a book from the given information.  
+   The statement only tells us what happens *if* the dog is playing, but the dog isn’t playing, so no constraint is placed on Anthony.
+
+**Answer:** It is not necessarily true that Anthony read a book; we don’t have enough information."
+S9T,English,"Here's the context: The fridge is empty. Also, the oven is broken. Mary had said: ""If the fridge is empty, Amy will bring donuts"". Based on what Mary says, is it true that Amy brought donuts?","Let’s break it down.  
+
+Mary said:  
+> ""If the fridge is empty, Amy will bring donuts.""
+
+We know:  
+- The fridge is empty.  
+- The oven is broken (irrelevant to Mary’s statement).  
+
+Since the fridge is empty, the condition of Mary’s statement is satisfied.  
+So, according to Mary’s prediction, Amy will bring donuts.  
+
+But Mary’s statement is a prediction, not necessarily a fact about the world.  
+The question asks: **Is it true that Amy brought donuts?**  
+
+From the information given, we only know Mary’s conditional statement and that the antecedent (fridge empty) is true.  
+That means Mary’s statement would be false if Amy didn’t bring donuts, but we don’t have direct evidence about what Amy actually did.  
+
+So, based purely on logic:  
+- If we assume Mary’s statement is true, then Amy brought donuts.  
+- But the problem doesn’t explicitly say Mary’s statement is true; it only says “Based on what Mary says” and the facts (fridge empty).  
+
+In formal logic:  
+- P: Fridge is empty.  
+- Q: Amy brings donuts.  
+- Mary says: P → Q.  
+- We are given P is true.  
+- If P → Q is true, then Q is true.  
+- But we are not told"
+S9F,English,"Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary had said: ""If the fridge is empty, Amy will bring donuts"". Based on what Mary says, is it true that Amy brought donuts?","Let’s break this down step by step.  
+
+---
+
+**1. Restating the facts from the context**  
+- The fridge is empty.  
+- The oven is broken. (This fact is irrelevant to the conditional statement about Amy.)  
+- Amy did not bring donuts.  
+- Mary said: ""If the fridge is empty, Amy will bring donuts.""
+
+---
+
+**2. Analyzing Mary’s statement**  
+Mary’s statement is a conditional:  
+\[
+\text{If } P \text{ then } Q
+\]
+where:  
+- \(P\) = ""The fridge is empty""  
+- \(Q\) = ""Amy will bring donuts""  
+
+In logic, \(P \rightarrow Q\) is **false** only when \(P\) is true and \(Q\) is false.  
+Otherwise, it’s true.
+
+---
+
+**3. Checking the truth values**  
+From the context:  
+- \(P\) is **true** (fridge is empty)  
+- \(Q\) is **false** (Amy did not bring donuts)  
+
+So \(P \rightarrow Q\) is **false** in reality.  
+
+---
+
+**4. What the question asks**  
+The question is:  
+> Is it true that Amy brought donuts?  
+
+We know from the context: Amy did **not** bring donuts.  
+So the answer is **no**, it is not true that Amy brought donuts.  
+
+---"
+S9C,English,"Here's the context: The fridge is full. Also, the oven is on. Mary had said: ""If the fridge is empty, Amy will bring donuts"". Based on what Mary says, is it true that Amy brought donuts?","Let’s break this down.
+
+---
+
+**1. Restating the facts from the context:**
+
+- The fridge is full.  
+- The oven is on.  
+- Mary said: *""If the fridge is empty, Amy will bring donuts.""*
+
+---
+
+**2. Logical form of Mary’s statement:**
+
+Mary’s statement is:  
+\[
+\text{If } P \text{ then } Q
+\]
+where  
+\( P \): ""The fridge is empty""  
+\( Q \): ""Amy will bring donuts""
+
+In logic: \( P \rightarrow Q \).
+
+---
+
+**3. Truth value of \( P \) given the context:**
+
+We know: ""The fridge is full"" means \( P \) is **false**.
+
+---
+
+**4. Implication truth table:**
+
+For \( P \rightarrow Q \):
+
+- If \( P \) is true, then \( Q \) must be true for the implication to be true.
+- If \( P \) is false, the implication \( P \rightarrow Q \) is **true regardless of \( Q \)**.
+
+So, when \( P \) is false, \( P \rightarrow Q \) tells us **nothing** about whether \( Q \) is true or false.
+
+---
+
+**5. Conclusion about Amy bringing donuts:**
+
+From the fact that \( P \) is false, we cannot deduce \( Q \).  
+We have no other information about whether Amy brought donuts.
+
+So, **we do not know** if Amy brought don"

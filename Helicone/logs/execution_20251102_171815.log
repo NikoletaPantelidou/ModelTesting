@@ -1,0 +1,7 @@
+2025-11-02 17:18:15,196 - INFO - [INFO] ===== Helicone API Processing Started =====
+2025-11-02 17:18:15,196 - INFO - [INFO] API: https://oai.helicone.ai/v1
+2025-11-02 17:18:15,196 - INFO - [INFO] Mode: Sequential
+2025-11-02 17:18:15,197 - INFO - [INFO] Using Helicone API Key for authentication
+2025-11-02 17:18:15,701 - ERROR - [ERROR] API returned status 401
+2025-11-02 17:18:15,703 - ERROR - [FATAL] Cannot access Helicone API
+2025-11-02 17:18:15,704 - ERROR - [FATAL] Fatal error: Helicone API not accessible

@@ -17,11 +17,11 @@ from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 from script_models_config import MODELS
 from datetime import datetime
 from huggingface_hub import login
-login(token="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")
+login(token="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")
 
 
 # HuggingFace authentication token (for gated models)
-HF_TOKEN = "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"
+HF_TOKEN = "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"
 # ============================================================================
 # LOGGING CONFIGURATION
 # ============================================================================

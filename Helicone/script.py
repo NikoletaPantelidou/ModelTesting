@@ -1,24 +1,32 @@
 """
-Script for sequential processing of prompts using Ollama Cloud API.
+Script for sequential processing of prompts using Helicone AI Gateway.
+Helicone provides monitoring and logging for LLM API calls.
 """
 
 import os
 import sys
 import logging
 import pandas as pd
-import requests
 import time
+from openai import OpenAI
 from script_models_config import MODELS
 from datetime import datetime
 
 # CONFIGURATION
-OLLAMA_API_BASE = "https://ollama.com/api"
-OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY", "9795c944c76d4096a20245eb754a6a0a.r6PIDbap-_Okz7ys5q0DRngt")
+HELICONE_API_BASE = "https://ai-gateway.helicone.ai"
+HELICONE_API_KEY = os.getenv("HELICONE_API_KEY", "sk-helicone-4ml2yby-dr4u7hq-rmzewgi-k2svq4q")
 INPUT_FILE = "prompts/example.csv"
 OUTPUT_DIR = "answers"
 CSV_SEPARATOR = ";"
 TEMPERATURE = 0.0
-MAX_TOKENS = 300
+MAX_TOKENS = 200
+DELAY_BETWEEN_REQUESTS = 2.0  # Seconds to wait between API calls to avoid rate limits
+
+# Initialize OpenAI client with Helicone gateway
+client = OpenAI(
+    base_url=HELICONE_API_BASE,
+    api_key=HELICONE_API_KEY
+)
 
 # LOGGING
 os.makedirs('logs', exist_ok=True)
@@ -36,59 +44,90 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # API FUNCTIONS
-def check_ollama_api():
-    if not OLLAMA_API_KEY:
-        logger.error("[ERROR] OLLAMA_API_KEY not set. Set it as environment variable.")
+def check_helicone_api():
+    if not HELICONE_API_KEY:
+        logger.error("[ERROR] HELICONE_API_KEY not set. Set it as environment variable.")
         return False
+
+    logger.info("[INFO] Using Helicone API Key for authentication")
+
     try:
-        headers = {"Authorization": f"Bearer {OLLAMA_API_KEY}"}
-        response = requests.get(f"{OLLAMA_API_BASE}/tags", headers=headers, timeout=10)
-        if response.status_code == 200:
-            logger.info("[OK] Ollama API is accessible")
+        # Test with a simple API call
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": "test"}],
+            max_tokens=5
+        )
+        if response and response.choices:
+            logger.info("[OK] Helicone API is accessible")
             return True
-        logger.error(f"[ERROR] API returned status {response.status_code}")
+        logger.error("[ERROR] API returned unexpected response")
         return False
     except Exception as e:
-        logger.error(f"[ERROR] Cannot connect to API: {str(e)}")
+        error_msg = str(e)
+
+        # Check for insufficient credits error
+        if "429" in error_msg or "Too Many Requests" in error_msg:
+            if "Insufficient credits" in error_msg or "Insufficient balance" in error_msg:
+                logger.error("[ERROR] ⚠️  INSUFFICIENT CREDITS in Helicone account")
+                logger.error("[ERROR] You need to add credits to your Helicone account")
+                logger.error("[ERROR] Visit: https://www.helicone.ai/ -> Billing -> Add Credits")
+            else:
+                logger.error("[ERROR] Rate limit exceeded - too many requests")
+                logger.error("[ERROR] Consider increasing DELAY_BETWEEN_REQUESTS in script.py")
+
+        logger.error(f"[ERROR] Cannot connect to API: {error_msg}")
         return False
 
-def call_ollama_api(model_name, prompt, max_retries=3):
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {OLLAMA_API_KEY}"
-    }
-    payload = {
-        "model": model_name,
-        "prompt": prompt,
-        "stream": False,
-        "options": {"temperature": TEMPERATURE, "num_predict": MAX_TOKENS}
-    }
-    url = f"{OLLAMA_API_BASE}/generate"
-
+def call_helicone_api(model_name, prompt, max_retries=3):
     for attempt in range(max_retries):
         try:
-            response = requests.post(url, json=payload, headers=headers, timeout=120)
-            if response.status_code == 200:
-                result = response.json()
-                return result.get("response", "").strip()
-            elif response.status_code == 404:
-                raise ValueError(f"Model {model_name} not found")
+            response = client.chat.completions.create(
+                model=model_name,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=TEMPERATURE,
+                max_tokens=MAX_TOKENS
+            )
+
+            if response and response.choices:
+                answer = response.choices[0].message.content.strip()
+
+                # Check for empty responses
+                if not answer:
+                    logger.warning(f"[WARNING] Model {model_name} returned an empty response")
+                    return "[EMPTY RESPONSE]"
+
+                return answer
             else:
-                logger.warning(f"[WARNING] API status {response.status_code}")
-                if attempt < max_retries - 1:
-                    time.sleep(2 ** attempt)
-                    continue
-                raise Exception(f"API error: {response.status_code}")
-        except requests.exceptions.Timeout:
+                raise Exception("No response from API")
+
+        except Exception as e:
+            error_msg = str(e)
+
+            # Check for insufficient credits
+            if "429" in error_msg or "Too Many Requests" in error_msg:
+                if "Insufficient credits" in error_msg or "Insufficient balance" in error_msg:
+                    logger.error(f"[ERROR] ⚠️  INSUFFICIENT CREDITS in Helicone account")
+                    logger.error(f"[ERROR] Cannot continue - please add credits at https://www.helicone.ai/")
+                    raise Exception("Insufficient credits in Helicone account. Please add credits to continue.")
+                else:
+                    # Rate limit - wait longer before retrying
+                    wait_time = (2 ** attempt) * 5  # 5s, 10s, 20s
+                    logger.warning(f"[WARNING] Rate limit hit. Waiting {wait_time}s before retry...")
+                    if attempt < max_retries - 1:
+                        time.sleep(wait_time)
+                        continue
+
+            # Check for model not found
+            if "model" in error_msg.lower() and "not found" in error_msg.lower():
+                raise ValueError(f"Model {model_name} not found")
+
+            logger.warning(f"[WARNING] Attempt {attempt + 1}/{max_retries} failed: {error_msg}")
             if attempt < max_retries - 1:
                 time.sleep(2 ** attempt)
                 continue
-            raise Exception("Request timeout")
-        except requests.exceptions.ConnectionError:
-            if attempt < max_retries - 1:
-                time.sleep(2 ** attempt)
-                continue
-            raise Exception("Connection error")
+            raise Exception(f"API error after {max_retries} attempts: {error_msg}")
+
     raise Exception("Failed after all retries")
 
 # FILE FUNCTIONS
@@ -125,7 +164,7 @@ def parse_prompt(raw_prompt):
 
 def generate_answer(context, question, model_name):
     full_prompt = f"Context: {context}\nQuestion: {question}\n\nAnswer:"
-    return call_ollama_api(model_name, full_prompt)
+    return call_helicone_api(model_name, full_prompt)
 
 def process_row(idx, row, total_rows, model_name):
     try:
@@ -198,7 +237,6 @@ def save_single_answer(df, answers, model_name, current_idx):
         logger.error(f"[ERROR] Error saving answer {current_idx + 1}: {str(e)}")
         raise
 
-
 # PROCESSING
 def process_prompts_sequential(df, model_name):
     total_rows = len(df)
@@ -211,6 +249,7 @@ def process_prompts_sequential(df, model_name):
             item_str = f" [{test_item}]" if test_item else ""
             logger.info(f"[SKIP] Row {idx + 1}/{total_rows}{item_str} already completed")
             continue
+
         idx_result, answer = process_row(idx, row, total_rows, model_name)
         answers[idx_result] = answer
         save_single_answer(df, answers, model_name, idx_result)
@@ -219,6 +258,11 @@ def process_prompts_sequential(df, model_name):
         completed_so_far = sum(1 for a in answers if pd.notna(a) and not str(a).startswith("ERROR:"))
         errors_so_far = sum(1 for a in answers if pd.notna(a) and str(a).startswith("ERROR:"))
         logger.info(f"[PROGRESS] {model_name} - {idx + 1}/{total_rows} processed | {completed_so_far} successful | {errors_so_far} errors")
+
+        # Add delay between requests to avoid rate limits
+        if idx < total_rows - 1:  # Don't wait after the last request
+            logger.info(f"[INFO] Waiting {DELAY_BETWEEN_REQUESTS}s before next request...")
+            time.sleep(DELAY_BETWEEN_REQUESTS)
 
     logger.info(f"[OK] All rows processed for {model_name}")
 
@@ -235,7 +279,6 @@ def process_single_model(model_config, df):
 
     logger.info(f"[INFO] {model_name} has {pending_count} pending answers")
     process_prompts_sequential(df, model_name)
-
 
     logger.info(f"[OK] ===== Completed: {model_name} =====\n")
 
@@ -264,20 +307,20 @@ def process_all_models(df):
 # MAIN
 def main():
     try:
-        logger.info("[INFO] ===== Ollama Cloud API Processing Started =====")
-        logger.info(f"[INFO] API: {OLLAMA_API_BASE}")
+        logger.info("[INFO] ===== Helicone API Processing Started =====")
+        logger.info(f"[INFO] API: {HELICONE_API_BASE}")
         logger.info(f"[INFO] Mode: Sequential")
 
-        if not check_ollama_api():
-            logger.error("[FATAL] Cannot access Ollama API")
-            raise RuntimeError("Ollama API not accessible")
+        if not check_helicone_api():
+            logger.error("[FATAL] Cannot access Helicone API")
+            raise RuntimeError("Helicone API not accessible")
 
         os.makedirs(OUTPUT_DIR, exist_ok=True)
         df = load_input_file()
         successful_models, failed_models = process_all_models(df)
 
         logger.info(f"[OK] Summary: {len(successful_models)} successful, {len(failed_models)} failed")
-        
+
         # Show output files location
         if successful_models:
             logger.info(f"[INFO] Answer files saved in: {OUTPUT_DIR}")

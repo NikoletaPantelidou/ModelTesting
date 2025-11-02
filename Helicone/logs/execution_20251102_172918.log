@@ -1,0 +1,15 @@
+2025-11-02 17:29:18,955 - INFO - [INFO] ===== Helicone API Processing Started =====
+2025-11-02 17:29:18,955 - INFO - [INFO] API: https://ai-gateway.helicone.ai
+2025-11-02 17:29:18,955 - INFO - [INFO] Mode: Sequential
+2025-11-02 17:29:18,955 - INFO - [INFO] Using Helicone API Key for authentication
+2025-11-02 17:29:20,342 - INFO - HTTP Request: POST https://ai-gateway.helicone.ai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-02 17:29:20,343 - INFO - Retrying request to /chat/completions in 0.454203 seconds
+2025-11-02 17:29:21,442 - INFO - HTTP Request: POST https://ai-gateway.helicone.ai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-02 17:29:21,446 - INFO - Retrying request to /chat/completions in 0.915946 seconds
+2025-11-02 17:29:23,040 - INFO - HTTP Request: POST https://ai-gateway.helicone.ai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-02 17:29:23,042 - ERROR - [ERROR] ⚠️  INSUFFICIENT CREDITS in Helicone account
+2025-11-02 17:29:23,042 - ERROR - [ERROR] You need to add credits to your Helicone account
+2025-11-02 17:29:23,042 - ERROR - [ERROR] Visit: https://www.helicone.ai/ -> Billing -> Add Credits
+2025-11-02 17:29:23,042 - ERROR - [ERROR] Cannot connect to API: Error code: 429 - {'success': False, 'error': {'code': 'request_failed', 'message': 'Insufficient credits', 'details': [{'type': 'insufficient_credit_limit', 'message': 'Insufficient balance for escrow. Available: 0 cents, needed: 1.0290304 cents', 'statusCode': 429, 'source': 'gpt-4o-mini/helicone/ptb'}], 'param': None}}
+2025-11-02 17:29:23,042 - ERROR - [FATAL] Cannot access Helicone API
+2025-11-02 17:29:23,042 - ERROR - [FATAL] Fatal error: Helicone API not accessible
