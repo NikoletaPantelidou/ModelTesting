@@ -1,0 +1,1402 @@
+2025-11-05 14:23:08,490 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-05 14:23:08,491 - INFO - [INFO] API: https://ollama.com/api
+2025-11-05 14:23:08,491 - INFO - [INFO] Mode: Sequential
+2025-11-05 14:23:09,004 - INFO - [OK] Ollama API is accessible
+2025-11-05 14:23:09,012 - INFO - [OK] File loaded: 288 rows
+2025-11-05 14:23:09,012 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-05 14:23:09,012 - INFO - [INFO] Processing model 1/2: qwen3-vl:235b-instruct-cloud
+2025-11-05 14:23:09,012 - INFO - [INFO] ===== Starting: qwen3-vl:235b-instruct-cloud =====
+2025-11-05 14:23:09,021 - INFO - [INFO] Found existing answers file: answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:09,021 - INFO - [INFO] Existing progress: 288/288 answers completed, 101 errors, 0 pending
+2025-11-05 14:23:09,022 - INFO - [INFO] qwen3-vl:235b-instruct-cloud has 101 pending answers
+2025-11-05 14:23:09,022 - INFO - [INFO] Starting sequential processing for qwen3-vl:235b-instruct-cloud
+2025-11-05 14:23:09,028 - INFO - [INFO] Found existing answers file: answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:09,029 - INFO - [INFO] Existing progress: 288/288 answers completed, 101 errors, 0 pending
+2025-11-05 14:23:09,029 - INFO - [SKIP] Row 1/288 [B1T] already completed
+2025-11-05 14:23:09,029 - INFO - [SKIP] Row 2/288 [B1F] already completed
+2025-11-05 14:23:09,029 - INFO - [SKIP] Row 3/288 [B1C] already completed
+2025-11-05 14:23:09,029 - INFO - [SKIP] Row 4/288 [B2T] already completed
+2025-11-05 14:23:09,029 - INFO - [SKIP] Row 5/288 [B2F] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 6/288 [B2C] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 7/288 [B3T] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 8/288 [B3F] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 9/288 [B3C] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 10/288 [B4T] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 11/288 [B4F] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 12/288 [B4C] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 13/288 [B5T] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 14/288 [B5F] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 15/288 [B5C] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 16/288 [B6T] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 17/288 [B6F] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 18/288 [B6C] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 19/288 [B7T] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 20/288 [B7F] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 21/288 [B7C] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 22/288 [B8T] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 23/288 [B8F] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 24/288 [B8C] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 25/288 [B9T] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 26/288 [B9F] already completed
+2025-11-05 14:23:09,030 - INFO - [SKIP] Row 27/288 [B9C] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 28/288 [F1T] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 29/288 [F1F] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 30/288 [F2T] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 31/288 [F2F] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 32/288 [F3T] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 33/288 [F3F] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 34/288 [F4T] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 35/288 [F4F] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 36/288 [F5T] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 37/288 [F5F] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 38/288 [F6T] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 39/288 [F6F] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 40/288 [F7T] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 41/288 [F7F] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 42/288 [F8T] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 43/288 [F8F] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 44/288 [F9T] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 45/288 [F9F] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 46/288 [S1T] already completed
+2025-11-05 14:23:09,031 - INFO - [SKIP] Row 47/288 [S1F] already completed
+2025-11-05 14:23:09,032 - INFO - [SKIP] Row 48/288 [S1C] already completed
+2025-11-05 14:23:09,032 - INFO - [SKIP] Row 49/288 [S2T] already completed
+2025-11-05 14:23:09,032 - INFO - [SKIP] Row 50/288 [S2F] already completed
+2025-11-05 14:23:09,032 - INFO - [SKIP] Row 51/288 [S2C] already completed
+2025-11-05 14:23:09,032 - INFO - [SKIP] Row 52/288 [S3T] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 53/288 [S3F] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 54/288 [S3C] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 55/288 [S4T] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 56/288 [S4F] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 57/288 [S4C] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 58/288 [S5T] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 59/288 [S5F] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 60/288 [S5C] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 61/288 [S6T] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 62/288 [S6F] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 63/288 [S6C] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 64/288 [S7T] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 65/288 [S7F] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 66/288 [S7C] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 67/288 [S8T] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 68/288 [S8F] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 69/288 [S8C] already completed
+2025-11-05 14:23:09,033 - INFO - [SKIP] Row 70/288 [S9T] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 71/288 [S9F] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 72/288 [S9C] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 73/288 [B1T] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 74/288 [B1F] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 75/288 [B1C] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 76/288 [B2T] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 77/288 [B2F] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 78/288 [B2C] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 79/288 [B3T] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 80/288 [B3F] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 81/288 [B3C] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 82/288 [B4T] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 83/288 [B4F] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 84/288 [B4C] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 85/288 [B5T] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 86/288 [B5F] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 87/288 [B5C] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 88/288 [B6T] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 89/288 [B6F] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 90/288 [B6C] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 91/288 [B7T] already completed
+2025-11-05 14:23:09,034 - INFO - [SKIP] Row 92/288 [B7F] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 93/288 [B7C] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 94/288 [B8T] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 95/288 [B8F] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 96/288 [B8C] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 97/288 [B9T] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 98/288 [B9F] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 99/288 [B9C] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 100/288 [F1T] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 101/288 [F1F] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 102/288 [F2T] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 103/288 [F2F] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 104/288 [F3T] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 105/288 [F3F] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 106/288 [F4T] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 107/288 [F4F] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 108/288 [F5T] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 109/288 [F5F] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 110/288 [F6T] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 111/288 [F6F] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 112/288 [F7T] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 113/288 [F7F] already completed
+2025-11-05 14:23:09,035 - INFO - [SKIP] Row 114/288 [F8T] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 115/288 [F8F] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 116/288 [F9T] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 117/288 [F9F] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 118/288 [S1T] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 119/288 [S1F] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 120/288 [S1C] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 121/288 [S2T] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 122/288 [S2F] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 123/288 [S2C] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 124/288 [S3T] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 125/288 [S3F] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 126/288 [S3C] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 127/288 [S4T] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 128/288 [S4F] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 129/288 [S4C] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 130/288 [S5T] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 131/288 [S5F] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 132/288 [S5C] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 133/288 [S6T] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 134/288 [S6F] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 135/288 [S6C] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 136/288 [S7T] already completed
+2025-11-05 14:23:09,036 - INFO - [SKIP] Row 137/288 [S7F] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 138/288 [S7C] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 139/288 [S8T] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 140/288 [S8F] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 141/288 [S8C] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 142/288 [S9T] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 143/288 [S9F] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 144/288 [S9C] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 145/288 [B1T] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 146/288 [B1F] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 147/288 [B1C] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 148/288 [B2T] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 149/288 [B2F] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 150/288 [B2C] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 151/288 [B3T] already completed
+2025-11-05 14:23:09,037 - INFO - [SKIP] Row 152/288 [B3F] already completed
+2025-11-05 14:23:09,037 - INFO - [INFO] Processing Row 153/288 [B3C]
+2025-11-05 14:23:09,037 - INFO - [PROMPT] Ecco il contesto: Lucia non ha sete. C'è del succo di mela sullo scaffale. Maria dice: "Se Lucia ha ...
+2025-11-05 14:23:13,669 - INFO - [ANSWER] No, **non è possibile concludere con certezza che c’è dell’acqua in frigo**.
+
+Maria dice:  
+> **“Se ...
+2025-11-05 14:23:13,669 - INFO - [OK] Row 153 [B3C] completed successfully
+2025-11-05 14:23:13,680 - INFO - [OK] Answer 153 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:13,680 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 153/288 processed | 188 successful | 100 errors
+2025-11-05 14:23:13,680 - INFO - [INFO] Processing Row 154/288 [B4T]
+2025-11-05 14:23:13,680 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e c'è un caricatore nel cassetto. C'è anche un com...
+2025-11-05 14:23:17,426 - INFO - [ANSWER] Sì, **è vero che c'è un caricatore nel cassetto**.
+
+Maria dice:  
+> *“Se il telefono di Pietro è sca...
+2025-11-05 14:23:17,426 - INFO - [OK] Row 154 [B4T] completed successfully
+2025-11-05 14:23:17,433 - INFO - [OK] Answer 154 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:17,433 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 154/288 processed | 189 successful | 99 errors
+2025-11-05 14:23:17,433 - INFO - [SKIP] Row 155/288 [B4F] already completed
+2025-11-05 14:23:17,433 - INFO - [INFO] Processing Row 156/288 [B4C]
+2025-11-05 14:23:17,434 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è carico. C'è un computer sul tavolo. Maria dice: "Se il tel...
+2025-11-05 14:23:22,931 - INFO - [ANSWER] No, **non è vero** che c'è un caricatore nel cassetto — **almeno non possiamo dedurlo con certezza**...
+2025-11-05 14:23:22,931 - INFO - [OK] Row 156 [B4C] completed successfully
+2025-11-05 14:23:22,938 - INFO - [OK] Answer 156 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:22,938 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 156/288 processed | 190 successful | 98 errors
+2025-11-05 14:23:22,938 - INFO - [INFO] Processing Row 157/288 [B5T]
+2025-11-05 14:23:22,938 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e c'è un ombrello nel portaombrelli. C'è anche un impermeabile ...
+2025-11-05 14:23:26,687 - INFO - [ANSWER] Sì, è vero che c'è un ombrello nel portaombrelli.
+
+Maria dice: *“Se il tempo è piovoso, c’è un ombre...
+2025-11-05 14:23:26,688 - INFO - [OK] Row 157 [B5T] completed successfully
+2025-11-05 14:23:26,695 - INFO - [OK] Answer 157 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:26,695 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 157/288 processed | 191 successful | 97 errors
+2025-11-05 14:23:26,695 - INFO - [SKIP] Row 158/288 [B5F] already completed
+2025-11-05 14:23:26,695 - INFO - [SKIP] Row 159/288 [B5C] already completed
+2025-11-05 14:23:26,695 - INFO - [INFO] Processing Row 160/288 [B6T]
+2025-11-05 14:23:26,696 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e c'è una pompa in garage. C'è anche una bici vi...
+2025-11-05 14:23:31,270 - INFO - [ANSWER] Sì, **è vero che c'è una pompa in garage**.
+
+Maria dice: *“Se la gomma della macchina è a terra, c’è...
+2025-11-05 14:23:31,271 - INFO - [OK] Row 160 [B6T] completed successfully
+2025-11-05 14:23:31,278 - INFO - [OK] Answer 160 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:31,279 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 160/288 processed | 192 successful | 96 errors
+2025-11-05 14:23:31,279 - INFO - [INFO] Processing Row 161/288 [B6F]
+2025-11-05 14:23:31,279 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e non c'è nessuna pompa in garage. Non c'è nemme...
+2025-11-05 14:23:37,449 - INFO - [ANSWER] No, **non è vero** che c'è una pompa in garage.
+
+### Spiegazione:
+
+Maria dice:  
+> **"Se la gomma de...
+2025-11-05 14:23:37,449 - INFO - [OK] Row 161 [B6F] completed successfully
+2025-11-05 14:23:37,456 - INFO - [OK] Answer 161 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:37,457 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 161/288 processed | 193 successful | 95 errors
+2025-11-05 14:23:37,457 - INFO - [INFO] Processing Row 162/288 [B6C]
+2025-11-05 14:23:37,457 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è gonfia. C'è una bici vicino alla porta d'ingresso. Maria...
+2025-11-05 14:23:43,083 - INFO - [ANSWER] No, **non è vero** che c'è una pompa in garage — **almeno non possiamo concluderlo con certezza** su...
+2025-11-05 14:23:43,083 - INFO - [OK] Row 162 [B6C] completed successfully
+2025-11-05 14:23:43,091 - INFO - [OK] Answer 162 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:43,091 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 162/288 processed | 194 successful | 94 errors
+2025-11-05 14:23:43,091 - INFO - [SKIP] Row 163/288 [B7T] already completed
+2025-11-05 14:23:43,091 - INFO - [INFO] Processing Row 164/288 [B7F]
+2025-11-05 14:23:43,091 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e non c'è nessun annaffiatoio sullo scaffale. Non c'è nemmeno un...
+2025-11-05 14:23:48,096 - INFO - [ANSWER] No, **non è vero** che c'è un annaffiatoio sullo scaffale.
+
+### Spiegazione:
+
+Maria dice:  
+> **"Se ...
+2025-11-05 14:23:48,097 - INFO - [OK] Row 164 [B7F] completed successfully
+2025-11-05 14:23:48,104 - INFO - [OK] Answer 164 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:48,104 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 164/288 processed | 195 successful | 93 errors
+2025-11-05 14:23:48,104 - INFO - [INFO] Processing Row 165/288 [B7C]
+2025-11-05 14:23:48,105 - INFO - [PROMPT] Ecco il contesto: La pianta è rigogliosa. C'è un tubo da giardinaggio in giardino. Maria dice: "Se l...
+2025-11-05 14:23:55,388 - INFO - [ANSWER] No, non è vero che c'è un annaffiatoio sullo scaffale.
+
+**Spiegazione:**
+
+Maria dice:  
+> *“Se la pi...
+2025-11-05 14:23:55,388 - INFO - [OK] Row 165 [B7C] completed successfully
+2025-11-05 14:23:55,396 - INFO - [OK] Answer 165 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:23:55,396 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 165/288 processed | 196 successful | 92 errors
+2025-11-05 14:23:55,396 - INFO - [INFO] Processing Row 166/288 [B8T]
+2025-11-05 14:23:55,396 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stropicciata e c'è un ferro da stiro nell'armadio. C'è anc...
+2025-11-05 14:24:02,311 - INFO - [ANSWER] Sì, **è vero che c'è un ferro da stiro nell'armadio**.
+
+Maria dice:  
+> *“Se la camicia di Giorgio è...
+2025-11-05 14:24:02,311 - INFO - [OK] Row 166 [B8T] completed successfully
+2025-11-05 14:24:02,318 - INFO - [OK] Answer 166 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:02,318 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 166/288 processed | 197 successful | 91 errors
+2025-11-05 14:24:02,318 - INFO - [SKIP] Row 167/288 [B8F] already completed
+2025-11-05 14:24:02,318 - INFO - [INFO] Processing Row 168/288 [B8C]
+2025-11-05 14:24:02,319 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stirata. C'è un'asse da stiro in balcone. Maria dice: "Se ...
+2025-11-05 14:24:08,561 - INFO - [ANSWER] No, **non è vero** che c'è un ferro da stiro nell'armadio — **almeno non possiamo dedurlo con certez...
+2025-11-05 14:24:08,561 - INFO - [OK] Row 168 [B8C] completed successfully
+2025-11-05 14:24:08,568 - INFO - [OK] Answer 168 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:08,568 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 168/288 processed | 198 successful | 90 errors
+2025-11-05 14:24:08,569 - INFO - [INFO] Processing Row 169/288 [B9T]
+2025-11-05 14:24:08,569 - INFO - [PROMPT] Ecco il contesto: Susanna vuole leggere e ci sono dei libri sullo scaffale. C'è anche un giornale su...
+2025-11-05 14:24:12,361 - INFO - [ANSWER] Sì, è vero che ci sono dei libri sullo scaffale.
+
+Maria afferma: *“Se Susanna vuole leggere, ci sono...
+2025-11-05 14:24:12,361 - INFO - [OK] Row 169 [B9T] completed successfully
+2025-11-05 14:24:12,369 - INFO - [OK] Answer 169 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:12,369 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 169/288 processed | 199 successful | 89 errors
+2025-11-05 14:24:12,369 - INFO - [INFO] Processing Row 170/288 [B9F]
+2025-11-05 14:24:12,369 - INFO - [PROMPT] Ecco il contesto: Susanna vuole leggere e non ci sono libri sullo scaffale. Non c'è nemmeno un giorn...
+2025-11-05 14:24:18,002 - INFO - [ANSWER] No, **non è vero** che ci sono dei libri sullo scaffale.
+
+**Spiegazione:**
+
+Nel contesto, si afferma...
+2025-11-05 14:24:18,002 - INFO - [OK] Row 170 [B9F] completed successfully
+2025-11-05 14:24:18,009 - INFO - [OK] Answer 170 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:18,010 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 170/288 processed | 200 successful | 88 errors
+2025-11-05 14:24:18,010 - INFO - [INFO] Processing Row 171/288 [B9C]
+2025-11-05 14:24:18,010 - INFO - [PROMPT] Ecco il contesto: Susanna non vuole leggere. C'è un giornale sul divano. Maria dice: "Se Susanna vuo...
+2025-11-05 14:24:22,717 - INFO - [ANSWER] Sì, è vero che ci sono dei libri sullo scaffale.
+
+Maria dice: *“Se Susanna vuole leggere, ci sono de...
+2025-11-05 14:24:22,717 - INFO - [OK] Row 171 [B9C] completed successfully
+2025-11-05 14:24:22,724 - INFO - [OK] Answer 171 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:22,725 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 171/288 processed | 201 successful | 87 errors
+2025-11-05 14:24:22,725 - INFO - [INFO] Processing Row 172/288 [F1T]
+2025-11-05 14:24:22,725 - INFO - [PROMPT] Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della...
+2025-11-05 14:24:25,305 - INFO - [ANSWER] Sì, nel contesto fornito, la pizza appare più popolare della pasta.  
+Anche se è più cara, la gente ...
+2025-11-05 14:24:25,305 - INFO - [OK] Row 172 [F1T] completed successfully
+2025-11-05 14:24:25,312 - INFO - [OK] Answer 172 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:25,312 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 172/288 processed | 202 successful | 86 errors
+2025-11-05 14:24:25,312 - INFO - [INFO] Processing Row 173/288 [F1F]
+2025-11-05 14:24:25,312 - INFO - [PROMPT] Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della...
+2025-11-05 14:24:28,750 - INFO - [ANSWER] No, la pasta non è più popolare della pizza.
+
+Nel contesto fornito si dice chiaramente che **“la gen...
+2025-11-05 14:24:28,751 - INFO - [OK] Row 173 [F1F] completed successfully
+2025-11-05 14:24:28,757 - INFO - [OK] Answer 173 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:28,758 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 173/288 processed | 203 successful | 85 errors
+2025-11-05 14:24:28,758 - INFO - [INFO] Processing Row 174/288 [F2T]
+2025-11-05 14:24:28,758 - INFO - [PROMPT] Ecco il contesto: Nonostante il caffè sia più economico del tè verde, la maggior parte delle persone...
+2025-11-05 14:24:32,396 - INFO - [ANSWER] Sì, nel contesto fornito, **il tè verde è usato più del caffè**.
+
+La frase “la maggior parte delle p...
+2025-11-05 14:24:32,396 - INFO - [OK] Row 174 [F2T] completed successfully
+2025-11-05 14:24:32,403 - INFO - [OK] Answer 174 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:32,404 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 174/288 processed | 204 successful | 84 errors
+2025-11-05 14:24:32,404 - INFO - [SKIP] Row 175/288 [F2F] already completed
+2025-11-05 14:24:32,404 - INFO - [SKIP] Row 176/288 [F3T] already completed
+2025-11-05 14:24:32,404 - INFO - [SKIP] Row 177/288 [F3F] already completed
+2025-11-05 14:24:32,404 - INFO - [SKIP] Row 178/288 [F4T] already completed
+2025-11-05 14:24:32,404 - INFO - [SKIP] Row 179/288 [F4F] already completed
+2025-11-05 14:24:32,404 - INFO - [SKIP] Row 180/288 [F5T] already completed
+2025-11-05 14:24:32,404 - INFO - [INFO] Processing Row 181/288 [F5F]
+2025-11-05 14:24:32,404 - INFO - [PROMPT] Ecco il contesto: Nonostante il sushi sia più sano degli hamburger, la gente mangia più spesso gli h...
+2025-11-05 14:24:35,455 - INFO - [ANSWER] No, il sushi non è più popolare degli hamburger.
+
+Nel contesto fornito, si afferma esplicitamente ch...
+2025-11-05 14:24:35,455 - INFO - [OK] Row 181 [F5F] completed successfully
+2025-11-05 14:24:35,463 - INFO - [OK] Answer 181 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:35,463 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 181/288 processed | 205 successful | 83 errors
+2025-11-05 14:24:35,463 - INFO - [INFO] Processing Row 182/288 [F6T]
+2025-11-05 14:24:35,463 - INFO - [PROMPT] Ecco il contesto: Nonostante le banane siano più costose dei kiwi, la gente le acquista di più. Ci s...
+2025-11-05 14:24:38,844 - INFO - [ANSWER] Sì, nel contesto fornito, **le banane sono più popolari dei kiwi**.
+
+Anche se sono più costose, la g...
+2025-11-05 14:24:38,844 - INFO - [OK] Row 182 [F6T] completed successfully
+2025-11-05 14:24:38,851 - INFO - [OK] Answer 182 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:38,852 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 182/288 processed | 206 successful | 82 errors
+2025-11-05 14:24:38,852 - INFO - [INFO] Processing Row 183/288 [F6F]
+2025-11-05 14:24:38,852 - INFO - [PROMPT] Ecco il contesto: Nonostante le banane siano più costose dei kiwi, la gente le acquista di più. Ci s...
+2025-11-05 14:24:42,316 - INFO - [ANSWER] No, i kiwi non sono più popolari delle banane.
+
+Nel contesto fornito si afferma che **nonostante le ...
+2025-11-05 14:24:42,317 - INFO - [OK] Row 183 [F6F] completed successfully
+2025-11-05 14:24:42,324 - INFO - [OK] Answer 183 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:42,325 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 183/288 processed | 207 successful | 81 errors
+2025-11-05 14:24:42,325 - INFO - [INFO] Processing Row 184/288 [F7T]
+2025-11-05 14:24:42,325 - INFO - [PROMPT] Ecco il contesto: Nonostante i cani siano più vivaci dei gatti, le persone li preferiscono. C'è un g...
+2025-11-05 14:24:45,273 - INFO - [ANSWER] No, nel contesto fornito **i cani non sono più popolari dei gatti**.
+
+La frase dice: *“Nonostante i ...
+2025-11-05 14:24:45,273 - INFO - [OK] Row 184 [F7T] completed successfully
+2025-11-05 14:24:45,281 - INFO - [OK] Answer 184 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:45,281 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 184/288 processed | 208 successful | 80 errors
+2025-11-05 14:24:45,281 - INFO - [INFO] Processing Row 185/288 [F7F]
+2025-11-05 14:24:45,281 - INFO - [PROMPT] Ecco il contesto: Nonostante i cani siano più vivaci dei gatti, le persone li preferiscono. C'è un g...
+2025-11-05 14:24:47,967 - INFO - [ANSWER] No, i gatti non sono più popolari dei cani.
+
+Nel contesto fornito si afferma esplicitamente: *“Nonos...
+2025-11-05 14:24:47,967 - INFO - [OK] Row 185 [F7F] completed successfully
+2025-11-05 14:24:47,974 - INFO - [OK] Answer 185 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:47,974 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 185/288 processed | 209 successful | 79 errors
+2025-11-05 14:24:47,975 - INFO - [SKIP] Row 186/288 [F8T] already completed
+2025-11-05 14:24:47,975 - INFO - [INFO] Processing Row 187/288 [F8F]
+2025-11-05 14:24:47,975 - INFO - [PROMPT] Ecco il contesto: Nonostante leggere sia più istruttivo di guardare la TV, la maggior parte delle pe...
+2025-11-05 14:24:50,922 - INFO - [ANSWER] No, non leggono i libri più persone di quelle che guardano la TV.
+
+Nel contesto fornito si afferma e...
+2025-11-05 14:24:50,922 - INFO - [OK] Row 187 [F8F] completed successfully
+2025-11-05 14:24:50,929 - INFO - [OK] Answer 187 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:50,930 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 187/288 processed | 210 successful | 78 errors
+2025-11-05 14:24:50,930 - INFO - [INFO] Processing Row 188/288 [F9T]
+2025-11-05 14:24:50,930 - INFO - [PROMPT] Ecco il contesto: Nonostante correre sia meglio per la forma fisica rispetto a camminare, la maggior...
+2025-11-05 14:24:54,607 - INFO - [ANSWER] Sì, correre è meglio per la forma fisica rispetto a camminare.
+
+Nel contesto fornito, si afferma esp...
+2025-11-05 14:24:54,607 - INFO - [OK] Row 188 [F9T] completed successfully
+2025-11-05 14:24:54,615 - INFO - [OK] Answer 188 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:54,615 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 188/288 processed | 211 successful | 77 errors
+2025-11-05 14:24:54,615 - INFO - [INFO] Processing Row 189/288 [F9F]
+2025-11-05 14:24:54,615 - INFO - [PROMPT] Ecco il contesto: Nonostante correre sia meglio per la forma fisica rispetto a camminare, la maggior...
+2025-11-05 14:24:57,787 - INFO - [ANSWER] No, camminare **non** è meglio per la forma fisica di correre.
+
+Nel contesto fornito, si afferma esp...
+2025-11-05 14:24:57,787 - INFO - [OK] Row 189 [F9F] completed successfully
+2025-11-05 14:24:57,794 - INFO - [OK] Answer 189 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:24:57,794 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 189/288 processed | 212 successful | 76 errors
+2025-11-05 14:24:57,794 - INFO - [INFO] Processing Row 190/288 [S1T]
+2025-11-05 14:24:57,794 - INFO - [PROMPT] Ecco il contesto: Il pappagallo è nella gabbia. Inoltre, il cane è nella cuccia. Maria aveva detto: ...
+2025-11-05 14:25:04,035 - INFO - [ANSWER] Non possiamo affermare con certezza che **Tommaso ha portato la pizza**.
+
+Ecco perché:
+
+Maria ha det...
+2025-11-05 14:25:04,035 - INFO - [OK] Row 190 [S1T] completed successfully
+2025-11-05 14:25:04,043 - INFO - [OK] Answer 190 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:04,043 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 190/288 processed | 213 successful | 75 errors
+2025-11-05 14:25:04,043 - INFO - [SKIP] Row 191/288 [S1F] already completed
+2025-11-05 14:25:04,043 - INFO - [SKIP] Row 192/288 [S1C] already completed
+2025-11-05 14:25:04,043 - INFO - [INFO] Processing Row 193/288 [S2T]
+2025-11-05 14:25:04,044 - INFO - [PROMPT] Ecco il contesto: Hai finito i broccoli. Hai finito anche la pasta. Maria aveva detto: "Se finisci i...
+2025-11-05 14:25:09,701 - INFO - [ANSWER] Non necessariamente.
+
+Maria ha detto: **“Se finisci i broccoli, Marco ti darà una caramella”**.  
+Qu...
+2025-11-05 14:25:09,702 - INFO - [OK] Row 193 [S2T] completed successfully
+2025-11-05 14:25:09,709 - INFO - [OK] Answer 193 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:09,710 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 193/288 processed | 214 successful | 74 errors
+2025-11-05 14:25:09,710 - INFO - [INFO] Processing Row 194/288 [S2F]
+2025-11-05 14:25:09,710 - INFO - [PROMPT] Ecco il contesto: Hai finito i broccoli. Hai finito anche la pasta. Marco non ti ha dato nessuna car...
+2025-11-05 14:25:12,992 - INFO - [ANSWER] No, non è vero che Marco ti ha dato una caramella.
+
+Secondo Maria:  
+> **“Se finisci i broccoli, Mar...
+2025-11-05 14:25:12,992 - INFO - [OK] Row 194 [S2F] completed successfully
+2025-11-05 14:25:13,000 - INFO - [OK] Answer 194 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:13,000 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 194/288 processed | 215 successful | 73 errors
+2025-11-05 14:25:13,000 - INFO - [SKIP] Row 195/288 [S2C] already completed
+2025-11-05 14:25:13,000 - INFO - [SKIP] Row 196/288 [S3T] already completed
+2025-11-05 14:25:13,000 - INFO - [INFO] Processing Row 197/288 [S3F]
+2025-11-05 14:25:13,000 - INFO - [PROMPT] Ecco il contesto: Le volpi stanno ballando. Inoltre, gli scoiattoli stanno mangiando. Susanna non ha...
+2025-11-05 14:25:18,466 - INFO - [ANSWER] No, **non è vero** che Susanna ha ricevuto una macchina fotografica.
+
+### Spiegazione:
+
+Maria ha det...
+2025-11-05 14:25:18,466 - INFO - [OK] Row 197 [S3F] completed successfully
+2025-11-05 14:25:18,474 - INFO - [OK] Answer 197 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:18,474 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 197/288 processed | 216 successful | 72 errors
+2025-11-05 14:25:18,475 - INFO - [INFO] Processing Row 198/288 [S3C]
+2025-11-05 14:25:18,475 - INFO - [PROMPT] Ecco il contesto: Le volpi non stanno ballando. Neanche gli scoiattoli stanno mangiando. Maria aveva...
+2025-11-05 14:25:24,525 - INFO - [ANSWER] No, **non è vero** che Susanna ha ricevuto una macchina fotografica.
+
+### Spiegazione:
+
+Maria ha det...
+2025-11-05 14:25:24,525 - INFO - [OK] Row 198 [S3C] completed successfully
+2025-11-05 14:25:24,533 - INFO - [OK] Answer 198 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:24,533 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 198/288 processed | 217 successful | 71 errors
+2025-11-05 14:25:24,533 - INFO - [SKIP] Row 199/288 [S4T] already completed
+2025-11-05 14:25:24,533 - INFO - [INFO] Processing Row 200/288 [S4F]
+2025-11-05 14:25:24,533 - INFO - [PROMPT] Ecco il contesto: La TV è accesa. Anche la radio è accesa. Matteo non ha preparato i biscotti. Maria...
+2025-11-05 14:25:28,271 - INFO - [ANSWER] No, **non è vero** che Matteo ha preparato dei biscotti.
+
+Secondo quanto dice Maria:  
+> **“Se la TV...
+2025-11-05 14:25:28,271 - INFO - [OK] Row 200 [S4F] completed successfully
+2025-11-05 14:25:28,278 - INFO - [OK] Answer 200 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:28,279 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 200/288 processed | 218 successful | 70 errors
+2025-11-05 14:25:28,279 - INFO - [INFO] Processing Row 201/288 [S4C]
+2025-11-05 14:25:28,279 - INFO - [PROMPT] Ecco il contesto: La TV è spenta. Anche la radio è spenta. Maria aveva detto: "Se la TV è accesa, Ma...
+2025-11-05 14:25:33,977 - INFO - [ANSWER] No, non è vero che Matteo ha preparato dei biscotti.
+
+**Spiegazione:**
+
+Maria ha detto:  
+> **"Se la...
+2025-11-05 14:25:33,978 - INFO - [OK] Row 201 [S4C] completed successfully
+2025-11-05 14:25:33,985 - INFO - [OK] Answer 201 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:33,986 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 201/288 processed | 219 successful | 69 errors
+2025-11-05 14:25:33,986 - INFO - [INFO] Processing Row 202/288 [S5T]
+2025-11-05 14:25:33,986 - INFO - [PROMPT] Ecco il contesto: Oggi il tempo è soleggiato. Inoltre, non c'è vento. Maria aveva detto: "Se il temp...
+2025-11-05 14:25:38,518 - INFO - [ANSWER] Non possiamo affermare con certezza che Emma si sia vestita di viola.
+
+**Spiegazione:**
+
+Maria ha de...
+2025-11-05 14:25:38,519 - INFO - [OK] Row 202 [S5T] completed successfully
+2025-11-05 14:25:38,526 - INFO - [OK] Answer 202 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:38,527 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 202/288 processed | 220 successful | 68 errors
+2025-11-05 14:25:38,527 - INFO - [SKIP] Row 203/288 [S5F] already completed
+2025-11-05 14:25:38,527 - INFO - [SKIP] Row 204/288 [S5C] already completed
+2025-11-05 14:25:38,527 - INFO - [INFO] Processing Row 205/288 [S6T]
+2025-11-05 14:25:38,527 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è vuoto. Inoltre, le strade sono tranquille. Maria aveva detto: "S...
+2025-11-05 14:25:44,066 - INFO - [ANSWER] Non possiamo affermare con certezza che **Angela si è fatta un selfie**, anche se il parco giochi è ...
+2025-11-05 14:25:44,066 - INFO - [OK] Row 205 [S6T] completed successfully
+2025-11-05 14:25:44,073 - INFO - [OK] Answer 205 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:44,073 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 205/288 processed | 221 successful | 67 errors
+2025-11-05 14:25:44,074 - INFO - [INFO] Processing Row 206/288 [S6F]
+2025-11-05 14:25:44,074 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è vuoto. Inoltre, le strade sono tranquille. Angela non si è fatta...
+2025-11-05 14:25:47,868 - INFO - [ANSWER] No, **non è vero** che Angela si è fatta un selfie.
+
+### Spiegazione:
+
+Maria ha detto:  
+> **"Se il ...
+2025-11-05 14:25:47,868 - INFO - [OK] Row 206 [S6F] completed successfully
+2025-11-05 14:25:47,876 - INFO - [OK] Answer 206 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:47,876 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 206/288 processed | 222 successful | 66 errors
+2025-11-05 14:25:47,876 - INFO - [INFO] Processing Row 207/288 [S6C]
+2025-11-05 14:25:47,877 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è pieno. Inoltre, le strade sono affollate. Maria aveva detto: "Se...
+2025-11-05 14:25:52,442 - INFO - [ANSWER] No, non è vero che Angela si è fatta un selfie.
+
+**Spiegazione:**
+
+Maria ha detto:  
+> **"Se il parc...
+2025-11-05 14:25:52,442 - INFO - [OK] Row 207 [S6C] completed successfully
+2025-11-05 14:25:52,450 - INFO - [OK] Answer 207 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:52,450 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 207/288 processed | 223 successful | 65 errors
+2025-11-05 14:25:52,450 - INFO - [INFO] Processing Row 208/288 [S7T]
+2025-11-05 14:25:52,450 - INFO - [PROMPT] Ecco il contesto: Il prato è stato tagliato. Inoltre, i fiori sono stati annaffiati. Maria aveva det...
+2025-11-05 14:25:59,045 - INFO - [ANSWER] Non possiamo affermare con certezza che Paolo ha ricevuto 50 euro.
+
+**Spiegazione:**
+
+Maria ha detto...
+2025-11-05 14:25:59,046 - INFO - [OK] Row 208 [S7T] completed successfully
+2025-11-05 14:25:59,054 - INFO - [OK] Answer 208 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:25:59,054 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 208/288 processed | 224 successful | 64 errors
+2025-11-05 14:25:59,054 - INFO - [INFO] Processing Row 209/288 [S7F]
+2025-11-05 14:25:59,054 - INFO - [PROMPT] Ecco il contesto: Il prato è stato tagliato. Inoltre, i fiori sono stati annaffiati. Paolo non ha ri...
+2025-11-05 14:26:03,389 - INFO - [ANSWER] No, **non è vero** che Paolo ha ricevuto 50 euro.
+
+**Spiegazione:**
+
+Maria ha detto:  
+> *“Se Paolo ...
+2025-11-05 14:26:03,389 - INFO - [OK] Row 209 [S7F] completed successfully
+2025-11-05 14:26:03,397 - INFO - [OK] Answer 209 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:03,398 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 209/288 processed | 225 successful | 63 errors
+2025-11-05 14:26:03,398 - INFO - [INFO] Processing Row 210/288 [S7C]
+2025-11-05 14:26:03,398 - INFO - [PROMPT] Ecco il contesto: Il prato non è stato tagliato. Inoltre, i fiori devono ancora essere annaffiati.  ...
+2025-11-05 14:26:06,071 - INFO - [ANSWER] No, non è vero che Paolo ha ricevuto 50 euro.
+
+**Motivazione:**  
+Maria ha detto: *“Se Paolo taglia ...
+2025-11-05 14:26:06,071 - INFO - [OK] Row 210 [S7C] completed successfully
+2025-11-05 14:26:06,078 - INFO - [OK] Answer 210 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:06,079 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 210/288 processed | 226 successful | 62 errors
+2025-11-05 14:26:06,079 - INFO - [INFO] Processing Row 211/288 [S8T]
+2025-11-05 14:26:06,079 - INFO - [PROMPT] Ecco il contesto: Il cane sta giocando. Inoltre, il gatto si sta arrampicando sull'albero. Maria ave...
+2025-11-05 14:26:11,008 - INFO - [ANSWER] Sì, **è vero che Antonio ha letto un libro**, **se accettiamo come vera la dichiarazione di Maria**....
+2025-11-05 14:26:11,008 - INFO - [OK] Row 211 [S8T] completed successfully
+2025-11-05 14:26:11,016 - INFO - [OK] Answer 211 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:11,016 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 211/288 processed | 227 successful | 61 errors
+2025-11-05 14:26:11,016 - INFO - [INFO] Processing Row 212/288 [S8F]
+2025-11-05 14:26:11,016 - INFO - [PROMPT] Ecco il contesto: Il cane sta giocando. Inoltre, il gatto si sta arrampicando sull'albero. Antonio n...
+2025-11-05 14:26:16,320 - INFO - [ANSWER] No, **non è vero** che Antonio ha letto un libro.
+
+### Spiegazione:
+
+Maria ha detto:  
+> **"Se il ca...
+2025-11-05 14:26:16,320 - INFO - [OK] Row 212 [S8F] completed successfully
+2025-11-05 14:26:16,328 - INFO - [OK] Answer 212 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:16,329 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 212/288 processed | 228 successful | 60 errors
+2025-11-05 14:26:16,329 - INFO - [SKIP] Row 213/288 [S8C] already completed
+2025-11-05 14:26:16,329 - INFO - [SKIP] Row 214/288 [S9T] already completed
+2025-11-05 14:26:16,329 - INFO - [INFO] Processing Row 215/288 [S9F]
+2025-11-05 14:26:16,329 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Anna non ha portato delle ciamb...
+2025-11-05 14:26:20,234 - INFO - [ANSWER] No, **non è vero** che Anna ha portato delle ciambelle.
+
+### Spiegazione:
+
+Maria ha detto:  
+> **"Se...
+2025-11-05 14:26:20,234 - INFO - [OK] Row 215 [S9F] completed successfully
+2025-11-05 14:26:20,242 - INFO - [OK] Answer 215 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:20,243 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 215/288 processed | 229 successful | 59 errors
+2025-11-05 14:26:20,243 - INFO - [SKIP] Row 216/288 [S9C] already completed
+2025-11-05 14:26:20,243 - INFO - [SKIP] Row 217/288 [B1T] already completed
+2025-11-05 14:26:20,243 - INFO - [SKIP] Row 218/288 [B1F] already completed
+2025-11-05 14:26:20,243 - INFO - [INFO] Processing Row 219/288 [B1C]
+2025-11-05 14:26:20,243 - INFO - [PROMPT] Aquí tienes el contexto: Juan no tiene hambre. Hay pasta en la nevera. María dice: "Si Juan tiene ha...
+2025-11-05 14:26:25,182 - INFO - [ANSWER] No, no se puede afirmar que haya pizza en el horno.
+
+La afirmación de María es una **condicional**: ...
+2025-11-05 14:26:25,182 - INFO - [OK] Row 219 [B1C] completed successfully
+2025-11-05 14:26:25,191 - INFO - [OK] Answer 219 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:25,191 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 219/288 processed | 230 successful | 58 errors
+2025-11-05 14:26:25,191 - INFO - [INFO] Processing Row 220/288 [B2T]
+2025-11-05 14:26:25,191 - INFO - [PROMPT] Aquí tienes el contexto: A Noelia le duele la cabeza y hay aspirinas sobre la mesa. También hay ibup...
+2025-11-05 14:26:28,500 - INFO - [ANSWER] Sí, según lo que dice María, **es verdad que hay aspirinas sobre la mesa**.
+
+María afirma:  
+> *"Si ...
+2025-11-05 14:26:28,500 - INFO - [OK] Row 220 [B2T] completed successfully
+2025-11-05 14:26:28,509 - INFO - [OK] Answer 220 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:28,509 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 220/288 processed | 231 successful | 57 errors
+2025-11-05 14:26:28,509 - INFO - [SKIP] Row 221/288 [B2F] already completed
+2025-11-05 14:26:28,509 - INFO - [SKIP] Row 222/288 [B2C] already completed
+2025-11-05 14:26:28,509 - INFO - [INFO] Processing Row 223/288 [B3T]
+2025-11-05 14:26:28,509 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed y hay agua en la nevera. También hay zumo de manzana en la ...
+2025-11-05 14:26:31,985 - INFO - [ANSWER] Sí, es verdad que hay agua en la nevera.
+
+María dice: **"Si Lucía tiene sed, hay agua en la nevera"*...
+2025-11-05 14:26:31,985 - INFO - [OK] Row 223 [B3T] completed successfully
+2025-11-05 14:26:31,993 - INFO - [OK] Answer 223 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:31,993 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 223/288 processed | 232 successful | 56 errors
+2025-11-05 14:26:31,993 - INFO - [INFO] Processing Row 224/288 [B3F]
+2025-11-05 14:26:31,993 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed y no hay agua en la nevera. Tampoco hay zumo de manzana en ...
+2025-11-05 14:26:35,537 - INFO - [ANSWER] No, **no es verdad que haya agua en la nevera**.
+
+Según el contexto:
+
+- Lucía tiene sed.
+- **No hay ...
+2025-11-05 14:26:35,537 - INFO - [OK] Row 224 [B3F] completed successfully
+2025-11-05 14:26:35,545 - INFO - [OK] Answer 224 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:35,545 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 224/288 processed | 233 successful | 55 errors
+2025-11-05 14:26:35,545 - INFO - [INFO] Processing Row 225/288 [B3C]
+2025-11-05 14:26:35,545 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed. Hay zumo de manzana en la estantería. María dice: "Si Lucí...
+2025-11-05 14:26:40,160 - INFO - [ANSWER] No necesariamente. 
+
+María dice: **"Si Lucía tiene sed, hay agua en la nevera"**. Esto es una **cond...
+2025-11-05 14:26:40,160 - INFO - [OK] Row 225 [B3C] completed successfully
+2025-11-05 14:26:40,168 - INFO - [OK] Answer 225 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:40,168 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 225/288 processed | 234 successful | 54 errors
+2025-11-05 14:26:40,168 - INFO - [SKIP] Row 226/288 [B4T] already completed
+2025-11-05 14:26:40,168 - INFO - [SKIP] Row 227/288 [B4F] already completed
+2025-11-05 14:26:40,168 - INFO - [INFO] Processing Row 228/288 [B4C]
+2025-11-05 14:26:40,168 - INFO - [PROMPT] Aquí tienes el contexto: El móvil de Pedro tiene la batería llena. Hay un ordenador sobre la mesa. M...
+2025-11-05 14:26:44,720 - INFO - [ANSWER] No, **no se puede afirmar con certeza que haya un cargador en el cajón**.
+
+María dice:  
+> *"Si el m...
+2025-11-05 14:26:44,721 - INFO - [OK] Row 228 [B4C] completed successfully
+2025-11-05 14:26:44,728 - INFO - [OK] Answer 228 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:44,729 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 228/288 processed | 235 successful | 53 errors
+2025-11-05 14:26:44,729 - INFO - [INFO] Processing Row 229/288 [B5T]
+2025-11-05 14:26:44,729 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está lluvioso y hay un paraguas en el paragüero. También hay un c...
+2025-11-05 14:26:47,476 - INFO - [ANSWER] Sí, es verdad que hay un paraguas en el paragüero.
+
+María dice: *"Si el tiempo está lluvioso, hay un...
+2025-11-05 14:26:47,476 - INFO - [OK] Row 229 [B5T] completed successfully
+2025-11-05 14:26:47,484 - INFO - [OK] Answer 229 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:47,484 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 229/288 processed | 236 successful | 52 errors
+2025-11-05 14:26:47,484 - INFO - [INFO] Processing Row 230/288 [B5F]
+2025-11-05 14:26:47,484 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está lluvioso y no hay paraguas en el paragüero. Tampoco hay ning...
+2025-11-05 14:26:52,079 - INFO - [ANSWER] No, **no es verdad** que haya un paraguas en el paragüero.
+
+### Explicación:
+
+María dice:  
+> **"Si ...
+2025-11-05 14:26:52,079 - INFO - [OK] Row 230 [B5F] completed successfully
+2025-11-05 14:26:52,087 - INFO - [OK] Answer 230 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:52,087 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 230/288 processed | 237 successful | 51 errors
+2025-11-05 14:26:52,087 - INFO - [INFO] Processing Row 231/288 [B5C]
+2025-11-05 14:26:52,087 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está despejado. Hay un chubasquero en el coche. María dice: "Si e...
+2025-11-05 14:26:57,022 - INFO - [ANSWER] No, no se puede afirmar que haya un paraguas en el paragüero.
+
+María dice: **“Si el tiempo está lluv...
+2025-11-05 14:26:57,022 - INFO - [OK] Row 231 [B5C] completed successfully
+2025-11-05 14:26:57,031 - INFO - [OK] Answer 231 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:26:57,031 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 231/288 processed | 238 successful | 50 errors
+2025-11-05 14:26:57,031 - INFO - [INFO] Processing Row 232/288 [B6T]
+2025-11-05 14:26:57,031 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está pinchada y hay una bomba de aire en el garaje. Tamb...
+2025-11-05 14:27:00,314 - INFO - [ANSWER] Sí, según lo que dice María, **es verdad que hay una bomba de aire en el garaje**.
+
+María afirma:  
+...
+2025-11-05 14:27:00,315 - INFO - [OK] Row 232 [B6T] completed successfully
+2025-11-05 14:27:00,322 - INFO - [OK] Answer 232 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:00,323 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 232/288 processed | 239 successful | 49 errors
+2025-11-05 14:27:00,323 - INFO - [INFO] Processing Row 233/288 [B6F]
+2025-11-05 14:27:00,323 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está pinchada y no hay ninguna bomba de aire en el garaj...
+2025-11-05 14:27:04,589 - INFO - [ANSWER] No, **no es verdad** que haya una bomba de aire en el garaje.
+
+### Explicación:
+
+María dice:  
+> **"...
+2025-11-05 14:27:04,589 - INFO - [OK] Row 233 [B6F] completed successfully
+2025-11-05 14:27:04,597 - INFO - [OK] Answer 233 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:04,597 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 233/288 processed | 240 successful | 48 errors
+2025-11-05 14:27:04,597 - INFO - [INFO] Processing Row 234/288 [B6C]
+2025-11-05 14:27:04,597 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está inflada. Hay una bicicleta junto a la puerta de ent...
+2025-11-05 14:27:08,466 - INFO - [ANSWER] No, no se puede afirmar que sea verdad que hay una bomba de aire en el garaje.
+
+María dice: **“Si la...
+2025-11-05 14:27:08,466 - INFO - [OK] Row 234 [B6C] completed successfully
+2025-11-05 14:27:08,474 - INFO - [OK] Answer 234 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:08,474 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 234/288 processed | 241 successful | 47 errors
+2025-11-05 14:27:08,474 - INFO - [INFO] Processing Row 235/288 [B7T]
+2025-11-05 14:27:08,474 - INFO - [PROMPT] Aquí tienes el contexto: La planta está seca y hay un regador en la estantería. También hay una mang...
+2025-11-05 14:27:11,486 - INFO - [ANSWER] Sí, según lo que dice María, **es verdad que hay un regador en la estantería**.
+
+María afirma:  
+> *...
+2025-11-05 14:27:11,486 - INFO - [OK] Row 235 [B7T] completed successfully
+2025-11-05 14:27:11,494 - INFO - [OK] Answer 235 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:11,495 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 235/288 processed | 242 successful | 46 errors
+2025-11-05 14:27:11,495 - INFO - [INFO] Processing Row 236/288 [B7F]
+2025-11-05 14:27:11,495 - INFO - [PROMPT] Aquí tienes el contexto: La planta está seca y no hay ningún regador en la estantería. Tampoco hay u...
+2025-11-05 14:27:16,588 - INFO - [ANSWER] No, **no es verdad** que haya un regador en la estantería.
+
+### Explicación:
+
+María dice:  
+> **"Si ...
+2025-11-05 14:27:16,589 - INFO - [OK] Row 236 [B7F] completed successfully
+2025-11-05 14:27:16,597 - INFO - [OK] Answer 236 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:16,597 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 236/288 processed | 243 successful | 45 errors
+2025-11-05 14:27:16,597 - INFO - [INFO] Processing Row 237/288 [B7C]
+2025-11-05 14:27:16,597 - INFO - [PROMPT] Aquí tienes el contexto: La planta no está seca. Hay una manguera en el jardín. María dice: "Si la p...
+2025-11-05 14:27:24,417 - INFO - [ANSWER] No, no es verdad que haya un regador en la estantería.
+
+**Explicación:**
+
+María dice:  
+> **"Si la p...
+2025-11-05 14:27:24,417 - INFO - [OK] Row 237 [B7C] completed successfully
+2025-11-05 14:27:24,425 - INFO - [OK] Answer 237 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:24,426 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 237/288 processed | 244 successful | 44 errors
+2025-11-05 14:27:24,426 - INFO - [INFO] Processing Row 238/288 [B8T]
+2025-11-05 14:27:24,426 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está arrugada y hay una plancha en el armario. También h...
+2025-11-05 14:27:27,871 - INFO - [ANSWER] Sí, según lo que dice María, **es verdad que hay una plancha en el armario**.
+
+María afirma:  
+> *"S...
+2025-11-05 14:27:27,871 - INFO - [OK] Row 238 [B8T] completed successfully
+2025-11-05 14:27:27,879 - INFO - [OK] Answer 238 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:27,880 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 238/288 processed | 245 successful | 43 errors
+2025-11-05 14:27:27,880 - INFO - [INFO] Processing Row 239/288 [B8F]
+2025-11-05 14:27:27,880 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está arrugada y no hay ninguna plancha en el armario. Ta...
+2025-11-05 14:27:32,116 - INFO - [ANSWER] No, **no es verdad** que haya una plancha en el armario.
+
+### Explicación:
+
+María dice:  
+> **"Si la...
+2025-11-05 14:27:32,117 - INFO - [OK] Row 239 [B8F] completed successfully
+2025-11-05 14:27:32,125 - INFO - [OK] Answer 239 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:32,125 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 239/288 processed | 246 successful | 42 errors
+2025-11-05 14:27:32,125 - INFO - [INFO] Processing Row 240/288 [B8C]
+2025-11-05 14:27:32,125 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está planchada. Hay una tabla de planchar en el balcón. ...
+2025-11-05 14:27:37,873 - INFO - [ANSWER] No, **no es verdad** que haya una plancha en el armario, según lo que dice María.
+
+### Explicación:
+...
+2025-11-05 14:27:37,873 - INFO - [OK] Row 240 [B8C] completed successfully
+2025-11-05 14:27:37,881 - INFO - [OK] Answer 240 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:37,882 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 240/288 processed | 247 successful | 41 errors
+2025-11-05 14:27:37,882 - INFO - [INFO] Processing Row 241/288 [B9T]
+2025-11-05 14:27:37,882 - INFO - [PROMPT] Aquí tienes el contexto: Susana quiere leer y hay libros en la estantería. También hay un periódico ...
+2025-11-05 14:27:40,163 - INFO - [ANSWER] Sí, es verdad que hay libros en la estantería.
+
+María dice: *"Si Susana quiere leer, hay libros en l...
+2025-11-05 14:27:40,163 - INFO - [OK] Row 241 [B9T] completed successfully
+2025-11-05 14:27:40,171 - INFO - [OK] Answer 241 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:40,171 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 241/288 processed | 248 successful | 40 errors
+2025-11-05 14:27:40,171 - INFO - [INFO] Processing Row 242/288 [B9F]
+2025-11-05 14:27:40,171 - INFO - [PROMPT] Aquí tienes el contexto: Susana quiere leer y no hay libros en la estantería. Tampoco hay un periódi...
+2025-11-05 14:27:43,512 - INFO - [ANSWER] No, no es verdad que haya libros en la estantería.
+
+Según el contexto, **Susana quiere leer y no hay...
+2025-11-05 14:27:43,512 - INFO - [OK] Row 242 [B9F] completed successfully
+2025-11-05 14:27:43,520 - INFO - [OK] Answer 242 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:43,521 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 242/288 processed | 249 successful | 39 errors
+2025-11-05 14:27:43,521 - INFO - [INFO] Processing Row 243/288 [B9C]
+2025-11-05 14:27:43,521 - INFO - [PROMPT] Aquí tienes el contexto: Susana no quiere leer. Hay un periódico en el sofá. María dice: "Si Susana ...
+2025-11-05 14:27:46,846 - INFO - [ANSWER] Sí, según lo que dice María, **es verdad que hay libros en la estantería**.
+
+María afirma: *“Si Susa...
+2025-11-05 14:27:46,846 - INFO - [OK] Row 243 [B9C] completed successfully
+2025-11-05 14:27:46,854 - INFO - [OK] Answer 243 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:46,855 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 243/288 processed | 250 successful | 38 errors
+2025-11-05 14:27:46,855 - INFO - [SKIP] Row 244/288 [F1T] already completed
+2025-11-05 14:27:46,855 - INFO - [SKIP] Row 245/288 [F1F] already completed
+2025-11-05 14:27:46,855 - INFO - [INFO] Processing Row 246/288 [F2T]
+2025-11-05 14:27:46,855 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el café negro sea más barato que el té verde, la mayoría de la gente...
+2025-11-05 14:27:49,451 - INFO - [ANSWER] Sí, se utiliza más el té verde que el café negro.
+
+**Justificación:**  
+El contexto indica que *“la ...
+2025-11-05 14:27:49,452 - INFO - [OK] Row 246 [F2T] completed successfully
+2025-11-05 14:27:49,459 - INFO - [OK] Answer 246 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:49,460 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 246/288 processed | 251 successful | 37 errors
+2025-11-05 14:27:49,460 - INFO - [INFO] Processing Row 247/288 [F2F]
+2025-11-05 14:27:49,460 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el café negro sea más barato que el té verde, la mayoría de la gente...
+2025-11-05 14:27:51,883 - INFO - [ANSWER] No, en este contexto **no se utiliza más el café negro que el té verde**.
+
+Aunque el café negro esté...
+2025-11-05 14:27:51,883 - INFO - [OK] Row 247 [F2F] completed successfully
+2025-11-05 14:27:51,891 - INFO - [OK] Answer 247 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:51,892 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 247/288 processed | 252 successful | 36 errors
+2025-11-05 14:27:51,892 - INFO - [INFO] Processing Row 248/288 [F3T]
+2025-11-05 14:27:51,892 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el agua sea más saludable que los refrescos, mucha gente prefiere lo...
+2025-11-05 14:27:58,596 - INFO - [ANSWER] Sí, en este contexto, **los refrescos tienen más demanda que el agua**, porque se menciona que “much...
+2025-11-05 14:27:58,596 - INFO - [OK] Row 248 [F3T] completed successfully
+2025-11-05 14:27:58,604 - INFO - [OK] Answer 248 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:27:58,605 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 248/288 processed | 253 successful | 35 errors
+2025-11-05 14:27:58,605 - INFO - [INFO] Processing Row 249/288 [F3F]
+2025-11-05 14:27:58,605 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el agua sea más saludable que los refrescos, mucha gente prefiere lo...
+2025-11-05 14:28:02,379 - INFO - [ANSWER] No, en este contexto, **el agua no tiene más demanda que los refrescos**.
+
+Aunque se menciona que el...
+2025-11-05 14:28:02,379 - INFO - [OK] Row 249 [F3F] completed successfully
+2025-11-05 14:28:02,387 - INFO - [OK] Answer 249 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:02,388 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 249/288 processed | 254 successful | 34 errors
+2025-11-05 14:28:02,388 - INFO - [SKIP] Row 250/288 [F4T] already completed
+2025-11-05 14:28:02,388 - INFO - [SKIP] Row 251/288 [F4F] already completed
+2025-11-05 14:28:02,388 - INFO - [SKIP] Row 252/288 [F5T] already completed
+2025-11-05 14:28:02,388 - INFO - [INFO] Processing Row 253/288 [F5F]
+2025-11-05 14:28:02,388 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el sushi sea más sano que las hamburguesas, la gente come hamburgues...
+2025-11-05 14:28:05,432 - INFO - [ANSWER] No, el sushi no es más popular que las hamburguesas en este contexto.
+
+Aunque se menciona que el sus...
+2025-11-05 14:28:05,432 - INFO - [OK] Row 253 [F5F] completed successfully
+2025-11-05 14:28:05,441 - INFO - [OK] Answer 253 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:05,441 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 253/288 processed | 255 successful | 33 errors
+2025-11-05 14:28:05,441 - INFO - [INFO] Processing Row 254/288 [F6T]
+2025-11-05 14:28:05,441 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los plátanos sean más caros que los kiwis, la gente los compra más. ...
+2025-11-05 14:28:07,309 - INFO - [ANSWER] Sí, en este contexto, los plátanos son más populares que los kiwis.
+
+Aunque sean más caros, la gente...
+2025-11-05 14:28:07,309 - INFO - [OK] Row 254 [F6T] completed successfully
+2025-11-05 14:28:07,317 - INFO - [OK] Answer 254 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:07,318 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 254/288 processed | 256 successful | 32 errors
+2025-11-05 14:28:07,318 - INFO - [INFO] Processing Row 255/288 [F6F]
+2025-11-05 14:28:07,318 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los plátanos sean más caros que los kiwis, la gente los compra más. ...
+2025-11-05 14:28:09,867 - INFO - [ANSWER] No, los kiwis no son más populares que los plátanos.
+
+En el contexto dado se dice que **“aunque los ...
+2025-11-05 14:28:09,867 - INFO - [OK] Row 255 [F6F] completed successfully
+2025-11-05 14:28:09,877 - INFO - [OK] Answer 255 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:09,878 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 255/288 processed | 257 successful | 31 errors
+2025-11-05 14:28:09,878 - INFO - [INFO] Processing Row 256/288 [F7T]
+2025-11-05 14:28:09,878 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los perros sean más vivaces que los gatos, la gente los prefiere. Ha...
+2025-11-05 14:28:12,502 - INFO - [ANSWER] Sí, en este contexto se indica que **los perros son más populares que los gatos**, ya que se dice: *...
+2025-11-05 14:28:12,503 - INFO - [OK] Row 256 [F7T] completed successfully
+2025-11-05 14:28:12,516 - INFO - [OK] Answer 256 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:12,517 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 256/288 processed | 258 successful | 30 errors
+2025-11-05 14:28:12,518 - INFO - [INFO] Processing Row 257/288 [F7F]
+2025-11-05 14:28:12,518 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los perros sean más vivaces que los gatos, la gente los prefiere. Ha...
+2025-11-05 14:28:15,384 - INFO - [ANSWER] No, en este contexto los gatos **no** son más populares que los perros. De hecho, se dice que “la ge...
+2025-11-05 14:28:15,384 - INFO - [OK] Row 257 [F7F] completed successfully
+2025-11-05 14:28:15,404 - INFO - [OK] Answer 257 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:15,405 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 257/288 processed | 259 successful | 29 errors
+2025-11-05 14:28:15,405 - INFO - [INFO] Processing Row 258/288 [F8T]
+2025-11-05 14:28:15,405 - INFO - [PROMPT] Aquí tienes el contexto: Aunque leer libros sea más educativo que ver la televisión, mucha gente ve ...
+2025-11-05 14:28:18,180 - INFO - [ANSWER] Sí, según el contexto proporcionado, más personas ven la televisión de las que leen libros. El texto...
+2025-11-05 14:28:18,180 - INFO - [OK] Row 258 [F8T] completed successfully
+2025-11-05 14:28:18,189 - INFO - [OK] Answer 258 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:18,189 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 258/288 processed | 260 successful | 28 errors
+2025-11-05 14:28:18,190 - INFO - [INFO] Processing Row 259/288 [F8F]
+2025-11-05 14:28:18,190 - INFO - [PROMPT] Aquí tienes el contexto: Aunque leer libros sea más educativo que ver la televisión, mucha gente ve ...
+2025-11-05 14:28:20,942 - INFO - [ANSWER] Sí, según el contexto proporcionado, más personas ven la televisión de las que leen libros. El texto...
+2025-11-05 14:28:20,943 - INFO - [OK] Row 259 [F8F] completed successfully
+2025-11-05 14:28:20,960 - INFO - [OK] Answer 259 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:20,961 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 259/288 processed | 261 successful | 27 errors
+2025-11-05 14:28:20,961 - INFO - [INFO] Processing Row 260/288 [F9T]
+2025-11-05 14:28:20,962 - INFO - [PROMPT] Aquí tienes el contexto: Aunque correr sea mejor para la forma física que caminar, la mayoría de la ...
+2025-11-05 14:28:23,270 - INFO - [ANSWER] Sí, caminar es más popular que correr.
+
+En el contexto dado se afirma que “la mayoría de la gente pr...
+2025-11-05 14:28:23,271 - INFO - [OK] Row 260 [F9T] completed successfully
+2025-11-05 14:28:23,302 - INFO - [OK] Answer 260 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:23,303 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 260/288 processed | 262 successful | 26 errors
+2025-11-05 14:28:23,303 - INFO - [INFO] Processing Row 261/288 [F9F]
+2025-11-05 14:28:23,303 - INFO - [PROMPT] Aquí tienes el contexto: Aunque correr sea mejor para la forma física que caminar, la mayoría de la ...
+2025-11-05 14:28:26,063 - INFO - [ANSWER] No, correr no es más popular que caminar.
+
+En el contexto dado se dice: *“Aunque correr sea mejor pa...
+2025-11-05 14:28:26,063 - INFO - [OK] Row 261 [F9F] completed successfully
+2025-11-05 14:28:26,071 - INFO - [OK] Answer 261 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:26,072 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 261/288 processed | 263 successful | 25 errors
+2025-11-05 14:28:26,072 - INFO - [INFO] Processing Row 262/288 [S1T]
+2025-11-05 14:28:26,072 - INFO - [PROMPT] Aquí tienes el contexto: El loro está en la jaula. Además, el perro está en la caseta. María había d...
+2025-11-05 14:28:31,513 - INFO - [ANSWER] No necesariamente. 
+
+Según lo que dijo María: **«Si el loro está en la jaula, Tomás traerá pizza»**,...
+2025-11-05 14:28:31,513 - INFO - [OK] Row 262 [S1T] completed successfully
+2025-11-05 14:28:31,522 - INFO - [OK] Answer 262 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:31,522 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 262/288 processed | 264 successful | 24 errors
+2025-11-05 14:28:31,522 - INFO - [INFO] Processing Row 263/288 [S1F]
+2025-11-05 14:28:31,522 - INFO - [PROMPT] Aquí tienes el contexto: El loro está en la jaula. Además, el perro está en la caseta. Tomás no traj...
+2025-11-05 14:28:36,791 - INFO - [ANSWER] No, **no es verdad que Tomás trajo pizza**.
+
+Según el contexto:
+
+- El loro **está en la jaula** (con...
+2025-11-05 14:28:36,791 - INFO - [OK] Row 263 [S1F] completed successfully
+2025-11-05 14:28:36,800 - INFO - [OK] Answer 263 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:36,800 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 263/288 processed | 265 successful | 23 errors
+2025-11-05 14:28:36,800 - INFO - [INFO] Processing Row 264/288 [S1C]
+2025-11-05 14:28:36,800 - INFO - [PROMPT] Aquí tienes el contexto: El loro no está en la jaula. Además, el perro tampoco está en la caseta. Ma...
+2025-11-05 14:28:43,827 - INFO - [ANSWER] No, **no es verdad que Tomás trajo pizza**.
+
+### Explicación:
+
+María dijo:  
+> **«Si el loro está en...
+2025-11-05 14:28:43,827 - INFO - [OK] Row 264 [S1C] completed successfully
+2025-11-05 14:28:43,839 - INFO - [OK] Answer 264 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:43,840 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 264/288 processed | 266 successful | 22 errors
+2025-11-05 14:28:43,840 - INFO - [INFO] Processing Row 265/288 [S2T]
+2025-11-05 14:28:43,840 - INFO - [PROMPT] Aquí tienes el contexto: Te has comido el brócoli. También te has comido la pasta. María dice: "Si t...
+2025-11-05 14:28:48,101 - INFO - [ANSWER] No, no se puede afirmar con certeza que Marcos te dio un caramelo.
+
+María dijo: **“Si te comes el br...
+2025-11-05 14:28:48,101 - INFO - [OK] Row 265 [S2T] completed successfully
+2025-11-05 14:28:48,110 - INFO - [OK] Answer 265 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:48,111 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 265/288 processed | 267 successful | 21 errors
+2025-11-05 14:28:48,111 - INFO - [INFO] Processing Row 266/288 [S2F]
+2025-11-05 14:28:48,111 - INFO - [PROMPT] Aquí tienes el contexto: Te has comido el brócoli. También te has comido la pasta. Marcos no te dio ...
+2025-11-05 14:28:50,647 - INFO - [ANSWER] No, no es verdad que Marcos te dio un caramelo.
+
+Según lo que dijo María: **“Si te comes el brócoli,...
+2025-11-05 14:28:50,647 - INFO - [OK] Row 266 [S2F] completed successfully
+2025-11-05 14:28:50,656 - INFO - [OK] Answer 266 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:50,656 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 266/288 processed | 268 successful | 20 errors
+2025-11-05 14:28:50,656 - INFO - [INFO] Processing Row 267/288 [S2C]
+2025-11-05 14:28:50,656 - INFO - [PROMPT] Aquí tienes el contexto: No te has comido el brócoli. Tampoco te has comido la pasta. María había di...
+2025-11-05 14:28:53,215 - INFO - [ANSWER] No, no es verdad que Marcos te dio un caramelo.
+
+Según lo que dijo María: **“Si te comes el brócoli,...
+2025-11-05 14:28:53,215 - INFO - [OK] Row 267 [S2C] completed successfully
+2025-11-05 14:28:53,223 - INFO - [OK] Answer 267 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:53,223 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 267/288 processed | 269 successful | 19 errors
+2025-11-05 14:28:53,223 - INFO - [INFO] Processing Row 268/288 [S3T]
+2025-11-05 14:28:53,223 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros están bailando. Además, las ardillas están comiendo. María había...
+2025-11-05 14:28:56,028 - INFO - [ANSWER] No, no es verdad que Susana recibió una cámara.
+
+Según lo que dijo María:  
+**“Si los zorros están b...
+2025-11-05 14:28:56,028 - INFO - [OK] Row 268 [S3T] completed successfully
+2025-11-05 14:28:56,040 - INFO - [OK] Answer 268 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:56,040 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 268/288 processed | 270 successful | 18 errors
+2025-11-05 14:28:56,040 - INFO - [INFO] Processing Row 269/288 [S3F]
+2025-11-05 14:28:56,040 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros están bailando. Además, las ardillas están comiendo. Irene no re...
+2025-11-05 14:28:59,412 - INFO - [ANSWER] No, **no es verdad que Irene recibió una cámara**.
+
+Según el contexto:
+
+- **Los zorros están bailand...
+2025-11-05 14:28:59,412 - INFO - [OK] Row 269 [S3F] completed successfully
+2025-11-05 14:28:59,420 - INFO - [OK] Answer 269 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:28:59,421 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 269/288 processed | 271 successful | 17 errors
+2025-11-05 14:28:59,421 - INFO - [INFO] Processing Row 270/288 [S3C]
+2025-11-05 14:28:59,421 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros no están bailando. Las ardillas tampoco están comiendo. María ha...
+2025-11-05 14:29:03,550 - INFO - [ANSWER] No, no se puede concluir que **Susana recibió una cámara**.
+
+Analicemos el contexto:
+
+- **Los zorros...
+2025-11-05 14:29:03,550 - INFO - [OK] Row 270 [S3C] completed successfully
+2025-11-05 14:29:03,559 - INFO - [OK] Answer 270 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:03,559 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 270/288 processed | 272 successful | 16 errors
+2025-11-05 14:29:03,559 - INFO - [INFO] Processing Row 271/288 [S4T]
+2025-11-05 14:29:03,559 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está encendida. Además, la radio también está encendida. Marí...
+2025-11-05 14:29:07,498 - INFO - [ANSWER] No necesariamente. 
+
+María dijo: **“Si la televisión está encendida, Mateo hará galletas”**. Esto es...
+2025-11-05 14:29:07,499 - INFO - [OK] Row 271 [S4T] completed successfully
+2025-11-05 14:29:07,507 - INFO - [OK] Answer 271 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:07,507 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 271/288 processed | 273 successful | 15 errors
+2025-11-05 14:29:07,507 - INFO - [INFO] Processing Row 272/288 [S4F]
+2025-11-05 14:29:07,507 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está encendida. Además, la radio también está encendida. Mate...
+2025-11-05 14:29:11,124 - INFO - [ANSWER] No, **no es verdad que Mateo hizo galletas**.
+
+Según el contexto:
+
+- La televisión **está encendida*...
+2025-11-05 14:29:11,124 - INFO - [OK] Row 272 [S4F] completed successfully
+2025-11-05 14:29:11,133 - INFO - [OK] Answer 272 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:11,134 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 272/288 processed | 274 successful | 14 errors
+2025-11-05 14:29:11,134 - INFO - [INFO] Processing Row 273/288 [S4C]
+2025-11-05 14:29:11,134 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está apagada. La radio también está apagada. María había dich...
+2025-11-05 14:29:15,064 - INFO - [ANSWER] No, no se puede afirmar que Mateo hizo galletas.
+
+Según lo que dijo María:  
+**“Si la televisión est...
+2025-11-05 14:29:15,064 - INFO - [OK] Row 273 [S4C] completed successfully
+2025-11-05 14:29:15,073 - INFO - [OK] Answer 273 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:15,073 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 273/288 processed | 275 successful | 13 errors
+2025-11-05 14:29:15,073 - INFO - [INFO] Processing Row 274/288 [S5T]
+2025-11-05 14:29:15,074 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está soleado. Además, no hay viento. María había dicho: "Si e...
+2025-11-05 14:29:18,268 - INFO - [ANSWER] Sí, según lo que decía María, **es verdad que Emma fue de morado**.
+
+**Razón:**  
+María dijo: *“Si e...
+2025-11-05 14:29:18,268 - INFO - [OK] Row 274 [S5T] completed successfully
+2025-11-05 14:29:18,276 - INFO - [OK] Answer 274 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:18,276 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 274/288 processed | 276 successful | 12 errors
+2025-11-05 14:29:18,276 - INFO - [INFO] Processing Row 275/288 [S5F]
+2025-11-05 14:29:18,277 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está soleado. Además, no hay viento. Emma fue de verde. María...
+2025-11-05 14:29:20,958 - INFO - [ANSWER] No, no es verdad que Emma fue de morado.
+
+Según María, **si el tiempo está soleado, Emma va a ir de ...
+2025-11-05 14:29:20,959 - INFO - [OK] Row 275 [S5F] completed successfully
+2025-11-05 14:29:20,967 - INFO - [OK] Answer 275 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:20,967 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 275/288 processed | 277 successful | 11 errors
+2025-11-05 14:29:20,967 - INFO - [INFO] Processing Row 276/288 [S5C]
+2025-11-05 14:29:20,967 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está lluvioso. Además, hay mucho viento. María había dicho: "...
+2025-11-05 14:29:24,305 - INFO - [ANSWER] No, no es verdad que Emma fue de morado.
+
+Según lo que dijo María: **“Si el tiempo está soleado, Emm...
+2025-11-05 14:29:24,306 - INFO - [OK] Row 276 [S5C] completed successfully
+2025-11-05 14:29:24,314 - INFO - [OK] Answer 276 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:24,314 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 276/288 processed | 278 successful | 10 errors
+2025-11-05 14:29:24,314 - INFO - [INFO] Processing Row 277/288 [S6T]
+2025-11-05 14:29:24,314 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está vacío. Además, las calles están tranquilas. María h...
+2025-11-05 14:29:27,614 - INFO - [ANSWER] Sí, según lo que decía María, **es verdad que Júlia se hizo un selfie**.
+
+**Razón:**  
+María dijo: *...
+2025-11-05 14:29:27,615 - INFO - [OK] Row 277 [S6T] completed successfully
+2025-11-05 14:29:27,623 - INFO - [OK] Answer 277 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:27,624 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 277/288 processed | 279 successful | 9 errors
+2025-11-05 14:29:27,624 - INFO - [INFO] Processing Row 278/288 [S6F]
+2025-11-05 14:29:27,624 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está vacío. Además, las calles están tranquilas. Júlia n...
+2025-11-05 14:29:31,313 - INFO - [ANSWER] No, **no es verdad** que Júlia se hiciera un selfie.
+
+Según el contexto:
+
+- El parque infantil **est...
+2025-11-05 14:29:31,313 - INFO - [OK] Row 278 [S6F] completed successfully
+2025-11-05 14:29:31,322 - INFO - [OK] Answer 278 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:31,322 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 278/288 processed | 280 successful | 8 errors
+2025-11-05 14:29:31,323 - INFO - [SKIP] Row 279/288 [S6C] already completed
+2025-11-05 14:29:31,323 - INFO - [INFO] Processing Row 280/288 [S7T]
+2025-11-05 14:29:31,323 - INFO - [PROMPT] Aquí tienes el contexto: El césped ha sido cortado. Además, las flores han sido regadas. María había...
+2025-11-05 14:29:34,298 - INFO - [ANSWER] No necesariamente. 
+
+Aunque el césped ha sido cortado, **no se especifica que Pablo haya sido quien ...
+2025-11-05 14:29:34,298 - INFO - [OK] Row 280 [S7T] completed successfully
+2025-11-05 14:29:34,306 - INFO - [OK] Answer 280 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:34,307 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 280/288 processed | 281 successful | 7 errors
+2025-11-05 14:29:34,307 - INFO - [INFO] Processing Row 281/288 [S7F]
+2025-11-05 14:29:34,307 - INFO - [PROMPT] Aquí tienes el contexto: El césped ha sido cortado. Además, las flores han sido regadas. María había...
+2025-11-05 14:29:37,289 - INFO - [ANSWER] No necesariamente. 
+
+Aunque el césped ha sido cortado, **no se especifica que Pablo haya sido quien ...
+2025-11-05 14:29:37,289 - INFO - [OK] Row 281 [S7F] completed successfully
+2025-11-05 14:29:37,297 - INFO - [OK] Answer 281 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:37,298 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 281/288 processed | 282 successful | 6 errors
+2025-11-05 14:29:37,298 - INFO - [INFO] Processing Row 282/288 [S7C]
+2025-11-05 14:29:37,298 - INFO - [PROMPT] Aquí tienes el contexto: El césped no ha sido cortado. Además, las flores no han sido regadas. María...
+2025-11-05 14:29:40,284 - INFO - [ANSWER] No, no es verdad que Pablo recibió 50 euros.
+
+Según el contexto, **el césped no ha sido cortado**, y...
+2025-11-05 14:29:40,405 - INFO - [OK] Row 282 [S7C] completed successfully
+2025-11-05 14:29:40,427 - INFO - [OK] Answer 282 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:40,429 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 282/288 processed | 283 successful | 5 errors
+2025-11-05 14:29:40,430 - INFO - [SKIP] Row 283/288 [S8T] already completed
+2025-11-05 14:29:40,430 - INFO - [INFO] Processing Row 284/288 [S8F]
+2025-11-05 14:29:40,430 - INFO - [PROMPT] Aquí tienes el contexto: El perro está jugando. Además, el gato está subiendo al árbol. Antonio no l...
+2025-11-05 14:29:44,388 - INFO - [ANSWER] No, **no es verdad que Antonio leyó un libro**.
+
+Según el contexto:
+
+- El perro **está jugando** (co...
+2025-11-05 14:29:44,389 - INFO - [OK] Row 284 [S8F] completed successfully
+2025-11-05 14:29:44,398 - INFO - [OK] Answer 284 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:44,399 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 284/288 processed | 284 successful | 4 errors
+2025-11-05 14:29:44,399 - INFO - [INFO] Processing Row 285/288 [S8C]
+2025-11-05 14:29:44,399 - INFO - [PROMPT] Aquí tienes el contexto: El perro no está jugando. Además, el gato está durmiendo. María había dicho...
+2025-11-05 14:29:48,992 - INFO - [ANSWER] No, no es verdad que Antonio leyó un libro.
+
+**Explicación:**
+
+María dijo:  
+> **"Si el perro está j...
+2025-11-05 14:29:48,992 - INFO - [OK] Row 285 [S8C] completed successfully
+2025-11-05 14:29:49,001 - INFO - [OK] Answer 285 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:49,001 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 285/288 processed | 285 successful | 3 errors
+2025-11-05 14:29:49,001 - INFO - [INFO] Processing Row 286/288 [S9T]
+2025-11-05 14:29:49,002 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está vacía. Además, el horno está estropeado. María había dicho: ...
+2025-11-05 14:29:53,301 - INFO - [ANSWER] No, no se puede afirmar con certeza que Ana trajo donuts.
+
+Aunque María dijo: **“Si la nevera está v...
+2025-11-05 14:29:53,301 - INFO - [OK] Row 286 [S9T] completed successfully
+2025-11-05 14:29:53,312 - INFO - [OK] Answer 286 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:53,313 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 286/288 processed | 286 successful | 2 errors
+2025-11-05 14:29:53,313 - INFO - [INFO] Processing Row 287/288 [S9F]
+2025-11-05 14:29:53,313 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está vacía. Además, el horno está estropeado. Ana no trajo donuts...
+2025-11-05 14:29:56,807 - INFO - [ANSWER] No, **no es verdad que Ana trajo donuts**.
+
+Según el contexto:
+
+- La nevera **está vacía** → se cump...
+2025-11-05 14:29:56,808 - INFO - [OK] Row 287 [S9F] completed successfully
+2025-11-05 14:29:56,816 - INFO - [OK] Answer 287 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:29:56,816 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 287/288 processed | 287 successful | 1 errors
+2025-11-05 14:29:56,817 - INFO - [INFO] Processing Row 288/288 [S9C]
+2025-11-05 14:29:56,817 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está llena. Además, el horno está encendido. María había dicho: "...
+2025-11-05 14:30:01,128 - INFO - [ANSWER] No, no es verdad que Ana trajo donuts.
+
+Según lo que dijo María:  
+**“Si la nevera está vacía, Ana t...
+2025-11-05 14:30:01,128 - INFO - [OK] Row 288 [S9C] completed successfully
+2025-11-05 14:30:01,139 - INFO - [OK] Answer 288 saved to answers\qwen3-vl-235b-instruct-cloud_answers.csv
+2025-11-05 14:30:01,139 - INFO - [PROGRESS] qwen3-vl:235b-instruct-cloud - 288/288 processed | 288 successful | 0 errors
+2025-11-05 14:30:01,139 - INFO - [OK] All rows processed for qwen3-vl:235b-instruct-cloud
+2025-11-05 14:30:01,139 - INFO - [OK] ===== Completed: qwen3-vl:235b-instruct-cloud =====
+
+2025-11-05 14:30:01,140 - INFO - [INFO] Processing model 2/2: deepseek-v3.1:671b-cloud
+2025-11-05 14:30:01,140 - INFO - [INFO] ===== Starting: deepseek-v3.1:671b-cloud =====
+2025-11-05 14:30:01,168 - INFO - [INFO] Found existing answers file: answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-05 14:30:01,169 - INFO - [INFO] Existing progress: 288/288 answers completed, 1 errors, 0 pending
+2025-11-05 14:30:01,169 - INFO - [INFO] deepseek-v3.1:671b-cloud has 1 pending answers
+2025-11-05 14:30:01,169 - INFO - [INFO] Starting sequential processing for deepseek-v3.1:671b-cloud
+2025-11-05 14:30:01,190 - INFO - [INFO] Found existing answers file: answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-05 14:30:01,191 - INFO - [INFO] Existing progress: 288/288 answers completed, 1 errors, 0 pending
+2025-11-05 14:30:01,191 - INFO - [SKIP] Row 1/288 [B1T] already completed
+2025-11-05 14:30:01,191 - INFO - [SKIP] Row 2/288 [B1F] already completed
+2025-11-05 14:30:01,191 - INFO - [SKIP] Row 3/288 [B1C] already completed
+2025-11-05 14:30:01,191 - INFO - [SKIP] Row 4/288 [B2T] already completed
+2025-11-05 14:30:01,191 - INFO - [SKIP] Row 5/288 [B2F] already completed
+2025-11-05 14:30:01,191 - INFO - [SKIP] Row 6/288 [B2C] already completed
+2025-11-05 14:30:01,191 - INFO - [SKIP] Row 7/288 [B3T] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 8/288 [B3F] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 9/288 [B3C] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 10/288 [B4T] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 11/288 [B4F] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 12/288 [B4C] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 13/288 [B5T] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 14/288 [B5F] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 15/288 [B5C] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 16/288 [B6T] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 17/288 [B6F] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 18/288 [B6C] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 19/288 [B7T] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 20/288 [B7F] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 21/288 [B7C] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 22/288 [B8T] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 23/288 [B8F] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 24/288 [B8C] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 25/288 [B9T] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 26/288 [B9F] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 27/288 [B9C] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 28/288 [F1T] already completed
+2025-11-05 14:30:01,192 - INFO - [SKIP] Row 29/288 [F1F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 30/288 [F2T] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 31/288 [F2F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 32/288 [F3T] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 33/288 [F3F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 34/288 [F4T] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 35/288 [F4F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 36/288 [F5T] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 37/288 [F5F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 38/288 [F6T] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 39/288 [F6F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 40/288 [F7T] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 41/288 [F7F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 42/288 [F8T] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 43/288 [F8F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 44/288 [F9T] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 45/288 [F9F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 46/288 [S1T] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 47/288 [S1F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 48/288 [S1C] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 49/288 [S2T] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 50/288 [S2F] already completed
+2025-11-05 14:30:01,193 - INFO - [SKIP] Row 51/288 [S2C] already completed
+2025-11-05 14:30:01,194 - INFO - [SKIP] Row 52/288 [S3T] already completed
+2025-11-05 14:30:01,195 - INFO - [SKIP] Row 53/288 [S3F] already completed
+2025-11-05 14:30:01,195 - INFO - [SKIP] Row 54/288 [S3C] already completed
+2025-11-05 14:30:01,195 - INFO - [SKIP] Row 55/288 [S4T] already completed
+2025-11-05 14:30:01,195 - INFO - [SKIP] Row 56/288 [S4F] already completed
+2025-11-05 14:30:01,195 - INFO - [SKIP] Row 57/288 [S4C] already completed
+2025-11-05 14:30:01,195 - INFO - [SKIP] Row 58/288 [S5T] already completed
+2025-11-05 14:30:01,195 - INFO - [SKIP] Row 59/288 [S5F] already completed
+2025-11-05 14:30:01,195 - INFO - [SKIP] Row 60/288 [S5C] already completed
+2025-11-05 14:30:01,195 - INFO - [SKIP] Row 61/288 [S6T] already completed
+2025-11-05 14:30:01,195 - INFO - [SKIP] Row 62/288 [S6F] already completed
+2025-11-05 14:30:01,196 - INFO - [SKIP] Row 63/288 [S6C] already completed
+2025-11-05 14:30:01,196 - INFO - [SKIP] Row 64/288 [S7T] already completed
+2025-11-05 14:30:01,196 - INFO - [SKIP] Row 65/288 [S7F] already completed
+2025-11-05 14:30:01,196 - INFO - [SKIP] Row 66/288 [S7C] already completed
+2025-11-05 14:30:01,196 - INFO - [SKIP] Row 67/288 [S8T] already completed
+2025-11-05 14:30:01,196 - INFO - [SKIP] Row 68/288 [S8F] already completed
+2025-11-05 14:30:01,196 - INFO - [SKIP] Row 69/288 [S8C] already completed
+2025-11-05 14:30:01,196 - INFO - [SKIP] Row 70/288 [S9T] already completed
+2025-11-05 14:30:01,196 - INFO - [SKIP] Row 71/288 [S9F] already completed
+2025-11-05 14:30:01,196 - INFO - [SKIP] Row 72/288 [S9C] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 73/288 [B1T] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 74/288 [B1F] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 75/288 [B1C] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 76/288 [B2T] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 77/288 [B2F] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 78/288 [B2C] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 79/288 [B3T] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 80/288 [B3F] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 81/288 [B3C] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 82/288 [B4T] already completed
+2025-11-05 14:30:01,197 - INFO - [SKIP] Row 83/288 [B4F] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 84/288 [B4C] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 85/288 [B5T] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 86/288 [B5F] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 87/288 [B5C] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 88/288 [B6T] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 89/288 [B6F] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 90/288 [B6C] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 91/288 [B7T] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 92/288 [B7F] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 93/288 [B7C] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 94/288 [B8T] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 95/288 [B8F] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 96/288 [B8C] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 97/288 [B9T] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 98/288 [B9F] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 99/288 [B9C] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 100/288 [F1T] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 101/288 [F1F] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 102/288 [F2T] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 103/288 [F2F] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 104/288 [F3T] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 105/288 [F3F] already completed
+2025-11-05 14:30:01,198 - INFO - [SKIP] Row 106/288 [F4T] already completed
+2025-11-05 14:30:01,199 - INFO - [SKIP] Row 107/288 [F4F] already completed
+2025-11-05 14:30:01,204 - INFO - [SKIP] Row 108/288 [F5T] already completed
+2025-11-05 14:30:01,205 - INFO - [SKIP] Row 109/288 [F5F] already completed
+2025-11-05 14:30:01,205 - INFO - [SKIP] Row 110/288 [F6T] already completed
+2025-11-05 14:30:01,205 - INFO - [SKIP] Row 111/288 [F6F] already completed
+2025-11-05 14:30:01,205 - INFO - [SKIP] Row 112/288 [F7T] already completed
+2025-11-05 14:30:01,205 - INFO - [SKIP] Row 113/288 [F7F] already completed
+2025-11-05 14:30:01,205 - INFO - [SKIP] Row 114/288 [F8T] already completed
+2025-11-05 14:30:01,205 - INFO - [SKIP] Row 115/288 [F8F] already completed
+2025-11-05 14:30:01,205 - INFO - [SKIP] Row 116/288 [F9T] already completed
+2025-11-05 14:30:01,205 - INFO - [SKIP] Row 117/288 [F9F] already completed
+2025-11-05 14:30:01,205 - INFO - [SKIP] Row 118/288 [S1T] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 119/288 [S1F] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 120/288 [S1C] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 121/288 [S2T] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 122/288 [S2F] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 123/288 [S2C] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 124/288 [S3T] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 125/288 [S3F] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 126/288 [S3C] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 127/288 [S4T] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 128/288 [S4F] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 129/288 [S4C] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 130/288 [S5T] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 131/288 [S5F] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 132/288 [S5C] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 133/288 [S6T] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 134/288 [S6F] already completed
+2025-11-05 14:30:01,206 - INFO - [SKIP] Row 135/288 [S6C] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 136/288 [S7T] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 137/288 [S7F] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 138/288 [S7C] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 139/288 [S8T] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 140/288 [S8F] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 141/288 [S8C] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 142/288 [S9T] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 143/288 [S9F] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 144/288 [S9C] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 145/288 [B1T] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 146/288 [B1F] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 147/288 [B1C] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 148/288 [B2T] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 149/288 [B2F] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 150/288 [B2C] already completed
+2025-11-05 14:30:01,207 - INFO - [SKIP] Row 151/288 [B3T] already completed
+2025-11-05 14:30:01,208 - INFO - [SKIP] Row 152/288 [B3F] already completed
+2025-11-05 14:30:01,208 - INFO - [SKIP] Row 153/288 [B3C] already completed
+2025-11-05 14:30:01,208 - INFO - [SKIP] Row 154/288 [B4T] already completed
+2025-11-05 14:30:01,208 - INFO - [SKIP] Row 155/288 [B4F] already completed
+2025-11-05 14:30:01,208 - INFO - [SKIP] Row 156/288 [B4C] already completed
+2025-11-05 14:30:01,208 - INFO - [SKIP] Row 157/288 [B5T] already completed
+2025-11-05 14:30:01,208 - INFO - [INFO] Processing Row 158/288 [B5F]
+2025-11-05 14:30:01,208 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e non c'è un ombrello nel portaombrelli. Non c'è nemmeno un imp...
+2025-11-05 14:30:06,116 - INFO - [ANSWER] Analizziamo la situazione passo per passo.
+
+---
+
+**1. Contesto dato:**
+- Il tempo è piovoso.
+- Non c...
+2025-11-05 14:30:06,116 - INFO - [OK] Row 158 [B5F] completed successfully
+2025-11-05 14:30:06,125 - INFO - [OK] Answer 158 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-05 14:30:06,125 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 158/288 processed | 288 successful | 0 errors
+2025-11-05 14:30:06,125 - INFO - [SKIP] Row 159/288 [B5C] already completed
+2025-11-05 14:30:06,125 - INFO - [SKIP] Row 160/288 [B6T] already completed
+2025-11-05 14:30:06,125 - INFO - [SKIP] Row 161/288 [B6F] already completed
+2025-11-05 14:30:06,125 - INFO - [SKIP] Row 162/288 [B6C] already completed
+2025-11-05 14:30:06,125 - INFO - [SKIP] Row 163/288 [B7T] already completed
+2025-11-05 14:30:06,125 - INFO - [SKIP] Row 164/288 [B7F] already completed
+2025-11-05 14:30:06,125 - INFO - [SKIP] Row 165/288 [B7C] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 166/288 [B8T] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 167/288 [B8F] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 168/288 [B8C] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 169/288 [B9T] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 170/288 [B9F] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 171/288 [B9C] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 172/288 [F1T] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 173/288 [F1F] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 174/288 [F2T] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 175/288 [F2F] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 176/288 [F3T] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 177/288 [F3F] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 178/288 [F4T] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 179/288 [F4F] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 180/288 [F5T] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 181/288 [F5F] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 182/288 [F6T] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 183/288 [F6F] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 184/288 [F7T] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 185/288 [F7F] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 186/288 [F8T] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 187/288 [F8F] already completed
+2025-11-05 14:30:06,126 - INFO - [SKIP] Row 188/288 [F9T] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 189/288 [F9F] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 190/288 [S1T] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 191/288 [S1F] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 192/288 [S1C] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 193/288 [S2T] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 194/288 [S2F] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 195/288 [S2C] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 196/288 [S3T] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 197/288 [S3F] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 198/288 [S3C] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 199/288 [S4T] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 200/288 [S4F] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 201/288 [S4C] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 202/288 [S5T] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 203/288 [S5F] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 204/288 [S5C] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 205/288 [S6T] already completed
+2025-11-05 14:30:06,127 - INFO - [SKIP] Row 206/288 [S6F] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 207/288 [S6C] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 208/288 [S7T] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 209/288 [S7F] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 210/288 [S7C] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 211/288 [S8T] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 212/288 [S8F] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 213/288 [S8C] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 214/288 [S9T] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 215/288 [S9F] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 216/288 [S9C] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 217/288 [B1T] already completed
+2025-11-05 14:30:06,133 - INFO - [SKIP] Row 218/288 [B1F] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 219/288 [B1C] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 220/288 [B2T] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 221/288 [B2F] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 222/288 [B2C] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 223/288 [B3T] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 224/288 [B3F] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 225/288 [B3C] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 226/288 [B4T] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 227/288 [B4F] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 228/288 [B4C] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 229/288 [B5T] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 230/288 [B5F] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 231/288 [B5C] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 232/288 [B6T] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 233/288 [B6F] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 234/288 [B6C] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 235/288 [B7T] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 236/288 [B7F] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 237/288 [B7C] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 238/288 [B8T] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 239/288 [B8F] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 240/288 [B8C] already completed
+2025-11-05 14:30:06,134 - INFO - [SKIP] Row 241/288 [B9T] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 242/288 [B9F] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 243/288 [B9C] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 244/288 [F1T] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 245/288 [F1F] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 246/288 [F2T] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 247/288 [F2F] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 248/288 [F3T] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 249/288 [F3F] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 250/288 [F4T] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 251/288 [F4F] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 252/288 [F5T] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 253/288 [F5F] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 254/288 [F6T] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 255/288 [F6F] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 256/288 [F7T] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 257/288 [F7F] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 258/288 [F8T] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 259/288 [F8F] already completed
+2025-11-05 14:30:06,135 - INFO - [SKIP] Row 260/288 [F9T] already completed
+2025-11-05 14:30:06,149 - INFO - [SKIP] Row 261/288 [F9F] already completed
+2025-11-05 14:30:06,149 - INFO - [SKIP] Row 262/288 [S1T] already completed
+2025-11-05 14:30:06,149 - INFO - [SKIP] Row 263/288 [S1F] already completed
+2025-11-05 14:30:06,149 - INFO - [SKIP] Row 264/288 [S1C] already completed
+2025-11-05 14:30:06,149 - INFO - [SKIP] Row 265/288 [S2T] already completed
+2025-11-05 14:30:06,149 - INFO - [SKIP] Row 266/288 [S2F] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 267/288 [S2C] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 268/288 [S3T] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 269/288 [S3F] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 270/288 [S3C] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 271/288 [S4T] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 272/288 [S4F] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 273/288 [S4C] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 274/288 [S5T] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 275/288 [S5F] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 276/288 [S5C] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 277/288 [S6T] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 278/288 [S6F] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 279/288 [S6C] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 280/288 [S7T] already completed
+2025-11-05 14:30:06,150 - INFO - [SKIP] Row 281/288 [S7F] already completed
+2025-11-05 14:30:06,151 - INFO - [SKIP] Row 282/288 [S7C] already completed
+2025-11-05 14:30:06,151 - INFO - [SKIP] Row 283/288 [S8T] already completed
+2025-11-05 14:30:06,151 - INFO - [SKIP] Row 284/288 [S8F] already completed
+2025-11-05 14:30:06,151 - INFO - [SKIP] Row 285/288 [S8C] already completed
+2025-11-05 14:30:06,151 - INFO - [SKIP] Row 286/288 [S9T] already completed
+2025-11-05 14:30:06,151 - INFO - [SKIP] Row 287/288 [S9F] already completed
+2025-11-05 14:30:06,151 - INFO - [SKIP] Row 288/288 [S9C] already completed
+2025-11-05 14:30:06,151 - INFO - [OK] All rows processed for deepseek-v3.1:671b-cloud
+2025-11-05 14:30:06,151 - INFO - [OK] ===== Completed: deepseek-v3.1:671b-cloud =====
+
+2025-11-05 14:30:06,151 - INFO - [OK] Successfully processed 2 models
+2025-11-05 14:30:06,152 - INFO - [OK] Summary: 2 successful, 0 failed
+2025-11-05 14:30:06,152 - INFO - [INFO] Answer files saved in: answers
+2025-11-05 14:30:06,152 - INFO - [INFO] Each model has its own file: <model-name>_answers.csv
+2025-11-05 14:30:06,152 - INFO - [INFO] ===== Completed =====

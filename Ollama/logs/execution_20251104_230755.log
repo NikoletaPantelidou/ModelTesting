@@ -1,0 +1,80 @@
+2025-11-04 23:07:55,504 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-04 23:07:55,505 - INFO - [INFO] API: https://ollama.com/api
+2025-11-04 23:07:55,505 - INFO - [INFO] Mode: Sequential
+2025-11-04 23:07:56,005 - INFO - [OK] Ollama API is accessible
+2025-11-04 23:07:56,014 - INFO - [OK] File loaded: 288 rows
+2025-11-04 23:07:56,015 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-04 23:07:56,015 - INFO - [INFO] Processing model 1/4: kimi-k2:1t-cloud
+2025-11-04 23:07:56,015 - INFO - [INFO] ===== Starting: kimi-k2:1t-cloud =====
+2025-11-04 23:07:56,022 - INFO - [INFO] Found existing answers file: answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 23:07:56,022 - INFO - [INFO] Existing progress: 288/288 answers completed, 0 errors, 0 pending
+2025-11-04 23:07:56,023 - INFO - [SKIP] kimi-k2:1t-cloud already completed
+2025-11-04 23:07:56,023 - INFO - [INFO] Processing model 2/4: glm-4.6:cloud
+2025-11-04 23:07:56,023 - INFO - [INFO] ===== Starting: glm-4.6:cloud =====
+2025-11-04 23:07:56,027 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-04 23:07:56,027 - INFO - [INFO] Existing progress: 62/288 answers completed, 21 errors, 226 pending
+2025-11-04 23:07:56,032 - INFO - [INFO] Pending items: F8T, F8F, F9T, F9F, S1T, S1F, S1C, S2T, S2F, S2C, S3T, S3F, S3C, S4T, S4F, S4C, S5T, S5F, S5C, S6T...
+2025-11-04 23:07:56,033 - INFO - [INFO] glm-4.6:cloud has 247 pending answers
+2025-11-04 23:07:56,033 - INFO - [INFO] Starting sequential processing for glm-4.6:cloud
+2025-11-04 23:07:56,037 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-04 23:07:56,037 - INFO - [INFO] Existing progress: 62/288 answers completed, 21 errors, 226 pending
+2025-11-04 23:07:56,042 - INFO - [INFO] Pending items: F8T, F8F, F9T, F9F, S1T, S1F, S1C, S2T, S2F, S2C, S3T, S3F, S3C, S4T, S4F, S4C, S5T, S5F, S5C, S6T...
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 1/288 [B1T] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 2/288 [B1F] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 3/288 [B1C] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 4/288 [B2T] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 5/288 [B2F] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 6/288 [B2C] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 7/288 [B3T] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 8/288 [B3F] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 9/288 [B3C] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 10/288 [B4T] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 11/288 [B4F] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 12/288 [B4C] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 13/288 [B5T] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 14/288 [B5F] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 15/288 [B5C] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 16/288 [B6T] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 17/288 [B6F] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 18/288 [B6C] already completed
+2025-11-04 23:07:56,043 - INFO - [SKIP] Row 19/288 [B7T] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 20/288 [B7F] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 21/288 [B7C] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 22/288 [B8T] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 23/288 [B8F] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 24/288 [B8C] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 25/288 [B9T] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 26/288 [B9F] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 27/288 [B9C] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 28/288 [F1T] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 29/288 [F1F] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 30/288 [F2T] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 31/288 [F2F] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 32/288 [F3T] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 33/288 [F3F] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 34/288 [F4T] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 35/288 [F4F] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 36/288 [F5T] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 37/288 [F5F] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 38/288 [F6T] already completed
+2025-11-04 23:07:56,044 - INFO - [SKIP] Row 39/288 [F6F] already completed
+2025-11-04 23:07:56,045 - INFO - [SKIP] Row 40/288 [F7T] already completed
+2025-11-04 23:07:56,045 - INFO - [SKIP] Row 41/288 [F7F] already completed
+2025-11-04 23:07:56,045 - INFO - [INFO] Processing Row 42/288 [F8T]
+2025-11-04 23:07:56,045 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, most people watch T...
+2025-11-04 23:08:05,236 - INFO - [ANSWER] Yes.
+
+The context explicitly states, "most people watch TV." This directly answers the question, ind...
+2025-11-04 23:08:05,236 - INFO - [OK] Row 42 [F8T] completed successfully
+2025-11-04 23:08:05,245 - INFO - [OK] Answer 42 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 23:08:05,246 - INFO - [PROGRESS] glm-4.6:cloud - 42/288 processed | 42 successful | 20 errors
+2025-11-04 23:08:05,246 - INFO - [INFO] Processing Row 43/288 [F8F]
+2025-11-04 23:08:05,246 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, most people watch T...
+2025-11-04 23:08:16,877 - INFO - [ANSWER] No.
+
+Based on the context, the statement "most people watch TV" directly implies that the number of ...
+2025-11-04 23:08:16,878 - INFO - [OK] Row 43 [F8F] completed successfully
+2025-11-04 23:08:16,883 - INFO - [OK] Answer 43 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 23:08:16,883 - INFO - [PROGRESS] glm-4.6:cloud - 43/288 processed | 43 successful | 19 errors
+2025-11-04 23:08:16,883 - INFO - [INFO] Processing Row 44/288 [F9T]
+2025-11-04 23:08:16,883 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....

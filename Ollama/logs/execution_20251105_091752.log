@@ -1,0 +1,628 @@
+2025-11-05 09:17:52,508 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-05 09:17:52,508 - INFO - [INFO] API: https://ollama.com/api
+2025-11-05 09:17:52,508 - INFO - [INFO] Mode: Sequential
+2025-11-05 09:17:53,027 - INFO - [OK] Ollama API is accessible
+2025-11-05 09:17:53,045 - INFO - [OK] File loaded: 288 rows
+2025-11-05 09:17:53,047 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-05 09:17:53,047 - INFO - [INFO] Processing model 1/5: kimi-k2:1t-cloud
+2025-11-05 09:17:53,047 - INFO - [INFO] ===== Starting: kimi-k2:1t-cloud =====
+2025-11-05 09:17:53,056 - INFO - [INFO] Found existing answers file: answers\kimi-k2-1t-cloud_answers.csv
+2025-11-05 09:17:53,057 - INFO - [INFO] Existing progress: 288/288 answers completed, 0 errors, 0 pending
+2025-11-05 09:17:53,057 - INFO - [SKIP] kimi-k2:1t-cloud already completed
+2025-11-05 09:17:53,057 - INFO - [INFO] Processing model 2/5: glm-4.6:cloud
+2025-11-05 09:17:53,058 - INFO - [INFO] ===== Starting: glm-4.6:cloud =====
+2025-11-05 09:17:53,064 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:17:53,064 - INFO - [INFO] Existing progress: 106/288 answers completed, 0 errors, 182 pending
+2025-11-05 09:17:53,068 - INFO - [INFO] Pending items: F4F, F5T, F5F, F6T, F6F, F7T, F7F, F8T, F8F, F9T, F9F, S1T, S1F, S1C, S2T, S2F, S2C, S3T, S3F, S3C...
+2025-11-05 09:17:53,068 - INFO - [INFO] glm-4.6:cloud has 182 pending answers
+2025-11-05 09:17:53,068 - INFO - [INFO] Starting sequential processing for glm-4.6:cloud
+2025-11-05 09:17:53,072 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:17:53,073 - INFO - [INFO] Existing progress: 106/288 answers completed, 0 errors, 182 pending
+2025-11-05 09:17:53,077 - INFO - [INFO] Pending items: F4F, F5T, F5F, F6T, F6F, F7T, F7F, F8T, F8F, F9T, F9F, S1T, S1F, S1C, S2T, S2F, S2C, S3T, S3F, S3C...
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 1/288 [B1T] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 2/288 [B1F] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 3/288 [B1C] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 4/288 [B2T] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 5/288 [B2F] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 6/288 [B2C] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 7/288 [B3T] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 8/288 [B3F] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 9/288 [B3C] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 10/288 [B4T] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 11/288 [B4F] already completed
+2025-11-05 09:17:53,078 - INFO - [SKIP] Row 12/288 [B4C] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 13/288 [B5T] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 14/288 [B5F] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 15/288 [B5C] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 16/288 [B6T] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 17/288 [B6F] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 18/288 [B6C] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 19/288 [B7T] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 20/288 [B7F] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 21/288 [B7C] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 22/288 [B8T] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 23/288 [B8F] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 24/288 [B8C] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 25/288 [B9T] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 26/288 [B9F] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 27/288 [B9C] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 28/288 [F1T] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 29/288 [F1F] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 30/288 [F2T] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 31/288 [F2F] already completed
+2025-11-05 09:17:53,079 - INFO - [SKIP] Row 32/288 [F3T] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 33/288 [F3F] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 34/288 [F4T] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 35/288 [F4F] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 36/288 [F5T] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 37/288 [F5F] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 38/288 [F6T] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 39/288 [F6F] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 40/288 [F7T] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 41/288 [F7F] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 42/288 [F8T] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 43/288 [F8F] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 44/288 [F9T] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 45/288 [F9F] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 46/288 [S1T] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 47/288 [S1F] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 48/288 [S1C] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 49/288 [S2T] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 50/288 [S2F] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 51/288 [S2C] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 52/288 [S3T] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 53/288 [S3F] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 54/288 [S3C] already completed
+2025-11-05 09:17:53,080 - INFO - [SKIP] Row 55/288 [S4T] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 56/288 [S4F] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 57/288 [S4C] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 58/288 [S5T] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 59/288 [S5F] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 60/288 [S5C] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 61/288 [S6T] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 62/288 [S6F] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 63/288 [S6C] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 64/288 [S7T] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 65/288 [S7F] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 66/288 [S7C] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 67/288 [S8T] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 68/288 [S8F] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 69/288 [S8C] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 70/288 [S9T] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 71/288 [S9F] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 72/288 [S9C] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 73/288 [B1T] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 74/288 [B1F] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 75/288 [B1C] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 76/288 [B2T] already completed
+2025-11-05 09:17:53,081 - INFO - [SKIP] Row 77/288 [B2F] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 78/288 [B2C] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 79/288 [B3T] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 80/288 [B3F] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 81/288 [B3C] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 82/288 [B4T] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 83/288 [B4F] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 84/288 [B4C] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 85/288 [B5T] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 86/288 [B5F] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 87/288 [B5C] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 88/288 [B6T] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 89/288 [B6F] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 90/288 [B6C] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 91/288 [B7T] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 92/288 [B7F] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 93/288 [B7C] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 94/288 [B8T] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 95/288 [B8F] already completed
+2025-11-05 09:17:53,082 - INFO - [SKIP] Row 96/288 [B8C] already completed
+2025-11-05 09:17:53,083 - INFO - [SKIP] Row 97/288 [B9T] already completed
+2025-11-05 09:17:53,083 - INFO - [SKIP] Row 98/288 [B9F] already completed
+2025-11-05 09:17:53,083 - INFO - [SKIP] Row 99/288 [B9C] already completed
+2025-11-05 09:17:53,083 - INFO - [SKIP] Row 100/288 [F1T] already completed
+2025-11-05 09:17:53,083 - INFO - [SKIP] Row 101/288 [F1F] already completed
+2025-11-05 09:17:53,083 - INFO - [SKIP] Row 102/288 [F2T] already completed
+2025-11-05 09:17:53,083 - INFO - [SKIP] Row 103/288 [F2F] already completed
+2025-11-05 09:17:53,083 - INFO - [SKIP] Row 104/288 [F3T] already completed
+2025-11-05 09:17:53,083 - INFO - [SKIP] Row 105/288 [F3F] already completed
+2025-11-05 09:17:53,083 - INFO - [SKIP] Row 106/288 [F4T] already completed
+2025-11-05 09:17:53,083 - INFO - [INFO] Processing Row 107/288 [F4F]
+2025-11-05 09:17:53,083 - INFO - [PROMPT] Aquí tens el context: Tot i que els bròquils són més difícils de cuinar que els nyoquis, la gent els...
+2025-11-05 09:18:04,064 - INFO - [ANSWER] No. El context diu que "la gent els [bròquils] utilitza més", la qual cosa indica que els bròquils s...
+2025-11-05 09:18:04,064 - INFO - [OK] Row 107 [F4F] completed successfully
+2025-11-05 09:18:04,077 - INFO - [OK] Answer 107 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:18:04,077 - INFO - [PROGRESS] glm-4.6:cloud - 107/288 processed | 107 successful | 0 errors
+2025-11-05 09:18:04,077 - INFO - [INFO] Processing Row 108/288 [F5T]
+2025-11-05 09:18:04,077 - INFO - [PROMPT] Aquí tens el context: Tot i que el sushi és més saludable que les hamburgueses, la gent menja més so...
+2025-11-05 09:18:16,289 - INFO - [ANSWER] Sí, perquè el context indica que "la gent menja més sovint les hamburgueses".
+2025-11-05 09:18:16,289 - INFO - [OK] Row 108 [F5T] completed successfully
+2025-11-05 09:18:16,294 - INFO - [OK] Answer 108 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:18:16,294 - INFO - [PROGRESS] glm-4.6:cloud - 108/288 processed | 108 successful | 0 errors
+2025-11-05 09:18:16,294 - INFO - [INFO] Processing Row 109/288 [F5F]
+2025-11-05 09:18:16,294 - INFO - [PROMPT] Aquí tens el context: Tot i que el sushi és més saludable que les hamburgueses, la gent menja més so...
+2025-11-05 09:18:24,417 - INFO - [ANSWER] No. El context diu que "la gent menja més sovint les hamburgueses", per tant, són més populars.
+2025-11-05 09:18:24,417 - INFO - [OK] Row 109 [F5F] completed successfully
+2025-11-05 09:18:24,422 - INFO - [OK] Answer 109 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:18:24,423 - INFO - [PROGRESS] glm-4.6:cloud - 109/288 processed | 109 successful | 0 errors
+2025-11-05 09:18:24,423 - INFO - [INFO] Processing Row 110/288 [F6T]
+2025-11-05 09:18:24,423 - INFO - [PROMPT] Aquí tens el context: Tot i que els plàtans són més cars que els kiwis, la gent els compra més. Hi h...
+2025-11-05 09:18:33,539 - INFO - [ANSWER] Sí, perquè el context diu que "la gent els compra més".
+2025-11-05 09:18:33,539 - INFO - [OK] Row 110 [F6T] completed successfully
+2025-11-05 09:18:33,544 - INFO - [OK] Answer 110 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:18:33,544 - INFO - [PROGRESS] glm-4.6:cloud - 110/288 processed | 110 successful | 0 errors
+2025-11-05 09:18:33,544 - INFO - [INFO] Processing Row 111/288 [F6F]
+2025-11-05 09:18:33,544 - INFO - [PROMPT] Aquí tens el context: Tot i que els plàtans són més cars que els kiwis, la gent els compra més. Hi h...
+2025-11-05 09:18:48,180 - INFO - [ANSWER] No. El context diu que "la gent els [els plàtans] compra més", la qual cosa significa que els plàtan...
+2025-11-05 09:18:48,180 - INFO - [OK] Row 111 [F6F] completed successfully
+2025-11-05 09:18:48,185 - INFO - [OK] Answer 111 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:18:48,185 - INFO - [PROGRESS] glm-4.6:cloud - 111/288 processed | 111 successful | 0 errors
+2025-11-05 09:18:48,185 - INFO - [INFO] Processing Row 112/288 [F7T]
+2025-11-05 09:18:48,185 - INFO - [PROMPT] Aquí tens el context: Tot i que els gossos són més alegres que els gats, la gent els prefereix. Hi h...
+2025-11-05 09:19:01,575 - INFO - [ANSWER] Sí. El context diu que "la gent els prefereix", fent referència als gossos. Això implica que els gos...
+2025-11-05 09:19:01,575 - INFO - [OK] Row 112 [F7T] completed successfully
+2025-11-05 09:19:01,580 - INFO - [OK] Answer 112 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:19:01,580 - INFO - [PROGRESS] glm-4.6:cloud - 112/288 processed | 112 successful | 0 errors
+2025-11-05 09:19:01,581 - INFO - [INFO] Processing Row 113/288 [F7F]
+2025-11-05 09:19:01,581 - INFO - [PROMPT] Aquí tens el context: Tot i que els gossos són més alegres que els gats, la gent els prefereix. Hi h...
+2025-11-05 09:19:17,131 - INFO - [ANSWER] No. El context diu que "la gent els prefereix", i el pronom "els" es refereix als gossos. Per tant, ...
+2025-11-05 09:19:17,131 - INFO - [OK] Row 113 [F7F] completed successfully
+2025-11-05 09:19:17,135 - INFO - [OK] Answer 113 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:19:17,136 - INFO - [PROGRESS] glm-4.6:cloud - 113/288 processed | 113 successful | 0 errors
+2025-11-05 09:19:17,136 - INFO - [INFO] Processing Row 114/288 [F8T]
+2025-11-05 09:19:17,136 - INFO - [PROMPT] Aquí tens el context: Tot i que llegir llibres és més educatiu que mirar la televisió, la majoria de...
+2025-11-05 09:19:24,618 - INFO - [ANSWER] Sí.
+
+El context diu explícitament que "la majoria de les persones miren la televisió". Això implica ...
+2025-11-05 09:19:24,621 - INFO - [OK] Row 114 [F8T] completed successfully
+2025-11-05 09:19:24,678 - INFO - [OK] Answer 114 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:19:24,679 - INFO - [PROGRESS] glm-4.6:cloud - 114/288 processed | 114 successful | 0 errors
+2025-11-05 09:19:24,679 - INFO - [INFO] Processing Row 115/288 [F8F]
+2025-11-05 09:19:24,679 - INFO - [PROMPT] Aquí tens el context: Tot i que llegir llibres és més educatiu que mirar la televisió, la majoria de...
+2025-11-05 09:19:33,825 - INFO - [ANSWER] No.
+
+Segons el context, "la majoria de les persones miren la televisió", per tant, hi ha menys perso...
+2025-11-05 09:19:33,826 - INFO - [OK] Row 115 [F8F] completed successfully
+2025-11-05 09:19:33,832 - INFO - [OK] Answer 115 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:19:33,832 - INFO - [PROGRESS] glm-4.6:cloud - 115/288 processed | 115 successful | 0 errors
+2025-11-05 09:19:33,832 - INFO - [INFO] Processing Row 116/288 [F9T]
+2025-11-05 09:19:33,832 - INFO - [PROMPT] Aquí tens el context: Tot i que córrer és millor per a la salut que caminar, la majoria de la gent p...
+2025-11-05 09:19:45,651 - INFO - [ANSWER] Sí. El context diu explícitament que "la majoria de la gent prefereix caminar".
+2025-11-05 09:19:45,651 - INFO - [OK] Row 116 [F9T] completed successfully
+2025-11-05 09:19:45,657 - INFO - [OK] Answer 116 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:19:45,657 - INFO - [PROGRESS] glm-4.6:cloud - 116/288 processed | 116 successful | 0 errors
+2025-11-05 09:19:45,657 - INFO - [INFO] Processing Row 117/288 [F9F]
+2025-11-05 09:19:45,657 - INFO - [PROMPT] Aquí tens el context: Tot i que córrer és millor per a la salut que caminar, la majoria de la gent p...
+2025-11-05 09:19:54,853 - INFO - [ANSWER] No.
+
+Segons el context, córrer no és més popular que caminar. El text indica clarament que "la major...
+2025-11-05 09:19:54,854 - INFO - [OK] Row 117 [F9F] completed successfully
+2025-11-05 09:19:54,881 - INFO - [OK] Answer 117 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:19:54,883 - INFO - [PROGRESS] glm-4.6:cloud - 117/288 processed | 117 successful | 0 errors
+2025-11-05 09:19:54,888 - INFO - [INFO] Processing Row 118/288 [S1T]
+2025-11-05 09:19:54,889 - INFO - [PROMPT] Aquí tens el context: El lloro és a la gàbia. A més, el gos és a la gossera. La Maria havia dit: "Si...
+2025-11-05 09:20:18,039 - INFO - [ANSWER] Sí, segons el que diu la Maria, és veritat.
+
+La raó és que ella va establir la següent condició: "Si...
+2025-11-05 09:20:18,039 - INFO - [OK] Row 118 [S1T] completed successfully
+2025-11-05 09:20:18,046 - INFO - [OK] Answer 118 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:20:18,046 - INFO - [PROGRESS] glm-4.6:cloud - 118/288 processed | 118 successful | 0 errors
+2025-11-05 09:20:18,046 - INFO - [INFO] Processing Row 119/288 [S1F]
+2025-11-05 09:20:18,046 - INFO - [PROMPT] Aquí tens el context: El lloro és a la gàbia. A més, el gos és a la gossera. El Tomàs no ha portat p...
+2025-11-05 09:20:32,412 - INFO - [ANSWER] No.
+
+**Explicació:**
+
+1.  **La condició de la Maria:** "Si el lloro és a la gàbia, el Tomàs portarà ...
+2025-11-05 09:20:32,412 - INFO - [OK] Row 119 [S1F] completed successfully
+2025-11-05 09:20:32,417 - INFO - [OK] Answer 119 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:20:32,417 - INFO - [PROGRESS] glm-4.6:cloud - 119/288 processed | 119 successful | 0 errors
+2025-11-05 09:20:32,418 - INFO - [INFO] Processing Row 120/288 [S1C]
+2025-11-05 09:20:32,418 - INFO - [PROMPT] Aquí tens el context: El lloro no és a la gàbia. El gos tampoc no és a la gossera. La Maria havia di...
+2025-11-05 09:20:45,255 - INFO - [ANSWER] No es pot saber.
+
+La Maria va dir que el Tomàs portaria pizza **si** el lloro era a la gàbia. Com qu...
+2025-11-05 09:20:45,256 - INFO - [OK] Row 120 [S1C] completed successfully
+2025-11-05 09:20:45,261 - INFO - [OK] Answer 120 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:20:45,262 - INFO - [PROGRESS] glm-4.6:cloud - 120/288 processed | 120 successful | 0 errors
+2025-11-05 09:20:45,262 - INFO - [INFO] Processing Row 121/288 [S2T]
+2025-11-05 09:20:45,262 - INFO - [PROMPT] Aquí tens el context: T'has acabat els bròquils. També t'has acabat la pasta. La Maria havia dit: "S...
+2025-11-05 09:20:56,340 - INFO - [ANSWER] No ho podem saber amb seguretat.
+
+El que diu la Maria és una condició: si t'acabes els bròquils (cos...
+2025-11-05 09:20:56,340 - INFO - [OK] Row 121 [S2T] completed successfully
+2025-11-05 09:20:56,344 - INFO - [OK] Answer 121 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:20:56,345 - INFO - [PROGRESS] glm-4.6:cloud - 121/288 processed | 121 successful | 0 errors
+2025-11-05 09:20:56,345 - INFO - [INFO] Processing Row 122/288 [S2F]
+2025-11-05 09:20:56,345 - INFO - [PROMPT] Aquí tens el context: T'has acabat els bròquils. També t'has acabat la pasta. El Marc no t'ha donat ...
+2025-11-05 09:21:06,050 - INFO - [ANSWER] No, no és veritat. El context diu explícitament: "El Marc no t'ha donat cap caramel".
+2025-11-05 09:21:06,050 - INFO - [OK] Row 122 [S2F] completed successfully
+2025-11-05 09:21:06,057 - INFO - [OK] Answer 122 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:21:06,058 - INFO - [PROGRESS] glm-4.6:cloud - 122/288 processed | 122 successful | 0 errors
+2025-11-05 09:21:06,058 - INFO - [INFO] Processing Row 123/288 [S2C]
+2025-11-05 09:21:06,058 - INFO - [PROMPT] Aquí tens el context: No t'has acabat els bròquils. Tampoc no t'has acabat la pasta. La Maria havia ...
+2025-11-05 09:21:29,172 - INFO - [ANSWER] No.
+
+La Maria va dir que el Marc et donaria un caramel *si* t'acabaves els bròquils. Com que el cont...
+2025-11-05 09:21:29,172 - INFO - [OK] Row 123 [S2C] completed successfully
+2025-11-05 09:21:29,177 - INFO - [OK] Answer 123 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:21:29,177 - INFO - [PROGRESS] glm-4.6:cloud - 123/288 processed | 123 successful | 0 errors
+2025-11-05 09:21:29,177 - INFO - [INFO] Processing Row 124/288 [S3T]
+2025-11-05 09:21:29,177 - INFO - [PROMPT] Aquí tens el context: Les guineus estan ballant. A més, els esquirols estan menjant. La Maria havia ...
+2025-11-05 09:21:48,489 - INFO - [ANSWER] Sí.
+
+El context estableix que "les guineus estan ballant". La Maria va dir que si això passava, "La ...
+2025-11-05 09:21:48,489 - INFO - [OK] Row 124 [S3T] completed successfully
+2025-11-05 09:21:48,494 - INFO - [OK] Answer 124 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:21:48,494 - INFO - [PROGRESS] glm-4.6:cloud - 124/288 processed | 124 successful | 0 errors
+2025-11-05 09:21:48,494 - INFO - [INFO] Processing Row 125/288 [S3F]
+2025-11-05 09:21:48,494 - INFO - [PROMPT] Aquí tens el context: Les guineus estan ballant. A més, els esquirols estan menjant. La Júlia no ha ...
+2025-11-05 09:21:58,365 - INFO - [ANSWER] No.
+
+Segons el context, la Júlia **no** ha rebut cap càmera fotogràfica.
+
+La frase "La Júlia no ha r...
+2025-11-05 09:21:58,366 - INFO - [OK] Row 125 [S3F] completed successfully
+2025-11-05 09:21:58,370 - INFO - [OK] Answer 125 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:21:58,370 - INFO - [PROGRESS] glm-4.6:cloud - 125/288 processed | 125 successful | 0 errors
+2025-11-05 09:21:58,370 - INFO - [INFO] Processing Row 126/288 [S3C]
+2025-11-05 09:21:58,370 - INFO - [PROMPT] Aquí tens el context: Les guineus no estan ballant. Els esquirols tampoc no estan menjant. La Maria ...
+2025-11-05 09:22:17,881 - INFO - [ANSWER] No es pot saber.
+
+**Raonament:**
+
+La Maria va establir una condició: "Si les guineus estan ballant, ...
+2025-11-05 09:22:17,881 - INFO - [OK] Row 126 [S3C] completed successfully
+2025-11-05 09:22:17,886 - INFO - [OK] Answer 126 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:22:17,887 - INFO - [PROGRESS] glm-4.6:cloud - 126/288 processed | 126 successful | 0 errors
+2025-11-05 09:22:17,887 - INFO - [INFO] Processing Row 127/288 [S4T]
+2025-11-05 09:22:17,887 - INFO - [PROMPT] Aquí tens el context: La televisió està engegada. La ràdio també està engegada. La Maria havia dit: ...
+2025-11-05 09:22:36,002 - INFO - [ANSWER] Sí, segons el que diu la Maria, és veritat.
+
+El raonament és el següent:
+
+1.  La Maria va establir u...
+2025-11-05 09:22:36,002 - INFO - [OK] Row 127 [S4T] completed successfully
+2025-11-05 09:22:36,006 - INFO - [OK] Answer 127 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:22:36,007 - INFO - [PROGRESS] glm-4.6:cloud - 127/288 processed | 127 successful | 0 errors
+2025-11-05 09:22:36,007 - INFO - [INFO] Processing Row 128/288 [S4F]
+2025-11-05 09:22:36,007 - INFO - [PROMPT] Aquí tens el context: La televisió està engegada. La ràdio també està engegada. El Mateu no ha fet g...
+2025-11-05 09:22:54,715 - INFO - [ANSWER] No. El text diu explícitament que "El Mateu no ha fet galetes".
+2025-11-05 09:22:54,715 - INFO - [OK] Row 128 [S4F] completed successfully
+2025-11-05 09:22:54,720 - INFO - [OK] Answer 128 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:22:54,720 - INFO - [PROGRESS] glm-4.6:cloud - 128/288 processed | 128 successful | 0 errors
+2025-11-05 09:22:54,720 - INFO - [INFO] Processing Row 129/288 [S4C]
+2025-11-05 09:22:54,721 - INFO - [PROMPT] Aquí tens el context: La televisió està apagada. La ràdio també està apagada. La Maria havia dit: "S...
+2025-11-05 09:23:07,228 - INFO - [ANSWER] No es pot saber.
+
+La Maria va dir que el Mateu faria galetes *si la televisió estigués engegada*. Co...
+2025-11-05 09:23:07,228 - INFO - [OK] Row 129 [S4C] completed successfully
+2025-11-05 09:23:07,233 - INFO - [OK] Answer 129 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:23:07,234 - INFO - [PROGRESS] glm-4.6:cloud - 129/288 processed | 129 successful | 0 errors
+2025-11-05 09:23:07,234 - INFO - [INFO] Processing Row 130/288 [S5T]
+2025-11-05 09:23:07,234 - INFO - [PROMPT] Aquí tens el context: Avui el temps és assolellat. Tampoc no fa vent. La Maria havia dit: "Si el tem...
+2025-11-05 09:23:18,558 - INFO - [ANSWER] Sí, segons el que diu la Maria, és veritat que l'Emma va de morat.
+
+La raó és que ella va establir a...
+2025-11-05 09:23:18,558 - INFO - [OK] Row 130 [S5T] completed successfully
+2025-11-05 09:23:18,563 - INFO - [OK] Answer 130 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:23:18,564 - INFO - [PROGRESS] glm-4.6:cloud - 130/288 processed | 130 successful | 0 errors
+2025-11-05 09:23:18,564 - INFO - [INFO] Processing Row 131/288 [S5F]
+2025-11-05 09:23:18,564 - INFO - [PROMPT] Aquí tens el context: Avui el temps és assolellat. Tampoc no fa vent. L'Emma va de verd. La Maria ha...
+2025-11-05 09:23:28,675 - INFO - [ANSWER] No.
+
+El text diu explícitament que "L'Emma va de verd". Tot i que la Maria va fer la predicció que s...
+2025-11-05 09:23:28,675 - INFO - [OK] Row 131 [S5F] completed successfully
+2025-11-05 09:23:28,680 - INFO - [OK] Answer 131 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:23:28,680 - INFO - [PROGRESS] glm-4.6:cloud - 131/288 processed | 131 successful | 0 errors
+2025-11-05 09:23:28,680 - INFO - [INFO] Processing Row 132/288 [S5C]
+2025-11-05 09:23:28,680 - INFO - [PROMPT] Aquí tens el context: Avui el temps és plujós. A més, també fa molt de vent. La Maria havia dit: "Si...
+2025-11-05 09:23:36,932 - INFO - [ANSWER] No es pot saber.
+
+La Maria va dir que l'Emma aniria de morat *si el temps fos assolellat*. Com que a...
+2025-11-05 09:23:36,932 - INFO - [OK] Row 132 [S5C] completed successfully
+2025-11-05 09:23:36,937 - INFO - [OK] Answer 132 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:23:36,938 - INFO - [PROGRESS] glm-4.6:cloud - 132/288 processed | 132 successful | 0 errors
+2025-11-05 09:23:36,938 - INFO - [INFO] Processing Row 133/288 [S6T]
+2025-11-05 09:23:36,938 - INFO - [PROMPT] Aquí tens el context: El parc infantil està buit. Els carrers també estan tranquils. La Maria havia ...
+2025-11-05 09:23:47,726 - INFO - [ANSWER] Sí, segons el que diu la Maria, és veritat.
+
+La Maria va establir una condició: "Si el parc infantil...
+2025-11-05 09:23:47,726 - INFO - [OK] Row 133 [S6T] completed successfully
+2025-11-05 09:23:47,731 - INFO - [OK] Answer 133 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:23:47,731 - INFO - [PROGRESS] glm-4.6:cloud - 133/288 processed | 133 successful | 0 errors
+2025-11-05 09:23:47,731 - INFO - [INFO] Processing Row 134/288 [S6F]
+2025-11-05 09:23:47,731 - INFO - [PROMPT] Aquí tens el context: El parc infantil està buit. Els carrers també estan tranquils. L'Alba no s'ha ...
+2025-11-05 09:23:56,607 - INFO - [ANSWER] No.
+
+Segons el context, l'Alba no s'ha fet cap selfie.
+
+El text ho diu explícitament: "L'Alba no s'h...
+2025-11-05 09:23:56,607 - INFO - [OK] Row 134 [S6F] completed successfully
+2025-11-05 09:23:56,612 - INFO - [OK] Answer 134 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:23:56,612 - INFO - [PROGRESS] glm-4.6:cloud - 134/288 processed | 134 successful | 0 errors
+2025-11-05 09:23:56,612 - INFO - [INFO] Processing Row 135/288 [S6C]
+2025-11-05 09:23:56,612 - INFO - [PROMPT] Aquí tens el context: El parc infantil està ple de gent. Els carrers també estan animats. La Maria h...
+2025-11-05 09:24:07,640 - INFO - [ANSWER] No ho podem saber.
+
+La Maria va establir una condició: "Si el parc infantil està buit, l'Alba es far...
+2025-11-05 09:24:07,640 - INFO - [OK] Row 135 [S6C] completed successfully
+2025-11-05 09:24:07,645 - INFO - [OK] Answer 135 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:24:07,645 - INFO - [PROGRESS] glm-4.6:cloud - 135/288 processed | 135 successful | 0 errors
+2025-11-05 09:24:07,645 - INFO - [INFO] Processing Row 136/288 [S7T]
+2025-11-05 09:24:07,646 - INFO - [PROMPT] Aquí tens el context: La gespa ha estat tallada. A més, les flors també han estat regades. La Maria ...
+2025-11-05 09:24:18,034 - INFO - [ANSWER] No es pot afirmar.
+
+El text diu que "la gespa ha estat tallada", però no especifica que fos el Pau q...
+2025-11-05 09:24:18,034 - INFO - [OK] Row 136 [S7T] completed successfully
+2025-11-05 09:24:18,039 - INFO - [OK] Answer 136 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:24:18,039 - INFO - [PROGRESS] glm-4.6:cloud - 136/288 processed | 136 successful | 0 errors
+2025-11-05 09:24:18,039 - INFO - [INFO] Processing Row 137/288 [S7F]
+2025-11-05 09:24:18,039 - INFO - [PROMPT] Aquí tens el context: La gespa ha estat tallada. A més, les flors també han estat regades. El Pau no...
+2025-11-05 09:24:28,398 - INFO - [ANSWER] No.
+
+El context ho diu explícitament: "El Pau no ha rebut 50 euros".
+2025-11-05 09:24:28,398 - INFO - [OK] Row 137 [S7F] completed successfully
+2025-11-05 09:24:28,403 - INFO - [OK] Answer 137 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:24:28,404 - INFO - [PROGRESS] glm-4.6:cloud - 137/288 processed | 137 successful | 0 errors
+2025-11-05 09:24:28,404 - INFO - [INFO] Processing Row 138/288 [S7C]
+2025-11-05 09:24:28,404 - INFO - [PROMPT] Aquí tens el context: La gespa no ha estat tallada. Les flors tampoc no han estat regades. La Maria ...
+2025-11-05 09:24:36,375 - INFO - [ANSWER] No es pot saber si el Pau ha rebut 50 euros.
+
+El que diu la Maria és una condició: "Si el Pau talla ...
+2025-11-05 09:24:36,375 - INFO - [OK] Row 138 [S7C] completed successfully
+2025-11-05 09:24:36,380 - INFO - [OK] Answer 138 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:24:36,380 - INFO - [PROGRESS] glm-4.6:cloud - 138/288 processed | 138 successful | 0 errors
+2025-11-05 09:24:36,380 - INFO - [INFO] Processing Row 139/288 [S8T]
+2025-11-05 09:24:36,380 - INFO - [PROMPT] Aquí tens el context: El gos està jugant. A més, el gat està pujant a l'arbre. La Maria havia dit: "...
+2025-11-05 09:24:45,232 - INFO - [ANSWER] No.
+
+Segons el que diu la Maria, com que el gos està jugant, l'Antoni **llegirà** un llibre (acció f...
+2025-11-05 09:24:45,232 - INFO - [OK] Row 139 [S8T] completed successfully
+2025-11-05 09:24:45,237 - INFO - [OK] Answer 139 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:24:45,238 - INFO - [PROGRESS] glm-4.6:cloud - 139/288 processed | 139 successful | 0 errors
+2025-11-05 09:24:45,238 - INFO - [INFO] Processing Row 140/288 [S8F]
+2025-11-05 09:24:45,238 - INFO - [PROMPT] Aquí tens el context: El gos està jugant. A més, el gat està pujant a l'arbre. L'Antoni no ha llegit...
+2025-11-05 09:24:52,716 - INFO - [ANSWER] No.
+
+El context diu explícitament: "L'Antoni no ha llegit cap llibre".
+
+Això crea una contradicció a...
+2025-11-05 09:24:52,717 - INFO - [OK] Row 140 [S8F] completed successfully
+2025-11-05 09:24:52,722 - INFO - [OK] Answer 140 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:24:52,722 - INFO - [PROGRESS] glm-4.6:cloud - 140/288 processed | 140 successful | 0 errors
+2025-11-05 09:24:52,722 - INFO - [INFO] Processing Row 141/288 [S8C]
+2025-11-05 09:24:52,722 - INFO - [PROMPT] Aquí tens el context: El gos no està jugant. A més, el gat està dormint. La Maria havia dit: "Si el ...
+2025-11-05 09:25:01,825 - INFO - [ANSWER] No es pot saber.
+
+**Explicació:**
+
+La frase de la Maria és una condició: "Si el gos està jugant (A),...
+2025-11-05 09:25:01,825 - INFO - [OK] Row 141 [S8C] completed successfully
+2025-11-05 09:25:01,830 - INFO - [OK] Answer 141 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:25:01,831 - INFO - [PROGRESS] glm-4.6:cloud - 141/288 processed | 141 successful | 0 errors
+2025-11-05 09:25:01,831 - INFO - [INFO] Processing Row 142/288 [S9T]
+2025-11-05 09:25:01,831 - INFO - [PROMPT] Aquí tens el context: La nevera està buida. A més, el forn està espatllat. La Maria havia dit: "Si l...
+2025-11-05 09:25:10,032 - INFO - [ANSWER] No es pot saber.
+
+El que diu la Maria és una condició: "Si la nevera està buida, l'Anna portarà donu...
+2025-11-05 09:25:10,033 - INFO - [OK] Row 142 [S9T] completed successfully
+2025-11-05 09:25:10,037 - INFO - [OK] Answer 142 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:25:10,038 - INFO - [PROGRESS] glm-4.6:cloud - 142/288 processed | 142 successful | 0 errors
+2025-11-05 09:25:10,038 - INFO - [INFO] Processing Row 143/288 [S9F]
+2025-11-05 09:25:10,038 - INFO - [PROMPT] Aquí tens el context: La nevera està buida. A més, el forn està espatllat. L'Anna no ha portat donut...
+2025-11-05 09:25:19,036 - INFO - [ANSWER] No, no és veritat.
+
+El context diu explícitament: "L'Anna no ha portat donuts".
+
+A més, aquesta situ...
+2025-11-05 09:25:19,036 - INFO - [OK] Row 143 [S9F] completed successfully
+2025-11-05 09:25:19,041 - INFO - [OK] Answer 143 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:25:19,042 - INFO - [PROGRESS] glm-4.6:cloud - 143/288 processed | 143 successful | 0 errors
+2025-11-05 09:25:19,042 - INFO - [INFO] Processing Row 144/288 [S9C]
+2025-11-05 09:25:19,042 - INFO - [PROMPT] Aquí tens el context: La nevera està plena. A més, el forn està engegat. La Maria havia dit: "Si la ...
+2025-11-05 09:25:31,279 - INFO - [ANSWER] No.
+
+La Maria va dir que l'Anna portaria donuts *si la nevera estigués buida*. Com que el context di...
+2025-11-05 09:25:31,279 - INFO - [OK] Row 144 [S9C] completed successfully
+2025-11-05 09:25:31,289 - INFO - [OK] Answer 144 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:25:31,290 - INFO - [PROGRESS] glm-4.6:cloud - 144/288 processed | 144 successful | 0 errors
+2025-11-05 09:25:31,290 - INFO - [INFO] Processing Row 145/288 [B1T]
+2025-11-05 09:25:31,290 - INFO - [PROMPT] Ecco il contesto: Gianni ha fame e c'è della pizza in forno. C'è anche della pasta in frigo. Maria d...
+2025-11-05 09:25:43,318 - INFO - [ANSWER] Sì, è vero.
+
+Ecco la spiegazione logica:
+
+1.  La frase di Maria è una condizione: **Se** Gianni ha f...
+2025-11-05 09:25:43,318 - INFO - [OK] Row 145 [B1T] completed successfully
+2025-11-05 09:25:43,325 - INFO - [OK] Answer 145 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:25:43,325 - INFO - [PROGRESS] glm-4.6:cloud - 145/288 processed | 145 successful | 0 errors
+2025-11-05 09:25:43,325 - INFO - [INFO] Processing Row 146/288 [B1F]
+2025-11-05 09:25:43,325 - INFO - [PROMPT] Ecco il contesto: Gianni ha fame e non c'è della pizza in forno. Non c'è nemmeno della pasta in frig...
+2025-11-05 09:25:57,831 - INFO - [ANSWER] No, non è vero che c'è della pizza in forno.
+
+Ecco la spiegazione logica:
+
+1.  **L'affermazione di M...
+2025-11-05 09:25:57,831 - INFO - [OK] Row 146 [B1F] completed successfully
+2025-11-05 09:25:57,836 - INFO - [OK] Answer 146 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:25:57,837 - INFO - [PROGRESS] glm-4.6:cloud - 146/288 processed | 146 successful | 0 errors
+2025-11-05 09:25:57,837 - INFO - [INFO] Processing Row 147/288 [B1C]
+2025-11-05 09:25:57,837 - INFO - [PROMPT] Ecco il contesto: Gianni non ha fame. C'è della pasta in frigo. Maria dice: "Se Gianni ha fame, c'è ...
+2025-11-05 09:26:10,639 - INFO - [ANSWER] No, non è possibile saperlo in base a quello che dice Maria.
+
+Ecco la spiegazione logica:
+
+La frase ...
+2025-11-05 09:26:10,639 - INFO - [OK] Row 147 [B1C] completed successfully
+2025-11-05 09:26:10,644 - INFO - [OK] Answer 147 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:26:10,644 - INFO - [PROGRESS] glm-4.6:cloud - 147/288 processed | 147 successful | 0 errors
+2025-11-05 09:26:10,644 - INFO - [INFO] Processing Row 148/288 [B2T]
+2025-11-05 09:26:10,644 - INFO - [PROMPT] Ecco il contesto: Nicoletta ha mal di testa e ci sono delle aspirine sul tavolo. C'è anche dell'ibup...
+2025-11-05 09:26:23,005 - INFO - [ANSWER] Sì, in base a quello che dice Maria, è vero che ci sono delle aspirine sul tavolo.
+
+**Spiegazione:**...
+2025-11-05 09:26:23,005 - INFO - [OK] Row 148 [B2T] completed successfully
+2025-11-05 09:26:23,012 - INFO - [OK] Answer 148 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:26:23,012 - INFO - [PROGRESS] glm-4.6:cloud - 148/288 processed | 148 successful | 0 errors
+2025-11-05 09:26:23,012 - INFO - [INFO] Processing Row 149/288 [B2F]
+2025-11-05 09:26:23,012 - INFO - [PROMPT] Ecco il contesto: Nicoletta ha mal di testa e non ci sono aspirine sul tavolo. Non c'è nemmeno dell'...
+2025-11-05 09:26:40,443 - INFO - [ANSWER] No, non è vero.
+
+Ecco la spiegazione logica:
+
+1.  L'affermazione di Maria è: "Se Nicoletta ha mal di...
+2025-11-05 09:26:40,443 - INFO - [OK] Row 149 [B2F] completed successfully
+2025-11-05 09:26:40,450 - INFO - [OK] Answer 149 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:26:40,450 - INFO - [PROGRESS] glm-4.6:cloud - 149/288 processed | 149 successful | 0 errors
+2025-11-05 09:26:40,450 - INFO - [INFO] Processing Row 150/288 [B2C]
+2025-11-05 09:26:40,450 - INFO - [PROMPT] Ecco il contesto: Nicoletta non ha mal di testa. C'è dell'ibuprofene nel cassetto. Maria dice: "Se N...
+2025-11-05 09:26:51,616 - INFO - [ANSWER] Non è possibile saperlo.
+
+**Spiegazione:**
+
+La frase di Maria è una condizione: "Se A, allora B".
+* ...
+2025-11-05 09:26:51,617 - INFO - [OK] Row 150 [B2C] completed successfully
+2025-11-05 09:26:51,622 - INFO - [OK] Answer 150 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:26:51,622 - INFO - [PROGRESS] glm-4.6:cloud - 150/288 processed | 150 successful | 0 errors
+2025-11-05 09:26:51,622 - INFO - [INFO] Processing Row 151/288 [B3T]
+2025-11-05 09:26:51,622 - INFO - [PROMPT] Ecco il contesto: Lucia ha sete e c'è dell'acqua in frigo. C'è anche del succo di mela sullo scaffal...
+2025-11-05 09:27:00,332 - INFO - [ANSWER] Sì, è vero.
+
+Ecco la spiegazione logica:
+
+1.  Maria fa un'affermazione condizionale: "**Se** Lucia h...
+2025-11-05 09:27:00,333 - INFO - [OK] Row 151 [B3T] completed successfully
+2025-11-05 09:27:00,339 - INFO - [OK] Answer 151 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:27:00,339 - INFO - [PROGRESS] glm-4.6:cloud - 151/288 processed | 151 successful | 0 errors
+2025-11-05 09:27:00,339 - INFO - [INFO] Processing Row 152/288 [B3F]
+2025-11-05 09:27:00,339 - INFO - [PROMPT] Ecco il contesto: Lucia ha sete e non c'è dell'acqua in frigo. Non c'è nemmeno del succo di mela sul...
+2025-11-05 09:27:10,959 - INFO - [ANSWER] Sì.
+
+**Spiegazione:**
+
+La domanda chiede di basarsi *esclusivamente* su ciò che dice Maria.
+
+1.  **L...
+2025-11-05 09:27:10,959 - INFO - [OK] Row 152 [B3F] completed successfully
+2025-11-05 09:27:10,964 - INFO - [OK] Answer 152 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:27:10,965 - INFO - [PROGRESS] glm-4.6:cloud - 152/288 processed | 152 successful | 0 errors
+2025-11-05 09:27:10,965 - INFO - [INFO] Processing Row 153/288 [B3C]
+2025-11-05 09:27:10,965 - INFO - [PROMPT] Ecco il contesto: Lucia non ha sete. C'è del succo di mela sullo scaffale. Maria dice: "Se Lucia ha ...
+2025-11-05 09:27:23,239 - INFO - [ANSWER] Non si può sapere.
+
+**Spiegazione:**
+
+L'affermazione di Maria è una condizionale: "Se P, allora Q".
+...
+2025-11-05 09:27:23,239 - INFO - [OK] Row 153 [B3C] completed successfully
+2025-11-05 09:27:23,244 - INFO - [OK] Answer 153 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:27:23,245 - INFO - [PROGRESS] glm-4.6:cloud - 153/288 processed | 153 successful | 0 errors
+2025-11-05 09:27:23,245 - INFO - [INFO] Processing Row 154/288 [B4T]
+2025-11-05 09:27:23,245 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e c'è un caricatore nel cassetto. C'è anche un com...
+2025-11-05 09:27:35,029 - INFO - [ANSWER] No, non è possibile determinarlo basandosi solo sulle parole di Maria.
+
+Ecco perché:
+
+L'affermazione...
+2025-11-05 09:27:35,029 - INFO - [OK] Row 154 [B4T] completed successfully
+2025-11-05 09:27:35,034 - INFO - [OK] Answer 154 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:27:35,034 - INFO - [PROGRESS] glm-4.6:cloud - 154/288 processed | 154 successful | 0 errors
+2025-11-05 09:27:35,034 - INFO - [INFO] Processing Row 155/288 [B4F]
+2025-11-05 09:27:35,034 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e non c'è un caricatore nel cassetto. Non c'è nemm...
+2025-11-05 09:27:46,741 - INFO - [ANSWER] Sì, in base a quello che dice Maria, è vero che c'è un caricatore nel cassetto.
+
+Ecco la spiegazione...
+2025-11-05 09:27:46,742 - INFO - [OK] Row 155 [B4F] completed successfully
+2025-11-05 09:27:46,747 - INFO - [OK] Answer 155 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:27:46,747 - INFO - [PROGRESS] glm-4.6:cloud - 155/288 processed | 155 successful | 0 errors
+2025-11-05 09:27:46,747 - INFO - [INFO] Processing Row 156/288 [B4C]
+2025-11-05 09:27:46,747 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è carico. C'è un computer sul tavolo. Maria dice: "Se il tel...
+2025-11-05 09:27:57,761 - INFO - [ANSWER] No, non è detto.
+
+Ecco la spiegazione logica:
+
+L'affermazione di Maria è una condizione: "Se A, allo...
+2025-11-05 09:27:57,762 - INFO - [OK] Row 156 [B4C] completed successfully
+2025-11-05 09:27:57,766 - INFO - [OK] Answer 156 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:27:57,767 - INFO - [PROGRESS] glm-4.6:cloud - 156/288 processed | 156 successful | 0 errors
+2025-11-05 09:27:57,767 - INFO - [INFO] Processing Row 157/288 [B5T]
+2025-11-05 09:27:57,767 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e c'è un ombrello nel portaombrelli. C'è anche un impermeabile ...
+2025-11-05 09:28:08,233 - INFO - [ANSWER] No, non è possibile esserne certi basandosi solo sulle parole di Maria.
+
+**Spiegazione:**
+
+Maria sta...
+2025-11-05 09:28:08,233 - INFO - [OK] Row 157 [B5T] completed successfully
+2025-11-05 09:28:08,238 - INFO - [OK] Answer 157 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:28:08,238 - INFO - [PROGRESS] glm-4.6:cloud - 157/288 processed | 157 successful | 0 errors
+2025-11-05 09:28:08,238 - INFO - [INFO] Processing Row 158/288 [B5F]
+2025-11-05 09:28:08,238 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e non c'è un ombrello nel portaombrelli. Non c'è nemmeno un imp...
+2025-11-05 09:28:23,318 - INFO - [ANSWER] No, non è vero.
+
+Ecco la spiegazione:
+
+1.  **Il contesto è la fonte della verità:** Il problema iniz...
+2025-11-05 09:28:23,318 - INFO - [OK] Row 158 [B5F] completed successfully
+2025-11-05 09:28:23,323 - INFO - [OK] Answer 158 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:28:23,324 - INFO - [PROGRESS] glm-4.6:cloud - 158/288 processed | 158 successful | 0 errors
+2025-11-05 09:28:23,324 - INFO - [INFO] Processing Row 159/288 [B5C]
+2025-11-05 09:28:23,324 - INFO - [PROMPT] Ecco il contesto: Il tempo è sereno. C'è un impermeabile in macchina. Maria dice: "Se il tempo è pio...
+2025-11-05 09:28:40,658 - INFO - [ANSWER] No, non è vero.
+
+La frase di Maria è una condizione: "Se il tempo è piovoso, c'è un ombrello nel por...
+2025-11-05 09:28:40,659 - INFO - [OK] Row 159 [B5C] completed successfully
+2025-11-05 09:28:40,664 - INFO - [OK] Answer 159 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:28:40,664 - INFO - [PROGRESS] glm-4.6:cloud - 159/288 processed | 159 successful | 0 errors
+2025-11-05 09:28:40,664 - INFO - [INFO] Processing Row 160/288 [B6T]
+2025-11-05 09:28:40,664 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e c'è una pompa in garage. C'è anche una bici vi...
+2025-11-05 09:28:49,957 - INFO - [ANSWER] Sì, è vero.
+
+Ecco la spiegazione logica:
+
+1.  Maria fa un'affermazione condizionale: "Se **la gomma ...
+2025-11-05 09:28:49,957 - INFO - [OK] Row 160 [B6T] completed successfully
+2025-11-05 09:28:49,964 - INFO - [OK] Answer 160 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:28:49,964 - INFO - [PROGRESS] glm-4.6:cloud - 160/288 processed | 160 successful | 0 errors
+2025-11-05 09:28:49,965 - INFO - [INFO] Processing Row 161/288 [B6F]
+2025-11-05 09:28:49,965 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e non c'è nessuna pompa in garage. Non c'è nemme...
+2025-11-05 09:28:59,714 - INFO - [ANSWER] Sì, in base a quello che dice Maria, è vero che c'è una pompa in garage.
+
+Ecco il ragionamento:
+
+1. ...
+2025-11-05 09:28:59,714 - INFO - [OK] Row 161 [B6F] completed successfully
+2025-11-05 09:28:59,720 - INFO - [OK] Answer 161 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:28:59,720 - INFO - [PROGRESS] glm-4.6:cloud - 161/288 processed | 161 successful | 0 errors
+2025-11-05 09:28:59,720 - INFO - [INFO] Processing Row 162/288 [B6C]
+2025-11-05 09:28:59,720 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è gonfia. C'è una bici vicino alla porta d'ingresso. Maria...
+2025-11-05 09:29:08,644 - INFO - [ANSWER] No, non è detto.
+
+**Spiegazione:**
+
+La frase di Maria è una condizione: "Se la gomma è a terra, *all...
+2025-11-05 09:29:08,644 - INFO - [OK] Row 162 [B6C] completed successfully
+2025-11-05 09:29:08,650 - INFO - [OK] Answer 162 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:29:08,650 - INFO - [PROGRESS] glm-4.6:cloud - 162/288 processed | 162 successful | 0 errors
+2025-11-05 09:29:08,650 - INFO - [INFO] Processing Row 163/288 [B7T]
+2025-11-05 09:29:08,650 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e c'è un annaffiatoio sullo scaffale. C'è anche un tubo da giard...
+2025-11-05 09:29:18,470 - INFO - [ANSWER] No, non è possibile stabilirlo con certezza basandosi solo sulle parole di Maria.
+
+**Spiegazione:**
+...
+2025-11-05 09:29:18,471 - INFO - [OK] Row 163 [B7T] completed successfully
+2025-11-05 09:29:18,476 - INFO - [OK] Answer 163 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:29:18,477 - INFO - [PROGRESS] glm-4.6:cloud - 163/288 processed | 163 successful | 0 errors
+2025-11-05 09:29:18,477 - INFO - [INFO] Processing Row 164/288 [B7F]
+2025-11-05 09:29:18,477 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e non c'è nessun annaffiatoio sullo scaffale. Non c'è nemmeno un...
+2025-11-05 09:29:34,550 - INFO - [ANSWER] No, non è vero che c'è un annaffiatoio sullo scaffale.
+
+Ecco la spiegazione logica:
+
+1.  **Il contes...
+2025-11-05 09:29:34,550 - INFO - [OK] Row 164 [B7F] completed successfully
+2025-11-05 09:29:34,555 - INFO - [OK] Answer 164 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-05 09:29:34,555 - INFO - [PROGRESS] glm-4.6:cloud - 164/288 processed | 164 successful | 0 errors
+2025-11-05 09:29:34,555 - INFO - [INFO] Processing Row 165/288 [B7C]
+2025-11-05 09:29:34,556 - INFO - [PROMPT] Ecco il contesto: La pianta è rigogliosa. C'è un tubo da giardinaggio in giardino. Maria dice: "Se l...
+2025-11-05 09:29:35,294 - WARNING - [WARNING] API status 402
+2025-11-05 09:29:37,064 - WARNING - [WARNING] API status 402

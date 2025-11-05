@@ -13,12 +13,12 @@ from datetime import datetime
 
 # CONFIGURATION
 OLLAMA_API_BASE = "https://ollama.com/api"
-OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY", "9795c944c76d4096a20245eb754a6a0a.r6PIDbap-_Okz7ys5q0DRngt")
-INPUT_FILE = "prompts/example.csv"
+OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY", "9fe5315cf7ce4326bd5249373221cfc7.STrBgk70DS0dH888JwANFA3K")
+INPUT_FILE = "prompts/prompts_all.csv"
 OUTPUT_DIR = "answers"
 CSV_SEPARATOR = ";"
 TEMPERATURE = 0.0
-MAX_TOKENS = 300
+
 
 # LOGGING
 os.makedirs('logs', exist_ok=True)
@@ -61,7 +61,7 @@ def call_ollama_api(model_name, prompt, max_retries=3):
         "model": model_name,
         "prompt": prompt,
         "stream": False,
-        "options": {"temperature": TEMPERATURE, "num_predict": MAX_TOKENS}
+        "options": {"temperature": TEMPERATURE}
     }
     url = f"{OLLAMA_API_BASE}/generate"
 

@@ -1,0 +1,325 @@
+2025-11-04 22:33:34,800 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-04 22:33:34,800 - INFO - [INFO] API: https://ollama.com/api
+2025-11-04 22:33:34,800 - INFO - [INFO] Mode: Sequential
+2025-11-04 22:33:35,347 - INFO - [OK] Ollama API is accessible
+2025-11-04 22:33:35,362 - INFO - [OK] File loaded: 288 rows
+2025-11-04 22:33:35,365 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-04 22:33:35,365 - INFO - [INFO] Processing model 1/4: kimi-k2:1t-cloud
+2025-11-04 22:33:35,365 - INFO - [INFO] ===== Starting: kimi-k2:1t-cloud =====
+2025-11-04 22:33:35,368 - INFO - [INFO] Existing file found but incomplete or size mismatch, starting fresh
+2025-11-04 22:33:35,368 - INFO - [INFO] kimi-k2:1t-cloud has 288 pending answers
+2025-11-04 22:33:35,368 - INFO - [INFO] Starting sequential processing for kimi-k2:1t-cloud
+2025-11-04 22:33:35,370 - INFO - [INFO] Existing file found but incomplete or size mismatch, starting fresh
+2025-11-04 22:33:35,371 - INFO - [INFO] Processing Row 1/288 [B1T]
+2025-11-04 22:33:35,371 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-04 22:33:37,766 - INFO - [ANSWER] Yes, it is true that there is pizza in the oven.  
+Mary says: *"If John is hungry, there is pizza in...
+2025-11-04 22:33:37,766 - INFO - [OK] Row 1 [B1T] completed successfully
+2025-11-04 22:33:37,778 - INFO - [OK] Answer 1 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:33:37,778 - INFO - [PROGRESS] kimi-k2:1t-cloud - 1/288 processed | 1 successful | 0 errors
+2025-11-04 22:33:37,779 - INFO - [INFO] Processing Row 2/288 [B1F]
+2025-11-04 22:33:37,779 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-04 22:33:43,801 - INFO - [ANSWER] No, it is **not true** that there is pizza in the oven.
+
+Mary says: *"If John is hungry, there is pi...
+2025-11-04 22:33:43,802 - INFO - [OK] Row 2 [B1F] completed successfully
+2025-11-04 22:33:43,806 - INFO - [OK] Answer 2 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:33:43,806 - INFO - [PROGRESS] kimi-k2:1t-cloud - 2/288 processed | 2 successful | 0 errors
+2025-11-04 22:33:43,806 - INFO - [INFO] Processing Row 3/288 [B1C]
+2025-11-04 22:33:43,806 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-04 22:33:47,127 - INFO - [ANSWER] No, it is not necessarily true that there is pizza in the oven.
+
+Mary's statement is a conditional: ...
+2025-11-04 22:33:47,127 - INFO - [OK] Row 3 [B1C] completed successfully
+2025-11-04 22:33:47,131 - INFO - [OK] Answer 3 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:33:47,132 - INFO - [PROGRESS] kimi-k2:1t-cloud - 3/288 processed | 3 successful | 0 errors
+2025-11-04 22:33:47,132 - INFO - [INFO] Processing Row 4/288 [B2T]
+2025-11-04 22:33:47,132 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-04 22:33:48,948 - INFO - [ANSWER] Yes, it is true that there is aspirin on the table.
+2025-11-04 22:33:48,949 - INFO - [OK] Row 4 [B2T] completed successfully
+2025-11-04 22:33:48,958 - INFO - [OK] Answer 4 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:33:48,958 - INFO - [PROGRESS] kimi-k2:1t-cloud - 4/288 processed | 4 successful | 0 errors
+2025-11-04 22:33:48,959 - INFO - [INFO] Processing Row 5/288 [B2F]
+2025-11-04 22:33:48,959 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-04 22:33:53,365 - INFO - [ANSWER] No, it is **not true** that there is aspirin on the table.
+
+Mary says: *"If Nicole's head hurts, the...
+2025-11-04 22:33:53,366 - INFO - [OK] Row 5 [B2F] completed successfully
+2025-11-04 22:33:53,370 - INFO - [OK] Answer 5 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:33:53,370 - INFO - [PROGRESS] kimi-k2:1t-cloud - 5/288 processed | 5 successful | 0 errors
+2025-11-04 22:33:53,370 - INFO - [INFO] Processing Row 6/288 [B2C]
+2025-11-04 22:33:53,370 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-04 22:33:57,908 - INFO - [ANSWER] No, it is **not necessarily true** that there is aspirin on the table.
+
+Mary's statement is a condit...
+2025-11-04 22:33:57,908 - INFO - [OK] Row 6 [B2C] completed successfully
+2025-11-04 22:33:57,912 - INFO - [OK] Answer 6 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:33:57,912 - INFO - [PROGRESS] kimi-k2:1t-cloud - 6/288 processed | 6 successful | 0 errors
+2025-11-04 22:33:57,912 - INFO - [INFO] Processing Row 7/288 [B3T]
+2025-11-04 22:33:57,912 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-04 22:33:59,400 - INFO - [ANSWER] Yes, it is true that there is water in the fridge.
+2025-11-04 22:33:59,400 - INFO - [OK] Row 7 [B3T] completed successfully
+2025-11-04 22:33:59,404 - INFO - [OK] Answer 7 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:33:59,404 - INFO - [PROGRESS] kimi-k2:1t-cloud - 7/288 processed | 7 successful | 0 errors
+2025-11-04 22:33:59,404 - INFO - [INFO] Processing Row 8/288 [B3F]
+2025-11-04 22:33:59,404 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-11-04 22:34:03,781 - INFO - [ANSWER] No, it is **not true** that there is water in the fridge.
+
+Mary says: *"If Lucy is thirsty, there is...
+2025-11-04 22:34:03,782 - INFO - [OK] Row 8 [B3F] completed successfully
+2025-11-04 22:34:03,785 - INFO - [OK] Answer 8 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:03,786 - INFO - [PROGRESS] kimi-k2:1t-cloud - 8/288 processed | 8 successful | 0 errors
+2025-11-04 22:34:03,786 - INFO - [INFO] Processing Row 9/288 [B3C]
+2025-11-04 22:34:03,786 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-11-04 22:34:06,926 - INFO - [ANSWER] No, it is **not necessarily true** that there is water in the fridge.
+
+Mary's statement is a **condi...
+2025-11-04 22:34:06,926 - INFO - [OK] Row 9 [B3C] completed successfully
+2025-11-04 22:34:06,932 - INFO - [OK] Answer 9 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:06,932 - INFO - [PROGRESS] kimi-k2:1t-cloud - 9/288 processed | 9 successful | 0 errors
+2025-11-04 22:34:06,932 - INFO - [INFO] Processing Row 10/288 [B4T]
+2025-11-04 22:34:06,932 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-11-04 22:34:08,936 - INFO - [ANSWER] Yes, it is true that there is a charger in the drawer.
+2025-11-04 22:34:08,936 - INFO - [OK] Row 10 [B4T] completed successfully
+2025-11-04 22:34:08,940 - INFO - [OK] Answer 10 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:08,941 - INFO - [PROGRESS] kimi-k2:1t-cloud - 10/288 processed | 10 successful | 0 errors
+2025-11-04 22:34:08,941 - INFO - [INFO] Processing Row 11/288 [B4F]
+2025-11-04 22:34:08,941 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...
+2025-11-04 22:34:12,334 - INFO - [ANSWER] No, it is **not true** that there is a charger in the drawer.
+
+Mary says: *"If Peter's phone is dead...
+2025-11-04 22:34:12,335 - INFO - [OK] Row 11 [B4F] completed successfully
+2025-11-04 22:34:12,339 - INFO - [OK] Answer 11 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:12,339 - INFO - [PROGRESS] kimi-k2:1t-cloud - 11/288 processed | 11 successful | 0 errors
+2025-11-04 22:34:12,339 - INFO - [INFO] Processing Row 12/288 [B4C]
+2025-11-04 22:34:12,339 - INFO - [PROMPT] Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: "If...
+2025-11-04 22:34:15,628 - INFO - [ANSWER] No, it is not necessarily true that there is a charger in the drawer.
+
+Mary's statement is a conditi...
+2025-11-04 22:34:15,629 - INFO - [OK] Row 12 [B4C] completed successfully
+2025-11-04 22:34:15,633 - INFO - [OK] Answer 12 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:15,633 - INFO - [PROGRESS] kimi-k2:1t-cloud - 12/288 processed | 12 successful | 0 errors
+2025-11-04 22:34:15,633 - INFO - [INFO] Processing Row 13/288 [B5T]
+2025-11-04 22:34:15,633 - INFO - [PROMPT] Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a ...
+2025-11-04 22:34:17,262 - INFO - [ANSWER] Yes, it is true that there is an umbrella on the coat rack.
+2025-11-04 22:34:17,262 - INFO - [OK] Row 13 [B5T] completed successfully
+2025-11-04 22:34:17,267 - INFO - [OK] Answer 13 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:17,267 - INFO - [PROGRESS] kimi-k2:1t-cloud - 13/288 processed | 13 successful | 0 errors
+2025-11-04 22:34:17,268 - INFO - [INFO] Processing Row 14/288 [B5F]
+2025-11-04 22:34:17,268 - INFO - [PROMPT] Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no rain...
+2025-11-04 22:34:22,682 - INFO - [ANSWER] No, it is **not true** that there is an umbrella on the coat rack.
+
+Mary's statement is: *"If the we...
+2025-11-04 22:34:22,683 - INFO - [OK] Row 14 [B5F] completed successfully
+2025-11-04 22:34:22,687 - INFO - [OK] Answer 14 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:22,687 - INFO - [PROGRESS] kimi-k2:1t-cloud - 14/288 processed | 14 successful | 0 errors
+2025-11-04 22:34:22,687 - INFO - [INFO] Processing Row 15/288 [B5C]
+2025-11-04 22:34:22,687 - INFO - [PROMPT] Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: "If the weather...
+2025-11-04 22:34:25,779 - INFO - [ANSWER] No, it is not necessarily true that there is an umbrella on the coat rack.
+
+Mary's statement is a co...
+2025-11-04 22:34:25,779 - INFO - [OK] Row 15 [B5C] completed successfully
+2025-11-04 22:34:25,783 - INFO - [OK] Answer 15 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:25,783 - INFO - [PROGRESS] kimi-k2:1t-cloud - 15/288 processed | 15 successful | 0 errors
+2025-11-04 22:34:25,783 - INFO - [INFO] Processing Row 16/288 [B6T]
+2025-11-04 22:34:25,783 - INFO - [PROMPT] Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the...
+2025-11-04 22:34:28,227 - INFO - [ANSWER] Yes, it is true that there is a pump in the garage — both according to what Mary says and as stated ...
+2025-11-04 22:34:28,227 - INFO - [OK] Row 16 [B6T] completed successfully
+2025-11-04 22:34:28,231 - INFO - [OK] Answer 16 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:28,231 - INFO - [PROGRESS] kimi-k2:1t-cloud - 16/288 processed | 16 successful | 0 errors
+2025-11-04 22:34:28,231 - INFO - [INFO] Processing Row 17/288 [B6F]
+2025-11-04 22:34:28,231 - INFO - [PROMPT] Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the fr...
+2025-11-04 22:34:31,357 - INFO - [ANSWER] No, it is **not necessarily true** that there is a pump in the garage.
+
+Mary says: *"If your tire is...
+2025-11-04 22:34:31,357 - INFO - [OK] Row 17 [B6F] completed successfully
+2025-11-04 22:34:31,361 - INFO - [OK] Answer 17 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:31,362 - INFO - [PROGRESS] kimi-k2:1t-cloud - 17/288 processed | 17 successful | 0 errors
+2025-11-04 22:34:31,362 - INFO - [INFO] Processing Row 18/288 [B6C]
+2025-11-04 22:34:31,362 - INFO - [PROMPT] Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: "If your ti...
+2025-11-04 22:34:33,839 - INFO - [ANSWER] No, it is not necessarily true that there is a pump in the garage. Mary only says that **if** your t...
+2025-11-04 22:34:33,839 - INFO - [OK] Row 18 [B6C] completed successfully
+2025-11-04 22:34:33,843 - INFO - [OK] Answer 18 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:33,843 - INFO - [PROGRESS] kimi-k2:1t-cloud - 18/288 processed | 18 successful | 0 errors
+2025-11-04 22:34:33,843 - INFO - [INFO] Processing Row 19/288 [B7T]
+2025-11-04 22:34:33,844 - INFO - [PROMPT] Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in ...
+2025-11-04 22:34:35,473 - INFO - [ANSWER] Yes, it is true that there is a water can on the shelf.
+2025-11-04 22:34:35,473 - INFO - [OK] Row 19 [B7T] completed successfully
+2025-11-04 22:34:35,477 - INFO - [OK] Answer 19 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:35,477 - INFO - [PROGRESS] kimi-k2:1t-cloud - 19/288 processed | 19 successful | 0 errors
+2025-11-04 22:34:35,477 - INFO - [INFO] Processing Row 20/288 [B7F]
+2025-11-04 22:34:35,477 - INFO - [PROMPT] Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the...
+2025-11-04 22:34:38,430 - INFO - [ANSWER] No, it is **not true** that there is a water can on the shelf.
+
+Mary says: *"If the plant is dry, th...
+2025-11-04 22:34:38,430 - INFO - [OK] Row 20 [B7F] completed successfully
+2025-11-04 22:34:38,434 - INFO - [OK] Answer 20 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:38,434 - INFO - [PROGRESS] kimi-k2:1t-cloud - 20/288 processed | 20 successful | 0 errors
+2025-11-04 22:34:38,435 - INFO - [INFO] Processing Row 21/288 [B7C]
+2025-11-04 22:34:38,435 - INFO - [PROMPT] Here's the context: The plant is not dry. There is a hose in the garden. Mary says: "If the plant is...
+2025-11-04 22:34:41,492 - INFO - [ANSWER] No, it is not necessarily true that there is a water can on the shelf.
+
+Mary's statement is a condit...
+2025-11-04 22:34:41,493 - INFO - [OK] Row 21 [B7C] completed successfully
+2025-11-04 22:34:41,497 - INFO - [OK] Answer 21 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:41,497 - INFO - [PROGRESS] kimi-k2:1t-cloud - 21/288 processed | 21 successful | 0 errors
+2025-11-04 22:34:41,497 - INFO - [INFO] Processing Row 22/288 [B8T]
+2025-11-04 22:34:41,497 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ...
+2025-11-04 22:34:44,705 - INFO - [ANSWER] Yes, it is true that there is an iron in the closet.  
+Mary's statement — "If George's shirt is wrin...
+2025-11-04 22:34:44,706 - INFO - [OK] Row 22 [B8T] completed successfully
+2025-11-04 22:34:44,710 - INFO - [OK] Answer 22 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:44,711 - INFO - [PROGRESS] kimi-k2:1t-cloud - 22/288 processed | 22 successful | 0 errors
+2025-11-04 22:34:44,711 - INFO - [INFO] Processing Row 23/288 [B8F]
+2025-11-04 22:34:44,711 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironi...
+2025-11-04 22:34:50,217 - INFO - [ANSWER] No, it is **not true** that there is an iron in the closet.
+
+Mary says: *"If George's shirt is wrink...
+2025-11-04 22:34:50,217 - INFO - [OK] Row 23 [B8F] completed successfully
+2025-11-04 22:34:50,222 - INFO - [OK] Answer 23 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:50,223 - INFO - [PROGRESS] kimi-k2:1t-cloud - 23/288 processed | 23 successful | 0 errors
+2025-11-04 22:34:50,223 - INFO - [INFO] Processing Row 24/288 [B8C]
+2025-11-04 22:34:50,223 - INFO - [PROMPT] Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary s...
+2025-11-04 22:34:54,129 - INFO - [ANSWER] No, it is **not necessarily true** that there is an iron in the closet.
+
+Mary's statement is a **con...
+2025-11-04 22:34:54,129 - INFO - [OK] Row 24 [B8C] completed successfully
+2025-11-04 22:34:54,133 - INFO - [OK] Answer 24 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:54,134 - INFO - [PROGRESS] kimi-k2:1t-cloud - 24/288 processed | 24 successful | 0 errors
+2025-11-04 22:34:54,134 - INFO - [INFO] Processing Row 25/288 [B9T]
+2025-11-04 22:34:54,134 - INFO - [PROMPT] Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper o...
+2025-11-04 22:34:56,942 - INFO - [ANSWER] Yes, it is true that there are books on the shelf. Mary states, "If Susy wants to read, there are bo...
+2025-11-04 22:34:56,942 - INFO - [OK] Row 25 [B9T] completed successfully
+2025-11-04 22:34:56,947 - INFO - [OK] Answer 25 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:34:56,947 - INFO - [PROGRESS] kimi-k2:1t-cloud - 25/288 processed | 25 successful | 0 errors
+2025-11-04 22:34:56,947 - INFO - [INFO] Processing Row 26/288 [B9F]
+2025-11-04 22:34:56,947 - INFO - [PROMPT] Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on...
+2025-11-04 22:35:01,087 - INFO - [ANSWER] No, it is **not true** that there are books on the shelf.
+
+Mary says: *"If Susy wants to read, there...
+2025-11-04 22:35:01,087 - INFO - [OK] Row 26 [B9F] completed successfully
+2025-11-04 22:35:01,091 - INFO - [OK] Answer 26 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:01,091 - INFO - [PROGRESS] kimi-k2:1t-cloud - 26/288 processed | 26 successful | 0 errors
+2025-11-04 22:35:01,091 - INFO - [INFO] Processing Row 27/288 [B9C]
+2025-11-04 22:35:01,091 - INFO - [PROMPT] Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: "If Su...
+2025-11-04 22:35:04,362 - INFO - [ANSWER] Yes, it is true that there are books on the shelf.  
+Mary's statement — "If Susy wants to read, ther...
+2025-11-04 22:35:04,362 - INFO - [OK] Row 27 [B9C] completed successfully
+2025-11-04 22:35:04,367 - INFO - [OK] Answer 27 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:04,367 - INFO - [PROGRESS] kimi-k2:1t-cloud - 27/288 processed | 27 successful | 0 errors
+2025-11-04 22:35:04,367 - INFO - [INFO] Processing Row 28/288 [F1T]
+2025-11-04 22:35:04,367 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-04 22:35:05,957 - INFO - [ANSWER] Yes, pizza is more popular than pasta in this context.
+2025-11-04 22:35:05,957 - INFO - [OK] Row 28 [F1T] completed successfully
+2025-11-04 22:35:05,961 - INFO - [OK] Answer 28 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:05,962 - INFO - [PROGRESS] kimi-k2:1t-cloud - 28/288 processed | 28 successful | 0 errors
+2025-11-04 22:35:05,962 - INFO - [INFO] Processing Row 29/288 [F1F]
+2025-11-04 22:35:05,962 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-04 22:35:07,457 - INFO - [ANSWER] No, pasta is not more popular than pizza.
+2025-11-04 22:35:07,457 - INFO - [OK] Row 29 [F1F] completed successfully
+2025-11-04 22:35:07,461 - INFO - [OK] Answer 29 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:07,461 - INFO - [PROGRESS] kimi-k2:1t-cloud - 29/288 processed | 29 successful | 0 errors
+2025-11-04 22:35:07,462 - INFO - [INFO] Processing Row 30/288 [F2T]
+2025-11-04 22:35:07,462 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-04 22:35:09,923 - INFO - [ANSWER] No. The context only says that “most people prefer green tea,” not that they actually consume more o...
+2025-11-04 22:35:09,924 - INFO - [OK] Row 30 [F2T] completed successfully
+2025-11-04 22:35:09,928 - INFO - [OK] Answer 30 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:09,928 - INFO - [PROGRESS] kimi-k2:1t-cloud - 30/288 processed | 30 successful | 0 errors
+2025-11-04 22:35:09,928 - INFO - [INFO] Processing Row 31/288 [F2F]
+2025-11-04 22:35:09,928 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-04 22:35:11,433 - INFO - [ANSWER] No, black coffee is not more used than green tea.
+2025-11-04 22:35:11,433 - INFO - [OK] Row 31 [F2F] completed successfully
+2025-11-04 22:35:11,437 - INFO - [OK] Answer 31 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:11,437 - INFO - [PROGRESS] kimi-k2:1t-cloud - 31/288 processed | 31 successful | 0 errors
+2025-11-04 22:35:11,437 - INFO - [INFO] Processing Row 32/288 [F3T]
+2025-11-04 22:35:11,438 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-04 22:35:13,688 - INFO - [ANSWER] Yes, in this context, soda appears to be more in demand than water, since many people choose soda ev...
+2025-11-04 22:35:13,688 - INFO - [OK] Row 32 [F3T] completed successfully
+2025-11-04 22:35:13,693 - INFO - [OK] Answer 32 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:13,693 - INFO - [PROGRESS] kimi-k2:1t-cloud - 32/288 processed | 32 successful | 0 errors
+2025-11-04 22:35:13,693 - INFO - [INFO] Processing Row 33/288 [F3F]
+2025-11-04 22:35:13,693 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-04 22:35:15,780 - INFO - [ANSWER] No. In this context people still pick soda even though water is healthier, so soda is the item in hi...
+2025-11-04 22:35:15,780 - INFO - [OK] Row 33 [F3F] completed successfully
+2025-11-04 22:35:15,784 - INFO - [OK] Answer 33 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:15,784 - INFO - [PROGRESS] kimi-k2:1t-cloud - 33/288 processed | 33 successful | 0 errors
+2025-11-04 22:35:15,784 - INFO - [INFO] Processing Row 34/288 [F4T]
+2025-11-04 22:35:15,785 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-04 22:35:17,370 - INFO - [ANSWER] Yes, broccoli is more popular than gnocchi.
+2025-11-04 22:35:17,370 - INFO - [OK] Row 34 [F4T] completed successfully
+2025-11-04 22:35:17,374 - INFO - [OK] Answer 34 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:17,375 - INFO - [PROGRESS] kimi-k2:1t-cloud - 34/288 processed | 34 successful | 0 errors
+2025-11-04 22:35:17,375 - INFO - [INFO] Processing Row 35/288 [F4F]
+2025-11-04 22:35:17,375 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-04 22:35:19,204 - INFO - [ANSWER] No, gnocchi are not more popular than broccoli in this context.
+2025-11-04 22:35:19,204 - INFO - [OK] Row 35 [F4F] completed successfully
+2025-11-04 22:35:19,208 - INFO - [OK] Answer 35 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:19,208 - INFO - [PROGRESS] kimi-k2:1t-cloud - 35/288 processed | 35 successful | 0 errors
+2025-11-04 22:35:19,208 - INFO - [INFO] Processing Row 36/288 [F5T]
+2025-11-04 22:35:19,208 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-04 22:35:20,891 - INFO - [ANSWER] Yes, burgers are more popular than sushi.
+2025-11-04 22:35:20,891 - INFO - [OK] Row 36 [F5T] completed successfully
+2025-11-04 22:35:20,895 - INFO - [OK] Answer 36 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:20,896 - INFO - [PROGRESS] kimi-k2:1t-cloud - 36/288 processed | 36 successful | 0 errors
+2025-11-04 22:35:20,896 - INFO - [INFO] Processing Row 37/288 [F5F]
+2025-11-04 22:35:20,896 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-04 22:35:23,044 - INFO - [ANSWER] No. The context explicitly says “people eat burgers more often,” so burgers are more popular than su...
+2025-11-04 22:35:23,044 - INFO - [OK] Row 37 [F5F] completed successfully
+2025-11-04 22:35:23,048 - INFO - [OK] Answer 37 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:23,049 - INFO - [PROGRESS] kimi-k2:1t-cloud - 37/288 processed | 37 successful | 0 errors
+2025-11-04 22:35:23,049 - INFO - [INFO] Processing Row 38/288 [F6T]
+2025-11-04 22:35:23,049 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-04 22:35:25,122 - INFO - [ANSWER] Yes, bananas are more popular than kiwis.
+2025-11-04 22:35:25,122 - INFO - [OK] Row 38 [F6T] completed successfully
+2025-11-04 22:35:25,126 - INFO - [OK] Answer 38 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:25,127 - INFO - [PROGRESS] kimi-k2:1t-cloud - 38/288 processed | 38 successful | 0 errors
+2025-11-04 22:35:25,127 - INFO - [INFO] Processing Row 39/288 [F6F]
+2025-11-04 22:35:25,127 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-04 22:35:26,595 - INFO - [ANSWER] No, kiwis are not more popular than bananas.
+2025-11-04 22:35:26,595 - INFO - [OK] Row 39 [F6F] completed successfully
+2025-11-04 22:35:26,599 - INFO - [OK] Answer 39 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:26,599 - INFO - [PROGRESS] kimi-k2:1t-cloud - 39/288 processed | 39 successful | 0 errors
+2025-11-04 22:35:26,599 - INFO - [INFO] Processing Row 40/288 [F7T]
+2025-11-04 22:35:26,600 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-04 22:35:28,133 - INFO - [ANSWER] Yes, dogs are more popular than cats in this context.
+2025-11-04 22:35:28,133 - INFO - [OK] Row 40 [F7T] completed successfully
+2025-11-04 22:35:28,137 - INFO - [OK] Answer 40 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:28,138 - INFO - [PROGRESS] kimi-k2:1t-cloud - 40/288 processed | 40 successful | 0 errors
+2025-11-04 22:35:28,138 - INFO - [INFO] Processing Row 41/288 [F7F]
+2025-11-04 22:35:28,138 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-04 22:35:29,680 - INFO - [ANSWER] No, cats are not more popular than dogs in this context.
+2025-11-04 22:35:29,680 - INFO - [OK] Row 41 [F7F] completed successfully
+2025-11-04 22:35:29,684 - INFO - [OK] Answer 41 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:29,684 - INFO - [PROGRESS] kimi-k2:1t-cloud - 41/288 processed | 41 successful | 0 errors
+2025-11-04 22:35:29,684 - INFO - [INFO] Processing Row 42/288 [F8T]
+2025-11-04 22:35:29,684 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, most people watch T...
+2025-11-04 22:35:31,255 - INFO - [ANSWER] Yes.
+2025-11-04 22:35:31,255 - INFO - [OK] Row 42 [F8T] completed successfully
+2025-11-04 22:35:31,259 - INFO - [OK] Answer 42 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:31,260 - INFO - [PROGRESS] kimi-k2:1t-cloud - 42/288 processed | 42 successful | 0 errors
+2025-11-04 22:35:31,260 - INFO - [INFO] Processing Row 43/288 [F8F]
+2025-11-04 22:35:31,260 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, most people watch T...
+2025-11-04 22:35:33,005 - INFO - [ANSWER] No, more people are watching TV than reading books.
+2025-11-04 22:35:33,005 - INFO - [OK] Row 43 [F8F] completed successfully
+2025-11-04 22:35:33,009 - INFO - [OK] Answer 43 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:33,009 - INFO - [PROGRESS] kimi-k2:1t-cloud - 43/288 processed | 43 successful | 0 errors
+2025-11-04 22:35:33,009 - INFO - [INFO] Processing Row 44/288 [F9T]
+2025-11-04 22:35:33,009 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-04 22:35:34,455 - INFO - [ANSWER] Yes, walking is more popular than running.
+2025-11-04 22:35:34,456 - INFO - [OK] Row 44 [F9T] completed successfully
+2025-11-04 22:35:34,460 - INFO - [OK] Answer 44 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:34,460 - INFO - [PROGRESS] kimi-k2:1t-cloud - 44/288 processed | 44 successful | 0 errors
+2025-11-04 22:35:34,460 - INFO - [INFO] Processing Row 45/288 [F9F]
+2025-11-04 22:35:34,460 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-04 22:35:36,137 - INFO - [ANSWER] No, running is not more popular than walking.
+2025-11-04 22:35:36,137 - INFO - [OK] Row 45 [F9F] completed successfully
+2025-11-04 22:35:36,141 - INFO - [OK] Answer 45 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:36,142 - INFO - [PROGRESS] kimi-k2:1t-cloud - 45/288 processed | 45 successful | 0 errors
+2025-11-04 22:35:36,142 - INFO - [INFO] Processing Row 46/288 [S1T]
+2025-11-04 22:35:36,142 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Mary had said: "If ...
+2025-11-04 22:35:39,216 - INFO - [ANSWER] Based on what Mary said — "If the parrot is in the cage, Thomas will bring pizza" — and given that t...
+2025-11-04 22:35:39,216 - INFO - [OK] Row 46 [S1T] completed successfully
+2025-11-04 22:35:39,220 - INFO - [OK] Answer 46 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:35:39,220 - INFO - [PROGRESS] kimi-k2:1t-cloud - 46/288 processed | 46 successful | 0 errors
+2025-11-04 22:35:39,220 - INFO - [INFO] Processing Row 47/288 [S1F]
+2025-11-04 22:35:39,221 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not brin...

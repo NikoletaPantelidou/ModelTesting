@@ -1,0 +1,1839 @@
+2025-11-04 22:36:42,458 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-04 22:36:42,458 - INFO - [INFO] API: https://ollama.com/api
+2025-11-04 22:36:42,459 - INFO - [INFO] Mode: Sequential
+2025-11-04 22:36:43,001 - INFO - [OK] Ollama API is accessible
+2025-11-04 22:36:43,011 - INFO - [OK] File loaded: 288 rows
+2025-11-04 22:36:43,011 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-04 22:36:43,011 - INFO - [INFO] Processing model 1/4: kimi-k2:1t-cloud
+2025-11-04 22:36:43,011 - INFO - [INFO] ===== Starting: kimi-k2:1t-cloud =====
+2025-11-04 22:36:43,017 - INFO - [INFO] Found existing answers file: answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:36:43,019 - INFO - [INFO] Existing progress: 46/288 answers completed, 0 errors, 242 pending
+2025-11-04 22:36:43,024 - INFO - [INFO] Pending items: S1F, S1C, S2T, S2F, S2C, S3T, S3F, S3C, S4T, S4F, S4C, S5T, S5F, S5C, S6T, S6F, S6C, S7T, S7F, S7C...
+2025-11-04 22:36:43,024 - INFO - [INFO] kimi-k2:1t-cloud has 242 pending answers
+2025-11-04 22:36:43,024 - INFO - [INFO] Starting sequential processing for kimi-k2:1t-cloud
+2025-11-04 22:36:43,028 - INFO - [INFO] Found existing answers file: answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:36:43,028 - INFO - [INFO] Existing progress: 46/288 answers completed, 0 errors, 242 pending
+2025-11-04 22:36:43,033 - INFO - [INFO] Pending items: S1F, S1C, S2T, S2F, S2C, S3T, S3F, S3C, S4T, S4F, S4C, S5T, S5F, S5C, S6T, S6F, S6C, S7T, S7F, S7C...
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 1/288 [B1T] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 2/288 [B1F] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 3/288 [B1C] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 4/288 [B2T] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 5/288 [B2F] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 6/288 [B2C] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 7/288 [B3T] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 8/288 [B3F] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 9/288 [B3C] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 10/288 [B4T] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 11/288 [B4F] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 12/288 [B4C] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 13/288 [B5T] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 14/288 [B5F] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 15/288 [B5C] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 16/288 [B6T] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 17/288 [B6F] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 18/288 [B6C] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 19/288 [B7T] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 20/288 [B7F] already completed
+2025-11-04 22:36:43,034 - INFO - [SKIP] Row 21/288 [B7C] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 22/288 [B8T] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 23/288 [B8F] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 24/288 [B8C] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 25/288 [B9T] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 26/288 [B9F] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 27/288 [B9C] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 28/288 [F1T] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 29/288 [F1F] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 30/288 [F2T] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 31/288 [F2F] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 32/288 [F3T] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 33/288 [F3F] already completed
+2025-11-04 22:36:43,035 - INFO - [SKIP] Row 34/288 [F4T] already completed
+2025-11-04 22:36:43,036 - INFO - [SKIP] Row 35/288 [F4F] already completed
+2025-11-04 22:36:43,036 - INFO - [SKIP] Row 36/288 [F5T] already completed
+2025-11-04 22:36:43,036 - INFO - [SKIP] Row 37/288 [F5F] already completed
+2025-11-04 22:36:43,036 - INFO - [SKIP] Row 38/288 [F6T] already completed
+2025-11-04 22:36:43,036 - INFO - [SKIP] Row 39/288 [F6F] already completed
+2025-11-04 22:36:43,036 - INFO - [SKIP] Row 40/288 [F7T] already completed
+2025-11-04 22:36:43,036 - INFO - [SKIP] Row 41/288 [F7F] already completed
+2025-11-04 22:36:43,036 - INFO - [SKIP] Row 42/288 [F8T] already completed
+2025-11-04 22:36:43,036 - INFO - [SKIP] Row 43/288 [F8F] already completed
+2025-11-04 22:36:43,036 - INFO - [SKIP] Row 44/288 [F9T] already completed
+2025-11-04 22:36:43,037 - INFO - [SKIP] Row 45/288 [F9F] already completed
+2025-11-04 22:36:43,037 - INFO - [SKIP] Row 46/288 [S1T] already completed
+2025-11-04 22:36:43,037 - INFO - [INFO] Processing Row 47/288 [S1F]
+2025-11-04 22:36:43,037 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not brin...
+2025-11-04 22:36:46,411 - INFO - [ANSWER] No, it is **not true** that Thomas brought pizza.
+
+Mary said: *"If the parrot is in the cage, Thomas...
+2025-11-04 22:36:46,411 - INFO - [OK] Row 47 [S1F] completed successfully
+2025-11-04 22:36:46,418 - INFO - [OK] Answer 47 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:36:46,418 - INFO - [PROGRESS] kimi-k2:1t-cloud - 47/288 processed | 47 successful | 0 errors
+2025-11-04 22:36:46,418 - INFO - [INFO] Processing Row 48/288 [S1C]
+2025-11-04 22:36:46,418 - INFO - [PROMPT] Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had s...
+2025-11-04 22:36:51,196 - INFO - [ANSWER] No, it is **not necessarily true** that Thomas brought pizza.
+
+Mary said: *"If the parrot is in the ...
+2025-11-04 22:36:51,197 - INFO - [OK] Row 48 [S1C] completed successfully
+2025-11-04 22:36:51,201 - INFO - [OK] Answer 48 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:36:51,201 - INFO - [PROGRESS] kimi-k2:1t-cloud - 48/288 processed | 48 successful | 0 errors
+2025-11-04 22:36:51,201 - INFO - [INFO] Processing Row 49/288 [S2T]
+2025-11-04 22:36:51,201 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: "If you...
+2025-11-04 22:36:53,914 - INFO - [ANSWER] No, it is not necessarily true that Mark gave you a candy. Mary said *if* you finish your broccoli, ...
+2025-11-04 22:36:53,914 - INFO - [OK] Row 49 [S2T] completed successfully
+2025-11-04 22:36:53,918 - INFO - [OK] Answer 49 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:36:53,919 - INFO - [PROGRESS] kimi-k2:1t-cloud - 49/288 processed | 49 successful | 0 errors
+2025-11-04 22:36:53,919 - INFO - [INFO] Processing Row 50/288 [S2F]
+2025-11-04 22:36:53,919 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you ...
+2025-11-04 22:36:57,903 - INFO - [ANSWER] No, it is not necessarily true that Mark gave you a candy.
+
+Mary said: *"If you finish your broccoli...
+2025-11-04 22:36:57,903 - INFO - [OK] Row 50 [S2F] completed successfully
+2025-11-04 22:36:57,907 - INFO - [OK] Answer 50 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:36:57,908 - INFO - [PROGRESS] kimi-k2:1t-cloud - 50/288 processed | 50 successful | 0 errors
+2025-11-04 22:36:57,908 - INFO - [INFO] Processing Row 51/288 [S2C]
+2025-11-04 22:36:57,908 - INFO - [PROMPT] Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had s...
+2025-11-04 22:36:59,988 - INFO - [ANSWER] No, it is not true that Mark gave you a candy.  
+Since you didn’t finish your broccoli, the conditio...
+2025-11-04 22:36:59,988 - INFO - [OK] Row 51 [S2C] completed successfully
+2025-11-04 22:36:59,992 - INFO - [OK] Answer 51 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:36:59,992 - INFO - [PROGRESS] kimi-k2:1t-cloud - 51/288 processed | 51 successful | 0 errors
+2025-11-04 22:36:59,992 - INFO - [INFO] Processing Row 52/288 [S3T]
+2025-11-04 22:36:59,992 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: "If the fo...
+2025-11-04 22:37:01,855 - INFO - [ANSWER] Yes, it is true that Susan got a camera — based on what Mary said, since the foxes are dancing, the ...
+2025-11-04 22:37:01,855 - INFO - [OK] Row 52 [S3T] completed successfully
+2025-11-04 22:37:01,859 - INFO - [OK] Answer 52 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:01,859 - INFO - [PROGRESS] kimi-k2:1t-cloud - 52/288 processed | 52 successful | 0 errors
+2025-11-04 22:37:01,859 - INFO - [INFO] Processing Row 53/288 [S3F]
+2025-11-04 22:37:01,859 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shove...
+2025-11-04 22:37:06,595 - INFO - [ANSWER] No, it is **not necessarily true** that Susan got a camera.
+
+Mary said: *"If the foxes are dancing, ...
+2025-11-04 22:37:06,595 - INFO - [OK] Row 53 [S3F] completed successfully
+2025-11-04 22:37:06,599 - INFO - [OK] Answer 53 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:06,600 - INFO - [PROGRESS] kimi-k2:1t-cloud - 53/288 processed | 53 successful | 0 errors
+2025-11-04 22:37:06,600 - INFO - [INFO] Processing Row 54/288 [S3C]
+2025-11-04 22:37:06,600 - INFO - [PROMPT] Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: "...
+2025-11-04 22:37:10,661 - INFO - [ANSWER] No, it is not true that Susan got a camera.
+
+Mary said: *"If the foxes are dancing, Susan will get a...
+2025-11-04 22:37:10,661 - INFO - [OK] Row 54 [S3C] completed successfully
+2025-11-04 22:37:10,665 - INFO - [OK] Answer 54 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:10,666 - INFO - [PROGRESS] kimi-k2:1t-cloud - 54/288 processed | 54 successful | 0 errors
+2025-11-04 22:37:10,666 - INFO - [INFO] Processing Row 55/288 [S4T]
+2025-11-04 22:37:10,666 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Mary had said: "If the TV is on, Matthew wil...
+2025-11-04 22:37:13,349 - INFO - [ANSWER] Yes, it is true that Matthew baked cookies — based on what Mary said. She stated: *"If the TV is on,...
+2025-11-04 22:37:13,349 - INFO - [OK] Row 55 [S4T] completed successfully
+2025-11-04 22:37:13,352 - INFO - [OK] Answer 55 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:13,353 - INFO - [PROGRESS] kimi-k2:1t-cloud - 55/288 processed | 55 successful | 0 errors
+2025-11-04 22:37:13,353 - INFO - [INFO] Processing Row 56/288 [S4F]
+2025-11-04 22:37:13,353 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said:...
+2025-11-04 22:37:19,080 - INFO - [ANSWER] No, it is **not true** that Matthew baked cookies.
+
+Mary said: *"If the TV is on, Matthew will bake ...
+2025-11-04 22:37:19,081 - INFO - [OK] Row 56 [S4F] completed successfully
+2025-11-04 22:37:19,085 - INFO - [OK] Answer 56 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:19,086 - INFO - [PROGRESS] kimi-k2:1t-cloud - 56/288 processed | 56 successful | 0 errors
+2025-11-04 22:37:19,086 - INFO - [INFO] Processing Row 57/288 [S4C]
+2025-11-04 22:37:19,086 - INFO - [PROMPT] Here's the context: The TV is off. The radio is also off. Mary had said: "If the TV is on, Matthew w...
+2025-11-04 22:37:21,381 - INFO - [ANSWER] No, it is not true that Matthew baked cookies.  
+Since the TV is off, the condition Mary stated ("If...
+2025-11-04 22:37:21,381 - INFO - [OK] Row 57 [S4C] completed successfully
+2025-11-04 22:37:21,386 - INFO - [OK] Answer 57 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:21,386 - INFO - [PROGRESS] kimi-k2:1t-cloud - 57/288 processed | 57 successful | 0 errors
+2025-11-04 22:37:21,386 - INFO - [INFO] Processing Row 58/288 [S5T]
+2025-11-04 22:37:21,386 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Mary had said: "If the weat...
+2025-11-04 22:37:23,491 - INFO - [ANSWER] Based on what Mary said — "If the weather is sunny, Emma will wear purple" — and given that the weat...
+2025-11-04 22:37:23,491 - INFO - [OK] Row 58 [S5T] completed successfully
+2025-11-04 22:37:23,502 - INFO - [OK] Answer 58 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:23,503 - INFO - [PROGRESS] kimi-k2:1t-cloud - 58/288 processed | 58 successful | 0 errors
+2025-11-04 22:37:23,503 - INFO - [INFO] Processing Row 59/288 [S5F]
+2025-11-04 22:37:23,504 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Emma is wearing green. Mary...
+2025-11-04 22:37:26,414 - INFO - [ANSWER] No, it is not true that Emma wore purple.  
+Mary said: *"If the weather is sunny, Emma will wear pur...
+2025-11-04 22:37:26,414 - INFO - [OK] Row 59 [S5F] completed successfully
+2025-11-04 22:37:26,418 - INFO - [OK] Answer 59 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:26,418 - INFO - [PROGRESS] kimi-k2:1t-cloud - 59/288 processed | 59 successful | 0 errors
+2025-11-04 22:37:26,419 - INFO - [INFO] Processing Row 60/288 [S5C]
+2025-11-04 22:37:26,419 - INFO - [PROMPT] Here's the context: Today, the weather is rainy. Also, it is very windy. Mary had said: "If the weat...
+2025-11-04 22:37:29,085 - INFO - [ANSWER] No, it is not true that Emma wore purple.  
+Mary said Emma would wear purple **only if** the weather...
+2025-11-04 22:37:29,085 - INFO - [OK] Row 60 [S5C] completed successfully
+2025-11-04 22:37:29,089 - INFO - [OK] Answer 60 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:29,089 - INFO - [PROGRESS] kimi-k2:1t-cloud - 60/288 processed | 60 successful | 0 errors
+2025-11-04 22:37:29,089 - INFO - [INFO] Processing Row 61/288 [S6T]
+2025-11-04 22:37:29,089 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Mary had said: "If the pl...
+2025-11-04 22:37:32,144 - INFO - [ANSWER] Based on what Mary said — "If the playground is empty, Angela will take a selfie" — and given that t...
+2025-11-04 22:37:32,144 - INFO - [OK] Row 61 [S6T] completed successfully
+2025-11-04 22:37:32,148 - INFO - [OK] Answer 61 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:32,149 - INFO - [PROGRESS] kimi-k2:1t-cloud - 61/288 processed | 61 successful | 0 errors
+2025-11-04 22:37:32,149 - INFO - [INFO] Processing Row 62/288 [S6F]
+2025-11-04 22:37:32,149 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Angela did not take a sel...
+2025-11-04 22:37:37,461 - INFO - [ANSWER] No, it is **not true** that Angela took a selfie.
+
+Mary said: *"If the playground is empty, Angela w...
+2025-11-04 22:37:37,461 - INFO - [OK] Row 62 [S6F] completed successfully
+2025-11-04 22:37:37,466 - INFO - [OK] Answer 62 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:37,466 - INFO - [PROGRESS] kimi-k2:1t-cloud - 62/288 processed | 62 successful | 0 errors
+2025-11-04 22:37:37,466 - INFO - [INFO] Processing Row 63/288 [S6C]
+2025-11-04 22:37:37,466 - INFO - [PROMPT] Here's the context: The playground is crowded.  Also, the streets are lively. Mary had said: "If the...
+2025-11-04 22:37:40,450 - INFO - [ANSWER] No, it is not true that Angela took a selfie.
+
+Mary said: *"If the playground is empty, Angela will ...
+2025-11-04 22:37:40,451 - INFO - [OK] Row 63 [S6C] completed successfully
+2025-11-04 22:37:40,455 - INFO - [OK] Answer 63 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:40,455 - INFO - [PROGRESS] kimi-k2:1t-cloud - 63/288 processed | 63 successful | 0 errors
+2025-11-04 22:37:40,455 - INFO - [INFO] Processing Row 64/288 [S7T]
+2025-11-04 22:37:40,455 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Mary had said: "If...
+2025-11-04 22:37:43,461 - INFO - [ANSWER] We don't know for sure.  
+Mary’s statement only says Paul *will* get 50 euros **if** he mows the law...
+2025-11-04 22:37:43,462 - INFO - [OK] Row 64 [S7T] completed successfully
+2025-11-04 22:37:43,466 - INFO - [OK] Answer 64 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:43,466 - INFO - [PROGRESS] kimi-k2:1t-cloud - 64/288 processed | 64 successful | 0 errors
+2025-11-04 22:37:43,466 - INFO - [INFO] Processing Row 65/288 [S7F]
+2025-11-04 22:37:43,466 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Paul did not get 5...
+2025-11-04 22:37:47,674 - INFO - [ANSWER] No, it is not true that Paul got 50 euros.  
+Mary said: *"If Paul mows the lawn, he will get 50 euro...
+2025-11-04 22:37:47,674 - INFO - [OK] Row 65 [S7F] completed successfully
+2025-11-04 22:37:47,679 - INFO - [OK] Answer 65 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:47,679 - INFO - [PROGRESS] kimi-k2:1t-cloud - 65/288 processed | 65 successful | 0 errors
+2025-11-04 22:37:47,679 - INFO - [INFO] Processing Row 66/288 [S7C]
+2025-11-04 22:37:47,679 - INFO - [PROMPT] Here's the context: The lawn has not been mowed. Also, the flowers still need watering. Mary had sai...
+2025-11-04 22:37:50,312 - INFO - [ANSWER] No, it is not true that Paul got 50 euros.  
+Since the lawn has not been mowed, the condition Mary s...
+2025-11-04 22:37:50,312 - INFO - [OK] Row 66 [S7C] completed successfully
+2025-11-04 22:37:50,316 - INFO - [OK] Answer 66 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:50,317 - INFO - [PROGRESS] kimi-k2:1t-cloud - 66/288 processed | 66 successful | 0 errors
+2025-11-04 22:37:50,317 - INFO - [INFO] Processing Row 67/288 [S8T]
+2025-11-04 22:37:50,317 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Mary had said: "If the d...
+2025-11-04 22:37:52,237 - INFO - [ANSWER] Yes, it is true that Anthony read a book — based on what Mary said and the fact that the dog is play...
+2025-11-04 22:37:52,237 - INFO - [OK] Row 67 [S8T] completed successfully
+2025-11-04 22:37:52,241 - INFO - [OK] Answer 67 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:52,241 - INFO - [PROGRESS] kimi-k2:1t-cloud - 67/288 processed | 67 successful | 0 errors
+2025-11-04 22:37:52,242 - INFO - [INFO] Processing Row 68/288 [S8F]
+2025-11-04 22:37:52,242 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Anthony did not read a b...
+2025-11-04 22:37:56,172 - INFO - [ANSWER] No, it is **not true** that Anthony read a book.
+
+Mary said: *"If the dog is playing, Anthony will r...
+2025-11-04 22:37:56,173 - INFO - [OK] Row 68 [S8F] completed successfully
+2025-11-04 22:37:56,176 - INFO - [OK] Answer 68 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:37:56,177 - INFO - [PROGRESS] kimi-k2:1t-cloud - 68/288 processed | 68 successful | 0 errors
+2025-11-04 22:37:56,177 - INFO - [INFO] Processing Row 69/288 [S8C]
+2025-11-04 22:37:56,177 - INFO - [PROMPT] Here's the context: The dog is not playing. Also, the cat is sleeping. Mary had said: "If the dog is...
+2025-11-04 22:38:00,006 - INFO - [ANSWER] No, it is not true that Anthony read a book.
+
+Mary said: *"If the dog is playing, Anthony will read ...
+2025-11-04 22:38:00,006 - INFO - [OK] Row 69 [S8C] completed successfully
+2025-11-04 22:38:00,010 - INFO - [OK] Answer 69 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:00,011 - INFO - [PROGRESS] kimi-k2:1t-cloud - 69/288 processed | 69 successful | 0 errors
+2025-11-04 22:38:00,011 - INFO - [INFO] Processing Row 70/288 [S9T]
+2025-11-04 22:38:00,011 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Mary had said: "If the fridge is ...
+2025-11-04 22:38:03,783 - INFO - [ANSWER] Based on what Mary said — "If the fridge is empty, Amy will bring donuts" — and given that the fridg...
+2025-11-04 22:38:03,783 - INFO - [OK] Row 70 [S9T] completed successfully
+2025-11-04 22:38:03,787 - INFO - [OK] Answer 70 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:03,788 - INFO - [PROGRESS] kimi-k2:1t-cloud - 70/288 processed | 70 successful | 0 errors
+2025-11-04 22:38:03,788 - INFO - [INFO] Processing Row 71/288 [S9F]
+2025-11-04 22:38:03,788 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary ha...
+2025-11-04 22:38:06,932 - INFO - [ANSWER] No, it is **not true** that Amy brought donuts.
+
+Mary said: *"If the fridge is empty, Amy will bring...
+2025-11-04 22:38:06,933 - INFO - [OK] Row 71 [S9F] completed successfully
+2025-11-04 22:38:06,937 - INFO - [OK] Answer 71 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:06,938 - INFO - [PROGRESS] kimi-k2:1t-cloud - 71/288 processed | 71 successful | 0 errors
+2025-11-04 22:38:06,938 - INFO - [INFO] Processing Row 72/288 [S9C]
+2025-11-04 22:38:06,938 - INFO - [PROMPT] Here's the context: The fridge is full. Also, the oven is on. Mary had said: "If the fridge is empty...
+2025-11-04 22:38:09,754 - INFO - [ANSWER] No, it is not true that Amy brought donuts.  
+Mary said, *"If the fridge is empty, Amy will bring do...
+2025-11-04 22:38:09,754 - INFO - [OK] Row 72 [S9C] completed successfully
+2025-11-04 22:38:09,758 - INFO - [OK] Answer 72 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:09,759 - INFO - [PROGRESS] kimi-k2:1t-cloud - 72/288 processed | 72 successful | 0 errors
+2025-11-04 22:38:09,759 - INFO - [INFO] Processing Row 73/288 [B1T]
+2025-11-04 22:38:09,759 - INFO - [PROMPT] Aquí tens el context: En Joan té gana i hi ha pizza al forn. També hi ha pasta a la nevera. La Maria...
+2025-11-04 22:38:15,704 - INFO - [ANSWER] Segons el que diu la Maria, **no es pot afirmar amb certesa** que hi hagi pizza al forn.
+
+La Maria d...
+2025-11-04 22:38:15,704 - INFO - [OK] Row 73 [B1T] completed successfully
+2025-11-04 22:38:15,708 - INFO - [OK] Answer 73 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:15,708 - INFO - [PROGRESS] kimi-k2:1t-cloud - 73/288 processed | 73 successful | 0 errors
+2025-11-04 22:38:15,708 - INFO - [INFO] Processing Row 74/288 [B1F]
+2025-11-04 22:38:15,708 - INFO - [PROMPT] Aquí tens el context: En Joan té gana i no hi ha pizza al forn. Tampoc no hi ha pasta a la nevera. L...
+2025-11-04 22:38:19,333 - INFO - [ANSWER] No, no és veritat que hi hagi pizza al forn.  
+La Maria diu: *"Si en Joan té gana, hi ha pizza al fo...
+2025-11-04 22:38:19,334 - INFO - [OK] Row 74 [B1F] completed successfully
+2025-11-04 22:38:19,338 - INFO - [OK] Answer 74 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:19,339 - INFO - [PROGRESS] kimi-k2:1t-cloud - 74/288 processed | 74 successful | 0 errors
+2025-11-04 22:38:19,339 - INFO - [INFO] Processing Row 75/288 [B1C]
+2025-11-04 22:38:19,339 - INFO - [PROMPT] Aquí tens el context: En Joan no té gana. Hi ha pasta a la nevera. La Maria diu: "Si en Joan té gana...
+2025-11-04 22:38:22,299 - INFO - [ANSWER] No, no és veritat que hi ha pizza al forn.  
+La Maria diu: *"Si en Joan té gana, hi ha pizza al forn...
+2025-11-04 22:38:22,299 - INFO - [OK] Row 75 [B1C] completed successfully
+2025-11-04 22:38:22,310 - INFO - [OK] Answer 75 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:22,311 - INFO - [PROGRESS] kimi-k2:1t-cloud - 75/288 processed | 75 successful | 0 errors
+2025-11-04 22:38:22,311 - INFO - [INFO] Processing Row 76/288 [B2T]
+2025-11-04 22:38:22,311 - INFO - [PROMPT] Aquí tens el context: La Núria té mal de cap i hi ha aspirines sobre la taula. També hi ha ibuprofèn...
+2025-11-04 22:38:32,578 - INFO - [ANSWER] Sí, és veritat que hi ha aspirines sobre la taula. El context ho indica clarament: "hi ha aspirines ...
+2025-11-04 22:38:32,578 - INFO - [OK] Row 76 [B2T] completed successfully
+2025-11-04 22:38:32,582 - INFO - [OK] Answer 76 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:32,582 - INFO - [PROGRESS] kimi-k2:1t-cloud - 76/288 processed | 76 successful | 0 errors
+2025-11-04 22:38:32,582 - INFO - [INFO] Processing Row 77/288 [B2F]
+2025-11-04 22:38:32,582 - INFO - [PROMPT] Aquí tens el context: La Núria té mal de cap i no hi ha aspirines sobre la taula. Tampoc no hi ha ib...
+2025-11-04 22:38:38,887 - INFO - [ANSWER] No, **no és veritat** que hi ha aspirines sobre la taula.
+
+La Maria diu: *"Si la Núria té mal de cap...
+2025-11-04 22:38:38,891 - INFO - [OK] Row 77 [B2F] completed successfully
+2025-11-04 22:38:38,923 - INFO - [OK] Answer 77 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:38,923 - INFO - [PROGRESS] kimi-k2:1t-cloud - 77/288 processed | 77 successful | 0 errors
+2025-11-04 22:38:38,923 - INFO - [INFO] Processing Row 78/288 [B2C]
+2025-11-04 22:38:38,923 - INFO - [PROMPT] Aquí tens el context: La Núria no té mal de cap. També hi ha ibuprofèn al calaix. La Maria diu: "Si ...
+2025-11-04 22:38:54,234 - INFO - [ANSWER] No es pot afirmar que hi hagi aspirines sobre la taula.  
+La Maria diu: *"Si la Núria té mal de cap,...
+2025-11-04 22:38:54,234 - INFO - [OK] Row 78 [B2C] completed successfully
+2025-11-04 22:38:54,240 - INFO - [OK] Answer 78 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:54,240 - INFO - [PROGRESS] kimi-k2:1t-cloud - 78/288 processed | 78 successful | 0 errors
+2025-11-04 22:38:54,240 - INFO - [INFO] Processing Row 79/288 [B3T]
+2025-11-04 22:38:54,240 - INFO - [PROMPT] Aquí tens el context: La Llúcia té set i hi ha aigua a la nevera. També hi ha suc de poma al rebost....
+2025-11-04 22:38:56,941 - INFO - [ANSWER] Sí, és veritat que hi ha aigua a la nevera.  
+La Maria diu: *"Si la Llúcia té set, hi ha aigua a la ...
+2025-11-04 22:38:56,942 - INFO - [OK] Row 79 [B3T] completed successfully
+2025-11-04 22:38:56,946 - INFO - [OK] Answer 79 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:38:56,946 - INFO - [PROGRESS] kimi-k2:1t-cloud - 79/288 processed | 79 successful | 0 errors
+2025-11-04 22:38:56,946 - INFO - [INFO] Processing Row 80/288 [B3F]
+2025-11-04 22:38:56,946 - INFO - [PROMPT] Aquí tens el context: La Llúcia té set i no hi ha aigua a la nevera. Tampoc no hi ha suc de poma al ...
+2025-11-04 22:39:01,452 - INFO - [ANSWER] No, no és veritat que hi ha aigua a la nevera.  
+La Maria diu: *"Si la Llúcia té set, hi ha aigua a ...
+2025-11-04 22:39:01,452 - INFO - [OK] Row 80 [B3F] completed successfully
+2025-11-04 22:39:01,457 - INFO - [OK] Answer 80 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:01,457 - INFO - [PROGRESS] kimi-k2:1t-cloud - 80/288 processed | 80 successful | 0 errors
+2025-11-04 22:39:01,457 - INFO - [INFO] Processing Row 81/288 [B3C]
+2025-11-04 22:39:01,457 - INFO - [PROMPT] Aquí tens el context: La Llúcia no té set. Hi ha suc de poma al rebost. La Maria diu: "Si la Llúcia ...
+2025-11-04 22:39:06,239 - INFO - [ANSWER] No es pot saber si hi ha aigua a la nevera o no, només amb la informació donada.
+
+La Maria diu: *"Si...
+2025-11-04 22:39:06,240 - INFO - [OK] Row 81 [B3C] completed successfully
+2025-11-04 22:39:06,244 - INFO - [OK] Answer 81 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:06,245 - INFO - [PROGRESS] kimi-k2:1t-cloud - 81/288 processed | 81 successful | 0 errors
+2025-11-04 22:39:06,245 - INFO - [INFO] Processing Row 82/288 [B4T]
+2025-11-04 22:39:06,245 - INFO - [PROMPT] Aquí tens el context: El mòbil del Pere no té bateria i hi ha un carregador al calaix. També hi ha u...
+2025-11-04 22:39:09,628 - INFO - [ANSWER] Sí, és veritat que hi ha un carregador al calaix.  
+El context ja ho confirma directament: "hi ha un...
+2025-11-04 22:39:09,628 - INFO - [OK] Row 82 [B4T] completed successfully
+2025-11-04 22:39:09,634 - INFO - [OK] Answer 82 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:09,634 - INFO - [PROGRESS] kimi-k2:1t-cloud - 82/288 processed | 82 successful | 0 errors
+2025-11-04 22:39:09,634 - INFO - [INFO] Processing Row 83/288 [B4F]
+2025-11-04 22:39:09,634 - INFO - [PROMPT] Aquí tens el context: El mòbil del Pere no té bateria i no hi ha cap carregador al calaix. Tampoc no...
+2025-11-04 22:39:15,582 - INFO - [ANSWER] No, **no és veritat** que hi hagi un carregador al calaix.
+
+La Maria diu: *"Si el mòbil del Pere no ...
+2025-11-04 22:39:15,583 - INFO - [OK] Row 83 [B4F] completed successfully
+2025-11-04 22:39:15,587 - INFO - [OK] Answer 83 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:15,587 - INFO - [PROGRESS] kimi-k2:1t-cloud - 83/288 processed | 83 successful | 0 errors
+2025-11-04 22:39:15,588 - INFO - [INFO] Processing Row 84/288 [B4C]
+2025-11-04 22:39:15,588 - INFO - [PROMPT] Aquí tens el context: El mòbil del Pere està carregat. Hi ha un ordinador sobre la taula. La Maria d...
+2025-11-04 22:39:19,971 - INFO - [ANSWER] No es pot afirmar que hi ha un carregador al calaix.  
+La Maria només diu que **si** el mòbil del Pe...
+2025-11-04 22:39:19,971 - INFO - [OK] Row 84 [B4C] completed successfully
+2025-11-04 22:39:19,975 - INFO - [OK] Answer 84 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:19,976 - INFO - [PROGRESS] kimi-k2:1t-cloud - 84/288 processed | 84 successful | 0 errors
+2025-11-04 22:39:19,976 - INFO - [INFO] Processing Row 85/288 [B5T]
+2025-11-04 22:39:19,976 - INFO - [PROMPT] Aquí tens el context: El temps és plujós i hi ha un paraigua al paraigüer. També hi ha un impermeabl...
+2025-11-04 22:39:24,548 - INFO - [ANSWER] Sí, és veritat que hi ha un paraigua al paraigüer.  
+La Maria diu: *"Si el temps és plujós, hi ha un...
+2025-11-04 22:39:24,549 - INFO - [OK] Row 85 [B5T] completed successfully
+2025-11-04 22:39:24,553 - INFO - [OK] Answer 85 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:24,554 - INFO - [PROGRESS] kimi-k2:1t-cloud - 85/288 processed | 85 successful | 0 errors
+2025-11-04 22:39:24,554 - INFO - [INFO] Processing Row 86/288 [B5F]
+2025-11-04 22:39:24,554 - INFO - [PROMPT] Aquí tens el context: El temps és plujós i no hi ha cap paraigua al paraigüer. Tampoc no hi ha cap i...
+2025-11-04 22:39:29,182 - INFO - [ANSWER] No, **no és veritat** que hi ha un paraigua al paraigüer.
+
+La Maria diu: *"Si el temps és plujós, hi...
+2025-11-04 22:39:29,182 - INFO - [OK] Row 86 [B5F] completed successfully
+2025-11-04 22:39:29,186 - INFO - [OK] Answer 86 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:29,187 - INFO - [PROGRESS] kimi-k2:1t-cloud - 86/288 processed | 86 successful | 0 errors
+2025-11-04 22:39:29,187 - INFO - [INFO] Processing Row 87/288 [B5C]
+2025-11-04 22:39:29,187 - INFO - [PROMPT] Aquí tens el context: El temps és serè. Hi ha un impermeable al cotxe. La Maria diu: "Si el temps és...
+2025-11-04 22:39:32,411 - INFO - [ANSWER] No es pot afirmar que hi ha un paraigua al paraigüer. La Maria només diu que **si** el temps és pluj...
+2025-11-04 22:39:32,411 - INFO - [OK] Row 87 [B5C] completed successfully
+2025-11-04 22:39:32,415 - INFO - [OK] Answer 87 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:32,416 - INFO - [PROGRESS] kimi-k2:1t-cloud - 87/288 processed | 87 successful | 0 errors
+2025-11-04 22:39:32,416 - INFO - [INFO] Processing Row 88/288 [B6T]
+2025-11-04 22:39:32,416 - INFO - [PROMPT] Aquí tens el context: La roda del cotxe està punxada i hi ha un inflador al garatge. També hi ha una...
+2025-11-04 22:39:34,796 - INFO - [ANSWER] Sí, és veritat que hi ha un inflador al garatge.
+2025-11-04 22:39:34,797 - INFO - [OK] Row 88 [B6T] completed successfully
+2025-11-04 22:39:34,805 - INFO - [OK] Answer 88 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:34,806 - INFO - [PROGRESS] kimi-k2:1t-cloud - 88/288 processed | 88 successful | 0 errors
+2025-11-04 22:39:34,806 - INFO - [INFO] Processing Row 89/288 [B6F]
+2025-11-04 22:39:34,806 - INFO - [PROMPT] Aquí tens el context: La roda del cotxe està punxada i no hi ha cap inflador al garatge. Tampoc no h...
+2025-11-04 22:39:39,056 - INFO - [ANSWER] No, no és veritat que hi hagi un inflador al garatge.
+
+Segons el context, **la roda del cotxe està p...
+2025-11-04 22:39:39,057 - INFO - [OK] Row 89 [B6F] completed successfully
+2025-11-04 22:39:39,061 - INFO - [OK] Answer 89 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:39,061 - INFO - [PROGRESS] kimi-k2:1t-cloud - 89/288 processed | 89 successful | 0 errors
+2025-11-04 22:39:39,062 - INFO - [INFO] Processing Row 90/288 [B6C]
+2025-11-04 22:39:39,062 - INFO - [PROMPT] Aquí tens el context: La roda del cotxe està inflada. Hi ha una bicicleta a la porta d'entrada. La M...
+2025-11-04 22:39:42,462 - INFO - [ANSWER] Segons el que diu la Maria, **només hi ha un inflador al garatge si la roda del cotxe està punxada**...
+2025-11-04 22:39:42,463 - INFO - [OK] Row 90 [B6C] completed successfully
+2025-11-04 22:39:42,468 - INFO - [OK] Answer 90 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:42,469 - INFO - [PROGRESS] kimi-k2:1t-cloud - 90/288 processed | 90 successful | 0 errors
+2025-11-04 22:39:42,469 - INFO - [INFO] Processing Row 91/288 [B7T]
+2025-11-04 22:39:42,469 - INFO - [PROMPT] Aquí tens el context: La planta està seca i hi ha una regadora a la prestatgeria. També hi ha una mà...
+2025-11-04 22:39:45,571 - INFO - [ANSWER] Sí, és veritat que hi ha una regadora a la prestatgeria.  
+La Maria diu: *"Si la planta està seca, h...
+2025-11-04 22:39:45,571 - INFO - [OK] Row 91 [B7T] completed successfully
+2025-11-04 22:39:45,575 - INFO - [OK] Answer 91 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:45,576 - INFO - [PROGRESS] kimi-k2:1t-cloud - 91/288 processed | 91 successful | 0 errors
+2025-11-04 22:39:45,576 - INFO - [INFO] Processing Row 92/288 [B7F]
+2025-11-04 22:39:45,576 - INFO - [PROMPT] Aquí tens el context: La planta està seca i no hi ha cap regadora a la prestatgeria. Tampoc no hi ha...
+2025-11-04 22:39:49,286 - INFO - [ANSWER] No, no és veritat que hi ha una regadora a la prestatgeria.  
+La Maria diu: *"Si la planta està seca...
+2025-11-04 22:39:49,286 - INFO - [OK] Row 92 [B7F] completed successfully
+2025-11-04 22:39:49,290 - INFO - [OK] Answer 92 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:49,291 - INFO - [PROGRESS] kimi-k2:1t-cloud - 92/288 processed | 92 successful | 0 errors
+2025-11-04 22:39:49,291 - INFO - [INFO] Processing Row 93/288 [B7C]
+2025-11-04 22:39:49,291 - INFO - [PROMPT] Aquí tens el context: La planta no està seca. Hi ha una mànega al jardí. La Maria diu: "Si la planta...
+2025-11-04 22:39:54,333 - INFO - [ANSWER] No es pot saber si hi ha una regadora a la prestatgeria només amb la informació donada.
+
+La Maria di...
+2025-11-04 22:39:54,333 - INFO - [OK] Row 93 [B7C] completed successfully
+2025-11-04 22:39:54,339 - INFO - [OK] Answer 93 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:54,339 - INFO - [PROGRESS] kimi-k2:1t-cloud - 93/288 processed | 93 successful | 0 errors
+2025-11-04 22:39:54,339 - INFO - [INFO] Processing Row 94/288 [B8T]
+2025-11-04 22:39:54,339 - INFO - [PROMPT] Aquí tens el context: La camisa del Jordi està arrugada i hi ha una planxa a l'armari. També hi ha u...
+2025-11-04 22:39:57,583 - INFO - [ANSWER] Sí, és veritat que hi ha una planxa a l'armari.  
+El context ho confirma directament: "També hi ha u...
+2025-11-04 22:39:57,583 - INFO - [OK] Row 94 [B8T] completed successfully
+2025-11-04 22:39:57,587 - INFO - [OK] Answer 94 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:39:57,588 - INFO - [PROGRESS] kimi-k2:1t-cloud - 94/288 processed | 94 successful | 0 errors
+2025-11-04 22:39:57,588 - INFO - [INFO] Processing Row 95/288 [B8F]
+2025-11-04 22:39:57,588 - INFO - [PROMPT] Aquí tens el context: La camisa del Jordi està arrugada i no hi ha cap planxa a l'armari. Tampoc no ...
+2025-11-04 22:40:03,789 - INFO - [ANSWER] No, **no és veritat** que hi ha una planxa a l'armari.
+
+La Maria diu: *"Si la camisa del Jordi està ...
+2025-11-04 22:40:03,790 - INFO - [OK] Row 95 [B8F] completed successfully
+2025-11-04 22:40:03,794 - INFO - [OK] Answer 95 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:03,794 - INFO - [PROGRESS] kimi-k2:1t-cloud - 95/288 processed | 95 successful | 0 errors
+2025-11-04 22:40:03,794 - INFO - [INFO] Processing Row 96/288 [B8C]
+2025-11-04 22:40:03,794 - INFO - [PROMPT] Aquí tens el context: La camisa del Jordi no té arrugues. Hi ha una taula de planxar al balcó. La Ma...
+2025-11-04 22:40:08,939 - INFO - [ANSWER] No es pot saber si hi ha una planxa a l'armari només amb la informació donada.
+
+La Maria diu: *"Si l...
+2025-11-04 22:40:08,942 - INFO - [OK] Row 96 [B8C] completed successfully
+2025-11-04 22:40:08,958 - INFO - [OK] Answer 96 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:08,958 - INFO - [PROGRESS] kimi-k2:1t-cloud - 96/288 processed | 96 successful | 0 errors
+2025-11-04 22:40:08,958 - INFO - [INFO] Processing Row 97/288 [B9T]
+2025-11-04 22:40:08,958 - INFO - [PROMPT] Aquí tens el context: La Susanna vol llegir i hi ha llibres a l'estanteria. També hi ha un diari al ...
+2025-11-04 22:40:11,850 - INFO - [ANSWER] Sí, és veritat que hi ha llibres a l'estanteria. La Maria ho diu expressament: "Si la Susanna vol ll...
+2025-11-04 22:40:11,850 - INFO - [OK] Row 97 [B9T] completed successfully
+2025-11-04 22:40:11,856 - INFO - [OK] Answer 97 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:11,856 - INFO - [PROGRESS] kimi-k2:1t-cloud - 97/288 processed | 97 successful | 0 errors
+2025-11-04 22:40:11,856 - INFO - [INFO] Processing Row 98/288 [B9F]
+2025-11-04 22:40:11,856 - INFO - [PROMPT] Aquí tens el context: La Susanna vol llegir i no hi ha llibres a l'estanteria. Tampoc no hi ha cap d...
+2025-11-04 22:40:15,740 - INFO - [ANSWER] No, no és veritat que hi ha llibres a l'estanteria.  
+La Maria diu: *"Si la Susanna vol llegir, hi h...
+2025-11-04 22:40:15,741 - INFO - [OK] Row 98 [B9F] completed successfully
+2025-11-04 22:40:15,745 - INFO - [OK] Answer 98 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:15,745 - INFO - [PROGRESS] kimi-k2:1t-cloud - 98/288 processed | 98 successful | 0 errors
+2025-11-04 22:40:15,745 - INFO - [INFO] Processing Row 99/288 [B9C]
+2025-11-04 22:40:15,745 - INFO - [PROMPT] Aquí tens el context: La Susanna no vol llegir. Hi ha un diari al sofà. La Maria diu: "Si la Susanna...
+2025-11-04 22:40:20,388 - INFO - [ANSWER] No es pot saber si hi ha llibres a l'estanteria només amb la informació donada.
+
+La Maria diu: *"Si ...
+2025-11-04 22:40:20,388 - INFO - [OK] Row 99 [B9C] completed successfully
+2025-11-04 22:40:20,393 - INFO - [OK] Answer 99 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:20,393 - INFO - [PROGRESS] kimi-k2:1t-cloud - 99/288 processed | 99 successful | 0 errors
+2025-11-04 22:40:20,393 - INFO - [INFO] Processing Row 100/288 [F1T]
+2025-11-04 22:40:20,393 - INFO - [PROMPT] Aquí tens el context: Tot i que la pizza és més cara que la pasta, la gent la compra més. Hi ha pizz...
+2025-11-04 22:40:22,506 - INFO - [ANSWER] Sí, la pizza és més popular que la pasta en aquest context, ja que tot i ser més cara, la gent la co...
+2025-11-04 22:40:22,507 - INFO - [OK] Row 100 [F1T] completed successfully
+2025-11-04 22:40:22,512 - INFO - [OK] Answer 100 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:22,513 - INFO - [PROGRESS] kimi-k2:1t-cloud - 100/288 processed | 100 successful | 0 errors
+2025-11-04 22:40:22,513 - INFO - [INFO] Processing Row 101/288 [F1F]
+2025-11-04 22:40:22,513 - INFO - [PROMPT] Aquí tens el context: Tot i que la pizza és més cara que la pasta, la gent la compra més. Hi ha pizz...
+2025-11-04 22:40:25,006 - INFO - [ANSWER] No, la pasta no és més popular que la pizza. En el context es diu que, tot i que la pizza és més car...
+2025-11-04 22:40:25,006 - INFO - [OK] Row 101 [F1F] completed successfully
+2025-11-04 22:40:25,010 - INFO - [OK] Answer 101 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:25,010 - INFO - [PROGRESS] kimi-k2:1t-cloud - 101/288 processed | 101 successful | 0 errors
+2025-11-04 22:40:25,011 - INFO - [INFO] Processing Row 102/288 [F2T]
+2025-11-04 22:40:25,011 - INFO - [PROMPT] Aquí tens el context: Tot i que el cafè és més barat que el te verd, la majoria de la gent prefereix...
+2025-11-04 22:40:27,439 - INFO - [ANSWER] Sí, en aquest context el te s'utilitza més que el cafè, ja que la majoria de la gent prefereix el te...
+2025-11-04 22:40:27,439 - INFO - [OK] Row 102 [F2T] completed successfully
+2025-11-04 22:40:27,443 - INFO - [OK] Answer 102 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:27,444 - INFO - [PROGRESS] kimi-k2:1t-cloud - 102/288 processed | 102 successful | 0 errors
+2025-11-04 22:40:27,444 - INFO - [INFO] Processing Row 103/288 [F2F]
+2025-11-04 22:40:27,444 - INFO - [PROMPT] Aquí tens el context: Tot i que el cafè és més barat que el te verd, la majoria de la gent prefereix...
+2025-11-04 22:40:29,570 - INFO - [ANSWER] No, en aquest context el cafè no s'utilitza més que el te, ja que la majoria de la gent prefereix el...
+2025-11-04 22:40:29,570 - INFO - [OK] Row 103 [F2F] completed successfully
+2025-11-04 22:40:29,575 - INFO - [OK] Answer 103 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:29,576 - INFO - [PROGRESS] kimi-k2:1t-cloud - 103/288 processed | 103 successful | 0 errors
+2025-11-04 22:40:29,576 - INFO - [INFO] Processing Row 104/288 [F3T]
+2025-11-04 22:40:29,576 - INFO - [PROMPT] Aquí tens el context: Tot i que l'aigua és més saludable que les begudes gasoses, molta gent tria le...
+2025-11-04 22:40:31,739 - INFO - [ANSWER] Sí, en aquest context les begudes gasoses tenen més demanda que l'aigua, tot i que l’aigua és més sa...
+2025-11-04 22:40:31,739 - INFO - [OK] Row 104 [F3T] completed successfully
+2025-11-04 22:40:31,801 - INFO - [OK] Answer 104 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:31,816 - INFO - [PROGRESS] kimi-k2:1t-cloud - 104/288 processed | 104 successful | 0 errors
+2025-11-04 22:40:31,820 - INFO - [INFO] Processing Row 105/288 [F3F]
+2025-11-04 22:40:31,820 - INFO - [PROMPT] Aquí tens el context: Tot i que l'aigua és més saludable que les begudes gasoses, molta gent tria le...
+2025-11-04 22:40:33,693 - INFO - [ANSWER] No, en aquest context l'aigua no té més demanda que les begudes gasoses, tot i que és més saludable.
+2025-11-04 22:40:33,693 - INFO - [OK] Row 105 [F3F] completed successfully
+2025-11-04 22:40:33,697 - INFO - [OK] Answer 105 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:33,698 - INFO - [PROGRESS] kimi-k2:1t-cloud - 105/288 processed | 105 successful | 0 errors
+2025-11-04 22:40:33,698 - INFO - [INFO] Processing Row 106/288 [F4T]
+2025-11-04 22:40:33,698 - INFO - [PROMPT] Aquí tens el context: Tot i que els bròquils són més difícils de cuinar que els nyoquis, la gent els...
+2025-11-04 22:40:35,789 - INFO - [ANSWER] Sí, en aquest context els bròquils són més populars que els nyoquis, ja que tot i ser més difícils d...
+2025-11-04 22:40:35,790 - INFO - [OK] Row 106 [F4T] completed successfully
+2025-11-04 22:40:35,794 - INFO - [OK] Answer 106 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:35,795 - INFO - [PROGRESS] kimi-k2:1t-cloud - 106/288 processed | 106 successful | 0 errors
+2025-11-04 22:40:35,795 - INFO - [INFO] Processing Row 107/288 [F4F]
+2025-11-04 22:40:35,795 - INFO - [PROMPT] Aquí tens el context: Tot i que els bròquils són més difícils de cuinar que els nyoquis, la gent els...
+2025-11-04 22:40:38,559 - INFO - [ANSWER] No, en aquest context els nyoquis no són més populars que els bròquils; tot i que són més fàcils de ...
+2025-11-04 22:40:38,559 - INFO - [OK] Row 107 [F4F] completed successfully
+2025-11-04 22:40:38,577 - INFO - [OK] Answer 107 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:38,578 - INFO - [PROGRESS] kimi-k2:1t-cloud - 107/288 processed | 107 successful | 0 errors
+2025-11-04 22:40:38,578 - INFO - [INFO] Processing Row 108/288 [F5T]
+2025-11-04 22:40:38,578 - INFO - [PROMPT] Aquí tens el context: Tot i que el sushi és més saludable que les hamburgueses, la gent menja més so...
+2025-11-04 22:40:41,694 - INFO - [ANSWER] Sí, en aquest context les hamburgueses són més populars que el sushi, ja que la gent menja més sovin...
+2025-11-04 22:40:41,694 - INFO - [OK] Row 108 [F5T] completed successfully
+2025-11-04 22:40:41,699 - INFO - [OK] Answer 108 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:41,699 - INFO - [PROGRESS] kimi-k2:1t-cloud - 108/288 processed | 108 successful | 0 errors
+2025-11-04 22:40:41,699 - INFO - [INFO] Processing Row 109/288 [F5F]
+2025-11-04 22:40:41,699 - INFO - [PROMPT] Aquí tens el context: Tot i que el sushi és més saludable que les hamburgueses, la gent menja més so...
+2025-11-04 22:40:44,613 - INFO - [ANSWER] No, en aquest context el sushi no és més popular que les hamburgueses. Tot i que és més saludable, l...
+2025-11-04 22:40:44,614 - INFO - [OK] Row 109 [F5F] completed successfully
+2025-11-04 22:40:44,619 - INFO - [OK] Answer 109 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:44,619 - INFO - [PROGRESS] kimi-k2:1t-cloud - 109/288 processed | 109 successful | 0 errors
+2025-11-04 22:40:44,619 - INFO - [INFO] Processing Row 110/288 [F6T]
+2025-11-04 22:40:44,619 - INFO - [PROMPT] Aquí tens el context: Tot i que els plàtans són més cars que els kiwis, la gent els compra més. Hi h...
+2025-11-04 22:40:47,151 - INFO - [ANSWER] Sí, en aquest context els plàtans són més populars que els kiwis, ja que tot i ser més cars, la gent...
+2025-11-04 22:40:47,151 - INFO - [OK] Row 110 [F6T] completed successfully
+2025-11-04 22:40:47,156 - INFO - [OK] Answer 110 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:47,156 - INFO - [PROGRESS] kimi-k2:1t-cloud - 110/288 processed | 110 successful | 0 errors
+2025-11-04 22:40:47,157 - INFO - [INFO] Processing Row 111/288 [F6F]
+2025-11-04 22:40:47,157 - INFO - [PROMPT] Aquí tens el context: Tot i que els plàtans són més cars que els kiwis, la gent els compra més. Hi h...
+2025-11-04 22:40:49,776 - INFO - [ANSWER] No, els kiwis no són més populars que els plàtans. Tot i que els plàtans són més cars, la gent els c...
+2025-11-04 22:40:49,776 - INFO - [OK] Row 111 [F6F] completed successfully
+2025-11-04 22:40:49,782 - INFO - [OK] Answer 111 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:49,782 - INFO - [PROGRESS] kimi-k2:1t-cloud - 111/288 processed | 111 successful | 0 errors
+2025-11-04 22:40:49,782 - INFO - [INFO] Processing Row 112/288 [F7T]
+2025-11-04 22:40:49,782 - INFO - [PROMPT] Aquí tens el context: Tot i que els gossos són més alegres que els gats, la gent els prefereix. Hi h...
+2025-11-04 22:40:52,100 - INFO - [ANSWER] No, en aquest context els gossos no són més populars que els gats, tot i que són més alegres.
+2025-11-04 22:40:52,100 - INFO - [OK] Row 112 [F7T] completed successfully
+2025-11-04 22:40:52,104 - INFO - [OK] Answer 112 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:52,105 - INFO - [PROGRESS] kimi-k2:1t-cloud - 112/288 processed | 112 successful | 0 errors
+2025-11-04 22:40:52,105 - INFO - [INFO] Processing Row 113/288 [F7F]
+2025-11-04 22:40:52,105 - INFO - [PROMPT] Aquí tens el context: Tot i que els gossos són més alegres que els gats, la gent els prefereix. Hi h...
+2025-11-04 22:40:55,048 - INFO - [ANSWER] No, en aquest context els gossos són més populars que els gats, tot i que els gossos són més alegres...
+2025-11-04 22:40:55,048 - INFO - [OK] Row 113 [F7F] completed successfully
+2025-11-04 22:40:55,052 - INFO - [OK] Answer 113 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:55,053 - INFO - [PROGRESS] kimi-k2:1t-cloud - 113/288 processed | 113 successful | 0 errors
+2025-11-04 22:40:55,053 - INFO - [INFO] Processing Row 114/288 [F8T]
+2025-11-04 22:40:55,053 - INFO - [PROMPT] Aquí tens el context: Tot i que llegir llibres és més educatiu que mirar la televisió, la majoria de...
+2025-11-04 22:40:57,052 - INFO - [ANSWER] Sí, en aquest context hi ha més persones que miren la televisió que no pas que llegeixen llibres.
+2025-11-04 22:40:57,052 - INFO - [OK] Row 114 [F8T] completed successfully
+2025-11-04 22:40:57,058 - INFO - [OK] Answer 114 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:40:57,058 - INFO - [PROGRESS] kimi-k2:1t-cloud - 114/288 processed | 114 successful | 0 errors
+2025-11-04 22:40:57,058 - INFO - [INFO] Processing Row 115/288 [F8F]
+2025-11-04 22:40:57,058 - INFO - [PROMPT] Aquí tens el context: Tot i que llegir llibres és més educatiu que mirar la televisió, la majoria de...
+2025-11-04 22:41:00,697 - INFO - [ANSWER] No. En aquest context es diu que, tot i que llegir llibres és més educatiu, la majoria de les person...
+2025-11-04 22:41:00,697 - INFO - [OK] Row 115 [F8F] completed successfully
+2025-11-04 22:41:00,702 - INFO - [OK] Answer 115 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:00,702 - INFO - [PROGRESS] kimi-k2:1t-cloud - 115/288 processed | 115 successful | 0 errors
+2025-11-04 22:41:00,703 - INFO - [INFO] Processing Row 116/288 [F9T]
+2025-11-04 22:41:00,703 - INFO - [PROMPT] Aquí tens el context: Tot i que córrer és millor per a la salut que caminar, la majoria de la gent p...
+2025-11-04 22:41:02,465 - INFO - [ANSWER] Sí, caminar és més popular que córrer.
+2025-11-04 22:41:02,465 - INFO - [OK] Row 116 [F9T] completed successfully
+2025-11-04 22:41:02,470 - INFO - [OK] Answer 116 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:02,471 - INFO - [PROGRESS] kimi-k2:1t-cloud - 116/288 processed | 116 successful | 0 errors
+2025-11-04 22:41:02,471 - INFO - [INFO] Processing Row 117/288 [F9F]
+2025-11-04 22:41:02,471 - INFO - [PROMPT] Aquí tens el context: Tot i que córrer és millor per a la salut que caminar, la majoria de la gent p...
+2025-11-04 22:41:04,316 - INFO - [ANSWER] No, en aquest context caminar és més popular que córrer.
+2025-11-04 22:41:04,316 - INFO - [OK] Row 117 [F9F] completed successfully
+2025-11-04 22:41:04,321 - INFO - [OK] Answer 117 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:04,321 - INFO - [PROGRESS] kimi-k2:1t-cloud - 117/288 processed | 117 successful | 0 errors
+2025-11-04 22:41:04,321 - INFO - [INFO] Processing Row 118/288 [S1T]
+2025-11-04 22:41:04,321 - INFO - [PROMPT] Aquí tens el context: El lloro és a la gàbia. A més, el gos és a la gossera. La Maria havia dit: "Si...
+2025-11-04 22:41:07,253 - INFO - [ANSWER] Segons el que diu la Maria, si el lloro és a la gàbia, el Tomàs portarà pizza. Com que el lloro **és...
+2025-11-04 22:41:07,254 - INFO - [OK] Row 118 [S1T] completed successfully
+2025-11-04 22:41:07,258 - INFO - [OK] Answer 118 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:07,258 - INFO - [PROGRESS] kimi-k2:1t-cloud - 118/288 processed | 118 successful | 0 errors
+2025-11-04 22:41:07,258 - INFO - [INFO] Processing Row 119/288 [S1F]
+2025-11-04 22:41:07,259 - INFO - [PROMPT] Aquí tens el context: El lloro és a la gàbia. A més, el gos és a la gossera. El Tomàs no ha portat p...
+2025-11-04 22:41:14,645 - INFO - [ANSWER] No, **no és veritat** que el Tomàs hagi portat pizza.
+
+Segons la Maria: *"Si el lloro és a la gàbia,...
+2025-11-04 22:41:14,645 - INFO - [OK] Row 119 [S1F] completed successfully
+2025-11-04 22:41:14,650 - INFO - [OK] Answer 119 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:14,650 - INFO - [PROGRESS] kimi-k2:1t-cloud - 119/288 processed | 119 successful | 0 errors
+2025-11-04 22:41:14,650 - INFO - [INFO] Processing Row 120/288 [S1C]
+2025-11-04 22:41:14,651 - INFO - [PROMPT] Aquí tens el context: El lloro no és a la gàbia. El gos tampoc no és a la gossera. La Maria havia di...
+2025-11-04 22:41:20,383 - INFO - [ANSWER] No, no és veritat que el Tomàs hagi portat pizza.
+
+Segons el que diu la Maria: *"Si el lloro és a la...
+2025-11-04 22:41:20,383 - INFO - [OK] Row 120 [S1C] completed successfully
+2025-11-04 22:41:20,388 - INFO - [OK] Answer 120 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:20,388 - INFO - [PROGRESS] kimi-k2:1t-cloud - 120/288 processed | 120 successful | 0 errors
+2025-11-04 22:41:20,388 - INFO - [INFO] Processing Row 121/288 [S2T]
+2025-11-04 22:41:20,388 - INFO - [PROMPT] Aquí tens el context: T'has acabat els bròquils. També t'has acabat la pasta. La Maria havia dit: "S...
+2025-11-04 22:41:24,217 - INFO - [ANSWER] No, no és veritat que el Marc t'hagi donat un caramel.  
+La Maria només va dir que *si* et menjaves ...
+2025-11-04 22:41:24,217 - INFO - [OK] Row 121 [S2T] completed successfully
+2025-11-04 22:41:24,222 - INFO - [OK] Answer 121 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:24,222 - INFO - [PROGRESS] kimi-k2:1t-cloud - 121/288 processed | 121 successful | 0 errors
+2025-11-04 22:41:24,222 - INFO - [INFO] Processing Row 122/288 [S2F]
+2025-11-04 22:41:24,223 - INFO - [PROMPT] Aquí tens el context: T'has acabat els bròquils. També t'has acabat la pasta. El Marc no t'ha donat ...
+2025-11-04 22:41:26,035 - INFO - [ANSWER] No, no és veritat que el Marc t'ha donat un caramel.
+2025-11-04 22:41:26,036 - INFO - [OK] Row 122 [S2F] completed successfully
+2025-11-04 22:41:26,040 - INFO - [OK] Answer 122 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:26,041 - INFO - [PROGRESS] kimi-k2:1t-cloud - 122/288 processed | 122 successful | 0 errors
+2025-11-04 22:41:26,041 - INFO - [INFO] Processing Row 123/288 [S2C]
+2025-11-04 22:41:26,041 - INFO - [PROMPT] Aquí tens el context: No t'has acabat els bròquils. Tampoc no t'has acabat la pasta. La Maria havia ...
+2025-11-04 22:41:28,085 - INFO - [ANSWER] No, no és veritat que el Marc t'hagi donat un caramel, perquè no t'has acabat els bròquils.
+2025-11-04 22:41:28,085 - INFO - [OK] Row 123 [S2C] completed successfully
+2025-11-04 22:41:28,090 - INFO - [OK] Answer 123 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:28,091 - INFO - [PROGRESS] kimi-k2:1t-cloud - 123/288 processed | 123 successful | 0 errors
+2025-11-04 22:41:28,091 - INFO - [INFO] Processing Row 124/288 [S3T]
+2025-11-04 22:41:28,091 - INFO - [PROMPT] Aquí tens el context: Les guineus estan ballant. A més, els esquirols estan menjant. La Maria havia ...
+2025-11-04 22:41:31,056 - INFO - [ANSWER] Segons el que diu la Maria, **sí**, és veritat que la Júlia ha rebut una càmera fotogràfica, perquè ...
+2025-11-04 22:41:31,056 - INFO - [OK] Row 124 [S3T] completed successfully
+2025-11-04 22:41:31,061 - INFO - [OK] Answer 124 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:31,062 - INFO - [PROGRESS] kimi-k2:1t-cloud - 124/288 processed | 124 successful | 0 errors
+2025-11-04 22:41:31,062 - INFO - [INFO] Processing Row 125/288 [S3F]
+2025-11-04 22:41:31,062 - INFO - [PROMPT] Aquí tens el context: Les guineus estan ballant. A més, els esquirols estan menjant. La Júlia no ha ...
+2025-11-04 22:41:38,304 - INFO - [ANSWER] No, no és veritat que la Júlia ha rebut una càmera fotogràfica.
+
+Segons el que diu la Maria: *"Si le...
+2025-11-04 22:41:38,305 - INFO - [OK] Row 125 [S3F] completed successfully
+2025-11-04 22:41:38,309 - INFO - [OK] Answer 125 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:38,309 - INFO - [PROGRESS] kimi-k2:1t-cloud - 125/288 processed | 125 successful | 0 errors
+2025-11-04 22:41:38,309 - INFO - [INFO] Processing Row 126/288 [S3C]
+2025-11-04 22:41:38,310 - INFO - [PROMPT] Aquí tens el context: Les guineus no estan ballant. Els esquirols tampoc no estan menjant. La Maria ...
+2025-11-04 22:41:43,520 - INFO - [ANSWER] No, no és veritat que la Júlia hagi rebut una càmera fotogràfica.
+
+La Maria va dir: *"Si les guineus...
+2025-11-04 22:41:43,520 - INFO - [OK] Row 126 [S3C] completed successfully
+2025-11-04 22:41:43,525 - INFO - [OK] Answer 126 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:43,525 - INFO - [PROGRESS] kimi-k2:1t-cloud - 126/288 processed | 126 successful | 0 errors
+2025-11-04 22:41:43,525 - INFO - [INFO] Processing Row 127/288 [S4T]
+2025-11-04 22:41:43,525 - INFO - [PROMPT] Aquí tens el context: La televisió està engegada. La ràdio també està engegada. La Maria havia dit: ...
+2025-11-04 22:41:46,065 - INFO - [ANSWER] Segons el que diu la Maria, si la televisió està engegada, el Mateu farà galetes.  
+Com que la telev...
+2025-11-04 22:41:46,065 - INFO - [OK] Row 127 [S4T] completed successfully
+2025-11-04 22:41:46,070 - INFO - [OK] Answer 127 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:46,070 - INFO - [PROGRESS] kimi-k2:1t-cloud - 127/288 processed | 127 successful | 0 errors
+2025-11-04 22:41:46,070 - INFO - [INFO] Processing Row 128/288 [S4F]
+2025-11-04 22:41:46,070 - INFO - [PROMPT] Aquí tens el context: La televisió està engegada. La ràdio també està engegada. El Mateu no ha fet g...
+2025-11-04 22:41:51,822 - INFO - [ANSWER] No, no és veritat que el Mateu hagi fet galetes.
+
+Segons el que diu la Maria: *"Si la televisió està...
+2025-11-04 22:41:51,822 - INFO - [OK] Row 128 [S4F] completed successfully
+2025-11-04 22:41:51,827 - INFO - [OK] Answer 128 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:51,827 - INFO - [PROGRESS] kimi-k2:1t-cloud - 128/288 processed | 128 successful | 0 errors
+2025-11-04 22:41:51,827 - INFO - [INFO] Processing Row 129/288 [S4C]
+2025-11-04 22:41:51,827 - INFO - [PROMPT] Aquí tens el context: La televisió està apagada. La ràdio també està apagada. La Maria havia dit: "S...
+2025-11-04 22:41:55,087 - INFO - [ANSWER] No, no és veritat que el Mateu hagi fet galetes.  
+La Maria va dir que *si la televisió està engegad...
+2025-11-04 22:41:55,087 - INFO - [OK] Row 129 [S4C] completed successfully
+2025-11-04 22:41:55,094 - INFO - [OK] Answer 129 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:55,094 - INFO - [PROGRESS] kimi-k2:1t-cloud - 129/288 processed | 129 successful | 0 errors
+2025-11-04 22:41:55,094 - INFO - [INFO] Processing Row 130/288 [S5T]
+2025-11-04 22:41:55,094 - INFO - [PROMPT] Aquí tens el context: Avui el temps és assolellat. Tampoc no fa vent. La Maria havia dit: "Si el tem...
+2025-11-04 22:41:57,800 - INFO - [ANSWER] Segons el que diu la Maria, com que avui el temps és assolellat, l'Emma anirà de morat. Per tant, **...
+2025-11-04 22:41:57,801 - INFO - [OK] Row 130 [S5T] completed successfully
+2025-11-04 22:41:57,805 - INFO - [OK] Answer 130 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:41:57,805 - INFO - [PROGRESS] kimi-k2:1t-cloud - 130/288 processed | 130 successful | 0 errors
+2025-11-04 22:41:57,805 - INFO - [INFO] Processing Row 131/288 [S5F]
+2025-11-04 22:41:57,805 - INFO - [PROMPT] Aquí tens el context: Avui el temps és assolellat. Tampoc no fa vent. L'Emma va de verd. La Maria ha...
+2025-11-04 22:42:00,641 - INFO - [ANSWER] No, no és veritat que l'Emma va de morat. Segons la Maria, si el temps és assolellat, l'Emma anirà d...
+2025-11-04 22:42:00,641 - INFO - [OK] Row 131 [S5F] completed successfully
+2025-11-04 22:42:00,645 - INFO - [OK] Answer 131 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:00,646 - INFO - [PROGRESS] kimi-k2:1t-cloud - 131/288 processed | 131 successful | 0 errors
+2025-11-04 22:42:00,646 - INFO - [INFO] Processing Row 132/288 [S5C]
+2025-11-04 22:42:00,646 - INFO - [PROMPT] Aquí tens el context: Avui el temps és plujós. A més, també fa molt de vent. La Maria havia dit: "Si...
+2025-11-04 22:42:03,041 - INFO - [ANSWER] No, no és veritat que l'Emma va de morat. Segons la Maria, l'Emma només anirà de morat si el temps é...
+2025-11-04 22:42:03,041 - INFO - [OK] Row 132 [S5C] completed successfully
+2025-11-04 22:42:03,046 - INFO - [OK] Answer 132 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:03,046 - INFO - [PROGRESS] kimi-k2:1t-cloud - 132/288 processed | 132 successful | 0 errors
+2025-11-04 22:42:03,046 - INFO - [INFO] Processing Row 133/288 [S6T]
+2025-11-04 22:42:03,046 - INFO - [PROMPT] Aquí tens el context: El parc infantil està buit. Els carrers també estan tranquils. La Maria havia ...
+2025-11-04 22:42:07,072 - INFO - [ANSWER] Segons el que diu la Maria, si el parc infantil està buit, l'Alba es farà una selfie. Com que el par...
+2025-11-04 22:42:07,072 - INFO - [OK] Row 133 [S6T] completed successfully
+2025-11-04 22:42:07,076 - INFO - [OK] Answer 133 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:07,077 - INFO - [PROGRESS] kimi-k2:1t-cloud - 133/288 processed | 133 successful | 0 errors
+2025-11-04 22:42:07,077 - INFO - [INFO] Processing Row 134/288 [S6F]
+2025-11-04 22:42:07,077 - INFO - [PROMPT] Aquí tens el context: El parc infantil està buit. Els carrers també estan tranquils. L'Alba no s'ha ...
+2025-11-04 22:42:12,523 - INFO - [ANSWER] No, no és veritat que l'Alba s'ha fet una selfie.  
+La Maria havia dit: *"Si el parc infantil està b...
+2025-11-04 22:42:12,523 - INFO - [OK] Row 134 [S6F] completed successfully
+2025-11-04 22:42:12,527 - INFO - [OK] Answer 134 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:12,528 - INFO - [PROGRESS] kimi-k2:1t-cloud - 134/288 processed | 134 successful | 0 errors
+2025-11-04 22:42:12,528 - INFO - [INFO] Processing Row 135/288 [S6C]
+2025-11-04 22:42:12,528 - INFO - [PROMPT] Aquí tens el context: El parc infantil està ple de gent. Els carrers també estan animats. La Maria h...
+2025-11-04 22:42:16,024 - INFO - [ANSWER] No, no és veritat que l'Alba s'ha fet una selfie.  
+La Maria va dir que l'Alba es faria una selfie *...
+2025-11-04 22:42:16,024 - INFO - [OK] Row 135 [S6C] completed successfully
+2025-11-04 22:42:16,029 - INFO - [OK] Answer 135 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:16,029 - INFO - [PROGRESS] kimi-k2:1t-cloud - 135/288 processed | 135 successful | 0 errors
+2025-11-04 22:42:16,030 - INFO - [INFO] Processing Row 136/288 [S7T]
+2025-11-04 22:42:16,030 - INFO - [PROMPT] Aquí tens el context: La gespa ha estat tallada. A més, les flors també han estat regades. La Maria ...
+2025-11-04 22:42:18,898 - INFO - [ANSWER] No es pot afirmar amb certesa que el Pau hagi rebut 50 euros. El que sabem és que la gespa ha estat ...
+2025-11-04 22:42:18,898 - INFO - [OK] Row 136 [S7T] completed successfully
+2025-11-04 22:42:18,903 - INFO - [OK] Answer 136 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:18,903 - INFO - [PROGRESS] kimi-k2:1t-cloud - 136/288 processed | 136 successful | 0 errors
+2025-11-04 22:42:18,903 - INFO - [INFO] Processing Row 137/288 [S7F]
+2025-11-04 22:42:18,903 - INFO - [PROMPT] Aquí tens el context: La gespa ha estat tallada. A més, les flors també han estat regades. El Pau no...
+2025-11-04 22:42:21,306 - INFO - [ANSWER] No, no és veritat que el Pau hagi rebut 50 euros.  
+La Maria va dir que si tallava la gespa en rebri...
+2025-11-04 22:42:21,306 - INFO - [OK] Row 137 [S7F] completed successfully
+2025-11-04 22:42:21,311 - INFO - [OK] Answer 137 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:21,312 - INFO - [PROGRESS] kimi-k2:1t-cloud - 137/288 processed | 137 successful | 0 errors
+2025-11-04 22:42:21,312 - INFO - [INFO] Processing Row 138/288 [S7C]
+2025-11-04 22:42:21,312 - INFO - [PROMPT] Aquí tens el context: La gespa no ha estat tallada. Les flors tampoc no han estat regades. La Maria ...
+2025-11-04 22:42:24,455 - INFO - [ANSWER] No, no és veritat que el Pau hagi rebut 50 euros.  
+La Maria havia dit que si el Pau tallava la gesp...
+2025-11-04 22:42:24,456 - INFO - [OK] Row 138 [S7C] completed successfully
+2025-11-04 22:42:24,462 - INFO - [OK] Answer 138 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:24,462 - INFO - [PROGRESS] kimi-k2:1t-cloud - 138/288 processed | 138 successful | 0 errors
+2025-11-04 22:42:24,462 - INFO - [INFO] Processing Row 139/288 [S8T]
+2025-11-04 22:42:24,462 - INFO - [PROMPT] Aquí tens el context: El gos està jugant. A més, el gat està pujant a l'arbre. La Maria havia dit: "...
+2025-11-04 22:42:30,367 - INFO - [ANSWER] Segons el que diu la Maria, **sí**, és veritat que l'Antoni ha llegit un llibre, perquè ella va dir:...
+2025-11-04 22:42:30,367 - INFO - [OK] Row 139 [S8T] completed successfully
+2025-11-04 22:42:30,372 - INFO - [OK] Answer 139 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:30,373 - INFO - [PROGRESS] kimi-k2:1t-cloud - 139/288 processed | 139 successful | 0 errors
+2025-11-04 22:42:30,373 - INFO - [INFO] Processing Row 140/288 [S8F]
+2025-11-04 22:42:30,373 - INFO - [PROMPT] Aquí tens el context: El gos està jugant. A més, el gat està pujant a l'arbre. L'Antoni no ha llegit...
+2025-11-04 22:42:36,730 - INFO - [ANSWER] No, **no és veritat** que l'Antoni hagi llegit un llibre.
+
+Segons el que diu la Maria: *"Si el gos e...
+2025-11-04 22:42:36,730 - INFO - [OK] Row 140 [S8F] completed successfully
+2025-11-04 22:42:36,735 - INFO - [OK] Answer 140 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:36,735 - INFO - [PROGRESS] kimi-k2:1t-cloud - 140/288 processed | 140 successful | 0 errors
+2025-11-04 22:42:36,735 - INFO - [INFO] Processing Row 141/288 [S8C]
+2025-11-04 22:42:36,735 - INFO - [PROMPT] Aquí tens el context: El gos no està jugant. A més, el gat està dormint. La Maria havia dit: "Si el ...
+2025-11-04 22:42:48,569 - INFO - [ANSWER] No, no és veritat que l'Antoni hagi llegit un llibre.
+
+Segons el que diu la Maria: *"Si el gos està ...
+2025-11-04 22:42:48,569 - INFO - [OK] Row 141 [S8C] completed successfully
+2025-11-04 22:42:48,573 - INFO - [OK] Answer 141 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:48,573 - INFO - [PROGRESS] kimi-k2:1t-cloud - 141/288 processed | 141 successful | 0 errors
+2025-11-04 22:42:48,574 - INFO - [INFO] Processing Row 142/288 [S9T]
+2025-11-04 22:42:48,574 - INFO - [PROMPT] Aquí tens el context: La nevera està buida. A més, el forn està espatllat. La Maria havia dit: "Si l...
+2025-11-04 22:42:50,538 - INFO - [ANSWER] Segons el que diu la Maria, **sí**, és veritat que l'Anna ha portat donuts, perquè la nevera està bu...
+2025-11-04 22:42:50,539 - INFO - [OK] Row 142 [S9T] completed successfully
+2025-11-04 22:42:50,543 - INFO - [OK] Answer 142 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:50,543 - INFO - [PROGRESS] kimi-k2:1t-cloud - 142/288 processed | 142 successful | 0 errors
+2025-11-04 22:42:50,544 - INFO - [INFO] Processing Row 143/288 [S9F]
+2025-11-04 22:42:50,544 - INFO - [PROMPT] Aquí tens el context: La nevera està buida. A més, el forn està espatllat. L'Anna no ha portat donut...
+2025-11-04 22:42:55,525 - INFO - [ANSWER] No, no és veritat que l'Anna hagi portat donuts.
+
+Segons el que diu la Maria: *"Si la nevera està bu...
+2025-11-04 22:42:55,525 - INFO - [OK] Row 143 [S9F] completed successfully
+2025-11-04 22:42:55,530 - INFO - [OK] Answer 143 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:55,530 - INFO - [PROGRESS] kimi-k2:1t-cloud - 143/288 processed | 143 successful | 0 errors
+2025-11-04 22:42:55,530 - INFO - [INFO] Processing Row 144/288 [S9C]
+2025-11-04 22:42:55,530 - INFO - [PROMPT] Aquí tens el context: La nevera està plena. A més, el forn està engegat. La Maria havia dit: "Si la ...
+2025-11-04 22:42:58,674 - INFO - [ANSWER] No, no és veritat que l'Anna hagi portat donuts.  
+La Maria va dir: *"Si la nevera està buida, l'Ann...
+2025-11-04 22:42:58,675 - INFO - [OK] Row 144 [S9C] completed successfully
+2025-11-04 22:42:58,679 - INFO - [OK] Answer 144 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:42:58,680 - INFO - [PROGRESS] kimi-k2:1t-cloud - 144/288 processed | 144 successful | 0 errors
+2025-11-04 22:42:58,680 - INFO - [INFO] Processing Row 145/288 [B1T]
+2025-11-04 22:42:58,680 - INFO - [PROMPT] Ecco il contesto: Gianni ha fame e c'è della pizza in forno. C'è anche della pasta in frigo. Maria d...
+2025-11-04 22:43:01,572 - INFO - [ANSWER] Sì, è vero che c'è della pizza in forno.  
+Maria dice: *"Se Gianni ha fame, c'è della pizza in forno...
+2025-11-04 22:43:01,572 - INFO - [OK] Row 145 [B1T] completed successfully
+2025-11-04 22:43:01,577 - INFO - [OK] Answer 145 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:01,577 - INFO - [PROGRESS] kimi-k2:1t-cloud - 145/288 processed | 145 successful | 0 errors
+2025-11-04 22:43:01,578 - INFO - [INFO] Processing Row 146/288 [B1F]
+2025-11-04 22:43:01,578 - INFO - [PROMPT] Ecco il contesto: Gianni ha fame e non c'è della pizza in forno. Non c'è nemmeno della pasta in frig...
+2025-11-04 22:43:10,034 - INFO - [ANSWER] No, non è vero che c'è della pizza in forno.
+
+Maria dice: *"Se Gianni ha fame, c'è della pizza in fo...
+2025-11-04 22:43:10,034 - INFO - [OK] Row 146 [B1F] completed successfully
+2025-11-04 22:43:10,040 - INFO - [OK] Answer 146 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:10,040 - INFO - [PROGRESS] kimi-k2:1t-cloud - 146/288 processed | 146 successful | 0 errors
+2025-11-04 22:43:10,040 - INFO - [INFO] Processing Row 147/288 [B1C]
+2025-11-04 22:43:10,040 - INFO - [PROMPT] Ecco il contesto: Gianni non ha fame. C'è della pasta in frigo. Maria dice: "Se Gianni ha fame, c'è ...
+2025-11-04 22:43:14,069 - INFO - [ANSWER] No, non è detto che ci sia della pizza in forno.  
+Maria dice: *"Se Gianni ha fame, c'è della pizza ...
+2025-11-04 22:43:14,069 - INFO - [OK] Row 147 [B1C] completed successfully
+2025-11-04 22:43:14,074 - INFO - [OK] Answer 147 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:14,074 - INFO - [PROGRESS] kimi-k2:1t-cloud - 147/288 processed | 147 successful | 0 errors
+2025-11-04 22:43:14,074 - INFO - [INFO] Processing Row 148/288 [B2T]
+2025-11-04 22:43:14,074 - INFO - [PROMPT] Ecco il contesto: Nicoletta ha mal di testa e ci sono delle aspirine sul tavolo. C'è anche dell'ibup...
+2025-11-04 22:43:18,583 - INFO - [ANSWER] Sì, è vero che ci sono delle aspirine sul tavolo.  
+Maria dice: *"Se Nicoletta ha mal di testa, ci s...
+2025-11-04 22:43:18,583 - INFO - [OK] Row 148 [B2T] completed successfully
+2025-11-04 22:43:18,588 - INFO - [OK] Answer 148 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:18,588 - INFO - [PROGRESS] kimi-k2:1t-cloud - 148/288 processed | 148 successful | 0 errors
+2025-11-04 22:43:18,589 - INFO - [INFO] Processing Row 149/288 [B2F]
+2025-11-04 22:43:18,589 - INFO - [PROMPT] Ecco il contesto: Nicoletta ha mal di testa e non ci sono aspirine sul tavolo. Non c'è nemmeno dell'...
+2025-11-04 22:43:26,072 - INFO - [ANSWER] No, **non è vero** che ci sono delle aspirine sul tavolo.
+
+Maria dice: *"Se Nicoletta ha mal di test...
+2025-11-04 22:43:26,072 - INFO - [OK] Row 149 [B2F] completed successfully
+2025-11-04 22:43:26,077 - INFO - [OK] Answer 149 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:26,078 - INFO - [PROGRESS] kimi-k2:1t-cloud - 149/288 processed | 149 successful | 0 errors
+2025-11-04 22:43:26,078 - INFO - [INFO] Processing Row 150/288 [B2C]
+2025-11-04 22:43:26,078 - INFO - [PROMPT] Ecco il contesto: Nicoletta non ha mal di testa. C'è dell'ibuprofene nel cassetto. Maria dice: "Se N...
+2025-11-04 22:43:32,740 - INFO - [ANSWER] No, non è possibile stabilire se ci sono delle aspirine sul tavolo.
+
+Maria dice: *"Se Nicoletta ha m...
+2025-11-04 22:43:32,740 - INFO - [OK] Row 150 [B2C] completed successfully
+2025-11-04 22:43:32,747 - INFO - [OK] Answer 150 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:32,747 - INFO - [PROGRESS] kimi-k2:1t-cloud - 150/288 processed | 150 successful | 0 errors
+2025-11-04 22:43:32,747 - INFO - [INFO] Processing Row 151/288 [B3T]
+2025-11-04 22:43:32,747 - INFO - [PROMPT] Ecco il contesto: Lucia ha sete e c'è dell'acqua in frigo. C'è anche del succo di mela sullo scaffal...
+2025-11-04 22:43:36,928 - INFO - [ANSWER] Sì, è vero che c’è dell’acqua in frigo.  
+Maria dice: «Se Lucia ha sete, c’è dell’acqua in frigo». I...
+2025-11-04 22:43:36,928 - INFO - [OK] Row 151 [B3T] completed successfully
+2025-11-04 22:43:36,933 - INFO - [OK] Answer 151 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:36,934 - INFO - [PROGRESS] kimi-k2:1t-cloud - 151/288 processed | 151 successful | 0 errors
+2025-11-04 22:43:36,934 - INFO - [INFO] Processing Row 152/288 [B3F]
+2025-11-04 22:43:36,934 - INFO - [PROMPT] Ecco il contesto: Lucia ha sete e non c'è dell'acqua in frigo. Non c'è nemmeno del succo di mela sul...
+2025-11-04 22:43:42,595 - INFO - [ANSWER] No, non è vero che c’è dell’acqua in frigo.  
+Maria dice: «Se Lucia ha sete, c’è dell’acqua in frigo...
+2025-11-04 22:43:42,595 - INFO - [OK] Row 152 [B3F] completed successfully
+2025-11-04 22:43:42,601 - INFO - [OK] Answer 152 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:42,601 - INFO - [PROGRESS] kimi-k2:1t-cloud - 152/288 processed | 152 successful | 0 errors
+2025-11-04 22:43:42,601 - INFO - [INFO] Processing Row 153/288 [B3C]
+2025-11-04 22:43:42,601 - INFO - [PROMPT] Ecco il contesto: Lucia non ha sete. C'è del succo di mela sullo scaffale. Maria dice: "Se Lucia ha ...
+2025-11-04 22:43:46,105 - INFO - [ANSWER] No, non è detto che ci sia dell'acqua in frigo.  
+Maria dice solo che **se** Lucia ha sete, **allora...
+2025-11-04 22:43:46,105 - INFO - [OK] Row 153 [B3C] completed successfully
+2025-11-04 22:43:46,110 - INFO - [OK] Answer 153 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:46,110 - INFO - [PROGRESS] kimi-k2:1t-cloud - 153/288 processed | 153 successful | 0 errors
+2025-11-04 22:43:46,110 - INFO - [INFO] Processing Row 154/288 [B4T]
+2025-11-04 22:43:46,110 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e c'è un caricatore nel cassetto. C'è anche un com...
+2025-11-04 22:43:50,598 - INFO - [ANSWER] Sì, è vero che c'è un caricatore nel cassetto.  
+Maria dice: *"Se il telefono di Pietro è scarico, c...
+2025-11-04 22:43:50,598 - INFO - [OK] Row 154 [B4T] completed successfully
+2025-11-04 22:43:50,602 - INFO - [OK] Answer 154 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:50,603 - INFO - [PROGRESS] kimi-k2:1t-cloud - 154/288 processed | 154 successful | 0 errors
+2025-11-04 22:43:50,603 - INFO - [INFO] Processing Row 155/288 [B4F]
+2025-11-04 22:43:50,603 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e non c'è un caricatore nel cassetto. Non c'è nemm...
+2025-11-04 22:43:57,416 - INFO - [ANSWER] No, **non è vero** che c'è un caricatore nel cassetto.
+
+Maria dice: *"Se il telefono di Pietro è sca...
+2025-11-04 22:43:57,416 - INFO - [OK] Row 155 [B4F] completed successfully
+2025-11-04 22:43:57,421 - INFO - [OK] Answer 155 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:43:57,422 - INFO - [PROGRESS] kimi-k2:1t-cloud - 155/288 processed | 155 successful | 0 errors
+2025-11-04 22:43:57,422 - INFO - [INFO] Processing Row 156/288 [B4C]
+2025-11-04 22:43:57,422 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è carico. C'è un computer sul tavolo. Maria dice: "Se il tel...
+2025-11-04 22:44:05,499 - INFO - [ANSWER] No, non è possibile stabilire con certezza se c'è un caricatore nel cassetto.
+
+Maria dice: *"Se il t...
+2025-11-04 22:44:05,499 - INFO - [OK] Row 156 [B4C] completed successfully
+2025-11-04 22:44:05,504 - INFO - [OK] Answer 156 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:05,505 - INFO - [PROGRESS] kimi-k2:1t-cloud - 156/288 processed | 156 successful | 0 errors
+2025-11-04 22:44:05,505 - INFO - [INFO] Processing Row 157/288 [B5T]
+2025-11-04 22:44:05,505 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e c'è un ombrello nel portaombrelli. C'è anche un impermeabile ...
+2025-11-04 22:44:08,693 - INFO - [ANSWER] Sì, è vero.  
+Maria dice: *"Se il tempo è piovoso, c'è un ombrello nel portaombrelli"*.  
+Nel contes...
+2025-11-04 22:44:08,693 - INFO - [OK] Row 157 [B5T] completed successfully
+2025-11-04 22:44:08,698 - INFO - [OK] Answer 157 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:08,699 - INFO - [PROGRESS] kimi-k2:1t-cloud - 157/288 processed | 157 successful | 0 errors
+2025-11-04 22:44:08,699 - INFO - [INFO] Processing Row 158/288 [B5F]
+2025-11-04 22:44:08,699 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e non c'è un ombrello nel portaombrelli. Non c'è nemmeno un imp...
+2025-11-04 22:44:13,272 - INFO - [ANSWER] No, non è vero che c'è un ombrello nel portaombrelli.  
+Maria dice: *"Se il tempo è piovoso, c'è un ...
+2025-11-04 22:44:13,272 - INFO - [OK] Row 158 [B5F] completed successfully
+2025-11-04 22:44:13,277 - INFO - [OK] Answer 158 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:13,277 - INFO - [PROGRESS] kimi-k2:1t-cloud - 158/288 processed | 158 successful | 0 errors
+2025-11-04 22:44:13,277 - INFO - [INFO] Processing Row 159/288 [B5C]
+2025-11-04 22:44:13,277 - INFO - [PROMPT] Ecco il contesto: Il tempo è sereno. C'è un impermeabile in macchina. Maria dice: "Se il tempo è pio...
+2025-11-04 22:44:17,145 - INFO - [ANSWER] No, non è detto che ci sia un ombrello nel portaombrelli.  
+Maria dice solo che **se** il tempo è pi...
+2025-11-04 22:44:17,145 - INFO - [OK] Row 159 [B5C] completed successfully
+2025-11-04 22:44:17,150 - INFO - [OK] Answer 159 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:17,150 - INFO - [PROGRESS] kimi-k2:1t-cloud - 159/288 processed | 159 successful | 0 errors
+2025-11-04 22:44:17,150 - INFO - [INFO] Processing Row 160/288 [B6T]
+2025-11-04 22:44:17,150 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e c'è una pompa in garage. C'è anche una bici vi...
+2025-11-04 22:44:19,829 - INFO - [ANSWER] Sì, è vero.  
+Maria dice: *"Se la gomma della macchina è a terra, c'è una pompa in garage."*  
+Nel c...
+2025-11-04 22:44:19,829 - INFO - [OK] Row 160 [B6T] completed successfully
+2025-11-04 22:44:19,833 - INFO - [OK] Answer 160 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:19,834 - INFO - [PROGRESS] kimi-k2:1t-cloud - 160/288 processed | 160 successful | 0 errors
+2025-11-04 22:44:19,834 - INFO - [INFO] Processing Row 161/288 [B6F]
+2025-11-04 22:44:19,834 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e non c'è nessuna pompa in garage. Non c'è nemme...
+2025-11-04 22:44:24,212 - INFO - [ANSWER] No, **non è vero** che c'è una pompa in garage.
+
+Maria dice: *"Se la gomma della macchina è a terra,...
+2025-11-04 22:44:24,212 - INFO - [OK] Row 161 [B6F] completed successfully
+2025-11-04 22:44:24,237 - INFO - [OK] Answer 161 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:24,238 - INFO - [PROGRESS] kimi-k2:1t-cloud - 161/288 processed | 161 successful | 0 errors
+2025-11-04 22:44:24,238 - INFO - [INFO] Processing Row 162/288 [B6C]
+2025-11-04 22:44:24,238 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è gonfia. C'è una bici vicino alla porta d'ingresso. Maria...
+2025-11-04 22:44:27,639 - INFO - [ANSWER] Non si può dire con certezza.  
+Maria afferma solo che **se** la gomma della macchina è a terra, **a...
+2025-11-04 22:44:27,639 - INFO - [OK] Row 162 [B6C] completed successfully
+2025-11-04 22:44:27,645 - INFO - [OK] Answer 162 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:27,645 - INFO - [PROGRESS] kimi-k2:1t-cloud - 162/288 processed | 162 successful | 0 errors
+2025-11-04 22:44:27,645 - INFO - [INFO] Processing Row 163/288 [B7T]
+2025-11-04 22:44:27,645 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e c'è un annaffiatoio sullo scaffale. C'è anche un tubo da giard...
+2025-11-04 22:44:32,465 - INFO - [ANSWER] Sì, è vero: c'è un annaffiatoio sullo scaffale.  
+Maria dice: «Se la pianta è secca, c'è un annaffia...
+2025-11-04 22:44:32,466 - INFO - [OK] Row 163 [B7T] completed successfully
+2025-11-04 22:44:32,472 - INFO - [OK] Answer 163 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:32,472 - INFO - [PROGRESS] kimi-k2:1t-cloud - 163/288 processed | 163 successful | 0 errors
+2025-11-04 22:44:32,472 - INFO - [INFO] Processing Row 164/288 [B7F]
+2025-11-04 22:44:32,472 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e non c'è nessun annaffiatoio sullo scaffale. Non c'è nemmeno un...
+2025-11-04 22:44:38,664 - INFO - [ANSWER] No, non è vero che c'è un annaffiatoio sullo scaffale.
+
+Maria dice: *"Se la pianta è secca, c'è un a...
+2025-11-04 22:44:38,664 - INFO - [OK] Row 164 [B7F] completed successfully
+2025-11-04 22:44:38,669 - INFO - [OK] Answer 164 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:38,670 - INFO - [PROGRESS] kimi-k2:1t-cloud - 164/288 processed | 164 successful | 0 errors
+2025-11-04 22:44:38,670 - INFO - [INFO] Processing Row 165/288 [B7C]
+2025-11-04 22:44:38,670 - INFO - [PROMPT] Ecco il contesto: La pianta è rigogliosa. C'è un tubo da giardinaggio in giardino. Maria dice: "Se l...
+2025-11-04 22:44:42,266 - INFO - [ANSWER] No, non è possibile stabilire con certezza se c'è un annaffiatoio sullo scaffale.  
+Maria dice: *"Se...
+2025-11-04 22:44:42,266 - INFO - [OK] Row 165 [B7C] completed successfully
+2025-11-04 22:44:42,272 - INFO - [OK] Answer 165 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:42,272 - INFO - [PROGRESS] kimi-k2:1t-cloud - 165/288 processed | 165 successful | 0 errors
+2025-11-04 22:44:42,272 - INFO - [INFO] Processing Row 166/288 [B8T]
+2025-11-04 22:44:42,272 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stropicciata e c'è un ferro da stiro nell'armadio. C'è anc...
+2025-11-04 22:44:46,739 - INFO - [ANSWER] Sì, è vero che c'è un ferro da stiro nell'armadio.  
+Maria dice: *"Se la camicia di Giorgio è stropi...
+2025-11-04 22:44:46,739 - INFO - [OK] Row 166 [B8T] completed successfully
+2025-11-04 22:44:46,745 - INFO - [OK] Answer 166 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:46,745 - INFO - [PROGRESS] kimi-k2:1t-cloud - 166/288 processed | 166 successful | 0 errors
+2025-11-04 22:44:46,745 - INFO - [INFO] Processing Row 167/288 [B8F]
+2025-11-04 22:44:46,745 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stropicciata e non c'è un ferro da stiro nell'armadio. Non...
+2025-11-04 22:44:55,750 - INFO - [ANSWER] No, **non è vero** che c'è un ferro da stiro nell'armadio.
+
+Maria dice: *"Se la camicia di Giorgio è...
+2025-11-04 22:44:55,750 - INFO - [OK] Row 167 [B8F] completed successfully
+2025-11-04 22:44:55,755 - INFO - [OK] Answer 167 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:44:55,755 - INFO - [PROGRESS] kimi-k2:1t-cloud - 167/288 processed | 167 successful | 0 errors
+2025-11-04 22:44:55,755 - INFO - [INFO] Processing Row 168/288 [B8C]
+2025-11-04 22:44:55,755 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stirata. C'è un'asse da stiro in balcone. Maria dice: "Se ...
+2025-11-04 22:45:01,623 - INFO - [ANSWER] No, non è possibile stabilire con certezza se c'è un ferro da stiro nell'armadio.
+
+Maria dice: *"Se ...
+2025-11-04 22:45:01,623 - INFO - [OK] Row 168 [B8C] completed successfully
+2025-11-04 22:45:01,628 - INFO - [OK] Answer 168 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:01,629 - INFO - [PROGRESS] kimi-k2:1t-cloud - 168/288 processed | 168 successful | 0 errors
+2025-11-04 22:45:01,629 - INFO - [INFO] Processing Row 169/288 [B9T]
+2025-11-04 22:45:01,629 - INFO - [PROMPT] Ecco il contesto: Susanna vuole leggere e ci sono dei libri sullo scaffale. C'è anche un giornale su...
+2025-11-04 22:45:04,086 - INFO - [ANSWER] Sì, è vero. Maria dice che ci sono dei libri sullo scaffale, e il contesto conferma che effettivamen...
+2025-11-04 22:45:04,086 - INFO - [OK] Row 169 [B9T] completed successfully
+2025-11-04 22:45:04,091 - INFO - [OK] Answer 169 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:04,091 - INFO - [PROGRESS] kimi-k2:1t-cloud - 169/288 processed | 169 successful | 0 errors
+2025-11-04 22:45:04,091 - INFO - [INFO] Processing Row 170/288 [B9F]
+2025-11-04 22:45:04,091 - INFO - [PROMPT] Ecco il contesto: Susanna vuole leggere e non ci sono libri sullo scaffale. Non c'è nemmeno un giorn...
+2025-11-04 22:45:07,591 - INFO - [ANSWER] No, non è vero che ci sono dei libri sullo scaffale.  
+Maria dice: *"Se Susanna vuole leggere, ci so...
+2025-11-04 22:45:07,591 - INFO - [OK] Row 170 [B9F] completed successfully
+2025-11-04 22:45:07,596 - INFO - [OK] Answer 170 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:07,596 - INFO - [PROGRESS] kimi-k2:1t-cloud - 170/288 processed | 170 successful | 0 errors
+2025-11-04 22:45:07,596 - INFO - [INFO] Processing Row 171/288 [B9C]
+2025-11-04 22:45:07,596 - INFO - [PROMPT] Ecco il contesto: Susanna non vuole leggere. C'è un giornale sul divano. Maria dice: "Se Susanna vuo...
+2025-11-04 22:45:10,102 - INFO - [ANSWER] Sì, è vero. Maria afferma che **se** Susanna vuole leggere, **ci sono** dei libri sullo scaffale. Qu...
+2025-11-04 22:45:10,103 - INFO - [OK] Row 171 [B9C] completed successfully
+2025-11-04 22:45:10,110 - INFO - [OK] Answer 171 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:10,110 - INFO - [PROGRESS] kimi-k2:1t-cloud - 171/288 processed | 171 successful | 0 errors
+2025-11-04 22:45:10,110 - INFO - [INFO] Processing Row 172/288 [F1T]
+2025-11-04 22:45:10,110 - INFO - [PROMPT] Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della...
+2025-11-04 22:45:12,309 - INFO - [ANSWER] Sì, nel contesto fornito la pizza è più popolare della pasta, perché nonostante sia più cara, la gen...
+2025-11-04 22:45:12,310 - INFO - [OK] Row 172 [F1T] completed successfully
+2025-11-04 22:45:12,314 - INFO - [OK] Answer 172 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:12,315 - INFO - [PROGRESS] kimi-k2:1t-cloud - 172/288 processed | 172 successful | 0 errors
+2025-11-04 22:45:12,315 - INFO - [INFO] Processing Row 173/288 [F1F]
+2025-11-04 22:45:12,315 - INFO - [PROMPT] Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della...
+2025-11-04 22:45:14,761 - INFO - [ANSWER] No, la pasta non è più popolare della pizza. Nel contesto si dice che, nonostante la pizza sia più c...
+2025-11-04 22:45:14,761 - INFO - [OK] Row 173 [F1F] completed successfully
+2025-11-04 22:45:14,766 - INFO - [OK] Answer 173 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:14,767 - INFO - [PROGRESS] kimi-k2:1t-cloud - 173/288 processed | 173 successful | 0 errors
+2025-11-04 22:45:14,767 - INFO - [INFO] Processing Row 174/288 [F2T]
+2025-11-04 22:45:14,767 - INFO - [PROMPT] Ecco il contesto: Nonostante il caffè sia più economico del tè verde, la maggior parte delle persone...
+2025-11-04 22:45:17,080 - INFO - [ANSWER] Sì, nel contesto dato il tè verde è usato più del caffè, perché la maggior parte delle persone lo pr...
+2025-11-04 22:45:17,080 - INFO - [OK] Row 174 [F2T] completed successfully
+2025-11-04 22:45:17,085 - INFO - [OK] Answer 174 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:17,085 - INFO - [PROGRESS] kimi-k2:1t-cloud - 174/288 processed | 174 successful | 0 errors
+2025-11-04 22:45:17,085 - INFO - [INFO] Processing Row 175/288 [F2F]
+2025-11-04 22:45:17,085 - INFO - [PROMPT] Ecco il contesto: Nonostante il caffè sia più economico del tè verde, la maggior parte delle persone...
+2025-11-04 22:45:19,517 - INFO - [ANSWER] No, il caffè non è usato più del tè verde.  
+Nel contesto si dice che la maggior parte delle persone...
+2025-11-04 22:45:19,518 - INFO - [OK] Row 175 [F2F] completed successfully
+2025-11-04 22:45:19,523 - INFO - [OK] Answer 175 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:19,523 - INFO - [PROGRESS] kimi-k2:1t-cloud - 175/288 processed | 175 successful | 0 errors
+2025-11-04 22:45:19,523 - INFO - [INFO] Processing Row 176/288 [F3T]
+2025-11-04 22:45:19,523 - INFO - [PROMPT] Ecco il contesto: Nonostante l'acqua sia più sana delle bibite gassate, molti scelgono le bibite gas...
+2025-11-04 22:45:22,180 - INFO - [ANSWER] Sì, nel contesto descritto le bibite gassate sembrano essere più richieste dell'acqua, dato che "mol...
+2025-11-04 22:45:22,180 - INFO - [OK] Row 176 [F3T] completed successfully
+2025-11-04 22:45:22,185 - INFO - [OK] Answer 176 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:22,185 - INFO - [PROGRESS] kimi-k2:1t-cloud - 176/288 processed | 176 successful | 0 errors
+2025-11-04 22:45:22,185 - INFO - [INFO] Processing Row 177/288 [F3F]
+2025-11-04 22:45:22,185 - INFO - [PROMPT] Ecco il contesto: Nonostante l'acqua sia più sana delle bibite gassate, molti scelgono le bibite gas...
+2025-11-04 22:45:24,452 - INFO - [ANSWER] No, nel contesto descritto l'acqua **non** è più richiesta delle bibite gassate: infatti, nonostante...
+2025-11-04 22:45:24,453 - INFO - [OK] Row 177 [F3F] completed successfully
+2025-11-04 22:45:24,463 - INFO - [OK] Answer 177 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:24,464 - INFO - [PROGRESS] kimi-k2:1t-cloud - 177/288 processed | 177 successful | 0 errors
+2025-11-04 22:45:24,464 - INFO - [INFO] Processing Row 178/288 [F4T]
+2025-11-04 22:45:24,464 - INFO - [PROMPT] Ecco il contesto: Nonostante i broccoli siano più difficili da cucinare rispetto agli gnocchi, la ge...
+2025-11-04 22:45:26,520 - INFO - [ANSWER] Sì, nel contesto dato i broccoli sono più popolari degli gnocchi.
+2025-11-04 22:45:26,520 - INFO - [OK] Row 178 [F4T] completed successfully
+2025-11-04 22:45:26,525 - INFO - [OK] Answer 178 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:26,525 - INFO - [PROGRESS] kimi-k2:1t-cloud - 178/288 processed | 178 successful | 0 errors
+2025-11-04 22:45:26,525 - INFO - [INFO] Processing Row 179/288 [F4F]
+2025-11-04 22:45:26,525 - INFO - [PROMPT] Ecco il contesto: Nonostante i broccoli siano più difficili da cucinare rispetto agli gnocchi, la ge...
+2025-11-04 22:45:29,017 - INFO - [ANSWER] No, secondo il contesto gli gnocchi non sono più popolari dei broccoli; infatti, si dice che la gent...
+2025-11-04 22:45:29,017 - INFO - [OK] Row 179 [F4F] completed successfully
+2025-11-04 22:45:29,023 - INFO - [OK] Answer 179 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:29,023 - INFO - [PROGRESS] kimi-k2:1t-cloud - 179/288 processed | 179 successful | 0 errors
+2025-11-04 22:45:29,023 - INFO - [INFO] Processing Row 180/288 [F5T]
+2025-11-04 22:45:29,023 - INFO - [PROMPT] Ecco il contesto: Nonostante il sushi sia più sano degli hamburger, la gente mangia più spesso gli h...
+2025-11-04 22:45:31,139 - INFO - [ANSWER] Sì, gli hamburger sono più popolari del sushi.
+2025-11-04 22:45:31,139 - INFO - [OK] Row 180 [F5T] completed successfully
+2025-11-04 22:45:31,144 - INFO - [OK] Answer 180 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:31,144 - INFO - [PROGRESS] kimi-k2:1t-cloud - 180/288 processed | 180 successful | 0 errors
+2025-11-04 22:45:31,144 - INFO - [INFO] Processing Row 181/288 [F5F]
+2025-11-04 22:45:31,144 - INFO - [PROMPT] Ecco il contesto: Nonostante il sushi sia più sano degli hamburger, la gente mangia più spesso gli h...
+2025-11-04 22:45:32,907 - INFO - [ANSWER] No, il sushi non è più popolare degli hamburger.
+2025-11-04 22:45:32,907 - INFO - [OK] Row 181 [F5F] completed successfully
+2025-11-04 22:45:32,912 - INFO - [OK] Answer 181 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:32,912 - INFO - [PROGRESS] kimi-k2:1t-cloud - 181/288 processed | 181 successful | 0 errors
+2025-11-04 22:45:32,912 - INFO - [INFO] Processing Row 182/288 [F6T]
+2025-11-04 22:45:32,912 - INFO - [PROMPT] Ecco il contesto: Nonostante le banane siano più costose dei kiwi, la gente le acquista di più. Ci s...
+2025-11-04 22:45:35,048 - INFO - [ANSWER] Sì, le banane sono più popolari dei kiwi.
+2025-11-04 22:45:35,048 - INFO - [OK] Row 182 [F6T] completed successfully
+2025-11-04 22:45:35,054 - INFO - [OK] Answer 182 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:35,054 - INFO - [PROGRESS] kimi-k2:1t-cloud - 182/288 processed | 182 successful | 0 errors
+2025-11-04 22:45:35,054 - INFO - [INFO] Processing Row 183/288 [F6F]
+2025-11-04 22:45:35,054 - INFO - [PROMPT] Ecco il contesto: Nonostante le banane siano più costose dei kiwi, la gente le acquista di più. Ci s...
+2025-11-04 22:45:39,317 - INFO - [ANSWER] No, i kiwi non sono più popolari delle banane. Nel contesto si dice che, nonostante le banane siano ...
+2025-11-04 22:45:39,317 - INFO - [OK] Row 183 [F6F] completed successfully
+2025-11-04 22:45:39,322 - INFO - [OK] Answer 183 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:39,322 - INFO - [PROGRESS] kimi-k2:1t-cloud - 183/288 processed | 183 successful | 0 errors
+2025-11-04 22:45:39,323 - INFO - [INFO] Processing Row 184/288 [F7T]
+2025-11-04 22:45:39,323 - INFO - [PROMPT] Ecco il contesto: Nonostante i cani siano più vivaci dei gatti, le persone li preferiscono. C'è un g...
+2025-11-04 22:45:42,039 - INFO - [ANSWER] Sì, nel contesto dato si dice che "le persone li preferiscono" (riferendosi ai cani), quindi i cani ...
+2025-11-04 22:45:42,040 - INFO - [OK] Row 184 [F7T] completed successfully
+2025-11-04 22:45:42,044 - INFO - [OK] Answer 184 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:42,045 - INFO - [PROGRESS] kimi-k2:1t-cloud - 184/288 processed | 184 successful | 0 errors
+2025-11-04 22:45:42,045 - INFO - [INFO] Processing Row 185/288 [F7F]
+2025-11-04 22:45:42,045 - INFO - [PROMPT] Ecco il contesto: Nonostante i cani siano più vivaci dei gatti, le persone li preferiscono. C'è un g...
+2025-11-04 22:45:45,025 - INFO - [ANSWER] No, nel contesto dato i gatti non sono più popolari dei cani: si afferma infatti che, nonostante i c...
+2025-11-04 22:45:45,026 - INFO - [OK] Row 185 [F7F] completed successfully
+2025-11-04 22:45:45,031 - INFO - [OK] Answer 185 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:45,031 - INFO - [PROGRESS] kimi-k2:1t-cloud - 185/288 processed | 185 successful | 0 errors
+2025-11-04 22:45:45,031 - INFO - [INFO] Processing Row 186/288 [F8T]
+2025-11-04 22:45:45,031 - INFO - [PROMPT] Ecco il contesto: Nonostante leggere sia più istruttivo di guardare la TV, la maggior parte delle pe...
+2025-11-04 22:45:47,132 - INFO - [ANSWER] Sì, guardano la TV più persone di quelle che leggono i libri.
+2025-11-04 22:45:47,132 - INFO - [OK] Row 186 [F8T] completed successfully
+2025-11-04 22:45:47,137 - INFO - [OK] Answer 186 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:47,138 - INFO - [PROGRESS] kimi-k2:1t-cloud - 186/288 processed | 186 successful | 0 errors
+2025-11-04 22:45:47,138 - INFO - [INFO] Processing Row 187/288 [F8F]
+2025-11-04 22:45:47,138 - INFO - [PROMPT] Ecco il contesto: Nonostante leggere sia più istruttivo di guardare la TV, la maggior parte delle pe...
+2025-11-04 22:45:50,271 - INFO - [ANSWER] No, leggono i libri **meno** persone di quelle che guardano la TV.
+2025-11-04 22:45:50,271 - INFO - [OK] Row 187 [F8F] completed successfully
+2025-11-04 22:45:50,276 - INFO - [OK] Answer 187 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:50,276 - INFO - [PROGRESS] kimi-k2:1t-cloud - 187/288 processed | 187 successful | 0 errors
+2025-11-04 22:45:50,276 - INFO - [INFO] Processing Row 188/288 [F9T]
+2025-11-04 22:45:50,277 - INFO - [PROMPT] Ecco il contesto: Nonostante correre sia meglio per la forma fisica rispetto a camminare, la maggior...
+2025-11-04 22:45:52,383 - INFO - [ANSWER] Sì, correre è meglio per la forma fisica rispetto a camminare.
+2025-11-04 22:45:52,383 - INFO - [OK] Row 188 [F9T] completed successfully
+2025-11-04 22:45:52,388 - INFO - [OK] Answer 188 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:52,388 - INFO - [PROGRESS] kimi-k2:1t-cloud - 188/288 processed | 188 successful | 0 errors
+2025-11-04 22:45:52,388 - INFO - [INFO] Processing Row 189/288 [F9F]
+2025-11-04 22:45:52,388 - INFO - [PROMPT] Ecco il contesto: Nonostante correre sia meglio per la forma fisica rispetto a camminare, la maggior...
+2025-11-04 22:45:55,757 - INFO - [ANSWER] No, camminare non è meglio per la forma fisica di correre. Il contesto afferma esplicitamente che "c...
+2025-11-04 22:45:55,757 - INFO - [OK] Row 189 [F9F] completed successfully
+2025-11-04 22:45:55,762 - INFO - [OK] Answer 189 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:55,762 - INFO - [PROGRESS] kimi-k2:1t-cloud - 189/288 processed | 189 successful | 0 errors
+2025-11-04 22:45:55,762 - INFO - [INFO] Processing Row 190/288 [S1T]
+2025-11-04 22:45:55,762 - INFO - [PROMPT] Ecco il contesto: Il pappagallo è nella gabbia. Inoltre, il cane è nella cuccia. Maria aveva detto: ...
+2025-11-04 22:45:59,534 - INFO - [ANSWER] Sì, è vero.  
+Maria ha detto: *"Se il pappagallo è nella gabbia, Tommaso porterà la pizza"*.  
+Nel c...
+2025-11-04 22:45:59,535 - INFO - [OK] Row 190 [S1T] completed successfully
+2025-11-04 22:45:59,540 - INFO - [OK] Answer 190 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:45:59,541 - INFO - [PROGRESS] kimi-k2:1t-cloud - 190/288 processed | 190 successful | 0 errors
+2025-11-04 22:45:59,541 - INFO - [INFO] Processing Row 191/288 [S1F]
+2025-11-04 22:45:59,541 - INFO - [PROMPT] Ecco il contesto: Il pappagallo è nella gabbia. Inoltre, il cane è nella cuccia. Tommaso non ha port...
+2025-11-04 22:46:05,751 - INFO - [ANSWER] No, **non è vero** che Tommaso ha portato la pizza.
+
+Maria ha detto: *"Se il pappagallo è nella gabb...
+2025-11-04 22:46:05,752 - INFO - [OK] Row 191 [S1F] completed successfully
+2025-11-04 22:46:05,756 - INFO - [OK] Answer 191 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:05,757 - INFO - [PROGRESS] kimi-k2:1t-cloud - 191/288 processed | 191 successful | 0 errors
+2025-11-04 22:46:05,757 - INFO - [INFO] Processing Row 192/288 [S1C]
+2025-11-04 22:46:05,757 - INFO - [PROMPT] Ecco il contesto: Il pappagallo non è nella gabbia. Neanche il cane è nella cuccia. Maria aveva dett...
+2025-11-04 22:46:12,893 - INFO - [ANSWER] No, non è vero che Tommaso ha portato la pizza.
+
+Maria ha detto: *"Se il pappagallo è nella gabbia, ...
+2025-11-04 22:46:12,893 - INFO - [OK] Row 192 [S1C] completed successfully
+2025-11-04 22:46:12,898 - INFO - [OK] Answer 192 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:12,899 - INFO - [PROGRESS] kimi-k2:1t-cloud - 192/288 processed | 192 successful | 0 errors
+2025-11-04 22:46:12,899 - INFO - [INFO] Processing Row 193/288 [S2T]
+2025-11-04 22:46:12,899 - INFO - [PROMPT] Ecco il contesto: Hai finito i broccoli. Hai finito anche la pasta. Maria aveva detto: "Se finisci i...
+2025-11-04 22:46:16,139 - INFO - [ANSWER] No, non è detto che Marco ti abbia dato una caramella.  
+Maria ha detto che **se** finivi i broccoli...
+2025-11-04 22:46:16,139 - INFO - [OK] Row 193 [S2T] completed successfully
+2025-11-04 22:46:16,144 - INFO - [OK] Answer 193 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:16,145 - INFO - [PROGRESS] kimi-k2:1t-cloud - 193/288 processed | 193 successful | 0 errors
+2025-11-04 22:46:16,145 - INFO - [INFO] Processing Row 194/288 [S2F]
+2025-11-04 22:46:16,145 - INFO - [PROMPT] Ecco il contesto: Hai finito i broccoli. Hai finito anche la pasta. Marco non ti ha dato nessuna car...
+2025-11-04 22:46:17,832 - INFO - [ANSWER] No, non è vero. Marco non ti ha dato nessuna caramella.
+2025-11-04 22:46:17,832 - INFO - [OK] Row 194 [S2F] completed successfully
+2025-11-04 22:46:17,837 - INFO - [OK] Answer 194 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:17,838 - INFO - [PROGRESS] kimi-k2:1t-cloud - 194/288 processed | 194 successful | 0 errors
+2025-11-04 22:46:17,838 - INFO - [INFO] Processing Row 195/288 [S2C]
+2025-11-04 22:46:17,838 - INFO - [PROMPT] Ecco il contesto: Non hai finito i broccoli. Non hai finito neanche la pasta. Maria aveva detto: "Se...
+2025-11-04 22:46:21,220 - INFO - [ANSWER] No, non è vero.  
+Secondo quanto detto da Maria, Marco avrebbe dato una caramella **solo se** avessi...
+2025-11-04 22:46:21,220 - INFO - [OK] Row 195 [S2C] completed successfully
+2025-11-04 22:46:21,226 - INFO - [OK] Answer 195 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:21,226 - INFO - [PROGRESS] kimi-k2:1t-cloud - 195/288 processed | 195 successful | 0 errors
+2025-11-04 22:46:21,226 - INFO - [INFO] Processing Row 196/288 [S3T]
+2025-11-04 22:46:21,226 - INFO - [PROMPT] Ecco il contesto: Le volpi stanno ballando. Inoltre, gli scoiattoli stanno mangiando. Maria aveva de...
+2025-11-04 22:46:24,169 - INFO - [ANSWER] Sì, è vero.  
+Maria ha detto: *"Se le volpi stanno ballando, Susanna riceverà una macchina fotografi...
+2025-11-04 22:46:24,169 - INFO - [OK] Row 196 [S3T] completed successfully
+2025-11-04 22:46:24,175 - INFO - [OK] Answer 196 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:24,175 - INFO - [PROGRESS] kimi-k2:1t-cloud - 196/288 processed | 196 successful | 0 errors
+2025-11-04 22:46:24,175 - INFO - [INFO] Processing Row 197/288 [S3F]
+2025-11-04 22:46:24,175 - INFO - [PROMPT] Ecco il contesto: Le volpi stanno ballando. Inoltre, gli scoiattoli stanno mangiando. Susanna non ha...
+2025-11-04 22:46:28,444 - INFO - [ANSWER] No, non è vero che Susanna ha ricevuto una macchina fotografica.
+
+Maria aveva detto: *"Se le volpi s...
+2025-11-04 22:46:28,444 - INFO - [OK] Row 197 [S3F] completed successfully
+2025-11-04 22:46:28,449 - INFO - [OK] Answer 197 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:28,449 - INFO - [PROGRESS] kimi-k2:1t-cloud - 197/288 processed | 197 successful | 0 errors
+2025-11-04 22:46:28,449 - INFO - [INFO] Processing Row 198/288 [S3C]
+2025-11-04 22:46:28,449 - INFO - [PROMPT] Ecco il contesto: Le volpi non stanno ballando. Neanche gli scoiattoli stanno mangiando. Maria aveva...
+2025-11-04 22:46:35,354 - INFO - [ANSWER] No, non è vero che Susanna ha ricevuto una macchina fotografica.
+
+Maria ha detto: *"Se le volpi stan...
+2025-11-04 22:46:35,354 - INFO - [OK] Row 198 [S3C] completed successfully
+2025-11-04 22:46:35,359 - INFO - [OK] Answer 198 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:35,359 - INFO - [PROGRESS] kimi-k2:1t-cloud - 198/288 processed | 198 successful | 0 errors
+2025-11-04 22:46:35,359 - INFO - [INFO] Processing Row 199/288 [S4T]
+2025-11-04 22:46:35,359 - INFO - [PROMPT] Ecco il contesto: La TV è accesa. Anche la radio è accesa. Maria aveva detto: "Se la TV è accesa, Ma...
+2025-11-04 22:46:37,854 - INFO - [ANSWER] Sì, è vero.  
+Maria ha detto: *"Se la TV è accesa, Matteo preparerò dei biscotti"*.  
+Nel contesto, ...
+2025-11-04 22:46:37,854 - INFO - [OK] Row 199 [S4T] completed successfully
+2025-11-04 22:46:37,861 - INFO - [OK] Answer 199 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:37,861 - INFO - [PROGRESS] kimi-k2:1t-cloud - 199/288 processed | 199 successful | 0 errors
+2025-11-04 22:46:37,861 - INFO - [INFO] Processing Row 200/288 [S4F]
+2025-11-04 22:46:37,861 - INFO - [PROMPT] Ecco il contesto: La TV è accesa. Anche la radio è accesa. Matteo non ha preparato i biscotti. Maria...
+2025-11-04 22:46:43,758 - INFO - [ANSWER] No, **non è vero** che Matteo ha preparato dei biscotti.
+
+Maria aveva detto: *"Se la TV è accesa, Ma...
+2025-11-04 22:46:43,758 - INFO - [OK] Row 200 [S4F] completed successfully
+2025-11-04 22:46:43,763 - INFO - [OK] Answer 200 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:43,764 - INFO - [PROGRESS] kimi-k2:1t-cloud - 200/288 processed | 200 successful | 0 errors
+2025-11-04 22:46:43,764 - INFO - [INFO] Processing Row 201/288 [S4C]
+2025-11-04 22:46:43,764 - INFO - [PROMPT] Ecco il contesto: La TV è spenta. Anche la radio è spenta. Maria aveva detto: "Se la TV è accesa, Ma...
+2025-11-04 22:46:47,858 - INFO - [ANSWER] No, non è vero che Matteo ha preparato dei biscotti.  
+Maria ha detto: *"Se la TV è accesa, Matteo p...
+2025-11-04 22:46:47,858 - INFO - [OK] Row 201 [S4C] completed successfully
+2025-11-04 22:46:47,865 - INFO - [OK] Answer 201 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:47,865 - INFO - [PROGRESS] kimi-k2:1t-cloud - 201/288 processed | 201 successful | 0 errors
+2025-11-04 22:46:47,865 - INFO - [INFO] Processing Row 202/288 [S5T]
+2025-11-04 22:46:47,865 - INFO - [PROMPT] Ecco il contesto: Oggi il tempo è soleggiato. Inoltre, non c'è vento. Maria aveva detto: "Se il temp...
+2025-11-04 22:46:53,359 - INFO - [ANSWER] Non possiamo dirlo con certezza.  
+Maria ha detto: *"Se il tempo è soleggiato, Emma si vestirà di vi...
+2025-11-04 22:46:53,359 - INFO - [OK] Row 202 [S5T] completed successfully
+2025-11-04 22:46:53,364 - INFO - [OK] Answer 202 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:53,365 - INFO - [PROGRESS] kimi-k2:1t-cloud - 202/288 processed | 202 successful | 0 errors
+2025-11-04 22:46:53,365 - INFO - [INFO] Processing Row 203/288 [S5F]
+2025-11-04 22:46:53,365 - INFO - [PROMPT] Ecco il contesto: Oggi il tempo è soleggiato. Inoltre, non c'è vento. Emma si è vestita di verde. Ma...
+2025-11-04 22:46:58,343 - INFO - [ANSWER] No, non è vero.  
+Maria aveva detto: *"Se il tempo è soleggiato, Emma si vestirà di viola"*.  
+Oggi ...
+2025-11-04 22:46:58,343 - INFO - [OK] Row 203 [S5F] completed successfully
+2025-11-04 22:46:58,349 - INFO - [OK] Answer 203 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:46:58,349 - INFO - [PROGRESS] kimi-k2:1t-cloud - 203/288 processed | 203 successful | 0 errors
+2025-11-04 22:46:58,349 - INFO - [INFO] Processing Row 204/288 [S5C]
+2025-11-04 22:46:58,349 - INFO - [PROMPT] Ecco il contesto: Oggi il tempo è piovoso. Inoltre, c'è molto vento. Maria aveva detto: "Se il tempo...
+2025-11-04 22:47:01,114 - INFO - [ANSWER] No, non è vero che Emma si è vestita di viola.  
+Maria ha detto che Emma si vestirà di viola **solo ...
+2025-11-04 22:47:01,114 - INFO - [OK] Row 204 [S5C] completed successfully
+2025-11-04 22:47:01,119 - INFO - [OK] Answer 204 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:01,120 - INFO - [PROGRESS] kimi-k2:1t-cloud - 204/288 processed | 204 successful | 0 errors
+2025-11-04 22:47:01,120 - INFO - [INFO] Processing Row 205/288 [S6T]
+2025-11-04 22:47:01,120 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è vuoto. Inoltre, le strade sono tranquille. Maria aveva detto: "S...
+2025-11-04 22:47:03,607 - INFO - [ANSWER] Sì, è vero.  
+Secondo quanto detto da Maria, se il parco giochi è vuoto, Angela si farà un selfie. P...
+2025-11-04 22:47:03,607 - INFO - [OK] Row 205 [S6T] completed successfully
+2025-11-04 22:47:03,613 - INFO - [OK] Answer 205 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:03,613 - INFO - [PROGRESS] kimi-k2:1t-cloud - 205/288 processed | 205 successful | 0 errors
+2025-11-04 22:47:03,613 - INFO - [INFO] Processing Row 206/288 [S6F]
+2025-11-04 22:47:03,613 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è vuoto. Inoltre, le strade sono tranquille. Angela non si è fatta...
+2025-11-04 22:47:07,531 - INFO - [ANSWER] No, non è vero che Angela si è fatta un selfie.  
+Maria aveva detto: *"Se il parco giochi è vuoto, A...
+2025-11-04 22:47:07,532 - INFO - [OK] Row 206 [S6F] completed successfully
+2025-11-04 22:47:07,537 - INFO - [OK] Answer 206 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:07,537 - INFO - [PROGRESS] kimi-k2:1t-cloud - 206/288 processed | 206 successful | 0 errors
+2025-11-04 22:47:07,537 - INFO - [INFO] Processing Row 207/288 [S6C]
+2025-11-04 22:47:07,537 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è pieno. Inoltre, le strade sono affollate. Maria aveva detto: "Se...
+2025-11-04 22:47:11,157 - INFO - [ANSWER] No, non è vero che Angela si è fatta un selfie.
+
+Maria aveva detto: *"Se il parco giochi è vuoto, An...
+2025-11-04 22:47:11,157 - INFO - [OK] Row 207 [S6C] completed successfully
+2025-11-04 22:47:11,162 - INFO - [OK] Answer 207 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:11,163 - INFO - [PROGRESS] kimi-k2:1t-cloud - 207/288 processed | 207 successful | 0 errors
+2025-11-04 22:47:11,163 - INFO - [INFO] Processing Row 208/288 [S7T]
+2025-11-04 22:47:11,163 - INFO - [PROMPT] Ecco il contesto: Il prato è stato tagliato. Inoltre, i fiori sono stati annaffiati. Maria aveva det...
+2025-11-04 22:47:15,245 - INFO - [ANSWER] Non è possibile stabilire con certezza se Paolo ha ricevuto 50 euro.  
+Maria ha detto: *"Se Paolo ta...
+2025-11-04 22:47:15,245 - INFO - [OK] Row 208 [S7T] completed successfully
+2025-11-04 22:47:15,249 - INFO - [OK] Answer 208 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:15,250 - INFO - [PROGRESS] kimi-k2:1t-cloud - 208/288 processed | 208 successful | 0 errors
+2025-11-04 22:47:15,250 - INFO - [INFO] Processing Row 209/288 [S7F]
+2025-11-04 22:47:15,250 - INFO - [PROMPT] Ecco il contesto: Il prato è stato tagliato. Inoltre, i fiori sono stati annaffiati. Paolo non ha ri...
+2025-11-04 22:47:21,093 - INFO - [ANSWER] No, non è vero che Paolo ha ricevuto 50 euro.  
+Maria aveva detto: *"Se Paolo taglia il prato, ricev...
+2025-11-04 22:47:21,093 - INFO - [OK] Row 209 [S7F] completed successfully
+2025-11-04 22:47:21,099 - INFO - [OK] Answer 209 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:21,100 - INFO - [PROGRESS] kimi-k2:1t-cloud - 209/288 processed | 209 successful | 0 errors
+2025-11-04 22:47:21,100 - INFO - [INFO] Processing Row 210/288 [S7C]
+2025-11-04 22:47:21,100 - INFO - [PROMPT] Ecco il contesto: Il prato non è stato tagliato. Inoltre, i fiori devono ancora essere annaffiati.  ...
+2025-11-04 22:47:24,353 - INFO - [ANSWER] No, non è vero che Paolo ha ricevuto 50 euro.  
+Maria aveva detto che **se** Paolo tagliava il prato...
+2025-11-04 22:47:24,354 - INFO - [OK] Row 210 [S7C] completed successfully
+2025-11-04 22:47:24,361 - INFO - [OK] Answer 210 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:24,362 - INFO - [PROGRESS] kimi-k2:1t-cloud - 210/288 processed | 210 successful | 0 errors
+2025-11-04 22:47:24,362 - INFO - [INFO] Processing Row 211/288 [S8T]
+2025-11-04 22:47:24,362 - INFO - [PROMPT] Ecco il contesto: Il cane sta giocando. Inoltre, il gatto si sta arrampicando sull'albero. Maria ave...
+2025-11-04 22:47:27,416 - INFO - [ANSWER] Sì, è vero.  
+Maria ha detto: *"Se il cane sta giocando, Antonio leggerà un libro."*  
+Nel contesto ...
+2025-11-04 22:47:27,416 - INFO - [OK] Row 211 [S8T] completed successfully
+2025-11-04 22:47:27,422 - INFO - [OK] Answer 211 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:27,422 - INFO - [PROGRESS] kimi-k2:1t-cloud - 211/288 processed | 211 successful | 0 errors
+2025-11-04 22:47:27,422 - INFO - [INFO] Processing Row 212/288 [S8F]
+2025-11-04 22:47:27,422 - INFO - [PROMPT] Ecco il contesto: Il cane sta giocando. Inoltre, il gatto si sta arrampicando sull'albero. Antonio n...
+2025-11-04 22:47:34,457 - INFO - [ANSWER] No, non è vero che Antonio ha letto un libro.
+
+Maria aveva detto: *"Se il cane sta giocando, Antonio...
+2025-11-04 22:47:34,457 - INFO - [OK] Row 212 [S8F] completed successfully
+2025-11-04 22:47:34,602 - INFO - [OK] Answer 212 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:34,603 - INFO - [PROGRESS] kimi-k2:1t-cloud - 212/288 processed | 212 successful | 0 errors
+2025-11-04 22:47:34,603 - INFO - [INFO] Processing Row 213/288 [S8C]
+2025-11-04 22:47:34,603 - INFO - [PROMPT] Ecco il contesto: Il cane non sta giocando. Inoltre, il gatto sta dormendo. Maria aveva detto: "Se i...
+2025-11-04 22:47:38,815 - INFO - [ANSWER] No, non è vero che Antonio ha letto un libro.
+
+Maria ha detto: *"Se il cane sta giocando, Antonio le...
+2025-11-04 22:47:38,816 - INFO - [OK] Row 213 [S8C] completed successfully
+2025-11-04 22:47:38,821 - INFO - [OK] Answer 213 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:38,821 - INFO - [PROGRESS] kimi-k2:1t-cloud - 213/288 processed | 213 successful | 0 errors
+2025-11-04 22:47:38,821 - INFO - [INFO] Processing Row 214/288 [S9T]
+2025-11-04 22:47:38,821 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Maria aveva detto: "Se il frigo...
+2025-11-04 22:47:42,200 - INFO - [ANSWER] Sì, è vero.  
+Maria ha detto: *"Se il frigorifero è vuoto, Anna porterà delle ciambelle"*.  
+Dato ch...
+2025-11-04 22:47:42,200 - INFO - [OK] Row 214 [S9T] completed successfully
+2025-11-04 22:47:42,205 - INFO - [OK] Answer 214 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:42,205 - INFO - [PROGRESS] kimi-k2:1t-cloud - 214/288 processed | 214 successful | 0 errors
+2025-11-04 22:47:42,205 - INFO - [INFO] Processing Row 215/288 [S9F]
+2025-11-04 22:47:42,205 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Anna non ha portato delle ciamb...
+2025-11-04 22:47:48,496 - INFO - [ANSWER] No, **non è vero** che Anna ha portato delle ciambelle.
+
+Secondo quanto detto da Maria:  
+**"Se il f...
+2025-11-04 22:47:48,496 - INFO - [OK] Row 215 [S9F] completed successfully
+2025-11-04 22:47:48,501 - INFO - [OK] Answer 215 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:48,502 - INFO - [PROGRESS] kimi-k2:1t-cloud - 215/288 processed | 215 successful | 0 errors
+2025-11-04 22:47:48,502 - INFO - [INFO] Processing Row 216/288 [S9C]
+2025-11-04 22:47:48,502 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è pieno. Inoltre, il forno è acceso. Maria aveva detto: "Se il frig...
+2025-11-04 22:47:52,515 - INFO - [ANSWER] No, non è vero che Anna ha portato delle ciambelle.
+
+Maria ha detto: *"Se il frigorifero è vuoto, An...
+2025-11-04 22:47:52,515 - INFO - [OK] Row 216 [S9C] completed successfully
+2025-11-04 22:47:52,520 - INFO - [OK] Answer 216 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:52,520 - INFO - [PROGRESS] kimi-k2:1t-cloud - 216/288 processed | 216 successful | 0 errors
+2025-11-04 22:47:52,520 - INFO - [INFO] Processing Row 217/288 [B1T]
+2025-11-04 22:47:52,520 - INFO - [PROMPT] Aquí tienes el contexto: Juan tiene hambre y hay pizza en el horno. También hay pasta en la nevera. ...
+2025-11-04 22:47:55,105 - INFO - [ANSWER] Sí, es verdad que hay pizza en el horno.  
+María dice: *"Si Juan tiene hambre, hay pizza en el horno...
+2025-11-04 22:47:55,105 - INFO - [OK] Row 217 [B1T] completed successfully
+2025-11-04 22:47:55,110 - INFO - [OK] Answer 217 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:47:55,110 - INFO - [PROGRESS] kimi-k2:1t-cloud - 217/288 processed | 217 successful | 0 errors
+2025-11-04 22:47:55,110 - INFO - [INFO] Processing Row 218/288 [B1F]
+2025-11-04 22:47:55,111 - INFO - [PROMPT] Aquí tienes el contexto: Juan tiene hambre y no hay pizza en el horno. Tampoco hay pasta en la never...
+2025-11-04 22:48:00,885 - INFO - [ANSWER] No, no es verdad que haya pizza en el horno.
+
+María dice: *"Si Juan tiene hambre, hay pizza en el ho...
+2025-11-04 22:48:00,886 - INFO - [OK] Row 218 [B1F] completed successfully
+2025-11-04 22:48:00,892 - INFO - [OK] Answer 218 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:00,892 - INFO - [PROGRESS] kimi-k2:1t-cloud - 218/288 processed | 218 successful | 0 errors
+2025-11-04 22:48:00,892 - INFO - [INFO] Processing Row 219/288 [B1C]
+2025-11-04 22:48:00,893 - INFO - [PROMPT] Aquí tienes el contexto: Juan no tiene hambre. Hay pasta en la nevera. María dice: "Si Juan tiene ha...
+2025-11-04 22:48:03,899 - INFO - [ANSWER] No, no es verdad que haya pizza en el horno.  
+María dice: *"Si Juan tiene hambre, hay pizza en el h...
+2025-11-04 22:48:03,899 - INFO - [OK] Row 219 [B1C] completed successfully
+2025-11-04 22:48:03,904 - INFO - [OK] Answer 219 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:03,904 - INFO - [PROGRESS] kimi-k2:1t-cloud - 219/288 processed | 219 successful | 0 errors
+2025-11-04 22:48:03,904 - INFO - [INFO] Processing Row 220/288 [B2T]
+2025-11-04 22:48:03,904 - INFO - [PROMPT] Aquí tienes el contexto: A Noelia le duele la cabeza y hay aspirinas sobre la mesa. También hay ibup...
+2025-11-04 22:48:08,407 - INFO - [ANSWER] Sí, es verdad que hay aspirinas sobre la mesa.  
+María dice: *"Si a Noelia le duele la cabeza, hay a...
+2025-11-04 22:48:08,407 - INFO - [OK] Row 220 [B2T] completed successfully
+2025-11-04 22:48:08,412 - INFO - [OK] Answer 220 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:08,413 - INFO - [PROGRESS] kimi-k2:1t-cloud - 220/288 processed | 220 successful | 0 errors
+2025-11-04 22:48:08,413 - INFO - [INFO] Processing Row 221/288 [B2F]
+2025-11-04 22:48:08,413 - INFO - [PROMPT] Aquí tienes el contexto: A Noelia le duele la cabeza y no hay aspirinas sobre la mesa. Tampoco hay i...
+2025-11-04 22:48:13,295 - INFO - [ANSWER] No, no es verdad que haya aspirinas sobre la mesa.
+
+María dice: *"Si a Noelia le duele la cabeza, ha...
+2025-11-04 22:48:13,296 - INFO - [OK] Row 221 [B2F] completed successfully
+2025-11-04 22:48:13,301 - INFO - [OK] Answer 221 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:13,301 - INFO - [PROGRESS] kimi-k2:1t-cloud - 221/288 processed | 221 successful | 0 errors
+2025-11-04 22:48:13,301 - INFO - [INFO] Processing Row 222/288 [B2C]
+2025-11-04 22:48:13,301 - INFO - [PROMPT] Aquí tienes el contexto: A Noelia no le duele la cabeza. Hay ibuprofeno en el cajón. María dice: "Si...
+2025-11-04 22:48:18,877 - INFO - [ANSWER] No, no es verdad que haya aspirinas sobre la mesa.
+
+María dice: *"Si a Noelia le duele la cabeza, ha...
+2025-11-04 22:48:18,877 - INFO - [OK] Row 222 [B2C] completed successfully
+2025-11-04 22:48:18,882 - INFO - [OK] Answer 222 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:18,882 - INFO - [PROGRESS] kimi-k2:1t-cloud - 222/288 processed | 222 successful | 0 errors
+2025-11-04 22:48:18,882 - INFO - [INFO] Processing Row 223/288 [B3T]
+2025-11-04 22:48:18,882 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed y hay agua en la nevera. También hay zumo de manzana en la ...
+2025-11-04 22:48:20,551 - INFO - [ANSWER] Sí, es verdad que hay agua en la nevera.
+2025-11-04 22:48:20,551 - INFO - [OK] Row 223 [B3T] completed successfully
+2025-11-04 22:48:20,559 - INFO - [OK] Answer 223 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:20,559 - INFO - [PROGRESS] kimi-k2:1t-cloud - 223/288 processed | 223 successful | 0 errors
+2025-11-04 22:48:20,559 - INFO - [INFO] Processing Row 224/288 [B3F]
+2025-11-04 22:48:20,559 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed y no hay agua en la nevera. Tampoco hay zumo de manzana en ...
+2025-11-04 22:48:30,841 - INFO - [ANSWER] No, no es verdad que haya agua en la nevera.  
+María dice: *"Si Lucía tiene sed, hay agua en la neve...
+2025-11-04 22:48:30,841 - INFO - [OK] Row 224 [B3F] completed successfully
+2025-11-04 22:48:30,846 - INFO - [OK] Answer 224 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:30,847 - INFO - [PROGRESS] kimi-k2:1t-cloud - 224/288 processed | 224 successful | 0 errors
+2025-11-04 22:48:30,847 - INFO - [INFO] Processing Row 225/288 [B3C]
+2025-11-04 22:48:30,847 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed. Hay zumo de manzana en la estantería. María dice: "Si Lucí...
+2025-11-04 22:48:35,783 - INFO - [ANSWER] No necesariamente. María dice: *"Si Lucía tiene sed, hay agua en la nevera"*, lo cual es una **condi...
+2025-11-04 22:48:35,783 - INFO - [OK] Row 225 [B3C] completed successfully
+2025-11-04 22:48:35,788 - INFO - [OK] Answer 225 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:35,789 - INFO - [PROGRESS] kimi-k2:1t-cloud - 225/288 processed | 225 successful | 0 errors
+2025-11-04 22:48:35,789 - INFO - [INFO] Processing Row 226/288 [B4T]
+2025-11-04 22:48:35,789 - INFO - [PROMPT] Aquí tienes el contexto: El móvil de Pedro se ha quedado sin batería y hay un cargador en el cajón. ...
+2025-11-04 22:48:37,859 - INFO - [ANSWER] Sí, es verdad que hay un cargador en el cajón.
+2025-11-04 22:48:37,859 - INFO - [OK] Row 226 [B4T] completed successfully
+2025-11-04 22:48:37,865 - INFO - [OK] Answer 226 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:37,865 - INFO - [PROGRESS] kimi-k2:1t-cloud - 226/288 processed | 226 successful | 0 errors
+2025-11-04 22:48:37,865 - INFO - [INFO] Processing Row 227/288 [B4F]
+2025-11-04 22:48:37,865 - INFO - [PROMPT] Aquí tienes el contexto: El móvil de Pedro se ha quedado sin batería y no hay ningún cargador en el ...
+2025-11-04 22:48:45,269 - INFO - [ANSWER] No, no es verdad que haya un cargador en el cajón.
+
+María dice: *"Si el móvil de Pedro se ha quedado...
+2025-11-04 22:48:45,272 - INFO - [OK] Row 227 [B4F] completed successfully
+2025-11-04 22:48:45,297 - INFO - [OK] Answer 227 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:45,297 - INFO - [PROGRESS] kimi-k2:1t-cloud - 227/288 processed | 227 successful | 0 errors
+2025-11-04 22:48:45,298 - INFO - [INFO] Processing Row 228/288 [B4C]
+2025-11-04 22:48:45,298 - INFO - [PROMPT] Aquí tienes el contexto: El móvil de Pedro tiene la batería llena. Hay un ordenador sobre la mesa. M...
+2025-11-04 22:48:51,852 - INFO - [ANSWER] No, no es verdad que haya un cargador en el cajón.
+
+María dice: *"Si el móvil de Pedro se ha quedado...
+2025-11-04 22:48:51,852 - INFO - [OK] Row 228 [B4C] completed successfully
+2025-11-04 22:48:51,857 - INFO - [OK] Answer 228 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:51,858 - INFO - [PROGRESS] kimi-k2:1t-cloud - 228/288 processed | 228 successful | 0 errors
+2025-11-04 22:48:51,858 - INFO - [INFO] Processing Row 229/288 [B5T]
+2025-11-04 22:48:51,858 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está lluvioso y hay un paraguas en el paragüero. También hay un c...
+2025-11-04 22:48:55,630 - INFO - [ANSWER] Sí, es verdad que hay un paraguas en el paragüero.  
+María dice: *"Si el tiempo está lluvioso, hay u...
+2025-11-04 22:48:55,630 - INFO - [OK] Row 229 [B5T] completed successfully
+2025-11-04 22:48:55,635 - INFO - [OK] Answer 229 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:55,636 - INFO - [PROGRESS] kimi-k2:1t-cloud - 229/288 processed | 229 successful | 0 errors
+2025-11-04 22:48:55,636 - INFO - [INFO] Processing Row 230/288 [B5F]
+2025-11-04 22:48:55,636 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está lluvioso y no hay paraguas en el paragüero. Tampoco hay ning...
+2025-11-04 22:48:59,739 - INFO - [ANSWER] No, no es verdad que haya un paraguas en el paragüero.  
+María dice: *"Si el tiempo está lluvioso, h...
+2025-11-04 22:48:59,739 - INFO - [OK] Row 230 [B5F] completed successfully
+2025-11-04 22:48:59,744 - INFO - [OK] Answer 230 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:48:59,745 - INFO - [PROGRESS] kimi-k2:1t-cloud - 230/288 processed | 230 successful | 0 errors
+2025-11-04 22:48:59,745 - INFO - [INFO] Processing Row 231/288 [B5C]
+2025-11-04 22:48:59,745 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está despejado. Hay un chubasquero en el coche. María dice: "Si e...
+2025-11-04 22:49:04,122 - INFO - [ANSWER] No, no es verdad que haya un paraguas en el paragüero.  
+María dice: *"Si el tiempo está lluvioso, h...
+2025-11-04 22:49:04,123 - INFO - [OK] Row 231 [B5C] completed successfully
+2025-11-04 22:49:04,128 - INFO - [OK] Answer 231 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:04,128 - INFO - [PROGRESS] kimi-k2:1t-cloud - 231/288 processed | 231 successful | 0 errors
+2025-11-04 22:49:04,128 - INFO - [INFO] Processing Row 232/288 [B6T]
+2025-11-04 22:49:04,128 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está pinchada y hay una bomba de aire en el garaje. Tamb...
+2025-11-04 22:49:05,817 - INFO - [ANSWER] Sí, es verdad que hay una bomba de aire en el garaje.
+2025-11-04 22:49:05,818 - INFO - [OK] Row 232 [B6T] completed successfully
+2025-11-04 22:49:05,824 - INFO - [OK] Answer 232 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:05,824 - INFO - [PROGRESS] kimi-k2:1t-cloud - 232/288 processed | 232 successful | 0 errors
+2025-11-04 22:49:05,824 - INFO - [INFO] Processing Row 233/288 [B6F]
+2025-11-04 22:49:05,824 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está pinchada y no hay ninguna bomba de aire en el garaj...
+2025-11-04 22:49:11,697 - INFO - [ANSWER] No, no es verdad que haya una bomba de aire en el garaje.
+
+María dice: *"Si la rueda del coche está ...
+2025-11-04 22:49:11,698 - INFO - [OK] Row 233 [B6F] completed successfully
+2025-11-04 22:49:11,703 - INFO - [OK] Answer 233 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:11,704 - INFO - [PROGRESS] kimi-k2:1t-cloud - 233/288 processed | 233 successful | 0 errors
+2025-11-04 22:49:11,704 - INFO - [INFO] Processing Row 234/288 [B6C]
+2025-11-04 22:49:11,704 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está inflada. Hay una bicicleta junto a la puerta de ent...
+2025-11-04 22:49:15,479 - INFO - [ANSWER] No se puede saber si hay una bomba de aire en el garaje. María solo dice que **si** la rueda del coc...
+2025-11-04 22:49:15,479 - INFO - [OK] Row 234 [B6C] completed successfully
+2025-11-04 22:49:15,484 - INFO - [OK] Answer 234 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:15,484 - INFO - [PROGRESS] kimi-k2:1t-cloud - 234/288 processed | 234 successful | 0 errors
+2025-11-04 22:49:15,484 - INFO - [INFO] Processing Row 235/288 [B7T]
+2025-11-04 22:49:15,484 - INFO - [PROMPT] Aquí tienes el contexto: La planta está seca y hay un regador en la estantería. También hay una mang...
+2025-11-04 22:49:17,376 - INFO - [ANSWER] Sí, es verdad que hay un regador en la estantería.
+2025-11-04 22:49:17,376 - INFO - [OK] Row 235 [B7T] completed successfully
+2025-11-04 22:49:17,381 - INFO - [OK] Answer 235 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:17,382 - INFO - [PROGRESS] kimi-k2:1t-cloud - 235/288 processed | 235 successful | 0 errors
+2025-11-04 22:49:17,382 - INFO - [INFO] Processing Row 236/288 [B7F]
+2025-11-04 22:49:17,382 - INFO - [PROMPT] Aquí tienes el contexto: La planta está seca y no hay ningún regador en la estantería. Tampoco hay u...
+2025-11-04 22:49:20,781 - INFO - [ANSWER] No, no es verdad que hay un regador en la estantería.  
+María dice: *"Si la planta está seca, hay un...
+2025-11-04 22:49:20,781 - INFO - [OK] Row 236 [B7F] completed successfully
+2025-11-04 22:49:20,787 - INFO - [OK] Answer 236 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:20,787 - INFO - [PROGRESS] kimi-k2:1t-cloud - 236/288 processed | 236 successful | 0 errors
+2025-11-04 22:49:20,787 - INFO - [INFO] Processing Row 237/288 [B7C]
+2025-11-04 22:49:20,787 - INFO - [PROMPT] Aquí tienes el contexto: La planta no está seca. Hay una manguera en el jardín. María dice: "Si la p...
+2025-11-04 22:49:26,448 - INFO - [ANSWER] No, no es verdad que haya un regador en la estantería.
+
+María dice: *"Si la planta está seca, hay un...
+2025-11-04 22:49:26,449 - INFO - [OK] Row 237 [B7C] completed successfully
+2025-11-04 22:49:26,454 - INFO - [OK] Answer 237 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:26,454 - INFO - [PROGRESS] kimi-k2:1t-cloud - 237/288 processed | 237 successful | 0 errors
+2025-11-04 22:49:26,454 - INFO - [INFO] Processing Row 238/288 [B8T]
+2025-11-04 22:49:26,454 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está arrugada y hay una plancha en el armario. También h...
+2025-11-04 22:49:28,505 - INFO - [ANSWER] Sí, es verdad que hay una plancha en el armario.
+2025-11-04 22:49:28,505 - INFO - [OK] Row 238 [B8T] completed successfully
+2025-11-04 22:49:28,510 - INFO - [OK] Answer 238 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:28,511 - INFO - [PROGRESS] kimi-k2:1t-cloud - 238/288 processed | 238 successful | 0 errors
+2025-11-04 22:49:28,511 - INFO - [INFO] Processing Row 239/288 [B8F]
+2025-11-04 22:49:28,511 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está arrugada y no hay ninguna plancha en el armario. Ta...
+2025-11-04 22:49:35,044 - INFO - [ANSWER] No, no es verdad que haya una plancha en el armario.
+
+María dice: *"Si la camisa de Jorge está arrug...
+2025-11-04 22:49:35,045 - INFO - [OK] Row 239 [B8F] completed successfully
+2025-11-04 22:49:35,050 - INFO - [OK] Answer 239 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:35,050 - INFO - [PROGRESS] kimi-k2:1t-cloud - 239/288 processed | 239 successful | 0 errors
+2025-11-04 22:49:35,050 - INFO - [INFO] Processing Row 240/288 [B8C]
+2025-11-04 22:49:35,050 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está planchada. Hay una tabla de planchar en el balcón. ...
+2025-11-04 22:49:40,988 - INFO - [ANSWER] No, no es verdad que haya una plancha en el armario, según lo que dice María.
+
+María dice: *"Si la c...
+2025-11-04 22:49:40,989 - INFO - [OK] Row 240 [B8C] completed successfully
+2025-11-04 22:49:40,994 - INFO - [OK] Answer 240 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:40,995 - INFO - [PROGRESS] kimi-k2:1t-cloud - 240/288 processed | 240 successful | 0 errors
+2025-11-04 22:49:40,995 - INFO - [INFO] Processing Row 241/288 [B9T]
+2025-11-04 22:49:40,995 - INFO - [PROMPT] Aquí tienes el contexto: Susana quiere leer y hay libros en la estantería. También hay un periódico ...
+2025-11-04 22:49:42,674 - INFO - [ANSWER] Sí, es verdad que hay libros en la estantería.
+2025-11-04 22:49:42,674 - INFO - [OK] Row 241 [B9T] completed successfully
+2025-11-04 22:49:42,679 - INFO - [OK] Answer 241 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:42,680 - INFO - [PROGRESS] kimi-k2:1t-cloud - 241/288 processed | 241 successful | 0 errors
+2025-11-04 22:49:42,680 - INFO - [INFO] Processing Row 242/288 [B9F]
+2025-11-04 22:49:42,680 - INFO - [PROMPT] Aquí tienes el contexto: Susana quiere leer y no hay libros en la estantería. Tampoco hay un periódi...
+2025-11-04 22:49:47,356 - INFO - [ANSWER] No, no es verdad que hay libros en la estantería.
+
+María dice: *"Si Susana quiere leer, hay libros e...
+2025-11-04 22:49:47,357 - INFO - [OK] Row 242 [B9F] completed successfully
+2025-11-04 22:49:47,362 - INFO - [OK] Answer 242 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:47,362 - INFO - [PROGRESS] kimi-k2:1t-cloud - 242/288 processed | 242 successful | 0 errors
+2025-11-04 22:49:47,362 - INFO - [INFO] Processing Row 243/288 [B9C]
+2025-11-04 22:49:47,362 - INFO - [PROMPT] Aquí tienes el contexto: Susana no quiere leer. Hay un periódico en el sofá. María dice: "Si Susana ...
+2025-11-04 22:49:51,709 - INFO - [ANSWER] Sí, es verdad que hay libros en la estantería. María dice: *"Si Susana quiere leer, hay libros en la...
+2025-11-04 22:49:51,710 - INFO - [OK] Row 243 [B9C] completed successfully
+2025-11-04 22:49:51,715 - INFO - [OK] Answer 243 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:51,716 - INFO - [PROGRESS] kimi-k2:1t-cloud - 243/288 processed | 243 successful | 0 errors
+2025-11-04 22:49:51,716 - INFO - [INFO] Processing Row 244/288 [F1T]
+2025-11-04 22:49:51,716 - INFO - [PROMPT] Aquí tienes el contexto: Aunque la pizza sea más cara que la pasta, la gente la compra más. Hay pizz...
+2025-11-04 22:49:54,049 - INFO - [ANSWER] Sí, la pizza es más popular que la pasta.
+2025-11-04 22:49:54,049 - INFO - [OK] Row 244 [F1T] completed successfully
+2025-11-04 22:49:54,055 - INFO - [OK] Answer 244 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:54,055 - INFO - [PROGRESS] kimi-k2:1t-cloud - 244/288 processed | 244 successful | 0 errors
+2025-11-04 22:49:54,055 - INFO - [INFO] Processing Row 245/288 [F1F]
+2025-11-04 22:49:54,055 - INFO - [PROMPT] Aquí tienes el contexto: Aunque la pizza sea más cara que la pasta, la gente la compra más. Hay pizz...
+2025-11-04 22:49:56,136 - INFO - [ANSWER] No, la pasta no es más popular que la pizza. A pesar de ser más cara, la gente compra más pizza, lo ...
+2025-11-04 22:49:56,136 - INFO - [OK] Row 245 [F1F] completed successfully
+2025-11-04 22:49:56,141 - INFO - [OK] Answer 245 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:56,142 - INFO - [PROGRESS] kimi-k2:1t-cloud - 245/288 processed | 245 successful | 0 errors
+2025-11-04 22:49:56,142 - INFO - [INFO] Processing Row 246/288 [F2T]
+2025-11-04 22:49:56,142 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el café negro sea más barato que el té verde, la mayoría de la gente...
+2025-11-04 22:49:58,271 - INFO - [ANSWER] Sí, se utiliza más el té verde que el café negro, ya que la mayoría de la gente prefiere el té verde...
+2025-11-04 22:49:58,271 - INFO - [OK] Row 246 [F2T] completed successfully
+2025-11-04 22:49:58,277 - INFO - [OK] Answer 246 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:49:58,277 - INFO - [PROGRESS] kimi-k2:1t-cloud - 246/288 processed | 246 successful | 0 errors
+2025-11-04 22:49:58,277 - INFO - [INFO] Processing Row 247/288 [F2F]
+2025-11-04 22:49:58,277 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el café negro sea más barato que el té verde, la mayoría de la gente...
+2025-11-04 22:50:00,891 - INFO - [ANSWER] No, en este contexto no se utiliza más el café negro que el té verde. A pesar de que el café negro e...
+2025-11-04 22:50:00,891 - INFO - [OK] Row 247 [F2F] completed successfully
+2025-11-04 22:50:00,897 - INFO - [OK] Answer 247 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:00,897 - INFO - [PROGRESS] kimi-k2:1t-cloud - 247/288 processed | 247 successful | 0 errors
+2025-11-04 22:50:00,897 - INFO - [INFO] Processing Row 248/288 [F3T]
+2025-11-04 22:50:00,897 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el agua sea más saludable que los refrescos, mucha gente prefiere lo...
+2025-11-04 22:50:03,169 - INFO - [ANSWER] Sí, en este contexto los refrescos tienen más demanda que el agua, aunque el agua sea más saludable.
+2025-11-04 22:50:03,169 - INFO - [OK] Row 248 [F3T] completed successfully
+2025-11-04 22:50:03,174 - INFO - [OK] Answer 248 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:03,175 - INFO - [PROGRESS] kimi-k2:1t-cloud - 248/288 processed | 248 successful | 0 errors
+2025-11-04 22:50:03,175 - INFO - [INFO] Processing Row 249/288 [F3F]
+2025-11-04 22:50:03,175 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el agua sea más saludable que los refrescos, mucha gente prefiere lo...
+2025-11-04 22:50:05,442 - INFO - [ANSWER] No, en este contexto el agua no tiene más demanda que los refrescos; aunque es más saludable, mucha ...
+2025-11-04 22:50:05,443 - INFO - [OK] Row 249 [F3F] completed successfully
+2025-11-04 22:50:05,448 - INFO - [OK] Answer 249 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:05,449 - INFO - [PROGRESS] kimi-k2:1t-cloud - 249/288 processed | 249 successful | 0 errors
+2025-11-04 22:50:05,449 - INFO - [INFO] Processing Row 250/288 [F4T]
+2025-11-04 22:50:05,449 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el brócoli sea más difícil de cocinar que los ñoquis, la gente lo co...
+2025-11-04 22:50:07,866 - INFO - [ANSWER] Sí, en este contexto el brócoli es más popular que los ñoquis, ya que aunque es más difícil de cocin...
+2025-11-04 22:50:07,866 - INFO - [OK] Row 250 [F4T] completed successfully
+2025-11-04 22:50:07,871 - INFO - [OK] Answer 250 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:07,871 - INFO - [PROGRESS] kimi-k2:1t-cloud - 250/288 processed | 250 successful | 0 errors
+2025-11-04 22:50:07,872 - INFO - [INFO] Processing Row 251/288 [F4F]
+2025-11-04 22:50:07,872 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el brócoli sea más difícil de cocinar que los ñoquis, la gente lo co...
+2025-11-04 22:50:10,259 - INFO - [ANSWER] No, los ñoquis no son más populares que el brócoli en este contexto.
+2025-11-04 22:50:10,260 - INFO - [OK] Row 251 [F4F] completed successfully
+2025-11-04 22:50:10,265 - INFO - [OK] Answer 251 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:10,266 - INFO - [PROGRESS] kimi-k2:1t-cloud - 251/288 processed | 251 successful | 0 errors
+2025-11-04 22:50:10,266 - INFO - [INFO] Processing Row 252/288 [F5T]
+2025-11-04 22:50:10,266 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el sushi sea más sano que las hamburguesas, la gente come hamburgues...
+2025-11-04 22:50:12,212 - INFO - [ANSWER] Sí, en este contexto las hamburguesas son más populares que el sushi, ya que la gente las come con m...
+2025-11-04 22:50:12,212 - INFO - [OK] Row 252 [F5T] completed successfully
+2025-11-04 22:50:12,217 - INFO - [OK] Answer 252 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:12,218 - INFO - [PROGRESS] kimi-k2:1t-cloud - 252/288 processed | 252 successful | 0 errors
+2025-11-04 22:50:12,218 - INFO - [INFO] Processing Row 253/288 [F5F]
+2025-11-04 22:50:12,218 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el sushi sea más sano que las hamburguesas, la gente come hamburgues...
+2025-11-04 22:50:15,168 - INFO - [ANSWER] No, en este contexto el sushi no es más popular que las hamburguesas. Aunque el sushi es más sano, l...
+2025-11-04 22:50:15,168 - INFO - [OK] Row 253 [F5F] completed successfully
+2025-11-04 22:50:15,174 - INFO - [OK] Answer 253 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:15,174 - INFO - [PROGRESS] kimi-k2:1t-cloud - 253/288 processed | 253 successful | 0 errors
+2025-11-04 22:50:15,174 - INFO - [INFO] Processing Row 254/288 [F6T]
+2025-11-04 22:50:15,174 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los plátanos sean más caros que los kiwis, la gente los compra más. ...
+2025-11-04 22:50:16,968 - INFO - [ANSWER] Sí, los plátanos son más populares que los kiwis.
+2025-11-04 22:50:16,968 - INFO - [OK] Row 254 [F6T] completed successfully
+2025-11-04 22:50:16,974 - INFO - [OK] Answer 254 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:16,974 - INFO - [PROGRESS] kimi-k2:1t-cloud - 254/288 processed | 254 successful | 0 errors
+2025-11-04 22:50:16,974 - INFO - [INFO] Processing Row 255/288 [F6F]
+2025-11-04 22:50:16,974 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los plátanos sean más caros que los kiwis, la gente los compra más. ...
+2025-11-04 22:50:18,831 - INFO - [ANSWER] No, los kiwis no son más populares que los plátanos.
+2025-11-04 22:50:18,832 - INFO - [OK] Row 255 [F6F] completed successfully
+2025-11-04 22:50:18,837 - INFO - [OK] Answer 255 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:18,838 - INFO - [PROGRESS] kimi-k2:1t-cloud - 255/288 processed | 255 successful | 0 errors
+2025-11-04 22:50:18,838 - INFO - [INFO] Processing Row 256/288 [F7T]
+2025-11-04 22:50:18,838 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los perros sean más vivaces que los gatos, la gente los prefiere. Ha...
+2025-11-04 22:50:20,689 - INFO - [ANSWER] No, en este contexto los gatos son más populares que los perros, a pesar de que los perros sean más ...
+2025-11-04 22:50:20,689 - INFO - [OK] Row 256 [F7T] completed successfully
+2025-11-04 22:50:20,695 - INFO - [OK] Answer 256 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:20,695 - INFO - [PROGRESS] kimi-k2:1t-cloud - 256/288 processed | 256 successful | 0 errors
+2025-11-04 22:50:20,695 - INFO - [INFO] Processing Row 257/288 [F7F]
+2025-11-04 22:50:20,695 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los perros sean más vivaces que los gatos, la gente los prefiere. Ha...
+2025-11-04 22:50:23,777 - INFO - [ANSWER] No, en este contexto los gatos no son más populares que los perros. Aunque hay un gato en lo alto de...
+2025-11-04 22:50:23,777 - INFO - [OK] Row 257 [F7F] completed successfully
+2025-11-04 22:50:23,782 - INFO - [OK] Answer 257 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:23,782 - INFO - [PROGRESS] kimi-k2:1t-cloud - 257/288 processed | 257 successful | 0 errors
+2025-11-04 22:50:23,783 - INFO - [INFO] Processing Row 258/288 [F8T]
+2025-11-04 22:50:23,783 - INFO - [PROMPT] Aquí tienes el contexto: Aunque leer libros sea más educativo que ver la televisión, mucha gente ve ...
+2025-11-04 22:50:25,509 - INFO - [ANSWER] Sí, más personas ven la televisión que las que leen libros.
+2025-11-04 22:50:25,509 - INFO - [OK] Row 258 [F8T] completed successfully
+2025-11-04 22:50:25,515 - INFO - [OK] Answer 258 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:25,515 - INFO - [PROGRESS] kimi-k2:1t-cloud - 258/288 processed | 258 successful | 0 errors
+2025-11-04 22:50:25,515 - INFO - [INFO] Processing Row 259/288 [F8F]
+2025-11-04 22:50:25,515 - INFO - [PROMPT] Aquí tienes el contexto: Aunque leer libros sea más educativo que ver la televisión, mucha gente ve ...
+2025-11-04 22:50:27,684 - INFO - [ANSWER] Sí, más personas ven la televisión que las que leen libros.
+2025-11-04 22:50:27,684 - INFO - [OK] Row 259 [F8F] completed successfully
+2025-11-04 22:50:27,690 - INFO - [OK] Answer 259 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:27,690 - INFO - [PROGRESS] kimi-k2:1t-cloud - 259/288 processed | 259 successful | 0 errors
+2025-11-04 22:50:27,690 - INFO - [INFO] Processing Row 260/288 [F9T]
+2025-11-04 22:50:27,690 - INFO - [PROMPT] Aquí tienes el contexto: Aunque correr sea mejor para la forma física que caminar, la mayoría de la ...
+2025-11-04 22:50:29,853 - INFO - [ANSWER] Sí, caminar es más popular que correr.
+2025-11-04 22:50:29,853 - INFO - [OK] Row 260 [F9T] completed successfully
+2025-11-04 22:50:29,858 - INFO - [OK] Answer 260 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:29,859 - INFO - [PROGRESS] kimi-k2:1t-cloud - 260/288 processed | 260 successful | 0 errors
+2025-11-04 22:50:29,859 - INFO - [INFO] Processing Row 261/288 [F9F]
+2025-11-04 22:50:29,859 - INFO - [PROMPT] Aquí tienes el contexto: Aunque correr sea mejor para la forma física que caminar, la mayoría de la ...
+2025-11-04 22:50:31,487 - INFO - [ANSWER] No, correr no es más popular que caminar.
+2025-11-04 22:50:31,487 - INFO - [OK] Row 261 [F9F] completed successfully
+2025-11-04 22:50:31,493 - INFO - [OK] Answer 261 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:31,493 - INFO - [PROGRESS] kimi-k2:1t-cloud - 261/288 processed | 261 successful | 0 errors
+2025-11-04 22:50:31,493 - INFO - [INFO] Processing Row 262/288 [S1T]
+2025-11-04 22:50:31,493 - INFO - [PROMPT] Aquí tienes el contexto: El loro está en la jaula. Además, el perro está en la caseta. María había d...
+2025-11-04 22:50:34,560 - INFO - [ANSWER] Sí, es verdad que Tomás trajo pizza.  
+María dijo: *"Si el loro está en la jaula, Tomás traerá pizza...
+2025-11-04 22:50:34,561 - INFO - [OK] Row 262 [S1T] completed successfully
+2025-11-04 22:50:34,566 - INFO - [OK] Answer 262 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:34,566 - INFO - [PROGRESS] kimi-k2:1t-cloud - 262/288 processed | 262 successful | 0 errors
+2025-11-04 22:50:34,566 - INFO - [INFO] Processing Row 263/288 [S1F]
+2025-11-04 22:50:34,566 - INFO - [PROMPT] Aquí tienes el contexto: El loro está en la jaula. Además, el perro está en la caseta. Tomás no traj...
+2025-11-04 22:50:37,985 - INFO - [ANSWER] No, **no es verdad** que Tomás trajo pizza.
+
+Según María: *"Si el loro está en la jaula, Tomás traer...
+2025-11-04 22:50:37,985 - INFO - [OK] Row 263 [S1F] completed successfully
+2025-11-04 22:50:37,990 - INFO - [OK] Answer 263 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:37,991 - INFO - [PROGRESS] kimi-k2:1t-cloud - 263/288 processed | 263 successful | 0 errors
+2025-11-04 22:50:37,991 - INFO - [INFO] Processing Row 264/288 [S1C]
+2025-11-04 22:50:37,991 - INFO - [PROMPT] Aquí tienes el contexto: El loro no está en la jaula. Además, el perro tampoco está en la caseta. Ma...
+2025-11-04 22:50:42,753 - INFO - [ANSWER] No, no es verdad que Tomás trajo pizza.
+
+Según lo que dijo María: *"Si el loro está en la jaula, Tom...
+2025-11-04 22:50:42,754 - INFO - [OK] Row 264 [S1C] completed successfully
+2025-11-04 22:50:42,759 - INFO - [OK] Answer 264 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:42,760 - INFO - [PROGRESS] kimi-k2:1t-cloud - 264/288 processed | 264 successful | 0 errors
+2025-11-04 22:50:42,760 - INFO - [INFO] Processing Row 265/288 [S2T]
+2025-11-04 22:50:42,760 - INFO - [PROMPT] Aquí tienes el contexto: Te has comido el brócoli. También te has comido la pasta. María dice: "Si t...
+2025-11-04 22:50:46,971 - INFO - [ANSWER] Sí, es verdad que Marcos te dio un caramelo.  
+Según lo que decía María: *"Si te comes el brócoli, M...
+2025-11-04 22:50:46,971 - INFO - [OK] Row 265 [S2T] completed successfully
+2025-11-04 22:50:46,977 - INFO - [OK] Answer 265 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:46,977 - INFO - [PROGRESS] kimi-k2:1t-cloud - 265/288 processed | 265 successful | 0 errors
+2025-11-04 22:50:46,977 - INFO - [INFO] Processing Row 266/288 [S2F]
+2025-11-04 22:50:46,977 - INFO - [PROMPT] Aquí tienes el contexto: Te has comido el brócoli. También te has comido la pasta. Marcos no te dio ...
+2025-11-04 22:50:52,256 - INFO - [ANSWER] No, no es verdad que Marcos te dio un caramelo.
+
+Según lo que dice María: *"Si te comes el brócoli, ...
+2025-11-04 22:50:52,257 - INFO - [OK] Row 266 [S2F] completed successfully
+2025-11-04 22:50:52,262 - INFO - [OK] Answer 266 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:52,262 - INFO - [PROGRESS] kimi-k2:1t-cloud - 266/288 processed | 266 successful | 0 errors
+2025-11-04 22:50:52,263 - INFO - [INFO] Processing Row 267/288 [S2C]
+2025-11-04 22:50:52,263 - INFO - [PROMPT] Aquí tienes el contexto: No te has comido el brócoli. Tampoco te has comido la pasta. María había di...
+2025-11-04 22:50:54,732 - INFO - [ANSWER] No, no es verdad que Marcos te dio un caramelo.  
+Según lo que dijo María, solo te daría un caramelo...
+2025-11-04 22:50:54,732 - INFO - [OK] Row 267 [S2C] completed successfully
+2025-11-04 22:50:54,737 - INFO - [OK] Answer 267 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:54,738 - INFO - [PROGRESS] kimi-k2:1t-cloud - 267/288 processed | 267 successful | 0 errors
+2025-11-04 22:50:54,738 - INFO - [INFO] Processing Row 268/288 [S3T]
+2025-11-04 22:50:54,738 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros están bailando. Además, las ardillas están comiendo. María había...
+2025-11-04 22:50:59,751 - INFO - [ANSWER] No, no es verdad que Susana recibió una cámara.  
+María dijo: *"Si los zorros están bailando, Irene ...
+2025-11-04 22:50:59,751 - INFO - [OK] Row 268 [S3T] completed successfully
+2025-11-04 22:50:59,757 - INFO - [OK] Answer 268 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:50:59,758 - INFO - [PROGRESS] kimi-k2:1t-cloud - 268/288 processed | 268 successful | 0 errors
+2025-11-04 22:50:59,758 - INFO - [INFO] Processing Row 269/288 [S3F]
+2025-11-04 22:50:59,758 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros están bailando. Además, las ardillas están comiendo. Irene no re...
+2025-11-04 22:51:03,362 - INFO - [ANSWER] No, no es verdad que Irene recibió una cámara.  
+Según el contexto, **Irene no recibió una cámara**,...
+2025-11-04 22:51:03,362 - INFO - [OK] Row 269 [S3F] completed successfully
+2025-11-04 22:51:03,369 - INFO - [OK] Answer 269 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:03,369 - INFO - [PROGRESS] kimi-k2:1t-cloud - 269/288 processed | 269 successful | 0 errors
+2025-11-04 22:51:03,369 - INFO - [INFO] Processing Row 270/288 [S3C]
+2025-11-04 22:51:03,369 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros no están bailando. Las ardillas tampoco están comiendo. María ha...
+2025-11-04 22:51:07,736 - INFO - [ANSWER] No, no es verdad que Susana recibió una cámara.
+
+Según el contexto, María dijo: *"Si los zorros está...
+2025-11-04 22:51:07,736 - INFO - [OK] Row 270 [S3C] completed successfully
+2025-11-04 22:51:07,742 - INFO - [OK] Answer 270 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:07,742 - INFO - [PROGRESS] kimi-k2:1t-cloud - 270/288 processed | 270 successful | 0 errors
+2025-11-04 22:51:07,742 - INFO - [INFO] Processing Row 271/288 [S4T]
+2025-11-04 22:51:07,742 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está encendida. Además, la radio también está encendida. Marí...
+2025-11-04 22:51:10,914 - INFO - [ANSWER] Sí, es verdad que Mateo hizo galletas.  
+María dijo: *"Si la televisión está encendida, Mateo hará g...
+2025-11-04 22:51:10,914 - INFO - [OK] Row 271 [S4T] completed successfully
+2025-11-04 22:51:10,920 - INFO - [OK] Answer 271 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:10,920 - INFO - [PROGRESS] kimi-k2:1t-cloud - 271/288 processed | 271 successful | 0 errors
+2025-11-04 22:51:10,920 - INFO - [INFO] Processing Row 272/288 [S4F]
+2025-11-04 22:51:10,920 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está encendida. Además, la radio también está encendida. Mate...
+2025-11-04 22:51:18,448 - INFO - [ANSWER] No, no es verdad que Mateo hizo galletas.
+
+María dijo: *"Si la televisión está encendida, Mateo hará...
+2025-11-04 22:51:18,448 - INFO - [OK] Row 272 [S4F] completed successfully
+2025-11-04 22:51:18,454 - INFO - [OK] Answer 272 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:18,454 - INFO - [PROGRESS] kimi-k2:1t-cloud - 272/288 processed | 272 successful | 0 errors
+2025-11-04 22:51:18,454 - INFO - [INFO] Processing Row 273/288 [S4C]
+2025-11-04 22:51:18,454 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está apagada. La radio también está apagada. María había dich...
+2025-11-04 22:51:22,560 - INFO - [ANSWER] No, no es verdad que Mateo hizo galletas.  
+María dijo: *"Si la televisión está encendida, Mateo har...
+2025-11-04 22:51:22,560 - INFO - [OK] Row 273 [S4C] completed successfully
+2025-11-04 22:51:22,566 - INFO - [OK] Answer 273 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:22,566 - INFO - [PROGRESS] kimi-k2:1t-cloud - 273/288 processed | 273 successful | 0 errors
+2025-11-04 22:51:22,566 - INFO - [INFO] Processing Row 274/288 [S5T]
+2025-11-04 22:51:22,566 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está soleado. Además, no hay viento. María había dicho: "Si e...
+2025-11-04 22:51:26,473 - INFO - [ANSWER] No se puede afirmar con certeza que Emma fue de morado. María dijo que **si** el tiempo está soleado...
+2025-11-04 22:51:26,473 - INFO - [OK] Row 274 [S5T] completed successfully
+2025-11-04 22:51:26,478 - INFO - [OK] Answer 274 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:26,479 - INFO - [PROGRESS] kimi-k2:1t-cloud - 274/288 processed | 274 successful | 0 errors
+2025-11-04 22:51:26,479 - INFO - [INFO] Processing Row 275/288 [S5F]
+2025-11-04 22:51:26,479 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está soleado. Además, no hay viento. Emma fue de verde. María...
+2025-11-04 22:51:30,659 - INFO - [ANSWER] No, no es verdad que Emma fue de morado.  
+María dijo que **si** el tiempo está soleado, Emma irá de...
+2025-11-04 22:51:30,659 - INFO - [OK] Row 275 [S5F] completed successfully
+2025-11-04 22:51:30,665 - INFO - [OK] Answer 275 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:30,665 - INFO - [PROGRESS] kimi-k2:1t-cloud - 275/288 processed | 275 successful | 0 errors
+2025-11-04 22:51:30,665 - INFO - [INFO] Processing Row 276/288 [S5C]
+2025-11-04 22:51:30,665 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está lluvioso. Además, hay mucho viento. María había dicho: "...
+2025-11-04 22:51:33,936 - INFO - [ANSWER] No, no es verdad que Emma fue de morado.  
+María dijo que Emma iría de morado **si el tiempo está so...
+2025-11-04 22:51:33,936 - INFO - [OK] Row 276 [S5C] completed successfully
+2025-11-04 22:51:33,942 - INFO - [OK] Answer 276 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:33,942 - INFO - [PROGRESS] kimi-k2:1t-cloud - 276/288 processed | 276 successful | 0 errors
+2025-11-04 22:51:33,942 - INFO - [INFO] Processing Row 277/288 [S6T]
+2025-11-04 22:51:33,942 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está vacío. Además, las calles están tranquilas. María h...
+2025-11-04 22:51:38,232 - INFO - [ANSWER] Sí, es verdad que Júlia se hizo un selfie.  
+María dijo: *"Si el parque infantil está vacío, Júlia s...
+2025-11-04 22:51:38,232 - INFO - [OK] Row 277 [S6T] completed successfully
+2025-11-04 22:51:38,238 - INFO - [OK] Answer 277 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:38,238 - INFO - [PROGRESS] kimi-k2:1t-cloud - 277/288 processed | 277 successful | 0 errors
+2025-11-04 22:51:38,238 - INFO - [INFO] Processing Row 278/288 [S6F]
+2025-11-04 22:51:38,238 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está vacío. Además, las calles están tranquilas. Júlia n...
+2025-11-04 22:51:42,879 - INFO - [ANSWER] No, no es verdad que Júlia se hizo un selfie.
+
+María dijo: *"Si el parque infantil está vacío, Júlia...
+2025-11-04 22:51:42,879 - INFO - [OK] Row 278 [S6F] completed successfully
+2025-11-04 22:51:42,884 - INFO - [OK] Answer 278 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:42,885 - INFO - [PROGRESS] kimi-k2:1t-cloud - 278/288 processed | 278 successful | 0 errors
+2025-11-04 22:51:42,885 - INFO - [INFO] Processing Row 279/288 [S6C]
+2025-11-04 22:51:42,885 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está lleno. Además, las calles están concurridas. María ...
+2025-11-04 22:51:52,587 - INFO - [ANSWER] No, no es verdad que Júlia se hizo un selfie.
+
+María dijo: *"Si el parque infantil está vacío, Júlia...
+2025-11-04 22:51:52,587 - INFO - [OK] Row 279 [S6C] completed successfully
+2025-11-04 22:51:52,592 - INFO - [OK] Answer 279 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:52,593 - INFO - [PROGRESS] kimi-k2:1t-cloud - 279/288 processed | 279 successful | 0 errors
+2025-11-04 22:51:52,593 - INFO - [INFO] Processing Row 280/288 [S7T]
+2025-11-04 22:51:52,593 - INFO - [PROMPT] Aquí tienes el contexto: El césped ha sido cortado. Además, las flores han sido regadas. María había...
+2025-11-04 22:51:55,935 - INFO - [ANSWER] Sí, es verdad que Pablo recibió 50 euros.  
+María dijo: *"Si Pablo corta el césped, recibirá 50 euro...
+2025-11-04 22:51:55,935 - INFO - [OK] Row 280 [S7T] completed successfully
+2025-11-04 22:51:55,940 - INFO - [OK] Answer 280 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:55,941 - INFO - [PROGRESS] kimi-k2:1t-cloud - 280/288 processed | 280 successful | 0 errors
+2025-11-04 22:51:55,941 - INFO - [INFO] Processing Row 281/288 [S7F]
+2025-11-04 22:51:55,941 - INFO - [PROMPT] Aquí tienes el contexto: El césped ha sido cortado. Además, las flores han sido regadas. María había...
+2025-11-04 22:51:58,911 - INFO - [ANSWER] Sí, es verdad que Pablo recibió 50 euros.  
+María dijo: *"Si Pablo corta el césped, recibirá 50 euro...
+2025-11-04 22:51:58,911 - INFO - [OK] Row 281 [S7F] completed successfully
+2025-11-04 22:51:58,917 - INFO - [OK] Answer 281 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:51:58,918 - INFO - [PROGRESS] kimi-k2:1t-cloud - 281/288 processed | 281 successful | 0 errors
+2025-11-04 22:51:58,918 - INFO - [INFO] Processing Row 282/288 [S7C]
+2025-11-04 22:51:58,918 - INFO - [PROMPT] Aquí tienes el contexto: El césped no ha sido cortado. Además, las flores no han sido regadas. María...
+2025-11-04 22:52:03,461 - INFO - [ANSWER] No, no es verdad que Pablo recibió 50 euros.  
+María dijo que **si** Pablo cortaba el césped, recibi...
+2025-11-04 22:52:03,461 - INFO - [OK] Row 282 [S7C] completed successfully
+2025-11-04 22:52:03,467 - INFO - [OK] Answer 282 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:52:03,467 - INFO - [PROGRESS] kimi-k2:1t-cloud - 282/288 processed | 282 successful | 0 errors
+2025-11-04 22:52:03,467 - INFO - [INFO] Processing Row 283/288 [S8T]
+2025-11-04 22:52:03,467 - INFO - [PROMPT] Aquí tienes el contexto: El perro está jugando. Además, el gato está subiendo al árbol. María había ...
+2025-11-04 22:52:07,006 - INFO - [ANSWER] Sí, es verdad que Antonio leyó un libro.  
+María dijo: *"Si el perro está jugando, Antonio leerá un ...
+2025-11-04 22:52:07,006 - INFO - [OK] Row 283 [S8T] completed successfully
+2025-11-04 22:52:07,012 - INFO - [OK] Answer 283 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:52:07,012 - INFO - [PROGRESS] kimi-k2:1t-cloud - 283/288 processed | 283 successful | 0 errors
+2025-11-04 22:52:07,012 - INFO - [INFO] Processing Row 284/288 [S8F]
+2025-11-04 22:52:07,012 - INFO - [PROMPT] Aquí tienes el contexto: El perro está jugando. Además, el gato está subiendo al árbol. Antonio no l...
+2025-11-04 22:52:14,360 - INFO - [ANSWER] No, no es verdad que Antonio leyó un libro.
+
+María dijo: *"Si el perro está jugando, Antonio leerá u...
+2025-11-04 22:52:14,360 - INFO - [OK] Row 284 [S8F] completed successfully
+2025-11-04 22:52:14,374 - INFO - [OK] Answer 284 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:52:14,374 - INFO - [PROGRESS] kimi-k2:1t-cloud - 284/288 processed | 284 successful | 0 errors
+2025-11-04 22:52:14,375 - INFO - [INFO] Processing Row 285/288 [S8C]
+2025-11-04 22:52:14,375 - INFO - [PROMPT] Aquí tienes el contexto: El perro no está jugando. Además, el gato está durmiendo. María había dicho...
+2025-11-04 22:52:21,665 - INFO - [ANSWER] No, no es verdad que Antonio leyó un libro.
+
+María dijo: *"Si el perro está jugando, Antonio leerá u...
+2025-11-04 22:52:21,665 - INFO - [OK] Row 285 [S8C] completed successfully
+2025-11-04 22:52:21,671 - INFO - [OK] Answer 285 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:52:21,671 - INFO - [PROGRESS] kimi-k2:1t-cloud - 285/288 processed | 285 successful | 0 errors
+2025-11-04 22:52:21,671 - INFO - [INFO] Processing Row 286/288 [S9T]
+2025-11-04 22:52:21,671 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está vacía. Además, el horno está estropeado. María había dicho: ...
+2025-11-04 22:52:26,423 - INFO - [ANSWER] No necesariamente. María dijo: *"Si la nevera está vacía, Ana traerá donuts"*. Esto es una condicion...
+2025-11-04 22:52:26,423 - INFO - [OK] Row 286 [S9T] completed successfully
+2025-11-04 22:52:26,429 - INFO - [OK] Answer 286 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:52:26,429 - INFO - [PROGRESS] kimi-k2:1t-cloud - 286/288 processed | 286 successful | 0 errors
+2025-11-04 22:52:26,429 - INFO - [INFO] Processing Row 287/288 [S9F]
+2025-11-04 22:52:26,429 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está vacía. Además, el horno está estropeado. Ana no trajo donuts...
+2025-11-04 22:52:30,361 - INFO - [ANSWER] No, no es verdad que Ana trajo donuts.  
+María dijo: *"Si la nevera está vacía, Ana traerá donuts"*....
+2025-11-04 22:52:30,361 - INFO - [OK] Row 287 [S9F] completed successfully
+2025-11-04 22:52:30,367 - INFO - [OK] Answer 287 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:52:30,367 - INFO - [PROGRESS] kimi-k2:1t-cloud - 287/288 processed | 287 successful | 0 errors
+2025-11-04 22:52:30,367 - INFO - [INFO] Processing Row 288/288 [S9C]
+2025-11-04 22:52:30,367 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está llena. Además, el horno está encendido. María había dicho: "...
+2025-11-04 22:52:33,629 - INFO - [ANSWER] No, no es verdad que Ana trajo donuts.
+
+Según lo que dijo María: *"Si la nevera está vacía, Ana trae...
+2025-11-04 22:52:33,629 - INFO - [OK] Row 288 [S9C] completed successfully
+2025-11-04 22:52:33,635 - INFO - [OK] Answer 288 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-04 22:52:33,635 - INFO - [PROGRESS] kimi-k2:1t-cloud - 288/288 processed | 288 successful | 0 errors
+2025-11-04 22:52:33,635 - INFO - [OK] All rows processed for kimi-k2:1t-cloud
+2025-11-04 22:52:33,635 - INFO - [OK] ===== Completed: kimi-k2:1t-cloud =====
+
+2025-11-04 22:52:33,635 - INFO - [INFO] Processing model 2/4: glm-4.6:cloud
+2025-11-04 22:52:33,635 - INFO - [INFO] ===== Starting: glm-4.6:cloud =====
+2025-11-04 22:52:33,636 - INFO - [INFO] glm-4.6:cloud has 288 pending answers
+2025-11-04 22:52:33,636 - INFO - [INFO] Starting sequential processing for glm-4.6:cloud
+2025-11-04 22:52:33,636 - INFO - [INFO] Processing Row 1/288 [B1T]
+2025-11-04 22:52:33,636 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-04 22:53:00,036 - INFO - [ANSWER] Yes, based on what Mary says, it is true that there is pizza in the oven.
+
+Here's the logical breakd...
+2025-11-04 22:53:00,037 - INFO - [OK] Row 1 [B1T] completed successfully
+2025-11-04 22:53:00,042 - INFO - [OK] Answer 1 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 22:53:00,043 - INFO - [PROGRESS] glm-4.6:cloud - 1/288 processed | 1 successful | 0 errors
+2025-11-04 22:53:00,043 - INFO - [INFO] Processing Row 2/288 [B1F]
+2025-11-04 22:53:00,043 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-04 22:53:24,724 - INFO - [ANSWER] Yes, based on what Mary says, it is true that there is pizza in the oven.
+
+Here's the logical breakd...
+2025-11-04 22:53:24,724 - INFO - [OK] Row 2 [B1F] completed successfully
+2025-11-04 22:53:24,728 - INFO - [OK] Answer 2 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 22:53:24,728 - INFO - [PROGRESS] glm-4.6:cloud - 2/288 processed | 2 successful | 0 errors
+2025-11-04 22:53:24,728 - INFO - [INFO] Processing Row 3/288 [B1C]
+2025-11-04 22:53:24,728 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-04 22:53:44,067 - INFO - [ANSWER] Based on what Mary says, we cannot determine if it is true that there is pizza in the oven.
+
+Here's ...
+2025-11-04 22:53:44,068 - INFO - [OK] Row 3 [B1C] completed successfully
+2025-11-04 22:53:44,072 - INFO - [OK] Answer 3 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 22:53:44,072 - INFO - [PROGRESS] glm-4.6:cloud - 3/288 processed | 3 successful | 0 errors
+2025-11-04 22:53:44,072 - INFO - [INFO] Processing Row 4/288 [B2T]
+2025-11-04 22:53:44,072 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-04 22:54:17,641 - INFO - [ANSWER] Yes, it is true that there is aspirin on the table.
+
+Here is the reasoning based on Mary's statement...
+2025-11-04 22:54:17,641 - INFO - [OK] Row 4 [B2T] completed successfully
+2025-11-04 22:54:17,645 - INFO - [OK] Answer 4 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 22:54:17,645 - INFO - [PROGRESS] glm-4.6:cloud - 4/288 processed | 4 successful | 0 errors
+2025-11-04 22:54:17,645 - INFO - [INFO] Processing Row 5/288 [B2F]
+2025-11-04 22:54:17,645 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-04 22:54:48,344 - INFO - [ANSWER] Based *only* on what Mary says, we cannot determine if there is aspirin on the table.
+
+Here's why:
+
+...
+2025-11-04 22:54:48,344 - INFO - [OK] Row 5 [B2F] completed successfully
+2025-11-04 22:54:48,348 - INFO - [OK] Answer 5 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 22:54:48,348 - INFO - [PROGRESS] glm-4.6:cloud - 5/288 processed | 5 successful | 0 errors
+2025-11-04 22:54:48,348 - INFO - [INFO] Processing Row 6/288 [B2C]
+2025-11-04 22:54:48,348 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-04 22:55:16,825 - INFO - [ANSWER] No, it is not necessarily true.
+
+Here's the reasoning:
+
+1.  Mary's statement is a conditional: "If *...
+2025-11-04 22:55:16,825 - INFO - [OK] Row 6 [B2C] completed successfully
+2025-11-04 22:55:16,830 - INFO - [OK] Answer 6 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 22:55:16,830 - INFO - [PROGRESS] glm-4.6:cloud - 6/288 processed | 6 successful | 0 errors
+2025-11-04 22:55:16,830 - INFO - [INFO] Processing Row 7/288 [B3T]
+2025-11-04 22:55:16,830 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-04 22:55:51,756 - INFO - [ANSWER] No, based *only* on what Mary says, you cannot conclude that there is water in the fridge.
+
+Here's t...
+2025-11-04 22:55:51,756 - INFO - [OK] Row 7 [B3T] completed successfully
+2025-11-04 22:55:51,761 - INFO - [OK] Answer 7 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 22:55:51,761 - INFO - [PROGRESS] glm-4.6:cloud - 7/288 processed | 7 successful | 0 errors
+2025-11-04 22:55:51,761 - INFO - [INFO] Processing Row 8/288 [B3F]
+2025-11-04 22:55:51,761 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-11-04 22:56:35,145 - INFO - [ANSWER] No, it is not true that there is water in the fridge.
+
+Here's the breakdown:
+
+1.  **The Context:** T...
+2025-11-04 22:56:35,146 - INFO - [OK] Row 8 [B3F] completed successfully
+2025-11-04 22:56:35,150 - INFO - [OK] Answer 8 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 22:56:35,150 - INFO - [PROGRESS] glm-4.6:cloud - 8/288 processed | 8 successful | 0 errors
+2025-11-04 22:56:35,150 - INFO - [INFO] Processing Row 9/288 [B3C]
+2025-11-04 22:56:35,150 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-11-04 22:57:18,978 - INFO - [ANSWER] Based on what Mary says, it is **not possible to determine** if there is water in the fridge.
+
+Here'...
+2025-11-04 22:57:18,978 - INFO - [OK] Row 9 [B3C] completed successfully
+2025-11-04 22:57:18,982 - INFO - [OK] Answer 9 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 22:57:18,982 - INFO - [PROGRESS] glm-4.6:cloud - 9/288 processed | 9 successful | 0 errors
+2025-11-04 22:57:18,982 - INFO - [INFO] Processing Row 10/288 [B4T]
+2025-11-04 22:57:18,982 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-11-04 22:57:59,909 - INFO - [ANSWER] No, it is not necessarily true based only on what Mary says.
+
+Here's the reasoning:
+
+Mary's statemen...
+2025-11-04 22:57:59,909 - INFO - [OK] Row 10 [B4T] completed successfully
+2025-11-04 22:57:59,914 - INFO - [OK] Answer 10 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 22:57:59,914 - INFO - [PROGRESS] glm-4.6:cloud - 10/288 processed | 10 successful | 0 errors
+2025-11-04 22:57:59,915 - INFO - [INFO] Processing Row 11/288 [B4F]
+2025-11-04 22:57:59,915 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...
