@@ -1,7 +1,0 @@
-2025-11-02 17:27:55,480 - INFO - [INFO] ===== Helicone API Processing Started =====
-2025-11-02 17:27:55,480 - INFO - [INFO] API: https://ai-gateway.helicone.ai
-2025-11-02 17:27:55,480 - INFO - [INFO] Mode: Sequential
-2025-11-02 17:27:55,480 - INFO - [INFO] Using Helicone API Key for authentication
-2025-11-02 17:27:55,656 - ERROR - [ERROR] Cannot connect to API: Missing required arguments; Expected either ('messages' and 'model') or ('messages', 'model' and 'stream') arguments to be given
-2025-11-02 17:27:55,656 - ERROR - [FATAL] Cannot access Helicone API
-2025-11-02 17:27:55,656 - ERROR - [FATAL] Fatal error: Helicone API not accessible

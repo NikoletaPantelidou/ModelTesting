@@ -43,7 +43,7 @@ logger = logging.getLogger(__name__)
 # ============================================================================
 # List of models to process (each model has its own configuration)
 
-INPUT_FILE = "prompts/example.csv"  # Input CSV file path
+INPUT_FILE = "prompts/prompts(cat,es,it)(in).csv"  # Input CSV file path
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
 OUTPUT_DIR = "answers"  # Directory for output files
