@@ -1,0 +1,77 @@
+2025-11-06 21:13:38,882 - INFO - [INFO] CUDA available: False
+2025-11-06 21:13:38,882 - WARNING - [WARNING] No CUDA device detected. Running on CPU.
+2025-11-06 21:13:38,882 - INFO - [INFO] Selected device: cpu
+2025-11-06 21:13:38,882 - INFO - [INFO] Max workers for parallel processing: 4
+2025-11-06 21:13:38,893 - INFO - [OK] File loaded: 288 rows, columns: ['test_item', 'language', 'prompt']
+2025-11-06 21:13:38,895 - INFO - [INFO] Processing model 1/8: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-06 21:13:38,896 - INFO - [INFO] ===== Starting processing for model: mistralai/Mistral-7B-Instruct-v0.2 =====
+2025-11-06 21:13:38,900 - INFO - [INFO] Found existing answers file: answers\mistralai-Mistral-7B-Instruct-v0.2_answers.csv
+2025-11-06 21:13:38,902 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-06 21:13:38,902 - INFO - [SKIP] Model mistralai/Mistral-7B-Instruct-v0.2 has all answers completed, skipping model load
+2025-11-06 21:13:38,902 - INFO - [OK] Model mistralai/Mistral-7B-Instruct-v0.2 completed successfully (1/8)
+2025-11-06 21:13:38,902 - INFO - [INFO] Processing model 2/8: tiiuae/falcon-7b-instruct
+2025-11-06 21:13:38,902 - INFO - [INFO] ===== Starting processing for model: tiiuae/falcon-7b-instruct =====
+2025-11-06 21:13:38,905 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:13:38,905 - INFO - [INFO] Existing progress: 46/288 answers completed
+2025-11-06 21:13:38,906 - INFO - [INFO] Model tiiuae/falcon-7b-instruct has 242 pending answers, loading model...
+2025-11-06 21:13:38,906 - INFO - [INFO] Loading model: tiiuae/falcon-7b-instruct (device: cpu)
+2025-11-06 21:14:31,018 - INFO - [OK] Model and tokenizer loaded successfully on cpu
+2025-11-06 21:14:31,034 - INFO - [INFO] Starting parallel processing for tiiuae/falcon-7b-instruct with 4 workers
+2025-11-06 21:14:31,612 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:14:31,619 - INFO - [INFO] Existing progress: 46/288 answers completed
+2025-11-06 21:14:31,619 - INFO - [INFO] Resuming from row 47
+2025-11-06 21:14:31,639 - INFO - [SKIP] Row 1/288 already completed, skipping
+2025-11-06 21:14:31,639 - INFO - [SKIP] Row 2/288 already completed, skipping
+2025-11-06 21:14:31,640 - INFO - [SKIP] Row 3/288 already completed, skipping
+2025-11-06 21:14:31,640 - INFO - [SKIP] Row 4/288 already completed, skipping
+2025-11-06 21:14:31,640 - INFO - [SKIP] Row 5/288 already completed, skipping
+2025-11-06 21:14:31,640 - INFO - [SKIP] Row 6/288 already completed, skipping
+2025-11-06 21:14:31,640 - INFO - [SKIP] Row 7/288 already completed, skipping
+2025-11-06 21:14:31,640 - INFO - [SKIP] Row 8/288 already completed, skipping
+2025-11-06 21:14:31,641 - INFO - [SKIP] Row 9/288 already completed, skipping
+2025-11-06 21:14:31,642 - INFO - [SKIP] Row 10/288 already completed, skipping
+2025-11-06 21:14:31,642 - INFO - [SKIP] Row 11/288 already completed, skipping
+2025-11-06 21:14:31,642 - INFO - [SKIP] Row 12/288 already completed, skipping
+2025-11-06 21:14:31,642 - INFO - [SKIP] Row 13/288 already completed, skipping
+2025-11-06 21:14:31,642 - INFO - [SKIP] Row 14/288 already completed, skipping
+2025-11-06 21:14:31,642 - INFO - [SKIP] Row 15/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 16/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 17/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 18/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 19/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 20/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 21/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 22/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 23/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 24/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 25/288 already completed, skipping
+2025-11-06 21:14:31,643 - INFO - [SKIP] Row 26/288 already completed, skipping
+2025-11-06 21:14:31,644 - INFO - [SKIP] Row 27/288 already completed, skipping
+2025-11-06 21:14:31,644 - INFO - [SKIP] Row 28/288 already completed, skipping
+2025-11-06 21:14:31,644 - INFO - [SKIP] Row 29/288 already completed, skipping
+2025-11-06 21:14:31,644 - INFO - [SKIP] Row 30/288 already completed, skipping
+2025-11-06 21:14:31,644 - INFO - [SKIP] Row 31/288 already completed, skipping
+2025-11-06 21:14:31,644 - INFO - [SKIP] Row 32/288 already completed, skipping
+2025-11-06 21:14:31,645 - INFO - [SKIP] Row 33/288 already completed, skipping
+2025-11-06 21:14:31,645 - INFO - [SKIP] Row 34/288 already completed, skipping
+2025-11-06 21:14:31,645 - INFO - [SKIP] Row 35/288 already completed, skipping
+2025-11-06 21:14:31,645 - INFO - [SKIP] Row 36/288 already completed, skipping
+2025-11-06 21:14:31,645 - INFO - [SKIP] Row 37/288 already completed, skipping
+2025-11-06 21:14:31,645 - INFO - [SKIP] Row 38/288 already completed, skipping
+2025-11-06 21:14:31,646 - INFO - [SKIP] Row 39/288 already completed, skipping
+2025-11-06 21:14:31,646 - INFO - [SKIP] Row 40/288 already completed, skipping
+2025-11-06 21:14:31,646 - INFO - [SKIP] Row 41/288 already completed, skipping
+2025-11-06 21:14:31,646 - INFO - [SKIP] Row 42/288 already completed, skipping
+2025-11-06 21:14:31,646 - INFO - [SKIP] Row 43/288 already completed, skipping
+2025-11-06 21:14:31,646 - INFO - [SKIP] Row 44/288 already completed, skipping
+2025-11-06 21:14:31,646 - INFO - [SKIP] Row 45/288 already completed, skipping
+2025-11-06 21:14:31,646 - INFO - [SKIP] Row 46/288 already completed, skipping
+2025-11-06 21:14:31,653 - INFO - [INFO] Processing 242 pending prompts...
+2025-11-06 21:14:31,691 - INFO - [INFO] Processing row 47/288 - test_item: S1F
+2025-11-06 21:14:31,693 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not brin...
+2025-11-06 21:14:31,705 - INFO - [INFO] Processing row 48/288 - test_item: S1C
+2025-11-06 21:14:31,712 - INFO - [PROMPT] Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had s...
+2025-11-06 21:14:31,713 - INFO - [INFO] Processing row 49/288 - test_item: S2T
+2025-11-06 21:14:31,714 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: "If you...
+2025-11-06 21:14:31,714 - INFO - [INFO] Processing row 50/288 - test_item: S2F
+2025-11-06 21:14:31,746 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you ...

@@ -662,3 +662,984 @@
 2025-11-06 13:11:50,037 - INFO - [LANGUAGE] Detected language: Spanish
 2025-11-06 13:11:50,044 - INFO - [OK] Answer 220 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
 2025-11-06 13:11:50,044 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 82/151 pending prompts completed (219/288 total)
+2025-11-06 13:12:25,385 - INFO - [OK] Row 221 completed
+2025-11-06 13:12:25,401 - INFO - [INFO] Processing row 224/288 - test_item: B3F
+2025-11-06 13:12:25,516 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed y no hay agua en la nevera. Tampoco hay zumo de manzana en ...
+2025-11-06 13:12:25,668 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:12:25,679 - INFO - [OK] Answer 221 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:12:25,681 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 83/151 pending prompts completed (220/288 total)
+2025-11-06 13:12:31,663 - INFO - [OK] Row 214 completed
+2025-11-06 13:12:31,667 - INFO - [INFO] Processing row 225/288 - test_item: B3C
+2025-11-06 13:12:31,669 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed. Hay zumo de manzana en la estantería. María dice: "Si Lucí...
+2025-11-06 13:12:31,672 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:12:31,675 - INFO - [OK] Answer 214 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:12:31,676 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 84/151 pending prompts completed (221/288 total)
+2025-11-06 13:12:38,407 - INFO - [OK] Row 223 completed
+2025-11-06 13:12:38,415 - INFO - [INFO] Processing row 226/288 - test_item: B4T
+2025-11-06 13:12:38,420 - INFO - [PROMPT] Aquí tienes el contexto: El móvil de Pedro se ha quedado sin batería y hay un cargador en el cajón. ...
+2025-11-06 13:12:38,429 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:12:38,429 - INFO - [OK] Answer 223 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:12:38,437 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 85/151 pending prompts completed (222/288 total)
+2025-11-06 13:13:13,597 - INFO - [OK] Row 222 completed
+2025-11-06 13:13:13,621 - INFO - [INFO] Processing row 227/288 - test_item: B4F
+2025-11-06 13:13:13,643 - INFO - [PROMPT] Aquí tienes el contexto: El móvil de Pedro se ha quedado sin batería y no hay ningún cargador en el ...
+2025-11-06 13:13:13,673 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:13:13,693 - INFO - [OK] Answer 222 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:13:13,694 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 86/151 pending prompts completed (223/288 total)
+2025-11-06 13:13:38,078 - INFO - [OK] Row 225 completed
+2025-11-06 13:13:38,191 - INFO - [INFO] Processing row 228/288 - test_item: B4C
+2025-11-06 13:13:38,237 - INFO - [PROMPT] Aquí tienes el contexto: El móvil de Pedro tiene la batería llena. Hay un ordenador sobre la mesa. M...
+2025-11-06 13:13:38,265 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:13:38,809 - INFO - [OK] Answer 225 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:13:38,825 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 87/151 pending prompts completed (224/288 total)
+2025-11-06 13:14:10,417 - INFO - [OK] Row 226 completed
+2025-11-06 13:14:10,418 - INFO - [INFO] Processing row 229/288 - test_item: B5T
+2025-11-06 13:14:10,429 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está lluvioso y hay un paraguas en el paragüero. También hay un c...
+2025-11-06 13:14:10,434 - INFO - [OK] Answer 226 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:14:10,442 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:14:10,444 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 88/151 pending prompts completed (225/288 total)
+2025-11-06 13:14:17,477 - INFO - [OK] Row 224 completed
+2025-11-06 13:14:17,478 - INFO - [INFO] Processing row 230/288 - test_item: B5F
+2025-11-06 13:14:17,484 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está lluvioso y no hay paraguas en el paragüero. Tampoco hay ning...
+2025-11-06 13:14:17,488 - INFO - [OK] Answer 224 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:14:17,490 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:14:17,497 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 89/151 pending prompts completed (226/288 total)
+2025-11-06 13:14:25,790 - INFO - [OK] Row 227 completed
+2025-11-06 13:14:25,830 - INFO - [INFO] Processing row 231/288 - test_item: B5C
+2025-11-06 13:14:25,865 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está despejado. Hay un chubasquero en el coche. María dice: "Si e...
+2025-11-06 13:14:25,884 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:14:25,888 - INFO - [OK] Answer 227 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:14:25,899 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 90/151 pending prompts completed (227/288 total)
+2025-11-06 13:14:37,320 - INFO - [OK] Row 228 completed
+2025-11-06 13:14:37,327 - INFO - [INFO] Processing row 232/288 - test_item: B6T
+2025-11-06 13:14:37,328 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está pinchada y hay una bomba de aire en el garaje. Tamb...
+2025-11-06 13:14:37,335 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:14:37,343 - INFO - [OK] Answer 228 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:14:37,344 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 91/151 pending prompts completed (228/288 total)
+2025-11-06 13:15:09,568 - INFO - [OK] Row 229 completed
+2025-11-06 13:15:09,570 - INFO - [INFO] Processing row 233/288 - test_item: B6F
+2025-11-06 13:15:09,579 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está pinchada y no hay ninguna bomba de aire en el garaj...
+2025-11-06 13:15:09,591 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:15:09,591 - INFO - [OK] Answer 229 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:15:09,601 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 92/151 pending prompts completed (229/288 total)
+2025-11-06 13:15:17,146 - INFO - [OK] Row 230 completed
+2025-11-06 13:15:17,148 - INFO - [INFO] Processing row 234/288 - test_item: B6C
+2025-11-06 13:15:17,154 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está inflada. Hay una bicicleta junto a la puerta de ent...
+2025-11-06 13:15:17,156 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:15:17,165 - INFO - [OK] Answer 230 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:15:17,167 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 93/151 pending prompts completed (230/288 total)
+2025-11-06 13:15:20,140 - INFO - [OK] Row 231 completed
+2025-11-06 13:15:20,152 - INFO - [INFO] Processing row 235/288 - test_item: B7T
+2025-11-06 13:15:20,157 - INFO - [PROMPT] Aquí tienes el contexto: La planta está seca y hay un regador en la estantería. También hay una mang...
+2025-11-06 13:15:20,157 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:15:20,171 - INFO - [OK] Answer 231 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:15:20,176 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 94/151 pending prompts completed (231/288 total)
+2025-11-06 13:15:31,691 - INFO - [OK] Row 232 completed
+2025-11-06 13:15:31,704 - INFO - [INFO] Processing row 236/288 - test_item: B7F
+2025-11-06 13:15:31,709 - INFO - [PROMPT] Aquí tienes el contexto: La planta está seca y no hay ningún regador en la estantería. Tampoco hay u...
+2025-11-06 13:15:31,718 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:15:31,721 - INFO - [OK] Answer 232 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:15:31,730 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 95/151 pending prompts completed (232/288 total)
+2025-11-06 13:16:12,522 - INFO - [OK] Row 235 completed
+2025-11-06 13:16:12,528 - INFO - [INFO] Processing row 237/288 - test_item: B7C
+2025-11-06 13:16:12,536 - INFO - [PROMPT] Aquí tienes el contexto: La planta no está seca. Hay una manguera en el jardín. María dice: "Si la p...
+2025-11-06 13:16:12,543 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:16:12,555 - INFO - [OK] Answer 235 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:16:12,558 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 96/151 pending prompts completed (233/288 total)
+2025-11-06 13:16:26,558 - INFO - [OK] Row 234 completed
+2025-11-06 13:16:26,567 - INFO - [INFO] Processing row 238/288 - test_item: B8T
+2025-11-06 13:16:26,585 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está arrugada y hay una plancha en el armario. También h...
+2025-11-06 13:16:26,588 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:16:26,612 - INFO - [OK] Answer 234 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:16:26,618 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 97/151 pending prompts completed (234/288 total)
+2025-11-06 13:16:39,010 - INFO - [OK] Row 236 completed
+2025-11-06 13:16:39,017 - INFO - [INFO] Processing row 239/288 - test_item: B8F
+2025-11-06 13:16:39,027 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está arrugada y no hay ninguna plancha en el armario. Ta...
+2025-11-06 13:16:39,039 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:16:39,043 - INFO - [OK] Answer 236 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:16:39,044 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 98/151 pending prompts completed (235/288 total)
+2025-11-06 13:16:44,790 - INFO - [OK] Row 233 completed
+2025-11-06 13:16:44,801 - INFO - [INFO] Processing row 240/288 - test_item: B8C
+2025-11-06 13:16:44,809 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está planchada. Hay una tabla de planchar en el balcón. ...
+2025-11-06 13:16:44,817 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:16:44,817 - INFO - [OK] Answer 233 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:16:44,823 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 99/151 pending prompts completed (236/288 total)
+2025-11-06 13:17:16,799 - INFO - [OK] Row 238 completed
+2025-11-06 13:17:16,820 - INFO - [INFO] Processing row 241/288 - test_item: B9T
+2025-11-06 13:17:16,820 - INFO - [PROMPT] Aquí tienes el contexto: Susana quiere leer y hay libros en la estantería. También hay un periódico ...
+2025-11-06 13:17:16,879 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:17:16,910 - INFO - [OK] Answer 238 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:17:16,912 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 100/151 pending prompts completed (237/288 total)
+2025-11-06 13:17:55,983 - INFO - [OK] Row 237 completed
+2025-11-06 13:17:55,997 - INFO - [INFO] Processing row 242/288 - test_item: B9F
+2025-11-06 13:17:56,044 - INFO - [PROMPT] Aquí tienes el contexto: Susana quiere leer y no hay libros en la estantería. Tampoco hay un periódi...
+2025-11-06 13:17:56,069 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:17:56,106 - INFO - [OK] Answer 237 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:17:56,110 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 101/151 pending prompts completed (238/288 total)
+2025-11-06 13:18:01,851 - INFO - [OK] Row 241 completed
+2025-11-06 13:18:01,854 - INFO - [INFO] Processing row 243/288 - test_item: B9C
+2025-11-06 13:18:01,865 - INFO - [PROMPT] Aquí tienes el contexto: Susana no quiere leer. Hay un periódico en el sofá. María dice: "Si Susana ...
+2025-11-06 13:18:01,879 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:18:01,880 - INFO - [OK] Answer 241 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:18:01,890 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 102/151 pending prompts completed (239/288 total)
+2025-11-06 13:18:03,928 - INFO - [OK] Row 239 completed
+2025-11-06 13:18:03,950 - INFO - [INFO] Processing row 244/288 - test_item: F1T
+2025-11-06 13:18:03,960 - INFO - [PROMPT] Aquí tienes el contexto: Aunque la pizza sea más cara que la pasta, la gente la compra más. Hay pizz...
+2025-11-06 13:18:03,973 - INFO - [OK] Answer 239 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:18:03,974 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:18:03,977 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 103/151 pending prompts completed (240/288 total)
+2025-11-06 13:18:42,463 - INFO - [OK] Row 244 completed
+2025-11-06 13:18:42,473 - INFO - [INFO] Processing row 245/288 - test_item: F1F
+2025-11-06 13:18:42,509 - INFO - [PROMPT] Aquí tienes el contexto: Aunque la pizza sea más cara que la pasta, la gente la compra más. Hay pizz...
+2025-11-06 13:18:42,524 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:18:42,549 - INFO - [OK] Answer 244 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:18:42,549 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 104/151 pending prompts completed (241/288 total)
+2025-11-06 13:18:44,185 - INFO - [OK] Row 242 completed
+2025-11-06 13:18:44,195 - INFO - [INFO] Processing row 246/288 - test_item: F2T
+2025-11-06 13:18:44,196 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el café negro sea más barato que el té verde, la mayoría de la gente...
+2025-11-06 13:18:44,198 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:18:44,213 - INFO - [OK] Answer 242 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:18:44,216 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 105/151 pending prompts completed (242/288 total)
+2025-11-06 13:18:50,529 - INFO - [OK] Row 243 completed
+2025-11-06 13:18:50,530 - INFO - [INFO] Processing row 247/288 - test_item: F2F
+2025-11-06 13:18:50,536 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el café negro sea más barato que el té verde, la mayoría de la gente...
+2025-11-06 13:18:50,547 - INFO - [OK] Answer 243 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:18:50,547 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:18:50,548 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 106/151 pending prompts completed (243/288 total)
+2025-11-06 13:19:07,564 - INFO - [OK] Row 240 completed
+2025-11-06 13:19:07,581 - INFO - [INFO] Processing row 248/288 - test_item: F3T
+2025-11-06 13:19:07,619 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el agua sea más saludable que los refrescos, mucha gente prefiere lo...
+2025-11-06 13:19:07,628 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:19:07,659 - INFO - [OK] Answer 240 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:19:07,662 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 107/151 pending prompts completed (244/288 total)
+2025-11-06 13:19:23,881 - INFO - [OK] Row 245 completed
+2025-11-06 13:19:23,886 - INFO - [INFO] Processing row 249/288 - test_item: F3F
+2025-11-06 13:19:23,896 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el agua sea más saludable que los refrescos, mucha gente prefiere lo...
+2025-11-06 13:19:23,901 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:19:23,904 - INFO - [OK] Answer 245 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:19:23,911 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 108/151 pending prompts completed (245/288 total)
+2025-11-06 13:19:57,060 - INFO - [OK] Row 248 completed
+2025-11-06 13:19:57,069 - INFO - [INFO] Processing row 250/288 - test_item: F4T
+2025-11-06 13:19:57,072 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el brócoli sea más difícil de cocinar que los ñoquis, la gente lo co...
+2025-11-06 13:19:57,075 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:19:57,087 - INFO - [OK] Answer 248 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:19:57,088 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 109/151 pending prompts completed (246/288 total)
+2025-11-06 13:20:10,031 - INFO - [OK] Row 249 completed
+2025-11-06 13:20:10,036 - INFO - [INFO] Processing row 251/288 - test_item: F4F
+2025-11-06 13:20:10,038 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el brócoli sea más difícil de cocinar que los ñoquis, la gente lo co...
+2025-11-06 13:20:10,039 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:20:10,044 - INFO - [OK] Answer 249 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:20:10,045 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 110/151 pending prompts completed (247/288 total)
+2025-11-06 13:20:10,418 - INFO - [OK] Row 246 completed
+2025-11-06 13:20:10,420 - INFO - [INFO] Processing row 252/288 - test_item: F5T
+2025-11-06 13:20:10,431 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el sushi sea más sano que las hamburguesas, la gente come hamburgues...
+2025-11-06 13:20:10,441 - INFO - [OK] Answer 246 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:20:10,442 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:20:10,450 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 111/151 pending prompts completed (248/288 total)
+2025-11-06 13:20:19,274 - INFO - [OK] Row 247 completed
+2025-11-06 13:20:19,292 - INFO - [INFO] Processing row 253/288 - test_item: F5F
+2025-11-06 13:20:19,303 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el sushi sea más sano que las hamburguesas, la gente come hamburgues...
+2025-11-06 13:20:19,314 - INFO - [OK] Answer 247 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:20:19,315 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:20:19,330 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 112/151 pending prompts completed (249/288 total)
+2025-11-06 13:20:55,123 - INFO - [OK] Row 252 completed
+2025-11-06 13:20:55,130 - INFO - [INFO] Processing row 254/288 - test_item: F6T
+2025-11-06 13:20:55,132 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los plátanos sean más caros que los kiwis, la gente los compra más. ...
+2025-11-06 13:20:55,138 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:20:55,141 - INFO - [OK] Answer 252 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:20:55,142 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 113/151 pending prompts completed (250/288 total)
+2025-11-06 13:20:56,299 - INFO - [OK] Row 250 completed
+2025-11-06 13:20:56,302 - INFO - [INFO] Processing row 255/288 - test_item: F6F
+2025-11-06 13:20:56,317 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los plátanos sean más caros que los kiwis, la gente los compra más. ...
+2025-11-06 13:20:56,322 - INFO - [OK] Answer 250 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:20:56,322 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:20:56,323 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 114/151 pending prompts completed (251/288 total)
+2025-11-06 13:20:59,866 - INFO - [OK] Row 251 completed
+2025-11-06 13:20:59,873 - INFO - [INFO] Processing row 256/288 - test_item: F7T
+2025-11-06 13:20:59,878 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los perros sean más vivaces que los gatos, la gente los prefiere. Ha...
+2025-11-06 13:20:59,890 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:20:59,894 - INFO - [OK] Answer 251 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:20:59,898 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 115/151 pending prompts completed (252/288 total)
+2025-11-06 13:21:03,824 - INFO - [OK] Row 253 completed
+2025-11-06 13:21:03,831 - INFO - [INFO] Processing row 257/288 - test_item: F7F
+2025-11-06 13:21:03,837 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los perros sean más vivaces que los gatos, la gente los prefiere. Ha...
+2025-11-06 13:21:03,842 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:21:03,843 - INFO - [OK] Answer 253 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:21:03,850 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 116/151 pending prompts completed (253/288 total)
+2025-11-06 13:21:44,915 - INFO - [OK] Row 256 completed
+2025-11-06 13:21:44,916 - INFO - [INFO] Processing row 258/288 - test_item: F8T
+2025-11-06 13:21:44,918 - INFO - [PROMPT] Aquí tienes el contexto: Aunque leer libros sea más educativo que ver la televisión, mucha gente ve ...
+2025-11-06 13:21:44,919 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:21:44,932 - INFO - [OK] Answer 256 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:21:44,935 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 117/151 pending prompts completed (254/288 total)
+2025-11-06 13:21:47,778 - INFO - [OK] Row 254 completed
+2025-11-06 13:21:47,784 - INFO - [INFO] Processing row 259/288 - test_item: F8F
+2025-11-06 13:21:47,786 - INFO - [PROMPT] Aquí tienes el contexto: Aunque leer libros sea más educativo que ver la televisión, mucha gente ve ...
+2025-11-06 13:21:47,786 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:21:47,797 - INFO - [OK] Answer 254 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:21:47,798 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 118/151 pending prompts completed (255/288 total)
+2025-11-06 13:21:47,963 - INFO - [OK] Row 255 completed
+2025-11-06 13:21:47,973 - INFO - [INFO] Processing row 260/288 - test_item: F9T
+2025-11-06 13:21:47,979 - INFO - [PROMPT] Aquí tienes el contexto: Aunque correr sea mejor para la forma física que caminar, la mayoría de la ...
+2025-11-06 13:21:47,987 - INFO - [OK] Answer 255 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:21:47,987 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:21:48,001 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 119/151 pending prompts completed (256/288 total)
+2025-11-06 13:21:49,958 - INFO - [OK] Row 257 completed
+2025-11-06 13:21:49,972 - INFO - [INFO] Processing row 261/288 - test_item: F9F
+2025-11-06 13:21:49,979 - INFO - [PROMPT] Aquí tienes el contexto: Aunque correr sea mejor para la forma física que caminar, la mayoría de la ...
+2025-11-06 13:21:49,989 - INFO - [OK] Answer 257 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:21:49,990 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:21:49,996 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 120/151 pending prompts completed (257/288 total)
+2025-11-06 13:23:11,666 - INFO - [OK] Row 258 completed
+2025-11-06 13:23:11,675 - INFO - [INFO] Processing row 262/288 - test_item: S1T
+2025-11-06 13:23:11,677 - INFO - [PROMPT] Aquí tienes el contexto: El loro está en la jaula. Además, el perro está en la caseta. María había d...
+2025-11-06 13:23:11,685 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:23:11,691 - INFO - [OK] Answer 258 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:23:11,692 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 121/151 pending prompts completed (258/288 total)
+2025-11-06 13:23:15,223 - INFO - [OK] Row 259 completed
+2025-11-06 13:23:15,224 - INFO - [INFO] Processing row 263/288 - test_item: S1F
+2025-11-06 13:23:15,226 - INFO - [PROMPT] Aquí tienes el contexto: El loro está en la jaula. Además, el perro está en la caseta. Tomás no traj...
+2025-11-06 13:23:15,232 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:23:15,237 - INFO - [OK] Answer 259 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:23:15,245 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 122/151 pending prompts completed (259/288 total)
+2025-11-06 13:23:16,261 - INFO - [OK] Row 260 completed
+2025-11-06 13:23:16,278 - INFO - [INFO] Processing row 264/288 - test_item: S1C
+2025-11-06 13:23:16,286 - INFO - [PROMPT] Aquí tienes el contexto: El loro no está en la jaula. Además, el perro tampoco está en la caseta. Ma...
+2025-11-06 13:23:16,287 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:23:16,290 - INFO - [OK] Answer 260 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:23:16,310 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 123/151 pending prompts completed (260/288 total)
+2025-11-06 13:23:21,713 - INFO - [OK] Row 261 completed
+2025-11-06 13:23:21,724 - INFO - [INFO] Processing row 265/288 - test_item: S2T
+2025-11-06 13:23:21,727 - INFO - [PROMPT] Aquí tienes el contexto: Te has comido el brócoli. También te has comido la pasta. María dice: "Si t...
+2025-11-06 13:23:21,728 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:23:21,737 - INFO - [OK] Answer 261 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:23:21,741 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 124/151 pending prompts completed (261/288 total)
+2025-11-06 13:24:00,529 - INFO - [OK] Row 264 completed
+2025-11-06 13:24:00,538 - INFO - [INFO] Processing row 266/288 - test_item: S2F
+2025-11-06 13:24:00,539 - INFO - [PROMPT] Aquí tienes el contexto: Te has comido el brócoli. También te has comido la pasta. Marcos no te dio ...
+2025-11-06 13:24:00,540 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:24:00,547 - INFO - [OK] Answer 264 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:24:00,548 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 125/151 pending prompts completed (262/288 total)
+2025-11-06 13:24:01,235 - INFO - [OK] Row 262 completed
+2025-11-06 13:24:01,243 - INFO - [INFO] Processing row 267/288 - test_item: S2C
+2025-11-06 13:24:01,246 - INFO - [PROMPT] Aquí tienes el contexto: No te has comido el brócoli. Tampoco te has comido la pasta. María había di...
+2025-11-06 13:24:01,246 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:24:01,254 - INFO - [OK] Answer 262 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:24:01,260 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 126/151 pending prompts completed (263/288 total)
+2025-11-06 13:24:05,254 - INFO - [OK] Row 263 completed
+2025-11-06 13:24:05,274 - INFO - [INFO] Processing row 268/288 - test_item: S3T
+2025-11-06 13:24:05,278 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros están bailando. Además, las ardillas están comiendo. María había...
+2025-11-06 13:24:05,291 - INFO - [OK] Answer 263 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:24:05,300 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:24:05,308 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 127/151 pending prompts completed (264/288 total)
+2025-11-06 13:24:16,449 - INFO - [OK] Row 265 completed
+2025-11-06 13:24:16,456 - INFO - [INFO] Processing row 269/288 - test_item: S3F
+2025-11-06 13:24:16,461 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros están bailando. Además, las ardillas están comiendo. Irene no re...
+2025-11-06 13:24:16,465 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:24:16,469 - INFO - [OK] Answer 265 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:24:16,474 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 128/151 pending prompts completed (265/288 total)
+2025-11-06 13:24:44,329 - INFO - [OK] Row 266 completed
+2025-11-06 13:24:44,332 - INFO - [INFO] Processing row 270/288 - test_item: S3C
+2025-11-06 13:24:44,338 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros no están bailando. Las ardillas tampoco están comiendo. María ha...
+2025-11-06 13:24:44,352 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:24:44,357 - INFO - [OK] Answer 266 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:24:44,362 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 129/151 pending prompts completed (266/288 total)
+2025-11-06 13:24:48,218 - INFO - [OK] Row 267 completed
+2025-11-06 13:24:48,228 - INFO - [INFO] Processing row 271/288 - test_item: S4T
+2025-11-06 13:24:48,232 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está encendida. Además, la radio también está encendida. Marí...
+2025-11-06 13:24:48,237 - INFO - [OK] Answer 267 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:24:48,238 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:24:48,250 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 130/151 pending prompts completed (267/288 total)
+2025-11-06 13:24:50,477 - INFO - [OK] Row 268 completed
+2025-11-06 13:24:50,495 - INFO - [INFO] Processing row 272/288 - test_item: S4F
+2025-11-06 13:24:50,499 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está encendida. Además, la radio también está encendida. Mate...
+2025-11-06 13:24:50,500 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:24:50,513 - INFO - [OK] Answer 268 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:24:50,519 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 131/151 pending prompts completed (268/288 total)
+2025-11-06 13:25:02,266 - INFO - [OK] Row 269 completed
+2025-11-06 13:25:02,283 - INFO - [INFO] Processing row 273/288 - test_item: S4C
+2025-11-06 13:25:02,295 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está apagada. La radio también está apagada. María había dich...
+2025-11-06 13:25:02,301 - INFO - [OK] Answer 269 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:25:02,302 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:25:02,309 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 132/151 pending prompts completed (269/288 total)
+2025-11-06 13:25:31,406 - INFO - [OK] Row 270 completed
+2025-11-06 13:25:31,407 - INFO - [INFO] Processing row 274/288 - test_item: S5T
+2025-11-06 13:25:31,408 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está soleado. Además, no hay viento. María había dicho: "Si e...
+2025-11-06 13:25:31,408 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:25:31,415 - INFO - [OK] Answer 270 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:25:31,416 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 133/151 pending prompts completed (270/288 total)
+2025-11-06 13:25:33,146 - INFO - [OK] Row 271 completed
+2025-11-06 13:25:33,148 - INFO - [INFO] Processing row 275/288 - test_item: S5F
+2025-11-06 13:25:33,156 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está soleado. Además, no hay viento. Emma fue de verde. María...
+2025-11-06 13:25:33,161 - INFO - [OK] Answer 271 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:25:33,162 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:25:33,166 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 134/151 pending prompts completed (271/288 total)
+2025-11-06 13:25:34,807 - INFO - [OK] Row 272 completed
+2025-11-06 13:25:34,817 - INFO - [INFO] Processing row 276/288 - test_item: S5C
+2025-11-06 13:25:34,821 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está lluvioso. Además, hay mucho viento. María había dicho: "...
+2025-11-06 13:25:34,828 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:25:34,829 - INFO - [OK] Answer 272 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:25:34,836 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 135/151 pending prompts completed (272/288 total)
+2025-11-06 13:25:47,766 - INFO - [OK] Row 273 completed
+2025-11-06 13:25:47,767 - INFO - [INFO] Processing row 277/288 - test_item: S6T
+2025-11-06 13:25:47,789 - INFO - [OK] Answer 273 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:25:47,789 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está vacío. Además, las calles están tranquilas. María h...
+2025-11-06 13:25:47,790 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 136/151 pending prompts completed (273/288 total)
+2025-11-06 13:25:47,792 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:26:05,833 - INFO - [OK] Row 275 completed
+2025-11-06 13:26:05,843 - INFO - [INFO] Processing row 278/288 - test_item: S6F
+2025-11-06 13:26:05,848 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está vacío. Además, las calles están tranquilas. Júlia n...
+2025-11-06 13:26:05,849 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:26:05,868 - INFO - [OK] Answer 275 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:26:05,869 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 137/151 pending prompts completed (274/288 total)
+2025-11-06 13:26:14,625 - INFO - [OK] Row 274 completed
+2025-11-06 13:26:14,627 - INFO - [INFO] Processing row 279/288 - test_item: S6C
+2025-11-06 13:26:14,628 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está lleno. Además, las calles están concurridas. María ...
+2025-11-06 13:26:14,633 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:26:14,645 - INFO - [OK] Answer 274 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:26:14,649 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 138/151 pending prompts completed (275/288 total)
+2025-11-06 13:26:33,149 - INFO - [OK] Row 277 completed
+2025-11-06 13:26:33,157 - INFO - [INFO] Processing row 280/288 - test_item: S7T
+2025-11-06 13:26:33,162 - INFO - [PROMPT] Aquí tienes el contexto: El césped ha sido cortado. Además, las flores han sido regadas. María había...
+2025-11-06 13:26:33,166 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:26:33,173 - INFO - [OK] Answer 277 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:26:33,179 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 139/151 pending prompts completed (276/288 total)
+2025-11-06 13:26:39,347 - INFO - [OK] Row 276 completed
+2025-11-06 13:26:39,351 - INFO - [INFO] Processing row 281/288 - test_item: S7F
+2025-11-06 13:26:39,359 - INFO - [PROMPT] Aquí tienes el contexto: El césped ha sido cortado. Además, las flores han sido regadas. María había...
+2025-11-06 13:26:39,360 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:26:39,363 - INFO - [OK] Answer 276 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:26:39,364 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 140/151 pending prompts completed (277/288 total)
+2025-11-06 13:26:59,911 - INFO - [OK] Row 278 completed
+2025-11-06 13:26:59,913 - INFO - [INFO] Processing row 282/288 - test_item: S7C
+2025-11-06 13:26:59,914 - INFO - [PROMPT] Aquí tienes el contexto: El césped no ha sido cortado. Además, las flores no han sido regadas. María...
+2025-11-06 13:26:59,914 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:26:59,931 - INFO - [OK] Answer 278 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:26:59,933 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 141/151 pending prompts completed (278/288 total)
+2025-11-06 13:27:08,726 - INFO - [OK] Row 279 completed
+2025-11-06 13:27:08,730 - INFO - [INFO] Processing row 283/288 - test_item: S8T
+2025-11-06 13:27:08,740 - INFO - [PROMPT] Aquí tienes el contexto: El perro está jugando. Además, el gato está subiendo al árbol. María había ...
+2025-11-06 13:27:08,752 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:27:08,755 - INFO - [OK] Answer 279 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:27:08,759 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 142/151 pending prompts completed (279/288 total)
+2025-11-06 13:27:33,116 - INFO - [OK] Row 281 completed
+2025-11-06 13:27:33,116 - INFO - [INFO] Processing row 284/288 - test_item: S8F
+2025-11-06 13:27:33,117 - INFO - [PROMPT] Aquí tienes el contexto: El perro está jugando. Además, el gato está subiendo al árbol. Antonio no l...
+2025-11-06 13:27:33,118 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:27:33,123 - INFO - [OK] Answer 281 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:27:33,125 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 143/151 pending prompts completed (280/288 total)
+2025-11-06 13:27:34,943 - INFO - [OK] Row 280 completed
+2025-11-06 13:27:34,964 - INFO - [INFO] Processing row 285/288 - test_item: S8C
+2025-11-06 13:27:34,971 - INFO - [PROMPT] Aquí tienes el contexto: El perro no está jugando. Además, el gato está durmiendo. María había dicho...
+2025-11-06 13:27:34,978 - INFO - [OK] Answer 280 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:27:34,981 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:27:34,981 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 144/151 pending prompts completed (281/288 total)
+2025-11-06 13:27:46,229 - INFO - [OK] Row 283 completed
+2025-11-06 13:27:46,237 - INFO - [INFO] Processing row 286/288 - test_item: S9T
+2025-11-06 13:27:46,245 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está vacía. Además, el horno está estropeado. María había dicho: ...
+2025-11-06 13:27:46,247 - INFO - [OK] Answer 283 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:27:46,257 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:27:46,268 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 145/151 pending prompts completed (282/288 total)
+2025-11-06 13:27:57,882 - INFO - [OK] Row 282 completed
+2025-11-06 13:27:57,885 - INFO - [INFO] Processing row 287/288 - test_item: S9F
+2025-11-06 13:27:57,891 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está vacía. Además, el horno está estropeado. Ana no trajo donuts...
+2025-11-06 13:27:57,896 - INFO - [OK] Answer 282 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:27:57,899 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:27:57,901 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 146/151 pending prompts completed (283/288 total)
+2025-11-06 13:28:12,272 - INFO - [OK] Row 284 completed
+2025-11-06 13:28:12,273 - INFO - [INFO] Processing row 288/288 - test_item: S9C
+2025-11-06 13:28:12,274 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está llena. Además, el horno está encendido. María había dicho: "...
+2025-11-06 13:28:12,277 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:28:12,288 - INFO - [OK] Answer 284 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:28:12,290 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 147/151 pending prompts completed (284/288 total)
+2025-11-06 13:28:13,793 - INFO - [OK] Row 285 completed
+2025-11-06 13:28:13,821 - INFO - [OK] Answer 285 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:28:13,824 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 148/151 pending prompts completed (285/288 total)
+2025-11-06 13:28:16,618 - INFO - [OK] Row 286 completed
+2025-11-06 13:28:16,630 - INFO - [OK] Answer 286 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:28:16,637 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 149/151 pending prompts completed (286/288 total)
+2025-11-06 13:28:23,269 - INFO - [OK] Row 287 completed
+2025-11-06 13:28:23,278 - INFO - [OK] Answer 287 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:28:23,279 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 150/151 pending prompts completed (287/288 total)
+2025-11-06 13:28:27,270 - INFO - [OK] Row 288 completed
+2025-11-06 13:28:27,298 - INFO - [OK] Answer 288 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:28:27,299 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 151/151 pending prompts completed (288/288 total)
+2025-11-06 13:28:27,319 - INFO - [OK] All rows processed for tiiuae/falcon-7b-instruct
+2025-11-06 13:28:27,329 - INFO - [INFO] Unloading model: tiiuae/falcon-7b-instruct
+2025-11-06 13:28:27,424 - INFO - [OK] Model tiiuae/falcon-7b-instruct unloaded successfully
+2025-11-06 13:28:27,425 - INFO - [OK] ===== Completed processing for model: tiiuae/falcon-7b-instruct =====
+2025-11-06 13:28:27,425 - INFO - [INFO] Cleaning translations from answer file for tiiuae/falcon-7b-instruct...
+2025-11-06 13:28:27,472 - INFO - [OK] Translations cleaned successfully for tiiuae/falcon-7b-instruct
+2025-11-06 13:28:27,472 - INFO - 
+2025-11-06 13:28:27,473 - INFO - [OK] Model tiiuae/falcon-7b-instruct completed successfully (2/8)
+2025-11-06 13:28:27,474 - INFO - [INFO] Processing model 3/8: microsoft/phi-4
+2025-11-06 13:28:27,474 - INFO - [INFO] ===== Starting processing for model: microsoft/phi-4 =====
+2025-11-06 13:28:27,474 - INFO - [INFO] Model microsoft/phi-4 has 288 pending answers, loading model...
+2025-11-06 13:28:27,474 - INFO - [INFO] Loading model: microsoft/phi-4 (device: cpu)
+2025-11-06 13:33:20,979 - INFO - [OK] Model and tokenizer loaded successfully on cpu
+2025-11-06 13:33:20,990 - INFO - [INFO] Starting parallel processing for microsoft/phi-4 with 4 workers
+2025-11-06 13:33:21,023 - INFO - [INFO] Processing 288 pending prompts...
+2025-11-06 13:33:21,053 - INFO - [INFO] Processing row 1/288 - test_item: B1T
+2025-11-06 13:33:21,055 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-06 13:33:21,057 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:33:21,063 - INFO - [INFO] Processing row 2/288 - test_item: B1F
+2025-11-06 13:33:21,065 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-06 13:33:21,066 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:33:21,069 - INFO - [INFO] Processing row 3/288 - test_item: B1C
+2025-11-06 13:33:21,070 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-06 13:33:21,070 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:33:21,071 - INFO - [INFO] Processing row 4/288 - test_item: B2T
+2025-11-06 13:33:21,094 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-06 13:33:21,095 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:35:43,490 - INFO - [OK] Row 3 completed
+2025-11-06 13:35:43,494 - INFO - [OK] Row 1 completed
+2025-11-06 13:35:43,486 - INFO - [OK] Row 4 completed
+2025-11-06 13:35:43,496 - INFO - [OK] Row 2 completed
+2025-11-06 13:35:43,512 - INFO - [INFO] Processing row 5/288 - test_item: B2F
+2025-11-06 13:35:43,513 - INFO - [INFO] Processing row 6/288 - test_item: B2C
+2025-11-06 13:35:43,538 - INFO - [INFO] Processing row 7/288 - test_item: B3T
+2025-11-06 13:35:43,568 - INFO - [INFO] Processing row 8/288 - test_item: B3F
+2025-11-06 13:35:43,584 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-06 13:35:43,605 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-06 13:35:43,607 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-06 13:35:43,611 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-11-06 13:35:43,614 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:35:43,618 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:35:43,622 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:35:43,623 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:35:43,736 - INFO - [OK] Answer 3 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:35:43,738 - INFO - [PROGRESS] microsoft/phi-4 - 1/288 pending prompts completed (1/288 total)
+2025-11-06 13:35:43,776 - INFO - [OK] Answer 1 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:35:43,779 - INFO - [PROGRESS] microsoft/phi-4 - 2/288 pending prompts completed (2/288 total)
+2025-11-06 13:35:43,801 - INFO - [OK] Answer 4 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:35:43,802 - INFO - [PROGRESS] microsoft/phi-4 - 3/288 pending prompts completed (3/288 total)
+2025-11-06 13:35:43,806 - INFO - [OK] Answer 2 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:35:43,806 - INFO - [PROGRESS] microsoft/phi-4 - 4/288 pending prompts completed (4/288 total)
+2025-11-06 13:37:53,042 - INFO - [OK] Row 5 completed
+2025-11-06 13:37:53,048 - INFO - [OK] Row 6 completed
+2025-11-06 13:37:53,048 - INFO - [OK] Row 8 completed
+2025-11-06 13:37:53,048 - INFO - [OK] Row 7 completed
+2025-11-06 13:37:53,052 - INFO - [INFO] Processing row 9/288 - test_item: B3C
+2025-11-06 13:37:53,057 - INFO - [INFO] Processing row 10/288 - test_item: B4T
+2025-11-06 13:37:53,088 - INFO - [INFO] Processing row 11/288 - test_item: B4F
+2025-11-06 13:37:53,104 - INFO - [INFO] Processing row 12/288 - test_item: B4C
+2025-11-06 13:37:53,107 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-11-06 13:37:53,120 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:37:53,121 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...
+2025-11-06 13:37:53,121 - INFO - [OK] Answer 5 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:37:53,123 - INFO - [PROMPT] Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: "If...
+2025-11-06 13:37:53,124 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-11-06 13:37:53,126 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:37:53,133 - INFO - [PROGRESS] microsoft/phi-4 - 5/288 pending prompts completed (5/288 total)
+2025-11-06 13:37:53,135 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:37:53,138 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:37:53,154 - INFO - [OK] Answer 6 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:37:53,154 - INFO - [PROGRESS] microsoft/phi-4 - 6/288 pending prompts completed (6/288 total)
+2025-11-06 13:37:53,181 - INFO - [OK] Answer 8 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:37:53,181 - INFO - [PROGRESS] microsoft/phi-4 - 7/288 pending prompts completed (7/288 total)
+2025-11-06 13:37:53,193 - INFO - [OK] Answer 7 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:37:53,195 - INFO - [PROGRESS] microsoft/phi-4 - 8/288 pending prompts completed (8/288 total)
+2025-11-06 13:40:05,764 - INFO - [OK] Row 9 completed
+2025-11-06 13:40:05,779 - INFO - [OK] Row 11 completed
+2025-11-06 13:40:05,780 - INFO - [OK] Row 12 completed
+2025-11-06 13:40:05,785 - INFO - [OK] Row 10 completed
+2025-11-06 13:40:05,818 - INFO - [INFO] Processing row 13/288 - test_item: B5T
+2025-11-06 13:40:05,845 - INFO - [INFO] Processing row 14/288 - test_item: B5F
+2025-11-06 13:40:05,846 - INFO - [INFO] Processing row 15/288 - test_item: B5C
+2025-11-06 13:40:05,894 - INFO - [INFO] Processing row 16/288 - test_item: B6T
+2025-11-06 13:40:05,909 - INFO - [PROMPT] Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a ...
+2025-11-06 13:40:05,924 - INFO - [PROMPT] Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no rain...
+2025-11-06 13:40:05,925 - INFO - [PROMPT] Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: "If the weather...
+2025-11-06 13:40:05,927 - INFO - [PROMPT] Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the...
+2025-11-06 13:40:05,929 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:40:05,932 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:40:05,935 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:40:05,937 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:40:05,997 - INFO - [OK] Answer 9 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:40:06,001 - INFO - [PROGRESS] microsoft/phi-4 - 9/288 pending prompts completed (9/288 total)
+2025-11-06 13:40:06,043 - INFO - [OK] Answer 11 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:40:06,044 - INFO - [PROGRESS] microsoft/phi-4 - 10/288 pending prompts completed (10/288 total)
+2025-11-06 13:40:06,053 - INFO - [OK] Answer 12 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:40:06,053 - INFO - [PROGRESS] microsoft/phi-4 - 11/288 pending prompts completed (11/288 total)
+2025-11-06 13:40:06,061 - INFO - [OK] Answer 10 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:40:06,062 - INFO - [PROGRESS] microsoft/phi-4 - 12/288 pending prompts completed (12/288 total)
+2025-11-06 13:42:18,096 - INFO - [OK] Row 15 completed
+2025-11-06 13:42:18,111 - INFO - [OK] Row 14 completed
+2025-11-06 13:42:18,111 - INFO - [OK] Row 16 completed
+2025-11-06 13:42:18,111 - INFO - [OK] Row 13 completed
+2025-11-06 13:42:18,117 - INFO - [INFO] Processing row 17/288 - test_item: B6F
+2025-11-06 13:42:18,129 - INFO - [INFO] Processing row 18/288 - test_item: B6C
+2025-11-06 13:42:18,143 - INFO - [INFO] Processing row 19/288 - test_item: B7T
+2025-11-06 13:42:18,158 - INFO - [INFO] Processing row 20/288 - test_item: B7F
+2025-11-06 13:42:18,177 - INFO - [PROMPT] Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the fr...
+2025-11-06 13:42:18,177 - INFO - [PROMPT] Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: "If your ti...
+2025-11-06 13:42:18,177 - INFO - [PROMPT] Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in ...
+2025-11-06 13:42:18,178 - INFO - [PROMPT] Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the...
+2025-11-06 13:42:18,178 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:42:18,178 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:42:18,178 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:42:18,187 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:42:18,197 - INFO - [OK] Answer 15 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:42:18,198 - INFO - [PROGRESS] microsoft/phi-4 - 13/288 pending prompts completed (13/288 total)
+2025-11-06 13:42:18,211 - INFO - [OK] Answer 14 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:42:18,212 - INFO - [PROGRESS] microsoft/phi-4 - 14/288 pending prompts completed (14/288 total)
+2025-11-06 13:42:18,215 - INFO - [OK] Answer 16 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:42:18,215 - INFO - [PROGRESS] microsoft/phi-4 - 15/288 pending prompts completed (15/288 total)
+2025-11-06 13:42:18,253 - INFO - [OK] Answer 13 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:42:18,254 - INFO - [PROGRESS] microsoft/phi-4 - 16/288 pending prompts completed (16/288 total)
+2025-11-06 13:44:31,638 - INFO - [OK] Row 20 completed
+2025-11-06 13:44:31,649 - INFO - [OK] Row 18 completed
+2025-11-06 13:44:31,650 - INFO - [OK] Row 19 completed
+2025-11-06 13:44:31,650 - INFO - [OK] Row 17 completed
+2025-11-06 13:44:31,688 - INFO - [INFO] Processing row 21/288 - test_item: B7C
+2025-11-06 13:44:31,717 - INFO - [INFO] Processing row 22/288 - test_item: B8T
+2025-11-06 13:44:31,746 - INFO - [INFO] Processing row 23/288 - test_item: B8F
+2025-11-06 13:44:31,771 - INFO - [INFO] Processing row 24/288 - test_item: B8C
+2025-11-06 13:44:31,772 - INFO - [PROMPT] Here's the context: The plant is not dry. There is a hose in the garden. Mary says: "If the plant is...
+2025-11-06 13:44:31,772 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ...
+2025-11-06 13:44:31,773 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironi...
+2025-11-06 13:44:31,774 - INFO - [PROMPT] Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary s...
+2025-11-06 13:44:31,774 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:44:31,775 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:44:31,777 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:44:31,778 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:44:31,797 - INFO - [OK] Answer 20 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:44:31,797 - INFO - [PROGRESS] microsoft/phi-4 - 17/288 pending prompts completed (17/288 total)
+2025-11-06 13:44:31,863 - INFO - [OK] Answer 18 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:44:31,869 - INFO - [PROGRESS] microsoft/phi-4 - 18/288 pending prompts completed (18/288 total)
+2025-11-06 13:44:31,890 - INFO - [OK] Answer 19 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:44:31,890 - INFO - [PROGRESS] microsoft/phi-4 - 19/288 pending prompts completed (19/288 total)
+2025-11-06 13:44:31,910 - INFO - [OK] Answer 17 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:44:31,913 - INFO - [PROGRESS] microsoft/phi-4 - 20/288 pending prompts completed (20/288 total)
+2025-11-06 13:46:44,527 - INFO - [OK] Row 21 completed
+2025-11-06 13:46:44,542 - INFO - [OK] Row 23 completed
+2025-11-06 13:46:44,542 - INFO - [OK] Row 24 completed
+2025-11-06 13:46:44,542 - INFO - [OK] Row 22 completed
+2025-11-06 13:46:44,551 - INFO - [INFO] Processing row 25/288 - test_item: B9T
+2025-11-06 13:46:44,557 - INFO - [INFO] Processing row 26/288 - test_item: B9F
+2025-11-06 13:46:44,573 - INFO - [INFO] Processing row 27/288 - test_item: B9C
+2025-11-06 13:46:44,588 - INFO - [INFO] Processing row 28/288 - test_item: F1T
+2025-11-06 13:46:44,604 - INFO - [PROMPT] Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper o...
+2025-11-06 13:46:44,634 - INFO - [PROMPT] Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on...
+2025-11-06 13:46:44,634 - INFO - [PROMPT] Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: "If Su...
+2025-11-06 13:46:44,636 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-06 13:46:44,638 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:46:44,641 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:46:44,654 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:46:44,660 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:46:44,671 - INFO - [OK] Answer 21 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:46:44,673 - INFO - [PROGRESS] microsoft/phi-4 - 21/288 pending prompts completed (21/288 total)
+2025-11-06 13:46:44,693 - INFO - [OK] Answer 23 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:46:44,693 - INFO - [PROGRESS] microsoft/phi-4 - 22/288 pending prompts completed (22/288 total)
+2025-11-06 13:46:44,729 - INFO - [OK] Answer 24 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:46:44,731 - INFO - [PROGRESS] microsoft/phi-4 - 23/288 pending prompts completed (23/288 total)
+2025-11-06 13:46:44,741 - INFO - [OK] Answer 22 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:46:44,742 - INFO - [PROGRESS] microsoft/phi-4 - 24/288 pending prompts completed (24/288 total)
+2025-11-06 13:47:55,587 - INFO - [OK] Row 25 completed
+2025-11-06 13:47:55,597 - INFO - [OK] Row 26 completed
+2025-11-06 13:47:55,597 - INFO - [OK] Row 28 completed
+2025-11-06 13:47:55,598 - INFO - [OK] Row 27 completed
+2025-11-06 13:47:55,610 - INFO - [INFO] Processing row 29/288 - test_item: F1F
+2025-11-06 13:47:55,634 - INFO - [INFO] Processing row 30/288 - test_item: F2T
+2025-11-06 13:47:55,691 - INFO - [INFO] Processing row 31/288 - test_item: F2F
+2025-11-06 13:47:55,725 - INFO - [INFO] Processing row 32/288 - test_item: F3T
+2025-11-06 13:47:55,726 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-06 13:47:55,726 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-06 13:47:55,727 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-06 13:47:55,746 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-06 13:47:55,756 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:47:55,757 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:47:55,757 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:47:55,762 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:47:55,772 - INFO - [OK] Answer 25 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:47:55,772 - INFO - [PROGRESS] microsoft/phi-4 - 25/288 pending prompts completed (25/288 total)
+2025-11-06 13:47:55,776 - INFO - [OK] Answer 26 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:47:55,777 - INFO - [PROGRESS] microsoft/phi-4 - 26/288 pending prompts completed (26/288 total)
+2025-11-06 13:47:55,781 - INFO - [OK] Answer 28 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:47:55,782 - INFO - [PROGRESS] microsoft/phi-4 - 27/288 pending prompts completed (27/288 total)
+2025-11-06 13:47:55,818 - INFO - [OK] Answer 27 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:47:55,820 - INFO - [PROGRESS] microsoft/phi-4 - 28/288 pending prompts completed (28/288 total)
+2025-11-06 13:48:59,843 - INFO - [OK] Row 32 completed
+2025-11-06 13:48:59,849 - INFO - [OK] Row 31 completed
+2025-11-06 13:48:59,851 - INFO - [OK] Row 30 completed
+2025-11-06 13:48:59,851 - INFO - [OK] Row 29 completed
+2025-11-06 13:48:59,857 - INFO - [INFO] Processing row 33/288 - test_item: F3F
+2025-11-06 13:48:59,866 - INFO - [INFO] Processing row 34/288 - test_item: F4T
+2025-11-06 13:48:59,869 - INFO - [INFO] Processing row 35/288 - test_item: F4F
+2025-11-06 13:48:59,882 - INFO - [INFO] Processing row 36/288 - test_item: F5T
+2025-11-06 13:48:59,913 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-06 13:48:59,946 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-06 13:48:59,951 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-06 13:48:59,952 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-06 13:48:59,952 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:48:59,953 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:48:59,954 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:48:59,960 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:48:59,987 - INFO - [OK] Answer 32 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:48:59,989 - INFO - [PROGRESS] microsoft/phi-4 - 29/288 pending prompts completed (29/288 total)
+2025-11-06 13:49:00,033 - INFO - [OK] Answer 31 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:49:00,035 - INFO - [PROGRESS] microsoft/phi-4 - 30/288 pending prompts completed (30/288 total)
+2025-11-06 13:49:00,042 - INFO - [OK] Answer 30 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:49:00,043 - INFO - [PROGRESS] microsoft/phi-4 - 31/288 pending prompts completed (31/288 total)
+2025-11-06 13:49:00,048 - INFO - [OK] Answer 29 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:49:00,048 - INFO - [PROGRESS] microsoft/phi-4 - 32/288 pending prompts completed (32/288 total)
+2025-11-06 13:50:02,449 - INFO - [OK] Row 33 completed
+2025-11-06 13:50:02,458 - INFO - [OK] Row 36 completed
+2025-11-06 13:50:02,459 - INFO - [OK] Row 35 completed
+2025-11-06 13:50:02,459 - INFO - [OK] Row 34 completed
+2025-11-06 13:50:02,477 - INFO - [INFO] Processing row 37/288 - test_item: F5F
+2025-11-06 13:50:02,478 - INFO - [INFO] Processing row 38/288 - test_item: F6T
+2025-11-06 13:50:02,503 - INFO - [INFO] Processing row 39/288 - test_item: F6F
+2025-11-06 13:50:02,510 - INFO - [INFO] Processing row 40/288 - test_item: F7T
+2025-11-06 13:50:02,536 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-06 13:50:02,568 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-06 13:50:02,591 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-06 13:50:02,591 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-06 13:50:02,592 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:50:02,594 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:50:02,594 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:50:02,594 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:50:02,661 - INFO - [OK] Answer 33 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:50:02,661 - INFO - [PROGRESS] microsoft/phi-4 - 33/288 pending prompts completed (33/288 total)
+2025-11-06 13:50:02,669 - INFO - [OK] Answer 36 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:50:02,669 - INFO - [PROGRESS] microsoft/phi-4 - 34/288 pending prompts completed (34/288 total)
+2025-11-06 13:50:02,681 - INFO - [OK] Answer 35 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:50:02,681 - INFO - [PROGRESS] microsoft/phi-4 - 35/288 pending prompts completed (35/288 total)
+2025-11-06 13:50:02,684 - INFO - [OK] Answer 34 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:50:02,684 - INFO - [PROGRESS] microsoft/phi-4 - 36/288 pending prompts completed (36/288 total)
+2025-11-06 13:51:09,449 - INFO - [OK] Row 40 completed
+2025-11-06 13:51:09,455 - INFO - [OK] Row 39 completed
+2025-11-06 13:51:09,456 - INFO - [OK] Row 37 completed
+2025-11-06 13:51:09,456 - INFO - [OK] Row 38 completed
+2025-11-06 13:51:09,466 - INFO - [INFO] Processing row 41/288 - test_item: F7F
+2025-11-06 13:51:09,474 - INFO - [INFO] Processing row 42/288 - test_item: F8T
+2025-11-06 13:51:09,487 - INFO - [INFO] Processing row 43/288 - test_item: F8F
+2025-11-06 13:51:09,519 - INFO - [INFO] Processing row 44/288 - test_item: F9T
+2025-11-06 13:51:09,534 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-06 13:51:09,545 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, most people watch T...
+2025-11-06 13:51:09,545 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:51:09,549 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:51:09,550 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, most people watch T...
+2025-11-06 13:51:09,551 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-06 13:51:09,562 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:51:09,564 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:51:09,593 - INFO - [OK] Answer 40 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:51:09,596 - INFO - [PROGRESS] microsoft/phi-4 - 37/288 pending prompts completed (37/288 total)
+2025-11-06 13:51:09,611 - INFO - [OK] Answer 39 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:51:09,612 - INFO - [PROGRESS] microsoft/phi-4 - 38/288 pending prompts completed (38/288 total)
+2025-11-06 13:51:09,617 - INFO - [OK] Answer 37 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:51:09,617 - INFO - [PROGRESS] microsoft/phi-4 - 39/288 pending prompts completed (39/288 total)
+2025-11-06 13:51:09,635 - INFO - [OK] Answer 38 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:51:09,642 - INFO - [PROGRESS] microsoft/phi-4 - 40/288 pending prompts completed (40/288 total)
+2025-11-06 13:53:15,774 - INFO - [OK] Row 42 completed
+2025-11-06 13:53:15,788 - INFO - [OK] Row 41 completed
+2025-11-06 13:53:15,788 - INFO - [OK] Row 44 completed
+2025-11-06 13:53:15,771 - INFO - [OK] Row 43 completed
+2025-11-06 13:53:15,797 - INFO - [INFO] Processing row 45/288 - test_item: F9F
+2025-11-06 13:53:15,806 - INFO - [INFO] Processing row 46/288 - test_item: S1T
+2025-11-06 13:53:15,838 - INFO - [INFO] Processing row 47/288 - test_item: S1F
+2025-11-06 13:53:15,868 - INFO - [INFO] Processing row 48/288 - test_item: S1C
+2025-11-06 13:53:15,917 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-06 13:53:15,947 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Mary had said: "If ...
+2025-11-06 13:53:15,952 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not brin...
+2025-11-06 13:53:15,956 - INFO - [PROMPT] Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had s...
+2025-11-06 13:53:15,958 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:53:15,958 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:53:15,982 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:53:15,988 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:53:16,017 - INFO - [OK] Answer 42 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:53:16,021 - INFO - [PROGRESS] microsoft/phi-4 - 41/288 pending prompts completed (41/288 total)
+2025-11-06 13:53:16,034 - INFO - [OK] Answer 41 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:53:16,042 - INFO - [PROGRESS] microsoft/phi-4 - 42/288 pending prompts completed (42/288 total)
+2025-11-06 13:53:16,069 - INFO - [OK] Answer 44 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:53:16,069 - INFO - [PROGRESS] microsoft/phi-4 - 43/288 pending prompts completed (43/288 total)
+2025-11-06 13:53:16,077 - INFO - [OK] Answer 43 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:53:16,077 - INFO - [PROGRESS] microsoft/phi-4 - 44/288 pending prompts completed (44/288 total)
+2025-11-06 13:55:24,900 - INFO - [OK] Row 47 completed
+2025-11-06 13:55:24,907 - INFO - [OK] Row 46 completed
+2025-11-06 13:55:24,908 - INFO - [OK] Row 45 completed
+2025-11-06 13:55:24,908 - INFO - [OK] Row 48 completed
+2025-11-06 13:55:24,916 - INFO - [INFO] Processing row 49/288 - test_item: S2T
+2025-11-06 13:55:24,931 - INFO - [INFO] Processing row 50/288 - test_item: S2F
+2025-11-06 13:55:24,942 - INFO - [INFO] Processing row 51/288 - test_item: S2C
+2025-11-06 13:55:24,975 - INFO - [INFO] Processing row 52/288 - test_item: S3T
+2025-11-06 13:55:24,991 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: "If you...
+2025-11-06 13:55:25,006 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you ...
+2025-11-06 13:55:25,013 - INFO - [PROMPT] Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had s...
+2025-11-06 13:55:25,013 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: "If the fo...
+2025-11-06 13:55:25,013 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:55:25,014 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:55:25,014 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:55:25,014 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:55:25,056 - INFO - [OK] Answer 47 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:55:25,058 - INFO - [PROGRESS] microsoft/phi-4 - 45/288 pending prompts completed (45/288 total)
+2025-11-06 13:55:25,123 - INFO - [OK] Answer 46 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:55:25,125 - INFO - [PROGRESS] microsoft/phi-4 - 46/288 pending prompts completed (46/288 total)
+2025-11-06 13:55:25,154 - INFO - [OK] Answer 45 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:55:25,158 - INFO - [PROGRESS] microsoft/phi-4 - 47/288 pending prompts completed (47/288 total)
+2025-11-06 13:55:25,178 - INFO - [OK] Answer 48 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:55:25,179 - INFO - [PROGRESS] microsoft/phi-4 - 48/288 pending prompts completed (48/288 total)
+2025-11-06 13:57:33,599 - INFO - [OK] Row 52 completed
+2025-11-06 13:57:33,603 - INFO - [OK] Row 51 completed
+2025-11-06 13:57:33,593 - INFO - [OK] Row 49 completed
+2025-11-06 13:57:33,604 - INFO - [OK] Row 50 completed
+2025-11-06 13:57:33,609 - INFO - [INFO] Processing row 53/288 - test_item: S3F
+2025-11-06 13:57:33,616 - INFO - [INFO] Processing row 54/288 - test_item: S3C
+2025-11-06 13:57:33,647 - INFO - [INFO] Processing row 55/288 - test_item: S4T
+2025-11-06 13:57:33,694 - INFO - [INFO] Processing row 56/288 - test_item: S4F
+2025-11-06 13:57:33,722 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shove...
+2025-11-06 13:57:33,724 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:57:33,726 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Mary had said: "If the TV is on, Matthew wil...
+2025-11-06 13:57:33,737 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said:...
+2025-11-06 13:57:33,738 - INFO - [PROMPT] Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: "...
+2025-11-06 13:57:33,746 - INFO - [OK] Answer 52 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:57:33,746 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:57:33,747 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:57:33,747 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:57:33,747 - INFO - [PROGRESS] microsoft/phi-4 - 49/288 pending prompts completed (49/288 total)
+2025-11-06 13:57:33,777 - INFO - [OK] Answer 51 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:57:33,778 - INFO - [PROGRESS] microsoft/phi-4 - 50/288 pending prompts completed (50/288 total)
+2025-11-06 13:57:33,832 - INFO - [OK] Answer 49 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:57:33,836 - INFO - [PROGRESS] microsoft/phi-4 - 51/288 pending prompts completed (51/288 total)
+2025-11-06 13:57:33,885 - INFO - [OK] Answer 50 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:57:33,886 - INFO - [PROGRESS] microsoft/phi-4 - 52/288 pending prompts completed (52/288 total)
+2025-11-06 13:59:49,538 - INFO - [OK] Row 56 completed
+2025-11-06 13:59:49,547 - INFO - [OK] Row 53 completed
+2025-11-06 13:59:49,547 - INFO - [OK] Row 55 completed
+2025-11-06 13:59:49,553 - INFO - [INFO] Processing row 57/288 - test_item: S4C
+2025-11-06 13:59:49,558 - INFO - [OK] Row 54 completed
+2025-11-06 13:59:49,565 - INFO - [INFO] Processing row 58/288 - test_item: S5T
+2025-11-06 13:59:49,589 - INFO - [INFO] Processing row 59/288 - test_item: S5F
+2025-11-06 13:59:49,622 - INFO - [PROMPT] Here's the context: The TV is off. The radio is also off. Mary had said: "If the TV is on, Matthew w...
+2025-11-06 13:59:49,637 - INFO - [INFO] Processing row 60/288 - test_item: S5C
+2025-11-06 13:59:49,640 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Mary had said: "If the weat...
+2025-11-06 13:59:49,644 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Emma is wearing green. Mary...
+2025-11-06 13:59:49,647 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:59:49,668 - INFO - [PROMPT] Here's the context: Today, the weather is rainy. Also, it is very windy. Mary had said: "If the weat...
+2025-11-06 13:59:49,677 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:59:49,678 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:59:49,694 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 13:59:49,699 - INFO - [OK] Answer 56 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:59:49,704 - INFO - [PROGRESS] microsoft/phi-4 - 53/288 pending prompts completed (53/288 total)
+2025-11-06 13:59:49,728 - INFO - [OK] Answer 53 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:59:49,729 - INFO - [PROGRESS] microsoft/phi-4 - 54/288 pending prompts completed (54/288 total)
+2025-11-06 13:59:49,785 - INFO - [OK] Answer 55 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:59:49,787 - INFO - [PROGRESS] microsoft/phi-4 - 55/288 pending prompts completed (55/288 total)
+2025-11-06 13:59:49,829 - INFO - [OK] Answer 54 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 13:59:49,830 - INFO - [PROGRESS] microsoft/phi-4 - 56/288 pending prompts completed (56/288 total)
+2025-11-06 14:01:51,552 - INFO - [OK] Row 58 completed
+2025-11-06 14:01:51,560 - INFO - [OK] Row 57 completed
+2025-11-06 14:01:51,561 - INFO - [OK] Row 59 completed
+2025-11-06 14:01:51,566 - INFO - [INFO] Processing row 61/288 - test_item: S6T
+2025-11-06 14:01:51,566 - INFO - [OK] Row 60 completed
+2025-11-06 14:01:51,577 - INFO - [INFO] Processing row 62/288 - test_item: S6F
+2025-11-06 14:01:51,608 - INFO - [INFO] Processing row 63/288 - test_item: S6C
+2025-11-06 14:01:51,614 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Mary had said: "If the pl...
+2025-11-06 14:01:51,614 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:01:51,615 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Angela did not take a sel...
+2025-11-06 14:01:51,615 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:01:51,621 - INFO - [INFO] Processing row 64/288 - test_item: S7T
+2025-11-06 14:01:51,629 - INFO - [PROMPT] Here's the context: The playground is crowded.  Also, the streets are lively. Mary had said: "If the...
+2025-11-06 14:01:51,631 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Mary had said: "If...
+2025-11-06 14:01:51,631 - INFO - [OK] Answer 58 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:01:51,631 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:01:51,632 - INFO - [PROGRESS] microsoft/phi-4 - 57/288 pending prompts completed (57/288 total)
+2025-11-06 14:01:51,632 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:01:51,635 - INFO - [OK] Answer 57 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:01:51,635 - INFO - [PROGRESS] microsoft/phi-4 - 58/288 pending prompts completed (58/288 total)
+2025-11-06 14:01:51,637 - INFO - [OK] Answer 59 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:01:51,637 - INFO - [PROGRESS] microsoft/phi-4 - 59/288 pending prompts completed (59/288 total)
+2025-11-06 14:01:51,640 - INFO - [OK] Answer 60 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:01:51,640 - INFO - [PROGRESS] microsoft/phi-4 - 60/288 pending prompts completed (60/288 total)
+2025-11-06 14:03:53,944 - INFO - [OK] Row 63 completed
+2025-11-06 14:03:53,955 - INFO - [OK] Row 64 completed
+2025-11-06 14:03:53,942 - INFO - [OK] Row 62 completed
+2025-11-06 14:03:53,956 - INFO - [OK] Row 61 completed
+2025-11-06 14:03:53,964 - INFO - [INFO] Processing row 65/288 - test_item: S7F
+2025-11-06 14:03:53,965 - INFO - [INFO] Processing row 66/288 - test_item: S7C
+2025-11-06 14:03:53,965 - INFO - [INFO] Processing row 67/288 - test_item: S8T
+2025-11-06 14:03:53,984 - INFO - [INFO] Processing row 68/288 - test_item: S8F
+2025-11-06 14:03:53,992 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Paul did not get 5...
+2025-11-06 14:03:53,992 - INFO - [PROMPT] Here's the context: The lawn has not been mowed. Also, the flowers still need watering. Mary had sai...
+2025-11-06 14:03:54,025 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Mary had said: "If the d...
+2025-11-06 14:03:54,052 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Anthony did not read a b...
+2025-11-06 14:03:54,063 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:03:54,080 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:03:54,084 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:03:54,086 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:03:54,096 - INFO - [OK] Answer 63 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:03:54,097 - INFO - [PROGRESS] microsoft/phi-4 - 61/288 pending prompts completed (61/288 total)
+2025-11-06 14:03:54,134 - INFO - [OK] Answer 64 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:03:54,136 - INFO - [PROGRESS] microsoft/phi-4 - 62/288 pending prompts completed (62/288 total)
+2025-11-06 14:03:54,150 - INFO - [OK] Answer 62 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:03:54,150 - INFO - [PROGRESS] microsoft/phi-4 - 63/288 pending prompts completed (63/288 total)
+2025-11-06 14:03:54,157 - INFO - [OK] Answer 61 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:03:54,157 - INFO - [PROGRESS] microsoft/phi-4 - 64/288 pending prompts completed (64/288 total)
+2025-11-06 14:06:02,967 - INFO - [OK] Row 68 completed
+2025-11-06 14:06:02,981 - INFO - [OK] Row 67 completed
+2025-11-06 14:06:02,982 - INFO - [OK] Row 66 completed
+2025-11-06 14:06:02,983 - INFO - [OK] Row 65 completed
+2025-11-06 14:06:02,991 - INFO - [INFO] Processing row 69/288 - test_item: S8C
+2025-11-06 14:06:02,999 - INFO - [INFO] Processing row 70/288 - test_item: S9T
+2025-11-06 14:06:03,009 - INFO - [INFO] Processing row 71/288 - test_item: S9F
+2025-11-06 14:06:03,013 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary ha...
+2025-11-06 14:06:03,034 - INFO - [PROMPT] Here's the context: The dog is not playing. Also, the cat is sleeping. Mary had said: "If the dog is...
+2025-11-06 14:06:03,065 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Mary had said: "If the fridge is ...
+2025-11-06 14:06:03,081 - INFO - [INFO] Processing row 72/288 - test_item: S9C
+2025-11-06 14:06:03,088 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:06:03,088 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:06:03,089 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:06:03,089 - INFO - [PROMPT] Here's the context: The fridge is full. Also, the oven is on. Mary had said: "If the fridge is empty...
+2025-11-06 14:06:03,114 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:06:03,117 - INFO - [OK] Answer 68 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:06:03,117 - INFO - [PROGRESS] microsoft/phi-4 - 65/288 pending prompts completed (65/288 total)
+2025-11-06 14:06:03,140 - INFO - [OK] Answer 67 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:06:03,142 - INFO - [PROGRESS] microsoft/phi-4 - 66/288 pending prompts completed (66/288 total)
+2025-11-06 14:06:03,148 - INFO - [OK] Answer 66 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:06:03,149 - INFO - [PROGRESS] microsoft/phi-4 - 67/288 pending prompts completed (67/288 total)
+2025-11-06 14:06:03,155 - INFO - [OK] Answer 65 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:06:03,156 - INFO - [PROGRESS] microsoft/phi-4 - 68/288 pending prompts completed (68/288 total)
+2025-11-06 14:08:13,617 - INFO - [OK] Row 70 completed
+2025-11-06 14:08:13,632 - INFO - [OK] Row 71 completed
+2025-11-06 14:08:13,632 - INFO - [OK] Row 69 completed
+2025-11-06 14:08:13,616 - INFO - [OK] Row 72 completed
+2025-11-06 14:08:13,643 - INFO - [INFO] Processing row 73/288 - test_item: B1T
+2025-11-06 14:08:13,650 - INFO - [INFO] Processing row 74/288 - test_item: B1F
+2025-11-06 14:08:13,660 - INFO - [INFO] Processing row 75/288 - test_item: B1C
+2025-11-06 14:08:13,664 - INFO - [INFO] Processing row 76/288 - test_item: B2T
+2025-11-06 14:08:13,681 - INFO - [PROMPT] Aquí tens el context: En Joan té gana i hi ha pizza al forn. També hi ha pasta a la nevera. La Maria...
+2025-11-06 14:08:13,719 - INFO - [PROMPT] Aquí tens el context: En Joan té gana i no hi ha pizza al forn. Tampoc no hi ha pasta a la nevera. L...
+2025-11-06 14:08:13,720 - INFO - [PROMPT] Aquí tens el context: En Joan no té gana. Hi ha pasta a la nevera. La Maria diu: "Si en Joan té gana...
+2025-11-06 14:08:13,720 - INFO - [PROMPT] Aquí tens el context: La Núria té mal de cap i hi ha aspirines sobre la taula. També hi ha ibuprofèn...
+2025-11-06 14:08:13,721 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:08:13,730 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:08:13,735 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:08:13,737 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:08:13,767 - INFO - [OK] Answer 70 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:08:13,768 - INFO - [PROGRESS] microsoft/phi-4 - 69/288 pending prompts completed (69/288 total)
+2025-11-06 14:08:13,771 - INFO - [OK] Answer 71 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:08:13,772 - INFO - [PROGRESS] microsoft/phi-4 - 70/288 pending prompts completed (70/288 total)
+2025-11-06 14:08:13,775 - INFO - [OK] Answer 69 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:08:13,776 - INFO - [PROGRESS] microsoft/phi-4 - 71/288 pending prompts completed (71/288 total)
+2025-11-06 14:08:13,784 - INFO - [OK] Answer 72 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:08:13,784 - INFO - [PROGRESS] microsoft/phi-4 - 72/288 pending prompts completed (72/288 total)
+2025-11-06 14:10:42,804 - INFO - [OK] Row 75 completed
+2025-11-06 14:10:42,819 - INFO - [OK] Row 74 completed
+2025-11-06 14:10:42,819 - INFO - [OK] Row 73 completed
+2025-11-06 14:10:42,800 - INFO - [OK] Row 76 completed
+2025-11-06 14:10:42,840 - INFO - [INFO] Processing row 77/288 - test_item: B2F
+2025-11-06 14:10:42,841 - INFO - [INFO] Processing row 78/288 - test_item: B2C
+2025-11-06 14:10:42,861 - INFO - [INFO] Processing row 79/288 - test_item: B3T
+2025-11-06 14:10:42,866 - INFO - [INFO] Processing row 80/288 - test_item: B3F
+2025-11-06 14:10:42,882 - INFO - [PROMPT] Aquí tens el context: La Núria té mal de cap i no hi ha aspirines sobre la taula. Tampoc no hi ha ib...
+2025-11-06 14:10:42,917 - INFO - [PROMPT] Aquí tens el context: La Núria no té mal de cap. També hi ha ibuprofèn al calaix. La Maria diu: "Si ...
+2025-11-06 14:10:42,929 - INFO - [PROMPT] Aquí tens el context: La Llúcia té set i hi ha aigua a la nevera. També hi ha suc de poma al rebost....
+2025-11-06 14:10:42,960 - INFO - [PROMPT] Aquí tens el context: La Llúcia té set i no hi ha aigua a la nevera. Tampoc no hi ha suc de poma al ...
+2025-11-06 14:10:42,997 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:10:42,998 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:10:42,998 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:10:42,998 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:10:43,083 - INFO - [OK] Answer 75 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:10:43,084 - INFO - [PROGRESS] microsoft/phi-4 - 73/288 pending prompts completed (73/288 total)
+2025-11-06 14:10:43,104 - INFO - [OK] Answer 74 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:10:43,104 - INFO - [PROGRESS] microsoft/phi-4 - 74/288 pending prompts completed (74/288 total)
+2025-11-06 14:10:43,120 - INFO - [OK] Answer 73 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:10:43,121 - INFO - [PROGRESS] microsoft/phi-4 - 75/288 pending prompts completed (75/288 total)
+2025-11-06 14:10:43,165 - INFO - [OK] Answer 76 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:10:43,167 - INFO - [PROGRESS] microsoft/phi-4 - 76/288 pending prompts completed (76/288 total)
+2025-11-06 14:14:28,082 - INFO - [OK] Row 79 completed
+2025-11-06 14:14:28,084 - INFO - [OK] Row 80 completed
+2025-11-06 14:14:28,085 - INFO - [OK] Row 78 completed
+2025-11-06 14:14:28,078 - INFO - [OK] Row 77 completed
+2025-11-06 14:14:28,089 - INFO - [INFO] Processing row 81/288 - test_item: B3C
+2025-11-06 14:14:28,098 - INFO - [INFO] Processing row 82/288 - test_item: B4T
+2025-11-06 14:14:28,130 - INFO - [INFO] Processing row 83/288 - test_item: B4F
+2025-11-06 14:14:28,135 - INFO - [INFO] Processing row 84/288 - test_item: B4C
+2025-11-06 14:14:28,135 - INFO - [PROMPT] Aquí tens el context: La Llúcia no té set. Hi ha suc de poma al rebost. La Maria diu: "Si la Llúcia ...
+2025-11-06 14:14:28,136 - INFO - [PROMPT] Aquí tens el context: El mòbil del Pere no té bateria i hi ha un carregador al calaix. També hi ha u...
+2025-11-06 14:14:28,136 - INFO - [PROMPT] Aquí tens el context: El mòbil del Pere no té bateria i no hi ha cap carregador al calaix. Tampoc no...
+2025-11-06 14:14:28,143 - INFO - [PROMPT] Aquí tens el context: El mòbil del Pere està carregat. Hi ha un ordinador sobre la taula. La Maria d...
+2025-11-06 14:14:28,147 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:14:28,149 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:14:28,149 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:14:28,150 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:14:28,153 - INFO - [OK] Answer 79 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:14:28,154 - INFO - [PROGRESS] microsoft/phi-4 - 77/288 pending prompts completed (77/288 total)
+2025-11-06 14:14:28,157 - INFO - [OK] Answer 80 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:14:28,157 - INFO - [PROGRESS] microsoft/phi-4 - 78/288 pending prompts completed (78/288 total)
+2025-11-06 14:14:28,158 - INFO - [OK] Answer 78 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:14:28,159 - INFO - [PROGRESS] microsoft/phi-4 - 79/288 pending prompts completed (79/288 total)
+2025-11-06 14:14:28,160 - INFO - [OK] Answer 77 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:14:28,160 - INFO - [PROGRESS] microsoft/phi-4 - 80/288 pending prompts completed (80/288 total)
+2025-11-06 14:18:35,914 - INFO - [OK] Row 81 completed
+2025-11-06 14:18:35,926 - INFO - [OK] Row 82 completed
+2025-11-06 14:18:35,927 - INFO - [OK] Row 83 completed
+2025-11-06 14:18:35,927 - INFO - [OK] Row 84 completed
+2025-11-06 14:18:35,936 - INFO - [INFO] Processing row 85/288 - test_item: B5T
+2025-11-06 14:18:35,950 - INFO - [INFO] Processing row 86/288 - test_item: B5F
+2025-11-06 14:18:35,981 - INFO - [INFO] Processing row 87/288 - test_item: B5C
+2025-11-06 14:18:36,020 - INFO - [INFO] Processing row 88/288 - test_item: B6T
+2025-11-06 14:18:36,022 - INFO - [PROMPT] Aquí tens el context: El temps és plujós i hi ha un paraigua al paraigüer. També hi ha un impermeabl...
+2025-11-06 14:18:36,023 - INFO - [PROMPT] Aquí tens el context: El temps és plujós i no hi ha cap paraigua al paraigüer. Tampoc no hi ha cap i...
+2025-11-06 14:18:36,036 - INFO - [PROMPT] Aquí tens el context: El temps és serè. Hi ha un impermeable al cotxe. La Maria diu: "Si el temps és...
+2025-11-06 14:18:36,041 - INFO - [PROMPT] Aquí tens el context: La roda del cotxe està punxada i hi ha un inflador al garatge. També hi ha una...
+2025-11-06 14:18:36,047 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:18:36,055 - INFO - [OK] Answer 81 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:18:36,055 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:18:36,055 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:18:36,056 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:18:36,069 - INFO - [PROGRESS] microsoft/phi-4 - 81/288 pending prompts completed (81/288 total)
+2025-11-06 14:18:36,086 - INFO - [OK] Answer 82 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:18:36,088 - INFO - [PROGRESS] microsoft/phi-4 - 82/288 pending prompts completed (82/288 total)
+2025-11-06 14:18:36,114 - INFO - [OK] Answer 83 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:18:36,115 - INFO - [PROGRESS] microsoft/phi-4 - 83/288 pending prompts completed (83/288 total)
+2025-11-06 14:18:36,149 - INFO - [OK] Answer 84 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:18:36,149 - INFO - [PROGRESS] microsoft/phi-4 - 84/288 pending prompts completed (84/288 total)
+2025-11-06 14:22:32,764 - INFO - [OK] Row 87 completed
+2025-11-06 14:22:32,773 - INFO - [OK] Row 88 completed
+2025-11-06 14:22:32,773 - INFO - [OK] Row 86 completed
+2025-11-06 14:22:32,773 - INFO - [OK] Row 85 completed
+2025-11-06 14:22:32,783 - INFO - [INFO] Processing row 89/288 - test_item: B6F
+2025-11-06 14:22:32,805 - INFO - [INFO] Processing row 90/288 - test_item: B6C
+2025-11-06 14:22:32,846 - INFO - [INFO] Processing row 91/288 - test_item: B7T
+2025-11-06 14:22:32,847 - INFO - [INFO] Processing row 92/288 - test_item: B7F
+2025-11-06 14:22:32,847 - INFO - [PROMPT] Aquí tens el context: La roda del cotxe està punxada i no hi ha cap inflador al garatge. Tampoc no h...
+2025-11-06 14:22:32,848 - INFO - [PROMPT] Aquí tens el context: La roda del cotxe està inflada. Hi ha una bicicleta a la porta d'entrada. La M...
+2025-11-06 14:22:32,848 - INFO - [PROMPT] Aquí tens el context: La planta està seca i hi ha una regadora a la prestatgeria. També hi ha una mà...
+2025-11-06 14:22:32,869 - INFO - [PROMPT] Aquí tens el context: La planta està seca i no hi ha cap regadora a la prestatgeria. Tampoc no hi ha...
+2025-11-06 14:22:32,872 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:22:32,872 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:22:32,875 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:22:32,877 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:22:32,878 - INFO - [OK] Answer 87 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:22:32,884 - INFO - [PROGRESS] microsoft/phi-4 - 85/288 pending prompts completed (85/288 total)
+2025-11-06 14:22:32,889 - INFO - [OK] Answer 88 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:22:32,890 - INFO - [PROGRESS] microsoft/phi-4 - 86/288 pending prompts completed (86/288 total)
+2025-11-06 14:22:32,902 - INFO - [OK] Answer 86 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:22:32,913 - INFO - [PROGRESS] microsoft/phi-4 - 87/288 pending prompts completed (87/288 total)
+2025-11-06 14:22:32,922 - INFO - [OK] Answer 85 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:22:32,923 - INFO - [PROGRESS] microsoft/phi-4 - 88/288 pending prompts completed (88/288 total)
+2025-11-06 14:26:36,998 - INFO - [OK] Row 90 completed
+2025-11-06 14:26:37,010 - INFO - [OK] Row 92 completed
+2025-11-06 14:26:37,011 - INFO - [OK] Row 91 completed
+2025-11-06 14:26:37,011 - INFO - [OK] Row 89 completed
+2025-11-06 14:26:37,037 - INFO - [INFO] Processing row 93/288 - test_item: B7C
+2025-11-06 14:26:37,037 - INFO - [INFO] Processing row 94/288 - test_item: B8T
+2025-11-06 14:26:37,055 - INFO - [INFO] Processing row 95/288 - test_item: B8F
+2025-11-06 14:26:37,072 - INFO - [INFO] Processing row 96/288 - test_item: B8C
+2025-11-06 14:26:37,110 - INFO - [PROMPT] Aquí tens el context: La planta no està seca. Hi ha una mànega al jardí. La Maria diu: "Si la planta...
+2025-11-06 14:26:37,111 - INFO - [PROMPT] Aquí tens el context: La camisa del Jordi està arrugada i hi ha una planxa a l'armari. També hi ha u...
+2025-11-06 14:26:37,112 - INFO - [PROMPT] Aquí tens el context: La camisa del Jordi està arrugada i no hi ha cap planxa a l'armari. Tampoc no ...
+2025-11-06 14:26:37,121 - INFO - [PROMPT] Aquí tens el context: La camisa del Jordi no té arrugues. Hi ha una taula de planxar al balcó. La Ma...
+2025-11-06 14:26:37,125 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:26:37,125 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:26:37,128 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:26:37,129 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 14:26:37,155 - INFO - [OK] Answer 90 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:26:37,160 - INFO - [PROGRESS] microsoft/phi-4 - 89/288 pending prompts completed (89/288 total)
+2025-11-06 14:26:37,169 - INFO - [OK] Answer 92 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:26:37,170 - INFO - [PROGRESS] microsoft/phi-4 - 90/288 pending prompts completed (90/288 total)
+2025-11-06 14:26:37,175 - INFO - [OK] Answer 91 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:26:37,175 - INFO - [PROGRESS] microsoft/phi-4 - 91/288 pending prompts completed (91/288 total)
+2025-11-06 14:26:37,178 - INFO - [OK] Answer 89 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:26:37,178 - INFO - [PROGRESS] microsoft/phi-4 - 92/288 pending prompts completed (92/288 total)

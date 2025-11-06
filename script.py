@@ -9,19 +9,19 @@ Includes complete logging and error handling.
 import os
 import sys
 import logging
+from datetime import datetime
 import pandas as pd
 import torch
-from concurrent.futures import ThreadPoolExecutor, as_completed
-
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
-from script_models_config import MODELS
-from datetime import datetime
-from huggingface_hub import login
-# login(token="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")  # Commented out - token may be invalid
 
+# Disable HuggingFace Hub warnings
+os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
+os.environ['HF_HUB_DISABLE_TELEMETRY'] = '1'
+os.environ['HF_HUB_DISABLE_EXPERIMENTAL_WARNING'] = '1'
 
 # HuggingFace authentication token (for gated models)
-HF_TOKEN = None  # Set to None to skip authentication
+HF_TOKEN = "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"
+
 # ============================================================================
 # LOGGING CONFIGURATION
 # ============================================================================
@@ -39,16 +39,30 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# ============================================================================
 # CONFIGURATION
 # ============================================================================
 # List of models to process (each model has its own configuration)
+MODELS = [
+    # {"name": "mistralai/Mistral-7B-Instruct-v0.2", "use_qa_pipeline": False, "trust_remote_code": False},
+    {"name": "microsoft/phi-4", "use_qa_pipeline": False, "trust_remote_code": False},
+    {"name": "tiiuae/falcon-7b-instruct", "use_qa_pipeline": False, "trust_remote_code": False},  # Falcon is already integrated in transformers
+    {"name": "arcee-ai/Arcee-Blitz", "use_qa_pipeline": False, "trust_remote_code": False},
+    {"name": "arcee-ai/Virtuoso-Lite", "use_qa_pipeline": False, "trust_remote_code": False},
+    {"name": "inclusionAI/Ling-1T-FP8", "use_qa_pipeline": False, "trust_remote_code": True},
+    {"name": "moonshotai/Kimi-K2-Instruct-0905", "use_qa_pipeline": False, "trust_remote_code": True},
+    {"name": "distilbert-base-cased-distilled-squad", "use_qa_pipeline": True, "trust_remote_code": False},
+    # Models that require authentication:
+    {"name": "google/gemma-3-1b-it", "use_qa_pipeline": False, "trust_remote_code": False},  # Requires gated access
+]
 
-INPUT_FILE = "prompts/prompts_all.csv"  # Input CSV file path
+INPUT_FILE = "prompts/example.csv"  # Input CSV file path
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
 OUTPUT_DIR = "answers"  # Directory for output files
 CSV_SEPARATOR = ";"
-MAX_WORKERS = 4  # Number of parallel workers for processing prompts
+
+
 
 # ============================================================================
 # FUNCTIONS
@@ -74,54 +88,23 @@ def load_model(model_name, use_qa_pipeline=False, trust_remote_code=False):
             tokenizer = AutoTokenizer.from_pretrained(
                 model_name,
                 trust_remote_code=trust_remote_code,
-                token=HF_TOKEN,
+                token=HF_TOKEN
             )
-            # Configure padding for decoder-only models
-            tokenizer.padding_side = 'left'
             if tokenizer.pad_token is None:
                 tokenizer.pad_token = tokenizer.eos_token
 
-            # Load model with GPU support
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
                 trust_remote_code=trust_remote_code,
-                token=HF_TOKEN,
-                torch_dtype=torch.float16 if DEVICE == "cuda" else torch.float32,
-                device_map="auto" if DEVICE == "cuda" else None,
-            )
-
-            # Only manually move to device if device_map is not used
-            if DEVICE != "cuda":
-                model = model.to(DEVICE)
-
+                token=HF_TOKEN
+            ).to(DEVICE)
             model.config.pad_token_id = tokenizer.pad_token_id
-            logger.info(f"[OK] Model and tokenizer loaded successfully on {DEVICE}")
+            logger.info(f"[OK] Model and tokenizer loaded successfully")
             return {'type': 'generative', 'model': model, 'tokenizer': tokenizer}
     except Exception as e:
         logger.error(f"[ERROR] Error loading model: {str(e)}")
         raise
 
-def unload_model(model_dict, model_name):
-    """Unload model from memory and free up resources."""
-    logger.info(f"[INFO] Unloading model: {model_name}")
-
-    try:
-        if model_dict['type'] == 'generative':
-            # Move model to CPU before deleting (helps with CUDA memory)
-            if hasattr(model_dict['model'], 'to'):
-                model_dict['model'].to('cpu')
-            del model_dict['model']
-            del model_dict['tokenizer']
-        else:
-            del model_dict['model']
-
-        # Clear CUDA cache if using GPU
-        if DEVICE == "cuda":
-            torch.cuda.empty_cache()
-
-        logger.info(f"[OK] Model {model_name} unloaded successfully")
-    except Exception as e:
-        logger.warning(f"[WARNING] Error unloading model: {str(e)}")
 
 def load_input_file():
     """Load and validate the input CSV file."""
@@ -142,6 +125,7 @@ def load_input_file():
         logger.error(f"[ERROR] Error reading CSV: {str(e)}")
         raise
 
+
 def parse_prompt(raw_prompt):
     """Parse the raw prompt to extract context and question."""
     sentences = raw_prompt.split(".")
@@ -161,6 +145,7 @@ def parse_prompt(raw_prompt):
 
     return context, question
 
+
 def generate_answer(context, question, model_dict):
     """Generate an answer using the loaded model."""
     if model_dict['type'] == 'qa':
@@ -172,37 +157,24 @@ def generate_answer(context, question, model_dict):
         inputs = tokenizer(full_prompt, return_tensors="pt").to(DEVICE)
 
         with torch.no_grad():
-            # Preparar parámetros de generación
-            gen_kwargs = {
-                "max_new_tokens": 300,
-                "pad_token_id": tokenizer.pad_token_id,
-                "eos_token_id": tokenizer.eos_token_id
-            }
-
-            # Solo añadir temperature y do_sample si temperature > 0
-            if TEMPERATURE > 0:
-                gen_kwargs["temperature"] = TEMPERATURE
-                gen_kwargs["do_sample"] = True
-
-            outputs = model_dict['model'].generate(**inputs, **gen_kwargs)
+            outputs = model_dict['model'].generate(
+                **inputs,
+                max_new_tokens=50,
+                temperature=TEMPERATURE if TEMPERATURE > 0 else None,
+                do_sample=TEMPERATURE > 0,
+                pad_token_id=tokenizer.pad_token_id
+            )
 
         answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
         return answer.replace(full_prompt, "").strip()
 
+
 def process_row(idx, row, total_rows, model_dict):
     """Process a single row and return the answer."""
     try:
+        logger.info(f"[INFO] Processing row {idx + 1}/{total_rows}")
+
         raw_prompt = str(row.prompt)
-
-        # Log which prompt is being processed
-        test_item = getattr(row, 'test_item', None)
-        if test_item:
-            logger.info(f"[INFO] Processing row {idx + 1}/{total_rows} - test_item: {test_item}")
-        else:
-            logger.info(f"[INFO] Processing row {idx + 1}/{total_rows}")
-
-        logger.info(f"[PROMPT] {raw_prompt[:100]}..." if len(raw_prompt) > 100 else f"[PROMPT] {raw_prompt}")
-
         context, question = parse_prompt(raw_prompt)
         answer = generate_answer(context, question, model_dict)
 
@@ -212,6 +184,7 @@ def process_row(idx, row, total_rows, model_dict):
     except Exception as e:
         logger.error(f"[ERROR] Error processing row {idx + 1}: {str(e)}")
         return idx, f"ERROR: {str(e)}"
+
 
 def process_prompts_sequential(df, model_dict, model_name):
     """Process all prompts."""
@@ -241,65 +214,11 @@ def process_prompts_sequential(df, model_dict, model_name):
 
     logger.info(f"[OK] All rows processed for {model_name}")
 
-def process_prompts_parallel(df, model_dict, model_name):
-    """Process all prompts in parallel using ThreadPoolExecutor."""
-    total_rows = len(df)
-
-    logger.info(f"[INFO] Starting parallel processing for {model_name} with {MAX_WORKERS} workers")
-
-    # Load existing answers if they exist
-    answers, completed_count = load_existing_answers(df, model_name)
-
-    if completed_count > 0:
-        logger.info(f"[INFO] Resuming from row {completed_count + 1}")
-
-    # Create a list of pending tasks (indices that need processing)
-    pending_tasks = []
-    for idx, row in enumerate(df.itertuples(index=False)):
-        # Skip if a valid answer already exists (not empty and not an error)
-        if pd.notna(answers[idx]) and not str(answers[idx]).startswith("ERROR:"):
-            logger.info(f"[SKIP] Row {idx + 1}/{total_rows} already completed, skipping")
-            continue
-        pending_tasks.append((idx, row))
-
-    if not pending_tasks:
-        logger.info(f"[OK] All rows already processed for {model_name}")
-        return
-
-    logger.info(f"[INFO] Processing {len(pending_tasks)} pending prompts...")
-
-    # Process tasks in parallel
-    completed_tasks = 0
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        # Submit all pending tasks
-        future_to_idx = {
-            executor.submit(process_row, idx, row, total_rows, model_dict): idx
-            for idx, row in pending_tasks
-        }
-
-        # Process completed tasks as they finish
-        for future in as_completed(future_to_idx):
-            idx = future_to_idx[future]
-            try:
-                idx_result, answer = future.result()
-                answers[idx_result] = answer
-
-                # Save immediately after generating each answer
-                save_single_answer(df, answers, model_name, idx_result)
-
-                completed_tasks += 1
-                logger.info(f"[PROGRESS] {model_name} - {completed_tasks}/{len(pending_tasks)} pending prompts completed ({completed_tasks + completed_count}/{total_rows} total)")
-
-            except Exception as e:
-                logger.error(f"[ERROR] Task for row {idx + 1} failed: {str(e)}")
-                answers[idx] = f"ERROR: {str(e)}"
-
-    logger.info(f"[OK] All rows processed for {model_name}")
-
 def get_output_file_path(model_name):
     """Get the output file path for a model."""
     safe_model_name = model_name.replace("/", "-")
     return os.path.join(OUTPUT_DIR, f"{safe_model_name}_answers.csv")
+
 
 def load_existing_answers(df, model_name):
     """Load existing answers from a previous execution if available."""
@@ -322,18 +241,6 @@ def load_existing_answers(df, model_name):
     # Return list of None if no previous answers
     return [None] * len(df), 0
 
-def check_pending_answers(df, model_name):
-    """Check if there are pending answers to complete for a model."""
-    answers, completed_count = load_existing_answers(df, model_name)
-    total_rows = len(df)
-
-    # Check how many valid answers exist (not None, not empty, not errors)
-    pending_count = 0
-    for answer in answers:
-        if pd.isna(answer) or str(answer).startswith("ERROR:"):
-            pending_count += 1
-
-    return pending_count, answers
 
 def save_single_answer(df, answers, model_name, current_idx):
     """Save answers incrementally to CSV file."""
@@ -346,33 +253,26 @@ def save_single_answer(df, answers, model_name, current_idx):
         logger.error(f"[ERROR] Error saving answer {current_idx + 1}: {str(e)}")
         raise
 
+
 def process_single_model(model_config, df):
     """Process prompts with a single model."""
     model_name = model_config["name"]
     use_qa_pipeline = model_config.get("use_qa_pipeline", False)
     trust_remote_code = model_config.get("trust_remote_code", False)
 
-    logger.info(f"[INFO] ===== Starting processing for model: {model_name} =====")
-
-    # Check if there are pending answers before loading the model
-    pending_count, _ = check_pending_answers(df, model_name)
-
-    if pending_count == 0:
-        logger.info(f"[SKIP] Model {model_name} has all answers completed, skipping model load")
-        return
-
-    logger.info(f"[INFO] Model {model_name} has {pending_count} pending answers, loading model...")
-
-    model_dict = load_model(model_name, use_qa_pipeline, trust_remote_code)
-
     try:
-        # Use parallel processing for better performance
-        process_prompts_parallel(df, model_dict, model_name)
-    finally:
-        # Always unload the model, even if processing fails
-        unload_model(model_dict, model_name)
+        logger.info(f"[INFO] ===== Starting processing for model: {model_name} =====")
 
-    logger.info(f"[OK] ===== Completed processing for model: {model_name} =====\n")
+        model_dict = load_model(model_name, use_qa_pipeline, trust_remote_code)
+        process_prompts_sequential(df, model_dict, model_name)
+
+
+        logger.info(f"[OK] ===== Completed processing for model: {model_name} =====\n")
+
+    except Exception as e:
+        logger.error(f"[ERROR] Error processing model {model_name}: {str(e)}")
+        raise
+
 
 def process_all_models(df):
     """Process all models sequentially."""
@@ -386,7 +286,7 @@ def process_all_models(df):
             logger.info(f"[INFO] Processing model {idx}/{total_models}: {model_name}")
 
             process_single_model(model_config, df)
-
+            
             successful_models.append(model_name)
             logger.info(f"[OK] Model {model_name} completed successfully ({len(successful_models)}/{total_models})")
 
@@ -410,21 +310,10 @@ def process_all_models(df):
 
     return successful_models, failed_models
 
+
 def main():
     """Main execution function."""
     try:
-        # Log GPU information
-        logger.info(f"[INFO] CUDA available: {torch.cuda.is_available()}")
-        if torch.cuda.is_available():
-            logger.info(f"[INFO] CUDA device count: {torch.cuda.device_count()}")
-            logger.info(f"[INFO] Current CUDA device: {torch.cuda.current_device()}")
-            logger.info(f"[INFO] CUDA device name: {torch.cuda.get_device_name(0)}")
-        else:
-            logger.warning(f"[WARNING] No CUDA device detected. Running on CPU.")
-
-        logger.info(f"[INFO] Selected device: {DEVICE}")
-        logger.info(f"[INFO] Max workers for parallel processing: {MAX_WORKERS}")
-
         os.makedirs(OUTPUT_DIR, exist_ok=True)
         df = load_input_file()
         successful_models, failed_models = process_all_models(df)

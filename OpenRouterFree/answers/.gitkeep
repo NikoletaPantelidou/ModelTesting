@@ -1,0 +1,3 @@
+# This file ensures the answers directory is tracked by git
+# Answer files are gitignored but the directory structure is preserved
+

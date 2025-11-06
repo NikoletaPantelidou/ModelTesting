@@ -1,0 +1,54 @@
+2025-11-06 21:03:32,461 - INFO - [OK] File loaded: 288 rows, columns: ['test_item', 'language', 'prompt']
+2025-11-06 21:03:32,462 - INFO - [INFO] Processing model 1/8: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-06 21:03:32,462 - INFO - [INFO] ===== Starting processing for model: mistralai/Mistral-7B-Instruct-v0.2 =====
+2025-11-06 21:03:32,464 - INFO - [INFO] Found existing answers file: C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\mistralai-Mistral-7B-Instruct-v0.2_answers.csv
+2025-11-06 21:03:32,465 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-06 21:03:32,465 - INFO - [SKIP] Model mistralai/Mistral-7B-Instruct-v0.2 has all answers completed, skipping model load
+2025-11-06 21:03:32,465 - INFO - [OK] Model mistralai/Mistral-7B-Instruct-v0.2 completed successfully (1/8)
+2025-11-06 21:03:32,465 - INFO - [INFO] Processing model 2/8: tiiuae/falcon-7b-instruct
+2025-11-06 21:03:32,466 - INFO - [INFO] ===== Starting processing for model: tiiuae/falcon-7b-instruct =====
+2025-11-06 21:03:32,466 - INFO - [INFO] Model tiiuae/falcon-7b-instruct has 288 pending answers, loading model...
+2025-11-06 21:03:32,466 - INFO - [INFO] Loading model: tiiuae/falcon-7b-instruct (device: cpu)
+2025-11-06 21:03:55,393 - INFO - [OK] Model and tokenizer loaded successfully
+2025-11-06 21:03:55,397 - INFO - [INFO] Starting sequential processing for tiiuae/falcon-7b-instruct
+2025-11-06 21:03:55,417 - INFO - [INFO] Processing row 1/288
+2025-11-06 21:04:25,437 - INFO - [OK] Row 1 completed
+2025-11-06 21:04:25,498 - INFO - [OK] Answer 1 saved to C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:04:25,499 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 1/288 rows completed
+2025-11-06 21:04:25,499 - INFO - [INFO] Processing row 2/288
+2025-11-06 21:04:34,157 - INFO - [OK] Row 2 completed
+2025-11-06 21:04:34,161 - INFO - [OK] Answer 2 saved to C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:04:34,161 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 2/288 rows completed
+2025-11-06 21:04:34,161 - INFO - [INFO] Processing row 3/288
+2025-11-06 21:04:48,123 - INFO - [OK] Row 3 completed
+2025-11-06 21:04:48,158 - INFO - [OK] Answer 3 saved to C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:04:48,158 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 3/288 rows completed
+2025-11-06 21:04:48,158 - INFO - [INFO] Processing row 4/288
+2025-11-06 21:05:18,392 - INFO - [OK] Row 4 completed
+2025-11-06 21:05:18,428 - INFO - [OK] Answer 4 saved to C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:05:18,428 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 4/288 rows completed
+2025-11-06 21:05:18,428 - INFO - [INFO] Processing row 5/288
+2025-11-06 21:05:24,738 - INFO - [OK] Row 5 completed
+2025-11-06 21:05:24,741 - INFO - [OK] Answer 5 saved to C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:05:24,741 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 5/288 rows completed
+2025-11-06 21:05:24,741 - INFO - [INFO] Processing row 6/288
+2025-11-06 21:05:30,959 - INFO - [OK] Row 6 completed
+2025-11-06 21:05:30,962 - INFO - [OK] Answer 6 saved to C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:05:30,963 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 6/288 rows completed
+2025-11-06 21:05:30,963 - INFO - [INFO] Processing row 7/288
+2025-11-06 21:05:39,386 - INFO - [OK] Row 7 completed
+2025-11-06 21:05:39,389 - INFO - [OK] Answer 7 saved to C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:05:39,389 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 7/288 rows completed
+2025-11-06 21:05:39,389 - INFO - [INFO] Processing row 8/288
+2025-11-06 21:05:45,446 - INFO - [OK] Row 8 completed
+2025-11-06 21:05:45,448 - INFO - [OK] Answer 8 saved to C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:05:45,449 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 8/288 rows completed
+2025-11-06 21:05:45,449 - INFO - [INFO] Processing row 9/288
+2025-11-06 21:05:52,365 - INFO - [OK] Row 9 completed
+2025-11-06 21:05:52,388 - INFO - [OK] Answer 9 saved to C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:05:52,388 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 9/288 rows completed
+2025-11-06 21:05:52,388 - INFO - [INFO] Processing row 10/288
+2025-11-06 21:06:05,738 - INFO - [OK] Row 10 completed
+2025-11-06 21:06:05,775 - INFO - [OK] Answer 10 saved to C:\Users\manel\PyCharmMiscProject\HuggingFace\answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:06:05,776 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 10/288 rows completed
+2025-11-06 21:06:05,776 - INFO - [INFO] Processing row 11/288

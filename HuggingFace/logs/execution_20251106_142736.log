@@ -1,0 +1,14 @@
+2025-11-06 14:27:36,804 - INFO - ================================================================================
+2025-11-06 14:27:36,804 - INFO - INICIANDO EJECUCIÓN - HUGGINGFACE MODELS
+2025-11-06 14:27:36,804 - INFO - ================================================================================
+2025-11-06 14:27:36,805 - INFO - ✓ Cargados 288 prompts desde C:\Users\manel\PyCharmMiscProject\HuggingFace\prompts\prompts_all.csv
+2025-11-06 14:27:36,805 - WARNING - ⚠ GPU no disponible, usando CPU (será más lento)
+2025-11-06 14:27:36,805 - INFO - 
+================================================================================
+2025-11-06 14:27:36,805 - INFO - Procesando modelo: microsoft/phi-4
+2025-11-06 14:27:36,805 - INFO - ================================================================================
+2025-11-06 14:27:36,806 - INFO - ✓ Cargadas 0 respuestas existentes
+2025-11-06 14:27:36,806 - INFO - Cargando modelo microsoft/phi-4...
+2025-11-06 14:27:36,806 - INFO - Usando dispositivo: cpu
+2025-11-06 14:28:30,997 - INFO - ✓ Modelo cargado exitosamente
+2025-11-06 14:28:31,010 - INFO - [1/288] Procesando B1T...
