@@ -1,0 +1,248 @@
+2025-11-04 13:53:29,470 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-04 13:53:29,470 - INFO - [INFO] API: https://ollama.com/api
+2025-11-04 13:53:29,470 - INFO - [INFO] Mode: Sequential
+2025-11-04 13:53:29,882 - INFO - [OK] Ollama API is accessible
+2025-11-04 13:53:29,896 - INFO - [OK] File loaded: 288 rows
+2025-11-04 13:53:29,900 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-04 13:53:29,900 - INFO - [INFO] Processing model 1/3: gpt-oss:120b-cloud
+2025-11-04 13:53:29,900 - INFO - [INFO] ===== Starting: gpt-oss:120b-cloud =====
+2025-11-04 13:53:29,904 - INFO - [INFO] Found existing answers file: answers\gpt-oss-120b-cloud_answers.csv
+2025-11-04 13:53:29,905 - INFO - [INFO] Existing progress: 288/288 answers completed, 0 errors, 0 pending
+2025-11-04 13:53:29,905 - INFO - [SKIP] gpt-oss:120b-cloud already completed
+2025-11-04 13:53:29,905 - INFO - [INFO] Processing model 2/3: glm-4.6:cloud
+2025-11-04 13:53:29,905 - INFO - [INFO] ===== Starting: glm-4.6:cloud =====
+2025-11-04 13:53:29,908 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-04 13:53:29,908 - INFO - [INFO] Existing progress: 222/288 answers completed, 9 errors, 66 pending
+2025-11-04 13:53:29,909 - INFO - [INFO] Pending items: S9T, S9F, S9C, B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T, B4F, B4C, B5T, B5F, B5C, B6T, B6F...
+2025-11-04 13:53:29,909 - INFO - [INFO] glm-4.6:cloud has 75 pending answers
+2025-11-04 13:53:29,909 - INFO - [INFO] Starting sequential processing for glm-4.6:cloud
+2025-11-04 13:53:29,911 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-04 13:53:29,911 - INFO - [INFO] Existing progress: 222/288 answers completed, 9 errors, 66 pending
+2025-11-04 13:53:29,912 - INFO - [INFO] Pending items: S9T, S9F, S9C, B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T, B4F, B4C, B5T, B5F, B5C, B6T, B6F...
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 1/288 [B1T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 2/288 [B1F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 3/288 [B1C] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 4/288 [B2T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 5/288 [B2F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 6/288 [B2C] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 7/288 [B3T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 8/288 [B3F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 9/288 [B3C] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 10/288 [B4T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 11/288 [B4F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 12/288 [B4C] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 13/288 [B5T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 14/288 [B5F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 15/288 [B5C] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 16/288 [B6T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 17/288 [B6F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 18/288 [B6C] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 19/288 [B7T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 20/288 [B7F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 21/288 [B7C] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 22/288 [B8T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 23/288 [B8F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 24/288 [B8C] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 25/288 [B9T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 26/288 [B9F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 27/288 [B9C] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 28/288 [F1T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 29/288 [F1F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 30/288 [F2T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 31/288 [F2F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 32/288 [F3T] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 33/288 [F3F] already completed
+2025-11-04 13:53:29,913 - INFO - [SKIP] Row 34/288 [F4T] already completed
+2025-11-04 13:53:29,914 - INFO - [SKIP] Row 35/288 [F4F] already completed
+2025-11-04 13:53:29,914 - INFO - [SKIP] Row 36/288 [F5T] already completed
+2025-11-04 13:53:29,914 - INFO - [SKIP] Row 37/288 [F5F] already completed
+2025-11-04 13:53:29,914 - INFO - [SKIP] Row 38/288 [F6T] already completed
+2025-11-04 13:53:29,914 - INFO - [SKIP] Row 39/288 [F6F] already completed
+2025-11-04 13:53:29,914 - INFO - [SKIP] Row 40/288 [F7T] already completed
+2025-11-04 13:53:29,914 - INFO - [SKIP] Row 41/288 [F7F] already completed
+2025-11-04 13:53:29,914 - INFO - [SKIP] Row 42/288 [F8T] already completed
+2025-11-04 13:53:29,914 - INFO - [SKIP] Row 43/288 [F8F] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 44/288 [F9T] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 45/288 [F9F] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 46/288 [S1T] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 47/288 [S1F] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 48/288 [S1C] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 49/288 [S2T] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 50/288 [S2F] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 51/288 [S2C] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 52/288 [S3T] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 53/288 [S3F] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 54/288 [S3C] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 55/288 [S4T] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 56/288 [S4F] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 57/288 [S4C] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 58/288 [S5T] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 59/288 [S5F] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 60/288 [S5C] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 61/288 [S6T] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 62/288 [S6F] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 63/288 [S6C] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 64/288 [S7T] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 65/288 [S7F] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 66/288 [S7C] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 67/288 [S8T] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 68/288 [S8F] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 69/288 [S8C] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 70/288 [S9T] already completed
+2025-11-04 13:53:29,925 - INFO - [SKIP] Row 71/288 [S9F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 72/288 [S9C] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 73/288 [B1T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 74/288 [B1F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 75/288 [B1C] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 76/288 [B2T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 77/288 [B2F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 78/288 [B2C] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 79/288 [B3T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 80/288 [B3F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 81/288 [B3C] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 82/288 [B4T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 83/288 [B4F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 84/288 [B4C] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 85/288 [B5T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 86/288 [B5F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 87/288 [B5C] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 88/288 [B6T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 89/288 [B6F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 90/288 [B6C] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 91/288 [B7T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 92/288 [B7F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 93/288 [B7C] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 94/288 [B8T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 95/288 [B8F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 96/288 [B8C] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 97/288 [B9T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 98/288 [B9F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 99/288 [B9C] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 100/288 [F1T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 101/288 [F1F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 102/288 [F2T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 103/288 [F2F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 104/288 [F3T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 105/288 [F3F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 106/288 [F4T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 107/288 [F4F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 108/288 [F5T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 109/288 [F5F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 110/288 [F6T] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 111/288 [F6F] already completed
+2025-11-04 13:53:29,926 - INFO - [SKIP] Row 112/288 [F7T] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 113/288 [F7F] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 114/288 [F8T] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 115/288 [F8F] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 116/288 [F9T] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 117/288 [F9F] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 118/288 [S1T] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 119/288 [S1F] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 120/288 [S1C] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 121/288 [S2T] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 122/288 [S2F] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 123/288 [S2C] already completed
+2025-11-04 13:53:29,927 - INFO - [SKIP] Row 124/288 [S3T] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 125/288 [S3F] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 126/288 [S3C] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 127/288 [S4T] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 128/288 [S4F] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 129/288 [S4C] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 130/288 [S5T] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 131/288 [S5F] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 132/288 [S5C] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 133/288 [S6T] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 134/288 [S6F] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 135/288 [S6C] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 136/288 [S7T] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 137/288 [S7F] already completed
+2025-11-04 13:53:29,936 - INFO - [SKIP] Row 138/288 [S7C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 139/288 [S8T] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 140/288 [S8F] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 141/288 [S8C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 142/288 [S9T] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 143/288 [S9F] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 144/288 [S9C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 145/288 [B1T] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 146/288 [B1F] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 147/288 [B1C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 148/288 [B2T] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 149/288 [B2F] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 150/288 [B2C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 151/288 [B3T] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 152/288 [B3F] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 153/288 [B3C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 154/288 [B4T] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 155/288 [B4F] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 156/288 [B4C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 157/288 [B5T] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 158/288 [B5F] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 159/288 [B5C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 160/288 [B6T] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 161/288 [B6F] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 162/288 [B6C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 163/288 [B7T] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 164/288 [B7F] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 165/288 [B7C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 166/288 [B8T] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 167/288 [B8F] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 168/288 [B8C] already completed
+2025-11-04 13:53:29,937 - INFO - [SKIP] Row 169/288 [B9T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 170/288 [B9F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 171/288 [B9C] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 172/288 [F1T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 173/288 [F1F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 174/288 [F2T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 175/288 [F2F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 176/288 [F3T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 177/288 [F3F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 178/288 [F4T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 179/288 [F4F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 180/288 [F5T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 181/288 [F5F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 182/288 [F6T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 183/288 [F6F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 184/288 [F7T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 185/288 [F7F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 186/288 [F8T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 187/288 [F8F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 188/288 [F9T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 189/288 [F9F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 190/288 [S1T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 191/288 [S1F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 192/288 [S1C] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 193/288 [S2T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 194/288 [S2F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 195/288 [S2C] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 196/288 [S3T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 197/288 [S3F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 198/288 [S3C] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 199/288 [S4T] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 200/288 [S4F] already completed
+2025-11-04 13:53:29,938 - INFO - [SKIP] Row 201/288 [S4C] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 202/288 [S5T] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 203/288 [S5F] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 204/288 [S5C] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 205/288 [S6T] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 206/288 [S6F] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 207/288 [S6C] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 208/288 [S7T] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 209/288 [S7F] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 210/288 [S7C] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 211/288 [S8T] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 212/288 [S8F] already completed
+2025-11-04 13:53:29,939 - INFO - [SKIP] Row 213/288 [S8C] already completed
+2025-11-04 13:53:29,939 - INFO - [INFO] Processing Row 214/288 [S9T]
+2025-11-04 13:53:29,939 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Maria aveva detto: "Se il frigo...
+2025-11-04 13:53:33,959 - INFO - [ANSWER] the oven is broken.) * Maria's statement: "Se il frigorifero è vuoto, Anna porterà delle ciambelle."...
+2025-11-04 13:53:33,959 - INFO - [OK] Row 214 [S9T] completed successfully
+2025-11-04 13:53:33,969 - INFO - [OK] Answer 214 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 13:53:33,969 - INFO - [PROGRESS] glm-4.6:cloud - 214/288 processed | 214 successful | 8 errors
+2025-11-04 13:53:33,969 - INFO - [INFO] Processing Row 215/288 [S9F]
+2025-11-04 13:53:33,969 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Anna non ha portato delle ciamb...
+2025-11-04 13:53:40,253 - INFO - [ANSWER] Yes or No with brief explanation).
+2025-11-04 13:53:40,253 - INFO - [OK] Row 215 [S9F] completed successfully
+2025-11-04 13:53:40,256 - INFO - [OK] Answer 215 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-04 13:53:40,256 - INFO - [PROGRESS] glm-4.6:cloud - 215/288 processed | 215 successful | 7 errors
+2025-11-04 13:53:40,256 - INFO - [INFO] Processing Row 216/288 [S9C]
+2025-11-04 13:53:40,256 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è pieno. Inoltre, il forno è acceso. Maria aveva detto: "Se il frig...

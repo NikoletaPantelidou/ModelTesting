@@ -1,0 +1,664 @@
+2025-11-06 12:38:22,276 - INFO - [INFO] CUDA available: False
+2025-11-06 12:38:22,277 - WARNING - [WARNING] No CUDA device detected. Running on CPU.
+2025-11-06 12:38:22,277 - INFO - [INFO] Selected device: cpu
+2025-11-06 12:38:22,277 - INFO - [INFO] Max workers for parallel processing: 4
+2025-11-06 12:38:22,281 - INFO - [OK] File loaded: 288 rows, columns: ['test_item', 'language', 'prompt']
+2025-11-06 12:38:22,281 - INFO - [INFO] Processing model 1/8: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-06 12:38:22,281 - INFO - [INFO] ===== Starting processing for model: mistralai/Mistral-7B-Instruct-v0.2 =====
+2025-11-06 12:38:22,283 - INFO - [INFO] Found existing answers file: answers\mistralai-Mistral-7B-Instruct-v0.2_answers.csv
+2025-11-06 12:38:22,284 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-06 12:38:22,284 - INFO - [SKIP] Model mistralai/Mistral-7B-Instruct-v0.2 has all answers completed, skipping model load
+2025-11-06 12:38:22,284 - INFO - [OK] Model mistralai/Mistral-7B-Instruct-v0.2 completed successfully (1/8)
+2025-11-06 12:38:22,284 - INFO - [INFO] Processing model 2/8: tiiuae/falcon-7b-instruct
+2025-11-06 12:38:22,284 - INFO - [INFO] ===== Starting processing for model: tiiuae/falcon-7b-instruct =====
+2025-11-06 12:38:22,285 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:38:22,285 - INFO - [INFO] Existing progress: 137/288 answers completed
+2025-11-06 12:38:22,286 - INFO - [INFO] Model tiiuae/falcon-7b-instruct has 151 pending answers, loading model...
+2025-11-06 12:38:22,286 - INFO - [INFO] Loading model: tiiuae/falcon-7b-instruct (device: cpu)
+2025-11-06 12:40:31,802 - INFO - [OK] Model and tokenizer loaded successfully on cpu
+2025-11-06 12:40:31,809 - INFO - [INFO] Starting parallel processing for tiiuae/falcon-7b-instruct with 4 workers
+2025-11-06 12:40:31,863 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:40:31,867 - INFO - [INFO] Existing progress: 137/288 answers completed
+2025-11-06 12:40:31,868 - INFO - [INFO] Resuming from row 138
+2025-11-06 12:40:31,873 - INFO - [SKIP] Row 1/288 already completed, skipping
+2025-11-06 12:40:31,873 - INFO - [SKIP] Row 2/288 already completed, skipping
+2025-11-06 12:40:31,873 - INFO - [SKIP] Row 3/288 already completed, skipping
+2025-11-06 12:40:31,873 - INFO - [SKIP] Row 4/288 already completed, skipping
+2025-11-06 12:40:31,873 - INFO - [SKIP] Row 5/288 already completed, skipping
+2025-11-06 12:40:31,874 - INFO - [SKIP] Row 6/288 already completed, skipping
+2025-11-06 12:40:31,874 - INFO - [SKIP] Row 7/288 already completed, skipping
+2025-11-06 12:40:31,874 - INFO - [SKIP] Row 8/288 already completed, skipping
+2025-11-06 12:40:31,874 - INFO - [SKIP] Row 9/288 already completed, skipping
+2025-11-06 12:40:31,874 - INFO - [SKIP] Row 10/288 already completed, skipping
+2025-11-06 12:40:31,874 - INFO - [SKIP] Row 11/288 already completed, skipping
+2025-11-06 12:40:31,874 - INFO - [SKIP] Row 12/288 already completed, skipping
+2025-11-06 12:40:31,875 - INFO - [SKIP] Row 13/288 already completed, skipping
+2025-11-06 12:40:31,875 - INFO - [SKIP] Row 14/288 already completed, skipping
+2025-11-06 12:40:31,875 - INFO - [SKIP] Row 15/288 already completed, skipping
+2025-11-06 12:40:31,875 - INFO - [SKIP] Row 16/288 already completed, skipping
+2025-11-06 12:40:31,875 - INFO - [SKIP] Row 17/288 already completed, skipping
+2025-11-06 12:40:31,876 - INFO - [SKIP] Row 18/288 already completed, skipping
+2025-11-06 12:40:31,876 - INFO - [SKIP] Row 19/288 already completed, skipping
+2025-11-06 12:40:31,876 - INFO - [SKIP] Row 20/288 already completed, skipping
+2025-11-06 12:40:31,876 - INFO - [SKIP] Row 21/288 already completed, skipping
+2025-11-06 12:40:31,876 - INFO - [SKIP] Row 22/288 already completed, skipping
+2025-11-06 12:40:31,876 - INFO - [SKIP] Row 23/288 already completed, skipping
+2025-11-06 12:40:31,876 - INFO - [SKIP] Row 24/288 already completed, skipping
+2025-11-06 12:40:31,877 - INFO - [SKIP] Row 25/288 already completed, skipping
+2025-11-06 12:40:31,877 - INFO - [SKIP] Row 26/288 already completed, skipping
+2025-11-06 12:40:31,877 - INFO - [SKIP] Row 27/288 already completed, skipping
+2025-11-06 12:40:31,877 - INFO - [SKIP] Row 28/288 already completed, skipping
+2025-11-06 12:40:31,877 - INFO - [SKIP] Row 29/288 already completed, skipping
+2025-11-06 12:40:31,878 - INFO - [SKIP] Row 30/288 already completed, skipping
+2025-11-06 12:40:31,878 - INFO - [SKIP] Row 31/288 already completed, skipping
+2025-11-06 12:40:31,878 - INFO - [SKIP] Row 32/288 already completed, skipping
+2025-11-06 12:40:31,878 - INFO - [SKIP] Row 33/288 already completed, skipping
+2025-11-06 12:40:31,878 - INFO - [SKIP] Row 34/288 already completed, skipping
+2025-11-06 12:40:31,879 - INFO - [SKIP] Row 35/288 already completed, skipping
+2025-11-06 12:40:31,879 - INFO - [SKIP] Row 36/288 already completed, skipping
+2025-11-06 12:40:31,879 - INFO - [SKIP] Row 37/288 already completed, skipping
+2025-11-06 12:40:31,879 - INFO - [SKIP] Row 38/288 already completed, skipping
+2025-11-06 12:40:31,879 - INFO - [SKIP] Row 39/288 already completed, skipping
+2025-11-06 12:40:31,879 - INFO - [SKIP] Row 40/288 already completed, skipping
+2025-11-06 12:40:31,880 - INFO - [SKIP] Row 41/288 already completed, skipping
+2025-11-06 12:40:31,880 - INFO - [SKIP] Row 42/288 already completed, skipping
+2025-11-06 12:40:31,880 - INFO - [SKIP] Row 43/288 already completed, skipping
+2025-11-06 12:40:31,880 - INFO - [SKIP] Row 44/288 already completed, skipping
+2025-11-06 12:40:31,880 - INFO - [SKIP] Row 45/288 already completed, skipping
+2025-11-06 12:40:31,880 - INFO - [SKIP] Row 46/288 already completed, skipping
+2025-11-06 12:40:31,880 - INFO - [SKIP] Row 47/288 already completed, skipping
+2025-11-06 12:40:31,881 - INFO - [SKIP] Row 48/288 already completed, skipping
+2025-11-06 12:40:31,881 - INFO - [SKIP] Row 49/288 already completed, skipping
+2025-11-06 12:40:31,881 - INFO - [SKIP] Row 50/288 already completed, skipping
+2025-11-06 12:40:31,882 - INFO - [SKIP] Row 51/288 already completed, skipping
+2025-11-06 12:40:31,882 - INFO - [SKIP] Row 52/288 already completed, skipping
+2025-11-06 12:40:31,882 - INFO - [SKIP] Row 53/288 already completed, skipping
+2025-11-06 12:40:31,883 - INFO - [SKIP] Row 54/288 already completed, skipping
+2025-11-06 12:40:31,883 - INFO - [SKIP] Row 55/288 already completed, skipping
+2025-11-06 12:40:31,883 - INFO - [SKIP] Row 56/288 already completed, skipping
+2025-11-06 12:40:31,884 - INFO - [SKIP] Row 57/288 already completed, skipping
+2025-11-06 12:40:31,884 - INFO - [SKIP] Row 58/288 already completed, skipping
+2025-11-06 12:40:31,884 - INFO - [SKIP] Row 59/288 already completed, skipping
+2025-11-06 12:40:31,884 - INFO - [SKIP] Row 60/288 already completed, skipping
+2025-11-06 12:40:31,885 - INFO - [SKIP] Row 61/288 already completed, skipping
+2025-11-06 12:40:31,886 - INFO - [SKIP] Row 62/288 already completed, skipping
+2025-11-06 12:40:31,886 - INFO - [SKIP] Row 63/288 already completed, skipping
+2025-11-06 12:40:31,886 - INFO - [SKIP] Row 64/288 already completed, skipping
+2025-11-06 12:40:31,886 - INFO - [SKIP] Row 65/288 already completed, skipping
+2025-11-06 12:40:31,886 - INFO - [SKIP] Row 66/288 already completed, skipping
+2025-11-06 12:40:31,887 - INFO - [SKIP] Row 67/288 already completed, skipping
+2025-11-06 12:40:31,887 - INFO - [SKIP] Row 68/288 already completed, skipping
+2025-11-06 12:40:31,887 - INFO - [SKIP] Row 69/288 already completed, skipping
+2025-11-06 12:40:31,887 - INFO - [SKIP] Row 70/288 already completed, skipping
+2025-11-06 12:40:31,887 - INFO - [SKIP] Row 71/288 already completed, skipping
+2025-11-06 12:40:31,887 - INFO - [SKIP] Row 72/288 already completed, skipping
+2025-11-06 12:40:31,888 - INFO - [SKIP] Row 73/288 already completed, skipping
+2025-11-06 12:40:31,888 - INFO - [SKIP] Row 74/288 already completed, skipping
+2025-11-06 12:40:31,888 - INFO - [SKIP] Row 75/288 already completed, skipping
+2025-11-06 12:40:31,888 - INFO - [SKIP] Row 76/288 already completed, skipping
+2025-11-06 12:40:31,888 - INFO - [SKIP] Row 77/288 already completed, skipping
+2025-11-06 12:40:31,889 - INFO - [SKIP] Row 78/288 already completed, skipping
+2025-11-06 12:40:31,889 - INFO - [SKIP] Row 79/288 already completed, skipping
+2025-11-06 12:40:31,889 - INFO - [SKIP] Row 80/288 already completed, skipping
+2025-11-06 12:40:31,889 - INFO - [SKIP] Row 81/288 already completed, skipping
+2025-11-06 12:40:31,890 - INFO - [SKIP] Row 82/288 already completed, skipping
+2025-11-06 12:40:31,890 - INFO - [SKIP] Row 83/288 already completed, skipping
+2025-11-06 12:40:31,890 - INFO - [SKIP] Row 84/288 already completed, skipping
+2025-11-06 12:40:31,890 - INFO - [SKIP] Row 85/288 already completed, skipping
+2025-11-06 12:40:31,890 - INFO - [SKIP] Row 86/288 already completed, skipping
+2025-11-06 12:40:31,891 - INFO - [SKIP] Row 87/288 already completed, skipping
+2025-11-06 12:40:31,891 - INFO - [SKIP] Row 88/288 already completed, skipping
+2025-11-06 12:40:31,891 - INFO - [SKIP] Row 89/288 already completed, skipping
+2025-11-06 12:40:31,891 - INFO - [SKIP] Row 90/288 already completed, skipping
+2025-11-06 12:40:31,891 - INFO - [SKIP] Row 91/288 already completed, skipping
+2025-11-06 12:40:31,892 - INFO - [SKIP] Row 92/288 already completed, skipping
+2025-11-06 12:40:31,892 - INFO - [SKIP] Row 93/288 already completed, skipping
+2025-11-06 12:40:31,892 - INFO - [SKIP] Row 94/288 already completed, skipping
+2025-11-06 12:40:31,892 - INFO - [SKIP] Row 95/288 already completed, skipping
+2025-11-06 12:40:31,893 - INFO - [SKIP] Row 96/288 already completed, skipping
+2025-11-06 12:40:31,893 - INFO - [SKIP] Row 97/288 already completed, skipping
+2025-11-06 12:40:31,893 - INFO - [SKIP] Row 98/288 already completed, skipping
+2025-11-06 12:40:31,893 - INFO - [SKIP] Row 99/288 already completed, skipping
+2025-11-06 12:40:31,894 - INFO - [SKIP] Row 100/288 already completed, skipping
+2025-11-06 12:40:31,894 - INFO - [SKIP] Row 101/288 already completed, skipping
+2025-11-06 12:40:31,894 - INFO - [SKIP] Row 102/288 already completed, skipping
+2025-11-06 12:40:31,894 - INFO - [SKIP] Row 103/288 already completed, skipping
+2025-11-06 12:40:31,894 - INFO - [SKIP] Row 104/288 already completed, skipping
+2025-11-06 12:40:31,895 - INFO - [SKIP] Row 105/288 already completed, skipping
+2025-11-06 12:40:31,895 - INFO - [SKIP] Row 106/288 already completed, skipping
+2025-11-06 12:40:31,895 - INFO - [SKIP] Row 107/288 already completed, skipping
+2025-11-06 12:40:31,895 - INFO - [SKIP] Row 108/288 already completed, skipping
+2025-11-06 12:40:31,895 - INFO - [SKIP] Row 109/288 already completed, skipping
+2025-11-06 12:40:31,895 - INFO - [SKIP] Row 110/288 already completed, skipping
+2025-11-06 12:40:31,895 - INFO - [SKIP] Row 111/288 already completed, skipping
+2025-11-06 12:40:31,896 - INFO - [SKIP] Row 112/288 already completed, skipping
+2025-11-06 12:40:31,896 - INFO - [SKIP] Row 113/288 already completed, skipping
+2025-11-06 12:40:31,896 - INFO - [SKIP] Row 114/288 already completed, skipping
+2025-11-06 12:40:31,896 - INFO - [SKIP] Row 115/288 already completed, skipping
+2025-11-06 12:40:31,896 - INFO - [SKIP] Row 116/288 already completed, skipping
+2025-11-06 12:40:31,897 - INFO - [SKIP] Row 117/288 already completed, skipping
+2025-11-06 12:40:31,897 - INFO - [SKIP] Row 118/288 already completed, skipping
+2025-11-06 12:40:31,897 - INFO - [SKIP] Row 119/288 already completed, skipping
+2025-11-06 12:40:31,897 - INFO - [SKIP] Row 120/288 already completed, skipping
+2025-11-06 12:40:31,897 - INFO - [SKIP] Row 121/288 already completed, skipping
+2025-11-06 12:40:31,898 - INFO - [SKIP] Row 122/288 already completed, skipping
+2025-11-06 12:40:31,898 - INFO - [SKIP] Row 123/288 already completed, skipping
+2025-11-06 12:40:31,898 - INFO - [SKIP] Row 124/288 already completed, skipping
+2025-11-06 12:40:31,898 - INFO - [SKIP] Row 125/288 already completed, skipping
+2025-11-06 12:40:31,899 - INFO - [SKIP] Row 126/288 already completed, skipping
+2025-11-06 12:40:31,899 - INFO - [SKIP] Row 127/288 already completed, skipping
+2025-11-06 12:40:31,899 - INFO - [SKIP] Row 128/288 already completed, skipping
+2025-11-06 12:40:31,899 - INFO - [SKIP] Row 129/288 already completed, skipping
+2025-11-06 12:40:31,899 - INFO - [SKIP] Row 130/288 already completed, skipping
+2025-11-06 12:40:31,900 - INFO - [SKIP] Row 131/288 already completed, skipping
+2025-11-06 12:40:31,900 - INFO - [SKIP] Row 132/288 already completed, skipping
+2025-11-06 12:40:31,900 - INFO - [SKIP] Row 133/288 already completed, skipping
+2025-11-06 12:40:31,900 - INFO - [SKIP] Row 134/288 already completed, skipping
+2025-11-06 12:40:31,900 - INFO - [SKIP] Row 135/288 already completed, skipping
+2025-11-06 12:40:31,900 - INFO - [SKIP] Row 136/288 already completed, skipping
+2025-11-06 12:40:31,901 - INFO - [SKIP] Row 140/288 already completed, skipping
+2025-11-06 12:40:31,901 - INFO - [INFO] Processing 151 pending prompts...
+2025-11-06 12:40:31,915 - INFO - [INFO] Processing row 137/288 - test_item: S7F
+2025-11-06 12:40:31,915 - INFO - [PROMPT] Aquí tens el context: La gespa ha estat tallada. A més, les flors també han estat regades. El Pau no...
+2025-11-06 12:40:31,915 - INFO - [INFO] Processing row 138/288 - test_item: S7C
+2025-11-06 12:40:31,917 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 12:40:31,917 - INFO - [PROMPT] Aquí tens el context: La gespa no ha estat tallada. Les flors tampoc no han estat regades. La Maria ...
+2025-11-06 12:40:31,917 - INFO - [INFO] Processing row 139/288 - test_item: S8T
+2025-11-06 12:40:31,920 - INFO - [INFO] Processing row 141/288 - test_item: S8C
+2025-11-06 12:40:31,920 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 12:40:31,927 - INFO - [PROMPT] Aquí tens el context: El gos està jugant. A més, el gat està pujant a l'arbre. La Maria havia dit: "...
+2025-11-06 12:40:31,927 - INFO - [PROMPT] Aquí tens el context: El gos no està jugant. A més, el gat està dormint. La Maria havia dit: "Si el ...
+2025-11-06 12:40:31,928 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 12:40:31,929 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 12:41:53,145 - INFO - [OK] Row 141 completed
+2025-11-06 12:41:53,166 - INFO - [INFO] Processing row 142/288 - test_item: S9T
+2025-11-06 12:41:53,173 - INFO - [PROMPT] Aquí tens el context: La nevera està buida. A més, el forn està espatllat. La Maria havia dit: "Si l...
+2025-11-06 12:41:53,186 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 12:41:53,229 - INFO - [OK] Row 139 completed
+2025-11-06 12:41:53,230 - INFO - [INFO] Processing row 143/288 - test_item: S9F
+2025-11-06 12:41:53,232 - INFO - [PROMPT] Aquí tens el context: La nevera està buida. A més, el forn està espatllat. L'Anna no ha portat donut...
+2025-11-06 12:41:53,232 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 12:41:53,326 - INFO - [OK] Answer 141 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:41:53,332 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 1/151 pending prompts completed (138/288 total)
+2025-11-06 12:41:53,361 - INFO - [OK] Answer 139 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:41:53,368 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 2/151 pending prompts completed (139/288 total)
+2025-11-06 12:43:19,743 - INFO - [OK] Row 142 completed
+2025-11-06 12:43:19,756 - INFO - [INFO] Processing row 144/288 - test_item: S9C
+2025-11-06 12:43:19,771 - INFO - [PROMPT] Aquí tens el context: La nevera està plena. A més, el forn està engegat. La Maria havia dit: "Si la ...
+2025-11-06 12:43:19,784 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 12:43:19,791 - INFO - [OK] Row 143 completed
+2025-11-06 12:43:19,795 - INFO - [INFO] Processing row 145/288 - test_item: B1T
+2025-11-06 12:43:19,797 - INFO - [PROMPT] Ecco il contesto: Gianni ha fame e c'è della pizza in forno. C'è anche della pasta in frigo. Maria d...
+2025-11-06 12:43:19,800 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:43:19,806 - INFO - [OK] Answer 142 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:43:19,814 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 3/151 pending prompts completed (140/288 total)
+2025-11-06 12:43:19,839 - INFO - [OK] Answer 143 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:43:19,841 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 4/151 pending prompts completed (141/288 total)
+2025-11-06 12:44:03,957 - INFO - [OK] Row 138 completed
+2025-11-06 12:44:03,958 - INFO - [INFO] Processing row 146/288 - test_item: B1F
+2025-11-06 12:44:03,959 - INFO - [PROMPT] Ecco il contesto: Gianni ha fame e non c'è della pizza in forno. Non c'è nemmeno della pasta in frig...
+2025-11-06 12:44:03,959 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:44:03,968 - INFO - [OK] Answer 138 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:44:03,970 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 5/151 pending prompts completed (142/288 total)
+2025-11-06 12:44:05,452 - INFO - [OK] Row 137 completed
+2025-11-06 12:44:05,452 - INFO - [INFO] Processing row 147/288 - test_item: B1C
+2025-11-06 12:44:05,453 - INFO - [PROMPT] Ecco il contesto: Gianni non ha fame. C'è della pasta in frigo. Maria dice: "Se Gianni ha fame, c'è ...
+2025-11-06 12:44:05,454 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:44:05,461 - INFO - [OK] Answer 137 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:44:05,461 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 6/151 pending prompts completed (143/288 total)
+2025-11-06 12:44:05,761 - INFO - [OK] Row 145 completed
+2025-11-06 12:44:05,765 - INFO - [INFO] Processing row 148/288 - test_item: B2T
+2025-11-06 12:44:05,770 - INFO - [PROMPT] Ecco il contesto: Nicoletta ha mal di testa e ci sono delle aspirine sul tavolo. C'è anche dell'ibup...
+2025-11-06 12:44:05,780 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:44:05,781 - INFO - [OK] Answer 145 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:44:05,797 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 7/151 pending prompts completed (144/288 total)
+2025-11-06 12:44:33,134 - INFO - [OK] Row 146 completed
+2025-11-06 12:44:33,138 - INFO - [INFO] Processing row 149/288 - test_item: B2F
+2025-11-06 12:44:33,141 - INFO - [PROMPT] Ecco il contesto: Nicoletta ha mal di testa e non ci sono aspirine sul tavolo. Non c'è nemmeno dell'...
+2025-11-06 12:44:33,142 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:44:33,154 - INFO - [OK] Answer 146 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:44:33,161 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 8/151 pending prompts completed (145/288 total)
+2025-11-06 12:44:55,566 - INFO - [OK] Row 147 completed
+2025-11-06 12:44:55,580 - INFO - [INFO] Processing row 150/288 - test_item: B2C
+2025-11-06 12:44:55,583 - INFO - [PROMPT] Ecco il contesto: Nicoletta non ha mal di testa. C'è dell'ibuprofene nel cassetto. Maria dice: "Se N...
+2025-11-06 12:44:55,583 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:44:55,599 - INFO - [OK] Answer 147 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:44:55,605 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 9/151 pending prompts completed (146/288 total)
+2025-11-06 12:44:58,727 - INFO - [OK] Row 144 completed
+2025-11-06 12:44:58,744 - INFO - [INFO] Processing row 151/288 - test_item: B3T
+2025-11-06 12:44:58,756 - INFO - [PROMPT] Ecco il contesto: Lucia ha sete e c'è dell'acqua in frigo. C'è anche del succo di mela sullo scaffal...
+2025-11-06 12:44:58,761 - INFO - [OK] Answer 144 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:44:58,765 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:44:58,770 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 10/151 pending prompts completed (147/288 total)
+2025-11-06 12:45:06,005 - INFO - [OK] Row 148 completed
+2025-11-06 12:45:06,005 - INFO - [INFO] Processing row 152/288 - test_item: B3F
+2025-11-06 12:45:06,006 - INFO - [PROMPT] Ecco il contesto: Lucia ha sete e non c'è dell'acqua in frigo. Non c'è nemmeno del succo di mela sul...
+2025-11-06 12:45:06,007 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:45:06,015 - INFO - [OK] Answer 148 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:45:06,015 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 11/151 pending prompts completed (148/288 total)
+2025-11-06 12:45:34,434 - INFO - [OK] Row 150 completed
+2025-11-06 12:45:34,439 - INFO - [INFO] Processing row 153/288 - test_item: B3C
+2025-11-06 12:45:34,441 - INFO - [PROMPT] Ecco il contesto: Lucia non ha sete. C'è del succo di mela sullo scaffale. Maria dice: "Se Lucia ha ...
+2025-11-06 12:45:34,443 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:45:34,456 - INFO - [OK] Answer 150 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:45:34,461 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 12/151 pending prompts completed (149/288 total)
+2025-11-06 12:45:59,640 - INFO - [OK] Row 151 completed
+2025-11-06 12:45:59,645 - INFO - [INFO] Processing row 154/288 - test_item: B4T
+2025-11-06 12:45:59,648 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e c'è un caricatore nel cassetto. C'è anche un com...
+2025-11-06 12:45:59,653 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:45:59,659 - INFO - [OK] Answer 151 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:45:59,668 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 13/151 pending prompts completed (150/288 total)
+2025-11-06 12:46:48,558 - INFO - [OK] Row 152 completed
+2025-11-06 12:46:48,560 - INFO - [INFO] Processing row 155/288 - test_item: B4F
+2025-11-06 12:46:48,566 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e non c'è un caricatore nel cassetto. Non c'è nemm...
+2025-11-06 12:46:48,566 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:46:48,570 - INFO - [OK] Answer 152 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:46:48,575 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 14/151 pending prompts completed (151/288 total)
+2025-11-06 12:47:03,458 - INFO - [OK] Row 154 completed
+2025-11-06 12:47:03,461 - INFO - [INFO] Processing row 156/288 - test_item: B4C
+2025-11-06 12:47:03,465 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è carico. C'è un computer sul tavolo. Maria dice: "Se il tel...
+2025-11-06 12:47:03,465 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:47:03,476 - INFO - [OK] Answer 154 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:47:03,481 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 15/151 pending prompts completed (152/288 total)
+2025-11-06 12:47:03,506 - INFO - [OK] Row 149 completed
+2025-11-06 12:47:03,509 - INFO - [INFO] Processing row 157/288 - test_item: B5T
+2025-11-06 12:47:03,511 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e c'è un ombrello nel portaombrelli. C'è anche un impermeabile ...
+2025-11-06 12:47:03,516 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:47:03,520 - INFO - [OK] Answer 149 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:47:03,526 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 16/151 pending prompts completed (153/288 total)
+2025-11-06 12:47:43,310 - INFO - [OK] Row 156 completed
+2025-11-06 12:47:43,326 - INFO - [INFO] Processing row 158/288 - test_item: B5F
+2025-11-06 12:47:43,337 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e non c'è un ombrello nel portaombrelli. Non c'è nemmeno un imp...
+2025-11-06 12:47:43,346 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:47:43,379 - INFO - [OK] Answer 156 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:47:43,386 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 17/151 pending prompts completed (154/288 total)
+2025-11-06 12:47:44,423 - INFO - [OK] Row 155 completed
+2025-11-06 12:47:44,438 - INFO - [INFO] Processing row 159/288 - test_item: B5C
+2025-11-06 12:47:44,444 - INFO - [PROMPT] Ecco il contesto: Il tempo è sereno. C'è un impermeabile in macchina. Maria dice: "Se il tempo è pio...
+2025-11-06 12:47:44,445 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:47:44,454 - INFO - [OK] Answer 155 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:47:44,454 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 18/151 pending prompts completed (155/288 total)
+2025-11-06 12:48:47,495 - INFO - [OK] Row 153 completed
+2025-11-06 12:48:47,510 - INFO - [INFO] Processing row 160/288 - test_item: B6T
+2025-11-06 12:48:47,522 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e c'è una pompa in garage. C'è anche una bici vi...
+2025-11-06 12:48:47,525 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:48:47,539 - INFO - [OK] Answer 153 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:48:47,541 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 19/151 pending prompts completed (156/288 total)
+2025-11-06 12:48:51,317 - INFO - [OK] Row 157 completed
+2025-11-06 12:48:51,342 - INFO - [INFO] Processing row 161/288 - test_item: B6F
+2025-11-06 12:48:51,362 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e non c'è nessuna pompa in garage. Non c'è nemme...
+2025-11-06 12:48:51,377 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:48:51,434 - INFO - [OK] Answer 157 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:48:51,441 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 20/151 pending prompts completed (157/288 total)
+2025-11-06 12:49:10,791 - INFO - [OK] Row 158 completed
+2025-11-06 12:49:10,801 - INFO - [INFO] Processing row 162/288 - test_item: B6C
+2025-11-06 12:49:10,820 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è gonfia. C'è una bici vicino alla porta d'ingresso. Maria...
+2025-11-06 12:49:10,821 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:49:10,832 - INFO - [OK] Answer 158 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:49:10,834 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 21/151 pending prompts completed (158/288 total)
+2025-11-06 12:49:32,278 - INFO - [OK] Row 161 completed
+2025-11-06 12:49:32,283 - INFO - [INFO] Processing row 163/288 - test_item: B7T
+2025-11-06 12:49:32,289 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e c'è un annaffiatoio sullo scaffale. C'è anche un tubo da giard...
+2025-11-06 12:49:32,292 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:49:32,299 - INFO - [OK] Answer 161 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:49:32,301 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 22/151 pending prompts completed (159/288 total)
+2025-11-06 12:50:02,493 - INFO - [OK] Row 160 completed
+2025-11-06 12:50:02,497 - INFO - [INFO] Processing row 164/288 - test_item: B7F
+2025-11-06 12:50:02,499 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e non c'è nessun annaffiatoio sullo scaffale. Non c'è nemmeno un...
+2025-11-06 12:50:02,505 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:50:02,525 - INFO - [OK] Answer 160 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:50:02,527 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 23/151 pending prompts completed (160/288 total)
+2025-11-06 12:50:04,646 - INFO - [OK] Row 159 completed
+2025-11-06 12:50:04,771 - INFO - [INFO] Processing row 165/288 - test_item: B7C
+2025-11-06 12:50:04,783 - INFO - [PROMPT] Ecco il contesto: La pianta è rigogliosa. C'è un tubo da giardinaggio in giardino. Maria dice: "Se l...
+2025-11-06 12:50:04,959 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:50:04,960 - INFO - [OK] Answer 159 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:50:04,979 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 24/151 pending prompts completed (161/288 total)
+2025-11-06 12:50:27,539 - INFO - [OK] Row 162 completed
+2025-11-06 12:50:27,550 - INFO - [INFO] Processing row 166/288 - test_item: B8T
+2025-11-06 12:50:27,552 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stropicciata e c'è un ferro da stiro nell'armadio. C'è anc...
+2025-11-06 12:50:27,552 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:50:27,567 - INFO - [OK] Answer 162 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:50:27,572 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 25/151 pending prompts completed (162/288 total)
+2025-11-06 12:50:34,999 - INFO - [OK] Row 164 completed
+2025-11-06 12:50:35,011 - INFO - [INFO] Processing row 167/288 - test_item: B8F
+2025-11-06 12:50:35,030 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stropicciata e non c'è un ferro da stiro nell'armadio. Non...
+2025-11-06 12:50:35,181 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:50:35,262 - INFO - [OK] Answer 164 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:50:35,313 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 26/151 pending prompts completed (163/288 total)
+2025-11-06 12:51:45,246 - INFO - [OK] Row 163 completed
+2025-11-06 12:51:45,266 - INFO - [INFO] Processing row 168/288 - test_item: B8C
+2025-11-06 12:51:45,278 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stirata. C'è un'asse da stiro in balcone. Maria dice: "Se ...
+2025-11-06 12:51:45,301 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:51:45,326 - INFO - [OK] Answer 163 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:51:45,328 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 27/151 pending prompts completed (164/288 total)
+2025-11-06 12:52:14,774 - INFO - [OK] Row 165 completed
+2025-11-06 12:52:14,790 - INFO - [INFO] Processing row 169/288 - test_item: B9T
+2025-11-06 12:52:14,816 - INFO - [PROMPT] Ecco il contesto: Susanna vuole leggere e ci sono dei libri sullo scaffale. C'è anche un giornale su...
+2025-11-06 12:52:14,827 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:52:14,842 - INFO - [OK] Answer 165 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:52:14,847 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 28/151 pending prompts completed (165/288 total)
+2025-11-06 12:52:37,843 - INFO - [OK] Row 167 completed
+2025-11-06 12:52:37,846 - INFO - [INFO] Processing row 170/288 - test_item: B9F
+2025-11-06 12:52:37,857 - INFO - [PROMPT] Ecco il contesto: Susanna vuole leggere e non ci sono libri sullo scaffale. Non c'è nemmeno un giorn...
+2025-11-06 12:52:37,870 - INFO - [OK] Answer 167 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:52:37,871 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:52:37,874 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 29/151 pending prompts completed (166/288 total)
+2025-11-06 12:52:47,039 - INFO - [OK] Row 166 completed
+2025-11-06 12:52:47,044 - INFO - [INFO] Processing row 171/288 - test_item: B9C
+2025-11-06 12:52:47,046 - INFO - [PROMPT] Ecco il contesto: Susanna non vuole leggere. C'è un giornale sul divano. Maria dice: "Se Susanna vuo...
+2025-11-06 12:52:47,049 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:52:47,064 - INFO - [OK] Answer 166 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:52:47,077 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 30/151 pending prompts completed (167/288 total)
+2025-11-06 12:53:02,037 - INFO - [OK] Row 169 completed
+2025-11-06 12:53:02,039 - INFO - [INFO] Processing row 172/288 - test_item: F1T
+2025-11-06 12:53:02,055 - INFO - [PROMPT] Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della...
+2025-11-06 12:53:02,055 - INFO - [OK] Answer 169 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:53:02,077 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:53:02,077 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 31/151 pending prompts completed (168/288 total)
+2025-11-06 12:53:09,501 - INFO - [OK] Row 168 completed
+2025-11-06 12:53:09,502 - INFO - [INFO] Processing row 173/288 - test_item: F1F
+2025-11-06 12:53:09,503 - INFO - [PROMPT] Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della...
+2025-11-06 12:53:09,504 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:53:09,510 - INFO - [OK] Answer 168 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:53:09,510 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 32/151 pending prompts completed (169/288 total)
+2025-11-06 12:53:42,122 - INFO - [OK] Row 172 completed
+2025-11-06 12:53:42,132 - INFO - [INFO] Processing row 174/288 - test_item: F2T
+2025-11-06 12:53:42,145 - INFO - [PROMPT] Ecco il contesto: Nonostante il caffè sia più economico del tè verde, la maggior parte delle persone...
+2025-11-06 12:53:42,145 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:53:42,153 - INFO - [OK] Answer 172 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:53:42,154 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 33/151 pending prompts completed (170/288 total)
+2025-11-06 12:53:42,876 - INFO - [OK] Row 170 completed
+2025-11-06 12:53:42,894 - INFO - [INFO] Processing row 175/288 - test_item: F2F
+2025-11-06 12:53:42,902 - INFO - [PROMPT] Ecco il contesto: Nonostante il caffè sia più economico del tè verde, la maggior parte delle persone...
+2025-11-06 12:53:42,903 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:53:42,904 - INFO - [OK] Answer 170 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:53:42,905 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 34/151 pending prompts completed (171/288 total)
+2025-11-06 12:53:50,375 - INFO - [OK] Row 173 completed
+2025-11-06 12:53:50,514 - INFO - [INFO] Processing row 176/288 - test_item: F3T
+2025-11-06 12:53:50,827 - INFO - [PROMPT] Ecco il contesto: Nonostante l'acqua sia più sana delle bibite gassate, molti scelgono le bibite gas...
+2025-11-06 12:53:50,828 - INFO - [OK] Answer 173 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:53:50,849 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:53:50,850 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 35/151 pending prompts completed (172/288 total)
+2025-11-06 12:54:41,172 - INFO - [OK] Row 176 completed
+2025-11-06 12:54:41,191 - INFO - [INFO] Processing row 177/288 - test_item: F3F
+2025-11-06 12:54:41,206 - INFO - [PROMPT] Ecco il contesto: Nonostante l'acqua sia più sana delle bibite gassate, molti scelgono le bibite gas...
+2025-11-06 12:54:41,231 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:54:41,245 - INFO - [OK] Answer 176 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:54:41,246 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 36/151 pending prompts completed (173/288 total)
+2025-11-06 12:54:42,524 - INFO - [OK] Row 175 completed
+2025-11-06 12:54:42,533 - INFO - [INFO] Processing row 178/288 - test_item: F4T
+2025-11-06 12:54:42,540 - INFO - [PROMPT] Ecco il contesto: Nonostante i broccoli siano più difficili da cucinare rispetto agli gnocchi, la ge...
+2025-11-06 12:54:42,547 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:54:42,548 - INFO - [OK] Answer 175 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:54:42,560 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 37/151 pending prompts completed (174/288 total)
+2025-11-06 12:54:56,053 - INFO - [OK] Row 171 completed
+2025-11-06 12:54:56,056 - INFO - [INFO] Processing row 179/288 - test_item: F4F
+2025-11-06 12:54:56,060 - INFO - [PROMPT] Ecco il contesto: Nonostante i broccoli siano più difficili da cucinare rispetto agli gnocchi, la ge...
+2025-11-06 12:54:56,067 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:54:56,078 - INFO - [OK] Answer 171 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:54:56,091 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 38/151 pending prompts completed (175/288 total)
+2025-11-06 12:55:04,709 - INFO - [OK] Row 174 completed
+2025-11-06 12:55:04,723 - INFO - [INFO] Processing row 180/288 - test_item: F5T
+2025-11-06 12:55:04,731 - INFO - [PROMPT] Ecco il contesto: Nonostante il sushi sia più sano degli hamburger, la gente mangia più spesso gli h...
+2025-11-06 12:55:04,735 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:55:04,735 - INFO - [OK] Answer 174 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:55:04,743 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 39/151 pending prompts completed (176/288 total)
+2025-11-06 12:55:42,134 - INFO - [OK] Row 180 completed
+2025-11-06 12:55:42,150 - INFO - [INFO] Processing row 181/288 - test_item: F5F
+2025-11-06 12:55:42,157 - INFO - [PROMPT] Ecco il contesto: Nonostante il sushi sia più sano degli hamburger, la gente mangia più spesso gli h...
+2025-11-06 12:55:42,163 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:55:42,262 - INFO - [OK] Answer 180 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:55:42,263 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 40/151 pending prompts completed (177/288 total)
+2025-11-06 12:55:51,210 - INFO - [OK] Row 179 completed
+2025-11-06 12:55:51,220 - INFO - [INFO] Processing row 182/288 - test_item: F6T
+2025-11-06 12:55:51,223 - INFO - [PROMPT] Ecco il contesto: Nonostante le banane siano più costose dei kiwi, la gente le acquista di più. Ci s...
+2025-11-06 12:55:51,232 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:55:51,233 - INFO - [OK] Answer 179 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:55:51,241 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 41/151 pending prompts completed (178/288 total)
+2025-11-06 12:55:54,138 - INFO - [OK] Row 177 completed
+2025-11-06 12:55:54,158 - INFO - [INFO] Processing row 183/288 - test_item: F6F
+2025-11-06 12:55:54,173 - INFO - [PROMPT] Ecco il contesto: Nonostante le banane siano più costose dei kiwi, la gente le acquista di più. Ci s...
+2025-11-06 12:55:54,184 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:55:54,188 - INFO - [OK] Answer 177 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:55:54,197 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 42/151 pending prompts completed (179/288 total)
+2025-11-06 12:56:00,292 - INFO - [OK] Row 178 completed
+2025-11-06 12:56:00,305 - INFO - [INFO] Processing row 184/288 - test_item: F7T
+2025-11-06 12:56:00,317 - INFO - [PROMPT] Ecco il contesto: Nonostante i cani siano più vivaci dei gatti, le persone li preferiscono. C'è un g...
+2025-11-06 12:56:00,324 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:56:00,330 - INFO - [OK] Answer 178 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:56:00,349 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 43/151 pending prompts completed (180/288 total)
+2025-11-06 12:56:32,065 - INFO - [OK] Row 181 completed
+2025-11-06 12:56:32,079 - INFO - [INFO] Processing row 185/288 - test_item: F7F
+2025-11-06 12:56:32,087 - INFO - [PROMPT] Ecco il contesto: Nonostante i cani siano più vivaci dei gatti, le persone li preferiscono. C'è un g...
+2025-11-06 12:56:32,112 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:56:32,140 - INFO - [OK] Answer 181 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:56:32,141 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 44/151 pending prompts completed (181/288 total)
+2025-11-06 12:56:37,947 - INFO - [OK] Row 182 completed
+2025-11-06 12:56:37,960 - INFO - [INFO] Processing row 186/288 - test_item: F8T
+2025-11-06 12:56:37,966 - INFO - [PROMPT] Ecco il contesto: Nonostante leggere sia più istruttivo di guardare la TV, la maggior parte delle pe...
+2025-11-06 12:56:37,971 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:56:37,973 - INFO - [OK] Answer 182 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:56:37,975 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 45/151 pending prompts completed (182/288 total)
+2025-11-06 12:56:58,092 - INFO - [OK] Row 184 completed
+2025-11-06 12:56:58,093 - INFO - [INFO] Processing row 187/288 - test_item: F8F
+2025-11-06 12:56:58,094 - INFO - [PROMPT] Ecco il contesto: Nonostante leggere sia più istruttivo di guardare la TV, la maggior parte delle pe...
+2025-11-06 12:56:58,096 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:56:58,104 - INFO - [OK] Answer 184 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:56:58,105 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 46/151 pending prompts completed (183/288 total)
+2025-11-06 12:57:22,375 - INFO - [OK] Row 183 completed
+2025-11-06 12:57:22,381 - INFO - [INFO] Processing row 188/288 - test_item: F9T
+2025-11-06 12:57:22,383 - INFO - [PROMPT] Ecco il contesto: Nonostante correre sia meglio per la forma fisica rispetto a camminare, la maggior...
+2025-11-06 12:57:22,385 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:57:22,399 - INFO - [OK] Answer 183 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:57:22,401 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 47/151 pending prompts completed (184/288 total)
+2025-11-06 12:57:25,528 - INFO - [OK] Row 185 completed
+2025-11-06 12:57:25,537 - INFO - [INFO] Processing row 189/288 - test_item: F9F
+2025-11-06 12:57:25,542 - INFO - [PROMPT] Ecco il contesto: Nonostante correre sia meglio per la forma fisica rispetto a camminare, la maggior...
+2025-11-06 12:57:25,548 - INFO - [OK] Answer 185 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:57:25,549 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:57:25,557 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 48/151 pending prompts completed (185/288 total)
+2025-11-06 12:57:53,021 - INFO - [OK] Row 187 completed
+2025-11-06 12:57:53,026 - INFO - [INFO] Processing row 190/288 - test_item: S1T
+2025-11-06 12:57:53,032 - INFO - [PROMPT] Ecco il contesto: Il pappagallo è nella gabbia. Inoltre, il cane è nella cuccia. Maria aveva detto: ...
+2025-11-06 12:57:53,037 - INFO - [OK] Answer 187 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:57:53,039 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:57:53,048 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 49/151 pending prompts completed (186/288 total)
+2025-11-06 12:58:11,956 - INFO - [OK] Row 188 completed
+2025-11-06 12:58:11,960 - INFO - [INFO] Processing row 191/288 - test_item: S1F
+2025-11-06 12:58:11,961 - INFO - [PROMPT] Ecco il contesto: Il pappagallo è nella gabbia. Inoltre, il cane è nella cuccia. Tommaso non ha port...
+2025-11-06 12:58:11,974 - INFO - [OK] Answer 188 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:58:11,974 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:58:11,981 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 50/151 pending prompts completed (187/288 total)
+2025-11-06 12:58:37,276 - INFO - [OK] Row 186 completed
+2025-11-06 12:58:37,277 - INFO - [INFO] Processing row 192/288 - test_item: S1C
+2025-11-06 12:58:37,280 - INFO - [PROMPT] Ecco il contesto: Il pappagallo non è nella gabbia. Neanche il cane è nella cuccia. Maria aveva dett...
+2025-11-06 12:58:37,280 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:58:37,289 - INFO - [OK] Answer 186 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:58:37,298 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 51/151 pending prompts completed (188/288 total)
+2025-11-06 12:59:03,443 - INFO - [OK] Row 191 completed
+2025-11-06 12:59:03,449 - INFO - [INFO] Processing row 193/288 - test_item: S2T
+2025-11-06 12:59:03,451 - INFO - [PROMPT] Ecco il contesto: Hai finito i broccoli. Hai finito anche la pasta. Maria aveva detto: "Se finisci i...
+2025-11-06 12:59:03,451 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:59:03,463 - INFO - [OK] Answer 191 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:59:03,464 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 52/151 pending prompts completed (189/288 total)
+2025-11-06 12:59:21,498 - INFO - [OK] Row 192 completed
+2025-11-06 12:59:21,511 - INFO - [INFO] Processing row 194/288 - test_item: S2F
+2025-11-06 12:59:21,525 - INFO - [PROMPT] Ecco il contesto: Hai finito i broccoli. Hai finito anche la pasta. Marco non ti ha dato nessuna car...
+2025-11-06 12:59:21,535 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:59:21,554 - INFO - [OK] Answer 192 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:59:21,554 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 53/151 pending prompts completed (190/288 total)
+2025-11-06 12:59:32,105 - INFO - [OK] Row 189 completed
+2025-11-06 12:59:32,114 - INFO - [INFO] Processing row 195/288 - test_item: S2C
+2025-11-06 12:59:32,121 - INFO - [PROMPT] Ecco il contesto: Non hai finito i broccoli. Non hai finito neanche la pasta. Maria aveva detto: "Se...
+2025-11-06 12:59:32,124 - INFO - [OK] Answer 189 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:59:32,128 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:59:32,133 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 54/151 pending prompts completed (191/288 total)
+2025-11-06 12:59:57,189 - INFO - [OK] Row 190 completed
+2025-11-06 12:59:57,195 - INFO - [INFO] Processing row 196/288 - test_item: S3T
+2025-11-06 12:59:57,197 - INFO - [PROMPT] Ecco il contesto: Le volpi stanno ballando. Inoltre, gli scoiattoli stanno mangiando. Maria aveva de...
+2025-11-06 12:59:57,204 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 12:59:57,212 - INFO - [OK] Answer 190 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:59:57,215 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 55/151 pending prompts completed (192/288 total)
+2025-11-06 13:01:14,767 - INFO - [OK] Row 196 completed
+2025-11-06 13:01:14,778 - INFO - [INFO] Processing row 197/288 - test_item: S3F
+2025-11-06 13:01:14,797 - INFO - [PROMPT] Ecco il contesto: Le volpi stanno ballando. Inoltre, gli scoiattoli stanno mangiando. Susanna non ha...
+2025-11-06 13:01:14,810 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:01:14,820 - INFO - [OK] Answer 196 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:01:14,821 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 56/151 pending prompts completed (193/288 total)
+2025-11-06 13:01:52,613 - INFO - [OK] Row 193 completed
+2025-11-06 13:01:52,638 - INFO - [INFO] Processing row 198/288 - test_item: S3C
+2025-11-06 13:01:52,656 - INFO - [PROMPT] Ecco il contesto: Le volpi non stanno ballando. Neanche gli scoiattoli stanno mangiando. Maria aveva...
+2025-11-06 13:01:52,686 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:01:52,698 - INFO - [OK] Answer 193 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:01:52,706 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 57/151 pending prompts completed (194/288 total)
+2025-11-06 13:02:00,701 - INFO - [OK] Row 195 completed
+2025-11-06 13:02:00,707 - INFO - [INFO] Processing row 199/288 - test_item: S4T
+2025-11-06 13:02:00,711 - INFO - [PROMPT] Ecco il contesto: La TV è accesa. Anche la radio è accesa. Maria aveva detto: "Se la TV è accesa, Ma...
+2025-11-06 13:02:00,718 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:02:00,727 - INFO - [OK] Answer 195 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:02:00,734 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 58/151 pending prompts completed (195/288 total)
+2025-11-06 13:02:29,862 - INFO - [OK] Row 194 completed
+2025-11-06 13:02:29,877 - INFO - [INFO] Processing row 200/288 - test_item: S4F
+2025-11-06 13:02:29,896 - INFO - [PROMPT] Ecco il contesto: La TV è accesa. Anche la radio è accesa. Matteo non ha preparato i biscotti. Maria...
+2025-11-06 13:02:29,907 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:02:29,956 - INFO - [OK] Answer 194 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:02:29,961 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 59/151 pending prompts completed (196/288 total)
+2025-11-06 13:03:30,735 - INFO - [OK] Row 200 completed
+2025-11-06 13:03:30,745 - INFO - [INFO] Processing row 201/288 - test_item: S4C
+2025-11-06 13:03:30,754 - INFO - [PROMPT] Ecco il contesto: La TV è spenta. Anche la radio è spenta. Maria aveva detto: "Se la TV è accesa, Ma...
+2025-11-06 13:03:30,763 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:03:30,796 - INFO - [OK] Answer 200 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:03:30,809 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 60/151 pending prompts completed (197/288 total)
+2025-11-06 13:04:08,535 - INFO - [OK] Row 198 completed
+2025-11-06 13:04:08,554 - INFO - [INFO] Processing row 202/288 - test_item: S5T
+2025-11-06 13:04:08,585 - INFO - [PROMPT] Ecco il contesto: Oggi il tempo è soleggiato. Inoltre, non c'è vento. Maria aveva detto: "Se il temp...
+2025-11-06 13:04:08,586 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:04:08,603 - INFO - [OK] Answer 198 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:04:08,604 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 61/151 pending prompts completed (198/288 total)
+2025-11-06 13:04:54,580 - INFO - [OK] Row 199 completed
+2025-11-06 13:04:54,588 - INFO - [INFO] Processing row 203/288 - test_item: S5F
+2025-11-06 13:04:54,592 - INFO - [PROMPT] Ecco il contesto: Oggi il tempo è soleggiato. Inoltre, non c'è vento. Emma si è vestita di verde. Ma...
+2025-11-06 13:04:54,593 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:04:54,629 - INFO - [OK] Answer 199 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:04:54,640 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 62/151 pending prompts completed (199/288 total)
+2025-11-06 13:05:22,297 - INFO - [OK] Row 197 completed
+2025-11-06 13:05:22,308 - INFO - [INFO] Processing row 204/288 - test_item: S5C
+2025-11-06 13:05:22,330 - INFO - [PROMPT] Ecco il contesto: Oggi il tempo è piovoso. Inoltre, c'è molto vento. Maria aveva detto: "Se il tempo...
+2025-11-06 13:05:22,330 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:05:22,372 - INFO - [OK] Answer 197 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:05:22,373 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 63/151 pending prompts completed (200/288 total)
+2025-11-06 13:06:03,732 - INFO - [OK] Row 203 completed
+2025-11-06 13:06:03,740 - INFO - [INFO] Processing row 205/288 - test_item: S6T
+2025-11-06 13:06:03,741 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è vuoto. Inoltre, le strade sono tranquille. Maria aveva detto: "S...
+2025-11-06 13:06:03,754 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:06:03,768 - INFO - [OK] Answer 203 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:06:03,768 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 64/151 pending prompts completed (201/288 total)
+2025-11-06 13:06:18,902 - INFO - [OK] Row 201 completed
+2025-11-06 13:06:18,903 - INFO - [INFO] Processing row 206/288 - test_item: S6F
+2025-11-06 13:06:18,906 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è vuoto. Inoltre, le strade sono tranquille. Angela non si è fatta...
+2025-11-06 13:06:18,906 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:06:18,935 - INFO - [OK] Answer 201 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:06:18,936 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 65/151 pending prompts completed (202/288 total)
+2025-11-06 13:06:54,529 - INFO - [OK] Row 202 completed
+2025-11-06 13:06:54,554 - INFO - [INFO] Processing row 207/288 - test_item: S6C
+2025-11-06 13:06:54,570 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è pieno. Inoltre, le strade sono affollate. Maria aveva detto: "Se...
+2025-11-06 13:06:54,591 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:06:54,622 - INFO - [OK] Answer 202 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:06:54,642 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 66/151 pending prompts completed (203/288 total)
+2025-11-06 13:07:13,322 - INFO - [OK] Row 206 completed
+2025-11-06 13:07:13,322 - INFO - [INFO] Processing row 208/288 - test_item: S7T
+2025-11-06 13:07:13,326 - INFO - [PROMPT] Ecco il contesto: Il prato è stato tagliato. Inoltre, i fiori sono stati annaffiati. Maria aveva det...
+2025-11-06 13:07:13,337 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:07:13,342 - INFO - [OK] Answer 206 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:07:13,349 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 67/151 pending prompts completed (204/288 total)
+2025-11-06 13:08:00,548 - INFO - [OK] Row 204 completed
+2025-11-06 13:08:00,564 - INFO - [INFO] Processing row 209/288 - test_item: S7F
+2025-11-06 13:08:00,567 - INFO - [PROMPT] Ecco il contesto: Il prato è stato tagliato. Inoltre, i fiori sono stati annaffiati. Paolo non ha ri...
+2025-11-06 13:08:00,575 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:08:00,654 - INFO - [OK] Answer 204 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:08:00,667 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 68/151 pending prompts completed (205/288 total)
+2025-11-06 13:08:27,651 - INFO - [OK] Row 208 completed
+2025-11-06 13:08:27,669 - INFO - [INFO] Processing row 210/288 - test_item: S7C
+2025-11-06 13:08:27,680 - INFO - [PROMPT] Ecco il contesto: Il prato non è stato tagliato. Inoltre, i fiori devono ancora essere annaffiati.  ...
+2025-11-06 13:08:27,699 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:08:27,729 - INFO - [OK] Answer 208 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:08:27,736 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 69/151 pending prompts completed (206/288 total)
+2025-11-06 13:08:50,799 - INFO - [OK] Row 209 completed
+2025-11-06 13:08:50,801 - INFO - [INFO] Processing row 211/288 - test_item: S8T
+2025-11-06 13:08:50,803 - INFO - [PROMPT] Ecco il contesto: Il cane sta giocando. Inoltre, il gatto si sta arrampicando sull'albero. Maria ave...
+2025-11-06 13:08:50,803 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:08:50,825 - INFO - [OK] Answer 209 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:08:50,831 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 70/151 pending prompts completed (207/288 total)
+2025-11-06 13:08:53,200 - INFO - [OK] Row 205 completed
+2025-11-06 13:08:53,204 - INFO - [INFO] Processing row 212/288 - test_item: S8F
+2025-11-06 13:08:53,207 - INFO - [PROMPT] Ecco il contesto: Il cane sta giocando. Inoltre, il gatto si sta arrampicando sull'albero. Antonio n...
+2025-11-06 13:08:53,210 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:08:53,220 - INFO - [OK] Answer 205 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:08:53,232 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 71/151 pending prompts completed (208/288 total)
+2025-11-06 13:09:36,194 - INFO - [OK] Row 212 completed
+2025-11-06 13:09:36,212 - INFO - [INFO] Processing row 213/288 - test_item: S8C
+2025-11-06 13:09:36,224 - INFO - [PROMPT] Ecco il contesto: Il cane non sta giocando. Inoltre, il gatto sta dormendo. Maria aveva detto: "Se i...
+2025-11-06 13:09:36,242 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:09:36,272 - INFO - [OK] Answer 212 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:09:36,275 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 72/151 pending prompts completed (209/288 total)
+2025-11-06 13:09:39,063 - INFO - [OK] Row 210 completed
+2025-11-06 13:09:39,072 - INFO - [INFO] Processing row 214/288 - test_item: S9T
+2025-11-06 13:09:39,077 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Maria aveva detto: "Se il frigo...
+2025-11-06 13:09:39,077 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:09:39,087 - INFO - [OK] Answer 210 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:09:39,087 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 73/151 pending prompts completed (210/288 total)
+2025-11-06 13:09:47,155 - INFO - [OK] Row 207 completed
+2025-11-06 13:09:47,233 - INFO - [INFO] Processing row 215/288 - test_item: S9F
+2025-11-06 13:09:47,237 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Anna non ha portato delle ciamb...
+2025-11-06 13:09:47,252 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:09:47,275 - INFO - [OK] Answer 207 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:09:47,280 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 74/151 pending prompts completed (211/288 total)
+2025-11-06 13:09:48,120 - INFO - [OK] Row 211 completed
+2025-11-06 13:09:48,127 - INFO - [INFO] Processing row 216/288 - test_item: S9C
+2025-11-06 13:09:48,128 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è pieno. Inoltre, il forno è acceso. Maria aveva detto: "Se il frig...
+2025-11-06 13:09:48,151 - INFO - [LANGUAGE] Detected language: Italian
+2025-11-06 13:09:48,156 - INFO - [OK] Answer 211 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:09:48,163 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 75/151 pending prompts completed (212/288 total)
+2025-11-06 13:10:19,549 - INFO - [OK] Row 213 completed
+2025-11-06 13:10:19,563 - INFO - [INFO] Processing row 217/288 - test_item: B1T
+2025-11-06 13:10:19,569 - INFO - [PROMPT] Aquí tienes el contexto: Juan tiene hambre y hay pizza en el horno. También hay pasta en la nevera. ...
+2025-11-06 13:10:19,577 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:10:19,588 - INFO - [OK] Answer 213 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:10:19,590 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 76/151 pending prompts completed (213/288 total)
+2025-11-06 13:10:54,976 - INFO - [OK] Row 216 completed
+2025-11-06 13:10:54,982 - INFO - [INFO] Processing row 218/288 - test_item: B1F
+2025-11-06 13:10:54,995 - INFO - [PROMPT] Aquí tienes el contexto: Juan tiene hambre y no hay pizza en el horno. Tampoco hay pasta en la never...
+2025-11-06 13:10:54,998 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:10:55,005 - INFO - [OK] Answer 216 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:10:55,005 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 77/151 pending prompts completed (214/288 total)
+2025-11-06 13:10:56,629 - INFO - [OK] Row 217 completed
+2025-11-06 13:10:56,639 - INFO - [INFO] Processing row 219/288 - test_item: B1C
+2025-11-06 13:10:56,643 - INFO - [PROMPT] Aquí tienes el contexto: Juan no tiene hambre. Hay pasta en la nevera. María dice: "Si Juan tiene ha...
+2025-11-06 13:10:56,646 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:10:56,651 - INFO - [OK] Answer 217 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:10:56,656 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 78/151 pending prompts completed (215/288 total)
+2025-11-06 13:11:01,323 - INFO - [OK] Row 215 completed
+2025-11-06 13:11:01,327 - INFO - [INFO] Processing row 220/288 - test_item: B2T
+2025-11-06 13:11:01,332 - INFO - [PROMPT] Aquí tienes el contexto: A Noelia le duele la cabeza y hay aspirinas sobre la mesa. También hay ibup...
+2025-11-06 13:11:01,340 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:11:01,341 - INFO - [OK] Answer 215 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:11:01,345 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 79/151 pending prompts completed (216/288 total)
+2025-11-06 13:11:33,913 - INFO - [OK] Row 218 completed
+2025-11-06 13:11:33,916 - INFO - [INFO] Processing row 221/288 - test_item: B2F
+2025-11-06 13:11:33,924 - INFO - [PROMPT] Aquí tienes el contexto: A Noelia le duele la cabeza y no hay aspirinas sobre la mesa. Tampoco hay i...
+2025-11-06 13:11:33,925 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:11:33,949 - INFO - [OK] Answer 218 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:11:33,957 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 80/151 pending prompts completed (217/288 total)
+2025-11-06 13:11:36,988 - INFO - [OK] Row 219 completed
+2025-11-06 13:11:36,989 - INFO - [INFO] Processing row 222/288 - test_item: B2C
+2025-11-06 13:11:36,990 - INFO - [PROMPT] Aquí tienes el contexto: A Noelia no le duele la cabeza. Hay ibuprofeno en el cajón. María dice: "Si...
+2025-11-06 13:11:37,000 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:11:37,010 - INFO - [OK] Answer 219 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:11:37,017 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 81/151 pending prompts completed (218/288 total)
+2025-11-06 13:11:50,032 - INFO - [OK] Row 220 completed
+2025-11-06 13:11:50,035 - INFO - [INFO] Processing row 223/288 - test_item: B3T
+2025-11-06 13:11:50,036 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed y hay agua en la nevera. También hay zumo de manzana en la ...
+2025-11-06 13:11:50,037 - INFO - [LANGUAGE] Detected language: Spanish
+2025-11-06 13:11:50,044 - INFO - [OK] Answer 220 saved to answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 13:11:50,044 - INFO - [PROGRESS] tiiuae/falcon-7b-instruct - 82/151 pending prompts completed (219/288 total)

@@ -1,0 +1,172 @@
+2025-11-06 12:11:12,175 - INFO - [INFO] CUDA available: False
+2025-11-06 12:11:12,176 - WARNING - [WARNING] No CUDA device detected. Running on CPU.
+2025-11-06 12:11:12,177 - INFO - [INFO] Selected device: cpu
+2025-11-06 12:11:12,177 - INFO - [INFO] Max workers for parallel processing: 4
+2025-11-06 12:11:12,254 - INFO - [OK] File loaded: 288 rows, columns: ['test_item', 'language', 'prompt']
+2025-11-06 12:11:12,268 - INFO - [INFO] Processing model 1/5: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-06 12:11:12,269 - INFO - [INFO] ===== Starting processing for model: mistralai/Mistral-7B-Instruct-v0.2 =====
+2025-11-06 12:11:12,290 - INFO - [INFO] Found existing answers file: answers\mistralai-Mistral-7B-Instruct-v0.2_answers.csv
+2025-11-06 12:11:12,303 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-06 12:11:12,305 - INFO - [SKIP] Model mistralai/Mistral-7B-Instruct-v0.2 has all answers completed, skipping model load
+2025-11-06 12:11:12,313 - INFO - [OK] Model mistralai/Mistral-7B-Instruct-v0.2 completed successfully (1/5)
+2025-11-06 12:11:12,313 - INFO - [INFO] Processing model 2/5: tiiuae/falcon-7b-instruct
+2025-11-06 12:11:12,319 - INFO - [INFO] ===== Starting processing for model: tiiuae/falcon-7b-instruct =====
+2025-11-06 12:11:12,335 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:11:12,338 - INFO - [INFO] Existing progress: 137/288 answers completed
+2025-11-06 12:11:12,340 - INFO - [INFO] Model tiiuae/falcon-7b-instruct has 151 pending answers, loading model...
+2025-11-06 12:11:12,342 - INFO - [INFO] Loading model: tiiuae/falcon-7b-instruct (device: cpu)
+2025-11-06 12:12:15,323 - INFO - [OK] Model and tokenizer loaded successfully on cpu
+2025-11-06 12:12:15,473 - INFO - [INFO] Starting parallel processing for tiiuae/falcon-7b-instruct with 4 workers
+2025-11-06 12:12:16,582 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 12:12:16,822 - INFO - [INFO] Existing progress: 137/288 answers completed
+2025-11-06 12:12:16,825 - INFO - [INFO] Resuming from row 138
+2025-11-06 12:12:16,908 - INFO - [SKIP] Row 1/288 already completed, skipping
+2025-11-06 12:12:16,911 - INFO - [SKIP] Row 2/288 already completed, skipping
+2025-11-06 12:12:16,913 - INFO - [SKIP] Row 3/288 already completed, skipping
+2025-11-06 12:12:16,916 - INFO - [SKIP] Row 4/288 already completed, skipping
+2025-11-06 12:12:16,918 - INFO - [SKIP] Row 5/288 already completed, skipping
+2025-11-06 12:12:16,921 - INFO - [SKIP] Row 6/288 already completed, skipping
+2025-11-06 12:12:16,927 - INFO - [SKIP] Row 7/288 already completed, skipping
+2025-11-06 12:12:16,928 - INFO - [SKIP] Row 8/288 already completed, skipping
+2025-11-06 12:12:16,930 - INFO - [SKIP] Row 9/288 already completed, skipping
+2025-11-06 12:12:16,932 - INFO - [SKIP] Row 10/288 already completed, skipping
+2025-11-06 12:12:16,933 - INFO - [SKIP] Row 11/288 already completed, skipping
+2025-11-06 12:12:16,934 - INFO - [SKIP] Row 12/288 already completed, skipping
+2025-11-06 12:12:16,937 - INFO - [SKIP] Row 13/288 already completed, skipping
+2025-11-06 12:12:16,937 - INFO - [SKIP] Row 14/288 already completed, skipping
+2025-11-06 12:12:16,937 - INFO - [SKIP] Row 15/288 already completed, skipping
+2025-11-06 12:12:16,937 - INFO - [SKIP] Row 16/288 already completed, skipping
+2025-11-06 12:12:16,937 - INFO - [SKIP] Row 17/288 already completed, skipping
+2025-11-06 12:12:16,952 - INFO - [SKIP] Row 18/288 already completed, skipping
+2025-11-06 12:12:16,952 - INFO - [SKIP] Row 19/288 already completed, skipping
+2025-11-06 12:12:16,953 - INFO - [SKIP] Row 20/288 already completed, skipping
+2025-11-06 12:12:16,963 - INFO - [SKIP] Row 21/288 already completed, skipping
+2025-11-06 12:12:16,967 - INFO - [SKIP] Row 22/288 already completed, skipping
+2025-11-06 12:12:16,970 - INFO - [SKIP] Row 23/288 already completed, skipping
+2025-11-06 12:12:16,973 - INFO - [SKIP] Row 24/288 already completed, skipping
+2025-11-06 12:12:16,977 - INFO - [SKIP] Row 25/288 already completed, skipping
+2025-11-06 12:12:16,982 - INFO - [SKIP] Row 26/288 already completed, skipping
+2025-11-06 12:12:16,984 - INFO - [SKIP] Row 27/288 already completed, skipping
+2025-11-06 12:12:16,985 - INFO - [SKIP] Row 28/288 already completed, skipping
+2025-11-06 12:12:16,988 - INFO - [SKIP] Row 29/288 already completed, skipping
+2025-11-06 12:12:16,991 - INFO - [SKIP] Row 30/288 already completed, skipping
+2025-11-06 12:12:16,992 - INFO - [SKIP] Row 31/288 already completed, skipping
+2025-11-06 12:12:16,993 - INFO - [SKIP] Row 32/288 already completed, skipping
+2025-11-06 12:12:16,993 - INFO - [SKIP] Row 33/288 already completed, skipping
+2025-11-06 12:12:16,994 - INFO - [SKIP] Row 34/288 already completed, skipping
+2025-11-06 12:12:16,996 - INFO - [SKIP] Row 35/288 already completed, skipping
+2025-11-06 12:12:16,997 - INFO - [SKIP] Row 36/288 already completed, skipping
+2025-11-06 12:12:17,000 - INFO - [SKIP] Row 37/288 already completed, skipping
+2025-11-06 12:12:17,002 - INFO - [SKIP] Row 38/288 already completed, skipping
+2025-11-06 12:12:17,003 - INFO - [SKIP] Row 39/288 already completed, skipping
+2025-11-06 12:12:17,004 - INFO - [SKIP] Row 40/288 already completed, skipping
+2025-11-06 12:12:17,005 - INFO - [SKIP] Row 41/288 already completed, skipping
+2025-11-06 12:12:17,006 - INFO - [SKIP] Row 42/288 already completed, skipping
+2025-11-06 12:12:17,008 - INFO - [SKIP] Row 43/288 already completed, skipping
+2025-11-06 12:12:17,008 - INFO - [SKIP] Row 44/288 already completed, skipping
+2025-11-06 12:12:17,010 - INFO - [SKIP] Row 45/288 already completed, skipping
+2025-11-06 12:12:17,021 - INFO - [SKIP] Row 46/288 already completed, skipping
+2025-11-06 12:12:17,022 - INFO - [SKIP] Row 47/288 already completed, skipping
+2025-11-06 12:12:17,022 - INFO - [SKIP] Row 48/288 already completed, skipping
+2025-11-06 12:12:17,023 - INFO - [SKIP] Row 49/288 already completed, skipping
+2025-11-06 12:12:17,024 - INFO - [SKIP] Row 50/288 already completed, skipping
+2025-11-06 12:12:17,025 - INFO - [SKIP] Row 51/288 already completed, skipping
+2025-11-06 12:12:17,025 - INFO - [SKIP] Row 52/288 already completed, skipping
+2025-11-06 12:12:17,026 - INFO - [SKIP] Row 53/288 already completed, skipping
+2025-11-06 12:12:17,028 - INFO - [SKIP] Row 54/288 already completed, skipping
+2025-11-06 12:12:17,029 - INFO - [SKIP] Row 55/288 already completed, skipping
+2025-11-06 12:12:17,029 - INFO - [SKIP] Row 56/288 already completed, skipping
+2025-11-06 12:12:17,030 - INFO - [SKIP] Row 57/288 already completed, skipping
+2025-11-06 12:12:17,030 - INFO - [SKIP] Row 58/288 already completed, skipping
+2025-11-06 12:12:17,030 - INFO - [SKIP] Row 59/288 already completed, skipping
+2025-11-06 12:12:17,031 - INFO - [SKIP] Row 60/288 already completed, skipping
+2025-11-06 12:12:17,031 - INFO - [SKIP] Row 61/288 already completed, skipping
+2025-11-06 12:12:17,031 - INFO - [SKIP] Row 62/288 already completed, skipping
+2025-11-06 12:12:17,031 - INFO - [SKIP] Row 63/288 already completed, skipping
+2025-11-06 12:12:17,031 - INFO - [SKIP] Row 64/288 already completed, skipping
+2025-11-06 12:12:17,032 - INFO - [SKIP] Row 65/288 already completed, skipping
+2025-11-06 12:12:17,032 - INFO - [SKIP] Row 66/288 already completed, skipping
+2025-11-06 12:12:17,033 - INFO - [SKIP] Row 67/288 already completed, skipping
+2025-11-06 12:12:17,034 - INFO - [SKIP] Row 68/288 already completed, skipping
+2025-11-06 12:12:17,035 - INFO - [SKIP] Row 69/288 already completed, skipping
+2025-11-06 12:12:17,035 - INFO - [SKIP] Row 70/288 already completed, skipping
+2025-11-06 12:12:17,036 - INFO - [SKIP] Row 71/288 already completed, skipping
+2025-11-06 12:12:17,036 - INFO - [SKIP] Row 72/288 already completed, skipping
+2025-11-06 12:12:17,036 - INFO - [SKIP] Row 73/288 already completed, skipping
+2025-11-06 12:12:17,036 - INFO - [SKIP] Row 74/288 already completed, skipping
+2025-11-06 12:12:17,036 - INFO - [SKIP] Row 75/288 already completed, skipping
+2025-11-06 12:12:17,037 - INFO - [SKIP] Row 76/288 already completed, skipping
+2025-11-06 12:12:17,037 - INFO - [SKIP] Row 77/288 already completed, skipping
+2025-11-06 12:12:17,038 - INFO - [SKIP] Row 78/288 already completed, skipping
+2025-11-06 12:12:17,040 - INFO - [SKIP] Row 79/288 already completed, skipping
+2025-11-06 12:12:17,042 - INFO - [SKIP] Row 80/288 already completed, skipping
+2025-11-06 12:12:17,043 - INFO - [SKIP] Row 81/288 already completed, skipping
+2025-11-06 12:12:17,044 - INFO - [SKIP] Row 82/288 already completed, skipping
+2025-11-06 12:12:17,046 - INFO - [SKIP] Row 83/288 already completed, skipping
+2025-11-06 12:12:17,046 - INFO - [SKIP] Row 84/288 already completed, skipping
+2025-11-06 12:12:17,046 - INFO - [SKIP] Row 85/288 already completed, skipping
+2025-11-06 12:12:17,046 - INFO - [SKIP] Row 86/288 already completed, skipping
+2025-11-06 12:12:17,047 - INFO - [SKIP] Row 87/288 already completed, skipping
+2025-11-06 12:12:17,047 - INFO - [SKIP] Row 88/288 already completed, skipping
+2025-11-06 12:12:17,047 - INFO - [SKIP] Row 89/288 already completed, skipping
+2025-11-06 12:12:17,048 - INFO - [SKIP] Row 90/288 already completed, skipping
+2025-11-06 12:12:17,049 - INFO - [SKIP] Row 91/288 already completed, skipping
+2025-11-06 12:12:17,050 - INFO - [SKIP] Row 92/288 already completed, skipping
+2025-11-06 12:12:17,051 - INFO - [SKIP] Row 93/288 already completed, skipping
+2025-11-06 12:12:17,052 - INFO - [SKIP] Row 94/288 already completed, skipping
+2025-11-06 12:12:17,052 - INFO - [SKIP] Row 95/288 already completed, skipping
+2025-11-06 12:12:17,052 - INFO - [SKIP] Row 96/288 already completed, skipping
+2025-11-06 12:12:17,052 - INFO - [SKIP] Row 97/288 already completed, skipping
+2025-11-06 12:12:17,054 - INFO - [SKIP] Row 98/288 already completed, skipping
+2025-11-06 12:12:17,054 - INFO - [SKIP] Row 99/288 already completed, skipping
+2025-11-06 12:12:17,055 - INFO - [SKIP] Row 100/288 already completed, skipping
+2025-11-06 12:12:17,055 - INFO - [SKIP] Row 101/288 already completed, skipping
+2025-11-06 12:12:17,055 - INFO - [SKIP] Row 102/288 already completed, skipping
+2025-11-06 12:12:17,055 - INFO - [SKIP] Row 103/288 already completed, skipping
+2025-11-06 12:12:17,056 - INFO - [SKIP] Row 104/288 already completed, skipping
+2025-11-06 12:12:17,056 - INFO - [SKIP] Row 105/288 already completed, skipping
+2025-11-06 12:12:17,056 - INFO - [SKIP] Row 106/288 already completed, skipping
+2025-11-06 12:12:17,056 - INFO - [SKIP] Row 107/288 already completed, skipping
+2025-11-06 12:12:17,057 - INFO - [SKIP] Row 108/288 already completed, skipping
+2025-11-06 12:12:17,057 - INFO - [SKIP] Row 109/288 already completed, skipping
+2025-11-06 12:12:17,058 - INFO - [SKIP] Row 110/288 already completed, skipping
+2025-11-06 12:12:17,059 - INFO - [SKIP] Row 111/288 already completed, skipping
+2025-11-06 12:12:17,060 - INFO - [SKIP] Row 112/288 already completed, skipping
+2025-11-06 12:12:17,061 - INFO - [SKIP] Row 113/288 already completed, skipping
+2025-11-06 12:12:17,062 - INFO - [SKIP] Row 114/288 already completed, skipping
+2025-11-06 12:12:17,062 - INFO - [SKIP] Row 115/288 already completed, skipping
+2025-11-06 12:12:17,063 - INFO - [SKIP] Row 116/288 already completed, skipping
+2025-11-06 12:12:17,063 - INFO - [SKIP] Row 117/288 already completed, skipping
+2025-11-06 12:12:17,064 - INFO - [SKIP] Row 118/288 already completed, skipping
+2025-11-06 12:12:17,064 - INFO - [SKIP] Row 119/288 already completed, skipping
+2025-11-06 12:12:17,065 - INFO - [SKIP] Row 120/288 already completed, skipping
+2025-11-06 12:12:17,066 - INFO - [SKIP] Row 121/288 already completed, skipping
+2025-11-06 12:12:17,066 - INFO - [SKIP] Row 122/288 already completed, skipping
+2025-11-06 12:12:17,067 - INFO - [SKIP] Row 123/288 already completed, skipping
+2025-11-06 12:12:17,067 - INFO - [SKIP] Row 124/288 already completed, skipping
+2025-11-06 12:12:17,067 - INFO - [SKIP] Row 125/288 already completed, skipping
+2025-11-06 12:12:17,068 - INFO - [SKIP] Row 126/288 already completed, skipping
+2025-11-06 12:12:17,069 - INFO - [SKIP] Row 127/288 already completed, skipping
+2025-11-06 12:12:17,069 - INFO - [SKIP] Row 128/288 already completed, skipping
+2025-11-06 12:12:17,070 - INFO - [SKIP] Row 129/288 already completed, skipping
+2025-11-06 12:12:17,070 - INFO - [SKIP] Row 130/288 already completed, skipping
+2025-11-06 12:12:17,070 - INFO - [SKIP] Row 131/288 already completed, skipping
+2025-11-06 12:12:17,071 - INFO - [SKIP] Row 132/288 already completed, skipping
+2025-11-06 12:12:17,071 - INFO - [SKIP] Row 133/288 already completed, skipping
+2025-11-06 12:12:17,072 - INFO - [SKIP] Row 134/288 already completed, skipping
+2025-11-06 12:12:17,072 - INFO - [SKIP] Row 135/288 already completed, skipping
+2025-11-06 12:12:17,073 - INFO - [SKIP] Row 136/288 already completed, skipping
+2025-11-06 12:12:17,073 - INFO - [SKIP] Row 140/288 already completed, skipping
+2025-11-06 12:12:17,074 - INFO - [INFO] Processing 151 pending prompts...
+2025-11-06 12:12:17,132 - INFO - [INFO] Processing row 137/288 - test_item: S7F
+2025-11-06 12:12:17,134 - INFO - [PROMPT] Aquí tens el context: La gespa ha estat tallada. A més, les flors també han estat regades. El Pau no...
+2025-11-06 12:12:17,137 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 12:12:17,156 - INFO - [INFO] Processing row 138/288 - test_item: S7C
+2025-11-06 12:12:17,189 - INFO - [PROMPT] Aquí tens el context: La gespa no ha estat tallada. Les flors tampoc no han estat regades. La Maria ...
+2025-11-06 12:12:17,202 - INFO - [INFO] Processing row 139/288 - test_item: S8T
+2025-11-06 12:12:17,202 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 12:12:17,207 - INFO - [PROMPT] Aquí tens el context: El gos està jugant. A més, el gat està pujant a l'arbre. La Maria havia dit: "...
+2025-11-06 12:12:17,209 - INFO - [INFO] Processing row 141/288 - test_item: S8C
+2025-11-06 12:12:17,345 - INFO - [LANGUAGE] Detected language: Catalan
+2025-11-06 12:12:17,347 - INFO - [PROMPT] Aquí tens el context: El gos no està jugant. A més, el gat està dormint. La Maria havia dit: "Si el ...
+2025-11-06 12:12:17,351 - INFO - [LANGUAGE] Detected language: Catalan

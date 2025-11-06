@@ -11,17 +11,19 @@ import sys
 import logging
 import pandas as pd
 import torch
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 from script_models_config import MODELS
 from datetime import datetime
 from huggingface_hub import login
-login(token="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")
+from clean_translations import clean_answer_file
+login(token="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")
 
 
 # HuggingFace authentication token (for gated models)
-HF_TOKEN = "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"
+HF_TOKEN = "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"
 # ============================================================================
 # LOGGING CONFIGURATION
 # ============================================================================
@@ -43,12 +45,13 @@ logger = logging.getLogger(__name__)
 # ============================================================================
 # List of models to process (each model has its own configuration)
 
-INPUT_FILE = "prompts/prompts(cat,es,it)(in).csv"  # Input CSV file path
+INPUT_FILE = "prompts/prompts_all.csv"  # Input CSV file path
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-TEMPERATURE = 0.0  # Temperature for generation (0.0 = deterministic)
+TEMPERATURE = 0  # Temperature for generation (0 = deterministic)
 OUTPUT_DIR = "answers"  # Directory for output files
 CSV_SEPARATOR = ";"
 MAX_WORKERS = 4  # Number of parallel workers for processing prompts
+REQUEST_DELAY = 2  # Delay in seconds between requests to avoid overloading the model
 
 # ============================================================================
 # FUNCTIONS
@@ -142,6 +145,51 @@ def load_input_file():
         logger.error(f"[ERROR] Error reading CSV: {str(e)}")
         raise
 
+def clean_multilingual_answer(answer, target_language):
+    """Clean answers that may contain multiple languages, keeping only the target language."""
+    import re
+
+    if not answer or not target_language:
+        return answer
+
+    lang_lower = target_language.lower()
+
+    if lang_lower != "english":
+        # Remove English translations in parentheses at the end
+        # Examples: "(Yes, it's true.)", "(No hi ha una planxa a l'armari.)"
+        answer = re.sub(r'\s*\([^)]*[A-Z][^)]*\)\s*$', '', answer)
+
+        # Remove English translations in parentheses anywhere in the text
+        answer = re.sub(r'\s*\([^)]*(?:Yes|No|If|It|The|There|According|Otherwise)[^)]*\)', '', answer, flags=re.IGNORECASE)
+
+        # Patterns to detect English translations added by the model
+        english_patterns = [
+            r'\n\n\s*(?:Translation|In English|English version|English answer)[\s:]+.*',
+            r'\n\s*English[\s:]+.*',
+            r'\n\n\s*[A-Z][^.]*\.\s*(?:[A-Z][^.]*\.)+',  # Sentences that look like English after non-English
+            r'\n\n\s*La traducción directa.*',  # Spanish translation phrases
+            r'\n\n\s*La traducción.*',  # Spanish translation phrases
+            r'\n\s*La traducción directa.*',  # Spanish translation phrases inline
+        ]
+
+        # Remove common English translation patterns
+        for pattern in english_patterns:
+            answer = re.sub(pattern, '', answer, flags=re.IGNORECASE | re.DOTALL)
+
+        # If the answer has two distinct paragraphs and the second looks like English, remove it
+        paragraphs = answer.split('\n\n')
+        if len(paragraphs) > 1:
+            # Keep only the first paragraph if it seems complete
+            first = paragraphs[0].strip()
+            if first and (first.endswith('.') or first.endswith('?') or first.endswith('!')):
+                # Check if second paragraph looks like it's in English
+                second = paragraphs[1].strip()
+                if second and not any(char in second.lower() for char in ['à', 'è', 'é', 'ò', 'í', 'ñ', 'ç', 'ü', 'ú']):
+                    # Likely English, remove it
+                    answer = first
+
+    return answer.strip()
+
 def parse_prompt(raw_prompt):
     """Parse the raw prompt to extract context and question."""
     sentences = raw_prompt.split(".")
@@ -161,36 +209,87 @@ def parse_prompt(raw_prompt):
 
     return context, question
 
-def generate_answer(context, question, model_dict):
-    """Generate an answer using the loaded model."""
+def generate_answer(context, question, model_dict, language=None):
+    """Generate an answer using the loaded model, forcing response language if provided."""
+    # Map language names to native language names and strict instructions
+    language_map = {
+        "english": {
+            "name": "English",
+            "system": "You are a helpful assistant that answers ONLY in English.",
+            "prompt_template": "Context: {context}\n\nQuestion: {question}\n\nProvide a direct answer in English only:"
+        },
+        "catalan": {
+            "name": "català",
+            "system": "Ets un assistent útil que respon NOMÉS en català.",
+            "prompt_template": "Context: {context}\n\nPregunta: {question}\n\nRespon NOMÉS en català. NO proporcionis traduccions a l'anglès:"
+        },
+        "spanish": {
+            "name": "español",
+            "system": "Eres un asistente útil que responde SOLO en español.",
+            "prompt_template": "Contexto: {context}\n\nPregunta: {question}\n\nResponde SOLO en español. NO proporciones traducciones al inglés:"
+        },
+        "italian": {
+            "name": "italiano",
+            "system": "Sei un assistente utile che risponde SOLO in italiano.",
+            "prompt_template": "Contesto: {context}\n\nDomanda: {question}\n\nRispondi SOLO in italiano. NON fornire traduzioni in inglese:"
+        }
+    }
+
+    # Get language instruction
+    language_info = None
+    if language:
+        lang_lower = str(language).strip().lower()
+        language_info = language_map.get(lang_lower)
+
     if model_dict['type'] == 'qa':
-        result = model_dict['model'](question=question, context=context)
+        # For QA models, add language instruction to the question
+        if language_info:
+            question_with_lang = f"{question} (Responde en {language_info['name']})"
+        else:
+            question_with_lang = question
+        result = model_dict['model'](question=question_with_lang, context=context)
         return result[0]["answer"] if isinstance(result, list) else result["answer"]
     else:
-        full_prompt = f"Context: {context}\nQuestion: {question}\n\nAnswer:"
+        # For generative models, use language-specific prompt template
+        if language_info:
+            full_prompt = language_info['prompt_template'].format(context=context, question=question)
+        else:
+            full_prompt = f"Context: {context}\nQuestion: {question}\n\nAnswer:"
+
         tokenizer = model_dict['tokenizer']
         inputs = tokenizer(full_prompt, return_tensors="pt").to(DEVICE)
 
         with torch.no_grad():
             # Preparar parámetros de generación
             gen_kwargs = {
-                "max_new_tokens": 300,
+                "max_new_tokens": 2048,  # Allow longer responses
                 "pad_token_id": tokenizer.pad_token_id,
-                "eos_token_id": tokenizer.eos_token_id
+                "eos_token_id": tokenizer.eos_token_id,
+                "early_stopping": False,  # Don't stop early
+                "num_beams": 1  # Greedy decoding for deterministic results
             }
 
             # Solo añadir temperature y do_sample si temperature > 0
             if TEMPERATURE > 0:
                 gen_kwargs["temperature"] = TEMPERATURE
                 gen_kwargs["do_sample"] = True
+            else:
+                gen_kwargs["do_sample"] = False
 
             outputs = model_dict['model'].generate(**inputs, **gen_kwargs)
 
         answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        return answer.replace(full_prompt, "").strip()
+        # Remove the prompt from the answer
+        answer = answer.replace(full_prompt, "").strip()
+
+        # Clean up multilingual responses
+        if language:
+            answer = clean_multilingual_answer(answer, language)
+
+        return answer.strip()
 
 def process_row(idx, row, total_rows, model_dict):
-    """Process a single row and return the answer."""
+    """Process a single row and return the answer. Uses 'language' column if available."""
     try:
         raw_prompt = str(row.prompt)
 
@@ -203,8 +302,20 @@ def process_row(idx, row, total_rows, model_dict):
 
         logger.info(f"[PROMPT] {raw_prompt[:100]}..." if len(raw_prompt) > 100 else f"[PROMPT] {raw_prompt}")
 
+        # Get language from the row (try 'language' or 'lang' columns)
+        language = None
+        if hasattr(row, 'language'):
+            language = getattr(row, 'language')
+            logger.info(f"[LANGUAGE] Detected language: {language}")
+        elif hasattr(row, 'lang'):
+            language = getattr(row, 'lang')
+            logger.info(f"[LANGUAGE] Detected language: {language}")
+
         context, question = parse_prompt(raw_prompt)
-        answer = generate_answer(context, question, model_dict)
+        answer = generate_answer(context, question, model_dict, language)
+
+        # Add delay to avoid overloading the model with requests
+        time.sleep(REQUEST_DELAY)
 
         logger.info(f"[OK] Row {idx + 1} completed")
         return idx, answer
@@ -238,6 +349,11 @@ def process_prompts_sequential(df, model_dict, model_name):
         save_single_answer(df, answers, model_name, idx)
 
         logger.info(f"[PROGRESS] {model_name} - {idx + 1}/{total_rows} rows completed")
+
+        # Add delay between requests to avoid overloading
+        if idx < total_rows - 1:  # Don't delay after the last row
+            logger.info(f"[INFO] Waiting {REQUEST_DELAY} seconds before next request...")
+            time.sleep(REQUEST_DELAY)
 
     logger.info(f"[OK] All rows processed for {model_name}")
 
@@ -372,7 +488,18 @@ def process_single_model(model_config, df):
         # Always unload the model, even if processing fails
         unload_model(model_dict, model_name)
 
-    logger.info(f"[OK] ===== Completed processing for model: {model_name} =====\n")
+    logger.info(f"[OK] ===== Completed processing for model: {model_name} =====")
+
+    # Automatically clean translations from the answer file
+    logger.info(f"[INFO] Cleaning translations from answer file for {model_name}...")
+    output_file = get_output_file_path(model_name)
+    try:
+        clean_answer_file(output_file)
+        logger.info(f"[OK] Translations cleaned successfully for {model_name}")
+    except Exception as e:
+        logger.warning(f"[WARNING] Error cleaning translations for {model_name}: {str(e)}")
+
+    logger.info("")
 
 def process_all_models(df):
     """Process all models sequentially."""

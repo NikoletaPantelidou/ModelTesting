@@ -1,0 +1,14 @@
+2025-11-04 12:55:58,600 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-04 12:55:58,600 - INFO - [INFO] API: https://ollama.com/api
+2025-11-04 12:55:58,600 - INFO - [INFO] Mode: Sequential
+2025-11-04 12:55:58,983 - INFO - [OK] Ollama API is accessible
+2025-11-04 12:55:58,999 - INFO - [OK] File loaded: 288 rows
+2025-11-04 12:55:59,002 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-04 12:55:59,002 - INFO - [INFO] Processing model 1/3: gpt-oss:120b-cloud
+2025-11-04 12:55:59,002 - INFO - [INFO] ===== Starting: gpt-oss:120b-cloud =====
+2025-11-04 12:55:59,003 - INFO - [INFO] gpt-oss:120b-cloud has 288 pending answers
+2025-11-04 12:55:59,003 - INFO - [INFO] Starting sequential processing for gpt-oss:120b-cloud
+2025-11-04 12:55:59,004 - INFO - [INFO] Processing Row 1/288 [B1T]
+2025-11-04 12:55:59,004 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-04 12:55:59,317 - WARNING - [WARNING] API status 401
+2025-11-04 12:56:00,627 - WARNING - [WARNING] API status 401

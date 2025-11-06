@@ -1,0 +1,69 @@
+2025-11-02 15:38:01,370 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-02 15:38:01,370 - INFO - [INFO] API: https://ollama.com/api
+2025-11-02 15:38:01,370 - INFO - [INFO] Mode: Sequential
+2025-11-02 15:38:01,720 - INFO - [OK] Ollama API is accessible
+2025-11-02 15:38:01,726 - INFO - [OK] File loaded: 72 rows
+2025-11-02 15:38:01,726 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-02 15:38:01,726 - INFO - [INFO] Processing model 1/4: deepseek-v3.1:671b-cloud
+2025-11-02 15:38:01,726 - INFO - [INFO] ===== Starting: deepseek-v3.1:671b-cloud =====
+2025-11-02 15:38:01,727 - INFO - [INFO] deepseek-v3.1:671b-cloud has 72 pending answers
+2025-11-02 15:38:01,727 - INFO - [INFO] Starting sequential processing for deepseek-v3.1:671b-cloud
+2025-11-02 15:38:01,727 - INFO - [INFO] Processing Row 1/72 [B1T]
+2025-11-02 15:38:01,727 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-02 15:38:07,420 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If John is hungry, there is pizza in the oven."
+
+We know f...
+2025-11-02 15:38:07,420 - INFO - [OK] Row 1 [B1T] completed successfully
+2025-11-02 15:38:07,423 - INFO - [OK] Answer 1 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:38:07,423 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 1/72 processed | 1 successful | 0 errors
+2025-11-02 15:38:07,423 - INFO - [INFO] Processing Row 2/72 [B1F]
+2025-11-02 15:38:07,423 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-02 15:38:11,202 - INFO - [ANSWER] Let’s break this down.  
+
+We know:  
+- **Fact 1:** John is hungry.  
+- **Fact 2:** There is no pizza...
+2025-11-02 15:38:11,202 - INFO - [OK] Row 2 [B1F] completed successfully
+2025-11-02 15:38:11,203 - INFO - [OK] Answer 2 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:38:11,203 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 2/72 processed | 2 successful | 0 errors
+2025-11-02 15:38:11,203 - INFO - [INFO] Processing Row 3/72 [B1C]
+2025-11-02 15:38:11,203 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-02 15:38:15,630 - INFO - [ANSWER] Let’s break this down.
+
+---
+
+**Given facts:**
+- John is **not** hungry.
+- There is pasta in the frid...
+2025-11-02 15:38:15,630 - INFO - [OK] Row 3 [B1C] completed successfully
+2025-11-02 15:38:15,632 - INFO - [OK] Answer 3 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:38:15,632 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 3/72 processed | 3 successful | 0 errors
+2025-11-02 15:38:15,632 - INFO - [INFO] Processing Row 4/72 [B2T]
+2025-11-02 15:38:15,632 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-02 15:38:18,896 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If Nicole's head hurts, there is aspirin on the table."
+
+W...
+2025-11-02 15:38:18,896 - INFO - [OK] Row 4 [B2T] completed successfully
+2025-11-02 15:38:18,897 - INFO - [OK] Answer 4 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:38:18,897 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 4/72 processed | 4 successful | 0 errors
+2025-11-02 15:38:18,897 - INFO - [INFO] Processing Row 5/72 [B2F]
+2025-11-02 15:38:18,898 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-02 15:38:22,939 - INFO - [ANSWER] Let’s break this down.
+
+---
+
+**1. Restating the facts from the context:**
+
+- Nicole’s head hurts.
+- ...
+2025-11-02 15:38:22,939 - INFO - [OK] Row 5 [B2F] completed successfully
+2025-11-02 15:38:22,941 - INFO - [OK] Answer 5 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:38:22,941 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 5/72 processed | 5 successful | 0 errors
+2025-11-02 15:38:22,941 - INFO - [INFO] Processing Row 6/72 [B2C]
+2025-11-02 15:38:22,941 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...

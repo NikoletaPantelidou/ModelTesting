@@ -1,0 +1,61 @@
+2025-10-31 20:05:14,986 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-10-31 20:05:14,986 - INFO - [INFO] API: https://ollama.com/api
+2025-10-31 20:05:14,986 - INFO - [INFO] Mode: Sequential
+2025-10-31 20:05:15,319 - INFO - [OK] Ollama API is accessible
+2025-10-31 20:05:15,323 - INFO - [OK] File loaded: 72 rows
+2025-10-31 20:05:15,323 - INFO - [INFO] Processing model 1/5: gpt-oss
+2025-10-31 20:05:15,323 - INFO - [INFO] ===== Starting: gpt-oss =====
+2025-10-31 20:05:15,323 - INFO - [INFO] gpt-oss has 72 pending answers
+2025-10-31 20:05:15,323 - INFO - [INFO] Starting sequential processing for gpt-oss
+2025-10-31 20:05:15,324 - INFO - [INFO] Row 1/72 - test_item: B1T
+2025-10-31 20:05:15,324 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-10-31 20:05:15,797 - ERROR - [ERROR] Row 1: Model gpt-oss not found
+2025-10-31 20:05:15,803 - INFO - [OK] Answer 1 saved
+2025-10-31 20:05:15,803 - INFO - [PROGRESS] gpt-oss - 1/72 completed
+2025-10-31 20:05:15,803 - INFO - [INFO] Row 2/72 - test_item: B1F
+2025-10-31 20:05:15,803 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-10-31 20:05:16,228 - ERROR - [ERROR] Row 2: Model gpt-oss not found
+2025-10-31 20:05:16,234 - INFO - [OK] Answer 2 saved
+2025-10-31 20:05:16,234 - INFO - [PROGRESS] gpt-oss - 2/72 completed
+2025-10-31 20:05:16,234 - INFO - [INFO] Row 3/72 - test_item: B1C
+2025-10-31 20:05:16,234 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-10-31 20:05:16,662 - ERROR - [ERROR] Row 3: Model gpt-oss not found
+2025-10-31 20:05:16,669 - INFO - [OK] Answer 3 saved
+2025-10-31 20:05:16,669 - INFO - [PROGRESS] gpt-oss - 3/72 completed
+2025-10-31 20:05:16,669 - INFO - [INFO] Row 4/72 - test_item: B2T
+2025-10-31 20:05:16,669 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-10-31 20:05:17,150 - ERROR - [ERROR] Row 4: Model gpt-oss not found
+2025-10-31 20:05:17,154 - INFO - [OK] Answer 4 saved
+2025-10-31 20:05:17,154 - INFO - [PROGRESS] gpt-oss - 4/72 completed
+2025-10-31 20:05:17,155 - INFO - [INFO] Row 5/72 - test_item: B2F
+2025-10-31 20:05:17,155 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-10-31 20:05:17,627 - ERROR - [ERROR] Row 5: Model gpt-oss not found
+2025-10-31 20:05:17,629 - INFO - [OK] Answer 5 saved
+2025-10-31 20:05:17,629 - INFO - [PROGRESS] gpt-oss - 5/72 completed
+2025-10-31 20:05:17,629 - INFO - [INFO] Row 6/72 - test_item: B2C
+2025-10-31 20:05:17,629 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-10-31 20:05:19,095 - ERROR - [ERROR] Row 6: Model gpt-oss not found
+2025-10-31 20:05:19,100 - INFO - [OK] Answer 6 saved
+2025-10-31 20:05:19,100 - INFO - [PROGRESS] gpt-oss - 6/72 completed
+2025-10-31 20:05:19,100 - INFO - [INFO] Row 7/72 - test_item: B3T
+2025-10-31 20:05:19,100 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-10-31 20:05:20,287 - ERROR - [ERROR] Row 7: Model gpt-oss not found
+2025-10-31 20:05:20,289 - INFO - [OK] Answer 7 saved
+2025-10-31 20:05:20,289 - INFO - [PROGRESS] gpt-oss - 7/72 completed
+2025-10-31 20:05:20,289 - INFO - [INFO] Row 8/72 - test_item: B3F
+2025-10-31 20:05:20,289 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-10-31 20:05:20,715 - ERROR - [ERROR] Row 8: Model gpt-oss not found
+2025-10-31 20:05:20,717 - INFO - [OK] Answer 8 saved
+2025-10-31 20:05:20,717 - INFO - [PROGRESS] gpt-oss - 8/72 completed
+2025-10-31 20:05:20,717 - INFO - [INFO] Row 9/72 - test_item: B3C
+2025-10-31 20:05:20,717 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-10-31 20:05:21,217 - ERROR - [ERROR] Row 9: Model gpt-oss not found
+2025-10-31 20:05:21,219 - INFO - [OK] Answer 9 saved
+2025-10-31 20:05:21,219 - INFO - [PROGRESS] gpt-oss - 9/72 completed
+2025-10-31 20:05:21,219 - INFO - [INFO] Row 10/72 - test_item: B4T
+2025-10-31 20:05:21,219 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-10-31 20:05:21,632 - ERROR - [ERROR] Row 10: Model gpt-oss not found
+2025-10-31 20:05:21,634 - INFO - [OK] Answer 10 saved
+2025-10-31 20:05:21,634 - INFO - [PROGRESS] gpt-oss - 10/72 completed
+2025-10-31 20:05:21,634 - INFO - [INFO] Row 11/72 - test_item: B4F
+2025-10-31 20:05:21,634 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...

@@ -1,0 +1,18 @@
+2025-11-01 17:34:01,690 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-01 17:34:01,690 - INFO - [INFO] API: https://ollama.com/api
+2025-11-01 17:34:01,690 - INFO - [INFO] Mode: Sequential
+2025-11-01 17:34:02,020 - INFO - [OK] Ollama API is accessible
+2025-11-01 17:34:02,028 - INFO - [OK] File loaded: 72 rows
+2025-11-01 17:34:02,028 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-01 17:34:02,028 - INFO - [INFO] Processing model 1/4: qwen3-vl:235b-cloud
+2025-11-01 17:34:02,028 - INFO - [INFO] ===== Starting: qwen3-vl:235b-cloud =====
+2025-11-01 17:34:02,038 - INFO - [INFO] Existing answers found in individual file: 11/72 completed, 0 errors, 61 pending
+2025-11-01 17:34:02,039 - INFO - [INFO] Pending items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T, B4F, B4C, B5T, B5F, B5C, B6T, B6F, B6C, B7T, B7F...
+2025-11-01 17:34:02,040 - INFO - [INFO] qwen3-vl:235b-cloud has 61 pending answers
+2025-11-01 17:34:02,040 - INFO - [INFO] Starting sequential processing for qwen3-vl:235b-cloud
+2025-11-01 17:34:02,041 - INFO - [INFO] Existing answers found in individual file: 11/72 completed, 0 errors, 61 pending
+2025-11-01 17:34:02,042 - INFO - [INFO] Pending items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T, B4F, B4C, B5T, B5F, B5C, B6T, B6F, B6C, B7T, B7F...
+2025-11-01 17:34:02,042 - INFO - [INFO] Processing Row 1/72 [B1T]
+2025-11-01 17:34:02,042 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-01 17:34:02,473 - WARNING - [WARNING] API status 402
+2025-11-01 17:34:03,913 - WARNING - [WARNING] API status 402
