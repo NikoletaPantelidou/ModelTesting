@@ -1,0 +1,39 @@
+2025-11-07 09:58:10,491 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-07 09:58:10,501 - INFO - Processing model meta-llama/llama-3.3-70b-instruct:free
+2025-11-07 09:58:10,506 - INFO - Processing 84/288
+2025-11-07 09:58:10,507 - INFO - Processing 85/288
+2025-11-07 09:58:10,507 - INFO - Processing 86/288
+2025-11-07 09:58:10,508 - INFO - Processing 87/288
+2025-11-07 09:58:11,738 - ERROR - Error processing row 85: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762505940000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 09:58:11,741 - INFO - Processing 88/288
+2025-11-07 09:58:11,747 - INFO - Saved answer 85 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:58:11,747 - INFO - Progress: 1/205 pending completed
+2025-11-07 09:58:11,773 - ERROR - Error processing row 86: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762505940000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 09:58:11,774 - INFO - Processing 89/288
+2025-11-07 09:58:11,779 - INFO - Saved answer 86 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:58:11,779 - INFO - Progress: 2/205 pending completed
+2025-11-07 09:58:11,943 - ERROR - Error processing row 84: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762505940000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 09:58:11,945 - INFO - Processing 90/288
+2025-11-07 09:58:11,951 - INFO - Saved answer 84 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:58:11,951 - INFO - Progress: 3/205 pending completed
+2025-11-07 09:58:12,213 - ERROR - Error processing row 87: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762560000000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 09:58:12,215 - INFO - Processing 91/288
+2025-11-07 09:58:12,219 - INFO - Saved answer 87 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:58:12,219 - INFO - Progress: 4/205 pending completed
+2025-11-07 09:58:12,906 - ERROR - Error processing row 91: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762505940000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 09:58:12,908 - INFO - Processing 92/288
+2025-11-07 09:58:12,912 - INFO - Saved answer 91 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:58:12,912 - INFO - Progress: 5/205 pending completed
+2025-11-07 09:58:13,043 - ERROR - Error processing row 89: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762560000000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 09:58:13,044 - INFO - Processing 93/288
+2025-11-07 09:58:13,049 - INFO - Saved answer 89 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:58:13,049 - INFO - Progress: 6/205 pending completed
+2025-11-07 09:58:13,264 - ERROR - Error processing row 90: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762560000000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 09:58:13,266 - INFO - Processing 94/288
+2025-11-07 09:58:13,267 - ERROR - Error processing row 88: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762560000000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 09:58:13,269 - INFO - Processing 95/288
+2025-11-07 09:58:14,043 - ERROR - Error processing row 93: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762505940000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 09:58:14,044 - INFO - Processing 96/288
+2025-11-07 09:58:14,060 - ERROR - Error processing row 92: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762505940000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 09:58:14,061 - INFO - Processing 97/288

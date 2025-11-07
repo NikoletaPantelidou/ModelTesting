@@ -1,0 +1,22 @@
+2025-11-07 10:05:05,083 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-07 10:05:05,095 - INFO - Processing model meta-llama/llama-3.3-70b-instruct:free
+2025-11-07 10:05:05,102 - INFO - Processing 84/288
+2025-11-07 10:05:05,102 - INFO - Processing 85/288
+2025-11-07 10:05:05,103 - INFO - Processing 86/288
+2025-11-07 10:05:05,104 - INFO - Processing 87/288
+2025-11-07 10:05:06,266 - ERROR - Error processing row 86: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762506360000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 10:05:06,269 - INFO - Processing 88/288
+2025-11-07 10:05:06,272 - ERROR - Task failed for row 86: [Errno 13] Permission denied: 'C:\\Users\\nikol\\PycharmProjects\\ModelTesting\\open router free\\answers\\meta-llama-llama-3.3-70b-instruct-free_answers.csv'
+2025-11-07 10:05:06,403 - ERROR - Error processing row 87: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762506360000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 10:05:06,405 - INFO - Processing 89/288
+2025-11-07 10:05:06,406 - ERROR - Task failed for row 87: [Errno 13] Permission denied: 'C:\\Users\\nikol\\PycharmProjects\\ModelTesting\\open router free\\answers\\meta-llama-llama-3.3-70b-instruct-free_answers.csv'
+2025-11-07 10:05:06,438 - ERROR - Error processing row 85: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762506360000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 10:05:06,441 - INFO - Processing 90/288
+2025-11-07 10:05:06,442 - ERROR - Task failed for row 85: [Errno 13] Permission denied: 'C:\\Users\\nikol\\PycharmProjects\\ModelTesting\\open router free\\answers\\meta-llama-llama-3.3-70b-instruct-free_answers.csv'
+2025-11-07 10:05:06,723 - ERROR - Error processing row 84: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762560000000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 10:05:06,725 - INFO - Processing 91/288
+2025-11-07 10:05:06,726 - ERROR - Task failed for row 84: [Errno 13] Permission denied: 'C:\\Users\\nikol\\PycharmProjects\\ModelTesting\\open router free\\answers\\meta-llama-llama-3.3-70b-instruct-free_answers.csv'
+2025-11-07 10:05:07,346 - ERROR - Error processing row 89: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762506360000'}, 'provider_name': None}}, 'user_id': 'user_358wVXEhzAvEyMZxH2qSzueGW5t'}
+2025-11-07 10:05:07,347 - INFO - Processing 92/288
+2025-11-07 10:05:07,348 - ERROR - Task failed for row 89: [Errno 13] Permission denied: 'C:\\Users\\nikol\\PycharmProjects\\ModelTesting\\open router free\\answers\\meta-llama-llama-3.3-70b-instruct-free_answers.csv'

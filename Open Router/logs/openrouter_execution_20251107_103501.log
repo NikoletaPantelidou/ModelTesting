@@ -1,0 +1,165 @@
+2025-11-07 10:35:01,234 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-07 10:35:01,243 - INFO - Processing model meta-llama/llama-3.3-70b-instruct:free
+2025-11-07 10:35:01,248 - INFO - Processing 95/288
+2025-11-07 10:35:01,249 - INFO - Processing 96/288
+2025-11-07 10:35:01,249 - INFO - Processing 97/288
+2025-11-07 10:35:01,249 - INFO - Processing 98/288
+2025-11-07 10:35:05,633 - INFO - Row 95 completed
+2025-11-07 10:35:05,634 - INFO - Processing 100/288
+2025-11-07 10:35:05,640 - INFO - Saved answer 95 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:05,640 - INFO - Progress: 1/193 pending completed
+2025-11-07 10:35:07,446 - INFO - Row 98 completed
+2025-11-07 10:35:07,446 - INFO - Processing 101/288
+2025-11-07 10:35:07,451 - INFO - Saved answer 98 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:07,451 - INFO - Progress: 2/193 pending completed
+2025-11-07 10:35:07,867 - INFO - Row 100 completed
+2025-11-07 10:35:07,867 - INFO - Processing 102/288
+2025-11-07 10:35:07,871 - INFO - Saved answer 100 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:07,871 - INFO - Progress: 3/193 pending completed
+2025-11-07 10:35:09,729 - INFO - Row 101 completed
+2025-11-07 10:35:09,730 - INFO - Processing 103/288
+2025-11-07 10:35:09,734 - INFO - Saved answer 101 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:09,734 - INFO - Progress: 4/193 pending completed
+2025-11-07 10:35:10,377 - INFO - Row 97 completed
+2025-11-07 10:35:10,377 - INFO - Processing 104/288
+2025-11-07 10:35:10,381 - INFO - Saved answer 97 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:10,381 - INFO - Progress: 5/193 pending completed
+2025-11-07 10:35:11,128 - INFO - Row 96 completed
+2025-11-07 10:35:11,128 - INFO - Processing 105/288
+2025-11-07 10:35:11,133 - INFO - Saved answer 96 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:11,133 - INFO - Progress: 6/193 pending completed
+2025-11-07 10:35:11,199 - INFO - Row 103 completed
+2025-11-07 10:35:11,199 - INFO - Processing 106/288
+2025-11-07 10:35:11,203 - INFO - Saved answer 103 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:11,203 - INFO - Progress: 7/193 pending completed
+2025-11-07 10:35:12,328 - INFO - Row 104 completed
+2025-11-07 10:35:12,328 - INFO - Processing 107/288
+2025-11-07 10:35:12,333 - INFO - Saved answer 104 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:12,333 - INFO - Progress: 8/193 pending completed
+2025-11-07 10:35:13,071 - INFO - Row 106 completed
+2025-11-07 10:35:13,072 - INFO - Processing 108/288
+2025-11-07 10:35:13,076 - INFO - Saved answer 106 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:13,076 - INFO - Progress: 9/193 pending completed
+2025-11-07 10:35:13,554 - INFO - Row 102 completed
+2025-11-07 10:35:13,554 - INFO - Processing 109/288
+2025-11-07 10:35:13,557 - INFO - Saved answer 102 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:13,557 - INFO - Progress: 10/193 pending completed
+2025-11-07 10:35:14,169 - INFO - Row 107 completed
+2025-11-07 10:35:14,169 - INFO - Processing 110/288
+2025-11-07 10:35:14,173 - INFO - Saved answer 107 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:14,173 - INFO - Progress: 11/193 pending completed
+2025-11-07 10:35:14,398 - INFO - Row 105 completed
+2025-11-07 10:35:14,398 - INFO - Processing 111/288
+2025-11-07 10:35:14,402 - INFO - Saved answer 105 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:14,402 - INFO - Progress: 12/193 pending completed
+2025-11-07 10:35:15,252 - INFO - Row 108 completed
+2025-11-07 10:35:15,253 - INFO - Processing 112/288
+2025-11-07 10:35:15,258 - INFO - Saved answer 108 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:15,258 - INFO - Progress: 13/193 pending completed
+2025-11-07 10:35:16,185 - INFO - Row 110 completed
+2025-11-07 10:35:16,185 - ERROR - Error processing row 111: OpenRouter returned status 429: {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice'}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-07 10:35:16,186 - INFO - Processing 113/288
+2025-11-07 10:35:16,188 - INFO - Processing 114/288
+2025-11-07 10:35:16,191 - INFO - Saved answer 110 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:16,191 - INFO - Progress: 14/193 pending completed
+2025-11-07 10:35:16,195 - INFO - Saved answer 111 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:16,195 - INFO - Progress: 15/193 pending completed
+2025-11-07 10:35:17,463 - INFO - Row 112 completed
+2025-11-07 10:35:17,463 - INFO - Processing 115/288
+2025-11-07 10:35:17,467 - INFO - Saved answer 112 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:17,467 - INFO - Progress: 16/193 pending completed
+2025-11-07 10:35:18,493 - ERROR - Error processing row 115: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762508160000'}, 'provider_name': None}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-07 10:35:18,495 - INFO - Processing 116/288
+2025-11-07 10:35:18,500 - INFO - Saved answer 115 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:18,500 - INFO - Progress: 17/193 pending completed
+2025-11-07 10:35:19,927 - ERROR - Error processing row 116: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762508160000'}, 'provider_name': None}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-07 10:35:19,928 - INFO - Processing 117/288
+2025-11-07 10:35:19,933 - INFO - Saved answer 116 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:19,933 - INFO - Progress: 18/193 pending completed
+2025-11-07 10:35:20,992 - ERROR - Error processing row 117: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762508160000'}, 'provider_name': None}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-07 10:35:20,993 - INFO - Processing 118/288
+2025-11-07 10:35:20,998 - INFO - Saved answer 117 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:20,998 - INFO - Progress: 19/193 pending completed
+2025-11-07 10:35:22,219 - ERROR - Error processing row 118: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762508160000'}, 'provider_name': None}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-07 10:35:22,221 - INFO - Processing 119/288
+2025-11-07 10:35:22,225 - INFO - Saved answer 118 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:22,226 - INFO - Progress: 20/193 pending completed
+2025-11-07 10:35:22,257 - ERROR - Error processing row 113: Failed to parse OpenRouter response: 'choices' -- raw: 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"error":{"message":"Internal Server Error","code":500},"user_id":"user_34xhcMXtgedcbls9etq9hhxsbWA"}
+2025-11-07 10:35:22,258 - INFO - Processing 120/288
+2025-11-07 10:35:22,262 - INFO - Saved answer 113 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:22,262 - INFO - Progress: 21/193 pending completed
+2025-11-07 10:35:23,373 - ERROR - Error processing row 114: Failed to parse OpenRouter response: 'choices' -- raw: 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"error":{"message":"Internal Server Error","code":500},"user_id":"user_34xhcMXtgedcbls9etq9hhxsbWA"}
+2025-11-07 10:35:23,374 - INFO - Processing 121/288
+2025-11-07 10:35:23,379 - INFO - Saved answer 114 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:23,379 - INFO - Progress: 22/193 pending completed
+2025-11-07 10:35:23,558 - ERROR - Error processing row 119: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762508160000'}, 'provider_name': None}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-07 10:35:23,560 - INFO - Processing 122/288
+2025-11-07 10:35:23,564 - INFO - Saved answer 119 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:23,564 - INFO - Progress: 23/193 pending completed
+2025-11-07 10:35:23,845 - ERROR - Error processing row 120: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762508160000'}, 'provider_name': None}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-07 10:35:23,847 - INFO - Processing 123/288
+2025-11-07 10:35:23,851 - INFO - Saved answer 120 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:23,851 - INFO - Progress: 24/193 pending completed
+2025-11-07 10:35:23,872 - INFO - Row 109 completed
+2025-11-07 10:35:23,873 - INFO - Processing 124/288
+2025-11-07 10:35:23,878 - INFO - Saved answer 109 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 10:35:23,878 - INFO - Progress: 25/193 pending completed
+2025-11-07 10:35:24,347 - ERROR - Error processing row 121: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762508160000'}, 'provider_name': None}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-07 10:35:24,349 - INFO - Processing 125/288
+2025-11-07 10:35:24,695 - ERROR - Error processing row 122: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762508160000'}, 'provider_name': None}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-07 10:35:24,697 - INFO - Processing 126/288

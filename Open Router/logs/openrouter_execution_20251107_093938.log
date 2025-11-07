@@ -1,0 +1,39 @@
+2025-11-07 09:39:38,535 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-07 09:39:38,544 - INFO - Processing model meta-llama/llama-3.3-70b-instruct:free
+2025-11-07 09:39:38,549 - INFO - Processing 49/288
+2025-11-07 09:39:38,549 - INFO - Processing 51/288
+2025-11-07 09:39:38,550 - INFO - Processing 52/288
+2025-11-07 09:39:38,550 - INFO - Processing 53/288
+2025-11-07 09:39:51,989 - INFO - Row 51 completed
+2025-11-07 09:39:51,989 - INFO - Processing 54/288
+2025-11-07 09:39:51,999 - INFO - Saved answer 51 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:39:51,999 - INFO - Progress: 1/238 pending completed
+2025-11-07 09:39:52,021 - INFO - Row 49 completed
+2025-11-07 09:39:52,021 - INFO - Processing 55/288
+2025-11-07 09:39:52,026 - INFO - Saved answer 49 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:39:52,026 - INFO - Progress: 2/238 pending completed
+2025-11-07 09:39:58,730 - INFO - Row 53 completed
+2025-11-07 09:39:58,731 - INFO - Processing 56/288
+2025-11-07 09:39:58,735 - INFO - Saved answer 53 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:39:58,735 - INFO - Progress: 3/238 pending completed
+2025-11-07 09:39:59,407 - INFO - Row 52 completed
+2025-11-07 09:39:59,407 - INFO - Processing 57/288
+2025-11-07 09:39:59,412 - INFO - Saved answer 52 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:39:59,412 - INFO - Progress: 4/238 pending completed
+2025-11-07 09:40:00,652 - INFO - Row 54 completed
+2025-11-07 09:40:00,652 - INFO - Processing 59/288
+2025-11-07 09:40:00,657 - INFO - Saved answer 54 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:40:00,657 - INFO - Progress: 5/238 pending completed
+2025-11-07 09:40:02,808 - ERROR - Error processing row 59: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762560000000'}, 'provider_name': None}}, 'user_id': 'user_357Zzvyvg0SlbAElOpa3pLAMLne'}
+2025-11-07 09:40:02,810 - INFO - Processing 60/288
+2025-11-07 09:40:02,814 - INFO - Saved answer 59 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:40:02,814 - INFO - Progress: 6/238 pending completed
+2025-11-07 09:40:04,350 - ERROR - Error processing row 60: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762560000000'}, 'provider_name': None}}, 'user_id': 'user_357Zzvyvg0SlbAElOpa3pLAMLne'}
+2025-11-07 09:40:04,352 - INFO - Processing 61/288
+2025-11-07 09:40:04,356 - INFO - Saved answer 60 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:40:04,356 - INFO - Progress: 7/238 pending completed
+2025-11-07 09:40:05,424 - ERROR - Error processing row 61: OpenRouter returned status 429: {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762560000000'}, 'provider_name': None}}, 'user_id': 'user_357Zzvyvg0SlbAElOpa3pLAMLne'}
+2025-11-07 09:40:05,425 - INFO - Processing 62/288
+2025-11-07 09:40:05,429 - INFO - Saved answer 61 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 09:40:05,430 - INFO - Progress: 8/238 pending completed

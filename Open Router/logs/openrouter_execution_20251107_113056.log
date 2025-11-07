@@ -1,0 +1,372 @@
+2025-11-07 11:30:56,672 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-07 11:30:56,683 - INFO - Processing model meta-llama/llama-3.3-70b-instruct:free
+2025-11-07 11:30:56,690 - INFO - Processing 198/288
+2025-11-07 11:30:56,691 - INFO - Processing 199/288
+2025-11-07 11:30:56,691 - INFO - Processing 200/288
+2025-11-07 11:30:56,692 - INFO - Processing 201/288
+2025-11-07 11:30:58,582 - INFO - Row 198 completed
+2025-11-07 11:30:58,582 - INFO - Processing 202/288
+2025-11-07 11:30:58,589 - INFO - Saved answer 198 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:30:58,590 - INFO - Progress: 1/91 pending completed
+2025-11-07 11:31:28,789 - INFO - Row 199 completed
+2025-11-07 11:31:28,789 - INFO - Processing 203/288
+2025-11-07 11:31:28,794 - INFO - Saved answer 199 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:31:28,794 - INFO - Progress: 2/91 pending completed
+2025-11-07 11:31:59,680 - INFO - Row 200 completed
+2025-11-07 11:31:59,680 - INFO - Processing 204/288
+2025-11-07 11:31:59,686 - INFO - Saved answer 200 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:31:59,686 - INFO - Progress: 3/91 pending completed
+2025-11-07 11:32:31,980 - INFO - Row 201 completed
+2025-11-07 11:32:31,981 - INFO - Processing 205/288
+2025-11-07 11:32:31,986 - INFO - Saved answer 201 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:32:31,986 - INFO - Progress: 4/91 pending completed
+2025-11-07 11:33:02,847 - INFO - Row 202 completed
+2025-11-07 11:33:02,847 - INFO - Processing 206/288
+2025-11-07 11:33:02,853 - INFO - Saved answer 202 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:33:02,853 - INFO - Progress: 5/91 pending completed
+2025-11-07 11:33:28,450 - INFO - Row 203 completed
+2025-11-07 11:33:28,450 - INFO - Processing 207/288
+2025-11-07 11:33:28,455 - INFO - Saved answer 203 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:33:28,455 - INFO - Progress: 6/91 pending completed
+2025-11-07 11:33:59,401 - INFO - Row 204 completed
+2025-11-07 11:33:59,401 - INFO - Processing 208/288
+2025-11-07 11:33:59,406 - INFO - Saved answer 204 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:33:59,406 - INFO - Progress: 7/91 pending completed
+2025-11-07 11:34:28,990 - INFO - Row 205 completed
+2025-11-07 11:34:28,990 - INFO - Processing 209/288
+2025-11-07 11:34:28,996 - INFO - Saved answer 205 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:34:28,996 - INFO - Progress: 8/91 pending completed
+2025-11-07 11:35:01,482 - INFO - Row 206 completed
+2025-11-07 11:35:01,482 - INFO - Processing 210/288
+2025-11-07 11:35:01,488 - INFO - Saved answer 206 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:35:01,488 - INFO - Progress: 9/91 pending completed
+2025-11-07 11:35:30,261 - INFO - Row 207 completed
+2025-11-07 11:35:30,261 - INFO - Processing 211/288
+2025-11-07 11:35:30,266 - INFO - Saved answer 207 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:35:30,266 - INFO - Progress: 10/91 pending completed
+2025-11-07 11:35:59,603 - INFO - Row 208 completed
+2025-11-07 11:35:59,604 - INFO - Processing 212/288
+2025-11-07 11:35:59,608 - INFO - Saved answer 208 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:35:59,609 - INFO - Progress: 11/91 pending completed
+2025-11-07 11:36:28,872 - INFO - Row 209 completed
+2025-11-07 11:36:28,872 - INFO - Processing 213/288
+2025-11-07 11:36:28,877 - INFO - Saved answer 209 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:36:28,877 - INFO - Progress: 12/91 pending completed
+2025-11-07 11:36:59,163 - INFO - Row 210 completed
+2025-11-07 11:36:59,163 - INFO - Processing 214/288
+2025-11-07 11:36:59,168 - INFO - Saved answer 210 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:36:59,168 - INFO - Progress: 13/91 pending completed
+2025-11-07 11:37:34,336 - INFO - Row 211 completed
+2025-11-07 11:37:34,336 - INFO - Processing 215/288
+2025-11-07 11:37:34,341 - INFO - Saved answer 211 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:37:34,341 - INFO - Progress: 14/91 pending completed
+2025-11-07 11:38:03,086 - INFO - Row 212 completed
+2025-11-07 11:38:03,086 - INFO - Processing 216/288
+2025-11-07 11:38:03,092 - INFO - Saved answer 212 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:38:03,092 - INFO - Progress: 15/91 pending completed
+2025-11-07 11:38:31,805 - INFO - Row 213 completed
+2025-11-07 11:38:31,806 - INFO - Processing 217/288
+2025-11-07 11:38:31,811 - INFO - Saved answer 213 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:38:31,811 - INFO - Progress: 16/91 pending completed
+2025-11-07 11:39:01,166 - INFO - Row 214 completed
+2025-11-07 11:39:01,166 - INFO - Processing 218/288
+2025-11-07 11:39:01,172 - INFO - Saved answer 214 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:39:01,172 - INFO - Progress: 17/91 pending completed
+2025-11-07 11:39:28,641 - INFO - Row 215 completed
+2025-11-07 11:39:28,641 - INFO - Processing 219/288
+2025-11-07 11:39:28,645 - INFO - Saved answer 215 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:39:28,645 - INFO - Progress: 18/91 pending completed
+2025-11-07 11:39:59,950 - INFO - Row 216 completed
+2025-11-07 11:39:59,951 - INFO - Processing 220/288
+2025-11-07 11:39:59,956 - INFO - Saved answer 216 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:39:59,956 - INFO - Progress: 19/91 pending completed
+2025-11-07 11:40:29,428 - INFO - Row 217 completed
+2025-11-07 11:40:29,428 - INFO - Processing 221/288
+2025-11-07 11:40:29,433 - INFO - Saved answer 217 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:40:29,433 - INFO - Progress: 20/91 pending completed
+2025-11-07 11:40:58,462 - INFO - Row 218 completed
+2025-11-07 11:40:58,462 - INFO - Processing 222/288
+2025-11-07 11:40:58,467 - INFO - Saved answer 218 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:40:58,467 - INFO - Progress: 21/91 pending completed
+2025-11-07 11:41:34,524 - INFO - Row 219 completed
+2025-11-07 11:41:34,525 - INFO - Processing 223/288
+2025-11-07 11:41:34,530 - INFO - Saved answer 219 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:41:34,530 - INFO - Progress: 22/91 pending completed
+2025-11-07 11:41:59,199 - INFO - Row 220 completed
+2025-11-07 11:41:59,199 - INFO - Processing 224/288
+2025-11-07 11:41:59,204 - INFO - Saved answer 220 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:41:59,205 - INFO - Progress: 23/91 pending completed
+2025-11-07 11:42:31,508 - INFO - Row 221 completed
+2025-11-07 11:42:31,508 - INFO - Processing 225/288
+2025-11-07 11:42:31,513 - INFO - Saved answer 221 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:42:31,513 - INFO - Progress: 24/91 pending completed
+2025-11-07 11:42:59,262 - INFO - Row 222 completed
+2025-11-07 11:42:59,263 - INFO - Processing 226/288
+2025-11-07 11:42:59,268 - INFO - Saved answer 222 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:42:59,269 - INFO - Progress: 25/91 pending completed
+2025-11-07 11:43:29,131 - INFO - Row 223 completed
+2025-11-07 11:43:29,132 - INFO - Processing 227/288
+2025-11-07 11:43:29,137 - INFO - Saved answer 223 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:43:29,137 - INFO - Progress: 26/91 pending completed
+2025-11-07 11:44:01,339 - INFO - Row 224 completed
+2025-11-07 11:44:01,339 - INFO - Processing 228/288
+2025-11-07 11:44:01,344 - INFO - Saved answer 224 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:44:01,345 - INFO - Progress: 27/91 pending completed
+2025-11-07 11:44:28,365 - INFO - Row 225 completed
+2025-11-07 11:44:28,365 - INFO - Processing 229/288
+2025-11-07 11:44:28,371 - INFO - Saved answer 225 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:44:28,371 - INFO - Progress: 28/91 pending completed
+2025-11-07 11:44:58,422 - INFO - Row 226 completed
+2025-11-07 11:44:58,422 - INFO - Processing 230/288
+2025-11-07 11:44:58,427 - INFO - Saved answer 226 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:44:58,427 - INFO - Progress: 29/91 pending completed
+2025-11-07 11:45:30,841 - INFO - Row 227 completed
+2025-11-07 11:45:30,842 - INFO - Processing 231/288
+2025-11-07 11:45:30,847 - INFO - Saved answer 227 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:45:30,847 - INFO - Progress: 30/91 pending completed
+2025-11-07 11:45:59,729 - INFO - Row 228 completed
+2025-11-07 11:45:59,729 - INFO - Processing 232/288
+2025-11-07 11:45:59,735 - INFO - Saved answer 228 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:45:59,735 - INFO - Progress: 31/91 pending completed
+2025-11-07 11:46:30,926 - INFO - Row 229 completed
+2025-11-07 11:46:30,926 - INFO - Processing 233/288
+2025-11-07 11:46:30,931 - INFO - Saved answer 229 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:46:30,931 - INFO - Progress: 32/91 pending completed
+2025-11-07 11:47:00,609 - INFO - Row 230 completed
+2025-11-07 11:47:00,610 - INFO - Processing 234/288
+2025-11-07 11:47:00,615 - INFO - Saved answer 230 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:47:00,615 - INFO - Progress: 33/91 pending completed
+2025-11-07 11:47:30,410 - INFO - Row 231 completed
+2025-11-07 11:47:30,410 - INFO - Processing 235/288
+2025-11-07 11:47:30,415 - INFO - Saved answer 231 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:47:30,415 - INFO - Progress: 34/91 pending completed
+2025-11-07 11:47:58,015 - INFO - Row 232 completed
+2025-11-07 11:47:58,016 - INFO - Processing 236/288
+2025-11-07 11:47:58,021 - INFO - Saved answer 232 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:47:58,021 - INFO - Progress: 35/91 pending completed
+2025-11-07 11:48:28,624 - INFO - Row 233 completed
+2025-11-07 11:48:28,624 - INFO - Processing 237/288
+2025-11-07 11:48:28,630 - INFO - Saved answer 233 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:48:28,630 - INFO - Progress: 36/91 pending completed
+2025-11-07 11:48:58,368 - INFO - Row 234 completed
+2025-11-07 11:48:58,368 - INFO - Processing 238/288
+2025-11-07 11:48:58,373 - INFO - Saved answer 234 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:48:58,374 - INFO - Progress: 37/91 pending completed
+2025-11-07 11:49:30,236 - INFO - Row 235 completed
+2025-11-07 11:49:30,237 - INFO - Processing 239/288
+2025-11-07 11:49:30,241 - INFO - Saved answer 235 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:49:30,242 - INFO - Progress: 38/91 pending completed
+2025-11-07 11:49:59,171 - INFO - Row 236 completed
+2025-11-07 11:49:59,171 - INFO - Processing 240/288
+2025-11-07 11:49:59,176 - INFO - Saved answer 236 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:49:59,176 - INFO - Progress: 39/91 pending completed
+2025-11-07 11:50:38,225 - INFO - Row 237 completed
+2025-11-07 11:50:38,226 - INFO - Processing 241/288
+2025-11-07 11:50:38,232 - INFO - Saved answer 237 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:50:38,232 - INFO - Progress: 40/91 pending completed
+2025-11-07 11:51:00,775 - INFO - Row 238 completed
+2025-11-07 11:51:00,775 - INFO - Processing 242/288
+2025-11-07 11:51:00,780 - INFO - Saved answer 238 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:51:00,780 - INFO - Progress: 41/91 pending completed
+2025-11-07 11:51:28,141 - INFO - Row 239 completed
+2025-11-07 11:51:28,141 - INFO - Processing 243/288
+2025-11-07 11:51:28,147 - INFO - Saved answer 239 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:51:28,147 - INFO - Progress: 42/91 pending completed
+2025-11-07 11:52:00,868 - INFO - Row 240 completed
+2025-11-07 11:52:00,869 - INFO - Processing 244/288
+2025-11-07 11:52:00,874 - INFO - Saved answer 240 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:52:00,874 - INFO - Progress: 43/91 pending completed
+2025-11-07 11:52:28,577 - INFO - Row 241 completed
+2025-11-07 11:52:28,578 - INFO - Processing 245/288
+2025-11-07 11:52:28,583 - INFO - Saved answer 241 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:52:28,584 - INFO - Progress: 44/91 pending completed
+2025-11-07 11:52:59,379 - INFO - Row 242 completed
+2025-11-07 11:52:59,380 - INFO - Processing 246/288
+2025-11-07 11:52:59,385 - INFO - Saved answer 242 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:52:59,385 - INFO - Progress: 45/91 pending completed
+2025-11-07 11:53:30,419 - INFO - Row 243 completed
+2025-11-07 11:53:30,419 - INFO - Processing 247/288
+2025-11-07 11:53:30,425 - INFO - Saved answer 243 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:53:30,425 - INFO - Progress: 46/91 pending completed
+2025-11-07 11:54:06,110 - INFO - Row 244 completed
+2025-11-07 11:54:06,110 - INFO - Processing 248/288
+2025-11-07 11:54:06,115 - INFO - Saved answer 244 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:54:06,115 - INFO - Progress: 47/91 pending completed
+2025-11-07 11:54:28,461 - INFO - Row 245 completed
+2025-11-07 11:54:28,462 - INFO - Processing 249/288
+2025-11-07 11:54:28,467 - INFO - Saved answer 245 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:54:28,467 - INFO - Progress: 48/91 pending completed
+2025-11-07 11:54:58,871 - INFO - Row 246 completed
+2025-11-07 11:54:58,871 - INFO - Processing 250/288
+2025-11-07 11:54:58,876 - INFO - Saved answer 246 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:54:58,876 - INFO - Progress: 49/91 pending completed
+2025-11-07 11:55:28,472 - INFO - Row 247 completed
+2025-11-07 11:55:28,472 - INFO - Processing 251/288
+2025-11-07 11:55:28,477 - INFO - Saved answer 247 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:55:28,477 - INFO - Progress: 50/91 pending completed
+2025-11-07 11:56:03,267 - INFO - Row 248 completed
+2025-11-07 11:56:03,267 - INFO - Processing 252/288
+2025-11-07 11:56:03,273 - INFO - Saved answer 248 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:56:03,273 - INFO - Progress: 51/91 pending completed
+2025-11-07 11:56:29,174 - INFO - Row 249 completed
+2025-11-07 11:56:29,174 - INFO - Processing 253/288
+2025-11-07 11:56:29,179 - INFO - Saved answer 249 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:56:29,180 - INFO - Progress: 52/91 pending completed
+2025-11-07 11:56:58,826 - INFO - Row 250 completed
+2025-11-07 11:56:58,826 - INFO - Processing 254/288
+2025-11-07 11:56:58,832 - INFO - Saved answer 250 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:56:58,832 - INFO - Progress: 53/91 pending completed
+2025-11-07 11:57:28,998 - INFO - Row 251 completed
+2025-11-07 11:57:28,998 - INFO - Processing 255/288
+2025-11-07 11:57:29,003 - INFO - Saved answer 251 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:57:29,003 - INFO - Progress: 54/91 pending completed
+2025-11-07 11:57:58,788 - INFO - Row 252 completed
+2025-11-07 11:57:58,788 - INFO - Processing 256/288
+2025-11-07 11:57:58,793 - INFO - Saved answer 252 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:57:58,794 - INFO - Progress: 55/91 pending completed
+2025-11-07 11:58:28,066 - INFO - Row 253 completed
+2025-11-07 11:58:28,066 - INFO - Processing 257/288
+2025-11-07 11:58:28,072 - INFO - Saved answer 253 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:58:28,072 - INFO - Progress: 56/91 pending completed
+2025-11-07 11:58:58,767 - INFO - Row 254 completed
+2025-11-07 11:58:58,767 - INFO - Processing 258/288
+2025-11-07 11:58:58,773 - INFO - Saved answer 254 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:58:58,773 - INFO - Progress: 57/91 pending completed
+2025-11-07 11:59:28,542 - INFO - Row 255 completed
+2025-11-07 11:59:28,542 - INFO - Processing 259/288
+2025-11-07 11:59:28,548 - INFO - Saved answer 255 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:59:28,548 - INFO - Progress: 58/91 pending completed
+2025-11-07 11:59:58,354 - INFO - Row 256 completed
+2025-11-07 11:59:58,355 - INFO - Processing 260/288
+2025-11-07 11:59:58,360 - INFO - Saved answer 256 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 11:59:58,360 - INFO - Progress: 59/91 pending completed
+2025-11-07 12:00:28,777 - INFO - Row 257 completed
+2025-11-07 12:00:28,777 - INFO - Processing 261/288
+2025-11-07 12:00:28,783 - INFO - Saved answer 257 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:00:28,783 - INFO - Progress: 60/91 pending completed
+2025-11-07 12:00:58,757 - INFO - Row 258 completed
+2025-11-07 12:00:58,757 - INFO - Processing 262/288
+2025-11-07 12:00:58,762 - INFO - Saved answer 258 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:00:58,762 - INFO - Progress: 61/91 pending completed
+2025-11-07 12:01:28,292 - INFO - Row 259 completed
+2025-11-07 12:01:28,292 - INFO - Processing 263/288
+2025-11-07 12:01:28,298 - INFO - Saved answer 259 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:01:28,298 - INFO - Progress: 62/91 pending completed
+2025-11-07 12:01:58,494 - INFO - Row 260 completed
+2025-11-07 12:01:58,494 - INFO - Processing 264/288
+2025-11-07 12:01:58,499 - INFO - Saved answer 260 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:01:58,500 - INFO - Progress: 63/91 pending completed
+2025-11-07 12:02:29,379 - INFO - Row 261 completed
+2025-11-07 12:02:29,380 - INFO - Processing 265/288
+2025-11-07 12:02:29,385 - INFO - Saved answer 261 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:02:29,385 - INFO - Progress: 64/91 pending completed
+2025-11-07 12:03:00,201 - INFO - Row 262 completed
+2025-11-07 12:03:00,201 - INFO - Processing 266/288
+2025-11-07 12:03:00,206 - INFO - Saved answer 262 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:03:00,206 - INFO - Progress: 65/91 pending completed
+2025-11-07 12:03:31,132 - INFO - Row 263 completed
+2025-11-07 12:03:31,133 - INFO - Processing 267/288
+2025-11-07 12:03:31,138 - INFO - Saved answer 263 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:03:31,138 - INFO - Progress: 66/91 pending completed
+2025-11-07 12:03:59,696 - INFO - Row 264 completed
+2025-11-07 12:03:59,696 - INFO - Processing 268/288
+2025-11-07 12:03:59,703 - INFO - Saved answer 264 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:03:59,704 - INFO - Progress: 67/91 pending completed
+2025-11-07 12:04:28,356 - INFO - Row 265 completed
+2025-11-07 12:04:28,356 - INFO - Processing 269/288
+2025-11-07 12:04:28,361 - INFO - Saved answer 265 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:04:28,361 - INFO - Progress: 68/91 pending completed
+2025-11-07 12:04:58,825 - INFO - Row 266 completed
+2025-11-07 12:04:58,826 - INFO - Processing 270/288
+2025-11-07 12:04:58,837 - INFO - Saved answer 266 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:04:58,837 - INFO - Progress: 69/91 pending completed
+2025-11-07 12:05:28,829 - INFO - Row 267 completed
+2025-11-07 12:05:28,829 - INFO - Processing 271/288
+2025-11-07 12:05:28,834 - INFO - Saved answer 267 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:05:28,834 - INFO - Progress: 70/91 pending completed
+2025-11-07 12:05:59,774 - INFO - Row 268 completed
+2025-11-07 12:05:59,774 - INFO - Processing 272/288
+2025-11-07 12:05:59,780 - INFO - Saved answer 268 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:05:59,780 - INFO - Progress: 71/91 pending completed
+2025-11-07 12:06:29,626 - INFO - Row 269 completed
+2025-11-07 12:06:29,626 - INFO - Processing 273/288
+2025-11-07 12:06:29,632 - INFO - Saved answer 269 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:06:29,632 - INFO - Progress: 72/91 pending completed
+2025-11-07 12:06:59,550 - INFO - Row 270 completed
+2025-11-07 12:06:59,550 - INFO - Processing 274/288
+2025-11-07 12:06:59,555 - INFO - Saved answer 270 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:06:59,556 - INFO - Progress: 73/91 pending completed
+2025-11-07 12:07:35,704 - INFO - Row 271 completed
+2025-11-07 12:07:35,704 - INFO - Processing 275/288
+2025-11-07 12:07:35,710 - INFO - Saved answer 271 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:07:35,710 - INFO - Progress: 74/91 pending completed
+2025-11-07 12:08:00,104 - INFO - Row 272 completed
+2025-11-07 12:08:00,104 - INFO - Processing 276/288
+2025-11-07 12:08:00,111 - INFO - Saved answer 272 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:08:00,111 - INFO - Progress: 75/91 pending completed
+2025-11-07 12:08:29,797 - INFO - Row 273 completed
+2025-11-07 12:08:29,797 - INFO - Processing 277/288
+2025-11-07 12:08:29,803 - INFO - Saved answer 273 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:08:29,803 - INFO - Progress: 76/91 pending completed
+2025-11-07 12:08:58,935 - INFO - Row 274 completed
+2025-11-07 12:08:58,935 - INFO - Processing 278/288
+2025-11-07 12:08:58,941 - INFO - Saved answer 274 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:08:58,941 - INFO - Progress: 77/91 pending completed
+2025-11-07 12:09:28,980 - INFO - Row 275 completed
+2025-11-07 12:09:28,980 - INFO - Processing 279/288
+2025-11-07 12:09:28,994 - INFO - Saved answer 275 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:09:28,994 - INFO - Progress: 78/91 pending completed
+2025-11-07 12:10:01,177 - INFO - Row 276 completed
+2025-11-07 12:10:01,178 - INFO - Processing 280/288
+2025-11-07 12:10:01,184 - INFO - Saved answer 276 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:10:01,184 - INFO - Progress: 79/91 pending completed
+2025-11-07 12:10:28,514 - INFO - Row 277 completed
+2025-11-07 12:10:28,515 - INFO - Processing 281/288
+2025-11-07 12:10:28,520 - INFO - Saved answer 277 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:10:28,520 - INFO - Progress: 80/91 pending completed
+2025-11-07 12:10:59,607 - INFO - Row 278 completed
+2025-11-07 12:10:59,607 - INFO - Processing 282/288
+2025-11-07 12:10:59,612 - INFO - Saved answer 278 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:10:59,613 - INFO - Progress: 81/91 pending completed
+2025-11-07 12:11:33,506 - INFO - Row 279 completed
+2025-11-07 12:11:33,506 - INFO - Processing 283/288
+2025-11-07 12:11:33,511 - INFO - Saved answer 279 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:11:33,512 - INFO - Progress: 82/91 pending completed
+2025-11-07 12:11:59,513 - INFO - Row 280 completed
+2025-11-07 12:11:59,514 - INFO - Processing 284/288
+2025-11-07 12:11:59,519 - INFO - Saved answer 280 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:11:59,519 - INFO - Progress: 83/91 pending completed
+2025-11-07 12:12:28,425 - INFO - Row 281 completed
+2025-11-07 12:12:28,425 - INFO - Processing 285/288
+2025-11-07 12:12:28,430 - INFO - Saved answer 281 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:12:28,430 - INFO - Progress: 84/91 pending completed
+2025-11-07 12:12:59,656 - INFO - Row 282 completed
+2025-11-07 12:12:59,656 - INFO - Processing 286/288
+2025-11-07 12:12:59,662 - INFO - Saved answer 282 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:12:59,662 - INFO - Progress: 85/91 pending completed
+2025-11-07 12:13:35,764 - INFO - Row 283 completed
+2025-11-07 12:13:35,764 - INFO - Processing 287/288
+2025-11-07 12:13:35,769 - INFO - Saved answer 283 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:13:35,769 - INFO - Progress: 86/91 pending completed
+2025-11-07 12:14:00,516 - INFO - Row 284 completed
+2025-11-07 12:14:00,516 - INFO - Processing 288/288
+2025-11-07 12:14:00,522 - INFO - Saved answer 284 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:14:00,522 - INFO - Progress: 87/91 pending completed
+2025-11-07 12:14:28,601 - INFO - Row 285 completed
+2025-11-07 12:14:28,607 - INFO - Saved answer 285 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:14:28,607 - INFO - Progress: 88/91 pending completed
+2025-11-07 12:15:00,081 - INFO - Row 286 completed
+2025-11-07 12:15:00,086 - INFO - Saved answer 286 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:15:00,086 - INFO - Progress: 89/91 pending completed
+2025-11-07 12:15:29,552 - INFO - Row 287 completed
+2025-11-07 12:15:29,558 - INFO - Saved answer 287 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:15:29,558 - INFO - Progress: 90/91 pending completed
+2025-11-07 12:15:58,759 - INFO - Row 288 completed
+2025-11-07 12:15:58,765 - INFO - Saved answer 288 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\meta-llama-llama-3.3-70b-instruct-free_answers.csv
+2025-11-07 12:15:58,765 - INFO - Progress: 91/91 pending completed
+2025-11-07 12:15:58,767 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-07 12:15:58,769 - INFO - Processing 1/288
+2025-11-07 12:15:58,769 - INFO - Processing 2/288
+2025-11-07 12:15:58,770 - INFO - Processing 3/288
+2025-11-07 12:15:58,770 - INFO - Processing 4/288
