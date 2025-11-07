@@ -1,0 +1,106 @@
+2025-11-02 20:12:35,570 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-02 20:12:35,570 - INFO - [INFO] API: https://ollama.com/api
+2025-11-02 20:12:35,570 - INFO - [INFO] Mode: Sequential
+2025-11-02 20:12:35,932 - INFO - [OK] Ollama API is accessible
+2025-11-02 20:12:35,936 - INFO - [OK] File loaded: 72 rows
+2025-11-02 20:12:35,936 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-02 20:12:35,936 - INFO - [INFO] Processing model 1/3: glm-4.6:cloud
+2025-11-02 20:12:35,936 - INFO - [INFO] ===== Starting: glm-4.6:cloud =====
+2025-11-02 20:12:35,938 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-02 20:12:35,938 - INFO - [INFO] Existing progress: 46/72 answers completed, 0 errors, 26 pending
+2025-11-02 20:12:35,938 - INFO - [INFO] Pending items: S1F, S1C, S2T, S2F, S2C, S3T, S3F, S3C, S4T, S4F, S4C, S5T, S5F, S5C, S6T, S6F, S6C, S7T, S7F, S7C...
+2025-11-02 20:12:35,938 - INFO - [INFO] glm-4.6:cloud has 26 pending answers
+2025-11-02 20:12:35,939 - INFO - [INFO] Starting sequential processing for glm-4.6:cloud
+2025-11-02 20:12:35,940 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-02 20:12:35,940 - INFO - [INFO] Existing progress: 46/72 answers completed, 0 errors, 26 pending
+2025-11-02 20:12:35,940 - INFO - [INFO] Pending items: S1F, S1C, S2T, S2F, S2C, S3T, S3F, S3C, S4T, S4F, S4C, S5T, S5F, S5C, S6T, S6F, S6C, S7T, S7F, S7C...
+2025-11-02 20:12:35,940 - INFO - [SKIP] Row 1/72 [B1T] already completed
+2025-11-02 20:12:35,940 - INFO - [SKIP] Row 2/72 [B1F] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 3/72 [B1C] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 4/72 [B2T] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 5/72 [B2F] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 6/72 [B2C] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 7/72 [B3T] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 8/72 [B3F] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 9/72 [B3C] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 10/72 [B4T] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 11/72 [B4F] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 12/72 [B4C] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 13/72 [B5T] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 14/72 [B5F] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 15/72 [B5C] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 16/72 [B6T] already completed
+2025-11-02 20:12:35,941 - INFO - [SKIP] Row 17/72 [B6F] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 18/72 [B6C] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 19/72 [B7T] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 20/72 [B7F] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 21/72 [B7C] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 22/72 [B8T] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 23/72 [B8F] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 24/72 [B8C] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 25/72 [B9T] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 26/72 [B9F] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 27/72 [B9C] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 28/72 [F1T] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 29/72 [F1F] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 30/72 [F2T] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 31/72 [F2F] already completed
+2025-11-02 20:12:35,942 - INFO - [SKIP] Row 32/72 [F3T] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 33/72 [F3F] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 34/72 [F4T] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 35/72 [F4F] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 36/72 [F5T] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 37/72 [F5F] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 38/72 [F6T] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 39/72 [F6F] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 40/72 [F7T] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 41/72 [F7F] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 42/72 [F8T] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 43/72 [F8F] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 44/72 [F8T] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 45/72 [F8F] already completed
+2025-11-02 20:12:35,943 - INFO - [SKIP] Row 46/72 [S1T] already completed
+2025-11-02 20:12:35,943 - INFO - [INFO] Processing Row 47/72 [S1F]
+2025-11-02 20:12:35,944 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not brin...
+2025-11-02 20:12:39,714 - INFO - [ANSWER] "No." * Explain the reasoning: The context explicitly states that Thomas did not bring pizza. This d...
+2025-11-02 20:12:39,715 - INFO - [OK] Row 47 [S1F] completed successfully
+2025-11-02 20:12:39,717 - INFO - [OK] Answer 47 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 20:12:39,717 - INFO - [PROGRESS] glm-4.6:cloud - 47/72 processed | 47 successful | 0 errors
+2025-11-02 20:12:39,717 - INFO - [INFO] Processing Row 48/72 [S1C]
+2025-11-02 20:12:39,718 - INFO - [PROMPT] Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had s...
+2025-11-02 20:12:43,354 - INFO - [ANSWER] Yes or No with brief explanation."
+2025-11-02 20:12:43,355 - INFO - [OK] Row 48 [S1C] completed successfully
+2025-11-02 20:12:43,356 - INFO - [OK] Answer 48 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 20:12:43,357 - INFO - [PROGRESS] glm-4.6:cloud - 48/72 processed | 48 successful | 0 errors
+2025-11-02 20:12:43,357 - INFO - [INFO] Processing Row 49/72 [S2T]
+2025-11-02 20:12:43,357 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: "If you...
+2025-11-02 20:12:47,725 - INFO - [ANSWER] Yes or No" answer. "No" is the most appropriate choice here because "Yes" would be making an assumpt...
+2025-11-02 20:12:47,725 - INFO - [OK] Row 49 [S2T] completed successfully
+2025-11-02 20:12:47,727 - INFO - [OK] Answer 49 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 20:12:47,727 - INFO - [PROGRESS] glm-4.6:cloud - 49/72 processed | 49 successful | 0 errors
+2025-11-02 20:12:47,727 - INFO - [INFO] Processing Row 50/72 [S2F]
+2025-11-02 20:12:47,727 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you ...
+2025-11-02 20:12:54,968 - INFO - [ANSWER] * Step 1: The "Yes/No" part. * Mary's statement is a promise or a rule: "If you finish your broccoli...
+2025-11-02 20:12:54,968 - INFO - [OK] Row 50 [S2F] completed successfully
+2025-11-02 20:12:54,970 - INFO - [OK] Answer 50 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 20:12:54,970 - INFO - [PROGRESS] glm-4.6:cloud - 50/72 processed | 50 successful | 0 errors
+2025-11-02 20:12:54,970 - INFO - [INFO] Processing Row 51/72 [S2C]
+2025-11-02 20:12:54,970 - INFO - [PROMPT] Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had s...
+2025-11-02 20:12:59,724 - INFO - [ANSWER] * Start with the
+2025-11-02 20:12:59,724 - INFO - [OK] Row 51 [S2C] completed successfully
+2025-11-02 20:12:59,726 - INFO - [OK] Answer 51 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 20:12:59,726 - INFO - [PROGRESS] glm-4.6:cloud - 51/72 processed | 51 successful | 0 errors
+2025-11-02 20:12:59,726 - INFO - [INFO] Processing Row 52/72 [S3T]
+2025-11-02 20:12:59,726 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: "If the fo...
+2025-11-02 20:13:03,614 - INFO - [ANSWER] * The question asks "Is it true that Susan got a camera?" * Based on the logical deduction, the answ...
+2025-11-02 20:13:03,614 - INFO - [OK] Row 52 [S3T] completed successfully
+2025-11-02 20:13:03,616 - INFO - [OK] Answer 52 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 20:13:03,616 - INFO - [PROGRESS] glm-4.6:cloud - 52/72 processed | 52 successful | 0 errors
+2025-11-02 20:13:03,616 - INFO - [INFO] Processing Row 53/72 [S3F]
+2025-11-02 20:13:03,616 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shove...
+2025-11-02 20:13:07,754 - INFO - [ANSWER] no logical bearing on the conditional statement about the foxes and the camera. I
+2025-11-02 20:13:07,755 - INFO - [OK] Row 53 [S3F] completed successfully
+2025-11-02 20:13:07,756 - INFO - [OK] Answer 53 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 20:13:07,756 - INFO - [PROGRESS] glm-4.6:cloud - 53/72 processed | 53 successful | 0 errors
+2025-11-02 20:13:07,757 - INFO - [INFO] Processing Row 54/72 [S3C]
+2025-11-02 20:13:07,757 - INFO - [PROMPT] Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: "...

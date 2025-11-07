@@ -1,0 +1,52 @@
+2025-11-01 18:14:40,146 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-01 18:14:40,146 - INFO - [INFO] API: https://ollama.com/api
+2025-11-01 18:14:40,146 - INFO - [INFO] Mode: Sequential
+2025-11-01 18:14:40,479 - INFO - [OK] Ollama API is accessible
+2025-11-01 18:14:40,482 - INFO - [OK] File loaded: 72 rows
+2025-11-01 18:14:40,483 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-01 18:14:40,483 - INFO - [INFO] Processing model 1/4: qwen3-vl:235b-cloud
+2025-11-01 18:14:40,483 - INFO - [INFO] ===== Starting: qwen3-vl:235b-cloud =====
+2025-11-01 18:14:40,493 - INFO - [INFO] Existing answers found in consolidated file: 11/72 completed, 0 errors, 61 pending
+2025-11-01 18:14:40,494 - INFO - [INFO] Pending items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T, B4F, B4C, B5T, B5F, B5C, B6T, B6F, B6C, B7T, B7F...
+2025-11-01 18:14:40,494 - INFO - [INFO] qwen3-vl:235b-cloud has 61 pending answers
+2025-11-01 18:14:40,494 - INFO - [INFO] Starting sequential processing for qwen3-vl:235b-cloud
+2025-11-01 18:14:40,495 - INFO - [INFO] Existing answers found in consolidated file: 11/72 completed, 0 errors, 61 pending
+2025-11-01 18:14:40,496 - INFO - [INFO] Pending items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T, B4F, B4C, B5T, B5F, B5C, B6T, B6F, B6C, B7T, B7F...
+2025-11-01 18:14:40,496 - INFO - [INFO] Processing Row 1/72 [B1T]
+2025-11-01 18:14:40,496 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-01 18:14:43,332 - INFO - [ANSWER] 
+2025-11-01 18:14:43,332 - INFO - [OK] Row 1 [B1T] completed successfully
+2025-11-01 18:14:43,345 - INFO - [OK] Answer 1 saved
+2025-11-01 18:14:43,345 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 1/72 processed | 12 successful | 0 errors
+2025-11-01 18:14:43,345 - INFO - [INFO] Processing Row 2/72 [B1F]
+2025-11-01 18:14:43,346 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-01 18:14:47,050 - INFO - [ANSWER] 
+2025-11-01 18:14:47,050 - INFO - [OK] Row 2 [B1F] completed successfully
+2025-11-01 18:14:47,055 - INFO - [OK] Answer 2 saved
+2025-11-01 18:14:47,055 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 2/72 processed | 13 successful | 0 errors
+2025-11-01 18:14:47,055 - INFO - [INFO] Processing Row 3/72 [B1C]
+2025-11-01 18:14:47,055 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-01 18:14:50,130 - INFO - [ANSWER] 
+2025-11-01 18:14:50,130 - INFO - [OK] Row 3 [B1C] completed successfully
+2025-11-01 18:14:50,136 - INFO - [OK] Answer 3 saved
+2025-11-01 18:14:50,136 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 3/72 processed | 14 successful | 0 errors
+2025-11-01 18:14:50,136 - INFO - [INFO] Processing Row 4/72 [B2T]
+2025-11-01 18:14:50,136 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-01 18:14:53,302 - INFO - [ANSWER] 
+2025-11-01 18:14:53,302 - INFO - [OK] Row 4 [B2T] completed successfully
+2025-11-01 18:14:53,310 - INFO - [OK] Answer 4 saved
+2025-11-01 18:14:53,310 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 4/72 processed | 15 successful | 0 errors
+2025-11-01 18:14:53,310 - INFO - [INFO] Processing Row 5/72 [B2F]
+2025-11-01 18:14:53,310 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-01 18:14:57,137 - INFO - [ANSWER] 
+2025-11-01 18:14:57,137 - INFO - [OK] Row 5 [B2F] completed successfully
+2025-11-01 18:14:57,143 - INFO - [OK] Answer 5 saved
+2025-11-01 18:14:57,144 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 5/72 processed | 16 successful | 0 errors
+2025-11-01 18:14:57,144 - INFO - [INFO] Processing Row 6/72 [B2C]
+2025-11-01 18:14:57,144 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-01 18:15:00,243 - INFO - [ANSWER] 
+2025-11-01 18:15:00,243 - INFO - [OK] Row 6 [B2C] completed successfully
+2025-11-01 18:15:00,249 - INFO - [OK] Answer 6 saved
+2025-11-01 18:15:00,249 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 6/72 processed | 17 successful | 0 errors
+2025-11-01 18:15:00,249 - INFO - [INFO] Processing Row 7/72 [B3T]
+2025-11-01 18:15:00,250 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...

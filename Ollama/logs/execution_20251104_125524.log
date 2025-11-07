@@ -1,0 +1,5 @@
+2025-11-04 12:55:24,520 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-04 12:55:24,520 - INFO - [INFO] API: https://ollama.com/api
+2025-11-04 12:55:24,520 - INFO - [INFO] Mode: Sequential
+2025-11-04 12:55:24,923 - INFO - [OK] Ollama API is accessible
+2025-11-04 12:55:24,924 - ERROR - [FATAL] Fatal error: Could not find ../prompts/prompts_all.csv

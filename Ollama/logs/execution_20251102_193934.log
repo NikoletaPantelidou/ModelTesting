@@ -1,0 +1,469 @@
+2025-11-02 19:39:34,617 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-02 19:39:34,617 - INFO - [INFO] API: https://ollama.com/api
+2025-11-02 19:39:34,617 - INFO - [INFO] Mode: Sequential
+2025-11-02 19:39:34,944 - INFO - [OK] Ollama API is accessible
+2025-11-02 19:39:34,948 - INFO - [OK] File loaded: 72 rows
+2025-11-02 19:39:34,948 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-02 19:39:34,948 - INFO - [INFO] Processing model 1/3: deepseek-v3.1:671b-cloud
+2025-11-02 19:39:34,948 - INFO - [INFO] ===== Starting: deepseek-v3.1:671b-cloud =====
+2025-11-02 19:39:34,950 - INFO - [INFO] Found existing answers file: answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 19:39:34,951 - INFO - [INFO] Existing progress: 72/72 answers completed, 0 errors, 0 pending
+2025-11-02 19:39:34,951 - INFO - [SKIP] deepseek-v3.1:671b-cloud already completed
+2025-11-02 19:39:34,951 - INFO - [INFO] Processing model 2/3: kimi-k2:1t-cloud
+2025-11-02 19:39:34,951 - INFO - [INFO] ===== Starting: kimi-k2:1t-cloud =====
+2025-11-02 19:39:34,953 - INFO - [INFO] Found existing answers file: answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 19:39:34,953 - INFO - [INFO] Existing progress: 72/72 answers completed, 0 errors, 0 pending
+2025-11-02 19:39:34,954 - INFO - [SKIP] kimi-k2:1t-cloud already completed
+2025-11-02 19:39:34,954 - INFO - [INFO] Processing model 3/3: glm-4.6:cloud
+2025-11-02 19:39:34,954 - INFO - [INFO] ===== Starting: glm-4.6:cloud =====
+2025-11-02 19:39:34,955 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:39:34,955 - INFO - [INFO] Existing progress: 19/72 answers completed, 0 errors, 53 pending
+2025-11-02 19:39:34,956 - INFO - [INFO] Pending items: B7F, B7C, B8T, B8F, B8C, B9T, B9F, B9C, F1T, F1F, F2T, F2F, F3T, F3F, F4T, F4F, F5T, F5F, F6T, F6F...
+2025-11-02 19:39:34,956 - INFO - [INFO] glm-4.6:cloud has 53 pending answers
+2025-11-02 19:39:34,956 - INFO - [INFO] Starting sequential processing for glm-4.6:cloud
+2025-11-02 19:39:34,957 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:39:34,957 - INFO - [INFO] Existing progress: 19/72 answers completed, 0 errors, 53 pending
+2025-11-02 19:39:34,958 - INFO - [INFO] Pending items: B7F, B7C, B8T, B8F, B8C, B9T, B9F, B9C, F1T, F1F, F2T, F2F, F3T, F3F, F4T, F4F, F5T, F5F, F6T, F6F...
+2025-11-02 19:39:34,958 - INFO - [SKIP] Row 1/72 [B1T] already completed
+2025-11-02 19:39:34,958 - INFO - [SKIP] Row 2/72 [B1F] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 3/72 [B1C] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 4/72 [B2T] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 5/72 [B2F] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 6/72 [B2C] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 7/72 [B3T] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 8/72 [B3F] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 9/72 [B3C] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 10/72 [B4T] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 11/72 [B4F] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 12/72 [B4C] already completed
+2025-11-02 19:39:34,959 - INFO - [SKIP] Row 13/72 [B5T] already completed
+2025-11-02 19:39:34,960 - INFO - [SKIP] Row 14/72 [B5F] already completed
+2025-11-02 19:39:34,961 - INFO - [SKIP] Row 15/72 [B5C] already completed
+2025-11-02 19:39:34,962 - INFO - [SKIP] Row 16/72 [B6T] already completed
+2025-11-02 19:39:34,962 - INFO - [SKIP] Row 17/72 [B6F] already completed
+2025-11-02 19:39:34,962 - INFO - [SKIP] Row 18/72 [B6C] already completed
+2025-11-02 19:39:34,962 - INFO - [SKIP] Row 19/72 [B7T] already completed
+2025-11-02 19:39:34,962 - INFO - [INFO] Processing Row 20/72 [B7F]
+2025-11-02 19:39:34,962 - INFO - [PROMPT] Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the...
+2025-11-02 19:39:37,971 - INFO - [ANSWER] ...lf". This is a conditional statement, an "if-then" statement. Let's represent it logically: `P ->...
+2025-11-02 19:39:37,972 - INFO - [OK] Row 20 [B7F] completed successfully
+2025-11-02 19:39:37,978 - INFO - [OK] Answer 20 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:39:37,979 - INFO - [PROGRESS] glm-4.6:cloud - 20/72 processed | 20 successful | 0 errors
+2025-11-02 19:39:37,979 - INFO - [INFO] Processing Row 21/72 [B7C]
+2025-11-02 19:39:37,980 - INFO - [PROMPT] Here's the context: The plant is not dry. There is a hose in the garden. Mary says: "If the plant is...
+2025-11-02 19:39:43,340 - INFO - [ANSWER] ...*   **Format:** Brief answer (Yes/No) + short explanation (1-2 sentences).
+
+2.  **Deconstruct the...
+2025-11-02 19:39:43,340 - INFO - [OK] Row 21 [B7C] completed successfully
+2025-11-02 19:39:43,342 - INFO - [OK] Answer 21 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:39:43,342 - INFO - [PROGRESS] glm-4.6:cloud - 21/72 processed | 21 successful | 0 errors
+2025-11-02 19:39:43,342 - INFO - [INFO] Processing Row 22/72 [B8T]
+2025-11-02 19:39:43,342 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ...
+2025-11-02 19:39:49,721 - INFO - [ANSWER] ...  *   **Format:** Brief answer (Yes/No) + short explanation (1-2 sentences).
+
+2.  **Deconstruct t...
+2025-11-02 19:39:49,722 - INFO - [OK] Row 22 [B8T] completed successfully
+2025-11-02 19:39:49,726 - INFO - [OK] Answer 22 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:39:49,726 - INFO - [PROGRESS] glm-4.6:cloud - 22/72 processed | 22 successful | 0 errors
+2025-11-02 19:39:49,727 - INFO - [INFO] Processing Row 23/72 [B8F]
+2025-11-02 19:39:49,727 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironi...
+2025-11-02 19:39:59,405 - INFO - [ANSWER] ...loset?
+    *   **Format:** Brief answer (Yes/No) + 1-2 sentence explanation.
+
+2.  **Deconstruct t...
+2025-11-02 19:39:59,406 - INFO - [OK] Row 23 [B8F] completed successfully
+2025-11-02 19:39:59,410 - INFO - [OK] Answer 23 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:39:59,410 - INFO - [PROGRESS] glm-4.6:cloud - 23/72 processed | 23 successful | 0 errors
+2025-11-02 19:39:59,410 - INFO - [INFO] Processing Row 24/72 [B8C]
+2025-11-02 19:39:59,411 - INFO - [PROMPT] Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary s...
+2025-11-02 19:40:01,623 - INFO - [ANSWER] ...ron in the closet?
+    *   **Format:** Brief answer (Yes/No) + short explanation (1-2 sentences)....
+2025-11-02 19:40:01,623 - INFO - [OK] Row 24 [B8C] completed successfully
+2025-11-02 19:40:01,624 - INFO - [OK] Answer 24 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:01,624 - INFO - [PROGRESS] glm-4.6:cloud - 24/72 processed | 24 successful | 0 errors
+2025-11-02 19:40:01,624 - INFO - [INFO] Processing Row 25/72 [B9T]
+2025-11-02 19:40:01,624 - INFO - [PROMPT] Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper o...
+2025-11-02 19:40:05,816 - INFO - [ANSWER] ...anation (1-2 sentences).
+
+2.  **Deconstruct the Context and Statement:**
+    *   **Contextual Fac...
+2025-11-02 19:40:05,816 - INFO - [OK] Row 25 [B9T] completed successfully
+2025-11-02 19:40:05,817 - INFO - [OK] Answer 25 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:05,817 - INFO - [PROGRESS] glm-4.6:cloud - 25/72 processed | 25 successful | 0 errors
+2025-11-02 19:40:05,818 - INFO - [INFO] Processing Row 26/72 [B9F]
+2025-11-02 19:40:05,818 - INFO - [PROMPT] Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on...
+2025-11-02 19:40:09,031 - INFO - [ANSWER] ...**Format:** Brief answer (Yes/No) + 1-2 sentence explanation.
+
+2.  **Deconstruct the Logic:**
+   ...
+2025-11-02 19:40:09,031 - INFO - [OK] Row 26 [B9F] completed successfully
+2025-11-02 19:40:09,032 - INFO - [OK] Answer 26 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:09,032 - INFO - [PROGRESS] glm-4.6:cloud - 26/72 processed | 26 successful | 0 errors
+2025-11-02 19:40:09,033 - INFO - [INFO] Processing Row 27/72 [B9C]
+2025-11-02 19:40:09,033 - INFO - [PROMPT] Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: "If Su...
+2025-11-02 19:40:11,562 - INFO - [ANSWER] ...Statement:**
+    *   The key piece of information is Mary's statement: "If Susy wants to read, th...
+2025-11-02 19:40:11,562 - INFO - [OK] Row 27 [B9C] completed successfully
+2025-11-02 19:40:11,563 - INFO - [OK] Answer 27 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:11,564 - INFO - [PROGRESS] glm-4.6:cloud - 27/72 processed | 27 successful | 0 errors
+2025-11-02 19:40:11,564 - INFO - [INFO] Processing Row 28/72 [F1T]
+2025-11-02 19:40:11,564 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-02 19:40:17,170 - INFO - [ANSWER] ...t more."
+        *   This is the key piece of information.
+        *   "people buy it more" is a ...
+2025-11-02 19:40:17,170 - INFO - [OK] Row 28 [F1T] completed successfully
+2025-11-02 19:40:17,173 - INFO - [OK] Answer 28 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:17,174 - INFO - [PROGRESS] glm-4.6:cloud - 28/72 processed | 28 successful | 0 errors
+2025-11-02 19:40:17,174 - INFO - [INFO] Processing Row 29/72 [F1F]
+2025-11-02 19:40:17,174 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-02 19:40:24,335 - INFO - [ANSWER] ...buy it more."
+        *   This is the key piece of information.
+        *   "people buy it more" ...
+2025-11-02 19:40:24,335 - INFO - [OK] Row 29 [F1F] completed successfully
+2025-11-02 19:40:24,337 - INFO - [OK] Answer 29 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:24,337 - INFO - [PROGRESS] glm-4.6:cloud - 29/72 processed | 29 successful | 0 errors
+2025-11-02 19:40:24,337 - INFO - [INFO] Processing Row 30/72 [F2T]
+2025-11-02 19:40:24,337 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-02 19:40:27,097 - INFO - [ANSWER] ......" - This is a comparison of price. It doesn't directly address usage.
+    *   "...most people ...
+2025-11-02 19:40:27,098 - INFO - [OK] Row 30 [F2T] completed successfully
+2025-11-02 19:40:27,099 - INFO - [OK] Answer 30 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:27,100 - INFO - [PROGRESS] glm-4.6:cloud - 30/72 processed | 30 successful | 0 errors
+2025-11-02 19:40:27,100 - INFO - [INFO] Processing Row 31/72 [F2F]
+2025-11-02 19:40:27,100 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-02 19:40:32,088 - INFO - [ANSWER] ...." - This sets up a contrast. Price isn't the determining factor.
+    *   "...most people prefer ...
+2025-11-02 19:40:32,088 - INFO - [OK] Row 31 [F2F] completed successfully
+2025-11-02 19:40:32,089 - INFO - [OK] Answer 31 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:32,089 - INFO - [PROGRESS] glm-4.6:cloud - 31/72 processed | 31 successful | 0 errors
+2025-11-02 19:40:32,090 - INFO - [INFO] Processing Row 32/72 [F3T]
+2025-11-02 19:40:32,090 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-02 19:40:36,594 - INFO - [ANSWER] ...act about water's superiority in health.
+    *   "...many choose soda." - This is the key piece o...
+2025-11-02 19:40:36,594 - INFO - [OK] Row 32 [F3T] completed successfully
+2025-11-02 19:40:36,596 - INFO - [OK] Answer 32 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:36,596 - INFO - [PROGRESS] glm-4.6:cloud - 32/72 processed | 32 successful | 0 errors
+2025-11-02 19:40:36,596 - INFO - [INFO] Processing Row 33/72 [F3F]
+2025-11-02 19:40:36,596 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-02 19:40:41,403 - INFO - [ANSWER] ...sitive attribute of water (health).
+    *   "...many choose soda." - This is the key piece of inf...
+2025-11-02 19:40:41,403 - INFO - [OK] Row 33 [F3F] completed successfully
+2025-11-02 19:40:41,405 - INFO - [OK] Answer 33 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:41,405 - INFO - [PROGRESS] glm-4.6:cloud - 33/72 processed | 33 successful | 0 errors
+2025-11-02 19:40:41,405 - INFO - [INFO] Processing Row 34/72 [F4T]
+2025-11-02 19:40:41,405 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-02 19:40:44,404 - INFO - [ANSWER] ...ence is: "Although broccoli is more difficult to cook than gnocchi, people use it more."
+    *   ...
+2025-11-02 19:40:44,404 - INFO - [OK] Row 34 [F4T] completed successfully
+2025-11-02 19:40:44,405 - INFO - [OK] Answer 34 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:44,406 - INFO - [PROGRESS] glm-4.6:cloud - 34/72 processed | 34 successful | 0 errors
+2025-11-02 19:40:44,406 - INFO - [INFO] Processing Row 35/72 [F4F]
+2025-11-02 19:40:44,406 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-02 19:40:48,943 - INFO - [ANSWER] ...more difficult to cook than gnocchi, people use it more."
+        *   This is the key piece of in...
+2025-11-02 19:40:48,943 - INFO - [OK] Row 35 [F4F] completed successfully
+2025-11-02 19:40:48,948 - INFO - [OK] Answer 35 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:48,949 - INFO - [PROGRESS] glm-4.6:cloud - 35/72 processed | 35 successful | 0 errors
+2025-11-02 19:40:48,949 - INFO - [INFO] Processing Row 36/72 [F5T]
+2025-11-02 19:40:48,950 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-02 19:40:52,943 - INFO - [ANSWER] ...ey piece of information. It directly compares the consumption frequency of burgers and sushi.
+   ...
+2025-11-02 19:40:52,945 - INFO - [OK] Row 36 [F5T] completed successfully
+2025-11-02 19:40:52,949 - INFO - [OK] Answer 36 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:52,950 - INFO - [PROGRESS] glm-4.6:cloud - 36/72 processed | 36 successful | 0 errors
+2025-11-02 19:40:52,950 - INFO - [INFO] Processing Row 37/72 [F5F]
+2025-11-02 19:40:52,950 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-02 19:40:58,622 - INFO - [ANSWER] ...Healthiness is one attribute.
+    *   "...people eat burgers more often." - This is the key piece...
+2025-11-02 19:40:58,622 - INFO - [OK] Row 37 [F5F] completed successfully
+2025-11-02 19:40:58,624 - INFO - [OK] Answer 37 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:40:58,624 - INFO - [PROGRESS] glm-4.6:cloud - 37/72 processed | 37 successful | 0 errors
+2025-11-02 19:40:58,624 - INFO - [INFO] Processing Row 38/72 [F6T]
+2025-11-02 19:40:58,625 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-02 19:41:00,814 - INFO - [ANSWER] ...rmally, you'd expect cheaper things to sell more.
+    *   "...people purchase them more." - This ...
+2025-11-02 19:41:00,815 - INFO - [OK] Row 38 [F6T] completed successfully
+2025-11-02 19:41:00,820 - INFO - [OK] Answer 38 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:00,820 - INFO - [PROGRESS] glm-4.6:cloud - 38/72 processed | 38 successful | 0 errors
+2025-11-02 19:41:00,821 - INFO - [INFO] Processing Row 39/72 [F6F]
+2025-11-02 19:41:00,821 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-02 19:41:02,868 - INFO - [ANSWER] ... a contrast. Normally, you'd expect cheaper things to be more popular.
+    *   "...people purchas...
+2025-11-02 19:41:02,868 - INFO - [OK] Row 39 [F6F] completed successfully
+2025-11-02 19:41:02,870 - INFO - [OK] Answer 39 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:02,870 - INFO - [PROGRESS] glm-4.6:cloud - 39/72 processed | 39 successful | 0 errors
+2025-11-02 19:41:02,870 - INFO - [INFO] Processing Row 40/72 [F7T]
+2025-11-02 19:41:02,870 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-02 19:41:17,290 - INFO - [ANSWER] ...s, people prefer them."
+        *   "Although..." sets up a contrast. The contrast is between "do...
+2025-11-02 19:41:17,290 - INFO - [OK] Row 40 [F7T] completed successfully
+2025-11-02 19:41:17,292 - INFO - [OK] Answer 40 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:17,292 - INFO - [PROGRESS] glm-4.6:cloud - 40/72 processed | 40 successful | 0 errors
+2025-11-02 19:41:17,292 - INFO - [INFO] Processing Row 41/72 [F7F]
+2025-11-02 19:41:17,292 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-02 19:41:22,033 - INFO - [ANSWER] ...ple prefer them."
+        *   "Although..." sets up a contrast.
+        *   "dogs are more lively...
+2025-11-02 19:41:22,033 - INFO - [OK] Row 41 [F7F] completed successfully
+2025-11-02 19:41:22,035 - INFO - [OK] Answer 41 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:22,035 - INFO - [PROGRESS] glm-4.6:cloud - 41/72 processed | 41 successful | 0 errors
+2025-11-02 19:41:22,035 - INFO - [INFO] Processing Row 42/72 [F8T]
+2025-11-02 19:41:22,035 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, many people watch T...
+2025-11-02 19:41:26,177 - INFO - [ANSWER] ...han watching TV, many people watch TV."
+        *   This is the key piece of information. It esta...
+2025-11-02 19:41:26,177 - INFO - [OK] Row 42 [F8T] completed successfully
+2025-11-02 19:41:26,178 - INFO - [OK] Answer 42 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:26,178 - INFO - [PROGRESS] glm-4.6:cloud - 42/72 processed | 42 successful | 0 errors
+2025-11-02 19:41:26,178 - INFO - [INFO] Processing Row 43/72 [F8F]
+2025-11-02 19:41:26,178 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, many people watch T...
+2025-11-02 19:41:30,528 - INFO - [ANSWER] ... TV, many people watch TV."
+        *   This sentence sets up a contrast. It acknowledges the edu...
+2025-11-02 19:41:30,529 - INFO - [OK] Row 43 [F8F] completed successfully
+2025-11-02 19:41:30,530 - INFO - [OK] Answer 43 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:30,530 - INFO - [PROGRESS] glm-4.6:cloud - 43/72 processed | 43 successful | 0 errors
+2025-11-02 19:41:30,530 - INFO - [INFO] Processing Row 44/72 [F8T]
+2025-11-02 19:41:30,530 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-02 19:41:30,971 - WARNING - [WARNING] API status 500
+2025-11-02 19:41:38,437 - INFO - [ANSWER] ...fer walking."
+        *   This is the key piece of information. It directly compares the preferen...
+2025-11-02 19:41:38,437 - INFO - [OK] Row 44 [F8T] completed successfully
+2025-11-02 19:41:38,439 - INFO - [OK] Answer 44 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:38,439 - INFO - [PROGRESS] glm-4.6:cloud - 44/72 processed | 44 successful | 0 errors
+2025-11-02 19:41:38,439 - INFO - [INFO] Processing Row 45/72 [F8F]
+2025-11-02 19:41:38,439 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-02 19:41:42,132 - INFO - [ANSWER] ...comparison. It establishes a fact about fitness benefits.
+    *   Sentence 2: "...most people pre...
+2025-11-02 19:41:42,132 - INFO - [OK] Row 45 [F8F] completed successfully
+2025-11-02 19:41:42,133 - INFO - [OK] Answer 45 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:42,133 - INFO - [PROGRESS] glm-4.6:cloud - 45/72 processed | 45 successful | 0 errors
+2025-11-02 19:41:42,133 - INFO - [INFO] Processing Row 46/72 [S1T]
+2025-11-02 19:41:42,133 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Mary had said: "If ...
+2025-11-02 19:41:47,460 - INFO - [ANSWER] ...** Brief answer (Yes/No) + short explanation (1-2 sentences).
+
+2.  **Deconstruct the Logic:**
+   ...
+2025-11-02 19:41:47,460 - INFO - [OK] Row 46 [S1T] completed successfully
+2025-11-02 19:41:47,464 - INFO - [OK] Answer 46 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:47,464 - INFO - [PROGRESS] glm-4.6:cloud - 46/72 processed | 46 successful | 0 errors
+2025-11-02 19:41:47,465 - INFO - [INFO] Processing Row 47/72 [S1F]
+2025-11-02 19:41:47,465 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not brin...
+2025-11-02 19:41:49,839 - INFO - [ANSWER] ...g pizza."
+    *   **Question:** Is it true that Thomas brought pizza?
+    *   **Format:** Yes/No ...
+2025-11-02 19:41:49,839 - INFO - [OK] Row 47 [S1F] completed successfully
+2025-11-02 19:41:49,840 - INFO - [OK] Answer 47 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:49,841 - INFO - [PROGRESS] glm-4.6:cloud - 47/72 processed | 47 successful | 0 errors
+2025-11-02 19:41:49,841 - INFO - [INFO] Processing Row 48/72 [S1C]
+2025-11-02 19:41:49,841 - INFO - [PROMPT] Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had s...
+2025-11-02 19:41:52,163 - INFO - [ANSWER] ...owed by a short explanation (1-2 sentences).
+
+2.  **Deconstruct the Logic:**
+    *   The core of ...
+2025-11-02 19:41:52,163 - INFO - [OK] Row 48 [S1C] completed successfully
+2025-11-02 19:41:52,164 - INFO - [OK] Answer 48 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:52,164 - INFO - [PROGRESS] glm-4.6:cloud - 48/72 processed | 48 successful | 0 errors
+2025-11-02 19:41:52,165 - INFO - [INFO] Processing Row 49/72 [S2T]
+2025-11-02 19:41:52,165 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: "If you...
+2025-11-02 19:41:54,238 - INFO - [ANSWER] ...    *   The core of the problem is a conditional statement: "If P, then Q".
+        *   P = "you ...
+2025-11-02 19:41:54,239 - INFO - [OK] Row 49 [S2T] completed successfully
+2025-11-02 19:41:54,243 - INFO - [OK] Answer 49 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:54,244 - INFO - [PROGRESS] glm-4.6:cloud - 49/72 processed | 49 successful | 0 errors
+2025-11-02 19:41:54,244 - INFO - [INFO] Processing Row 50/72 [S2F]
+2025-11-02 19:41:54,245 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you ...
+2025-11-02 19:41:56,574 - INFO - [ANSWER] ...estion:** "Is it true that Mark gave you a candy?"
+    *   **Constraints:**
+        *   Brief ans...
+2025-11-02 19:41:56,574 - INFO - [OK] Row 50 [S2F] completed successfully
+2025-11-02 19:41:56,576 - INFO - [OK] Answer 50 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:41:56,576 - INFO - [PROGRESS] glm-4.6:cloud - 50/72 processed | 50 successful | 0 errors
+2025-11-02 19:41:56,576 - INFO - [INFO] Processing Row 51/72 [S2C]
+2025-11-02 19:41:56,576 - INFO - [PROMPT] Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had s...
+2025-11-02 19:42:07,899 - WARNING - [WARNING] API status 500
+2025-11-02 19:42:09,318 - WARNING - [WARNING] API status 500
+2025-11-02 19:42:19,317 - INFO - [ANSWER] ...Question:** "Is it true that Mark gave you a candy?"
+    *   **Format:** "Yes/No followed by a sh...
+2025-11-02 19:42:19,317 - INFO - [OK] Row 51 [S2C] completed successfully
+2025-11-02 19:42:19,319 - INFO - [OK] Answer 51 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:42:19,319 - INFO - [PROGRESS] glm-4.6:cloud - 51/72 processed | 51 successful | 0 errors
+2025-11-02 19:42:19,319 - INFO - [INFO] Processing Row 52/72 [S3T]
+2025-11-02 19:42:19,319 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: "If the fo...
+2025-11-02 19:42:25,993 - INFO - [ANSWER] ...e conditional statement based on the given context.
+    *   **Format:** "Yes/No followed by a sho...
+2025-11-02 19:42:25,993 - INFO - [OK] Row 52 [S3T] completed successfully
+2025-11-02 19:42:25,994 - INFO - [OK] Answer 52 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:42:25,994 - INFO - [PROGRESS] glm-4.6:cloud - 52/72 processed | 52 successful | 0 errors
+2025-11-02 19:42:25,994 - INFO - [INFO] Processing Row 53/72 [S3F]
+2025-11-02 19:42:25,995 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shove...
+2025-11-02 19:42:36,997 - WARNING - [WARNING] API status 500
+2025-11-02 19:42:48,520 - WARNING - [WARNING] API status 500
+2025-11-02 19:42:52,639 - INFO - [ANSWER] ...got a camera?
+    *   **Format:** Brief answer (Yes/No) + short explanation (1-2 sentences).
+
+2. ...
+2025-11-02 19:42:52,639 - INFO - [OK] Row 53 [S3F] completed successfully
+2025-11-02 19:42:52,654 - INFO - [OK] Answer 53 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:42:52,654 - INFO - [PROGRESS] glm-4.6:cloud - 53/72 processed | 53 successful | 0 errors
+2025-11-02 19:42:52,654 - INFO - [INFO] Processing Row 54/72 [S3C]
+2025-11-02 19:42:52,655 - INFO - [PROMPT] Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: "...
+2025-11-02 19:42:55,281 - INFO - [ANSWER] ... statement).
+    *   **Question:** Is it true that Susan got a camera?
+    *   **Format:** Brief ...
+2025-11-02 19:42:55,282 - INFO - [OK] Row 54 [S3C] completed successfully
+2025-11-02 19:42:55,289 - INFO - [OK] Answer 54 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:42:55,289 - INFO - [PROGRESS] glm-4.6:cloud - 54/72 processed | 54 successful | 0 errors
+2025-11-02 19:42:55,290 - INFO - [INFO] Processing Row 55/72 [S4T]
+2025-11-02 19:42:55,292 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Mary had said: "If the TV is on, Matthew wil...
+2025-11-02 19:42:58,153 - INFO - [ANSWER] ....  **Deconstruct the Logic:**
+    *   The core of the problem is a conditional statement: "If P, ...
+2025-11-02 19:42:58,154 - INFO - [OK] Row 55 [S4T] completed successfully
+2025-11-02 19:42:58,160 - INFO - [OK] Answer 55 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:42:58,161 - INFO - [PROGRESS] glm-4.6:cloud - 55/72 processed | 55 successful | 0 errors
+2025-11-02 19:42:58,161 - INFO - [INFO] Processing Row 56/72 [S4F]
+2025-11-02 19:42:58,162 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said:...
+2025-11-02 19:43:03,490 - INFO - [ANSWER] ...Format:** Yes/No followed by a short explanation (1-2 sentences).
+
+2.  **Deconstruct the Logic:**...
+2025-11-02 19:43:03,491 - INFO - [OK] Row 56 [S4F] completed successfully
+2025-11-02 19:43:03,506 - INFO - [OK] Answer 56 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:03,508 - INFO - [PROGRESS] glm-4.6:cloud - 56/72 processed | 56 successful | 0 errors
+2025-11-02 19:43:03,509 - INFO - [INFO] Processing Row 57/72 [S4C]
+2025-11-02 19:43:03,511 - INFO - [PROMPT] Here's the context: The TV is off. The radio is also off. Mary had said: "If the TV is on, Matthew w...
+2025-11-02 19:43:17,720 - INFO - [ANSWER] ...onstruct the Logic:**
+    *   The core of the problem is a conditional statement: "If P, then Q."...
+2025-11-02 19:43:17,721 - INFO - [OK] Row 57 [S4C] completed successfully
+2025-11-02 19:43:17,730 - INFO - [OK] Answer 57 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:17,731 - INFO - [PROGRESS] glm-4.6:cloud - 57/72 processed | 57 successful | 0 errors
+2025-11-02 19:43:17,734 - INFO - [INFO] Processing Row 58/72 [S5T]
+2025-11-02 19:43:17,735 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Mary had said: "If the weat...
+2025-11-02 19:43:23,143 - INFO - [ANSWER] ...struct the Logic:**
+    *   The core of the problem is a conditional statement: "If P, then Q."
+ ...
+2025-11-02 19:43:23,144 - INFO - [OK] Row 58 [S5T] completed successfully
+2025-11-02 19:43:23,158 - INFO - [OK] Answer 58 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:23,160 - INFO - [PROGRESS] glm-4.6:cloud - 58/72 processed | 58 successful | 0 errors
+2025-11-02 19:43:23,161 - INFO - [INFO] Processing Row 59/72 [S5F]
+2025-11-02 19:43:23,161 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Emma is wearing green. Mary...
+2025-11-02 19:43:33,370 - INFO - [ANSWER] ...c "if P, then Q" statement.
+        *   P = "the weather is sunny"
+        *   Q = "Emma will wea...
+2025-11-02 19:43:33,370 - INFO - [OK] Row 59 [S5F] completed successfully
+2025-11-02 19:43:33,375 - INFO - [OK] Answer 59 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:33,376 - INFO - [PROGRESS] glm-4.6:cloud - 59/72 processed | 59 successful | 0 errors
+2025-11-02 19:43:33,377 - INFO - [INFO] Processing Row 60/72 [S5C]
+2025-11-02 19:43:33,377 - INFO - [PROMPT] Here's the context: Today, the weather is rainy. Also, it is very windy. Mary had said: "If the weat...
+2025-11-02 19:43:36,640 - INFO - [ANSWER] ...the Logic:**
+    *   The core of the problem is a conditional statement: "If P, then Q".
+        ...
+2025-11-02 19:43:36,641 - INFO - [OK] Row 60 [S5C] completed successfully
+2025-11-02 19:43:36,646 - INFO - [OK] Answer 60 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:36,646 - INFO - [PROGRESS] glm-4.6:cloud - 60/72 processed | 60 successful | 0 errors
+2025-11-02 19:43:36,646 - INFO - [INFO] Processing Row 61/72 [S6T]
+2025-11-02 19:43:36,647 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Mary had said: "If the pl...
+2025-11-02 19:43:38,613 - INFO - [ANSWER] ...
+
+2.  **Deconstruct the Logic:**
+    *   The core of the problem is a conditional statement: "If ...
+2025-11-02 19:43:38,613 - INFO - [OK] Row 61 [S6T] completed successfully
+2025-11-02 19:43:38,614 - INFO - [OK] Answer 61 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:38,614 - INFO - [PROGRESS] glm-4.6:cloud - 61/72 processed | 61 successful | 0 errors
+2025-11-02 19:43:38,614 - INFO - [INFO] Processing Row 62/72 [S6F]
+2025-11-02 19:43:38,614 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Angela did not take a sel...
+2025-11-02 19:43:40,966 - INFO - [ANSWER] ... *   **Question:** "Based on what Mary says, is it true that Angela took a selfie?"
+    *   **For...
+2025-11-02 19:43:40,967 - INFO - [OK] Row 62 [S6F] completed successfully
+2025-11-02 19:43:40,968 - INFO - [OK] Answer 62 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:40,968 - INFO - [PROGRESS] glm-4.6:cloud - 62/72 processed | 62 successful | 0 errors
+2025-11-02 19:43:40,968 - INFO - [INFO] Processing Row 63/72 [S6C]
+2025-11-02 19:43:40,968 - INFO - [PROMPT] Here's the context: The playground is crowded.  Also, the streets are lively. Mary had said: "If the...
+2025-11-02 19:43:42,979 - INFO - [ANSWER] ...-2 sentences."
+
+2.  **Deconstruct the Logic:**
+    *   The core of the problem is a conditional s...
+2025-11-02 19:43:42,979 - INFO - [OK] Row 63 [S6C] completed successfully
+2025-11-02 19:43:42,983 - INFO - [OK] Answer 63 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:42,984 - INFO - [PROGRESS] glm-4.6:cloud - 63/72 processed | 63 successful | 0 errors
+2025-11-02 19:43:42,984 - INFO - [INFO] Processing Row 64/72 [S7T]
+2025-11-02 19:43:42,985 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Mary had said: "If...
+2025-11-02 19:43:44,933 - INFO - [ANSWER] ...ief answer (Yes/No) + short explanation (1-2 sentences).
+
+2.  **Deconstruct the Logic:**
+    *   ...
+2025-11-02 19:43:44,933 - INFO - [OK] Row 64 [S7T] completed successfully
+2025-11-02 19:43:44,934 - INFO - [OK] Answer 64 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:44,934 - INFO - [PROGRESS] glm-4.6:cloud - 64/72 processed | 64 successful | 0 errors
+2025-11-02 19:43:44,934 - INFO - [INFO] Processing Row 65/72 [S7F]
+2025-11-02 19:43:44,935 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Paul did not get 5...
+2025-11-02 19:43:56,308 - INFO - [ANSWER] ...l got 50 euros?
+    *   **Format:** Brief answer (Yes/No) followed by a short explanation (1-2 se...
+2025-11-02 19:43:56,308 - INFO - [OK] Row 65 [S7F] completed successfully
+2025-11-02 19:43:56,312 - INFO - [OK] Answer 65 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:56,312 - INFO - [PROGRESS] glm-4.6:cloud - 65/72 processed | 65 successful | 0 errors
+2025-11-02 19:43:56,312 - INFO - [INFO] Processing Row 66/72 [S7C]
+2025-11-02 19:43:56,313 - INFO - [PROMPT] Here's the context: The lawn has not been mowed. Also, the flowers still need watering. Mary had sai...
+2025-11-02 19:43:58,607 - INFO - [ANSWER] ...) + short explanation (1-2 sentences).
+
+2.  **Deconstruct the Logic:**
+    *   The core of the pr...
+2025-11-02 19:43:58,607 - INFO - [OK] Row 66 [S7C] completed successfully
+2025-11-02 19:43:58,609 - INFO - [OK] Answer 66 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:43:58,609 - INFO - [PROGRESS] glm-4.6:cloud - 66/72 processed | 66 successful | 0 errors
+2025-11-02 19:43:58,609 - INFO - [INFO] Processing Row 67/72 [S8T]
+2025-11-02 19:43:58,609 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Mary had said: "If the d...
+2025-11-02 19:44:04,002 - INFO - [ANSWER] ...lanation in 1-2 sentences)."
+
+2.  **Deconstruct the Logic:**
+    *   The core of the problem is a...
+2025-11-02 19:44:04,002 - INFO - [OK] Row 67 [S8T] completed successfully
+2025-11-02 19:44:04,004 - INFO - [OK] Answer 67 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:44:04,004 - INFO - [PROGRESS] glm-4.6:cloud - 67/72 processed | 67 successful | 0 errors
+2025-11-02 19:44:04,004 - INFO - [INFO] Processing Row 68/72 [S8F]
+2025-11-02 19:44:04,004 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Anthony did not read a b...
+2025-11-02 19:44:06,202 - INFO - [ANSWER] ...will read a book'." (Conditional statement, a rule)
+    *   **Question:** "Based on what Mary say...
+2025-11-02 19:44:06,202 - INFO - [OK] Row 68 [S8F] completed successfully
+2025-11-02 19:44:06,203 - INFO - [OK] Answer 68 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:44:06,204 - INFO - [PROGRESS] glm-4.6:cloud - 68/72 processed | 68 successful | 0 errors
+2025-11-02 19:44:06,204 - INFO - [INFO] Processing Row 69/72 [S8C]
+2025-11-02 19:44:06,204 - INFO - [PROMPT] Here's the context: The dog is not playing. Also, the cat is sleeping. Mary had said: "If the dog is...
+2025-11-02 19:44:08,099 - INFO - [ANSWER] ... Start with "Yes" or "No".
+        *   Follow with a short explanation (1-2 sentences).
+        *...
+2025-11-02 19:44:08,100 - INFO - [OK] Row 69 [S8C] completed successfully
+2025-11-02 19:44:08,104 - INFO - [OK] Answer 69 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:44:08,105 - INFO - [PROGRESS] glm-4.6:cloud - 69/72 processed | 69 successful | 0 errors
+2025-11-02 19:44:08,105 - INFO - [INFO] Processing Row 70/72 [S9T]
+2025-11-02 19:44:08,105 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Mary had said: "If the fridge is ...
+2025-11-02 19:44:10,215 - INFO - [ANSWER] ...hort explanation (1-2 sentences).
+
+2.  **Deconstruct the Logic:**
+    *   The core of the problem...
+2025-11-02 19:44:10,215 - INFO - [OK] Row 70 [S9T] completed successfully
+2025-11-02 19:44:10,220 - INFO - [OK] Answer 70 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:44:10,221 - INFO - [PROGRESS] glm-4.6:cloud - 70/72 processed | 70 successful | 0 errors
+2025-11-02 19:44:10,221 - INFO - [INFO] Processing Row 71/72 [S9F]
+2025-11-02 19:44:10,221 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary ha...
+2025-11-02 19:44:12,338 - INFO - [ANSWER] ...:**
+        *   Brief answer.
+        *   Start with "Yes" or "No".
+        *   Follow with a sho...
+2025-11-02 19:44:12,339 - INFO - [OK] Row 71 [S9F] completed successfully
+2025-11-02 19:44:12,343 - INFO - [OK] Answer 71 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:44:12,344 - INFO - [PROGRESS] glm-4.6:cloud - 71/72 processed | 71 successful | 0 errors
+2025-11-02 19:44:12,344 - INFO - [INFO] Processing Row 72/72 [S9C]
+2025-11-02 19:44:12,345 - INFO - [PROMPT] Here's the context: The fridge is full. Also, the oven is on. Mary had said: "If the fridge is empty...
+2025-11-02 19:44:14,262 - INFO - [ANSWER] ...hort explanation (1-2 sentences).
+
+2.  **Deconstruct the Logic:**
+    *   The core of the problem...
+2025-11-02 19:44:14,263 - INFO - [OK] Row 72 [S9C] completed successfully
+2025-11-02 19:44:14,267 - INFO - [OK] Answer 72 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:44:14,268 - INFO - [PROGRESS] glm-4.6:cloud - 72/72 processed | 72 successful | 0 errors
+2025-11-02 19:44:14,268 - INFO - [OK] All rows processed for glm-4.6:cloud
+2025-11-02 19:44:14,268 - INFO - [OK] ===== Completed: glm-4.6:cloud =====
+
+2025-11-02 19:44:14,269 - INFO - [OK] Successfully processed 3 models
+2025-11-02 19:44:14,269 - INFO - [OK] Summary: 3 successful, 0 failed
+2025-11-02 19:44:14,269 - INFO - [INFO] Answer files saved in: answers
+2025-11-02 19:44:14,270 - INFO - [INFO] Each model has its own file: <model-name>_answers.csv
+2025-11-02 19:44:14,270 - INFO - [INFO] ===== Completed =====

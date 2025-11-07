@@ -1,0 +1,1462 @@
+2025-11-02 15:42:20,258 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-02 15:42:20,259 - INFO - [INFO] API: https://ollama.com/api
+2025-11-02 15:42:20,259 - INFO - [INFO] Mode: Sequential
+2025-11-02 15:42:20,589 - INFO - [OK] Ollama API is accessible
+2025-11-02 15:42:20,596 - INFO - [OK] File loaded: 72 rows
+2025-11-02 15:42:20,596 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-02 15:42:20,596 - INFO - [INFO] Processing model 1/4: deepseek-v3.1:671b-cloud
+2025-11-02 15:42:20,596 - INFO - [INFO] ===== Starting: deepseek-v3.1:671b-cloud =====
+2025-11-02 15:42:20,603 - INFO - [INFO] Found existing answers file: answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:42:20,604 - INFO - [INFO] Existing progress: 5/72 answers completed, 0 errors, 67 pending
+2025-11-02 15:42:20,605 - INFO - [INFO] Pending items: B2C, B3T, B3F, B3C, B4T, B4F, B4C, B5T, B5F, B5C, B6T, B6F, B6C, B7T, B7F, B7C, B8T, B8F, B8C, B9T...
+2025-11-02 15:42:20,605 - INFO - [INFO] deepseek-v3.1:671b-cloud has 67 pending answers
+2025-11-02 15:42:20,605 - INFO - [INFO] Starting sequential processing for deepseek-v3.1:671b-cloud
+2025-11-02 15:42:20,605 - INFO - [INFO] Found existing answers file: answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:42:20,606 - INFO - [INFO] Existing progress: 5/72 answers completed, 0 errors, 67 pending
+2025-11-02 15:42:20,606 - INFO - [INFO] Pending items: B2C, B3T, B3F, B3C, B4T, B4F, B4C, B5T, B5F, B5C, B6T, B6F, B6C, B7T, B7F, B7C, B8T, B8F, B8C, B9T...
+2025-11-02 15:42:20,606 - INFO - [SKIP] Row 1/72 [B1T] already completed
+2025-11-02 15:42:20,606 - INFO - [SKIP] Row 2/72 [B1F] already completed
+2025-11-02 15:42:20,607 - INFO - [SKIP] Row 3/72 [B1C] already completed
+2025-11-02 15:42:20,607 - INFO - [SKIP] Row 4/72 [B2T] already completed
+2025-11-02 15:42:20,607 - INFO - [SKIP] Row 5/72 [B2F] already completed
+2025-11-02 15:42:20,607 - INFO - [INFO] Processing Row 6/72 [B2C]
+2025-11-02 15:42:20,607 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-02 15:42:24,283 - INFO - [ANSWER] Let’s break this down.
+
+---
+
+**Given facts:**
+1. Nicole’s head does **not** hurt.
+2. There is ibupro...
+2025-11-02 15:42:24,283 - INFO - [OK] Row 6 [B2C] completed successfully
+2025-11-02 15:42:24,285 - INFO - [OK] Answer 6 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:42:24,285 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 6/72 processed | 6 successful | 0 errors
+2025-11-02 15:42:24,285 - INFO - [INFO] Processing Row 7/72 [B3T]
+2025-11-02 15:42:24,285 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-02 15:42:27,166 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If Lucy is thirsty, there is water in the fridge."
+
+This i...
+2025-11-02 15:42:27,166 - INFO - [OK] Row 7 [B3T] completed successfully
+2025-11-02 15:42:27,169 - INFO - [OK] Answer 7 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:42:27,169 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 7/72 processed | 7 successful | 0 errors
+2025-11-02 15:42:27,169 - INFO - [INFO] Processing Row 8/72 [B3F]
+2025-11-02 15:42:27,169 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-11-02 15:42:36,356 - INFO - [ANSWER] Let’s break this down.  
+
+We know:  
+- Lucy is thirsty.  
+- There is **no** water in the fridge.  
+-...
+2025-11-02 15:42:36,356 - INFO - [OK] Row 8 [B3F] completed successfully
+2025-11-02 15:42:36,358 - INFO - [OK] Answer 8 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:42:36,359 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 8/72 processed | 8 successful | 0 errors
+2025-11-02 15:42:36,359 - INFO - [INFO] Processing Row 9/72 [B3C]
+2025-11-02 15:42:36,359 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-11-02 15:42:40,453 - INFO - [ANSWER] Let’s break this down.
+
+Mary says:  
+> "If Lucy is thirsty, there is water in the fridge."
+
+This is ...
+2025-11-02 15:42:40,453 - INFO - [OK] Row 9 [B3C] completed successfully
+2025-11-02 15:42:40,457 - INFO - [OK] Answer 9 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:42:40,457 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 9/72 processed | 9 successful | 0 errors
+2025-11-02 15:42:40,457 - INFO - [INFO] Processing Row 10/72 [B4T]
+2025-11-02 15:42:40,457 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-11-02 15:42:44,539 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If Peter's phone is dead, there is a charger in the drawer...
+2025-11-02 15:42:44,539 - INFO - [OK] Row 10 [B4T] completed successfully
+2025-11-02 15:42:44,542 - INFO - [OK] Answer 10 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:42:44,542 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 10/72 processed | 10 successful | 0 errors
+2025-11-02 15:42:44,542 - INFO - [INFO] Processing Row 11/72 [B4F]
+2025-11-02 15:42:44,542 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...
+2025-11-02 15:42:48,800 - INFO - [ANSWER] Let’s break this down.
+
+---
+
+**1. Restating the facts from the context:**
+
+- Peter’s phone is dead.
+...
+2025-11-02 15:42:48,801 - INFO - [OK] Row 11 [B4F] completed successfully
+2025-11-02 15:42:48,803 - INFO - [OK] Answer 11 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:42:48,803 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 11/72 processed | 11 successful | 0 errors
+2025-11-02 15:42:48,803 - INFO - [INFO] Processing Row 12/72 [B4C]
+2025-11-02 15:42:48,803 - INFO - [PROMPT] Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: "If...
+2025-11-02 15:42:52,819 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If Peter's phone is dead, there is a charger in the drawer...
+2025-11-02 15:42:52,819 - INFO - [OK] Row 12 [B4C] completed successfully
+2025-11-02 15:42:52,821 - INFO - [OK] Answer 12 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:42:52,821 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 12/72 processed | 12 successful | 0 errors
+2025-11-02 15:42:52,821 - INFO - [INFO] Processing Row 13/72 [B5T]
+2025-11-02 15:42:52,821 - INFO - [PROMPT] Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a ...
+2025-11-02 15:42:56,886 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If the weather is rainy, there is an umbrella on the coat ...
+2025-11-02 15:42:56,886 - INFO - [OK] Row 13 [B5T] completed successfully
+2025-11-02 15:42:56,889 - INFO - [OK] Answer 13 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:42:56,889 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 13/72 processed | 13 successful | 0 errors
+2025-11-02 15:42:56,889 - INFO - [INFO] Processing Row 14/72 [B5F]
+2025-11-02 15:42:56,889 - INFO - [PROMPT] Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no rain...
+2025-11-02 15:43:01,151 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If the weather is rainy, there is an umbrella on the coat ...
+2025-11-02 15:43:01,151 - INFO - [OK] Row 14 [B5F] completed successfully
+2025-11-02 15:43:01,153 - INFO - [OK] Answer 14 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:43:01,153 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 14/72 processed | 14 successful | 0 errors
+2025-11-02 15:43:01,153 - INFO - [INFO] Processing Row 15/72 [B5C]
+2025-11-02 15:43:01,154 - INFO - [PROMPT] Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: "If the weather...
+2025-11-02 15:43:17,130 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If the weather is rainy, there is an umbrella on the coat ...
+2025-11-02 15:43:17,130 - INFO - [OK] Row 15 [B5C] completed successfully
+2025-11-02 15:43:17,132 - INFO - [OK] Answer 15 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:43:17,133 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 15/72 processed | 15 successful | 0 errors
+2025-11-02 15:43:17,133 - INFO - [INFO] Processing Row 16/72 [B6T]
+2025-11-02 15:43:17,133 - INFO - [PROMPT] Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the...
+2025-11-02 15:43:21,586 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If your tire is flat, there is a pump in the garage."
+
+We ...
+2025-11-02 15:43:21,586 - INFO - [OK] Row 16 [B6T] completed successfully
+2025-11-02 15:43:21,587 - INFO - [OK] Answer 16 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:43:21,587 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 16/72 processed | 16 successful | 0 errors
+2025-11-02 15:43:21,587 - INFO - [INFO] Processing Row 17/72 [B6F]
+2025-11-02 15:43:21,587 - INFO - [PROMPT] Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the fr...
+2025-11-02 15:43:28,230 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If your tire is flat, there is a pump in the garage."
+
+We ...
+2025-11-02 15:43:28,231 - INFO - [OK] Row 17 [B6F] completed successfully
+2025-11-02 15:43:28,247 - INFO - [OK] Answer 17 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:43:28,248 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 17/72 processed | 17 successful | 0 errors
+2025-11-02 15:43:28,249 - INFO - [INFO] Processing Row 18/72 [B6C]
+2025-11-02 15:43:28,249 - INFO - [PROMPT] Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: "If your ti...
+2025-11-02 15:43:37,111 - INFO - [ANSWER] Let’s break this down logically.
+
+---
+
+**1. Restating the facts from the context:**
+
+- Your tire is ...
+2025-11-02 15:43:37,112 - INFO - [OK] Row 18 [B6C] completed successfully
+2025-11-02 15:43:37,125 - INFO - [OK] Answer 18 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:43:37,126 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 18/72 processed | 18 successful | 0 errors
+2025-11-02 15:43:37,126 - INFO - [INFO] Processing Row 19/72 [B7T]
+2025-11-02 15:43:37,126 - INFO - [PROMPT] Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in ...
+2025-11-02 15:43:40,527 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If the plant is dry, there is a water can on the shelf."
+
+...
+2025-11-02 15:43:40,527 - INFO - [OK] Row 19 [B7T] completed successfully
+2025-11-02 15:43:40,538 - INFO - [OK] Answer 19 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:43:40,538 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 19/72 processed | 19 successful | 0 errors
+2025-11-02 15:43:40,538 - INFO - [INFO] Processing Row 20/72 [B7F]
+2025-11-02 15:43:40,538 - INFO - [PROMPT] Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the...
+2025-11-02 15:43:44,702 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If the plant is dry, there is a water can on the shelf."
+
+...
+2025-11-02 15:43:44,702 - INFO - [OK] Row 20 [B7F] completed successfully
+2025-11-02 15:43:44,714 - INFO - [OK] Answer 20 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:43:44,715 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 20/72 processed | 20 successful | 0 errors
+2025-11-02 15:43:44,716 - INFO - [INFO] Processing Row 21/72 [B7C]
+2025-11-02 15:43:44,716 - INFO - [PROMPT] Here's the context: The plant is not dry. There is a hose in the garden. Mary says: "If the plant is...
+2025-11-02 15:43:49,083 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If the plant is dry, there is a water can on the shelf."
+
+...
+2025-11-02 15:43:49,084 - INFO - [OK] Row 21 [B7C] completed successfully
+2025-11-02 15:43:49,094 - INFO - [OK] Answer 21 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:43:49,095 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 21/72 processed | 21 successful | 0 errors
+2025-11-02 15:43:49,096 - INFO - [INFO] Processing Row 22/72 [B8T]
+2025-11-02 15:43:49,097 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ...
+2025-11-02 15:43:53,391 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If George's shirt is wrinkled, there is an iron in the clo...
+2025-11-02 15:43:53,391 - INFO - [OK] Row 22 [B8T] completed successfully
+2025-11-02 15:43:53,395 - INFO - [OK] Answer 22 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:43:53,395 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 22/72 processed | 22 successful | 0 errors
+2025-11-02 15:43:53,396 - INFO - [INFO] Processing Row 23/72 [B8F]
+2025-11-02 15:43:53,396 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironi...
+2025-11-02 15:43:57,163 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If George's shirt is wrinkled, there is an iron in the clo...
+2025-11-02 15:43:57,163 - INFO - [OK] Row 23 [B8F] completed successfully
+2025-11-02 15:43:57,166 - INFO - [OK] Answer 23 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:43:57,166 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 23/72 processed | 23 successful | 0 errors
+2025-11-02 15:43:57,166 - INFO - [INFO] Processing Row 24/72 [B8C]
+2025-11-02 15:43:57,166 - INFO - [PROMPT] Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary s...
+2025-11-02 15:44:00,369 - INFO - [ANSWER] Let’s break this down.
+
+---
+
+**1. Restating the facts**
+
+- George’s shirt is **not wrinkled**.
+- Mar...
+2025-11-02 15:44:00,369 - INFO - [OK] Row 24 [B8C] completed successfully
+2025-11-02 15:44:00,379 - INFO - [OK] Answer 24 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:00,380 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 24/72 processed | 24 successful | 0 errors
+2025-11-02 15:44:00,380 - INFO - [INFO] Processing Row 25/72 [B9T]
+2025-11-02 15:44:00,380 - INFO - [PROMPT] Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper o...
+2025-11-02 15:44:03,618 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If Susy wants to read, there are books on the shelf."
+
+Thi...
+2025-11-02 15:44:03,618 - INFO - [OK] Row 25 [B9T] completed successfully
+2025-11-02 15:44:03,620 - INFO - [OK] Answer 25 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:03,620 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 25/72 processed | 25 successful | 0 errors
+2025-11-02 15:44:03,620 - INFO - [INFO] Processing Row 26/72 [B9F]
+2025-11-02 15:44:03,620 - INFO - [PROMPT] Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on...
+2025-11-02 15:44:07,241 - INFO - [ANSWER] Let’s break this down.  
+
+Mary says:  
+> "If Susy wants to read, there are books on the shelf."
+
+Thi...
+2025-11-02 15:44:07,241 - INFO - [OK] Row 26 [B9F] completed successfully
+2025-11-02 15:44:07,243 - INFO - [OK] Answer 26 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:07,243 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 26/72 processed | 26 successful | 0 errors
+2025-11-02 15:44:07,243 - INFO - [INFO] Processing Row 27/72 [B9C]
+2025-11-02 15:44:07,243 - INFO - [PROMPT] Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: "If Su...
+2025-11-02 15:44:10,853 - INFO - [ANSWER] Let’s break this down.
+
+Mary says:  
+> "If Susy wants to read, there are books on the shelf."
+
+This ...
+2025-11-02 15:44:10,853 - INFO - [OK] Row 27 [B9C] completed successfully
+2025-11-02 15:44:10,857 - INFO - [OK] Answer 27 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:10,857 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 27/72 processed | 27 successful | 0 errors
+2025-11-02 15:44:10,857 - INFO - [INFO] Processing Row 28/72 [F1T]
+2025-11-02 15:44:10,857 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-02 15:44:12,674 - INFO - [ANSWER] Based on the context provided:
+
+The statement says "Although pizza is more expensive than pasta, peo...
+2025-11-02 15:44:12,674 - INFO - [OK] Row 28 [F1T] completed successfully
+2025-11-02 15:44:12,677 - INFO - [OK] Answer 28 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:12,677 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 28/72 processed | 28 successful | 0 errors
+2025-11-02 15:44:12,677 - INFO - [INFO] Processing Row 29/72 [F1F]
+2025-11-02 15:44:12,677 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-02 15:44:16,403 - INFO - [ANSWER] Let’s break this down.  
+
+The context says:  
+- Pizza is more expensive than pasta.  
+- People buy p...
+2025-11-02 15:44:16,404 - INFO - [OK] Row 29 [F1F] completed successfully
+2025-11-02 15:44:16,407 - INFO - [OK] Answer 29 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:16,407 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 29/72 processed | 29 successful | 0 errors
+2025-11-02 15:44:16,407 - INFO - [INFO] Processing Row 30/72 [F2T]
+2025-11-02 15:44:16,407 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-02 15:44:21,979 - INFO - [ANSWER] Let’s break it down:  
+
+The context says:  
+- Black coffee is cheaper than green tea.  
+- Most peopl...
+2025-11-02 15:44:21,979 - INFO - [OK] Row 30 [F2T] completed successfully
+2025-11-02 15:44:21,983 - INFO - [OK] Answer 30 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:21,983 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 30/72 processed | 30 successful | 0 errors
+2025-11-02 15:44:21,983 - INFO - [INFO] Processing Row 31/72 [F2F]
+2025-11-02 15:44:21,983 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-02 15:44:24,388 - INFO - [ANSWER] Let’s break this down.  
+
+The context says:  
+- Black coffee is cheaper than green tea.  
+- Most peo...
+2025-11-02 15:44:24,388 - INFO - [OK] Row 31 [F2F] completed successfully
+2025-11-02 15:44:24,389 - INFO - [OK] Answer 31 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:24,389 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 31/72 processed | 31 successful | 0 errors
+2025-11-02 15:44:24,389 - INFO - [INFO] Processing Row 32/72 [F3T]
+2025-11-02 15:44:24,389 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-02 15:44:26,459 - INFO - [ANSWER] Based on the context provided, the answer is **yes**.
+
+The context states that "many choose soda" ov...
+2025-11-02 15:44:26,459 - INFO - [OK] Row 32 [F3T] completed successfully
+2025-11-02 15:44:26,462 - INFO - [OK] Answer 32 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:26,462 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 32/72 processed | 32 successful | 0 errors
+2025-11-02 15:44:26,462 - INFO - [INFO] Processing Row 33/72 [F3F]
+2025-11-02 15:44:26,462 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-02 15:44:28,472 - INFO - [ANSWER] Based on the context provided, the answer is **no**.
+
+The context states that "many choose soda" ove...
+2025-11-02 15:44:28,472 - INFO - [OK] Row 33 [F3F] completed successfully
+2025-11-02 15:44:28,474 - INFO - [OK] Answer 33 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:28,474 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 33/72 processed | 33 successful | 0 errors
+2025-11-02 15:44:28,474 - INFO - [INFO] Processing Row 34/72 [F4T]
+2025-11-02 15:44:28,474 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-02 15:44:31,242 - INFO - [ANSWER] Let’s break this down.  
+
+The context says:  
+- Broccoli is more difficult to cook than gnocchi.  
+-...
+2025-11-02 15:44:31,242 - INFO - [OK] Row 34 [F4T] completed successfully
+2025-11-02 15:44:31,243 - INFO - [OK] Answer 34 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:31,243 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 34/72 processed | 34 successful | 0 errors
+2025-11-02 15:44:31,244 - INFO - [INFO] Processing Row 35/72 [F4F]
+2025-11-02 15:44:31,244 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-02 15:44:33,449 - INFO - [ANSWER] Let’s break this down.  
+
+The context says:  
+- Broccoli is more difficult to cook than gnocchi.  
+-...
+2025-11-02 15:44:33,449 - INFO - [OK] Row 35 [F4F] completed successfully
+2025-11-02 15:44:33,453 - INFO - [OK] Answer 35 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:33,453 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 35/72 processed | 35 successful | 0 errors
+2025-11-02 15:44:33,453 - INFO - [INFO] Processing Row 36/72 [F5T]
+2025-11-02 15:44:33,453 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-02 15:44:35,301 - INFO - [ANSWER] Yes, based on the context provided, burgers are more popular than sushi.
+
+The context states that "p...
+2025-11-02 15:44:35,301 - INFO - [OK] Row 36 [F5T] completed successfully
+2025-11-02 15:44:35,305 - INFO - [OK] Answer 36 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:35,305 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 36/72 processed | 36 successful | 0 errors
+2025-11-02 15:44:35,305 - INFO - [INFO] Processing Row 37/72 [F5F]
+2025-11-02 15:44:35,305 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-02 15:44:37,002 - INFO - [ANSWER] Based on the context provided, the answer is **no**.
+
+The context states that "people eat burgers mo...
+2025-11-02 15:44:37,002 - INFO - [OK] Row 37 [F5F] completed successfully
+2025-11-02 15:44:37,003 - INFO - [OK] Answer 37 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:37,003 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 37/72 processed | 37 successful | 0 errors
+2025-11-02 15:44:37,003 - INFO - [INFO] Processing Row 38/72 [F6T]
+2025-11-02 15:44:37,003 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-02 15:44:39,720 - INFO - [ANSWER] Yes, bananas are more popular than kiwis in this context.
+
+The reasoning is:
+
+1.  The context states...
+2025-11-02 15:44:39,720 - INFO - [OK] Row 38 [F6T] completed successfully
+2025-11-02 15:44:39,723 - INFO - [OK] Answer 38 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:39,723 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 38/72 processed | 38 successful | 0 errors
+2025-11-02 15:44:39,723 - INFO - [INFO] Processing Row 39/72 [F6F]
+2025-11-02 15:44:39,723 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-02 15:44:41,953 - INFO - [ANSWER] Let’s break it down:  
+
+The context says:  
+- Bananas are more expensive than kiwis.  
+- People purc...
+2025-11-02 15:44:41,953 - INFO - [OK] Row 39 [F6F] completed successfully
+2025-11-02 15:44:41,956 - INFO - [OK] Answer 39 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:41,957 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 39/72 processed | 39 successful | 0 errors
+2025-11-02 15:44:41,957 - INFO - [INFO] Processing Row 40/72 [F7T]
+2025-11-02 15:44:41,957 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-02 15:44:43,915 - INFO - [ANSWER] Based on the context provided, the answer is **yes**.
+
+The sentence "Although dogs are more lively t...
+2025-11-02 15:44:43,915 - INFO - [OK] Row 40 [F7T] completed successfully
+2025-11-02 15:44:43,918 - INFO - [OK] Answer 40 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:43,918 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 40/72 processed | 40 successful | 0 errors
+2025-11-02 15:44:43,918 - INFO - [INFO] Processing Row 41/72 [F7F]
+2025-11-02 15:44:43,918 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-02 15:44:50,331 - INFO - [ANSWER] Let’s break it down.  
+
+The context says:  
+> Although dogs are more lively than cats, people prefer...
+2025-11-02 15:44:50,332 - INFO - [OK] Row 41 [F7F] completed successfully
+2025-11-02 15:44:50,336 - INFO - [OK] Answer 41 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:50,336 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 41/72 processed | 41 successful | 0 errors
+2025-11-02 15:44:50,336 - INFO - [INFO] Processing Row 42/72 [F8T]
+2025-11-02 15:44:50,336 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, many people watch T...
+2025-11-02 15:44:54,232 - INFO - [ANSWER] Based on the context provided, the answer is **yes**.
+
+Here's the reasoning:
+
+The context states: "A...
+2025-11-02 15:44:54,232 - INFO - [OK] Row 42 [F8T] completed successfully
+2025-11-02 15:44:54,235 - INFO - [OK] Answer 42 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:54,236 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 42/72 processed | 42 successful | 0 errors
+2025-11-02 15:44:54,236 - INFO - [INFO] Processing Row 43/72 [F8F]
+2025-11-02 15:44:54,236 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, many people watch T...
+2025-11-02 15:44:56,799 - INFO - [ANSWER] Based on the context provided, the answer is **no**.
+
+The context states: "Although reading books is...
+2025-11-02 15:44:56,799 - INFO - [OK] Row 43 [F8F] completed successfully
+2025-11-02 15:44:56,802 - INFO - [OK] Answer 43 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:56,802 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 43/72 processed | 43 successful | 0 errors
+2025-11-02 15:44:56,802 - INFO - [INFO] Processing Row 44/72 [F8T]
+2025-11-02 15:44:56,802 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-02 15:44:58,239 - INFO - [ANSWER] Yes, based on the context provided, walking is more popular than running.
+
+The context states: "Alth...
+2025-11-02 15:44:58,240 - INFO - [OK] Row 44 [F8T] completed successfully
+2025-11-02 15:44:58,244 - INFO - [OK] Answer 44 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:44:58,244 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 44/72 processed | 44 successful | 0 errors
+2025-11-02 15:44:58,244 - INFO - [INFO] Processing Row 45/72 [F8F]
+2025-11-02 15:44:58,244 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-02 15:45:00,004 - INFO - [ANSWER] Based on the context provided, the answer is **no**.
+
+The context states: "Although running is bette...
+2025-11-02 15:45:00,004 - INFO - [OK] Row 45 [F8F] completed successfully
+2025-11-02 15:45:00,008 - INFO - [OK] Answer 45 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:00,008 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 45/72 processed | 45 successful | 0 errors
+2025-11-02 15:45:00,008 - INFO - [INFO] Processing Row 46/72 [S1T]
+2025-11-02 15:45:00,008 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Mary had said: "If ...
+2025-11-02 15:45:03,366 - INFO - [ANSWER] Let’s break it down.
+
+1. **Facts given:**  
+   - The parrot is in the cage.  
+   - The dog is in the...
+2025-11-02 15:45:03,366 - INFO - [OK] Row 46 [S1T] completed successfully
+2025-11-02 15:45:03,368 - INFO - [OK] Answer 46 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:03,368 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 46/72 processed | 46 successful | 0 errors
+2025-11-02 15:45:03,368 - INFO - [INFO] Processing Row 47/72 [S1F]
+2025-11-02 15:45:03,368 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not brin...
+2025-11-02 15:45:06,956 - INFO - [ANSWER] Let’s break it down.  
+
+Mary said:  
+> "If the parrot is in the cage, Thomas will bring pizza."
+
+In ...
+2025-11-02 15:45:06,957 - INFO - [OK] Row 47 [S1F] completed successfully
+2025-11-02 15:45:06,960 - INFO - [OK] Answer 47 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:06,961 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 47/72 processed | 47 successful | 0 errors
+2025-11-02 15:45:06,961 - INFO - [INFO] Processing Row 48/72 [S1C]
+2025-11-02 15:45:06,961 - INFO - [PROMPT] Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had s...
+2025-11-02 15:45:11,368 - INFO - [ANSWER] Let’s break this down step by step.
+
+---
+
+**1. Restating the facts from the context:**
+
+- The parrot...
+2025-11-02 15:45:11,368 - INFO - [OK] Row 48 [S1C] completed successfully
+2025-11-02 15:45:11,371 - INFO - [OK] Answer 48 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:11,371 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 48/72 processed | 48 successful | 0 errors
+2025-11-02 15:45:11,372 - INFO - [INFO] Processing Row 49/72 [S2T]
+2025-11-02 15:45:11,372 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: "If you...
+2025-11-02 15:45:14,862 - INFO - [ANSWER] Let’s break it down.  
+
+Mary’s statement:  
+> "If you finish your broccoli, Mark will give you a can...
+2025-11-02 15:45:14,862 - INFO - [OK] Row 49 [S2T] completed successfully
+2025-11-02 15:45:14,864 - INFO - [OK] Answer 49 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:14,865 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 49/72 processed | 49 successful | 0 errors
+2025-11-02 15:45:14,865 - INFO - [INFO] Processing Row 50/72 [S2F]
+2025-11-02 15:45:14,865 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you ...
+2025-11-02 15:45:18,639 - INFO - [ANSWER] Let’s break it down.  
+
+Mary said:  
+> "If you finish your broccoli, Mark will give you a candy."
+
+T...
+2025-11-02 15:45:18,639 - INFO - [OK] Row 50 [S2F] completed successfully
+2025-11-02 15:45:18,642 - INFO - [OK] Answer 50 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:18,643 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 50/72 processed | 50 successful | 0 errors
+2025-11-02 15:45:18,643 - INFO - [INFO] Processing Row 51/72 [S2C]
+2025-11-02 15:45:18,643 - INFO - [PROMPT] Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had s...
+2025-11-02 15:45:21,878 - INFO - [ANSWER] Let’s break it down.  
+
+Mary’s statement:  
+> "If you finish your broccoli, Mark will give you a can...
+2025-11-02 15:45:21,878 - INFO - [OK] Row 51 [S2C] completed successfully
+2025-11-02 15:45:21,882 - INFO - [OK] Answer 51 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:21,882 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 51/72 processed | 51 successful | 0 errors
+2025-11-02 15:45:21,882 - INFO - [INFO] Processing Row 52/72 [S3T]
+2025-11-02 15:45:21,882 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: "If the fo...
+2025-11-02 15:45:28,315 - INFO - [ANSWER] Let’s break it down.  
+
+Mary said:  
+> "If the foxes are dancing, Susan will get a camera."
+
+We know...
+2025-11-02 15:45:28,315 - INFO - [OK] Row 52 [S3T] completed successfully
+2025-11-02 15:45:28,317 - INFO - [OK] Answer 52 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:28,317 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 52/72 processed | 52 successful | 0 errors
+2025-11-02 15:45:28,317 - INFO - [INFO] Processing Row 53/72 [S3F]
+2025-11-02 15:45:28,317 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shove...
+2025-11-02 15:45:32,841 - INFO - [ANSWER] Let’s break it down.
+
+---
+
+**Given facts:**
+1. The foxes are dancing.  
+2. The squirrels are eating....
+2025-11-02 15:45:32,841 - INFO - [OK] Row 53 [S3F] completed successfully
+2025-11-02 15:45:32,845 - INFO - [OK] Answer 53 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:32,845 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 53/72 processed | 53 successful | 0 errors
+2025-11-02 15:45:32,845 - INFO - [INFO] Processing Row 54/72 [S3C]
+2025-11-02 15:45:32,845 - INFO - [PROMPT] Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: "...
+2025-11-02 15:45:38,184 - INFO - [ANSWER] Let’s break this down logically.
+
+---
+
+**1. Restating the facts**
+
+- Foxes are **not** dancing.  
+- ...
+2025-11-02 15:45:38,184 - INFO - [OK] Row 54 [S3C] completed successfully
+2025-11-02 15:45:38,187 - INFO - [OK] Answer 54 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:38,188 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 54/72 processed | 54 successful | 0 errors
+2025-11-02 15:45:38,188 - INFO - [INFO] Processing Row 55/72 [S4T]
+2025-11-02 15:45:38,188 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Mary had said: "If the TV is on, Matthew wil...
+2025-11-02 15:45:58,709 - INFO - [ANSWER] Let’s break it down.
+
+1. **Facts given:**  
+   - TV is on.  
+   - Radio is on.  
+   - Mary said: "If...
+2025-11-02 15:45:58,709 - INFO - [OK] Row 55 [S4T] completed successfully
+2025-11-02 15:45:58,713 - INFO - [OK] Answer 55 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:45:58,713 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 55/72 processed | 55 successful | 0 errors
+2025-11-02 15:45:58,713 - INFO - [INFO] Processing Row 56/72 [S4F]
+2025-11-02 15:45:58,713 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said:...
+2025-11-02 15:46:02,876 - INFO - [ANSWER] Let’s break it down.  
+
+Mary said:  
+> "If the TV is on, Matthew will bake cookies."
+
+In logical for...
+2025-11-02 15:46:02,876 - INFO - [OK] Row 56 [S4F] completed successfully
+2025-11-02 15:46:02,880 - INFO - [OK] Answer 56 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:02,880 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 56/72 processed | 56 successful | 0 errors
+2025-11-02 15:46:02,880 - INFO - [INFO] Processing Row 57/72 [S4C]
+2025-11-02 15:46:02,880 - INFO - [PROMPT] Here's the context: The TV is off. The radio is also off. Mary had said: "If the TV is on, Matthew w...
+2025-11-02 15:46:07,046 - INFO - [ANSWER] Let’s break it down.
+
+1. **Mary’s statement**:  
+   "If the TV is on, Matthew will bake cookies."  
+...
+2025-11-02 15:46:07,047 - INFO - [OK] Row 57 [S4C] completed successfully
+2025-11-02 15:46:07,050 - INFO - [OK] Answer 57 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:07,050 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 57/72 processed | 57 successful | 0 errors
+2025-11-02 15:46:07,050 - INFO - [INFO] Processing Row 58/72 [S5T]
+2025-11-02 15:46:07,050 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Mary had said: "If the weat...
+2025-11-02 15:46:11,520 - INFO - [ANSWER] Let’s break it down.  
+
+Mary’s statement:  
+> "If the weather is sunny, Emma will wear purple."
+
+In ...
+2025-11-02 15:46:11,521 - INFO - [OK] Row 58 [S5T] completed successfully
+2025-11-02 15:46:11,522 - INFO - [OK] Answer 58 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:11,522 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 58/72 processed | 58 successful | 0 errors
+2025-11-02 15:46:11,522 - INFO - [INFO] Processing Row 59/72 [S5F]
+2025-11-02 15:46:11,522 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Emma is wearing green. Mary...
+2025-11-02 15:46:14,657 - INFO - [ANSWER] Let’s break it down.  
+
+Mary said:  
+> "If the weather is sunny, Emma will wear purple."
+
+We know:  ...
+2025-11-02 15:46:14,657 - INFO - [OK] Row 59 [S5F] completed successfully
+2025-11-02 15:46:14,660 - INFO - [OK] Answer 59 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:14,660 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 59/72 processed | 59 successful | 0 errors
+2025-11-02 15:46:14,660 - INFO - [INFO] Processing Row 60/72 [S5C]
+2025-11-02 15:46:14,660 - INFO - [PROMPT] Here's the context: Today, the weather is rainy. Also, it is very windy. Mary had said: "If the weat...
+2025-11-02 15:46:18,305 - INFO - [ANSWER] Let’s break this down.  
+
+Mary’s statement:  
+> "If the weather is sunny, Emma will wear purple."
+
+T...
+2025-11-02 15:46:18,305 - INFO - [OK] Row 60 [S5C] completed successfully
+2025-11-02 15:46:18,309 - INFO - [OK] Answer 60 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:18,310 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 60/72 processed | 60 successful | 0 errors
+2025-11-02 15:46:18,310 - INFO - [INFO] Processing Row 61/72 [S6T]
+2025-11-02 15:46:18,310 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Mary had said: "If the pl...
+2025-11-02 15:46:20,724 - INFO - [ANSWER] Let’s break it down.  
+
+Mary said:  
+> "If the playground is empty, Angela will take a selfie."
+
+We ...
+2025-11-02 15:46:20,724 - INFO - [OK] Row 61 [S6T] completed successfully
+2025-11-02 15:46:20,726 - INFO - [OK] Answer 61 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:20,726 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 61/72 processed | 61 successful | 0 errors
+2025-11-02 15:46:20,726 - INFO - [INFO] Processing Row 62/72 [S6F]
+2025-11-02 15:46:20,726 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Angela did not take a sel...
+2025-11-02 15:46:27,977 - INFO - [ANSWER] Let’s break this down.
+
+---
+
+**1. Restating the facts from the context:**
+
+- The playground is empty...
+2025-11-02 15:46:27,978 - INFO - [OK] Row 62 [S6F] completed successfully
+2025-11-02 15:46:27,983 - INFO - [OK] Answer 62 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:27,983 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 62/72 processed | 62 successful | 0 errors
+2025-11-02 15:46:27,983 - INFO - [INFO] Processing Row 63/72 [S6C]
+2025-11-02 15:46:27,983 - INFO - [PROMPT] Here's the context: The playground is crowded.  Also, the streets are lively. Mary had said: "If the...
+2025-11-02 15:46:33,197 - INFO - [ANSWER] Let’s break this down.
+
+Mary’s statement:  
+> "If the playground is empty, Angela will take a selfie...
+2025-11-02 15:46:33,197 - INFO - [OK] Row 63 [S6C] completed successfully
+2025-11-02 15:46:33,200 - INFO - [OK] Answer 63 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:33,200 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 63/72 processed | 63 successful | 0 errors
+2025-11-02 15:46:33,200 - INFO - [INFO] Processing Row 64/72 [S7T]
+2025-11-02 15:46:33,200 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Mary had said: "If...
+2025-11-02 15:46:36,792 - INFO - [ANSWER] Let’s break this down.  
+
+Mary said:  
+> "If Paul mows the lawn, he will get 50 euros."
+
+This is a c...
+2025-11-02 15:46:36,792 - INFO - [OK] Row 64 [S7T] completed successfully
+2025-11-02 15:46:36,797 - INFO - [OK] Answer 64 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:36,797 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 64/72 processed | 64 successful | 0 errors
+2025-11-02 15:46:36,797 - INFO - [INFO] Processing Row 65/72 [S7F]
+2025-11-02 15:46:36,797 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Paul did not get 5...
+2025-11-02 15:46:40,970 - INFO - [ANSWER] Let’s break it down.  
+
+Mary said:  
+> "If Paul mows the lawn, he will get 50 euros."  
+
+This is a c...
+2025-11-02 15:46:40,970 - INFO - [OK] Row 65 [S7F] completed successfully
+2025-11-02 15:46:40,974 - INFO - [OK] Answer 65 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:40,974 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 65/72 processed | 65 successful | 0 errors
+2025-11-02 15:46:40,974 - INFO - [INFO] Processing Row 66/72 [S7C]
+2025-11-02 15:46:40,974 - INFO - [PROMPT] Here's the context: The lawn has not been mowed. Also, the flowers still need watering. Mary had sai...
+2025-11-02 15:46:46,998 - INFO - [ANSWER] Let’s break this down.  
+
+Mary said:  
+> "If Paul mows the lawn, he will get 50 euros."
+
+This is a c...
+2025-11-02 15:46:46,998 - INFO - [OK] Row 66 [S7C] completed successfully
+2025-11-02 15:46:46,999 - INFO - [OK] Answer 66 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:46,999 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 66/72 processed | 66 successful | 0 errors
+2025-11-02 15:46:46,999 - INFO - [INFO] Processing Row 67/72 [S8T]
+2025-11-02 15:46:46,999 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Mary had said: "If the d...
+2025-11-02 15:46:50,239 - INFO - [ANSWER] Let’s break it down.  
+
+Mary’s statement:  
+> "If the dog is playing, Anthony will read a book."  
+
+...
+2025-11-02 15:46:50,240 - INFO - [OK] Row 67 [S8T] completed successfully
+2025-11-02 15:46:50,245 - INFO - [OK] Answer 67 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:50,245 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 67/72 processed | 67 successful | 0 errors
+2025-11-02 15:46:50,245 - INFO - [INFO] Processing Row 68/72 [S8F]
+2025-11-02 15:46:50,245 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Anthony did not read a b...
+2025-11-02 15:46:54,217 - INFO - [ANSWER] Let’s break it down.
+
+---
+
+**1. Restating the facts from the context:**
+
+- The dog is playing.  
+- A...
+2025-11-02 15:46:54,218 - INFO - [OK] Row 68 [S8F] completed successfully
+2025-11-02 15:46:54,222 - INFO - [OK] Answer 68 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:54,223 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 68/72 processed | 68 successful | 0 errors
+2025-11-02 15:46:54,223 - INFO - [INFO] Processing Row 69/72 [S8C]
+2025-11-02 15:46:54,223 - INFO - [PROMPT] Here's the context: The dog is not playing. Also, the cat is sleeping. Mary had said: "If the dog is...
+2025-11-02 15:46:57,461 - INFO - [ANSWER] Let’s break it down.
+
+1. **Mary’s statement**:  
+   "If the dog is playing, Anthony will read a book...
+2025-11-02 15:46:57,462 - INFO - [OK] Row 69 [S8C] completed successfully
+2025-11-02 15:46:57,465 - INFO - [OK] Answer 69 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:46:57,465 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 69/72 processed | 69 successful | 0 errors
+2025-11-02 15:46:57,465 - INFO - [INFO] Processing Row 70/72 [S9T]
+2025-11-02 15:46:57,465 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Mary had said: "If the fridge is ...
+2025-11-02 15:47:04,371 - INFO - [ANSWER] Let’s break this down.  
+
+Mary said:  
+> "If the fridge is empty, Amy will bring donuts."
+
+We know: ...
+2025-11-02 15:47:04,371 - INFO - [OK] Row 70 [S9T] completed successfully
+2025-11-02 15:47:04,376 - INFO - [OK] Answer 70 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:47:04,376 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 70/72 processed | 70 successful | 0 errors
+2025-11-02 15:47:04,376 - INFO - [INFO] Processing Row 71/72 [S9F]
+2025-11-02 15:47:04,376 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary ha...
+2025-11-02 15:47:08,408 - INFO - [ANSWER] Let’s break it down.
+
+---
+
+**Premises:**
+1. The fridge is empty.  
+2. The oven is broken. (This is i...
+2025-11-02 15:47:08,408 - INFO - [OK] Row 71 [S9F] completed successfully
+2025-11-02 15:47:08,412 - INFO - [OK] Answer 71 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:47:08,412 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 71/72 processed | 71 successful | 0 errors
+2025-11-02 15:47:08,412 - INFO - [INFO] Processing Row 72/72 [S9C]
+2025-11-02 15:47:08,412 - INFO - [PROMPT] Here's the context: The fridge is full. Also, the oven is on. Mary had said: "If the fridge is empty...
+2025-11-02 15:47:20,418 - INFO - [ANSWER] Let’s break this down.
+
+---
+
+**1. Restating the facts from the context:**
+
+- The fridge is full.  
+-...
+2025-11-02 15:47:20,418 - INFO - [OK] Row 72 [S9C] completed successfully
+2025-11-02 15:47:20,421 - INFO - [OK] Answer 72 saved to answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 15:47:20,421 - INFO - [PROGRESS] deepseek-v3.1:671b-cloud - 72/72 processed | 72 successful | 0 errors
+2025-11-02 15:47:20,421 - INFO - [OK] All rows processed for deepseek-v3.1:671b-cloud
+2025-11-02 15:47:20,421 - INFO - [OK] ===== Completed: deepseek-v3.1:671b-cloud =====
+
+2025-11-02 15:47:20,421 - INFO - [INFO] Processing model 2/4: kimi-k2:1t-cloud
+2025-11-02 15:47:20,421 - INFO - [INFO] ===== Starting: kimi-k2:1t-cloud =====
+2025-11-02 15:47:20,421 - INFO - [INFO] kimi-k2:1t-cloud has 72 pending answers
+2025-11-02 15:47:20,421 - INFO - [INFO] Starting sequential processing for kimi-k2:1t-cloud
+2025-11-02 15:47:20,422 - INFO - [INFO] Processing Row 1/72 [B1T]
+2025-11-02 15:47:20,422 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-02 15:47:23,338 - INFO - [ANSWER] Yes, it is true that there is pizza in the oven.  
+Mary's statement — "If John is hungry, there is p...
+2025-11-02 15:47:23,338 - INFO - [OK] Row 1 [B1T] completed successfully
+2025-11-02 15:47:23,342 - INFO - [OK] Answer 1 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:47:23,342 - INFO - [PROGRESS] kimi-k2:1t-cloud - 1/72 processed | 1 successful | 0 errors
+2025-11-02 15:47:23,342 - INFO - [INFO] Processing Row 2/72 [B1F]
+2025-11-02 15:47:23,342 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-02 15:47:28,388 - INFO - [ANSWER] No, it is **not true** that there is pizza in the oven.
+
+Mary says: *"If John is hungry, there is pi...
+2025-11-02 15:47:28,388 - INFO - [OK] Row 2 [B1F] completed successfully
+2025-11-02 15:47:28,392 - INFO - [OK] Answer 2 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:47:28,392 - INFO - [PROGRESS] kimi-k2:1t-cloud - 2/72 processed | 2 successful | 0 errors
+2025-11-02 15:47:28,393 - INFO - [INFO] Processing Row 3/72 [B1C]
+2025-11-02 15:47:28,393 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-02 15:47:31,677 - INFO - [ANSWER] No, it is not necessarily true that there is pizza in the oven.
+
+Mary's statement is a conditional: ...
+2025-11-02 15:47:31,678 - INFO - [OK] Row 3 [B1C] completed successfully
+2025-11-02 15:47:31,681 - INFO - [OK] Answer 3 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:47:31,681 - INFO - [PROGRESS] kimi-k2:1t-cloud - 3/72 processed | 3 successful | 0 errors
+2025-11-02 15:47:31,681 - INFO - [INFO] Processing Row 4/72 [B2T]
+2025-11-02 15:47:31,681 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-02 15:47:33,718 - INFO - [ANSWER] Yes, it is true that there is aspirin on the table.
+2025-11-02 15:47:33,719 - INFO - [OK] Row 4 [B2T] completed successfully
+2025-11-02 15:47:33,721 - INFO - [OK] Answer 4 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:47:33,721 - INFO - [PROGRESS] kimi-k2:1t-cloud - 4/72 processed | 4 successful | 0 errors
+2025-11-02 15:47:33,721 - INFO - [INFO] Processing Row 5/72 [B2F]
+2025-11-02 15:47:33,721 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-02 15:47:38,471 - INFO - [ANSWER] No, it is **not true** that there is aspirin on the table.
+
+Mary says: *"If Nicole's head hurts, the...
+2025-11-02 15:47:38,472 - INFO - [OK] Row 5 [B2F] completed successfully
+2025-11-02 15:47:38,474 - INFO - [OK] Answer 5 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:47:38,474 - INFO - [PROGRESS] kimi-k2:1t-cloud - 5/72 processed | 5 successful | 0 errors
+2025-11-02 15:47:38,474 - INFO - [INFO] Processing Row 6/72 [B2C]
+2025-11-02 15:47:38,474 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-02 15:47:42,399 - INFO - [ANSWER] No, it is **not necessarily true** that there is aspirin on the table.
+
+Mary's statement is a condit...
+2025-11-02 15:47:42,399 - INFO - [OK] Row 6 [B2C] completed successfully
+2025-11-02 15:47:42,400 - INFO - [OK] Answer 6 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:47:42,401 - INFO - [PROGRESS] kimi-k2:1t-cloud - 6/72 processed | 6 successful | 0 errors
+2025-11-02 15:47:42,401 - INFO - [INFO] Processing Row 7/72 [B3T]
+2025-11-02 15:47:42,401 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-02 15:47:45,956 - INFO - [ANSWER] Yes, it is true that there is water in the fridge — both the context and Mary's statement confirm it...
+2025-11-02 15:47:45,956 - INFO - [OK] Row 7 [B3T] completed successfully
+2025-11-02 15:47:45,959 - INFO - [OK] Answer 7 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:47:45,959 - INFO - [PROGRESS] kimi-k2:1t-cloud - 7/72 processed | 7 successful | 0 errors
+2025-11-02 15:47:45,959 - INFO - [INFO] Processing Row 8/72 [B3F]
+2025-11-02 15:47:45,959 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-11-02 15:47:49,774 - INFO - [ANSWER] No, it is **not true** that there is water in the fridge.
+
+Mary's statement — *"If Lucy is thirsty, ...
+2025-11-02 15:47:49,774 - INFO - [OK] Row 8 [B3F] completed successfully
+2025-11-02 15:47:49,776 - INFO - [OK] Answer 8 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:47:49,776 - INFO - [PROGRESS] kimi-k2:1t-cloud - 8/72 processed | 8 successful | 0 errors
+2025-11-02 15:47:49,776 - INFO - [INFO] Processing Row 9/72 [B3C]
+2025-11-02 15:47:49,776 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-11-02 15:47:53,941 - INFO - [ANSWER] No, it is **not necessarily true** that there is water in the fridge.
+
+Mary's statement is a **condi...
+2025-11-02 15:47:53,941 - INFO - [OK] Row 9 [B3C] completed successfully
+2025-11-02 15:47:53,945 - INFO - [OK] Answer 9 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:47:53,946 - INFO - [PROGRESS] kimi-k2:1t-cloud - 9/72 processed | 9 successful | 0 errors
+2025-11-02 15:47:53,946 - INFO - [INFO] Processing Row 10/72 [B4T]
+2025-11-02 15:47:53,946 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-11-02 15:47:56,152 - INFO - [ANSWER] Yes, it is true that there is a charger in the drawer.
+2025-11-02 15:47:56,152 - INFO - [OK] Row 10 [B4T] completed successfully
+2025-11-02 15:47:56,155 - INFO - [OK] Answer 10 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:47:56,155 - INFO - [PROGRESS] kimi-k2:1t-cloud - 10/72 processed | 10 successful | 0 errors
+2025-11-02 15:47:56,155 - INFO - [INFO] Processing Row 11/72 [B4F]
+2025-11-02 15:47:56,155 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...
+2025-11-02 15:48:02,019 - INFO - [ANSWER] No, it is **not true** that there is a charger in the drawer.
+
+Mary says: *"If Peter's phone is dead...
+2025-11-02 15:48:02,019 - INFO - [OK] Row 11 [B4F] completed successfully
+2025-11-02 15:48:02,021 - INFO - [OK] Answer 11 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:02,021 - INFO - [PROGRESS] kimi-k2:1t-cloud - 11/72 processed | 11 successful | 0 errors
+2025-11-02 15:48:02,021 - INFO - [INFO] Processing Row 12/72 [B4C]
+2025-11-02 15:48:02,021 - INFO - [PROMPT] Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: "If...
+2025-11-02 15:48:07,115 - INFO - [ANSWER] No, it is not necessarily true that there is a charger in the drawer.
+
+Mary's statement is a conditi...
+2025-11-02 15:48:07,115 - INFO - [OK] Row 12 [B4C] completed successfully
+2025-11-02 15:48:07,117 - INFO - [OK] Answer 12 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:07,117 - INFO - [PROGRESS] kimi-k2:1t-cloud - 12/72 processed | 12 successful | 0 errors
+2025-11-02 15:48:07,117 - INFO - [INFO] Processing Row 13/72 [B5T]
+2025-11-02 15:48:07,117 - INFO - [PROMPT] Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a ...
+2025-11-02 15:48:08,609 - INFO - [ANSWER] Yes, it is true that there is an umbrella on the coat rack.
+2025-11-02 15:48:08,609 - INFO - [OK] Row 13 [B5T] completed successfully
+2025-11-02 15:48:08,611 - INFO - [OK] Answer 13 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:08,611 - INFO - [PROGRESS] kimi-k2:1t-cloud - 13/72 processed | 13 successful | 0 errors
+2025-11-02 15:48:08,612 - INFO - [INFO] Processing Row 14/72 [B5F]
+2025-11-02 15:48:08,612 - INFO - [PROMPT] Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no rain...
+2025-11-02 15:48:13,898 - INFO - [ANSWER] No, it is **not true** that there is an umbrella on the coat rack.
+
+Mary's statement — *"If the weat...
+2025-11-02 15:48:13,898 - INFO - [OK] Row 14 [B5F] completed successfully
+2025-11-02 15:48:13,901 - INFO - [OK] Answer 14 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:13,901 - INFO - [PROGRESS] kimi-k2:1t-cloud - 14/72 processed | 14 successful | 0 errors
+2025-11-02 15:48:13,901 - INFO - [INFO] Processing Row 15/72 [B5C]
+2025-11-02 15:48:13,901 - INFO - [PROMPT] Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: "If the weather...
+2025-11-02 15:48:17,670 - INFO - [ANSWER] No, it is not necessarily true that there is an umbrella on the coat rack.
+
+Mary's statement is a co...
+2025-11-02 15:48:17,670 - INFO - [OK] Row 15 [B5C] completed successfully
+2025-11-02 15:48:17,673 - INFO - [OK] Answer 15 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:17,673 - INFO - [PROGRESS] kimi-k2:1t-cloud - 15/72 processed | 15 successful | 0 errors
+2025-11-02 15:48:17,673 - INFO - [INFO] Processing Row 16/72 [B6T]
+2025-11-02 15:48:17,673 - INFO - [PROMPT] Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the...
+2025-11-02 15:48:19,083 - INFO - [ANSWER] Yes, it is true that there is a pump in the garage.
+2025-11-02 15:48:19,084 - INFO - [OK] Row 16 [B6T] completed successfully
+2025-11-02 15:48:19,086 - INFO - [OK] Answer 16 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:19,086 - INFO - [PROGRESS] kimi-k2:1t-cloud - 16/72 processed | 16 successful | 0 errors
+2025-11-02 15:48:19,086 - INFO - [INFO] Processing Row 17/72 [B6F]
+2025-11-02 15:48:19,087 - INFO - [PROMPT] Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the fr...
+2025-11-02 15:48:24,106 - INFO - [ANSWER] No, it is **not true** that there is a pump in the garage.
+
+Mary says: *"If your tire is flat, there...
+2025-11-02 15:48:24,106 - INFO - [OK] Row 17 [B6F] completed successfully
+2025-11-02 15:48:24,107 - INFO - [OK] Answer 17 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:24,108 - INFO - [PROGRESS] kimi-k2:1t-cloud - 17/72 processed | 17 successful | 0 errors
+2025-11-02 15:48:24,108 - INFO - [INFO] Processing Row 18/72 [B6C]
+2025-11-02 15:48:24,108 - INFO - [PROMPT] Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: "If your ti...
+2025-11-02 15:48:26,780 - INFO - [ANSWER] No, it is not necessarily true that there is a pump in the garage. Mary only says that *if* your tir...
+2025-11-02 15:48:26,781 - INFO - [OK] Row 18 [B6C] completed successfully
+2025-11-02 15:48:26,786 - INFO - [OK] Answer 18 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:26,786 - INFO - [PROGRESS] kimi-k2:1t-cloud - 18/72 processed | 18 successful | 0 errors
+2025-11-02 15:48:26,786 - INFO - [INFO] Processing Row 19/72 [B7T]
+2025-11-02 15:48:26,786 - INFO - [PROMPT] Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in ...
+2025-11-02 15:48:28,185 - INFO - [ANSWER] Yes, it is true that there is a water can on the shelf.
+2025-11-02 15:48:28,186 - INFO - [OK] Row 19 [B7T] completed successfully
+2025-11-02 15:48:28,189 - INFO - [OK] Answer 19 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:28,189 - INFO - [PROGRESS] kimi-k2:1t-cloud - 19/72 processed | 19 successful | 0 errors
+2025-11-02 15:48:28,189 - INFO - [INFO] Processing Row 20/72 [B7F]
+2025-11-02 15:48:28,189 - INFO - [PROMPT] Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the...
+2025-11-02 15:48:32,861 - INFO - [ANSWER] No, it is **not true** that there is a water can on the shelf.
+
+Mary says: *"If the plant is dry, th...
+2025-11-02 15:48:32,861 - INFO - [OK] Row 20 [B7F] completed successfully
+2025-11-02 15:48:32,866 - INFO - [OK] Answer 20 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:32,866 - INFO - [PROGRESS] kimi-k2:1t-cloud - 20/72 processed | 20 successful | 0 errors
+2025-11-02 15:48:32,866 - INFO - [INFO] Processing Row 21/72 [B7C]
+2025-11-02 15:48:32,866 - INFO - [PROMPT] Here's the context: The plant is not dry. There is a hose in the garden. Mary says: "If the plant is...
+2025-11-02 15:48:37,440 - INFO - [ANSWER] No, it is not necessarily true that there is a water can on the shelf.
+
+Mary's statement is a condit...
+2025-11-02 15:48:37,441 - INFO - [OK] Row 21 [B7C] completed successfully
+2025-11-02 15:48:37,444 - INFO - [OK] Answer 21 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:37,444 - INFO - [PROGRESS] kimi-k2:1t-cloud - 21/72 processed | 21 successful | 0 errors
+2025-11-02 15:48:37,444 - INFO - [INFO] Processing Row 22/72 [B8T]
+2025-11-02 15:48:37,444 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ...
+2025-11-02 15:48:40,259 - INFO - [ANSWER] Yes, it is true that there is an iron in the closet.  
+Mary's statement — "If George's shirt is wrin...
+2025-11-02 15:48:40,260 - INFO - [OK] Row 22 [B8T] completed successfully
+2025-11-02 15:48:40,263 - INFO - [OK] Answer 22 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:40,263 - INFO - [PROGRESS] kimi-k2:1t-cloud - 22/72 processed | 22 successful | 0 errors
+2025-11-02 15:48:40,263 - INFO - [INFO] Processing Row 23/72 [B8F]
+2025-11-02 15:48:40,263 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironi...
+2025-11-02 15:48:45,094 - INFO - [ANSWER] No, it is **not true** that there is an iron in the closet.
+
+Mary's statement is: *"If George's shir...
+2025-11-02 15:48:45,095 - INFO - [OK] Row 23 [B8F] completed successfully
+2025-11-02 15:48:45,098 - INFO - [OK] Answer 23 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:45,098 - INFO - [PROGRESS] kimi-k2:1t-cloud - 23/72 processed | 23 successful | 0 errors
+2025-11-02 15:48:45,098 - INFO - [INFO] Processing Row 24/72 [B8C]
+2025-11-02 15:48:45,099 - INFO - [PROMPT] Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary s...
+2025-11-02 15:48:50,845 - INFO - [ANSWER] No, it is **not necessarily true** that there is an iron in the closet.
+
+Mary's statement is a **con...
+2025-11-02 15:48:50,846 - INFO - [OK] Row 24 [B8C] completed successfully
+2025-11-02 15:48:50,849 - INFO - [OK] Answer 24 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:50,849 - INFO - [PROGRESS] kimi-k2:1t-cloud - 24/72 processed | 24 successful | 0 errors
+2025-11-02 15:48:50,850 - INFO - [INFO] Processing Row 25/72 [B9T]
+2025-11-02 15:48:50,850 - INFO - [PROMPT] Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper o...
+2025-11-02 15:48:53,679 - INFO - [ANSWER] Yes, it is true that there are books on the shelf. Mary states, "If Susy wants to read, there are bo...
+2025-11-02 15:48:53,680 - INFO - [OK] Row 25 [B9T] completed successfully
+2025-11-02 15:48:53,681 - INFO - [OK] Answer 25 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:48:53,681 - INFO - [PROGRESS] kimi-k2:1t-cloud - 25/72 processed | 25 successful | 0 errors
+2025-11-02 15:48:53,681 - INFO - [INFO] Processing Row 26/72 [B9F]
+2025-11-02 15:48:53,681 - INFO - [PROMPT] Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on...
+2025-11-02 15:49:01,519 - INFO - [ANSWER] No, it is **not true** that there are books on the shelf.
+
+Mary says: *"If Susy wants to read, there...
+2025-11-02 15:49:01,519 - INFO - [OK] Row 26 [B9F] completed successfully
+2025-11-02 15:49:01,521 - INFO - [OK] Answer 26 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:01,522 - INFO - [PROGRESS] kimi-k2:1t-cloud - 26/72 processed | 26 successful | 0 errors
+2025-11-02 15:49:01,522 - INFO - [INFO] Processing Row 27/72 [B9C]
+2025-11-02 15:49:01,522 - INFO - [PROMPT] Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: "If Su...
+2025-11-02 15:49:03,752 - INFO - [ANSWER] Yes, it is true that there are books on the shelf.  
+Mary's statement — "If Susy wants to read, ther...
+2025-11-02 15:49:03,752 - INFO - [OK] Row 27 [B9C] completed successfully
+2025-11-02 15:49:03,755 - INFO - [OK] Answer 27 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:03,755 - INFO - [PROGRESS] kimi-k2:1t-cloud - 27/72 processed | 27 successful | 0 errors
+2025-11-02 15:49:03,755 - INFO - [INFO] Processing Row 28/72 [F1T]
+2025-11-02 15:49:03,755 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-02 15:49:05,489 - INFO - [ANSWER] Yes, pizza is more popular than pasta in this context.
+2025-11-02 15:49:05,489 - INFO - [OK] Row 28 [F1T] completed successfully
+2025-11-02 15:49:05,490 - INFO - [OK] Answer 28 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:05,490 - INFO - [PROGRESS] kimi-k2:1t-cloud - 28/72 processed | 28 successful | 0 errors
+2025-11-02 15:49:05,490 - INFO - [INFO] Processing Row 29/72 [F1F]
+2025-11-02 15:49:05,490 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-02 15:49:07,151 - INFO - [ANSWER] No, pasta is not more popular than pizza in this context.
+2025-11-02 15:49:07,152 - INFO - [OK] Row 29 [F1F] completed successfully
+2025-11-02 15:49:07,155 - INFO - [OK] Answer 29 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:07,155 - INFO - [PROGRESS] kimi-k2:1t-cloud - 29/72 processed | 29 successful | 0 errors
+2025-11-02 15:49:07,155 - INFO - [INFO] Processing Row 30/72 [F2T]
+2025-11-02 15:49:07,155 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-02 15:49:09,031 - INFO - [ANSWER] Yes, green tea is more used than black coffee.
+2025-11-02 15:49:09,032 - INFO - [OK] Row 30 [F2T] completed successfully
+2025-11-02 15:49:09,035 - INFO - [OK] Answer 30 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:09,035 - INFO - [PROGRESS] kimi-k2:1t-cloud - 30/72 processed | 30 successful | 0 errors
+2025-11-02 15:49:09,035 - INFO - [INFO] Processing Row 31/72 [F2F]
+2025-11-02 15:49:09,035 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-02 15:49:10,545 - INFO - [ANSWER] No, black coffee is not more used than green tea.
+2025-11-02 15:49:10,545 - INFO - [OK] Row 31 [F2F] completed successfully
+2025-11-02 15:49:10,546 - INFO - [OK] Answer 31 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:10,546 - INFO - [PROGRESS] kimi-k2:1t-cloud - 31/72 processed | 31 successful | 0 errors
+2025-11-02 15:49:10,546 - INFO - [INFO] Processing Row 32/72 [F3T]
+2025-11-02 15:49:10,546 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-02 15:49:12,591 - INFO - [ANSWER] Yes, in this context, soda appears to be more in demand than water, since many people choose soda ev...
+2025-11-02 15:49:12,591 - INFO - [OK] Row 32 [F3T] completed successfully
+2025-11-02 15:49:12,593 - INFO - [OK] Answer 32 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:12,593 - INFO - [PROGRESS] kimi-k2:1t-cloud - 32/72 processed | 32 successful | 0 errors
+2025-11-02 15:49:12,593 - INFO - [INFO] Processing Row 33/72 [F3F]
+2025-11-02 15:49:12,593 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-02 15:49:14,543 - INFO - [ANSWER] No, water is not more in demand than soda in this context. Despite water being healthier and availab...
+2025-11-02 15:49:14,544 - INFO - [OK] Row 33 [F3F] completed successfully
+2025-11-02 15:49:14,547 - INFO - [OK] Answer 33 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:14,547 - INFO - [PROGRESS] kimi-k2:1t-cloud - 33/72 processed | 33 successful | 0 errors
+2025-11-02 15:49:14,547 - INFO - [INFO] Processing Row 34/72 [F4T]
+2025-11-02 15:49:14,547 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-02 15:49:16,604 - INFO - [ANSWER] Yes, broccoli is more popular than gnocchi.
+2025-11-02 15:49:16,604 - INFO - [OK] Row 34 [F4T] completed successfully
+2025-11-02 15:49:16,607 - INFO - [OK] Answer 34 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:16,607 - INFO - [PROGRESS] kimi-k2:1t-cloud - 34/72 processed | 34 successful | 0 errors
+2025-11-02 15:49:16,607 - INFO - [INFO] Processing Row 35/72 [F4F]
+2025-11-02 15:49:16,607 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-02 15:49:18,508 - INFO - [ANSWER] No, gnocchi are not more popular than broccoli in this context.
+2025-11-02 15:49:18,508 - INFO - [OK] Row 35 [F4F] completed successfully
+2025-11-02 15:49:18,512 - INFO - [OK] Answer 35 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:18,512 - INFO - [PROGRESS] kimi-k2:1t-cloud - 35/72 processed | 35 successful | 0 errors
+2025-11-02 15:49:18,512 - INFO - [INFO] Processing Row 36/72 [F5T]
+2025-11-02 15:49:18,512 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-02 15:49:19,753 - INFO - [ANSWER] Yes, burgers are more popular than sushi.
+2025-11-02 15:49:19,754 - INFO - [OK] Row 36 [F5T] completed successfully
+2025-11-02 15:49:19,755 - INFO - [OK] Answer 36 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:19,755 - INFO - [PROGRESS] kimi-k2:1t-cloud - 36/72 processed | 36 successful | 0 errors
+2025-11-02 15:49:19,755 - INFO - [INFO] Processing Row 37/72 [F5F]
+2025-11-02 15:49:19,755 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-02 15:49:22,999 - INFO - [ANSWER] No. In the given context people eat burgers more often, so burgers are more popular than sushi.
+2025-11-02 15:49:22,999 - INFO - [OK] Row 37 [F5F] completed successfully
+2025-11-02 15:49:23,005 - INFO - [OK] Answer 37 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:23,005 - INFO - [PROGRESS] kimi-k2:1t-cloud - 37/72 processed | 37 successful | 0 errors
+2025-11-02 15:49:23,005 - INFO - [INFO] Processing Row 38/72 [F6T]
+2025-11-02 15:49:23,005 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-02 15:49:24,585 - INFO - [ANSWER] Yes, bananas are more popular than kiwis.
+2025-11-02 15:49:24,586 - INFO - [OK] Row 38 [F6T] completed successfully
+2025-11-02 15:49:24,592 - INFO - [OK] Answer 38 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:24,592 - INFO - [PROGRESS] kimi-k2:1t-cloud - 38/72 processed | 38 successful | 0 errors
+2025-11-02 15:49:24,592 - INFO - [INFO] Processing Row 39/72 [F6F]
+2025-11-02 15:49:24,593 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-02 15:49:28,772 - INFO - [ANSWER] No, kiwis are not more popular than bananas.
+2025-11-02 15:49:28,773 - INFO - [OK] Row 39 [F6F] completed successfully
+2025-11-02 15:49:28,788 - INFO - [OK] Answer 39 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:28,789 - INFO - [PROGRESS] kimi-k2:1t-cloud - 39/72 processed | 39 successful | 0 errors
+2025-11-02 15:49:28,790 - INFO - [INFO] Processing Row 40/72 [F7T]
+2025-11-02 15:49:28,790 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-02 15:49:30,923 - INFO - [ANSWER] Yes, dogs are more popular than cats in this context.
+2025-11-02 15:49:30,924 - INFO - [OK] Row 40 [F7T] completed successfully
+2025-11-02 15:49:30,939 - INFO - [OK] Answer 40 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:30,940 - INFO - [PROGRESS] kimi-k2:1t-cloud - 40/72 processed | 40 successful | 0 errors
+2025-11-02 15:49:30,940 - INFO - [INFO] Processing Row 41/72 [F7F]
+2025-11-02 15:49:30,940 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-02 15:49:32,883 - INFO - [ANSWER] No, cats are not more popular than dogs in this context.
+2025-11-02 15:49:32,883 - INFO - [OK] Row 41 [F7F] completed successfully
+2025-11-02 15:49:32,899 - INFO - [OK] Answer 41 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:32,900 - INFO - [PROGRESS] kimi-k2:1t-cloud - 41/72 processed | 41 successful | 0 errors
+2025-11-02 15:49:32,902 - INFO - [INFO] Processing Row 42/72 [F8T]
+2025-11-02 15:49:32,902 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, many people watch T...
+2025-11-02 15:49:34,542 - INFO - [ANSWER] Yes, more people are watching TV than reading books.
+2025-11-02 15:49:34,542 - INFO - [OK] Row 42 [F8T] completed successfully
+2025-11-02 15:49:34,552 - INFO - [OK] Answer 42 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:34,554 - INFO - [PROGRESS] kimi-k2:1t-cloud - 42/72 processed | 42 successful | 0 errors
+2025-11-02 15:49:34,555 - INFO - [INFO] Processing Row 43/72 [F8F]
+2025-11-02 15:49:34,556 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, many people watch T...
+2025-11-02 15:49:37,041 - INFO - [ANSWER] No. The context explicitly says “many people watch TV,” while it only mentions that a single book is...
+2025-11-02 15:49:37,041 - INFO - [OK] Row 43 [F8F] completed successfully
+2025-11-02 15:49:37,045 - INFO - [OK] Answer 43 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:37,046 - INFO - [PROGRESS] kimi-k2:1t-cloud - 43/72 processed | 43 successful | 0 errors
+2025-11-02 15:49:37,046 - INFO - [INFO] Processing Row 44/72 [F8T]
+2025-11-02 15:49:37,046 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-02 15:49:38,936 - INFO - [ANSWER] Yes, walking is more popular than running.
+2025-11-02 15:49:38,936 - INFO - [OK] Row 44 [F8T] completed successfully
+2025-11-02 15:49:38,944 - INFO - [OK] Answer 44 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:38,944 - INFO - [PROGRESS] kimi-k2:1t-cloud - 44/72 processed | 44 successful | 0 errors
+2025-11-02 15:49:38,944 - INFO - [INFO] Processing Row 45/72 [F8F]
+2025-11-02 15:49:38,944 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-02 15:49:40,875 - INFO - [ANSWER] No, running is not more popular than walking.
+2025-11-02 15:49:40,875 - INFO - [OK] Row 45 [F8F] completed successfully
+2025-11-02 15:49:40,880 - INFO - [OK] Answer 45 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:40,881 - INFO - [PROGRESS] kimi-k2:1t-cloud - 45/72 processed | 45 successful | 0 errors
+2025-11-02 15:49:40,881 - INFO - [INFO] Processing Row 46/72 [S1T]
+2025-11-02 15:49:40,881 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Mary had said: "If ...
+2025-11-02 15:49:45,963 - INFO - [ANSWER] Based on what Mary said — "If the parrot is in the cage, Thomas will bring pizza" — and given that t...
+2025-11-02 15:49:45,963 - INFO - [OK] Row 46 [S1T] completed successfully
+2025-11-02 15:49:45,965 - INFO - [OK] Answer 46 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:45,965 - INFO - [PROGRESS] kimi-k2:1t-cloud - 46/72 processed | 46 successful | 0 errors
+2025-11-02 15:49:45,965 - INFO - [INFO] Processing Row 47/72 [S1F]
+2025-11-02 15:49:45,965 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not brin...
+2025-11-02 15:49:48,900 - INFO - [ANSWER] No, it is **not true** that Thomas brought pizza.
+
+Mary said: *"If the parrot is in the cage, Thomas...
+2025-11-02 15:49:48,900 - INFO - [OK] Row 47 [S1F] completed successfully
+2025-11-02 15:49:48,901 - INFO - [OK] Answer 47 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:48,901 - INFO - [PROGRESS] kimi-k2:1t-cloud - 47/72 processed | 47 successful | 0 errors
+2025-11-02 15:49:48,901 - INFO - [INFO] Processing Row 48/72 [S1C]
+2025-11-02 15:49:48,901 - INFO - [PROMPT] Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had s...
+2025-11-02 15:49:53,795 - INFO - [ANSWER] No, it is **not true** that Thomas brought pizza.
+
+Mary said: *"If the parrot is in the cage, Thomas...
+2025-11-02 15:49:53,795 - INFO - [OK] Row 48 [S1C] completed successfully
+2025-11-02 15:49:53,800 - INFO - [OK] Answer 48 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:53,800 - INFO - [PROGRESS] kimi-k2:1t-cloud - 48/72 processed | 48 successful | 0 errors
+2025-11-02 15:49:53,800 - INFO - [INFO] Processing Row 49/72 [S2T]
+2025-11-02 15:49:53,800 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: "If you...
+2025-11-02 15:49:57,305 - INFO - [ANSWER] No, it is not necessarily true that Mark gave you a candy. Mary said *"If you finish your broccoli, ...
+2025-11-02 15:49:57,305 - INFO - [OK] Row 49 [S2T] completed successfully
+2025-11-02 15:49:57,307 - INFO - [OK] Answer 49 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:49:57,307 - INFO - [PROGRESS] kimi-k2:1t-cloud - 49/72 processed | 49 successful | 0 errors
+2025-11-02 15:49:57,308 - INFO - [INFO] Processing Row 50/72 [S2F]
+2025-11-02 15:49:57,308 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you ...
+2025-11-02 15:50:00,762 - INFO - [ANSWER] No, it is not necessarily true that Mark gave you a candy. Mary said *Mark* would give you a candy *...
+2025-11-02 15:50:00,762 - INFO - [OK] Row 50 [S2F] completed successfully
+2025-11-02 15:50:00,767 - INFO - [OK] Answer 50 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:00,767 - INFO - [PROGRESS] kimi-k2:1t-cloud - 50/72 processed | 50 successful | 0 errors
+2025-11-02 15:50:00,767 - INFO - [INFO] Processing Row 51/72 [S2C]
+2025-11-02 15:50:00,767 - INFO - [PROMPT] Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had s...
+2025-11-02 15:50:03,005 - INFO - [ANSWER] No, it is not true that Mark gave you a candy.  
+Since you didn’t finish your broccoli, the conditio...
+2025-11-02 15:50:03,005 - INFO - [OK] Row 51 [S2C] completed successfully
+2025-11-02 15:50:03,006 - INFO - [OK] Answer 51 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:03,007 - INFO - [PROGRESS] kimi-k2:1t-cloud - 51/72 processed | 51 successful | 0 errors
+2025-11-02 15:50:03,007 - INFO - [INFO] Processing Row 52/72 [S3T]
+2025-11-02 15:50:03,007 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: "If the fo...
+2025-11-02 15:50:06,119 - INFO - [ANSWER] Yes, it is true that Susan got a camera — based on what Mary said and the fact that the foxes are da...
+2025-11-02 15:50:06,119 - INFO - [OK] Row 52 [S3T] completed successfully
+2025-11-02 15:50:06,121 - INFO - [OK] Answer 52 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:06,121 - INFO - [PROGRESS] kimi-k2:1t-cloud - 52/72 processed | 52 successful | 0 errors
+2025-11-02 15:50:06,122 - INFO - [INFO] Processing Row 53/72 [S3F]
+2025-11-02 15:50:06,122 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shove...
+2025-11-02 15:50:10,206 - INFO - [ANSWER] No, it is **not necessarily true** that Susan got a camera.
+
+Mary said: *"If the foxes are dancing, ...
+2025-11-02 15:50:10,207 - INFO - [OK] Row 53 [S3F] completed successfully
+2025-11-02 15:50:10,209 - INFO - [OK] Answer 53 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:10,209 - INFO - [PROGRESS] kimi-k2:1t-cloud - 53/72 processed | 53 successful | 0 errors
+2025-11-02 15:50:10,209 - INFO - [INFO] Processing Row 54/72 [S3C]
+2025-11-02 15:50:10,209 - INFO - [PROMPT] Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: "...
+2025-11-02 15:50:15,284 - INFO - [ANSWER] No, it is not true that Susan got a camera.
+
+Mary said: *"If the foxes are dancing, Susan will get a...
+2025-11-02 15:50:15,285 - INFO - [OK] Row 54 [S3C] completed successfully
+2025-11-02 15:50:15,288 - INFO - [OK] Answer 54 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:15,288 - INFO - [PROGRESS] kimi-k2:1t-cloud - 54/72 processed | 54 successful | 0 errors
+2025-11-02 15:50:15,288 - INFO - [INFO] Processing Row 55/72 [S4T]
+2025-11-02 15:50:15,288 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Mary had said: "If the TV is on, Matthew wil...
+2025-11-02 15:50:18,178 - INFO - [ANSWER] Yes, it is true that Matthew baked cookies — based on what Mary said. She stated: *"If the TV is on,...
+2025-11-02 15:50:18,178 - INFO - [OK] Row 55 [S4T] completed successfully
+2025-11-02 15:50:18,182 - INFO - [OK] Answer 55 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:18,182 - INFO - [PROGRESS] kimi-k2:1t-cloud - 55/72 processed | 55 successful | 0 errors
+2025-11-02 15:50:18,182 - INFO - [INFO] Processing Row 56/72 [S4F]
+2025-11-02 15:50:18,182 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said:...
+2025-11-02 15:50:25,544 - INFO - [ANSWER] No, it is **not true** that Matthew baked cookies.
+
+Mary said: *"If the TV is on, Matthew will bake ...
+2025-11-02 15:50:25,544 - INFO - [OK] Row 56 [S4F] completed successfully
+2025-11-02 15:50:25,553 - INFO - [OK] Answer 56 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:25,553 - INFO - [PROGRESS] kimi-k2:1t-cloud - 56/72 processed | 56 successful | 0 errors
+2025-11-02 15:50:25,553 - INFO - [INFO] Processing Row 57/72 [S4C]
+2025-11-02 15:50:25,553 - INFO - [PROMPT] Here's the context: The TV is off. The radio is also off. Mary had said: "If the TV is on, Matthew w...
+2025-11-02 15:50:28,189 - INFO - [ANSWER] No, it is not true that Matthew baked cookies.  
+Since the TV is off, the condition in Mary's statem...
+2025-11-02 15:50:28,190 - INFO - [OK] Row 57 [S4C] completed successfully
+2025-11-02 15:50:28,193 - INFO - [OK] Answer 57 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:28,193 - INFO - [PROGRESS] kimi-k2:1t-cloud - 57/72 processed | 57 successful | 0 errors
+2025-11-02 15:50:28,194 - INFO - [INFO] Processing Row 58/72 [S5T]
+2025-11-02 15:50:28,194 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Mary had said: "If the weat...
+2025-11-02 15:50:43,734 - INFO - [ANSWER] Based on what Mary said — "If the weather is sunny, Emma will wear purple" — and given that the weat...
+2025-11-02 15:50:43,734 - INFO - [OK] Row 58 [S5T] completed successfully
+2025-11-02 15:50:43,736 - INFO - [OK] Answer 58 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:43,736 - INFO - [PROGRESS] kimi-k2:1t-cloud - 58/72 processed | 58 successful | 0 errors
+2025-11-02 15:50:43,736 - INFO - [INFO] Processing Row 59/72 [S5F]
+2025-11-02 15:50:43,736 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Emma is wearing green. Mary...
+2025-11-02 15:50:49,009 - INFO - [ANSWER] No, it is **not true** that Emma wore purple. According to the context, Emma is wearing **green**, e...
+2025-11-02 15:50:49,010 - INFO - [OK] Row 59 [S5F] completed successfully
+2025-11-02 15:50:49,014 - INFO - [OK] Answer 59 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:49,014 - INFO - [PROGRESS] kimi-k2:1t-cloud - 59/72 processed | 59 successful | 0 errors
+2025-11-02 15:50:49,014 - INFO - [INFO] Processing Row 60/72 [S5C]
+2025-11-02 15:50:49,014 - INFO - [PROMPT] Here's the context: Today, the weather is rainy. Also, it is very windy. Mary had said: "If the weat...
+2025-11-02 15:50:52,377 - INFO - [ANSWER] No, it is not true that Emma wore purple.  
+Mary said, *"If the weather is sunny, Emma will wear pur...
+2025-11-02 15:50:52,377 - INFO - [OK] Row 60 [S5C] completed successfully
+2025-11-02 15:50:52,381 - INFO - [OK] Answer 60 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:52,381 - INFO - [PROGRESS] kimi-k2:1t-cloud - 60/72 processed | 60 successful | 0 errors
+2025-11-02 15:50:52,381 - INFO - [INFO] Processing Row 61/72 [S6T]
+2025-11-02 15:50:52,381 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Mary had said: "If the pl...
+2025-11-02 15:50:57,064 - INFO - [ANSWER] Based on what Mary said — "If the playground is empty, Angela will take a selfie" — and given that t...
+2025-11-02 15:50:57,064 - INFO - [OK] Row 61 [S6T] completed successfully
+2025-11-02 15:50:57,067 - INFO - [OK] Answer 61 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:50:57,068 - INFO - [PROGRESS] kimi-k2:1t-cloud - 61/72 processed | 61 successful | 0 errors
+2025-11-02 15:50:57,068 - INFO - [INFO] Processing Row 62/72 [S6F]
+2025-11-02 15:50:57,068 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Angela did not take a sel...
+2025-11-02 15:51:01,952 - INFO - [ANSWER] No, it is **not true** that Angela took a selfie.
+
+Mary said: *"If the playground is empty, Angela w...
+2025-11-02 15:51:01,952 - INFO - [OK] Row 62 [S6F] completed successfully
+2025-11-02 15:51:01,955 - INFO - [OK] Answer 62 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:01,955 - INFO - [PROGRESS] kimi-k2:1t-cloud - 62/72 processed | 62 successful | 0 errors
+2025-11-02 15:51:01,955 - INFO - [INFO] Processing Row 63/72 [S6C]
+2025-11-02 15:51:01,955 - INFO - [PROMPT] Here's the context: The playground is crowded.  Also, the streets are lively. Mary had said: "If the...
+2025-11-02 15:51:04,151 - INFO - [ANSWER] No, it is not true that Angela took a selfie.  
+Mary said Angela would take a selfie *only if* the p...
+2025-11-02 15:51:04,151 - INFO - [OK] Row 63 [S6C] completed successfully
+2025-11-02 15:51:04,152 - INFO - [OK] Answer 63 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:04,152 - INFO - [PROGRESS] kimi-k2:1t-cloud - 63/72 processed | 63 successful | 0 errors
+2025-11-02 15:51:04,152 - INFO - [INFO] Processing Row 64/72 [S7T]
+2025-11-02 15:51:04,152 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Mary had said: "If...
+2025-11-02 15:51:07,596 - INFO - [ANSWER] We don't know for sure.  
+Mary’s statement only says Paul *will* get 50 euros **if** he mows the law...
+2025-11-02 15:51:07,596 - INFO - [OK] Row 64 [S7T] completed successfully
+2025-11-02 15:51:07,599 - INFO - [OK] Answer 64 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:07,599 - INFO - [PROGRESS] kimi-k2:1t-cloud - 64/72 processed | 64 successful | 0 errors
+2025-11-02 15:51:07,599 - INFO - [INFO] Processing Row 65/72 [S7F]
+2025-11-02 15:51:07,599 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Paul did not get 5...
+2025-11-02 15:51:15,196 - INFO - [ANSWER] No, it is not true that Paul got 50 euros.  
+Mary said: *"If Paul mows the lawn, he will get 50 euro...
+2025-11-02 15:51:15,196 - INFO - [OK] Row 65 [S7F] completed successfully
+2025-11-02 15:51:15,201 - INFO - [OK] Answer 65 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:15,201 - INFO - [PROGRESS] kimi-k2:1t-cloud - 65/72 processed | 65 successful | 0 errors
+2025-11-02 15:51:15,201 - INFO - [INFO] Processing Row 66/72 [S7C]
+2025-11-02 15:51:15,201 - INFO - [PROMPT] Here's the context: The lawn has not been mowed. Also, the flowers still need watering. Mary had sai...
+2025-11-02 15:51:19,194 - INFO - [ANSWER] No, it is not true that Paul got 50 euros.  
+Since the lawn has not been mowed, the condition Mary s...
+2025-11-02 15:51:19,194 - INFO - [OK] Row 66 [S7C] completed successfully
+2025-11-02 15:51:19,198 - INFO - [OK] Answer 66 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:19,198 - INFO - [PROGRESS] kimi-k2:1t-cloud - 66/72 processed | 66 successful | 0 errors
+2025-11-02 15:51:19,198 - INFO - [INFO] Processing Row 67/72 [S8T]
+2025-11-02 15:51:19,198 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Mary had said: "If the d...
+2025-11-02 15:51:21,778 - INFO - [ANSWER] Yes, it is true that Anthony read a book — based on what Mary said. She stated: *"If the dog is play...
+2025-11-02 15:51:21,778 - INFO - [OK] Row 67 [S8T] completed successfully
+2025-11-02 15:51:21,780 - INFO - [OK] Answer 67 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:21,780 - INFO - [PROGRESS] kimi-k2:1t-cloud - 67/72 processed | 67 successful | 0 errors
+2025-11-02 15:51:21,780 - INFO - [INFO] Processing Row 68/72 [S8F]
+2025-11-02 15:51:21,780 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Anthony did not read a b...
+2025-11-02 15:51:25,675 - INFO - [ANSWER] No, it is **not true** that Anthony read a book.
+
+Mary said: *"If the dog is playing, Anthony will r...
+2025-11-02 15:51:25,675 - INFO - [OK] Row 68 [S8F] completed successfully
+2025-11-02 15:51:25,679 - INFO - [OK] Answer 68 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:25,679 - INFO - [PROGRESS] kimi-k2:1t-cloud - 68/72 processed | 68 successful | 0 errors
+2025-11-02 15:51:25,679 - INFO - [INFO] Processing Row 69/72 [S8C]
+2025-11-02 15:51:25,679 - INFO - [PROMPT] Here's the context: The dog is not playing. Also, the cat is sleeping. Mary had said: "If the dog is...
+2025-11-02 15:51:28,618 - INFO - [ANSWER] No, it is not true that Anthony read a book.
+
+Mary said: *"If the dog is playing, Anthony will read ...
+2025-11-02 15:51:28,618 - INFO - [OK] Row 69 [S8C] completed successfully
+2025-11-02 15:51:28,621 - INFO - [OK] Answer 69 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:28,621 - INFO - [PROGRESS] kimi-k2:1t-cloud - 69/72 processed | 69 successful | 0 errors
+2025-11-02 15:51:28,621 - INFO - [INFO] Processing Row 70/72 [S9T]
+2025-11-02 15:51:28,621 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Mary had said: "If the fridge is ...
+2025-11-02 15:51:32,651 - INFO - [ANSWER] Based on what Mary said — "If the fridge is empty, Amy will bring donuts" — and given that the fridg...
+2025-11-02 15:51:32,651 - INFO - [OK] Row 70 [S9T] completed successfully
+2025-11-02 15:51:32,654 - INFO - [OK] Answer 70 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:32,654 - INFO - [PROGRESS] kimi-k2:1t-cloud - 70/72 processed | 70 successful | 0 errors
+2025-11-02 15:51:32,654 - INFO - [INFO] Processing Row 71/72 [S9F]
+2025-11-02 15:51:32,654 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary ha...
+2025-11-02 15:51:36,271 - INFO - [ANSWER] No, it is **not true** that Amy brought donuts.
+
+Mary said: *"If the fridge is empty, Amy will bring...
+2025-11-02 15:51:36,271 - INFO - [OK] Row 71 [S9F] completed successfully
+2025-11-02 15:51:36,276 - INFO - [OK] Answer 71 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:36,276 - INFO - [PROGRESS] kimi-k2:1t-cloud - 71/72 processed | 71 successful | 0 errors
+2025-11-02 15:51:36,276 - INFO - [INFO] Processing Row 72/72 [S9C]
+2025-11-02 15:51:36,276 - INFO - [PROMPT] Here's the context: The fridge is full. Also, the oven is on. Mary had said: "If the fridge is empty...
+2025-11-02 15:51:39,651 - INFO - [ANSWER] No, it is not true that Amy brought donuts.  
+Mary said, *"If the fridge is empty, Amy will bring do...
+2025-11-02 15:51:39,651 - INFO - [OK] Row 72 [S9C] completed successfully
+2025-11-02 15:51:39,654 - INFO - [OK] Answer 72 saved to answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 15:51:39,654 - INFO - [PROGRESS] kimi-k2:1t-cloud - 72/72 processed | 72 successful | 0 errors
+2025-11-02 15:51:39,654 - INFO - [OK] All rows processed for kimi-k2:1t-cloud
+2025-11-02 15:51:39,654 - INFO - [OK] ===== Completed: kimi-k2:1t-cloud =====
+
+2025-11-02 15:51:39,654 - INFO - [INFO] Processing model 3/4: qwen3-vl:235b-cloud
+2025-11-02 15:51:39,654 - INFO - [INFO] ===== Starting: qwen3-vl:235b-cloud =====
+2025-11-02 15:51:39,654 - INFO - [INFO] qwen3-vl:235b-cloud has 72 pending answers
+2025-11-02 15:51:39,654 - INFO - [INFO] Starting sequential processing for qwen3-vl:235b-cloud
+2025-11-02 15:51:39,654 - INFO - [INFO] Processing Row 1/72 [B1T]
+2025-11-02 15:51:39,654 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-02 15:51:43,563 - INFO - [ANSWER] 
+2025-11-02 15:51:43,563 - INFO - [OK] Row 1 [B1T] completed successfully
+2025-11-02 15:51:43,567 - INFO - [OK] Answer 1 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:51:43,567 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 1/72 processed | 1 successful | 0 errors
+2025-11-02 15:51:43,567 - INFO - [INFO] Processing Row 2/72 [B1F]
+2025-11-02 15:51:43,567 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-02 15:51:47,376 - INFO - [ANSWER] 
+2025-11-02 15:51:47,376 - INFO - [OK] Row 2 [B1F] completed successfully
+2025-11-02 15:51:47,377 - INFO - [OK] Answer 2 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:51:47,377 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 2/72 processed | 2 successful | 0 errors
+2025-11-02 15:51:47,377 - INFO - [INFO] Processing Row 3/72 [B1C]
+2025-11-02 15:51:47,377 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-02 15:51:51,167 - INFO - [ANSWER] 
+2025-11-02 15:51:51,167 - INFO - [OK] Row 3 [B1C] completed successfully
+2025-11-02 15:51:51,169 - INFO - [OK] Answer 3 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:51:51,169 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 3/72 processed | 3 successful | 0 errors
+2025-11-02 15:51:51,169 - INFO - [INFO] Processing Row 4/72 [B2T]
+2025-11-02 15:51:51,169 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-02 15:51:54,582 - INFO - [ANSWER] 
+2025-11-02 15:51:54,582 - INFO - [OK] Row 4 [B2T] completed successfully
+2025-11-02 15:51:54,584 - INFO - [OK] Answer 4 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:51:54,584 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 4/72 processed | 4 successful | 0 errors
+2025-11-02 15:51:54,584 - INFO - [INFO] Processing Row 5/72 [B2F]
+2025-11-02 15:51:54,584 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-02 15:51:58,318 - INFO - [ANSWER] 
+2025-11-02 15:51:58,318 - INFO - [OK] Row 5 [B2F] completed successfully
+2025-11-02 15:51:58,321 - INFO - [OK] Answer 5 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:51:58,321 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 5/72 processed | 5 successful | 0 errors
+2025-11-02 15:51:58,321 - INFO - [INFO] Processing Row 6/72 [B2C]
+2025-11-02 15:51:58,321 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-02 15:52:03,240 - INFO - [ANSWER] 
+2025-11-02 15:52:03,240 - INFO - [OK] Row 6 [B2C] completed successfully
+2025-11-02 15:52:03,243 - INFO - [OK] Answer 6 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:03,243 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 6/72 processed | 6 successful | 0 errors
+2025-11-02 15:52:03,243 - INFO - [INFO] Processing Row 7/72 [B3T]
+2025-11-02 15:52:03,243 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-02 15:52:06,919 - INFO - [ANSWER] 
+2025-11-02 15:52:06,919 - INFO - [OK] Row 7 [B3T] completed successfully
+2025-11-02 15:52:06,922 - INFO - [OK] Answer 7 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:06,922 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 7/72 processed | 7 successful | 0 errors
+2025-11-02 15:52:06,922 - INFO - [INFO] Processing Row 8/72 [B3F]
+2025-11-02 15:52:06,922 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-11-02 15:52:10,381 - INFO - [ANSWER] 
+2025-11-02 15:52:10,382 - INFO - [OK] Row 8 [B3F] completed successfully
+2025-11-02 15:52:10,384 - INFO - [OK] Answer 8 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:10,385 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 8/72 processed | 8 successful | 0 errors
+2025-11-02 15:52:10,385 - INFO - [INFO] Processing Row 9/72 [B3C]
+2025-11-02 15:52:10,385 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-11-02 15:52:14,247 - INFO - [ANSWER] 
+2025-11-02 15:52:14,247 - INFO - [OK] Row 9 [B3C] completed successfully
+2025-11-02 15:52:14,252 - INFO - [OK] Answer 9 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:14,252 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 9/72 processed | 9 successful | 0 errors
+2025-11-02 15:52:14,252 - INFO - [INFO] Processing Row 10/72 [B4T]
+2025-11-02 15:52:14,252 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-11-02 15:52:17,782 - INFO - [ANSWER] 
+2025-11-02 15:52:17,782 - INFO - [OK] Row 10 [B4T] completed successfully
+2025-11-02 15:52:17,784 - INFO - [OK] Answer 10 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:17,784 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 10/72 processed | 10 successful | 0 errors
+2025-11-02 15:52:17,785 - INFO - [INFO] Processing Row 11/72 [B4F]
+2025-11-02 15:52:17,785 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...
+2025-11-02 15:52:21,241 - INFO - [ANSWER] 
+2025-11-02 15:52:21,242 - INFO - [OK] Row 11 [B4F] completed successfully
+2025-11-02 15:52:21,245 - INFO - [OK] Answer 11 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:21,245 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 11/72 processed | 11 successful | 0 errors
+2025-11-02 15:52:21,245 - INFO - [INFO] Processing Row 12/72 [B4C]
+2025-11-02 15:52:21,245 - INFO - [PROMPT] Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: "If...
+2025-11-02 15:52:25,861 - INFO - [ANSWER] 
+2025-11-02 15:52:25,862 - INFO - [OK] Row 12 [B4C] completed successfully
+2025-11-02 15:52:25,866 - INFO - [OK] Answer 12 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:25,866 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 12/72 processed | 12 successful | 0 errors
+2025-11-02 15:52:25,866 - INFO - [INFO] Processing Row 13/72 [B5T]
+2025-11-02 15:52:25,866 - INFO - [PROMPT] Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a ...
+2025-11-02 15:52:29,781 - INFO - [ANSWER] 
+2025-11-02 15:52:29,781 - INFO - [OK] Row 13 [B5T] completed successfully
+2025-11-02 15:52:29,784 - INFO - [OK] Answer 13 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:29,784 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 13/72 processed | 13 successful | 0 errors
+2025-11-02 15:52:29,784 - INFO - [INFO] Processing Row 14/72 [B5F]
+2025-11-02 15:52:29,784 - INFO - [PROMPT] Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no rain...
+2025-11-02 15:52:33,106 - INFO - [ANSWER] 
+2025-11-02 15:52:33,106 - INFO - [OK] Row 14 [B5F] completed successfully
+2025-11-02 15:52:33,109 - INFO - [OK] Answer 14 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:33,109 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 14/72 processed | 14 successful | 0 errors
+2025-11-02 15:52:33,109 - INFO - [INFO] Processing Row 15/72 [B5C]
+2025-11-02 15:52:33,109 - INFO - [PROMPT] Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: "If the weather...
+2025-11-02 15:52:36,072 - INFO - [ANSWER] 
+2025-11-02 15:52:36,072 - INFO - [OK] Row 15 [B5C] completed successfully
+2025-11-02 15:52:36,076 - INFO - [OK] Answer 15 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:36,076 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 15/72 processed | 15 successful | 0 errors
+2025-11-02 15:52:36,076 - INFO - [INFO] Processing Row 16/72 [B6T]
+2025-11-02 15:52:36,076 - INFO - [PROMPT] Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the...
+2025-11-02 15:52:39,543 - INFO - [ANSWER] 
+2025-11-02 15:52:39,544 - INFO - [OK] Row 16 [B6T] completed successfully
+2025-11-02 15:52:39,547 - INFO - [OK] Answer 16 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:39,547 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 16/72 processed | 16 successful | 0 errors
+2025-11-02 15:52:39,547 - INFO - [INFO] Processing Row 17/72 [B6F]
+2025-11-02 15:52:39,547 - INFO - [PROMPT] Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the fr...
+2025-11-02 15:52:42,877 - INFO - [ANSWER] 
+2025-11-02 15:52:42,877 - INFO - [OK] Row 17 [B6F] completed successfully
+2025-11-02 15:52:42,880 - INFO - [OK] Answer 17 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:42,880 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 17/72 processed | 17 successful | 0 errors
+2025-11-02 15:52:42,880 - INFO - [INFO] Processing Row 18/72 [B6C]
+2025-11-02 15:52:42,880 - INFO - [PROMPT] Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: "If your ti...
+2025-11-02 15:52:45,954 - INFO - [ANSWER] 
+2025-11-02 15:52:45,954 - INFO - [OK] Row 18 [B6C] completed successfully
+2025-11-02 15:52:45,957 - INFO - [OK] Answer 18 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:45,957 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 18/72 processed | 18 successful | 0 errors
+2025-11-02 15:52:45,957 - INFO - [INFO] Processing Row 19/72 [B7T]
+2025-11-02 15:52:45,957 - INFO - [PROMPT] Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in ...
+2025-11-02 15:52:49,758 - INFO - [ANSWER] 
+2025-11-02 15:52:49,759 - INFO - [OK] Row 19 [B7T] completed successfully
+2025-11-02 15:52:49,762 - INFO - [OK] Answer 19 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:49,762 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 19/72 processed | 19 successful | 0 errors
+2025-11-02 15:52:49,762 - INFO - [INFO] Processing Row 20/72 [B7F]
+2025-11-02 15:52:49,762 - INFO - [PROMPT] Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the...
+2025-11-02 15:52:53,626 - INFO - [ANSWER] 
+2025-11-02 15:52:53,626 - INFO - [OK] Row 20 [B7F] completed successfully
+2025-11-02 15:52:53,629 - INFO - [OK] Answer 20 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:53,630 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 20/72 processed | 20 successful | 0 errors
+2025-11-02 15:52:53,630 - INFO - [INFO] Processing Row 21/72 [B7C]
+2025-11-02 15:52:53,630 - INFO - [PROMPT] Here's the context: The plant is not dry. There is a hose in the garden. Mary says: "If the plant is...
+2025-11-02 15:52:56,999 - INFO - [ANSWER] 
+2025-11-02 15:52:57,000 - INFO - [OK] Row 21 [B7C] completed successfully
+2025-11-02 15:52:57,004 - INFO - [OK] Answer 21 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:52:57,004 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 21/72 processed | 21 successful | 0 errors
+2025-11-02 15:52:57,004 - INFO - [INFO] Processing Row 22/72 [B8T]
+2025-11-02 15:52:57,004 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ...
+2025-11-02 15:53:00,399 - INFO - [ANSWER] 
+2025-11-02 15:53:00,400 - INFO - [OK] Row 22 [B8T] completed successfully
+2025-11-02 15:53:00,404 - INFO - [OK] Answer 22 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:00,405 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 22/72 processed | 22 successful | 0 errors
+2025-11-02 15:53:00,405 - INFO - [INFO] Processing Row 23/72 [B8F]
+2025-11-02 15:53:00,405 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironi...
+2025-11-02 15:53:03,825 - INFO - [ANSWER] 
+2025-11-02 15:53:03,825 - INFO - [OK] Row 23 [B8F] completed successfully
+2025-11-02 15:53:03,829 - INFO - [OK] Answer 23 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:03,829 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 23/72 processed | 23 successful | 0 errors
+2025-11-02 15:53:03,829 - INFO - [INFO] Processing Row 24/72 [B8C]
+2025-11-02 15:53:03,829 - INFO - [PROMPT] Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary s...
+2025-11-02 15:53:07,029 - INFO - [ANSWER] 
+2025-11-02 15:53:07,029 - INFO - [OK] Row 24 [B8C] completed successfully
+2025-11-02 15:53:07,032 - INFO - [OK] Answer 24 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:07,032 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 24/72 processed | 24 successful | 0 errors
+2025-11-02 15:53:07,032 - INFO - [INFO] Processing Row 25/72 [B9T]
+2025-11-02 15:53:07,032 - INFO - [PROMPT] Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper o...
+2025-11-02 15:53:10,158 - INFO - [ANSWER] 
+2025-11-02 15:53:10,158 - INFO - [OK] Row 25 [B9T] completed successfully
+2025-11-02 15:53:10,160 - INFO - [OK] Answer 25 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:10,161 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 25/72 processed | 25 successful | 0 errors
+2025-11-02 15:53:10,161 - INFO - [INFO] Processing Row 26/72 [B9F]
+2025-11-02 15:53:10,161 - INFO - [PROMPT] Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on...
+2025-11-02 15:53:13,321 - INFO - [ANSWER] 
+2025-11-02 15:53:13,322 - INFO - [OK] Row 26 [B9F] completed successfully
+2025-11-02 15:53:13,324 - INFO - [OK] Answer 26 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:13,324 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 26/72 processed | 26 successful | 0 errors
+2025-11-02 15:53:13,324 - INFO - [INFO] Processing Row 27/72 [B9C]
+2025-11-02 15:53:13,324 - INFO - [PROMPT] Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: "If Su...
+2025-11-02 15:53:16,933 - INFO - [ANSWER] 
+2025-11-02 15:53:16,933 - INFO - [OK] Row 27 [B9C] completed successfully
+2025-11-02 15:53:16,936 - INFO - [OK] Answer 27 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:16,936 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 27/72 processed | 27 successful | 0 errors
+2025-11-02 15:53:16,936 - INFO - [INFO] Processing Row 28/72 [F1T]
+2025-11-02 15:53:16,936 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-02 15:53:20,508 - INFO - [ANSWER] 
+2025-11-02 15:53:20,508 - INFO - [OK] Row 28 [F1T] completed successfully
+2025-11-02 15:53:20,511 - INFO - [OK] Answer 28 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:20,511 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 28/72 processed | 28 successful | 0 errors
+2025-11-02 15:53:20,511 - INFO - [INFO] Processing Row 29/72 [F1F]
+2025-11-02 15:53:20,512 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-02 15:53:23,978 - INFO - [ANSWER] 
+2025-11-02 15:53:23,978 - INFO - [OK] Row 29 [F1F] completed successfully
+2025-11-02 15:53:23,980 - INFO - [OK] Answer 29 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:23,980 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 29/72 processed | 29 successful | 0 errors
+2025-11-02 15:53:23,981 - INFO - [INFO] Processing Row 30/72 [F2T]
+2025-11-02 15:53:23,981 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-02 15:53:27,344 - INFO - [ANSWER] 
+2025-11-02 15:53:27,344 - INFO - [OK] Row 30 [F2T] completed successfully
+2025-11-02 15:53:27,347 - INFO - [OK] Answer 30 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:27,347 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 30/72 processed | 30 successful | 0 errors
+2025-11-02 15:53:27,347 - INFO - [INFO] Processing Row 31/72 [F2F]
+2025-11-02 15:53:27,347 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-02 15:53:30,986 - INFO - [ANSWER] 
+2025-11-02 15:53:30,986 - INFO - [OK] Row 31 [F2F] completed successfully
+2025-11-02 15:53:30,990 - INFO - [OK] Answer 31 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:30,990 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 31/72 processed | 31 successful | 0 errors
+2025-11-02 15:53:30,990 - INFO - [INFO] Processing Row 32/72 [F3T]
+2025-11-02 15:53:30,990 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-02 15:53:34,431 - INFO - [ANSWER] 
+2025-11-02 15:53:34,431 - INFO - [OK] Row 32 [F3T] completed successfully
+2025-11-02 15:53:34,435 - INFO - [OK] Answer 32 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:34,435 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 32/72 processed | 32 successful | 0 errors
+2025-11-02 15:53:34,435 - INFO - [INFO] Processing Row 33/72 [F3F]
+2025-11-02 15:53:34,435 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-02 15:53:37,903 - INFO - [ANSWER] 
+2025-11-02 15:53:37,904 - INFO - [OK] Row 33 [F3F] completed successfully
+2025-11-02 15:53:37,907 - INFO - [OK] Answer 33 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:37,907 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 33/72 processed | 33 successful | 0 errors
+2025-11-02 15:53:37,907 - INFO - [INFO] Processing Row 34/72 [F4T]
+2025-11-02 15:53:37,907 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-02 15:53:41,708 - INFO - [ANSWER] 
+2025-11-02 15:53:41,709 - INFO - [OK] Row 34 [F4T] completed successfully
+2025-11-02 15:53:41,712 - INFO - [OK] Answer 34 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:41,713 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 34/72 processed | 34 successful | 0 errors
+2025-11-02 15:53:41,713 - INFO - [INFO] Processing Row 35/72 [F4F]
+2025-11-02 15:53:41,713 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-02 15:53:45,316 - INFO - [ANSWER] 
+2025-11-02 15:53:45,316 - INFO - [OK] Row 35 [F4F] completed successfully
+2025-11-02 15:53:45,317 - INFO - [OK] Answer 35 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:45,317 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 35/72 processed | 35 successful | 0 errors
+2025-11-02 15:53:45,317 - INFO - [INFO] Processing Row 36/72 [F5T]
+2025-11-02 15:53:45,317 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-02 15:53:49,018 - INFO - [ANSWER] 
+2025-11-02 15:53:49,018 - INFO - [OK] Row 36 [F5T] completed successfully
+2025-11-02 15:53:49,021 - INFO - [OK] Answer 36 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:49,022 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 36/72 processed | 36 successful | 0 errors
+2025-11-02 15:53:49,022 - INFO - [INFO] Processing Row 37/72 [F5F]
+2025-11-02 15:53:49,022 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-02 15:53:52,181 - INFO - [ANSWER] Based
+2025-11-02 15:53:52,182 - INFO - [OK] Row 37 [F5F] completed successfully
+2025-11-02 15:53:52,184 - INFO - [OK] Answer 37 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:52,184 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 37/72 processed | 37 successful | 0 errors
+2025-11-02 15:53:52,184 - INFO - [INFO] Processing Row 38/72 [F6T]
+2025-11-02 15:53:52,185 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-02 15:53:55,466 - INFO - [ANSWER] 
+2025-11-02 15:53:55,466 - INFO - [OK] Row 38 [F6T] completed successfully
+2025-11-02 15:53:55,468 - INFO - [OK] Answer 38 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:55,468 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 38/72 processed | 38 successful | 0 errors
+2025-11-02 15:53:55,468 - INFO - [INFO] Processing Row 39/72 [F6F]
+2025-11-02 15:53:55,468 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-02 15:53:58,802 - INFO - [ANSWER] 
+2025-11-02 15:53:58,802 - INFO - [OK] Row 39 [F6F] completed successfully
+2025-11-02 15:53:58,803 - INFO - [OK] Answer 39 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:53:58,803 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 39/72 processed | 39 successful | 0 errors
+2025-11-02 15:53:58,803 - INFO - [INFO] Processing Row 40/72 [F7T]
+2025-11-02 15:53:58,803 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-02 15:54:02,087 - INFO - [ANSWER] 
+2025-11-02 15:54:02,087 - INFO - [OK] Row 40 [F7T] completed successfully
+2025-11-02 15:54:02,092 - INFO - [OK] Answer 40 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-02 15:54:02,092 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 40/72 processed | 40 successful | 0 errors
+2025-11-02 15:54:02,092 - INFO - [INFO] Processing Row 41/72 [F7F]
+2025-11-02 15:54:02,092 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...

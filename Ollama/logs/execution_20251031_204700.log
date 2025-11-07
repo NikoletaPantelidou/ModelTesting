@@ -1,0 +1,15 @@
+2025-10-31 20:47:00,817 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-10-31 20:47:00,817 - INFO - [INFO] API: https://ollama.com/api
+2025-10-31 20:47:00,817 - INFO - [INFO] Mode: Sequential
+2025-10-31 20:47:01,153 - INFO - [OK] Ollama API is accessible
+2025-10-31 20:47:01,161 - INFO - [OK] File loaded: 72 rows
+2025-10-31 20:47:01,162 - INFO - [INFO] Processing model 1/4: qwen3-vl:235b-cloud
+2025-10-31 20:47:01,162 - INFO - [INFO] ===== Starting: qwen3-vl:235b-cloud =====
+2025-10-31 20:47:01,164 - INFO - [INFO] Found existing: 11/72 completed
+2025-10-31 20:47:01,164 - INFO - [INFO] qwen3-vl:235b-cloud has 62 pending answers
+2025-10-31 20:47:01,164 - INFO - [INFO] Starting sequential processing for qwen3-vl:235b-cloud
+2025-10-31 20:47:01,165 - INFO - [INFO] Found existing: 11/72 completed
+2025-10-31 20:47:01,165 - INFO - [INFO] Row 1/72 - test_item: B1T
+2025-10-31 20:47:01,165 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-10-31 20:47:01,674 - WARNING - [WARNING] API status 402
+2025-10-31 20:47:03,158 - WARNING - [WARNING] API status 402

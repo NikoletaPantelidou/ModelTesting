@@ -1,0 +1,39 @@
+2025-11-01 17:02:49,227 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-01 17:02:49,227 - INFO - [INFO] API: https://ollama.com/api
+2025-11-01 17:02:49,227 - INFO - [INFO] Mode: Sequential
+2025-11-01 17:02:49,549 - INFO - [OK] Ollama API is accessible
+2025-11-01 17:02:49,555 - INFO - [OK] File loaded: 72 rows
+2025-11-01 17:02:49,555 - INFO - [INFO] Processing model 1/4: qwen3-vl:235b-cloud
+2025-11-01 17:02:49,555 - INFO - [INFO] ===== Starting: qwen3-vl:235b-cloud =====
+2025-11-01 17:02:49,556 - INFO - [INFO] Found existing: 11/72 completed
+2025-11-01 17:02:49,565 - INFO - [INFO] qwen3-vl:235b-cloud has 62 pending answers
+2025-11-01 17:02:49,565 - INFO - [INFO] Starting sequential processing for qwen3-vl:235b-cloud
+2025-11-01 17:02:49,567 - INFO - [INFO] Found existing: 11/72 completed
+2025-11-01 17:02:49,567 - INFO - [INFO] Row 1/72 - test_item: B1T
+2025-11-01 17:02:49,567 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-01 17:02:49,968 - WARNING - [WARNING] API status 401
+2025-11-01 17:02:51,374 - WARNING - [WARNING] API status 401
+2025-11-01 17:02:53,751 - WARNING - [WARNING] API status 401
+2025-11-01 17:02:53,751 - ERROR - [ERROR] Row 1: API error: 401
+2025-11-01 17:02:53,755 - INFO - [OK] Answer 1 saved
+2025-11-01 17:02:53,755 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 1/72 completed
+2025-11-01 17:02:53,755 - INFO - [INFO] Row 2/72 - test_item: B1F
+2025-11-01 17:02:53,755 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-01 17:02:54,150 - WARNING - [WARNING] API status 401
+2025-11-01 17:02:55,552 - WARNING - [WARNING] API status 401
+2025-11-01 17:02:57,933 - WARNING - [WARNING] API status 401
+2025-11-01 17:02:57,934 - ERROR - [ERROR] Row 2: API error: 401
+2025-11-01 17:02:57,938 - INFO - [OK] Answer 2 saved
+2025-11-01 17:02:57,938 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 2/72 completed
+2025-11-01 17:02:57,938 - INFO - [INFO] Row 3/72 - test_item: B1C
+2025-11-01 17:02:57,938 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-01 17:02:58,316 - WARNING - [WARNING] API status 401
+2025-11-01 17:02:59,716 - WARNING - [WARNING] API status 401
+2025-11-01 17:03:02,110 - WARNING - [WARNING] API status 401
+2025-11-01 17:03:02,110 - ERROR - [ERROR] Row 3: API error: 401
+2025-11-01 17:03:02,112 - INFO - [OK] Answer 3 saved
+2025-11-01 17:03:02,112 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 3/72 completed
+2025-11-01 17:03:02,112 - INFO - [INFO] Row 4/72 - test_item: B2T
+2025-11-01 17:03:02,112 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-01 17:03:02,483 - WARNING - [WARNING] API status 401
+2025-11-01 17:03:03,857 - WARNING - [WARNING] API status 401

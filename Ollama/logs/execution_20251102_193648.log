@@ -1,0 +1,116 @@
+2025-11-02 19:36:48,919 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-02 19:36:48,920 - INFO - [INFO] API: https://ollama.com/api
+2025-11-02 19:36:48,920 - INFO - [INFO] Mode: Sequential
+2025-11-02 19:36:49,252 - INFO - [OK] Ollama API is accessible
+2025-11-02 19:36:49,255 - INFO - [OK] File loaded: 72 rows
+2025-11-02 19:36:49,255 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-02 19:36:49,255 - INFO - [INFO] Processing model 1/3: deepseek-v3.1:671b-cloud
+2025-11-02 19:36:49,255 - INFO - [INFO] ===== Starting: deepseek-v3.1:671b-cloud =====
+2025-11-02 19:36:49,257 - INFO - [INFO] Found existing answers file: answers\deepseek-v3.1-671b-cloud_answers.csv
+2025-11-02 19:36:49,258 - INFO - [INFO] Existing progress: 72/72 answers completed, 0 errors, 0 pending
+2025-11-02 19:36:49,258 - INFO - [SKIP] deepseek-v3.1:671b-cloud already completed
+2025-11-02 19:36:49,258 - INFO - [INFO] Processing model 2/3: kimi-k2:1t-cloud
+2025-11-02 19:36:49,258 - INFO - [INFO] ===== Starting: kimi-k2:1t-cloud =====
+2025-11-02 19:36:49,259 - INFO - [INFO] Found existing answers file: answers\kimi-k2-1t-cloud_answers.csv
+2025-11-02 19:36:49,259 - INFO - [INFO] Existing progress: 72/72 answers completed, 0 errors, 0 pending
+2025-11-02 19:36:49,260 - INFO - [SKIP] kimi-k2:1t-cloud already completed
+2025-11-02 19:36:49,260 - INFO - [INFO] Processing model 3/3: glm-4.6:cloud
+2025-11-02 19:36:49,260 - INFO - [INFO] ===== Starting: glm-4.6:cloud =====
+2025-11-02 19:36:49,262 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:36:49,262 - INFO - [INFO] Existing progress: 70/72 answers completed, 0 errors, 2 pending
+2025-11-02 19:36:49,262 - INFO - [INFO] Pending items: S9F, S9C
+2025-11-02 19:36:49,262 - INFO - [INFO] glm-4.6:cloud has 2 pending answers
+2025-11-02 19:36:49,262 - INFO - [INFO] Starting sequential processing for glm-4.6:cloud
+2025-11-02 19:36:49,264 - INFO - [INFO] Found existing answers file: answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:36:49,264 - INFO - [INFO] Existing progress: 70/72 answers completed, 0 errors, 2 pending
+2025-11-02 19:36:49,264 - INFO - [INFO] Pending items: S9F, S9C
+2025-11-02 19:36:49,265 - INFO - [SKIP] Row 1/72 [B1T] already completed
+2025-11-02 19:36:49,265 - INFO - [SKIP] Row 2/72 [B1F] already completed
+2025-11-02 19:36:49,265 - INFO - [SKIP] Row 3/72 [B1C] already completed
+2025-11-02 19:36:49,265 - INFO - [SKIP] Row 4/72 [B2T] already completed
+2025-11-02 19:36:49,265 - INFO - [SKIP] Row 5/72 [B2F] already completed
+2025-11-02 19:36:49,265 - INFO - [SKIP] Row 6/72 [B2C] already completed
+2025-11-02 19:36:49,265 - INFO - [SKIP] Row 7/72 [B3T] already completed
+2025-11-02 19:36:49,265 - INFO - [SKIP] Row 8/72 [B3F] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 9/72 [B3C] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 10/72 [B4T] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 11/72 [B4F] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 12/72 [B4C] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 13/72 [B5T] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 14/72 [B5F] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 15/72 [B5C] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 16/72 [B6T] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 17/72 [B6F] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 18/72 [B6C] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 19/72 [B7T] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 20/72 [B7F] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 21/72 [B7C] already completed
+2025-11-02 19:36:49,266 - INFO - [SKIP] Row 22/72 [B8T] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 23/72 [B8F] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 24/72 [B8C] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 25/72 [B9T] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 26/72 [B9F] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 27/72 [B9C] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 28/72 [F1T] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 29/72 [F1F] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 30/72 [F2T] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 31/72 [F2F] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 32/72 [F3T] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 33/72 [F3F] already completed
+2025-11-02 19:36:49,267 - INFO - [SKIP] Row 34/72 [F4T] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 35/72 [F4F] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 36/72 [F5T] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 37/72 [F5F] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 38/72 [F6T] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 39/72 [F6F] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 40/72 [F7T] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 41/72 [F7F] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 42/72 [F8T] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 43/72 [F8F] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 44/72 [F8T] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 45/72 [F8F] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 46/72 [S1T] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 47/72 [S1F] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 48/72 [S1C] already completed
+2025-11-02 19:36:49,268 - INFO - [SKIP] Row 49/72 [S2T] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 50/72 [S2F] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 51/72 [S2C] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 52/72 [S3T] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 53/72 [S3F] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 54/72 [S3C] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 55/72 [S4T] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 56/72 [S4F] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 57/72 [S4C] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 58/72 [S5T] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 59/72 [S5F] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 60/72 [S5C] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 61/72 [S6T] already completed
+2025-11-02 19:36:49,269 - INFO - [SKIP] Row 62/72 [S6F] already completed
+2025-11-02 19:36:49,270 - INFO - [SKIP] Row 63/72 [S6C] already completed
+2025-11-02 19:36:49,270 - INFO - [SKIP] Row 64/72 [S7T] already completed
+2025-11-02 19:36:49,270 - INFO - [SKIP] Row 65/72 [S7F] already completed
+2025-11-02 19:36:49,270 - INFO - [SKIP] Row 66/72 [S7C] already completed
+2025-11-02 19:36:49,270 - INFO - [SKIP] Row 67/72 [S8T] already completed
+2025-11-02 19:36:49,270 - INFO - [SKIP] Row 68/72 [S8F] already completed
+2025-11-02 19:36:49,270 - INFO - [SKIP] Row 69/72 [S8C] already completed
+2025-11-02 19:36:49,270 - INFO - [SKIP] Row 70/72 [S9T] already completed
+2025-11-02 19:36:49,270 - INFO - [INFO] Processing Row 71/72 [S9F]
+2025-11-02 19:36:49,270 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary ha...
+2025-11-02 19:36:51,380 - INFO - [ANSWER] 1.  **Analyze the User's Request:**
+2025-11-02 19:36:51,381 - INFO - [OK] Row 71 [S9F] completed successfully
+2025-11-02 19:36:51,386 - INFO - [OK] Answer 71 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:36:51,387 - INFO - [PROGRESS] glm-4.6:cloud - 71/72 processed | 71 successful | 0 errors
+2025-11-02 19:36:51,387 - INFO - [INFO] Processing Row 72/72 [S9C]
+2025-11-02 19:36:51,387 - INFO - [PROMPT] Here's the context: The fridge is full. Also, the oven is on. Mary had said: "If the fridge is empty...
+2025-11-02 19:37:01,424 - INFO - [ANSWER] 1.  **Analyze the User's Request:**
+2025-11-02 19:37:01,424 - INFO - [OK] Row 72 [S9C] completed successfully
+2025-11-02 19:37:01,427 - INFO - [OK] Answer 72 saved to answers\glm-4.6-cloud_answers.csv
+2025-11-02 19:37:01,427 - INFO - [PROGRESS] glm-4.6:cloud - 72/72 processed | 72 successful | 0 errors
+2025-11-02 19:37:01,427 - INFO - [OK] All rows processed for glm-4.6:cloud
+2025-11-02 19:37:01,427 - INFO - [OK] ===== Completed: glm-4.6:cloud =====
+
+2025-11-02 19:37:01,427 - INFO - [OK] Successfully processed 3 models
+2025-11-02 19:37:01,428 - INFO - [OK] Summary: 3 successful, 0 failed
+2025-11-02 19:37:01,428 - INFO - [INFO] Answer files saved in: answers
+2025-11-02 19:37:01,428 - INFO - [INFO] Each model has its own file: <model-name>_answers.csv
+2025-11-02 19:37:01,428 - INFO - [INFO] ===== Completed =====

@@ -1,0 +1,41 @@
+2025-10-31 20:08:43,041 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-10-31 20:08:43,041 - INFO - [INFO] API: https://ollama.com/api
+2025-10-31 20:08:43,041 - INFO - [INFO] Mode: Sequential
+2025-10-31 20:08:43,387 - INFO - [OK] Ollama API is accessible
+2025-10-31 20:08:43,394 - INFO - [OK] File loaded: 72 rows
+2025-10-31 20:08:43,394 - INFO - [INFO] Processing model 1/5: gpt-oss:20b-cloud
+2025-10-31 20:08:43,394 - INFO - [INFO] ===== Starting: gpt-oss:20b-cloud =====
+2025-10-31 20:08:43,394 - INFO - [INFO] gpt-oss:20b-cloud has 72 pending answers
+2025-10-31 20:08:43,396 - INFO - [INFO] Starting sequential processing for gpt-oss:20b-cloud
+2025-10-31 20:08:43,396 - INFO - [INFO] Row 1/72 - test_item: B1T
+2025-10-31 20:08:43,396 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-10-31 20:08:46,617 - INFO - [OK] Row 1 completed
+2025-10-31 20:08:46,623 - INFO - [OK] Answer 1 saved
+2025-10-31 20:08:46,623 - INFO - [PROGRESS] gpt-oss:20b-cloud - 1/72 completed
+2025-10-31 20:08:46,623 - INFO - [INFO] Row 2/72 - test_item: B1F
+2025-10-31 20:08:46,623 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-10-31 20:08:50,187 - INFO - [OK] Row 2 completed
+2025-10-31 20:08:50,189 - INFO - [OK] Answer 2 saved
+2025-10-31 20:08:50,189 - INFO - [PROGRESS] gpt-oss:20b-cloud - 2/72 completed
+2025-10-31 20:08:50,189 - INFO - [INFO] Row 3/72 - test_item: B1C
+2025-10-31 20:08:50,189 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-10-31 20:08:53,142 - INFO - [OK] Row 3 completed
+2025-10-31 20:08:53,143 - INFO - [OK] Answer 3 saved
+2025-10-31 20:08:53,143 - INFO - [PROGRESS] gpt-oss:20b-cloud - 3/72 completed
+2025-10-31 20:08:53,143 - INFO - [INFO] Row 4/72 - test_item: B2T
+2025-10-31 20:08:53,143 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-10-31 20:08:56,051 - INFO - [OK] Row 4 completed
+2025-10-31 20:08:56,053 - INFO - [OK] Answer 4 saved
+2025-10-31 20:08:56,053 - INFO - [PROGRESS] gpt-oss:20b-cloud - 4/72 completed
+2025-10-31 20:08:56,053 - INFO - [INFO] Row 5/72 - test_item: B2F
+2025-10-31 20:08:56,053 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-10-31 20:08:59,171 - INFO - [OK] Row 5 completed
+2025-10-31 20:08:59,174 - INFO - [OK] Answer 5 saved
+2025-10-31 20:08:59,174 - INFO - [PROGRESS] gpt-oss:20b-cloud - 5/72 completed
+2025-10-31 20:08:59,174 - INFO - [INFO] Row 6/72 - test_item: B2C
+2025-10-31 20:08:59,174 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-10-31 20:09:02,271 - INFO - [OK] Row 6 completed
+2025-10-31 20:09:02,274 - INFO - [OK] Answer 6 saved
+2025-10-31 20:09:02,274 - INFO - [PROGRESS] gpt-oss:20b-cloud - 6/72 completed
+2025-10-31 20:09:02,274 - INFO - [INFO] Row 7/72 - test_item: B3T
+2025-10-31 20:09:02,274 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...

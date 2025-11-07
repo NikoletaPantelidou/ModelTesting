@@ -1,0 +1,36 @@
+2025-11-01 18:49:52,441 - INFO - [INFO] ===== Ollama Cloud API Processing Started =====
+2025-11-01 18:49:52,442 - INFO - [INFO] API: https://ollama.com/api
+2025-11-01 18:49:52,442 - INFO - [INFO] Mode: Sequential
+2025-11-01 18:49:52,756 - INFO - [OK] Ollama API is accessible
+2025-11-01 18:49:52,760 - INFO - [OK] File loaded: 72 rows
+2025-11-01 18:49:52,760 - INFO - [INFO] Test items: B1T, B1F, B1C, B2T, B2F, B2C, B3T, B3F, B3C, B4T...
+2025-11-01 18:49:52,760 - INFO - [INFO] Processing model 1/4: qwen3-vl:235b-cloud
+2025-11-01 18:49:52,760 - INFO - [INFO] ===== Starting: qwen3-vl:235b-cloud =====
+2025-11-01 18:49:52,760 - INFO - [INFO] qwen3-vl:235b-cloud has 72 pending answers
+2025-11-01 18:49:52,760 - INFO - [INFO] Starting sequential processing for qwen3-vl:235b-cloud
+2025-11-01 18:49:52,761 - INFO - [INFO] Processing Row 1/72 [B1T]
+2025-11-01 18:49:52,761 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-01 18:49:56,680 - INFO - [ANSWER] 
+2025-11-01 18:49:56,680 - INFO - [OK] Row 1 [B1T] completed successfully
+2025-11-01 18:49:56,684 - INFO - [OK] Answer 1 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-01 18:49:56,684 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 1/72 processed | 1 successful | 0 errors
+2025-11-01 18:49:56,684 - INFO - [INFO] Processing Row 2/72 [B1F]
+2025-11-01 18:49:56,684 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-01 18:50:00,833 - INFO - [ANSWER] 
+2025-11-01 18:50:00,833 - INFO - [OK] Row 2 [B1F] completed successfully
+2025-11-01 18:50:00,836 - INFO - [OK] Answer 2 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-01 18:50:00,836 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 2/72 processed | 2 successful | 0 errors
+2025-11-01 18:50:00,836 - INFO - [INFO] Processing Row 3/72 [B1C]
+2025-11-01 18:50:00,836 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-01 18:50:05,212 - INFO - [ANSWER] 
+2025-11-01 18:50:05,212 - INFO - [OK] Row 3 [B1C] completed successfully
+2025-11-01 18:50:05,217 - INFO - [OK] Answer 3 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-01 18:50:05,217 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 3/72 processed | 3 successful | 0 errors
+2025-11-01 18:50:05,217 - INFO - [INFO] Processing Row 4/72 [B2T]
+2025-11-01 18:50:05,217 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-01 18:50:09,072 - INFO - [ANSWER] 
+2025-11-01 18:50:09,073 - INFO - [OK] Row 4 [B2T] completed successfully
+2025-11-01 18:50:09,078 - INFO - [OK] Answer 4 saved to answers\qwen3-vl-235b-cloud_answers.csv
+2025-11-01 18:50:09,079 - INFO - [PROGRESS] qwen3-vl:235b-cloud - 4/72 processed | 4 successful | 0 errors
+2025-11-01 18:50:09,079 - INFO - [INFO] Processing Row 5/72 [B2F]
+2025-11-01 18:50:09,079 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
