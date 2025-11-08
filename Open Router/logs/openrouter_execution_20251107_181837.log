@@ -1,0 +1,1062 @@
+2025-11-07 18:18:37,605 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-07 18:18:37,620 - INFO - Processing model openai/gpt-5
+2025-11-07 18:18:37,624 - INFO - No pending prompts
+2025-11-07 18:18:37,629 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-07 18:18:37,634 - INFO - Processing 26/288
+2025-11-07 18:18:37,635 - INFO - Processing 27/288
+2025-11-07 18:18:37,635 - INFO - Processing 28/288
+2025-11-07 18:18:37,636 - INFO - Processing 29/288
+2025-11-07 18:18:47,612 - INFO - Row 26 completed
+2025-11-07 18:18:47,613 - INFO - Processing 30/288
+2025-11-07 18:18:47,623 - INFO - Saved answer 26 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:18:47,623 - INFO - Progress: 1/263 pending completed
+2025-11-07 18:19:21,987 - INFO - Row 27 completed
+2025-11-07 18:19:21,987 - INFO - Processing 31/288
+2025-11-07 18:19:21,994 - INFO - Saved answer 27 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:19:21,994 - INFO - Progress: 2/263 pending completed
+2025-11-07 18:19:48,215 - INFO - Row 28 completed
+2025-11-07 18:19:48,215 - INFO - Processing 32/288
+2025-11-07 18:19:48,220 - INFO - Saved answer 28 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:19:48,220 - INFO - Progress: 3/263 pending completed
+2025-11-07 18:20:17,815 - INFO - Row 29 completed
+2025-11-07 18:20:17,815 - INFO - Processing 33/288
+2025-11-07 18:20:17,819 - INFO - Saved answer 29 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:20:17,819 - INFO - Progress: 4/263 pending completed
+2025-11-07 18:20:54,408 - INFO - Row 30 completed
+2025-11-07 18:20:54,408 - INFO - Processing 34/288
+2025-11-07 18:20:54,413 - INFO - Saved answer 30 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:20:54,414 - INFO - Progress: 5/263 pending completed
+2025-11-07 18:21:21,051 - INFO - Row 31 completed
+2025-11-07 18:21:21,051 - INFO - Processing 35/288
+2025-11-07 18:21:21,055 - INFO - Saved answer 31 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:21:21,056 - INFO - Progress: 6/263 pending completed
+2025-11-07 18:21:48,706 - INFO - Row 32 completed
+2025-11-07 18:21:48,706 - INFO - Processing 36/288
+2025-11-07 18:21:48,711 - INFO - Saved answer 32 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:21:48,712 - INFO - Progress: 7/263 pending completed
+2025-11-07 18:22:20,688 - INFO - Row 33 completed
+2025-11-07 18:22:20,688 - INFO - Processing 37/288
+2025-11-07 18:22:20,694 - INFO - Saved answer 33 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:22:20,694 - INFO - Progress: 8/263 pending completed
+2025-11-07 18:22:46,891 - INFO - Row 34 completed
+2025-11-07 18:22:46,892 - INFO - Processing 38/288
+2025-11-07 18:22:46,897 - INFO - Saved answer 34 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:22:46,897 - INFO - Progress: 9/263 pending completed
+2025-11-07 18:23:25,750 - INFO - Row 35 completed
+2025-11-07 18:23:25,751 - INFO - Processing 39/288
+2025-11-07 18:23:25,756 - INFO - Saved answer 35 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:23:25,756 - INFO - Progress: 10/263 pending completed
+2025-11-07 18:23:50,619 - INFO - Row 36 completed
+2025-11-07 18:23:50,619 - INFO - Processing 40/288
+2025-11-07 18:23:50,624 - INFO - Saved answer 36 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:23:50,624 - INFO - Progress: 11/263 pending completed
+2025-11-07 18:24:19,053 - INFO - Row 37 completed
+2025-11-07 18:24:19,053 - INFO - Processing 41/288
+2025-11-07 18:24:19,058 - INFO - Saved answer 37 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:24:19,058 - INFO - Progress: 12/263 pending completed
+2025-11-07 18:24:48,399 - INFO - Row 38 completed
+2025-11-07 18:24:48,399 - INFO - Processing 42/288
+2025-11-07 18:24:48,404 - INFO - Saved answer 38 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:24:48,404 - INFO - Progress: 13/263 pending completed
+2025-11-07 18:25:18,374 - INFO - Row 39 completed
+2025-11-07 18:25:18,374 - INFO - Processing 43/288
+2025-11-07 18:25:18,379 - INFO - Saved answer 39 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:25:18,379 - INFO - Progress: 14/263 pending completed
+2025-11-07 18:25:58,326 - INFO - Row 40 completed
+2025-11-07 18:25:58,327 - INFO - Processing 44/288
+2025-11-07 18:25:58,332 - INFO - Saved answer 40 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:25:58,332 - INFO - Progress: 15/263 pending completed
+2025-11-07 18:26:23,352 - INFO - Row 41 completed
+2025-11-07 18:26:23,352 - INFO - Processing 45/288
+2025-11-07 18:26:23,358 - INFO - Saved answer 41 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:26:23,358 - INFO - Progress: 16/263 pending completed
+2025-11-07 18:26:46,832 - INFO - Row 42 completed
+2025-11-07 18:26:46,833 - INFO - Processing 46/288
+2025-11-07 18:26:46,837 - INFO - Saved answer 42 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:26:46,837 - INFO - Progress: 17/263 pending completed
+2025-11-07 18:27:19,776 - INFO - Row 43 completed
+2025-11-07 18:27:19,777 - INFO - Processing 47/288
+2025-11-07 18:27:19,782 - INFO - Saved answer 43 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:27:19,782 - INFO - Progress: 18/263 pending completed
+2025-11-07 18:27:46,136 - INFO - Row 44 completed
+2025-11-07 18:27:46,136 - INFO - Processing 48/288
+2025-11-07 18:27:46,141 - INFO - Saved answer 44 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:27:46,141 - INFO - Progress: 19/263 pending completed
+2025-11-07 18:28:15,763 - INFO - Row 45 completed
+2025-11-07 18:28:15,763 - INFO - Processing 49/288
+2025-11-07 18:28:15,768 - INFO - Saved answer 45 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:28:15,768 - INFO - Progress: 20/263 pending completed
+2025-11-07 18:28:52,141 - INFO - Row 46 completed
+2025-11-07 18:28:52,142 - INFO - Processing 50/288
+2025-11-07 18:28:52,147 - INFO - Saved answer 46 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:28:52,148 - INFO - Progress: 21/263 pending completed
+2025-11-07 18:29:24,806 - INFO - Row 47 completed
+2025-11-07 18:29:24,806 - INFO - Processing 51/288
+2025-11-07 18:29:24,811 - INFO - Saved answer 47 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:29:24,811 - INFO - Progress: 22/263 pending completed
+2025-11-07 18:29:52,984 - INFO - Row 48 completed
+2025-11-07 18:29:52,984 - INFO - Processing 52/288
+2025-11-07 18:29:52,989 - INFO - Saved answer 48 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:29:52,989 - INFO - Progress: 23/263 pending completed
+2025-11-07 18:30:29,207 - INFO - Row 49 completed
+2025-11-07 18:30:29,207 - INFO - Processing 53/288
+2025-11-07 18:30:29,212 - INFO - Saved answer 49 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:30:29,213 - INFO - Progress: 24/263 pending completed
+2025-11-07 18:30:50,251 - INFO - Row 50 completed
+2025-11-07 18:30:50,251 - INFO - Processing 54/288
+2025-11-07 18:30:50,259 - INFO - Saved answer 50 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:30:50,259 - INFO - Progress: 25/263 pending completed
+2025-11-07 18:31:20,863 - INFO - Row 51 completed
+2025-11-07 18:31:20,863 - INFO - Processing 55/288
+2025-11-07 18:31:20,868 - INFO - Saved answer 51 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:31:20,868 - INFO - Progress: 26/263 pending completed
+2025-11-07 18:31:54,491 - INFO - Row 52 completed
+2025-11-07 18:31:54,492 - INFO - Processing 56/288
+2025-11-07 18:31:54,497 - INFO - Saved answer 52 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:31:54,497 - INFO - Progress: 27/263 pending completed
+2025-11-07 18:32:22,812 - INFO - Row 53 completed
+2025-11-07 18:32:22,813 - INFO - Processing 57/288
+2025-11-07 18:32:22,818 - INFO - Saved answer 53 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:32:22,818 - INFO - Progress: 28/263 pending completed
+2025-11-07 18:33:04,786 - INFO - Row 54 completed
+2025-11-07 18:33:04,786 - INFO - Processing 58/288
+2025-11-07 18:33:04,792 - INFO - Saved answer 54 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:33:04,792 - INFO - Progress: 29/263 pending completed
+2025-11-07 18:33:26,404 - INFO - Row 55 completed
+2025-11-07 18:33:26,404 - INFO - Processing 59/288
+2025-11-07 18:33:26,410 - INFO - Saved answer 55 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:33:26,410 - INFO - Progress: 30/263 pending completed
+2025-11-07 18:34:03,839 - INFO - Row 56 completed
+2025-11-07 18:34:03,839 - INFO - Processing 60/288
+2025-11-07 18:34:03,845 - INFO - Saved answer 56 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:34:03,845 - INFO - Progress: 31/263 pending completed
+2025-11-07 18:34:21,860 - INFO - Row 57 completed
+2025-11-07 18:34:21,860 - INFO - Processing 61/288
+2025-11-07 18:34:21,865 - INFO - Saved answer 57 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:34:21,866 - INFO - Progress: 32/263 pending completed
+2025-11-07 18:34:54,116 - INFO - Row 58 completed
+2025-11-07 18:34:54,116 - INFO - Processing 62/288
+2025-11-07 18:34:54,121 - INFO - Saved answer 58 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:34:54,121 - INFO - Progress: 33/263 pending completed
+2025-11-07 18:35:18,644 - INFO - Row 59 completed
+2025-11-07 18:35:18,645 - INFO - Processing 63/288
+2025-11-07 18:35:18,650 - INFO - Saved answer 59 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:35:18,650 - INFO - Progress: 34/263 pending completed
+2025-11-07 18:35:51,818 - INFO - Row 60 completed
+2025-11-07 18:35:51,818 - INFO - Processing 64/288
+2025-11-07 18:35:51,824 - INFO - Saved answer 60 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:35:51,824 - INFO - Progress: 35/263 pending completed
+2025-11-07 18:36:32,044 - INFO - Row 61 completed
+2025-11-07 18:36:32,044 - INFO - Processing 65/288
+2025-11-07 18:36:32,049 - INFO - Saved answer 61 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:36:32,050 - INFO - Progress: 36/263 pending completed
+2025-11-07 18:36:54,776 - INFO - Row 62 completed
+2025-11-07 18:36:54,776 - INFO - Processing 66/288
+2025-11-07 18:36:54,782 - INFO - Saved answer 62 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:36:54,782 - INFO - Progress: 37/263 pending completed
+2025-11-07 18:37:18,216 - INFO - Row 63 completed
+2025-11-07 18:37:18,216 - INFO - Processing 67/288
+2025-11-07 18:37:18,221 - INFO - Saved answer 63 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:37:18,221 - INFO - Progress: 38/263 pending completed
+2025-11-07 18:37:47,995 - INFO - Row 64 completed
+2025-11-07 18:37:47,995 - INFO - Processing 68/288
+2025-11-07 18:37:48,000 - INFO - Saved answer 64 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:37:48,001 - INFO - Progress: 39/263 pending completed
+2025-11-07 18:38:18,909 - INFO - Row 65 completed
+2025-11-07 18:38:18,910 - INFO - Processing 69/288
+2025-11-07 18:38:18,915 - INFO - Saved answer 65 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:38:18,915 - INFO - Progress: 40/263 pending completed
+2025-11-07 18:38:47,185 - INFO - Row 66 completed
+2025-11-07 18:38:47,186 - INFO - Processing 70/288
+2025-11-07 18:38:47,191 - INFO - Saved answer 66 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:38:47,191 - INFO - Progress: 41/263 pending completed
+2025-11-07 18:39:20,346 - INFO - Row 67 completed
+2025-11-07 18:39:20,346 - INFO - Processing 71/288
+2025-11-07 18:39:20,352 - INFO - Saved answer 67 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:39:20,352 - INFO - Progress: 42/263 pending completed
+2025-11-07 18:39:46,687 - INFO - Row 68 completed
+2025-11-07 18:39:46,687 - INFO - Processing 72/288
+2025-11-07 18:39:46,693 - INFO - Saved answer 68 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:39:46,693 - INFO - Progress: 43/263 pending completed
+2025-11-07 18:40:21,348 - INFO - Row 69 completed
+2025-11-07 18:40:21,348 - INFO - Processing 73/288
+2025-11-07 18:40:21,356 - INFO - Saved answer 69 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:40:21,356 - INFO - Progress: 44/263 pending completed
+2025-11-07 18:41:00,175 - INFO - Row 70 completed
+2025-11-07 18:41:00,175 - INFO - Processing 74/288
+2025-11-07 18:41:00,181 - INFO - Saved answer 70 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:41:00,181 - INFO - Progress: 45/263 pending completed
+2025-11-07 18:41:22,659 - INFO - Row 71 completed
+2025-11-07 18:41:22,659 - INFO - Processing 75/288
+2025-11-07 18:41:22,664 - INFO - Saved answer 71 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:41:22,664 - INFO - Progress: 46/263 pending completed
+2025-11-07 18:41:48,183 - INFO - Row 72 completed
+2025-11-07 18:41:48,183 - INFO - Processing 76/288
+2025-11-07 18:41:48,189 - INFO - Saved answer 72 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:41:48,189 - INFO - Progress: 47/263 pending completed
+2025-11-07 18:42:20,515 - INFO - Row 73 completed
+2025-11-07 18:42:20,516 - INFO - Processing 77/288
+2025-11-07 18:42:20,521 - INFO - Saved answer 73 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:42:20,521 - INFO - Progress: 48/263 pending completed
+2025-11-07 18:42:52,811 - INFO - Row 74 completed
+2025-11-07 18:42:52,811 - INFO - Processing 78/288
+2025-11-07 18:42:52,816 - INFO - Saved answer 74 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:42:52,817 - INFO - Progress: 49/263 pending completed
+2025-11-07 18:43:31,743 - INFO - Row 75 completed
+2025-11-07 18:43:31,743 - INFO - Processing 79/288
+2025-11-07 18:43:31,749 - INFO - Saved answer 75 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:43:31,749 - INFO - Progress: 50/263 pending completed
+2025-11-07 18:43:44,124 - INFO - Row 76 completed
+2025-11-07 18:43:44,124 - INFO - Processing 80/288
+2025-11-07 18:43:44,130 - INFO - Saved answer 76 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:43:44,130 - INFO - Progress: 51/263 pending completed
+2025-11-07 18:44:26,985 - INFO - Row 77 completed
+2025-11-07 18:44:26,985 - INFO - Processing 81/288
+2025-11-07 18:44:26,992 - INFO - Saved answer 77 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:44:26,992 - INFO - Progress: 52/263 pending completed
+2025-11-07 18:44:47,293 - INFO - Row 78 completed
+2025-11-07 18:44:47,293 - INFO - Processing 82/288
+2025-11-07 18:44:47,299 - INFO - Saved answer 78 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:44:47,299 - INFO - Progress: 53/263 pending completed
+2025-11-07 18:45:21,275 - INFO - Row 79 completed
+2025-11-07 18:45:21,275 - INFO - Processing 83/288
+2025-11-07 18:45:21,281 - INFO - Saved answer 79 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:45:21,281 - INFO - Progress: 54/263 pending completed
+2025-11-07 18:45:49,320 - INFO - Row 80 completed
+2025-11-07 18:45:49,320 - INFO - Processing 84/288
+2025-11-07 18:45:49,326 - INFO - Saved answer 80 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:45:49,327 - INFO - Progress: 55/263 pending completed
+2025-11-07 18:46:28,214 - INFO - Row 81 completed
+2025-11-07 18:46:28,214 - INFO - Processing 85/288
+2025-11-07 18:46:28,220 - INFO - Saved answer 81 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:46:28,220 - INFO - Progress: 56/263 pending completed
+2025-11-07 18:46:50,079 - INFO - Row 82 completed
+2025-11-07 18:46:50,080 - INFO - Processing 86/288
+2025-11-07 18:46:50,085 - INFO - Saved answer 82 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:46:50,086 - INFO - Progress: 57/263 pending completed
+2025-11-07 18:47:19,170 - INFO - Row 83 completed
+2025-11-07 18:47:19,170 - INFO - Processing 87/288
+2025-11-07 18:47:19,176 - INFO - Saved answer 83 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:47:19,176 - INFO - Progress: 58/263 pending completed
+2025-11-07 18:47:52,194 - INFO - Row 84 completed
+2025-11-07 18:47:52,194 - INFO - Processing 88/288
+2025-11-07 18:47:52,200 - INFO - Saved answer 84 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:47:52,200 - INFO - Progress: 59/263 pending completed
+2025-11-07 18:48:19,819 - INFO - Row 85 completed
+2025-11-07 18:48:19,820 - INFO - Processing 89/288
+2025-11-07 18:48:19,826 - INFO - Saved answer 85 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:48:19,826 - INFO - Progress: 60/263 pending completed
+2025-11-07 18:48:50,238 - INFO - Row 86 completed
+2025-11-07 18:48:50,238 - INFO - Processing 90/288
+2025-11-07 18:48:50,244 - INFO - Saved answer 86 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:48:50,244 - INFO - Progress: 61/263 pending completed
+2025-11-07 18:49:36,835 - INFO - Row 87 completed
+2025-11-07 18:49:36,835 - INFO - Processing 91/288
+2025-11-07 18:49:36,841 - INFO - Saved answer 87 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:49:36,841 - INFO - Progress: 62/263 pending completed
+2025-11-07 18:49:49,477 - INFO - Row 88 completed
+2025-11-07 18:49:49,477 - INFO - Processing 92/288
+2025-11-07 18:49:49,483 - INFO - Saved answer 88 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:49:49,483 - INFO - Progress: 63/263 pending completed
+2025-11-07 18:50:21,850 - INFO - Row 89 completed
+2025-11-07 18:50:21,850 - INFO - Processing 93/288
+2025-11-07 18:50:21,857 - INFO - Saved answer 89 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:50:21,857 - INFO - Progress: 64/263 pending completed
+2025-11-07 18:51:01,532 - INFO - Row 90 completed
+2025-11-07 18:51:01,532 - INFO - Processing 94/288
+2025-11-07 18:51:01,538 - INFO - Saved answer 90 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:51:01,538 - INFO - Progress: 65/263 pending completed
+2025-11-07 18:51:16,468 - INFO - Row 91 completed
+2025-11-07 18:51:16,468 - INFO - Processing 95/288
+2025-11-07 18:51:16,474 - INFO - Saved answer 91 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:51:16,474 - INFO - Progress: 66/263 pending completed
+2025-11-07 18:51:48,967 - INFO - Row 92 completed
+2025-11-07 18:51:48,968 - INFO - Processing 96/288
+2025-11-07 18:51:48,974 - INFO - Saved answer 92 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:51:48,974 - INFO - Progress: 67/263 pending completed
+2025-11-07 18:52:38,598 - INFO - Row 93 completed
+2025-11-07 18:52:38,598 - INFO - Processing 97/288
+2025-11-07 18:52:38,604 - INFO - Saved answer 93 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:52:38,604 - INFO - Progress: 68/263 pending completed
+2025-11-07 18:52:57,350 - INFO - Row 94 completed
+2025-11-07 18:52:57,350 - INFO - Processing 98/288
+2025-11-07 18:52:57,357 - INFO - Saved answer 94 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:52:57,357 - INFO - Progress: 69/263 pending completed
+2025-11-07 18:53:33,712 - INFO - Row 95 completed
+2025-11-07 18:53:33,712 - INFO - Processing 99/288
+2025-11-07 18:53:33,718 - INFO - Saved answer 95 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:53:33,718 - INFO - Progress: 70/263 pending completed
+2025-11-07 18:53:53,505 - INFO - Row 96 completed
+2025-11-07 18:53:53,505 - INFO - Processing 100/288
+2025-11-07 18:53:53,511 - INFO - Saved answer 96 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:53:53,512 - INFO - Progress: 71/263 pending completed
+2025-11-07 18:54:20,203 - INFO - Row 97 completed
+2025-11-07 18:54:20,204 - INFO - Processing 101/288
+2025-11-07 18:54:20,210 - INFO - Saved answer 97 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:54:20,210 - INFO - Progress: 72/263 pending completed
+2025-11-07 18:54:49,145 - INFO - Row 98 completed
+2025-11-07 18:54:49,145 - INFO - Processing 102/288
+2025-11-07 18:54:49,151 - INFO - Saved answer 98 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:54:49,151 - INFO - Progress: 73/263 pending completed
+2025-11-07 18:55:28,468 - INFO - Row 99 completed
+2025-11-07 18:55:28,469 - INFO - Processing 103/288
+2025-11-07 18:55:28,474 - INFO - Saved answer 99 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:55:28,474 - INFO - Progress: 74/263 pending completed
+2025-11-07 18:55:47,209 - INFO - Row 100 completed
+2025-11-07 18:55:47,210 - INFO - Processing 104/288
+2025-11-07 18:55:47,216 - INFO - Saved answer 100 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:55:47,216 - INFO - Progress: 75/263 pending completed
+2025-11-07 18:56:21,729 - INFO - Row 101 completed
+2025-11-07 18:56:21,729 - INFO - Processing 105/288
+2025-11-07 18:56:21,735 - INFO - Saved answer 101 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:56:21,736 - INFO - Progress: 76/263 pending completed
+2025-11-07 18:56:48,353 - INFO - Row 102 completed
+2025-11-07 18:56:48,353 - INFO - Processing 106/288
+2025-11-07 18:56:48,364 - INFO - Saved answer 102 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:56:48,365 - INFO - Progress: 77/263 pending completed
+2025-11-07 18:57:17,384 - INFO - Row 103 completed
+2025-11-07 18:57:17,384 - INFO - Processing 107/288
+2025-11-07 18:57:17,390 - INFO - Saved answer 103 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:57:17,390 - INFO - Progress: 78/263 pending completed
+2025-11-07 18:57:49,901 - INFO - Row 104 completed
+2025-11-07 18:57:49,901 - INFO - Processing 108/288
+2025-11-07 18:57:49,907 - INFO - Saved answer 104 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:57:49,908 - INFO - Progress: 79/263 pending completed
+2025-11-07 18:58:43,394 - INFO - Row 105 completed
+2025-11-07 18:58:43,394 - INFO - Processing 109/288
+2025-11-07 18:58:43,401 - INFO - Saved answer 105 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:58:43,401 - INFO - Progress: 80/263 pending completed
+2025-11-07 18:58:55,990 - INFO - Row 106 completed
+2025-11-07 18:58:55,990 - INFO - Processing 110/288
+2025-11-07 18:58:55,997 - INFO - Saved answer 106 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:58:55,997 - INFO - Progress: 81/263 pending completed
+2025-11-07 18:59:29,176 - INFO - Row 107 completed
+2025-11-07 18:59:29,177 - INFO - Processing 111/288
+2025-11-07 18:59:29,183 - INFO - Saved answer 107 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:59:29,183 - INFO - Progress: 82/263 pending completed
+2025-11-07 18:59:51,073 - INFO - Row 108 completed
+2025-11-07 18:59:51,073 - INFO - Processing 112/288
+2025-11-07 18:59:51,079 - INFO - Saved answer 108 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 18:59:51,080 - INFO - Progress: 83/263 pending completed
+2025-11-07 19:00:27,279 - INFO - Row 109 completed
+2025-11-07 19:00:27,279 - INFO - Processing 113/288
+2025-11-07 19:00:27,286 - INFO - Saved answer 109 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:00:27,286 - INFO - Progress: 84/263 pending completed
+2025-11-07 19:00:49,104 - INFO - Row 110 completed
+2025-11-07 19:00:49,104 - INFO - Processing 114/288
+2025-11-07 19:00:49,110 - INFO - Saved answer 110 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:00:49,110 - INFO - Progress: 85/263 pending completed
+2025-11-07 19:01:29,541 - INFO - Row 111 completed
+2025-11-07 19:01:29,541 - INFO - Processing 115/288
+2025-11-07 19:01:29,547 - INFO - Saved answer 111 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:01:29,547 - INFO - Progress: 86/263 pending completed
+2025-11-07 19:02:23,130 - INFO - Row 112 completed
+2025-11-07 19:02:23,130 - INFO - Processing 116/288
+2025-11-07 19:02:23,137 - INFO - Saved answer 112 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:02:23,137 - INFO - Progress: 87/263 pending completed
+2025-11-07 19:02:45,029 - INFO - Row 113 completed
+2025-11-07 19:02:45,029 - INFO - Processing 117/288
+2025-11-07 19:02:45,036 - INFO - Saved answer 113 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:02:45,036 - INFO - Progress: 88/263 pending completed
+2025-11-07 19:03:01,898 - INFO - Row 114 completed
+2025-11-07 19:03:01,898 - INFO - Processing 118/288
+2025-11-07 19:03:01,904 - INFO - Saved answer 114 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:03:01,904 - INFO - Progress: 89/263 pending completed
+2025-11-07 19:03:21,040 - INFO - Row 115 completed
+2025-11-07 19:03:21,040 - INFO - Processing 119/288
+2025-11-07 19:03:21,047 - INFO - Saved answer 115 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:03:21,047 - INFO - Progress: 90/263 pending completed
+2025-11-07 19:04:04,084 - INFO - Row 116 completed
+2025-11-07 19:04:04,085 - INFO - Processing 120/288
+2025-11-07 19:04:04,091 - INFO - Saved answer 116 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:04:04,092 - INFO - Progress: 91/263 pending completed
+2025-11-07 19:04:21,058 - INFO - Row 117 completed
+2025-11-07 19:04:21,058 - INFO - Processing 121/288
+2025-11-07 19:04:21,065 - INFO - Saved answer 117 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:04:21,065 - INFO - Progress: 92/263 pending completed
+2025-11-07 19:04:55,385 - INFO - Row 118 completed
+2025-11-07 19:04:55,385 - INFO - Processing 122/288
+2025-11-07 19:04:55,392 - INFO - Saved answer 118 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:04:55,392 - INFO - Progress: 93/263 pending completed
+2025-11-07 19:05:16,501 - INFO - Row 119 completed
+2025-11-07 19:05:16,501 - INFO - Processing 123/288
+2025-11-07 19:05:16,509 - INFO - Saved answer 119 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:05:16,509 - INFO - Progress: 94/263 pending completed
+2025-11-07 19:05:49,149 - INFO - Row 120 completed
+2025-11-07 19:05:49,149 - INFO - Processing 124/288
+2025-11-07 19:05:49,156 - INFO - Saved answer 120 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:05:49,156 - INFO - Progress: 95/263 pending completed
+2025-11-07 19:06:21,070 - INFO - Row 121 completed
+2025-11-07 19:06:21,070 - INFO - Processing 125/288
+2025-11-07 19:06:21,076 - INFO - Saved answer 121 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:06:21,077 - INFO - Progress: 96/263 pending completed
+2025-11-07 19:06:49,835 - INFO - Row 122 completed
+2025-11-07 19:06:49,836 - INFO - Processing 126/288
+2025-11-07 19:06:49,841 - INFO - Saved answer 122 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:06:49,842 - INFO - Progress: 97/263 pending completed
+2025-11-07 19:07:18,221 - INFO - Row 123 completed
+2025-11-07 19:07:18,222 - INFO - Processing 127/288
+2025-11-07 19:07:18,228 - INFO - Saved answer 123 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:07:18,228 - INFO - Progress: 98/263 pending completed
+2025-11-07 19:07:46,789 - INFO - Row 124 completed
+2025-11-07 19:07:46,789 - INFO - Processing 128/288
+2025-11-07 19:07:46,795 - INFO - Saved answer 124 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:07:46,796 - INFO - Progress: 99/263 pending completed
+2025-11-07 19:08:17,020 - INFO - Row 125 completed
+2025-11-07 19:08:17,021 - INFO - Processing 129/288
+2025-11-07 19:08:17,026 - INFO - Saved answer 125 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:08:17,027 - INFO - Progress: 100/263 pending completed
+2025-11-07 19:08:46,560 - INFO - Row 126 completed
+2025-11-07 19:08:46,561 - INFO - Processing 130/288
+2025-11-07 19:08:46,568 - INFO - Saved answer 126 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:08:46,568 - INFO - Progress: 101/263 pending completed
+2025-11-07 19:09:19,753 - INFO - Row 127 completed
+2025-11-07 19:09:19,753 - INFO - Processing 131/288
+2025-11-07 19:09:19,760 - INFO - Saved answer 127 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:09:19,760 - INFO - Progress: 102/263 pending completed
+2025-11-07 19:10:21,044 - INFO - Row 129 completed
+2025-11-07 19:10:21,045 - INFO - Processing 132/288
+2025-11-07 19:10:21,051 - INFO - Saved answer 129 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:10:21,051 - INFO - Progress: 103/263 pending completed
+2025-11-07 19:10:24,689 - INFO - Row 128 completed
+2025-11-07 19:10:24,689 - INFO - Processing 133/288
+2025-11-07 19:10:24,696 - INFO - Saved answer 128 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:10:24,696 - INFO - Progress: 104/263 pending completed
+2025-11-07 19:10:48,159 - INFO - Row 130 completed
+2025-11-07 19:10:48,159 - INFO - Processing 134/288
+2025-11-07 19:10:48,166 - INFO - Saved answer 130 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:10:48,166 - INFO - Progress: 105/263 pending completed
+2025-11-07 19:11:18,642 - INFO - Row 131 completed
+2025-11-07 19:11:18,643 - INFO - Processing 135/288
+2025-11-07 19:11:18,649 - INFO - Saved answer 131 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:11:18,649 - INFO - Progress: 106/263 pending completed
+2025-11-07 19:11:55,475 - INFO - Row 132 completed
+2025-11-07 19:11:55,475 - INFO - Processing 136/288
+2025-11-07 19:11:55,482 - INFO - Saved answer 132 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:11:55,482 - INFO - Progress: 107/263 pending completed
+2025-11-07 19:12:18,743 - INFO - Row 133 completed
+2025-11-07 19:12:18,744 - INFO - Processing 137/288
+2025-11-07 19:12:18,750 - INFO - Saved answer 133 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:12:18,750 - INFO - Progress: 108/263 pending completed
+2025-11-07 19:12:45,638 - INFO - Row 134 completed
+2025-11-07 19:12:45,639 - INFO - Processing 138/288
+2025-11-07 19:12:45,646 - INFO - Saved answer 134 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:12:45,646 - INFO - Progress: 109/263 pending completed
+2025-11-07 19:13:18,403 - INFO - Row 135 completed
+2025-11-07 19:13:18,403 - INFO - Processing 139/288
+2025-11-07 19:13:18,409 - INFO - Saved answer 135 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:13:18,409 - INFO - Progress: 110/263 pending completed
+2025-11-07 19:13:59,984 - INFO - Row 136 completed
+2025-11-07 19:13:59,985 - INFO - Processing 140/288
+2025-11-07 19:13:59,991 - INFO - Saved answer 136 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:13:59,992 - INFO - Progress: 111/263 pending completed
+2025-11-07 19:14:20,122 - INFO - Row 137 completed
+2025-11-07 19:14:20,122 - INFO - Processing 141/288
+2025-11-07 19:14:20,129 - INFO - Saved answer 137 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:14:20,129 - INFO - Progress: 112/263 pending completed
+2025-11-07 19:14:48,443 - INFO - Row 138 completed
+2025-11-07 19:14:48,443 - INFO - Processing 142/288
+2025-11-07 19:14:48,450 - INFO - Saved answer 138 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:14:48,450 - INFO - Progress: 113/263 pending completed
+2025-11-07 19:15:20,182 - INFO - Row 139 completed
+2025-11-07 19:15:20,182 - INFO - Processing 143/288
+2025-11-07 19:15:20,188 - INFO - Saved answer 139 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:15:20,189 - INFO - Progress: 114/263 pending completed
+2025-11-07 19:15:54,107 - INFO - Row 140 completed
+2025-11-07 19:15:54,107 - INFO - Processing 144/288
+2025-11-07 19:15:54,115 - INFO - Saved answer 140 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:15:54,115 - INFO - Progress: 115/263 pending completed
+2025-11-07 19:16:18,860 - INFO - Row 141 completed
+2025-11-07 19:16:18,861 - INFO - Processing 145/288
+2025-11-07 19:16:18,867 - INFO - Saved answer 141 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:16:18,868 - INFO - Progress: 116/263 pending completed
+2025-11-07 19:16:51,777 - INFO - Row 142 completed
+2025-11-07 19:16:51,777 - INFO - Processing 146/288
+2025-11-07 19:16:51,784 - INFO - Saved answer 142 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:16:51,784 - INFO - Progress: 117/263 pending completed
+2025-11-07 19:17:18,933 - INFO - Row 143 completed
+2025-11-07 19:17:18,933 - INFO - Processing 147/288
+2025-11-07 19:17:18,940 - INFO - Saved answer 143 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:17:18,940 - INFO - Progress: 118/263 pending completed
+2025-11-07 19:17:48,931 - INFO - Row 144 completed
+2025-11-07 19:17:48,932 - INFO - Processing 148/288
+2025-11-07 19:17:48,938 - INFO - Saved answer 144 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:17:48,939 - INFO - Progress: 119/263 pending completed
+2025-11-07 19:18:20,801 - INFO - Row 145 completed
+2025-11-07 19:18:20,801 - INFO - Processing 149/288
+2025-11-07 19:18:20,808 - INFO - Saved answer 145 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:18:20,809 - INFO - Progress: 120/263 pending completed
+2025-11-07 19:19:03,498 - INFO - Row 146 completed
+2025-11-07 19:19:03,498 - INFO - Processing 150/288
+2025-11-07 19:19:03,505 - INFO - Saved answer 146 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:19:03,505 - INFO - Progress: 121/263 pending completed
+2025-11-07 19:19:19,249 - INFO - Row 147 completed
+2025-11-07 19:19:19,249 - INFO - Processing 151/288
+2025-11-07 19:19:19,256 - INFO - Saved answer 147 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:19:19,256 - INFO - Progress: 122/263 pending completed
+2025-11-07 19:19:46,160 - INFO - Row 148 completed
+2025-11-07 19:19:46,160 - INFO - Processing 152/288
+2025-11-07 19:19:46,167 - INFO - Saved answer 148 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:19:46,167 - INFO - Progress: 123/263 pending completed
+2025-11-07 19:20:24,441 - INFO - Row 149 completed
+2025-11-07 19:20:24,441 - INFO - Processing 153/288
+2025-11-07 19:20:24,448 - INFO - Saved answer 149 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:20:24,448 - INFO - Progress: 124/263 pending completed
+2025-11-07 19:20:51,061 - INFO - Row 150 completed
+2025-11-07 19:20:51,061 - INFO - Processing 154/288
+2025-11-07 19:20:51,068 - INFO - Saved answer 150 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:20:51,068 - INFO - Progress: 125/263 pending completed
+2025-11-07 19:21:24,396 - INFO - Row 151 completed
+2025-11-07 19:21:24,396 - INFO - Processing 155/288
+2025-11-07 19:21:24,403 - INFO - Saved answer 151 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:21:24,403 - INFO - Progress: 126/263 pending completed
+2025-11-07 19:21:50,943 - INFO - Row 152 completed
+2025-11-07 19:21:50,943 - INFO - Processing 156/288
+2025-11-07 19:21:50,951 - INFO - Saved answer 152 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:21:50,951 - INFO - Progress: 127/263 pending completed
+2025-11-07 19:22:20,699 - INFO - Row 153 completed
+2025-11-07 19:22:20,699 - INFO - Processing 157/288
+2025-11-07 19:22:20,706 - INFO - Saved answer 153 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:22:20,706 - INFO - Progress: 128/263 pending completed
+2025-11-07 19:22:53,272 - INFO - Row 154 completed
+2025-11-07 19:22:53,272 - INFO - Processing 158/288
+2025-11-07 19:22:53,279 - INFO - Saved answer 154 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:22:53,279 - INFO - Progress: 129/263 pending completed
+2025-11-07 19:23:19,160 - INFO - Row 155 completed
+2025-11-07 19:23:19,161 - INFO - Processing 159/288
+2025-11-07 19:23:19,167 - INFO - Saved answer 155 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:23:19,167 - INFO - Progress: 130/263 pending completed
+2025-11-07 19:23:46,127 - INFO - Row 156 completed
+2025-11-07 19:23:46,128 - INFO - Processing 160/288
+2025-11-07 19:23:46,135 - INFO - Saved answer 156 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:23:46,135 - INFO - Progress: 131/263 pending completed
+2025-11-07 19:24:22,481 - INFO - Row 157 completed
+2025-11-07 19:24:22,481 - INFO - Processing 161/288
+2025-11-07 19:24:22,488 - INFO - Saved answer 157 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:24:22,488 - INFO - Progress: 132/263 pending completed
+2025-11-07 19:24:52,928 - INFO - Row 158 completed
+2025-11-07 19:24:52,928 - INFO - Processing 162/288
+2025-11-07 19:24:52,935 - INFO - Saved answer 158 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:24:52,936 - INFO - Progress: 133/263 pending completed
+2025-11-07 19:25:33,786 - INFO - Row 159 completed
+2025-11-07 19:25:33,786 - INFO - Processing 163/288
+2025-11-07 19:25:33,793 - INFO - Saved answer 159 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:25:33,793 - INFO - Progress: 134/263 pending completed
+2025-11-07 19:25:50,425 - INFO - Row 160 completed
+2025-11-07 19:25:50,426 - INFO - Processing 164/288
+2025-11-07 19:25:50,433 - INFO - Saved answer 160 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:25:50,433 - INFO - Progress: 135/263 pending completed
+2025-11-07 19:26:16,530 - INFO - Row 161 completed
+2025-11-07 19:26:16,530 - INFO - Processing 165/288
+2025-11-07 19:26:16,537 - INFO - Saved answer 161 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:26:16,537 - INFO - Progress: 136/263 pending completed
+2025-11-07 19:26:49,537 - INFO - Row 162 completed
+2025-11-07 19:26:49,538 - INFO - Processing 166/288
+2025-11-07 19:26:49,545 - INFO - Saved answer 162 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:26:49,545 - INFO - Progress: 137/263 pending completed
+2025-11-07 19:27:17,260 - INFO - Row 163 completed
+2025-11-07 19:27:17,261 - INFO - Processing 167/288
+2025-11-07 19:27:17,268 - INFO - Saved answer 163 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:27:17,268 - INFO - Progress: 138/263 pending completed
+2025-11-07 19:28:10,381 - INFO - Row 164 completed
+2025-11-07 19:28:10,381 - INFO - Processing 168/288
+2025-11-07 19:28:10,388 - INFO - Saved answer 164 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:28:10,388 - INFO - Progress: 139/263 pending completed
+2025-11-07 19:28:17,729 - INFO - Row 165 completed
+2025-11-07 19:28:17,729 - INFO - Processing 169/288
+2025-11-07 19:28:17,739 - INFO - Saved answer 165 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:28:17,739 - INFO - Progress: 140/263 pending completed
+2025-11-07 19:28:49,599 - INFO - Row 166 completed
+2025-11-07 19:28:49,599 - INFO - Processing 170/288
+2025-11-07 19:28:49,607 - INFO - Saved answer 166 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:28:49,607 - INFO - Progress: 141/263 pending completed
+2025-11-07 19:29:22,642 - INFO - Row 167 completed
+2025-11-07 19:29:22,643 - INFO - Processing 171/288
+2025-11-07 19:29:22,650 - INFO - Saved answer 167 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:29:22,650 - INFO - Progress: 142/263 pending completed
+2025-11-07 19:29:47,884 - INFO - Row 168 completed
+2025-11-07 19:29:47,884 - INFO - Processing 172/288
+2025-11-07 19:29:47,892 - INFO - Saved answer 168 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:29:47,892 - INFO - Progress: 143/263 pending completed
+2025-11-07 19:30:17,106 - INFO - Row 169 completed
+2025-11-07 19:30:17,106 - INFO - Processing 173/288
+2025-11-07 19:30:17,114 - INFO - Saved answer 169 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:30:17,114 - INFO - Progress: 144/263 pending completed
+2025-11-07 19:30:47,798 - INFO - Row 170 completed
+2025-11-07 19:30:47,799 - INFO - Processing 174/288
+2025-11-07 19:30:47,806 - INFO - Saved answer 170 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:30:47,807 - INFO - Progress: 145/263 pending completed
+2025-11-07 19:31:18,317 - INFO - Row 171 completed
+2025-11-07 19:31:18,317 - INFO - Processing 175/288
+2025-11-07 19:31:18,324 - INFO - Saved answer 171 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:31:18,324 - INFO - Progress: 146/263 pending completed
+2025-11-07 19:32:18,977 - INFO - Row 172 completed
+2025-11-07 19:32:18,977 - INFO - Processing 176/288
+2025-11-07 19:32:18,984 - INFO - Saved answer 172 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:32:18,985 - INFO - Progress: 147/263 pending completed
+2025-11-07 19:32:19,849 - INFO - Row 173 completed
+2025-11-07 19:32:19,849 - INFO - Processing 177/288
+2025-11-07 19:32:19,856 - INFO - Saved answer 173 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:32:19,856 - INFO - Progress: 148/263 pending completed
+2025-11-07 19:33:00,286 - INFO - Row 174 completed
+2025-11-07 19:33:00,287 - INFO - Processing 178/288
+2025-11-07 19:33:00,294 - INFO - Saved answer 174 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:33:00,294 - INFO - Progress: 149/263 pending completed
+2025-11-07 19:33:20,909 - INFO - Row 175 completed
+2025-11-07 19:33:20,910 - INFO - Processing 179/288
+2025-11-07 19:33:20,917 - INFO - Saved answer 175 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:33:20,917 - INFO - Progress: 150/263 pending completed
+2025-11-07 19:33:49,799 - INFO - Row 176 completed
+2025-11-07 19:33:49,799 - INFO - Processing 180/288
+2025-11-07 19:33:49,806 - INFO - Saved answer 176 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:33:49,806 - INFO - Progress: 151/263 pending completed
+2025-11-07 19:34:21,117 - INFO - Row 177 completed
+2025-11-07 19:34:21,117 - INFO - Processing 181/288
+2025-11-07 19:34:21,124 - INFO - Saved answer 177 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:34:21,125 - INFO - Progress: 152/263 pending completed
+2025-11-07 19:34:48,365 - INFO - Row 178 completed
+2025-11-07 19:34:48,366 - INFO - Processing 182/288
+2025-11-07 19:34:48,373 - INFO - Saved answer 178 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:34:48,373 - INFO - Progress: 153/263 pending completed
+2025-11-07 19:35:19,126 - INFO - Row 179 completed
+2025-11-07 19:35:19,126 - INFO - Processing 183/288
+2025-11-07 19:35:19,133 - INFO - Saved answer 179 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:35:19,133 - INFO - Progress: 154/263 pending completed
+2025-11-07 19:35:51,204 - INFO - Row 180 completed
+2025-11-07 19:35:51,204 - INFO - Processing 184/288
+2025-11-07 19:35:51,211 - INFO - Saved answer 180 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:35:51,212 - INFO - Progress: 155/263 pending completed
+2025-11-07 19:36:20,369 - INFO - Row 181 completed
+2025-11-07 19:36:20,369 - INFO - Processing 185/288
+2025-11-07 19:36:20,376 - INFO - Saved answer 181 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:36:20,376 - INFO - Progress: 156/263 pending completed
+2025-11-07 19:36:50,654 - INFO - Row 182 completed
+2025-11-07 19:36:50,654 - INFO - Processing 186/288
+2025-11-07 19:36:50,661 - INFO - Saved answer 182 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:36:50,662 - INFO - Progress: 157/263 pending completed
+2025-11-07 19:37:31,553 - INFO - Row 183 completed
+2025-11-07 19:37:31,554 - INFO - Processing 187/288
+2025-11-07 19:37:31,561 - INFO - Saved answer 183 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:37:31,561 - INFO - Progress: 158/263 pending completed
+2025-11-07 19:37:49,902 - INFO - Row 184 completed
+2025-11-07 19:37:49,902 - INFO - Processing 188/288
+2025-11-07 19:37:49,910 - INFO - Saved answer 184 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:37:49,910 - INFO - Progress: 159/263 pending completed
+2025-11-07 19:38:18,314 - INFO - Row 185 completed
+2025-11-07 19:38:18,315 - INFO - Processing 189/288
+2025-11-07 19:38:18,323 - INFO - Saved answer 185 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:38:18,323 - INFO - Progress: 160/263 pending completed
+2025-11-07 19:38:54,328 - INFO - Row 186 completed
+2025-11-07 19:38:54,328 - INFO - Processing 190/288
+2025-11-07 19:38:54,336 - INFO - Saved answer 186 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:38:54,336 - INFO - Progress: 161/263 pending completed
+2025-11-07 19:39:23,044 - INFO - Row 187 completed
+2025-11-07 19:39:23,045 - INFO - Processing 191/288
+2025-11-07 19:39:23,052 - INFO - Saved answer 187 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:39:23,052 - INFO - Progress: 162/263 pending completed
+2025-11-07 19:40:14,364 - INFO - Row 188 completed
+2025-11-07 19:40:14,364 - INFO - Processing 192/288
+2025-11-07 19:40:14,372 - INFO - Saved answer 188 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:40:14,372 - INFO - Progress: 163/263 pending completed
+2025-11-07 19:40:21,888 - INFO - Row 189 completed
+2025-11-07 19:40:21,889 - INFO - Processing 193/288
+2025-11-07 19:40:21,896 - INFO - Saved answer 189 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:40:21,897 - INFO - Progress: 164/263 pending completed
+2025-11-07 19:40:54,427 - INFO - Row 190 completed
+2025-11-07 19:40:54,427 - INFO - Processing 194/288
+2025-11-07 19:40:54,435 - INFO - Saved answer 190 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:40:54,435 - INFO - Progress: 165/263 pending completed
+2025-11-07 19:41:18,460 - INFO - Row 191 completed
+2025-11-07 19:41:18,460 - INFO - Processing 195/288
+2025-11-07 19:41:18,467 - INFO - Saved answer 191 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:41:18,467 - INFO - Progress: 166/263 pending completed
+2025-11-07 19:41:45,873 - INFO - Row 192 completed
+2025-11-07 19:41:45,874 - INFO - Processing 196/288
+2025-11-07 19:41:45,882 - INFO - Saved answer 192 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:41:45,882 - INFO - Progress: 167/263 pending completed
+2025-11-07 19:42:21,118 - INFO - Row 193 completed
+2025-11-07 19:42:21,118 - INFO - Processing 197/288
+2025-11-07 19:42:21,126 - INFO - Saved answer 193 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:42:21,126 - INFO - Progress: 168/263 pending completed
+2025-11-07 19:42:49,384 - INFO - Row 194 completed
+2025-11-07 19:42:49,385 - INFO - Processing 198/288
+2025-11-07 19:42:49,393 - INFO - Saved answer 194 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:42:49,393 - INFO - Progress: 169/263 pending completed
+2025-11-07 19:43:25,996 - INFO - Row 195 completed
+2025-11-07 19:43:25,996 - INFO - Processing 199/288
+2025-11-07 19:43:26,003 - INFO - Saved answer 195 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:43:26,004 - INFO - Progress: 170/263 pending completed
+2025-11-07 19:43:51,093 - INFO - Row 196 completed
+2025-11-07 19:43:51,093 - INFO - Processing 200/288
+2025-11-07 19:43:51,101 - INFO - Saved answer 196 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:43:51,101 - INFO - Progress: 171/263 pending completed
+2025-11-07 19:44:31,924 - INFO - Row 197 completed
+2025-11-07 19:44:31,924 - INFO - Processing 201/288
+2025-11-07 19:44:31,931 - INFO - Saved answer 197 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:44:31,932 - INFO - Progress: 172/263 pending completed
+2025-11-07 19:44:56,428 - INFO - Row 198 completed
+2025-11-07 19:44:56,429 - INFO - Processing 202/288
+2025-11-07 19:44:56,437 - INFO - Saved answer 198 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:44:56,437 - INFO - Progress: 173/263 pending completed
+2025-11-07 19:45:28,645 - INFO - Row 199 completed
+2025-11-07 19:45:28,645 - INFO - Processing 203/288
+2025-11-07 19:45:28,653 - INFO - Saved answer 199 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:45:28,653 - INFO - Progress: 174/263 pending completed
+2025-11-07 19:46:01,803 - INFO - Row 200 completed
+2025-11-07 19:46:01,803 - INFO - Processing 204/288
+2025-11-07 19:46:01,811 - INFO - Saved answer 200 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:46:01,811 - INFO - Progress: 175/263 pending completed
+2025-11-07 19:46:33,236 - INFO - Row 201 completed
+2025-11-07 19:46:33,236 - INFO - Processing 205/288
+2025-11-07 19:46:33,244 - INFO - Saved answer 201 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:46:33,244 - INFO - Progress: 176/263 pending completed
+2025-11-07 19:46:53,275 - INFO - Row 202 completed
+2025-11-07 19:46:53,276 - INFO - Processing 206/288
+2025-11-07 19:46:53,284 - INFO - Saved answer 202 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:46:53,284 - INFO - Progress: 177/263 pending completed
+2025-11-07 19:47:17,516 - INFO - Row 203 completed
+2025-11-07 19:47:17,516 - INFO - Processing 207/288
+2025-11-07 19:47:17,525 - INFO - Saved answer 203 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:47:17,525 - INFO - Progress: 178/263 pending completed
+2025-11-07 19:47:59,616 - INFO - Row 204 completed
+2025-11-07 19:47:59,616 - INFO - Processing 208/288
+2025-11-07 19:47:59,623 - INFO - Saved answer 204 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:47:59,624 - INFO - Progress: 179/263 pending completed
+2025-11-07 19:48:18,447 - INFO - Row 205 completed
+2025-11-07 19:48:18,448 - INFO - Processing 209/288
+2025-11-07 19:48:18,455 - INFO - Saved answer 205 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:48:18,456 - INFO - Progress: 180/263 pending completed
+2025-11-07 19:48:54,337 - INFO - Row 206 completed
+2025-11-07 19:48:54,337 - INFO - Processing 210/288
+2025-11-07 19:48:54,345 - INFO - Saved answer 206 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:48:54,346 - INFO - Progress: 181/263 pending completed
+2025-11-07 19:49:20,334 - INFO - Row 207 completed
+2025-11-07 19:49:20,334 - INFO - Processing 211/288
+2025-11-07 19:49:20,342 - INFO - Saved answer 207 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:49:20,342 - INFO - Progress: 182/263 pending completed
+2025-11-07 19:49:48,929 - INFO - Row 208 completed
+2025-11-07 19:49:48,929 - INFO - Processing 212/288
+2025-11-07 19:49:48,937 - INFO - Saved answer 208 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:49:48,937 - INFO - Progress: 183/263 pending completed
+2025-11-07 19:50:15,104 - INFO - Row 209 completed
+2025-11-07 19:50:15,104 - INFO - Processing 213/288
+2025-11-07 19:50:15,113 - INFO - Saved answer 209 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:50:15,113 - INFO - Progress: 184/263 pending completed
+2025-11-07 19:50:45,660 - INFO - Row 210 completed
+2025-11-07 19:50:45,660 - INFO - Processing 214/288
+2025-11-07 19:50:45,668 - INFO - Saved answer 210 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:50:45,668 - INFO - Progress: 185/263 pending completed
+2025-11-07 19:51:22,247 - INFO - Row 211 completed
+2025-11-07 19:51:22,247 - INFO - Processing 215/288
+2025-11-07 19:51:22,255 - INFO - Saved answer 211 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:51:22,255 - INFO - Progress: 186/263 pending completed
+2025-11-07 19:51:52,604 - INFO - Row 212 completed
+2025-11-07 19:51:52,604 - INFO - Processing 216/288
+2025-11-07 19:51:52,612 - INFO - Saved answer 212 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:51:52,612 - INFO - Progress: 187/263 pending completed
+2025-11-07 19:52:23,444 - INFO - Row 213 completed
+2025-11-07 19:52:23,444 - INFO - Processing 217/288
+2025-11-07 19:52:23,452 - INFO - Saved answer 213 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:52:23,452 - INFO - Progress: 188/263 pending completed
+2025-11-07 19:52:50,259 - INFO - Row 214 completed
+2025-11-07 19:52:50,259 - INFO - Processing 218/288
+2025-11-07 19:52:50,267 - INFO - Saved answer 214 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:52:50,267 - INFO - Progress: 189/263 pending completed
+2025-11-07 19:53:17,462 - INFO - Row 215 completed
+2025-11-07 19:53:17,462 - INFO - Processing 219/288
+2025-11-07 19:53:17,470 - INFO - Saved answer 215 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:53:17,470 - INFO - Progress: 190/263 pending completed
+2025-11-07 19:53:50,221 - INFO - Row 216 completed
+2025-11-07 19:53:50,222 - INFO - Processing 220/288
+2025-11-07 19:53:50,230 - INFO - Saved answer 216 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:53:50,230 - INFO - Progress: 191/263 pending completed
+2025-11-07 19:54:23,407 - INFO - Row 217 completed
+2025-11-07 19:54:23,407 - INFO - Processing 221/288
+2025-11-07 19:54:23,416 - INFO - Saved answer 217 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:54:23,416 - INFO - Progress: 192/263 pending completed
+2025-11-07 19:54:51,120 - INFO - Row 218 completed
+2025-11-07 19:54:51,121 - INFO - Processing 222/288
+2025-11-07 19:54:51,129 - INFO - Saved answer 218 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:54:51,129 - INFO - Progress: 193/263 pending completed
+2025-11-07 19:55:24,250 - INFO - Row 219 completed
+2025-11-07 19:55:24,250 - INFO - Processing 223/288
+2025-11-07 19:55:24,258 - INFO - Saved answer 219 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:55:24,258 - INFO - Progress: 194/263 pending completed
+2025-11-07 19:55:50,892 - INFO - Row 220 completed
+2025-11-07 19:55:50,892 - INFO - Processing 224/288
+2025-11-07 19:55:50,899 - INFO - Saved answer 220 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:55:50,900 - INFO - Progress: 195/263 pending completed
+2025-11-07 19:56:20,573 - INFO - Row 221 completed
+2025-11-07 19:56:20,573 - INFO - Processing 225/288
+2025-11-07 19:56:20,582 - INFO - Saved answer 221 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:56:20,582 - INFO - Progress: 196/263 pending completed
+2025-11-07 19:56:56,720 - INFO - Row 222 completed
+2025-11-07 19:56:56,720 - INFO - Processing 226/288
+2025-11-07 19:56:56,729 - INFO - Saved answer 222 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:56:56,729 - INFO - Progress: 197/263 pending completed
+2025-11-07 19:57:34,974 - INFO - Row 223 completed
+2025-11-07 19:57:34,974 - INFO - Processing 227/288
+2025-11-07 19:57:34,982 - INFO - Saved answer 223 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:57:34,982 - INFO - Progress: 198/263 pending completed
+2025-11-07 19:57:56,523 - INFO - Row 224 completed
+2025-11-07 19:57:56,523 - INFO - Processing 228/288
+2025-11-07 19:57:56,532 - INFO - Saved answer 224 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:57:56,532 - INFO - Progress: 199/263 pending completed
+2025-11-07 19:58:22,551 - INFO - Row 225 completed
+2025-11-07 19:58:22,551 - INFO - Processing 229/288
+2025-11-07 19:58:22,559 - INFO - Saved answer 225 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:58:22,559 - INFO - Progress: 200/263 pending completed
+2025-11-07 19:58:48,124 - INFO - Row 226 completed
+2025-11-07 19:58:48,125 - INFO - Processing 230/288
+2025-11-07 19:58:48,132 - INFO - Saved answer 226 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:58:48,133 - INFO - Progress: 201/263 pending completed
+2025-11-07 19:59:22,605 - INFO - Row 227 completed
+2025-11-07 19:59:22,605 - INFO - Processing 231/288
+2025-11-07 19:59:22,613 - INFO - Saved answer 227 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:59:22,613 - INFO - Progress: 202/263 pending completed
+2025-11-07 19:59:57,257 - INFO - Row 228 completed
+2025-11-07 19:59:57,257 - INFO - Processing 232/288
+2025-11-07 19:59:57,265 - INFO - Saved answer 228 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 19:59:57,266 - INFO - Progress: 203/263 pending completed
+2025-11-07 20:00:23,211 - INFO - Row 229 completed
+2025-11-07 20:00:23,212 - INFO - Processing 233/288
+2025-11-07 20:00:23,220 - INFO - Saved answer 229 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:00:23,220 - INFO - Progress: 204/263 pending completed
+2025-11-07 20:00:58,910 - INFO - Row 230 completed
+2025-11-07 20:00:58,911 - INFO - Processing 234/288
+2025-11-07 20:00:58,918 - INFO - Saved answer 230 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:00:58,918 - INFO - Progress: 205/263 pending completed
+2025-11-07 20:01:19,429 - INFO - Row 231 completed
+2025-11-07 20:01:19,429 - INFO - Processing 235/288
+2025-11-07 20:01:19,438 - INFO - Saved answer 231 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:01:19,438 - INFO - Progress: 206/263 pending completed
+2025-11-07 20:01:48,611 - INFO - Row 232 completed
+2025-11-07 20:01:48,611 - INFO - Processing 236/288
+2025-11-07 20:01:48,619 - INFO - Saved answer 232 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:01:48,619 - INFO - Progress: 207/263 pending completed
+2025-11-07 20:02:17,924 - INFO - Row 233 completed
+2025-11-07 20:02:17,924 - INFO - Processing 237/288
+2025-11-07 20:02:17,936 - INFO - Saved answer 233 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:02:17,936 - INFO - Progress: 208/263 pending completed
+2025-11-07 20:03:01,937 - INFO - Row 234 completed
+2025-11-07 20:03:01,937 - INFO - Processing 238/288
+2025-11-07 20:03:01,946 - INFO - Saved answer 234 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:03:01,946 - INFO - Progress: 209/263 pending completed
+2025-11-07 20:03:19,297 - INFO - Row 235 completed
+2025-11-07 20:03:19,297 - INFO - Processing 239/288
+2025-11-07 20:03:19,306 - INFO - Saved answer 235 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:03:19,306 - INFO - Progress: 210/263 pending completed
+2025-11-07 20:03:50,238 - INFO - Row 236 completed
+2025-11-07 20:03:50,238 - INFO - Processing 240/288
+2025-11-07 20:03:50,247 - INFO - Saved answer 236 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:03:50,247 - INFO - Progress: 211/263 pending completed
+2025-11-07 20:04:27,868 - INFO - Row 237 completed
+2025-11-07 20:04:27,869 - INFO - Processing 241/288
+2025-11-07 20:04:27,878 - INFO - Saved answer 237 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:04:27,879 - INFO - Progress: 212/263 pending completed
+2025-11-07 20:04:50,524 - INFO - Row 238 completed
+2025-11-07 20:04:50,524 - INFO - Processing 242/288
+2025-11-07 20:04:50,533 - INFO - Saved answer 238 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:04:50,533 - INFO - Progress: 213/263 pending completed
+2025-11-07 20:05:19,351 - INFO - Row 239 completed
+2025-11-07 20:05:19,351 - INFO - Processing 243/288
+2025-11-07 20:05:19,359 - INFO - Saved answer 239 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:05:19,359 - INFO - Progress: 214/263 pending completed
+2025-11-07 20:05:47,799 - INFO - Row 240 completed
+2025-11-07 20:05:47,799 - INFO - Processing 244/288
+2025-11-07 20:05:47,807 - INFO - Saved answer 240 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:05:47,807 - INFO - Progress: 215/263 pending completed
+2025-11-07 20:06:24,247 - INFO - Row 241 completed
+2025-11-07 20:06:24,247 - INFO - Processing 245/288
+2025-11-07 20:06:24,256 - INFO - Saved answer 241 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:06:24,256 - INFO - Progress: 216/263 pending completed
+2025-11-07 20:06:53,741 - INFO - Row 242 completed
+2025-11-07 20:06:53,741 - INFO - Processing 246/288
+2025-11-07 20:06:53,750 - INFO - Saved answer 242 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:06:53,751 - INFO - Progress: 217/263 pending completed
+2025-11-07 20:07:26,899 - INFO - Row 243 completed
+2025-11-07 20:07:26,899 - INFO - Processing 247/288
+2025-11-07 20:07:26,907 - INFO - Saved answer 243 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:07:26,908 - INFO - Progress: 218/263 pending completed
+2025-11-07 20:07:46,406 - INFO - Row 244 completed
+2025-11-07 20:07:46,406 - INFO - Processing 248/288
+2025-11-07 20:07:46,414 - INFO - Saved answer 244 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:07:46,414 - INFO - Progress: 219/263 pending completed
+2025-11-07 20:08:21,877 - INFO - Row 245 completed
+2025-11-07 20:08:21,877 - INFO - Processing 249/288
+2025-11-07 20:08:21,886 - INFO - Saved answer 245 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:08:21,886 - INFO - Progress: 220/263 pending completed
+2025-11-07 20:08:47,443 - INFO - Row 246 completed
+2025-11-07 20:08:47,443 - INFO - Processing 250/288
+2025-11-07 20:08:47,452 - INFO - Saved answer 246 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:08:47,452 - INFO - Progress: 221/263 pending completed
+2025-11-07 20:09:17,910 - INFO - Row 247 completed
+2025-11-07 20:09:17,910 - INFO - Processing 251/288
+2025-11-07 20:09:17,918 - INFO - Saved answer 247 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:09:17,918 - INFO - Progress: 222/263 pending completed
+2025-11-07 20:09:49,708 - INFO - Row 248 completed
+2025-11-07 20:09:49,708 - INFO - Processing 252/288
+2025-11-07 20:09:49,716 - INFO - Saved answer 248 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:09:49,716 - INFO - Progress: 223/263 pending completed
+2025-11-07 20:10:19,492 - INFO - Row 249 completed
+2025-11-07 20:10:19,492 - INFO - Processing 253/288
+2025-11-07 20:10:19,501 - INFO - Saved answer 249 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:10:19,501 - INFO - Progress: 224/263 pending completed
+2025-11-07 20:10:50,939 - INFO - Row 250 completed
+2025-11-07 20:10:50,939 - INFO - Processing 254/288
+2025-11-07 20:10:50,948 - INFO - Saved answer 250 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:10:50,948 - INFO - Progress: 225/263 pending completed
+2025-11-07 20:11:16,947 - INFO - Row 251 completed
+2025-11-07 20:11:16,948 - INFO - Processing 255/288
+2025-11-07 20:11:16,957 - INFO - Saved answer 251 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:11:16,957 - INFO - Progress: 226/263 pending completed
+2025-11-07 20:11:48,877 - INFO - Row 252 completed
+2025-11-07 20:11:48,877 - INFO - Processing 256/288
+2025-11-07 20:11:48,885 - INFO - Saved answer 252 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:11:48,885 - INFO - Progress: 227/263 pending completed
+2025-11-07 20:12:18,335 - INFO - Row 253 completed
+2025-11-07 20:12:18,335 - INFO - Processing 257/288
+2025-11-07 20:12:18,343 - INFO - Saved answer 253 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:12:18,344 - INFO - Progress: 228/263 pending completed
+2025-11-07 20:12:48,683 - INFO - Row 254 completed
+2025-11-07 20:12:48,683 - INFO - Processing 258/288
+2025-11-07 20:12:48,692 - INFO - Saved answer 254 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:12:48,692 - INFO - Progress: 229/263 pending completed
+2025-11-07 20:13:26,188 - INFO - Row 255 completed
+2025-11-07 20:13:26,188 - INFO - Processing 259/288
+2025-11-07 20:13:26,197 - INFO - Saved answer 255 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:13:26,197 - INFO - Progress: 230/263 pending completed
+2025-11-07 20:13:47,370 - INFO - Row 256 completed
+2025-11-07 20:13:47,370 - INFO - Processing 260/288
+2025-11-07 20:13:47,377 - INFO - Saved answer 256 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:13:47,378 - INFO - Progress: 231/263 pending completed
+2025-11-07 20:14:18,727 - INFO - Row 257 completed
+2025-11-07 20:14:18,727 - INFO - Processing 261/288
+2025-11-07 20:14:18,735 - INFO - Saved answer 257 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:14:18,735 - INFO - Progress: 232/263 pending completed
+2025-11-07 20:14:55,613 - INFO - Row 258 completed
+2025-11-07 20:14:55,613 - INFO - Processing 262/288
+2025-11-07 20:14:55,621 - INFO - Saved answer 258 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:14:55,621 - INFO - Progress: 233/263 pending completed
+2025-11-07 20:15:28,424 - INFO - Row 259 completed
+2025-11-07 20:15:28,425 - INFO - Processing 263/288
+2025-11-07 20:15:28,432 - INFO - Saved answer 259 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:15:28,432 - INFO - Progress: 234/263 pending completed
+2025-11-07 20:15:50,455 - INFO - Row 260 completed
+2025-11-07 20:15:50,456 - INFO - Processing 264/288
+2025-11-07 20:15:50,464 - INFO - Saved answer 260 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:15:50,464 - INFO - Progress: 235/263 pending completed
+2025-11-07 20:16:15,351 - INFO - Row 261 completed
+2025-11-07 20:16:15,352 - INFO - Processing 265/288
+2025-11-07 20:16:15,360 - INFO - Saved answer 261 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:16:15,360 - INFO - Progress: 236/263 pending completed
+2025-11-07 20:16:50,966 - INFO - Row 262 completed
+2025-11-07 20:16:50,967 - INFO - Processing 266/288
+2025-11-07 20:16:50,974 - INFO - Saved answer 262 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:16:50,974 - INFO - Progress: 237/263 pending completed
+2025-11-07 20:17:22,891 - INFO - Row 263 completed
+2025-11-07 20:17:22,891 - INFO - Processing 267/288
+2025-11-07 20:17:22,899 - INFO - Saved answer 263 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:17:22,900 - INFO - Progress: 238/263 pending completed
+2025-11-07 20:17:48,541 - INFO - Row 264 completed
+2025-11-07 20:17:48,541 - INFO - Processing 268/288
+2025-11-07 20:17:48,549 - INFO - Saved answer 264 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:17:48,549 - INFO - Progress: 239/263 pending completed
+2025-11-07 20:18:29,941 - INFO - Row 265 completed
+2025-11-07 20:18:29,941 - INFO - Processing 269/288
+2025-11-07 20:18:29,949 - INFO - Saved answer 265 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:18:29,949 - INFO - Progress: 240/263 pending completed
+2025-11-07 20:18:45,993 - INFO - Row 266 completed
+2025-11-07 20:18:45,993 - INFO - Processing 270/288
+2025-11-07 20:18:46,001 - INFO - Saved answer 266 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:18:46,001 - INFO - Progress: 241/263 pending completed
+2025-11-07 20:19:31,321 - INFO - Row 267 completed
+2025-11-07 20:19:31,321 - INFO - Processing 271/288
+2025-11-07 20:19:31,329 - INFO - Saved answer 267 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:19:31,329 - INFO - Progress: 242/263 pending completed
+2025-11-07 20:19:51,675 - INFO - Row 268 completed
+2025-11-07 20:19:51,676 - INFO - Processing 272/288
+2025-11-07 20:19:51,684 - INFO - Saved answer 268 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:19:51,684 - INFO - Progress: 243/263 pending completed
+2025-11-07 20:20:30,696 - INFO - Row 269 completed
+2025-11-07 20:20:30,696 - INFO - Processing 273/288
+2025-11-07 20:20:30,704 - INFO - Saved answer 269 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:20:30,704 - INFO - Progress: 244/263 pending completed
+2025-11-07 20:20:46,078 - INFO - Row 270 completed
+2025-11-07 20:20:46,078 - INFO - Processing 274/288
+2025-11-07 20:20:46,087 - INFO - Saved answer 270 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:20:46,087 - INFO - Progress: 245/263 pending completed
+2025-11-07 20:21:15,908 - INFO - Row 271 completed
+2025-11-07 20:21:15,908 - INFO - Processing 275/288
+2025-11-07 20:21:15,916 - INFO - Saved answer 271 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:21:15,916 - INFO - Progress: 246/263 pending completed
+2025-11-07 20:21:54,722 - INFO - Row 272 completed
+2025-11-07 20:21:54,722 - INFO - Processing 276/288
+2025-11-07 20:21:54,735 - INFO - Saved answer 272 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:21:54,735 - INFO - Progress: 247/263 pending completed
+2025-11-07 20:22:24,312 - INFO - Row 273 completed
+2025-11-07 20:22:24,312 - INFO - Processing 277/288
+2025-11-07 20:22:24,320 - INFO - Saved answer 273 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:22:24,320 - INFO - Progress: 248/263 pending completed
+2025-11-07 20:22:53,776 - INFO - Row 274 completed
+2025-11-07 20:22:53,776 - INFO - Processing 278/288
+2025-11-07 20:22:53,784 - INFO - Saved answer 274 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:22:53,784 - INFO - Progress: 249/263 pending completed
+2025-11-07 20:23:20,859 - INFO - Row 275 completed
+2025-11-07 20:23:20,859 - INFO - Processing 279/288
+2025-11-07 20:23:20,867 - INFO - Saved answer 275 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:23:20,867 - INFO - Progress: 250/263 pending completed
+2025-11-07 20:23:48,091 - INFO - Row 276 completed
+2025-11-07 20:23:48,091 - INFO - Processing 280/288
+2025-11-07 20:23:48,098 - INFO - Saved answer 276 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:23:48,099 - INFO - Progress: 251/263 pending completed
+2025-11-07 20:24:15,962 - INFO - Row 277 completed
+2025-11-07 20:24:15,962 - INFO - Processing 281/288
+2025-11-07 20:24:15,970 - INFO - Saved answer 277 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:24:15,970 - INFO - Progress: 252/263 pending completed
+2025-11-07 20:24:47,216 - INFO - Row 278 completed
+2025-11-07 20:24:47,216 - INFO - Processing 282/288
+2025-11-07 20:24:47,224 - INFO - Saved answer 278 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:24:47,224 - INFO - Progress: 253/263 pending completed
+2025-11-07 20:25:19,727 - INFO - Row 279 completed
+2025-11-07 20:25:19,728 - INFO - Processing 283/288
+2025-11-07 20:25:19,736 - INFO - Saved answer 279 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:25:19,736 - INFO - Progress: 254/263 pending completed
+2025-11-07 20:25:53,885 - INFO - Row 280 completed
+2025-11-07 20:25:53,885 - INFO - Processing 284/288
+2025-11-07 20:25:53,893 - INFO - Saved answer 280 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:25:53,894 - INFO - Progress: 255/263 pending completed
+2025-11-07 20:26:19,279 - INFO - Row 281 completed
+2025-11-07 20:26:19,279 - INFO - Processing 285/288
+2025-11-07 20:26:19,287 - INFO - Saved answer 281 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:26:19,287 - INFO - Progress: 256/263 pending completed
+2025-11-07 20:27:01,021 - INFO - Row 282 completed
+2025-11-07 20:27:01,021 - INFO - Processing 286/288
+2025-11-07 20:27:01,029 - INFO - Saved answer 282 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:27:01,029 - INFO - Progress: 257/263 pending completed
+2025-11-07 20:27:27,765 - INFO - Row 283 completed
+2025-11-07 20:27:27,765 - INFO - Processing 287/288
+2025-11-07 20:27:27,774 - INFO - Saved answer 283 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:27:27,774 - INFO - Progress: 258/263 pending completed
+2025-11-07 20:27:50,977 - INFO - Row 284 completed
+2025-11-07 20:27:50,977 - INFO - Processing 288/288
+2025-11-07 20:27:50,984 - INFO - Saved answer 284 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:27:50,985 - INFO - Progress: 259/263 pending completed
+2025-11-07 20:28:40,146 - INFO - Row 285 completed
+2025-11-07 20:28:40,154 - INFO - Saved answer 285 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:28:40,155 - INFO - Progress: 260/263 pending completed
+2025-11-07 20:28:56,584 - INFO - Row 286 completed
+2025-11-07 20:28:56,604 - INFO - Saved answer 286 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:28:56,604 - INFO - Progress: 261/263 pending completed
+2025-11-07 20:29:23,758 - INFO - Row 287 completed
+2025-11-07 20:29:23,767 - INFO - Saved answer 287 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:29:23,767 - INFO - Progress: 262/263 pending completed
+2025-11-07 20:29:51,405 - INFO - Row 288 completed
+2025-11-07 20:29:51,413 - INFO - Saved answer 288 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 20:29:51,413 - INFO - Progress: 263/263 pending completed
+2025-11-07 20:29:51,416 - INFO - Processing model meta-llama/llama-4-scout:free
+2025-11-07 20:29:51,418 - INFO - Processing 1/288
+2025-11-07 20:29:51,419 - INFO - Processing 2/288
+2025-11-07 20:29:51,419 - INFO - Processing 3/288
+2025-11-07 20:29:51,420 - INFO - Processing 4/288

@@ -1,0 +1,15 @@
+2025-11-07 20:31:47,601 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-07 20:31:47,612 - INFO - Processing model openai/gpt-5
+2025-11-07 20:31:47,616 - INFO - No pending prompts
+2025-11-07 20:31:47,624 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-07 20:31:47,632 - INFO - No pending prompts
+2025-11-07 20:31:47,633 - INFO - Processing model meta-llama/llama-4-scout:free
+2025-11-07 20:31:47,634 - INFO - Processing 1/288
+2025-11-07 20:31:47,635 - INFO - Processing 2/288
+2025-11-07 20:31:47,635 - INFO - Processing 3/288
+2025-11-07 20:31:47,636 - INFO - Processing 4/288
+2025-11-07 20:31:52,358 - INFO - Row 1 completed
+2025-11-07 20:31:52,359 - INFO - Processing 5/288
+2025-11-07 20:31:52,364 - INFO - Saved answer 1 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\meta-llama-llama-4-scout-free_answers.csv
+2025-11-07 20:31:52,364 - INFO - Progress: 1/288 pending completed

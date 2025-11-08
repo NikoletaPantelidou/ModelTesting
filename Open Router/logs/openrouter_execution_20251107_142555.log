@@ -1,0 +1,450 @@
+2025-11-07 14:25:55,231 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-07 14:25:55,243 - INFO - Processing model openai/gpt-5
+2025-11-07 14:25:55,249 - INFO - Processing 19/288
+2025-11-07 14:25:55,249 - INFO - Processing 205/288
+2025-11-07 14:25:55,250 - INFO - Processing 206/288
+2025-11-07 14:25:55,250 - INFO - Processing 207/288
+2025-11-07 14:26:33,565 - INFO - Row 19 completed
+2025-11-07 14:26:33,566 - INFO - Processing 208/288
+2025-11-07 14:26:33,575 - INFO - Saved answer 19 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:26:33,576 - INFO - Progress: 1/85 pending completed
+2025-11-07 14:26:46,412 - INFO - Row 205 completed
+2025-11-07 14:26:46,413 - INFO - Processing 209/288
+2025-11-07 14:26:46,418 - INFO - Saved answer 205 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:26:46,418 - INFO - Progress: 2/85 pending completed
+2025-11-07 14:27:13,359 - INFO - Row 206 completed
+2025-11-07 14:27:13,360 - INFO - Processing 210/288
+2025-11-07 14:27:13,365 - INFO - Saved answer 206 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:27:13,365 - INFO - Progress: 3/85 pending completed
+2025-11-07 14:27:34,779 - INFO - Row 207 completed
+2025-11-07 14:27:34,780 - INFO - Processing 211/288
+2025-11-07 14:27:34,785 - INFO - Saved answer 207 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:27:34,785 - INFO - Progress: 4/85 pending completed
+2025-11-07 14:28:10,081 - INFO - Row 208 completed
+2025-11-07 14:28:10,081 - INFO - Processing 212/288
+2025-11-07 14:28:10,087 - INFO - Saved answer 208 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:28:10,087 - INFO - Progress: 5/85 pending completed
+2025-11-07 14:28:51,840 - INFO - Row 209 completed
+2025-11-07 14:28:51,841 - INFO - Processing 213/288
+2025-11-07 14:28:51,846 - INFO - Saved answer 209 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:28:51,846 - INFO - Progress: 6/85 pending completed
+2025-11-07 14:29:05,932 - INFO - Row 210 completed
+2025-11-07 14:29:05,933 - INFO - Processing 214/288
+2025-11-07 14:29:05,938 - INFO - Saved answer 210 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:29:05,938 - INFO - Progress: 7/85 pending completed
+2025-11-07 14:29:40,004 - INFO - Row 211 completed
+2025-11-07 14:29:40,004 - INFO - Processing 215/288
+2025-11-07 14:29:40,010 - INFO - Saved answer 211 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:29:40,010 - INFO - Progress: 8/85 pending completed
+2025-11-07 14:30:32,233 - INFO - Row 212 completed
+2025-11-07 14:30:32,233 - INFO - Processing 216/288
+2025-11-07 14:30:32,239 - INFO - Saved answer 212 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:30:32,239 - INFO - Progress: 9/85 pending completed
+2025-11-07 14:30:37,695 - INFO - Row 213 completed
+2025-11-07 14:30:37,695 - INFO - Processing 217/288
+2025-11-07 14:30:37,700 - INFO - Saved answer 213 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:30:37,700 - INFO - Progress: 10/85 pending completed
+2025-11-07 14:31:22,527 - INFO - Row 214 completed
+2025-11-07 14:31:22,527 - INFO - Processing 218/288
+2025-11-07 14:31:22,541 - INFO - Saved answer 214 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:31:22,542 - INFO - Progress: 11/85 pending completed
+2025-11-07 14:31:36,411 - INFO - Row 215 completed
+2025-11-07 14:31:36,411 - INFO - Processing 219/288
+2025-11-07 14:31:36,416 - INFO - Saved answer 215 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:31:36,417 - INFO - Progress: 12/85 pending completed
+2025-11-07 14:32:11,108 - INFO - Row 216 completed
+2025-11-07 14:32:11,108 - INFO - Processing 220/288
+2025-11-07 14:32:11,113 - INFO - Saved answer 216 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:32:11,113 - INFO - Progress: 13/85 pending completed
+2025-11-07 14:32:47,764 - INFO - Row 217 completed
+2025-11-07 14:32:47,764 - INFO - Processing 221/288
+2025-11-07 14:32:47,769 - INFO - Saved answer 217 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:32:47,770 - INFO - Progress: 14/85 pending completed
+2025-11-07 14:33:16,366 - INFO - Row 218 completed
+2025-11-07 14:33:16,367 - INFO - Processing 222/288
+2025-11-07 14:33:16,372 - INFO - Saved answer 218 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:33:16,372 - INFO - Progress: 15/85 pending completed
+2025-11-07 14:33:46,496 - INFO - Row 219 completed
+2025-11-07 14:33:46,497 - INFO - Processing 223/288
+2025-11-07 14:33:46,501 - INFO - Saved answer 219 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:33:46,501 - INFO - Progress: 16/85 pending completed
+2025-11-07 14:34:34,787 - INFO - Row 220 completed
+2025-11-07 14:34:34,787 - INFO - Processing 224/288
+2025-11-07 14:34:34,795 - INFO - Saved answer 220 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:34:34,795 - INFO - Progress: 17/85 pending completed
+2025-11-07 14:34:49,808 - INFO - Row 221 completed
+2025-11-07 14:34:49,808 - INFO - Processing 225/288
+2025-11-07 14:34:49,813 - INFO - Saved answer 221 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:34:49,813 - INFO - Progress: 18/85 pending completed
+2025-11-07 14:35:21,179 - INFO - Row 222 completed
+2025-11-07 14:35:21,179 - INFO - Processing 226/288
+2025-11-07 14:35:21,184 - INFO - Saved answer 222 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:35:21,184 - INFO - Progress: 19/85 pending completed
+2025-11-07 14:35:47,044 - INFO - Row 223 completed
+2025-11-07 14:35:47,045 - INFO - Processing 227/288
+2025-11-07 14:35:47,051 - INFO - Saved answer 223 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:35:47,051 - INFO - Progress: 20/85 pending completed
+2025-11-07 14:36:23,777 - INFO - Row 224 completed
+2025-11-07 14:36:23,777 - INFO - Processing 228/288
+2025-11-07 14:36:23,782 - INFO - Saved answer 224 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:36:23,782 - INFO - Progress: 21/85 pending completed
+2025-11-07 14:36:38,691 - INFO - Row 225 completed
+2025-11-07 14:36:38,691 - INFO - Processing 229/288
+2025-11-07 14:36:38,696 - INFO - Saved answer 225 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:36:38,696 - INFO - Progress: 22/85 pending completed
+2025-11-07 14:37:18,831 - INFO - Row 226 completed
+2025-11-07 14:37:18,832 - INFO - Processing 230/288
+2025-11-07 14:37:18,838 - INFO - Saved answer 226 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:37:18,838 - INFO - Progress: 23/85 pending completed
+2025-11-07 14:37:43,747 - INFO - Row 227 completed
+2025-11-07 14:37:43,747 - INFO - Processing 231/288
+2025-11-07 14:37:43,753 - INFO - Saved answer 227 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:37:43,753 - INFO - Progress: 24/85 pending completed
+2025-11-07 14:38:06,726 - INFO - Row 228 completed
+2025-11-07 14:38:06,726 - INFO - Processing 232/288
+2025-11-07 14:38:06,732 - INFO - Saved answer 228 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:38:06,732 - INFO - Progress: 25/85 pending completed
+2025-11-07 14:38:38,236 - INFO - Row 229 completed
+2025-11-07 14:38:38,237 - INFO - Processing 233/288
+2025-11-07 14:38:38,242 - INFO - Saved answer 229 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:38:38,242 - INFO - Progress: 26/85 pending completed
+2025-11-07 14:39:20,812 - INFO - Row 230 completed
+2025-11-07 14:39:20,813 - INFO - Processing 234/288
+2025-11-07 14:39:20,818 - INFO - Saved answer 230 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:39:20,818 - INFO - Progress: 27/85 pending completed
+2025-11-07 14:39:36,791 - INFO - Row 231 completed
+2025-11-07 14:39:36,791 - INFO - Processing 235/288
+2025-11-07 14:39:36,796 - INFO - Saved answer 231 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:39:36,796 - INFO - Progress: 28/85 pending completed
+2025-11-07 14:40:21,614 - INFO - Row 232 completed
+2025-11-07 14:40:21,614 - INFO - Processing 236/288
+2025-11-07 14:40:21,619 - INFO - Saved answer 232 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:40:21,619 - INFO - Progress: 29/85 pending completed
+2025-11-07 14:40:44,357 - INFO - Row 233 completed
+2025-11-07 14:40:44,357 - INFO - Processing 237/288
+2025-11-07 14:40:44,363 - INFO - Saved answer 233 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:40:44,363 - INFO - Progress: 30/85 pending completed
+2025-11-07 14:41:05,525 - INFO - Row 234 completed
+2025-11-07 14:41:05,525 - INFO - Processing 238/288
+2025-11-07 14:41:05,530 - INFO - Saved answer 234 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:41:05,530 - INFO - Progress: 31/85 pending completed
+2025-11-07 14:41:34,863 - INFO - Row 235 completed
+2025-11-07 14:41:34,863 - INFO - Processing 239/288
+2025-11-07 14:41:34,868 - INFO - Saved answer 235 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:41:34,868 - INFO - Progress: 32/85 pending completed
+2025-11-07 14:42:06,057 - INFO - Row 236 completed
+2025-11-07 14:42:06,057 - INFO - Processing 240/288
+2025-11-07 14:42:06,062 - INFO - Saved answer 236 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:42:06,062 - INFO - Progress: 33/85 pending completed
+2025-11-07 14:42:37,287 - INFO - Row 237 completed
+2025-11-07 14:42:37,287 - INFO - Processing 241/288
+2025-11-07 14:42:37,292 - INFO - Saved answer 237 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:42:37,293 - INFO - Progress: 34/85 pending completed
+2025-11-07 14:43:25,545 - INFO - Row 238 completed
+2025-11-07 14:43:25,545 - INFO - Processing 242/288
+2025-11-07 14:43:25,550 - INFO - Saved answer 238 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:43:25,550 - INFO - Progress: 35/85 pending completed
+2025-11-07 14:43:39,570 - INFO - Row 239 completed
+2025-11-07 14:43:39,570 - INFO - Processing 243/288
+2025-11-07 14:43:39,575 - INFO - Saved answer 239 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:43:39,575 - INFO - Progress: 36/85 pending completed
+2025-11-07 14:44:09,082 - INFO - Row 240 completed
+2025-11-07 14:44:09,083 - INFO - Processing 244/288
+2025-11-07 14:44:09,087 - INFO - Saved answer 240 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:44:09,088 - INFO - Progress: 37/85 pending completed
+2025-11-07 14:44:44,249 - INFO - Row 241 completed
+2025-11-07 14:44:44,250 - INFO - Processing 245/288
+2025-11-07 14:44:44,254 - INFO - Saved answer 241 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:44:44,255 - INFO - Progress: 38/85 pending completed
+2025-11-07 14:45:20,885 - INFO - Row 242 completed
+2025-11-07 14:45:20,885 - INFO - Processing 246/288
+2025-11-07 14:45:20,891 - INFO - Saved answer 242 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:45:20,891 - INFO - Progress: 39/85 pending completed
+2025-11-07 14:45:36,528 - INFO - Row 243 completed
+2025-11-07 14:45:36,529 - INFO - Processing 247/288
+2025-11-07 14:45:36,533 - INFO - Saved answer 243 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:45:36,533 - INFO - Progress: 40/85 pending completed
+2025-11-07 14:46:00,835 - INFO - Row 244 completed
+2025-11-07 14:46:00,835 - INFO - Processing 248/288
+2025-11-07 14:46:00,840 - INFO - Saved answer 244 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:46:00,840 - INFO - Progress: 41/85 pending completed
+2025-11-07 14:46:37,034 - INFO - Row 245 completed
+2025-11-07 14:46:37,034 - INFO - Processing 249/288
+2025-11-07 14:46:37,039 - INFO - Saved answer 245 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:46:37,039 - INFO - Progress: 42/85 pending completed
+2025-11-07 14:47:03,702 - INFO - Row 246 completed
+2025-11-07 14:47:03,703 - INFO - Processing 250/288
+2025-11-07 14:47:03,708 - INFO - Saved answer 246 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:47:03,708 - INFO - Progress: 43/85 pending completed
+2025-11-07 14:47:38,861 - INFO - Row 247 completed
+2025-11-07 14:47:38,861 - INFO - Processing 251/288
+2025-11-07 14:47:38,867 - INFO - Saved answer 247 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:47:38,867 - INFO - Progress: 44/85 pending completed
+2025-11-07 14:48:12,528 - INFO - Row 248 completed
+2025-11-07 14:48:12,528 - INFO - Processing 252/288
+2025-11-07 14:48:12,533 - INFO - Saved answer 248 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:48:12,533 - INFO - Progress: 45/85 pending completed
+2025-11-07 14:48:31,685 - INFO - Row 249 completed
+2025-11-07 14:48:31,685 - INFO - Processing 253/288
+2025-11-07 14:48:31,690 - INFO - Saved answer 249 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:48:31,690 - INFO - Progress: 46/85 pending completed
+2025-11-07 14:49:06,055 - INFO - Row 250 completed
+2025-11-07 14:49:06,056 - INFO - Processing 254/288
+2025-11-07 14:49:06,061 - INFO - Saved answer 250 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:49:06,061 - INFO - Progress: 47/85 pending completed
+2025-11-07 14:49:34,417 - INFO - Row 251 completed
+2025-11-07 14:49:34,417 - INFO - Processing 255/288
+2025-11-07 14:49:34,422 - INFO - Saved answer 251 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:49:34,422 - INFO - Progress: 48/85 pending completed
+2025-11-07 14:50:03,783 - INFO - Row 252 completed
+2025-11-07 14:50:03,783 - INFO - Processing 256/288
+2025-11-07 14:50:03,789 - INFO - Saved answer 252 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:50:03,789 - INFO - Progress: 49/85 pending completed
+2025-11-07 14:50:33,613 - INFO - Row 253 completed
+2025-11-07 14:50:33,613 - INFO - Processing 257/288
+2025-11-07 14:50:33,618 - INFO - Saved answer 253 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:50:33,618 - INFO - Progress: 50/85 pending completed
+2025-11-07 14:51:01,763 - INFO - Row 254 completed
+2025-11-07 14:51:01,764 - INFO - Processing 258/288
+2025-11-07 14:51:01,770 - INFO - Saved answer 254 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:51:01,770 - INFO - Progress: 51/85 pending completed
+2025-11-07 14:51:33,134 - INFO - Row 255 completed
+2025-11-07 14:51:33,134 - INFO - Processing 259/288
+2025-11-07 14:51:33,139 - INFO - Saved answer 255 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:51:33,140 - INFO - Progress: 52/85 pending completed
+2025-11-07 14:52:30,127 - INFO - Row 256 completed
+2025-11-07 14:52:30,128 - INFO - Processing 260/288
+2025-11-07 14:52:30,133 - INFO - Saved answer 256 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:52:30,133 - INFO - Progress: 53/85 pending completed
+2025-11-07 14:52:37,340 - INFO - Row 257 completed
+2025-11-07 14:52:37,340 - INFO - Processing 261/288
+2025-11-07 14:52:37,346 - INFO - Saved answer 257 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:52:37,346 - INFO - Progress: 54/85 pending completed
+2025-11-07 14:53:19,412 - INFO - Row 258 completed
+2025-11-07 14:53:19,412 - INFO - Processing 262/288
+2025-11-07 14:53:19,418 - INFO - Saved answer 258 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:53:19,419 - INFO - Progress: 55/85 pending completed
+2025-11-07 14:53:32,472 - INFO - Row 259 completed
+2025-11-07 14:53:32,473 - INFO - Processing 263/288
+2025-11-07 14:53:32,478 - INFO - Saved answer 259 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:53:32,478 - INFO - Progress: 56/85 pending completed
+2025-11-07 14:54:03,792 - INFO - Row 260 completed
+2025-11-07 14:54:03,793 - INFO - Processing 264/288
+2025-11-07 14:54:03,797 - INFO - Saved answer 260 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:54:03,797 - INFO - Progress: 57/85 pending completed
+2025-11-07 14:54:32,175 - INFO - Row 261 completed
+2025-11-07 14:54:32,175 - INFO - Processing 265/288
+2025-11-07 14:54:32,181 - INFO - Saved answer 261 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:54:32,181 - INFO - Progress: 58/85 pending completed
+2025-11-07 14:55:09,679 - INFO - Row 262 completed
+2025-11-07 14:55:09,679 - INFO - Processing 266/288
+2025-11-07 14:55:09,685 - INFO - Saved answer 262 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:55:09,685 - INFO - Progress: 59/85 pending completed
+2025-11-07 14:55:38,198 - INFO - Row 263 completed
+2025-11-07 14:55:38,198 - INFO - Processing 267/288
+2025-11-07 14:55:38,203 - INFO - Saved answer 263 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:55:38,203 - INFO - Progress: 60/85 pending completed
+2025-11-07 14:56:05,627 - INFO - Row 264 completed
+2025-11-07 14:56:05,627 - INFO - Processing 268/288
+2025-11-07 14:56:05,632 - INFO - Saved answer 264 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:56:05,632 - INFO - Progress: 61/85 pending completed
+2025-11-07 14:56:51,717 - INFO - Row 265 completed
+2025-11-07 14:56:51,717 - INFO - Processing 269/288
+2025-11-07 14:56:51,722 - INFO - Saved answer 265 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:56:51,722 - INFO - Progress: 62/85 pending completed
+2025-11-07 14:57:02,824 - INFO - Row 266 completed
+2025-11-07 14:57:02,824 - INFO - Processing 270/288
+2025-11-07 14:57:02,830 - INFO - Saved answer 266 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:57:02,830 - INFO - Progress: 63/85 pending completed
+2025-11-07 14:57:38,321 - INFO - Row 267 completed
+2025-11-07 14:57:38,321 - INFO - Processing 271/288
+2025-11-07 14:57:38,326 - INFO - Saved answer 267 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:57:38,326 - INFO - Progress: 64/85 pending completed
+2025-11-07 14:58:10,398 - INFO - Row 268 completed
+2025-11-07 14:58:10,398 - INFO - Processing 272/288
+2025-11-07 14:58:10,404 - INFO - Saved answer 268 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:58:10,404 - INFO - Progress: 65/85 pending completed
+2025-11-07 14:58:37,717 - INFO - Row 269 completed
+2025-11-07 14:58:37,717 - INFO - Processing 273/288
+2025-11-07 14:58:37,722 - INFO - Saved answer 269 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:58:37,722 - INFO - Progress: 66/85 pending completed
+2025-11-07 14:59:03,033 - INFO - Row 270 completed
+2025-11-07 14:59:03,034 - INFO - Processing 274/288
+2025-11-07 14:59:03,039 - INFO - Saved answer 270 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:59:03,039 - INFO - Progress: 67/85 pending completed
+2025-11-07 14:59:40,933 - INFO - Row 271 completed
+2025-11-07 14:59:40,933 - INFO - Processing 275/288
+2025-11-07 14:59:40,940 - INFO - Saved answer 271 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 14:59:40,941 - INFO - Progress: 68/85 pending completed
+2025-11-07 15:00:03,873 - INFO - Row 272 completed
+2025-11-07 15:00:03,873 - INFO - Processing 276/288
+2025-11-07 15:00:03,878 - INFO - Saved answer 272 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:00:03,878 - INFO - Progress: 69/85 pending completed
+2025-11-07 15:00:37,273 - INFO - Row 273 completed
+2025-11-07 15:00:37,273 - INFO - Processing 277/288
+2025-11-07 15:00:37,278 - INFO - Saved answer 273 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:00:37,278 - INFO - Progress: 70/85 pending completed
+2025-11-07 15:01:02,632 - INFO - Row 274 completed
+2025-11-07 15:01:02,632 - INFO - Processing 278/288
+2025-11-07 15:01:02,637 - INFO - Saved answer 274 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:01:02,637 - INFO - Progress: 71/85 pending completed
+2025-11-07 15:01:40,695 - INFO - Row 275 completed
+2025-11-07 15:01:40,695 - INFO - Processing 279/288
+2025-11-07 15:01:40,700 - INFO - Saved answer 275 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:01:40,700 - INFO - Progress: 72/85 pending completed
+2025-11-07 15:02:06,663 - INFO - Row 276 completed
+2025-11-07 15:02:06,664 - INFO - Processing 280/288
+2025-11-07 15:02:06,669 - INFO - Saved answer 276 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:02:06,669 - INFO - Progress: 73/85 pending completed
+2025-11-07 15:02:32,787 - INFO - Row 277 completed
+2025-11-07 15:02:32,788 - INFO - Processing 281/288
+2025-11-07 15:02:32,793 - INFO - Saved answer 277 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:02:32,793 - INFO - Progress: 74/85 pending completed
+2025-11-07 15:03:07,949 - INFO - Row 278 completed
+2025-11-07 15:03:07,949 - INFO - Processing 282/288
+2025-11-07 15:03:07,955 - INFO - Saved answer 278 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:03:07,955 - INFO - Progress: 75/85 pending completed
+2025-11-07 15:03:32,993 - INFO - Row 279 completed
+2025-11-07 15:03:32,993 - INFO - Processing 283/288
+2025-11-07 15:03:33,013 - INFO - Saved answer 279 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:03:33,013 - INFO - Progress: 76/85 pending completed
+2025-11-07 15:04:08,785 - INFO - Row 280 completed
+2025-11-07 15:04:08,785 - INFO - Processing 284/288
+2025-11-07 15:04:08,790 - INFO - Saved answer 280 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:04:08,790 - INFO - Progress: 77/85 pending completed
+2025-11-07 15:04:37,495 - INFO - Row 281 completed
+2025-11-07 15:04:37,496 - INFO - Processing 285/288
+2025-11-07 15:04:37,501 - INFO - Saved answer 281 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:04:37,502 - INFO - Progress: 78/85 pending completed
+2025-11-07 15:05:31,925 - INFO - Row 283 completed
+2025-11-07 15:05:31,925 - INFO - Processing 286/288
+2025-11-07 15:05:31,930 - INFO - Saved answer 283 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:05:31,930 - INFO - Progress: 79/85 pending completed
+2025-11-07 15:05:59,227 - INFO - Row 282 completed
+2025-11-07 15:05:59,228 - INFO - Processing 287/288
+2025-11-07 15:05:59,234 - INFO - Saved answer 282 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:05:59,234 - INFO - Progress: 80/85 pending completed
+2025-11-07 15:06:12,808 - INFO - Row 284 completed
+2025-11-07 15:06:12,808 - INFO - Processing 288/288
+2025-11-07 15:06:12,816 - INFO - Saved answer 284 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:06:12,816 - INFO - Progress: 81/85 pending completed
+2025-11-07 15:06:32,892 - INFO - Row 285 completed
+2025-11-07 15:06:32,898 - INFO - Saved answer 285 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:06:32,898 - INFO - Progress: 82/85 pending completed
+2025-11-07 15:07:09,032 - INFO - Row 286 completed
+2025-11-07 15:07:09,037 - INFO - Saved answer 286 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:07:09,038 - INFO - Progress: 83/85 pending completed
+2025-11-07 15:07:39,701 - INFO - Row 287 completed
+2025-11-07 15:07:39,707 - INFO - Saved answer 287 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:07:39,707 - INFO - Progress: 84/85 pending completed
+2025-11-07 15:08:03,056 - INFO - Row 288 completed
+2025-11-07 15:08:03,061 - INFO - Saved answer 288 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\openai-gpt-5_answers.csv
+2025-11-07 15:08:03,061 - INFO - Progress: 85/85 pending completed
+2025-11-07 15:08:03,063 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-07 15:08:03,066 - INFO - Processing 1/288
+2025-11-07 15:08:03,066 - INFO - Processing 2/288
+2025-11-07 15:08:03,066 - INFO - Processing 3/288
+2025-11-07 15:08:03,067 - INFO - Processing 4/288
+2025-11-07 15:08:41,505 - INFO - Row 1 completed
+2025-11-07 15:08:41,505 - INFO - Processing 5/288
+2025-11-07 15:08:41,513 - INFO - Saved answer 1 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:08:41,513 - INFO - Progress: 1/288 pending completed
+2025-11-07 15:09:08,851 - INFO - Row 2 completed
+2025-11-07 15:09:08,851 - INFO - Processing 6/288
+2025-11-07 15:09:08,855 - INFO - Saved answer 2 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:09:08,855 - INFO - Progress: 2/288 pending completed
+2025-11-07 15:09:46,508 - INFO - Row 3 completed
+2025-11-07 15:09:46,508 - INFO - Processing 7/288
+2025-11-07 15:09:46,512 - INFO - Saved answer 3 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:09:46,513 - INFO - Progress: 3/288 pending completed
+2025-11-07 15:10:08,516 - INFO - Row 4 completed
+2025-11-07 15:10:08,517 - INFO - Processing 8/288
+2025-11-07 15:10:08,522 - INFO - Saved answer 4 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:10:08,523 - INFO - Progress: 4/288 pending completed
+2025-11-07 15:10:45,231 - INFO - Row 5 completed
+2025-11-07 15:10:45,231 - INFO - Processing 9/288
+2025-11-07 15:10:45,236 - INFO - Saved answer 5 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:10:45,236 - INFO - Progress: 5/288 pending completed
+2025-11-07 15:11:12,295 - INFO - Row 6 completed
+2025-11-07 15:11:12,295 - INFO - Processing 10/288
+2025-11-07 15:11:12,300 - INFO - Saved answer 6 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:11:12,300 - INFO - Progress: 6/288 pending completed
+2025-11-07 15:11:37,309 - INFO - Row 7 completed
+2025-11-07 15:11:37,309 - INFO - Processing 11/288
+2025-11-07 15:11:37,313 - INFO - Saved answer 7 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:11:37,313 - INFO - Progress: 7/288 pending completed
+2025-11-07 15:12:11,918 - INFO - Row 8 completed
+2025-11-07 15:12:11,918 - INFO - Processing 12/288
+2025-11-07 15:12:11,922 - INFO - Saved answer 8 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:12:11,922 - INFO - Progress: 8/288 pending completed
+2025-11-07 15:12:38,319 - INFO - Row 9 completed
+2025-11-07 15:12:38,319 - INFO - Processing 13/288
+2025-11-07 15:12:38,323 - INFO - Saved answer 9 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:12:38,324 - INFO - Progress: 9/288 pending completed
+2025-11-07 15:13:16,663 - INFO - Row 10 completed
+2025-11-07 15:13:16,663 - INFO - Processing 14/288
+2025-11-07 15:13:16,668 - INFO - Saved answer 10 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:13:16,668 - INFO - Progress: 10/288 pending completed
+2025-11-07 15:14:10,349 - INFO - Row 12 completed
+2025-11-07 15:14:10,349 - INFO - Processing 15/288
+2025-11-07 15:14:10,354 - INFO - Saved answer 12 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:14:10,354 - INFO - Progress: 11/288 pending completed
+2025-11-07 15:14:37,361 - INFO - Row 13 completed
+2025-11-07 15:14:37,361 - INFO - Processing 16/288
+2025-11-07 15:14:37,365 - INFO - Saved answer 13 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:14:37,366 - INFO - Progress: 12/288 pending completed
+2025-11-07 15:14:45,672 - INFO - Row 11 completed
+2025-11-07 15:14:45,672 - INFO - Processing 17/288
+2025-11-07 15:14:45,677 - INFO - Saved answer 11 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:14:45,677 - INFO - Progress: 13/288 pending completed
+2025-11-07 15:15:11,448 - INFO - Row 14 completed
+2025-11-07 15:15:11,448 - INFO - Processing 18/288
+2025-11-07 15:15:11,454 - INFO - Saved answer 14 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:15:11,454 - INFO - Progress: 14/288 pending completed
+2025-11-07 15:15:38,319 - INFO - Row 15 completed
+2025-11-07 15:15:38,319 - INFO - Processing 19/288
+2025-11-07 15:15:38,325 - INFO - Saved answer 15 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:15:38,325 - INFO - Progress: 15/288 pending completed
+2025-11-07 15:16:09,315 - INFO - Row 16 completed
+2025-11-07 15:16:09,315 - INFO - Processing 20/288
+2025-11-07 15:16:09,320 - INFO - Saved answer 16 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:16:09,320 - INFO - Progress: 16/288 pending completed
+2025-11-07 15:17:19,235 - INFO - Row 17 completed
+2025-11-07 15:17:19,235 - INFO - Processing 21/288
+2025-11-07 15:17:19,240 - INFO - Saved answer 17 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:17:19,240 - INFO - Progress: 17/288 pending completed
+2025-11-07 15:17:21,998 - INFO - Row 18 completed
+2025-11-07 15:17:21,998 - INFO - Processing 22/288
+2025-11-07 15:17:22,003 - INFO - Saved answer 18 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:17:22,003 - INFO - Progress: 18/288 pending completed
+2025-11-07 15:17:42,223 - INFO - Row 19 completed
+2025-11-07 15:17:42,223 - INFO - Processing 23/288
+2025-11-07 15:17:42,228 - INFO - Saved answer 19 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:17:42,228 - INFO - Progress: 19/288 pending completed
+2025-11-07 15:18:04,579 - INFO - Row 20 completed
+2025-11-07 15:18:04,579 - INFO - Processing 24/288
+2025-11-07 15:18:04,584 - INFO - Saved answer 20 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:18:04,584 - INFO - Progress: 20/288 pending completed
+2025-11-07 15:18:45,138 - INFO - Row 21 completed
+2025-11-07 15:18:45,138 - INFO - Processing 25/288
+2025-11-07 15:18:45,143 - INFO - Saved answer 21 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:18:45,143 - INFO - Progress: 21/288 pending completed
+2025-11-07 15:19:09,282 - INFO - Row 22 completed
+2025-11-07 15:19:09,282 - INFO - Processing 26/288
+2025-11-07 15:19:09,287 - INFO - Saved answer 22 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:19:09,288 - INFO - Progress: 22/288 pending completed
+2025-11-07 15:19:45,073 - INFO - Row 23 completed
+2025-11-07 15:19:45,074 - INFO - Processing 27/288
+2025-11-07 15:19:45,078 - INFO - Saved answer 23 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:19:45,078 - INFO - Progress: 23/288 pending completed
+2025-11-07 15:20:14,113 - INFO - Row 24 completed
+2025-11-07 15:20:14,113 - INFO - Processing 28/288
+2025-11-07 15:20:14,118 - INFO - Saved answer 24 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:20:14,118 - INFO - Progress: 24/288 pending completed
+2025-11-07 15:21:23,903 - INFO - Row 25 completed
+2025-11-07 15:21:23,904 - INFO - Processing 29/288
+2025-11-07 15:21:23,909 - INFO - Saved answer 25 to C:\Users\nikol\PycharmProjects\ModelTesting\open router free\answers\perplexity-sonar-reasoning-pro_answers.csv
+2025-11-07 15:21:23,910 - INFO - Progress: 25/288 pending completed
+2025-11-07 15:21:38,772 - INFO - Row 26 completed
+2025-11-07 15:21:38,772 - INFO - Processing 30/288
