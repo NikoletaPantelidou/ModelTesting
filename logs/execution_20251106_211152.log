@@ -1,0 +1,5 @@
+2025-11-06 21:11:52,183 - INFO - [INFO] CUDA available: False
+2025-11-06 21:11:52,184 - WARNING - [WARNING] No CUDA device detected. Running on CPU.
+2025-11-06 21:11:52,184 - INFO - [INFO] Selected device: cpu
+2025-11-06 21:11:52,184 - INFO - [INFO] Max workers for parallel processing: 4
+2025-11-06 21:11:52,184 - ERROR - [FATAL] Fatal error in main execution: Could not find prompts/prompts_all.csv

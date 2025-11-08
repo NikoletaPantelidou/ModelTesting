@@ -206,6 +206,9 @@ def process_row(idx, row, total_rows, model_dict):
         context, question = parse_prompt(raw_prompt)
         answer = generate_answer(context, question, model_dict)
 
+        # Log the model's response
+        logger.info(f"[RESPONSE] {answer[:200]}..." if len(answer) > 200 else f"[RESPONSE] {answer}")
+
         logger.info(f"[OK] Row {idx + 1} completed")
         return idx, answer
 

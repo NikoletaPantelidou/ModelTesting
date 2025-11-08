@@ -1,0 +1,41 @@
+2025-11-06 22:15:15,709 - INFO - [INFO] CUDA available: False
+2025-11-06 22:15:15,709 - WARNING - [WARNING] No CUDA device detected. Running on CPU.
+2025-11-06 22:15:15,709 - INFO - [INFO] Selected device: cpu
+2025-11-06 22:15:15,709 - INFO - [INFO] Max workers for parallel processing: 4
+2025-11-06 22:15:15,715 - INFO - [OK] File loaded: 288 rows, columns: ['test_item', 'language', 'prompt']
+2025-11-06 22:15:15,717 - INFO - [INFO] Processing model 1/8: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-06 22:15:15,717 - INFO - [INFO] ===== Starting processing for model: mistralai/Mistral-7B-Instruct-v0.2 =====
+2025-11-06 22:15:15,721 - INFO - [INFO] Found existing answers file: answers\mistralai-Mistral-7B-Instruct-v0.2_answers.csv
+2025-11-06 22:15:15,721 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-06 22:15:15,721 - INFO - [SKIP] Model mistralai/Mistral-7B-Instruct-v0.2 has all answers completed, skipping model load
+2025-11-06 22:15:15,721 - INFO - [OK] Model mistralai/Mistral-7B-Instruct-v0.2 completed successfully (1/8)
+2025-11-06 22:15:15,721 - INFO - [INFO] Processing model 2/8: tiiuae/falcon-7b-instruct
+2025-11-06 22:15:15,721 - INFO - [INFO] ===== Starting processing for model: tiiuae/falcon-7b-instruct =====
+2025-11-06 22:15:15,723 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 22:15:15,723 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-06 22:15:15,723 - INFO - [SKIP] Model tiiuae/falcon-7b-instruct has all answers completed, skipping model load
+2025-11-06 22:15:15,723 - INFO - [OK] Model tiiuae/falcon-7b-instruct completed successfully (2/8)
+2025-11-06 22:15:15,723 - INFO - [INFO] Processing model 3/8: microsoft/phi-4
+2025-11-06 22:15:15,723 - INFO - [INFO] ===== Starting processing for model: microsoft/phi-4 =====
+2025-11-06 22:15:15,725 - INFO - [INFO] Found existing answers file: answers\microsoft-phi-4_answers.csv
+2025-11-06 22:15:15,725 - INFO - [INFO] Existing progress: 4/288 answers completed
+2025-11-06 22:15:15,725 - INFO - [INFO] Model microsoft/phi-4 has 284 pending answers, loading model...
+2025-11-06 22:15:15,725 - INFO - [INFO] Loading model: microsoft/phi-4 (device: cpu)
+2025-11-06 22:16:05,957 - INFO - [OK] Model and tokenizer loaded successfully on cpu
+2025-11-06 22:16:06,044 - INFO - [INFO] Starting parallel processing for microsoft/phi-4 with 4 workers
+2025-11-06 22:16:06,125 - INFO - [INFO] Found existing answers file: answers\microsoft-phi-4_answers.csv
+2025-11-06 22:16:06,129 - INFO - [INFO] Existing progress: 4/288 answers completed
+2025-11-06 22:16:06,130 - INFO - [INFO] Resuming from row 5
+2025-11-06 22:16:06,135 - INFO - [SKIP] Row 1/288 already completed, skipping
+2025-11-06 22:16:06,135 - INFO - [SKIP] Row 2/288 already completed, skipping
+2025-11-06 22:16:06,135 - INFO - [SKIP] Row 3/288 already completed, skipping
+2025-11-06 22:16:06,136 - INFO - [SKIP] Row 4/288 already completed, skipping
+2025-11-06 22:16:06,137 - INFO - [INFO] Processing 284 pending prompts...
+2025-11-06 22:16:06,162 - INFO - [INFO] Processing row 5/288 - test_item: B2F
+2025-11-06 22:16:06,163 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-06 22:16:06,168 - INFO - [INFO] Processing row 6/288 - test_item: B2C
+2025-11-06 22:16:06,168 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-06 22:16:06,169 - INFO - [INFO] Processing row 7/288 - test_item: B3T
+2025-11-06 22:16:06,169 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-06 22:16:06,169 - INFO - [INFO] Processing row 8/288 - test_item: B3F
+2025-11-06 22:16:06,185 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
