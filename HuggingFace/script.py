@@ -18,7 +18,7 @@ from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 from script_models_config import MODELS
 from datetime import datetime
 from huggingface_hub import login
-from clean_translations import clean_answer_file
+
 login(token="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")
 
 

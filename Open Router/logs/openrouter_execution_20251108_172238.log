@@ -1,0 +1,350 @@
+2025-11-08 17:22:38,040 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-08 17:22:38,060 - INFO - Processing model openai/gpt-5
+2025-11-08 17:22:38,068 - INFO - No pending prompts
+2025-11-08 17:22:38,083 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-08 17:22:38,094 - INFO - No pending prompts
+2025-11-08 17:22:38,101 - INFO - Processing model meta-llama/llama-4-scout:free
+2025-11-08 17:22:38,108 - INFO - No pending prompts
+2025-11-08 17:22:38,113 - INFO - Processing model google/gemma-3-4b-it:free
+2025-11-08 17:22:38,122 - INFO - Processing 59/288
+2025-11-08 17:22:38,122 - INFO - Processing 89/288
+2025-11-08 17:22:42,583 - INFO - Row 59 completed
+2025-11-08 17:22:42,592 - INFO - Saved answer 59 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 17:22:42,592 - INFO - Progress: 1/2 pending completed
+2025-11-08 17:23:11,378 - INFO - Row 89 completed
+2025-11-08 17:23:11,384 - INFO - Saved answer 89 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 17:23:11,384 - INFO - Progress: 2/2 pending completed
+2025-11-08 17:23:11,385 - INFO - Processing model openai/chatgpt-4o-latest
+2025-11-08 17:23:11,387 - INFO - Processing 1/288
+2025-11-08 17:23:11,387 - INFO - Processing 2/288
+2025-11-08 17:23:11,388 - INFO - Processing 3/288
+2025-11-08 17:23:11,388 - INFO - Processing 4/288
+2025-11-08 17:23:39,473 - INFO - Row 1 completed
+2025-11-08 17:23:39,473 - INFO - Processing 5/288
+2025-11-08 17:23:39,477 - INFO - Saved answer 1 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:23:39,477 - INFO - Progress: 1/288 pending completed
+2025-11-08 17:24:09,908 - INFO - Row 2 completed
+2025-11-08 17:24:09,908 - INFO - Processing 6/288
+2025-11-08 17:24:09,913 - INFO - Saved answer 2 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:24:09,913 - INFO - Progress: 2/288 pending completed
+2025-11-08 17:24:40,643 - INFO - Row 3 completed
+2025-11-08 17:24:40,643 - INFO - Processing 7/288
+2025-11-08 17:24:40,649 - INFO - Saved answer 3 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:24:40,649 - INFO - Progress: 3/288 pending completed
+2025-11-08 17:25:09,854 - INFO - Row 4 completed
+2025-11-08 17:25:09,854 - INFO - Processing 8/288
+2025-11-08 17:25:09,858 - INFO - Saved answer 4 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:25:09,858 - INFO - Progress: 4/288 pending completed
+2025-11-08 17:25:40,583 - INFO - Row 5 completed
+2025-11-08 17:25:40,584 - INFO - Processing 9/288
+2025-11-08 17:25:40,588 - INFO - Saved answer 5 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:25:40,588 - INFO - Progress: 5/288 pending completed
+2025-11-08 17:26:10,813 - INFO - Row 6 completed
+2025-11-08 17:26:10,813 - INFO - Processing 10/288
+2025-11-08 17:26:10,818 - INFO - Saved answer 6 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:26:10,818 - INFO - Progress: 6/288 pending completed
+2025-11-08 17:26:39,994 - INFO - Row 7 completed
+2025-11-08 17:26:39,994 - INFO - Processing 11/288
+2025-11-08 17:26:39,999 - INFO - Saved answer 7 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:26:39,999 - INFO - Progress: 7/288 pending completed
+2025-11-08 17:27:10,149 - INFO - Row 8 completed
+2025-11-08 17:27:10,149 - INFO - Processing 12/288
+2025-11-08 17:27:10,154 - INFO - Saved answer 8 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:27:10,154 - INFO - Progress: 8/288 pending completed
+2025-11-08 17:27:40,163 - INFO - Row 9 completed
+2025-11-08 17:27:40,163 - INFO - Processing 13/288
+2025-11-08 17:27:40,167 - INFO - Saved answer 9 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:27:40,167 - INFO - Progress: 9/288 pending completed
+2025-11-08 17:28:10,033 - INFO - Row 10 completed
+2025-11-08 17:28:10,034 - INFO - Processing 14/288
+2025-11-08 17:28:10,037 - INFO - Saved answer 10 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:28:10,038 - INFO - Progress: 10/288 pending completed
+2025-11-08 17:28:40,711 - INFO - Row 11 completed
+2025-11-08 17:28:40,712 - INFO - Processing 15/288
+2025-11-08 17:28:40,717 - INFO - Saved answer 11 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:28:40,717 - INFO - Progress: 11/288 pending completed
+2025-11-08 17:29:11,916 - INFO - Row 12 completed
+2025-11-08 17:29:11,917 - INFO - Processing 16/288
+2025-11-08 17:29:11,922 - INFO - Saved answer 12 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:29:11,923 - INFO - Progress: 12/288 pending completed
+2025-11-08 17:29:39,849 - INFO - Row 13 completed
+2025-11-08 17:29:39,849 - INFO - Processing 17/288
+2025-11-08 17:29:39,854 - INFO - Saved answer 13 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:29:39,854 - INFO - Progress: 13/288 pending completed
+2025-11-08 17:30:10,547 - INFO - Row 14 completed
+2025-11-08 17:30:10,547 - INFO - Processing 18/288
+2025-11-08 17:30:10,552 - INFO - Saved answer 14 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:30:10,552 - INFO - Progress: 14/288 pending completed
+2025-11-08 17:30:41,916 - INFO - Row 15 completed
+2025-11-08 17:30:41,916 - INFO - Processing 19/288
+2025-11-08 17:30:41,920 - INFO - Saved answer 15 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:30:41,920 - INFO - Progress: 15/288 pending completed
+2025-11-08 17:31:09,639 - INFO - Row 16 completed
+2025-11-08 17:31:09,639 - INFO - Processing 20/288
+2025-11-08 17:31:09,644 - INFO - Saved answer 16 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:31:09,644 - INFO - Progress: 16/288 pending completed
+2025-11-08 17:31:40,735 - INFO - Row 17 completed
+2025-11-08 17:31:40,736 - INFO - Processing 21/288
+2025-11-08 17:31:40,740 - INFO - Saved answer 17 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:31:40,740 - INFO - Progress: 17/288 pending completed
+2025-11-08 17:32:09,662 - INFO - Row 18 completed
+2025-11-08 17:32:09,662 - INFO - Processing 22/288
+2025-11-08 17:32:09,667 - INFO - Saved answer 18 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:32:09,667 - INFO - Progress: 18/288 pending completed
+2025-11-08 17:32:39,728 - INFO - Row 19 completed
+2025-11-08 17:32:39,728 - INFO - Processing 23/288
+2025-11-08 17:32:39,732 - INFO - Saved answer 19 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:32:39,733 - INFO - Progress: 19/288 pending completed
+2025-11-08 17:33:11,007 - INFO - Row 20 completed
+2025-11-08 17:33:11,007 - INFO - Processing 24/288
+2025-11-08 17:33:11,011 - INFO - Saved answer 20 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:33:11,012 - INFO - Progress: 20/288 pending completed
+2025-11-08 17:33:45,032 - INFO - Row 21 completed
+2025-11-08 17:33:45,033 - INFO - Processing 25/288
+2025-11-08 17:33:45,037 - INFO - Saved answer 21 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:33:45,037 - INFO - Progress: 21/288 pending completed
+2025-11-08 17:34:10,294 - INFO - Row 22 completed
+2025-11-08 17:34:10,294 - INFO - Processing 26/288
+2025-11-08 17:34:10,299 - INFO - Saved answer 22 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:34:10,299 - INFO - Progress: 22/288 pending completed
+2025-11-08 17:34:41,423 - INFO - Row 23 completed
+2025-11-08 17:34:41,424 - INFO - Processing 27/288
+2025-11-08 17:34:41,428 - INFO - Saved answer 23 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:34:41,428 - INFO - Progress: 23/288 pending completed
+2025-11-08 17:35:10,892 - INFO - Row 24 completed
+2025-11-08 17:35:10,893 - INFO - Processing 28/288
+2025-11-08 17:35:10,897 - INFO - Saved answer 24 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:35:10,898 - INFO - Progress: 24/288 pending completed
+2025-11-08 17:35:39,907 - INFO - Row 25 completed
+2025-11-08 17:35:39,907 - INFO - Processing 29/288
+2025-11-08 17:35:39,912 - INFO - Saved answer 25 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:35:39,912 - INFO - Progress: 25/288 pending completed
+2025-11-08 17:36:10,117 - INFO - Row 26 completed
+2025-11-08 17:36:10,117 - INFO - Processing 30/288
+2025-11-08 17:36:10,122 - INFO - Saved answer 26 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:36:10,122 - INFO - Progress: 26/288 pending completed
+2025-11-08 17:36:40,478 - INFO - Row 27 completed
+2025-11-08 17:36:40,478 - INFO - Processing 31/288
+2025-11-08 17:36:40,482 - INFO - Saved answer 27 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:36:40,482 - INFO - Progress: 27/288 pending completed
+2025-11-08 17:37:09,578 - INFO - Row 28 completed
+2025-11-08 17:37:09,578 - INFO - Processing 32/288
+2025-11-08 17:37:09,583 - INFO - Saved answer 28 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:37:09,583 - INFO - Progress: 28/288 pending completed
+2025-11-08 17:37:40,009 - INFO - Row 29 completed
+2025-11-08 17:37:40,009 - INFO - Processing 33/288
+2025-11-08 17:37:40,014 - INFO - Saved answer 29 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:37:40,014 - INFO - Progress: 29/288 pending completed
+2025-11-08 17:38:09,335 - INFO - Row 30 completed
+2025-11-08 17:38:09,335 - INFO - Processing 34/288
+2025-11-08 17:38:09,341 - INFO - Saved answer 30 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:38:09,341 - INFO - Progress: 30/288 pending completed
+2025-11-08 17:38:39,781 - INFO - Row 31 completed
+2025-11-08 17:38:39,781 - INFO - Processing 35/288
+2025-11-08 17:38:39,786 - INFO - Saved answer 31 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:38:39,786 - INFO - Progress: 31/288 pending completed
+2025-11-08 17:39:09,551 - INFO - Row 32 completed
+2025-11-08 17:39:09,551 - INFO - Processing 36/288
+2025-11-08 17:39:09,556 - INFO - Saved answer 32 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:39:09,556 - INFO - Progress: 32/288 pending completed
+2025-11-08 17:39:39,578 - INFO - Row 33 completed
+2025-11-08 17:39:39,579 - INFO - Processing 37/288
+2025-11-08 17:39:39,583 - INFO - Saved answer 33 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:39:39,583 - INFO - Progress: 33/288 pending completed
+2025-11-08 17:40:09,300 - INFO - Row 34 completed
+2025-11-08 17:40:09,300 - INFO - Processing 38/288
+2025-11-08 17:40:09,305 - INFO - Saved answer 34 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:40:09,306 - INFO - Progress: 34/288 pending completed
+2025-11-08 17:40:39,583 - INFO - Row 35 completed
+2025-11-08 17:40:39,584 - INFO - Processing 39/288
+2025-11-08 17:40:39,589 - INFO - Saved answer 35 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:40:39,589 - INFO - Progress: 35/288 pending completed
+2025-11-08 17:41:09,412 - INFO - Row 36 completed
+2025-11-08 17:41:09,413 - INFO - Processing 40/288
+2025-11-08 17:41:09,418 - INFO - Saved answer 36 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:41:09,418 - INFO - Progress: 36/288 pending completed
+2025-11-08 17:41:39,340 - INFO - Row 37 completed
+2025-11-08 17:41:39,340 - INFO - Processing 41/288
+2025-11-08 17:41:39,344 - INFO - Saved answer 37 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:41:39,345 - INFO - Progress: 37/288 pending completed
+2025-11-08 17:42:09,403 - INFO - Row 38 completed
+2025-11-08 17:42:09,403 - INFO - Processing 42/288
+2025-11-08 17:42:09,407 - INFO - Saved answer 38 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:42:09,407 - INFO - Progress: 38/288 pending completed
+2025-11-08 17:42:39,182 - INFO - Row 39 completed
+2025-11-08 17:42:39,182 - INFO - Processing 43/288
+2025-11-08 17:42:39,187 - INFO - Saved answer 39 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:42:39,187 - INFO - Progress: 39/288 pending completed
+2025-11-08 17:43:09,606 - INFO - Row 40 completed
+2025-11-08 17:43:09,606 - INFO - Processing 44/288
+2025-11-08 17:43:09,611 - INFO - Saved answer 40 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:43:09,611 - INFO - Progress: 40/288 pending completed
+2025-11-08 17:43:39,592 - INFO - Row 41 completed
+2025-11-08 17:43:39,592 - INFO - Processing 45/288
+2025-11-08 17:43:39,597 - INFO - Saved answer 41 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:43:39,597 - INFO - Progress: 41/288 pending completed
+2025-11-08 17:44:09,293 - INFO - Row 42 completed
+2025-11-08 17:44:09,293 - INFO - Processing 46/288
+2025-11-08 17:44:09,298 - INFO - Saved answer 42 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:44:09,298 - INFO - Progress: 42/288 pending completed
+2025-11-08 17:44:39,136 - INFO - Row 43 completed
+2025-11-08 17:44:39,136 - INFO - Processing 47/288
+2025-11-08 17:44:39,141 - INFO - Saved answer 43 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:44:39,141 - INFO - Progress: 43/288 pending completed
+2025-11-08 17:45:09,555 - INFO - Row 44 completed
+2025-11-08 17:45:09,555 - INFO - Processing 48/288
+2025-11-08 17:45:09,560 - INFO - Saved answer 44 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:45:09,560 - INFO - Progress: 44/288 pending completed
+2025-11-08 17:45:39,532 - INFO - Row 45 completed
+2025-11-08 17:45:39,532 - INFO - Processing 49/288
+2025-11-08 17:45:39,537 - INFO - Saved answer 45 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:45:39,537 - INFO - Progress: 45/288 pending completed
+2025-11-08 17:46:11,753 - INFO - Row 46 completed
+2025-11-08 17:46:11,753 - INFO - Processing 50/288
+2025-11-08 17:46:11,757 - INFO - Saved answer 46 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:46:11,758 - INFO - Progress: 46/288 pending completed
+2025-11-08 17:46:41,508 - INFO - Row 47 completed
+2025-11-08 17:46:41,508 - INFO - Processing 51/288
+2025-11-08 17:46:41,513 - INFO - Saved answer 47 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:46:41,514 - INFO - Progress: 47/288 pending completed
+2025-11-08 17:47:09,776 - INFO - Row 48 completed
+2025-11-08 17:47:09,776 - INFO - Processing 52/288
+2025-11-08 17:47:09,781 - INFO - Saved answer 48 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:47:09,781 - INFO - Progress: 48/288 pending completed
+2025-11-08 17:47:40,548 - INFO - Row 49 completed
+2025-11-08 17:47:40,548 - INFO - Processing 53/288
+2025-11-08 17:47:40,553 - INFO - Saved answer 49 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:47:40,553 - INFO - Progress: 49/288 pending completed
+2025-11-08 17:48:10,597 - INFO - Row 50 completed
+2025-11-08 17:48:10,597 - INFO - Processing 54/288
+2025-11-08 17:48:10,601 - INFO - Saved answer 50 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:48:10,602 - INFO - Progress: 50/288 pending completed
+2025-11-08 17:48:40,000 - INFO - Row 51 completed
+2025-11-08 17:48:40,000 - INFO - Processing 55/288
+2025-11-08 17:48:40,006 - INFO - Saved answer 51 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:48:40,006 - INFO - Progress: 51/288 pending completed
+2025-11-08 17:49:09,863 - INFO - Row 52 completed
+2025-11-08 17:49:09,863 - INFO - Processing 56/288
+2025-11-08 17:49:09,869 - INFO - Saved answer 52 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:49:09,869 - INFO - Progress: 52/288 pending completed
+2025-11-08 17:49:39,856 - INFO - Row 53 completed
+2025-11-08 17:49:39,856 - INFO - Processing 57/288
+2025-11-08 17:49:39,861 - INFO - Saved answer 53 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:49:39,861 - INFO - Progress: 53/288 pending completed
+2025-11-08 17:50:11,233 - INFO - Row 54 completed
+2025-11-08 17:50:11,233 - INFO - Processing 58/288
+2025-11-08 17:50:11,238 - INFO - Saved answer 54 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:50:11,238 - INFO - Progress: 54/288 pending completed
+2025-11-08 17:50:40,269 - INFO - Row 55 completed
+2025-11-08 17:50:40,270 - INFO - Processing 59/288
+2025-11-08 17:50:40,275 - INFO - Saved answer 55 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:50:40,275 - INFO - Progress: 55/288 pending completed
+2025-11-08 17:51:10,711 - INFO - Row 56 completed
+2025-11-08 17:51:10,712 - INFO - Processing 60/288
+2025-11-08 17:51:10,717 - INFO - Saved answer 56 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:51:10,717 - INFO - Progress: 56/288 pending completed
+2025-11-08 17:51:41,203 - INFO - Row 57 completed
+2025-11-08 17:51:41,203 - INFO - Processing 61/288
+2025-11-08 17:51:41,208 - INFO - Saved answer 57 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:51:41,208 - INFO - Progress: 57/288 pending completed
+2025-11-08 17:52:09,914 - INFO - Row 58 completed
+2025-11-08 17:52:09,914 - INFO - Processing 62/288
+2025-11-08 17:52:09,920 - INFO - Saved answer 58 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:52:09,920 - INFO - Progress: 58/288 pending completed
+2025-11-08 17:52:40,172 - INFO - Row 59 completed
+2025-11-08 17:52:40,172 - INFO - Processing 63/288
+2025-11-08 17:52:40,177 - INFO - Saved answer 59 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:52:40,177 - INFO - Progress: 59/288 pending completed
+2025-11-08 17:53:10,040 - INFO - Row 60 completed
+2025-11-08 17:53:10,040 - INFO - Processing 64/288
+2025-11-08 17:53:10,046 - INFO - Saved answer 60 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:53:10,046 - INFO - Progress: 60/288 pending completed
+2025-11-08 17:53:40,818 - INFO - Row 61 completed
+2025-11-08 17:53:40,818 - INFO - Processing 65/288
+2025-11-08 17:53:40,822 - INFO - Saved answer 61 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:53:40,822 - INFO - Progress: 61/288 pending completed
+2025-11-08 17:54:10,484 - INFO - Row 62 completed
+2025-11-08 17:54:10,485 - INFO - Processing 66/288
+2025-11-08 17:54:10,489 - INFO - Saved answer 62 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:54:10,490 - INFO - Progress: 62/288 pending completed
+2025-11-08 17:54:40,346 - INFO - Row 63 completed
+2025-11-08 17:54:40,346 - INFO - Processing 67/288
+2025-11-08 17:54:40,351 - INFO - Saved answer 63 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:54:40,351 - INFO - Progress: 63/288 pending completed
+2025-11-08 17:55:10,043 - INFO - Row 64 completed
+2025-11-08 17:55:10,043 - INFO - Processing 68/288
+2025-11-08 17:55:10,047 - INFO - Saved answer 64 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:55:10,047 - INFO - Progress: 64/288 pending completed
+2025-11-08 17:55:40,399 - INFO - Row 65 completed
+2025-11-08 17:55:40,399 - INFO - Processing 69/288
+2025-11-08 17:55:40,403 - INFO - Saved answer 65 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:55:40,403 - INFO - Progress: 65/288 pending completed
+2025-11-08 17:56:09,987 - INFO - Row 66 completed
+2025-11-08 17:56:09,987 - INFO - Processing 70/288
+2025-11-08 17:56:09,991 - INFO - Saved answer 66 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:56:09,991 - INFO - Progress: 66/288 pending completed
+2025-11-08 17:56:39,712 - INFO - Row 67 completed
+2025-11-08 17:56:39,712 - INFO - Processing 71/288
+2025-11-08 17:56:39,715 - INFO - Saved answer 67 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:56:39,716 - INFO - Progress: 67/288 pending completed
+2025-11-08 17:57:10,818 - INFO - Row 68 completed
+2025-11-08 17:57:10,819 - INFO - Processing 72/288
+2025-11-08 17:57:10,823 - INFO - Saved answer 68 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:57:10,823 - INFO - Progress: 68/288 pending completed
+2025-11-08 17:57:39,797 - INFO - Row 69 completed
+2025-11-08 17:57:39,797 - INFO - Processing 73/288
+2025-11-08 17:57:39,801 - INFO - Saved answer 69 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:57:39,801 - INFO - Progress: 69/288 pending completed
+2025-11-08 17:58:09,472 - INFO - Row 70 completed
+2025-11-08 17:58:09,472 - INFO - Processing 74/288
+2025-11-08 17:58:09,476 - INFO - Saved answer 70 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:58:09,476 - INFO - Progress: 70/288 pending completed
+2025-11-08 17:58:41,418 - INFO - Row 71 completed
+2025-11-08 17:58:41,418 - INFO - Processing 75/288
+2025-11-08 17:58:41,422 - INFO - Saved answer 71 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:58:41,422 - INFO - Progress: 71/288 pending completed
+2025-11-08 17:59:11,362 - INFO - Row 72 completed
+2025-11-08 17:59:11,362 - INFO - Processing 76/288
+2025-11-08 17:59:11,366 - INFO - Saved answer 72 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:59:11,366 - INFO - Progress: 72/288 pending completed
+2025-11-08 17:59:40,228 - INFO - Row 73 completed
+2025-11-08 17:59:40,229 - INFO - Processing 77/288
+2025-11-08 17:59:40,233 - INFO - Saved answer 73 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 17:59:40,233 - INFO - Progress: 73/288 pending completed
+2025-11-08 18:00:15,384 - INFO - Row 74 completed
+2025-11-08 18:00:15,385 - INFO - Processing 78/288
+2025-11-08 18:00:15,389 - INFO - Saved answer 74 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 18:00:15,389 - INFO - Progress: 74/288 pending completed
+2025-11-08 18:00:40,440 - INFO - Row 75 completed
+2025-11-08 18:00:40,440 - INFO - Processing 79/288
+2025-11-08 18:00:40,444 - INFO - Saved answer 75 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 18:00:40,445 - INFO - Progress: 75/288 pending completed
+2025-11-08 18:01:10,639 - INFO - Row 76 completed
+2025-11-08 18:01:10,639 - INFO - Processing 80/288
+2025-11-08 18:01:10,646 - INFO - Saved answer 76 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 18:01:10,646 - INFO - Progress: 76/288 pending completed
+2025-11-08 18:01:40,449 - INFO - Row 77 completed
+2025-11-08 18:01:40,450 - INFO - Processing 81/288
+2025-11-08 18:01:40,454 - INFO - Saved answer 77 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 18:01:40,454 - INFO - Progress: 77/288 pending completed
+2025-11-08 18:02:10,452 - INFO - Row 78 completed
+2025-11-08 18:02:10,452 - INFO - Processing 82/288
+2025-11-08 18:02:10,456 - INFO - Saved answer 78 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 18:02:10,457 - INFO - Progress: 78/288 pending completed
+2025-11-08 18:02:40,048 - INFO - Row 79 completed
+2025-11-08 18:02:40,048 - INFO - Processing 83/288
+2025-11-08 18:02:40,052 - INFO - Saved answer 79 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 18:02:40,053 - INFO - Progress: 79/288 pending completed
+2025-11-08 18:03:11,151 - INFO - Row 80 completed
+2025-11-08 18:03:11,151 - INFO - Processing 84/288
+2025-11-08 18:03:11,155 - INFO - Saved answer 80 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 18:03:11,155 - INFO - Progress: 80/288 pending completed
+2025-11-08 18:03:39,907 - INFO - Row 81 completed
+2025-11-08 18:03:39,908 - INFO - Processing 85/288
+2025-11-08 18:03:39,912 - INFO - Saved answer 81 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 18:03:39,912 - INFO - Progress: 81/288 pending completed
+2025-11-08 18:04:10,726 - INFO - Row 82 completed
+2025-11-08 18:04:10,727 - INFO - Processing 86/288
+2025-11-08 18:04:10,731 - INFO - Saved answer 82 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\openai-chatgpt-4o-latest_answers.csv
+2025-11-08 18:04:10,731 - INFO - Progress: 82/288 pending completed

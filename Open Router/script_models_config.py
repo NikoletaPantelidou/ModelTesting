@@ -24,6 +24,16 @@ MODELS = [
         "use_qa_pipeline": False,
         "trust_remote_code": False
     },
+    {
+        "name": "google/gemma-3-4b-it:free",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+    {
+        "name": "openai/chatgpt-4o-latest",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
 
 ]
 

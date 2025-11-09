@@ -1,0 +1,1162 @@
+2025-11-08 14:36:29,616 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-08 14:36:29,630 - INFO - Processing model openai/gpt-5
+2025-11-08 14:36:29,635 - INFO - No pending prompts
+2025-11-08 14:36:29,643 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-08 14:36:29,652 - INFO - No pending prompts
+2025-11-08 14:36:29,657 - INFO - Processing model meta-llama/llama-4-scout:free
+2025-11-08 14:36:29,663 - INFO - No pending prompts
+2025-11-08 14:36:29,663 - INFO - Processing model google/gemma-3-4b-it:free
+2025-11-08 14:36:29,665 - INFO - Processing 1/288
+2025-11-08 14:36:29,666 - INFO - Processing 2/288
+2025-11-08 14:36:29,666 - INFO - Processing 3/288
+2025-11-08 14:36:29,667 - INFO - Processing 4/288
+2025-11-08 14:36:33,113 - INFO - Row 1 completed
+2025-11-08 14:36:33,113 - INFO - Processing 5/288
+2025-11-08 14:36:33,119 - INFO - Saved answer 1 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:36:33,119 - INFO - Progress: 1/288 pending completed
+2025-11-08 14:37:05,403 - INFO - Row 2 completed
+2025-11-08 14:37:05,403 - INFO - Processing 6/288
+2025-11-08 14:37:05,406 - INFO - Saved answer 2 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:37:05,407 - INFO - Progress: 2/288 pending completed
+2025-11-08 14:37:34,802 - INFO - Row 3 completed
+2025-11-08 14:37:34,802 - INFO - Processing 7/288
+2025-11-08 14:37:34,806 - INFO - Saved answer 3 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:37:34,806 - INFO - Progress: 3/288 pending completed
+2025-11-08 14:38:03,354 - INFO - Row 4 completed
+2025-11-08 14:38:03,355 - INFO - Processing 8/288
+2025-11-08 14:38:03,359 - INFO - Saved answer 4 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:38:03,359 - INFO - Progress: 4/288 pending completed
+2025-11-08 14:38:33,752 - INFO - Row 5 completed
+2025-11-08 14:38:33,752 - INFO - Processing 9/288
+2025-11-08 14:38:33,755 - INFO - Saved answer 5 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:38:33,756 - INFO - Progress: 5/288 pending completed
+2025-11-08 14:39:03,966 - INFO - Row 6 completed
+2025-11-08 14:39:03,966 - INFO - Processing 10/288
+2025-11-08 14:39:03,970 - INFO - Saved answer 6 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:39:03,970 - INFO - Progress: 6/288 pending completed
+2025-11-08 14:39:33,861 - INFO - Row 7 completed
+2025-11-08 14:39:33,861 - INFO - Processing 11/288
+2025-11-08 14:39:33,865 - INFO - Saved answer 7 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:39:33,865 - INFO - Progress: 7/288 pending completed
+2025-11-08 14:40:04,399 - INFO - Row 8 completed
+2025-11-08 14:40:04,399 - INFO - Processing 12/288
+2025-11-08 14:40:04,403 - INFO - Saved answer 8 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:40:04,403 - INFO - Progress: 8/288 pending completed
+2025-11-08 14:40:35,704 - INFO - Row 9 completed
+2025-11-08 14:40:35,705 - INFO - Processing 13/288
+2025-11-08 14:40:35,708 - INFO - Saved answer 9 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:40:35,708 - INFO - Progress: 9/288 pending completed
+2025-11-08 14:41:03,023 - INFO - Row 10 completed
+2025-11-08 14:41:03,023 - INFO - Processing 14/288
+2025-11-08 14:41:03,027 - INFO - Saved answer 10 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:41:03,027 - INFO - Progress: 10/288 pending completed
+2025-11-08 14:41:34,078 - INFO - Row 11 completed
+2025-11-08 14:41:34,079 - INFO - Processing 15/288
+2025-11-08 14:41:34,082 - INFO - Saved answer 11 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:41:34,082 - INFO - Progress: 11/288 pending completed
+2025-11-08 14:42:03,540 - INFO - Row 12 completed
+2025-11-08 14:42:03,540 - INFO - Processing 16/288
+2025-11-08 14:42:03,544 - INFO - Saved answer 12 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:42:03,544 - INFO - Progress: 12/288 pending completed
+2025-11-08 14:42:32,507 - INFO - Row 13 completed
+2025-11-08 14:42:32,507 - INFO - Processing 17/288
+2025-11-08 14:42:32,510 - INFO - Saved answer 13 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:42:32,511 - INFO - Progress: 13/288 pending completed
+2025-11-08 14:43:02,912 - INFO - Row 14 completed
+2025-11-08 14:43:02,912 - INFO - Processing 18/288
+2025-11-08 14:43:02,916 - INFO - Saved answer 14 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:43:02,916 - INFO - Progress: 14/288 pending completed
+2025-11-08 14:43:33,747 - INFO - Row 15 completed
+2025-11-08 14:43:33,747 - INFO - Processing 19/288
+2025-11-08 14:43:33,750 - INFO - Saved answer 15 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:43:33,750 - INFO - Progress: 15/288 pending completed
+2025-11-08 14:44:02,397 - INFO - Row 16 completed
+2025-11-08 14:44:02,397 - INFO - Processing 20/288
+2025-11-08 14:44:02,401 - INFO - Saved answer 16 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:44:02,401 - INFO - Progress: 16/288 pending completed
+2025-11-08 14:44:34,797 - INFO - Row 17 completed
+2025-11-08 14:44:34,797 - INFO - Processing 21/288
+2025-11-08 14:44:34,800 - INFO - Saved answer 17 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:44:34,801 - INFO - Progress: 17/288 pending completed
+2025-11-08 14:45:03,142 - INFO - Row 18 completed
+2025-11-08 14:45:03,142 - INFO - Processing 22/288
+2025-11-08 14:45:03,145 - INFO - Saved answer 18 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:45:03,145 - INFO - Progress: 18/288 pending completed
+2025-11-08 14:45:33,485 - INFO - Row 19 completed
+2025-11-08 14:45:33,485 - INFO - Processing 23/288
+2025-11-08 14:45:33,489 - INFO - Saved answer 19 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:45:33,489 - INFO - Progress: 19/288 pending completed
+2025-11-08 14:46:04,209 - INFO - Row 20 completed
+2025-11-08 14:46:04,209 - INFO - Processing 24/288
+2025-11-08 14:46:04,213 - INFO - Saved answer 20 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:46:04,213 - INFO - Progress: 20/288 pending completed
+2025-11-08 14:46:33,757 - INFO - Row 21 completed
+2025-11-08 14:46:33,757 - INFO - Processing 25/288
+2025-11-08 14:46:33,761 - INFO - Saved answer 21 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:46:33,761 - INFO - Progress: 21/288 pending completed
+2025-11-08 14:47:03,581 - INFO - Row 22 completed
+2025-11-08 14:47:03,581 - INFO - Processing 26/288
+2025-11-08 14:47:03,584 - INFO - Saved answer 22 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:47:03,584 - INFO - Progress: 22/288 pending completed
+2025-11-08 14:47:34,776 - INFO - Row 23 completed
+2025-11-08 14:47:34,776 - INFO - Processing 27/288
+2025-11-08 14:47:34,799 - INFO - Saved answer 23 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:47:34,799 - INFO - Progress: 23/288 pending completed
+2025-11-08 14:48:04,605 - INFO - Row 24 completed
+2025-11-08 14:48:04,605 - INFO - Processing 28/288
+2025-11-08 14:48:04,609 - INFO - Saved answer 24 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:48:04,609 - INFO - Progress: 24/288 pending completed
+2025-11-08 14:48:33,144 - INFO - Row 25 completed
+2025-11-08 14:48:33,144 - INFO - Processing 29/288
+2025-11-08 14:48:33,148 - INFO - Saved answer 25 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:48:33,148 - INFO - Progress: 25/288 pending completed
+2025-11-08 14:49:03,029 - INFO - Row 26 completed
+2025-11-08 14:49:03,029 - INFO - Processing 30/288
+2025-11-08 14:49:03,033 - INFO - Saved answer 26 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:49:03,033 - INFO - Progress: 26/288 pending completed
+2025-11-08 14:49:34,698 - INFO - Row 27 completed
+2025-11-08 14:49:34,699 - INFO - Processing 31/288
+2025-11-08 14:49:34,703 - INFO - Saved answer 27 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:49:34,703 - INFO - Progress: 27/288 pending completed
+2025-11-08 14:50:02,071 - INFO - Row 28 completed
+2025-11-08 14:50:02,072 - INFO - Processing 32/288
+2025-11-08 14:50:02,076 - INFO - Saved answer 28 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:50:02,076 - INFO - Progress: 28/288 pending completed
+2025-11-08 14:50:30,455 - ERROR - Error processing row 29: OpenRouter returned status 429: {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio'}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-08 14:50:30,457 - INFO - Processing 33/288
+2025-11-08 14:50:30,460 - INFO - Saved answer 29 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:50:30,460 - INFO - Progress: 29/288 pending completed
+2025-11-08 14:51:02,469 - INFO - Row 30 completed
+2025-11-08 14:51:02,470 - INFO - Processing 34/288
+2025-11-08 14:51:02,473 - INFO - Saved answer 30 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:51:02,474 - INFO - Progress: 30/288 pending completed
+2025-11-08 14:51:32,216 - INFO - Row 31 completed
+2025-11-08 14:51:32,216 - INFO - Processing 35/288
+2025-11-08 14:51:32,220 - INFO - Saved answer 31 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:51:32,220 - INFO - Progress: 31/288 pending completed
+2025-11-08 14:52:02,232 - INFO - Row 32 completed
+2025-11-08 14:52:02,233 - INFO - Processing 36/288
+2025-11-08 14:52:02,236 - INFO - Saved answer 32 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:52:02,237 - INFO - Progress: 32/288 pending completed
+2025-11-08 14:52:32,249 - INFO - Row 33 completed
+2025-11-08 14:52:32,249 - INFO - Processing 37/288
+2025-11-08 14:52:32,253 - INFO - Saved answer 33 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:52:32,253 - INFO - Progress: 33/288 pending completed
+2025-11-08 14:53:02,496 - INFO - Row 34 completed
+2025-11-08 14:53:02,496 - INFO - Processing 38/288
+2025-11-08 14:53:02,500 - INFO - Saved answer 34 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:53:02,500 - INFO - Progress: 34/288 pending completed
+2025-11-08 14:53:32,108 - INFO - Row 35 completed
+2025-11-08 14:53:32,108 - INFO - Processing 39/288
+2025-11-08 14:53:32,112 - INFO - Saved answer 35 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:53:32,112 - INFO - Progress: 35/288 pending completed
+2025-11-08 14:54:01,068 - INFO - Row 36 completed
+2025-11-08 14:54:01,069 - INFO - Processing 40/288
+2025-11-08 14:54:01,072 - INFO - Saved answer 36 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:54:01,072 - INFO - Progress: 36/288 pending completed
+2025-11-08 14:54:31,842 - INFO - Row 37 completed
+2025-11-08 14:54:31,843 - INFO - Processing 41/288
+2025-11-08 14:54:31,847 - INFO - Saved answer 37 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:54:31,847 - INFO - Progress: 37/288 pending completed
+2025-11-08 14:55:02,251 - INFO - Row 38 completed
+2025-11-08 14:55:02,251 - INFO - Processing 42/288
+2025-11-08 14:55:02,255 - INFO - Saved answer 38 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:55:02,255 - INFO - Progress: 38/288 pending completed
+2025-11-08 14:55:32,856 - INFO - Row 39 completed
+2025-11-08 14:55:32,857 - INFO - Processing 43/288
+2025-11-08 14:55:32,860 - INFO - Saved answer 39 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:55:32,860 - INFO - Progress: 39/288 pending completed
+2025-11-08 14:56:01,792 - INFO - Row 40 completed
+2025-11-08 14:56:01,793 - INFO - Processing 44/288
+2025-11-08 14:56:01,796 - INFO - Saved answer 40 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:56:01,796 - INFO - Progress: 40/288 pending completed
+2025-11-08 14:56:32,019 - INFO - Row 41 completed
+2025-11-08 14:56:32,019 - INFO - Processing 45/288
+2025-11-08 14:56:32,023 - INFO - Saved answer 41 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:56:32,023 - INFO - Progress: 41/288 pending completed
+2025-11-08 14:57:02,302 - INFO - Row 42 completed
+2025-11-08 14:57:02,302 - INFO - Processing 46/288
+2025-11-08 14:57:02,307 - INFO - Saved answer 42 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:57:02,307 - INFO - Progress: 42/288 pending completed
+2025-11-08 14:57:32,675 - INFO - Row 43 completed
+2025-11-08 14:57:32,675 - INFO - Processing 47/288
+2025-11-08 14:57:32,679 - INFO - Saved answer 43 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:57:32,679 - INFO - Progress: 43/288 pending completed
+2025-11-08 14:58:01,755 - INFO - Row 44 completed
+2025-11-08 14:58:01,755 - INFO - Processing 48/288
+2025-11-08 14:58:01,759 - INFO - Saved answer 44 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:58:01,759 - INFO - Progress: 44/288 pending completed
+2025-11-08 14:58:32,212 - INFO - Row 45 completed
+2025-11-08 14:58:32,212 - INFO - Processing 49/288
+2025-11-08 14:58:32,216 - INFO - Saved answer 45 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:58:32,216 - INFO - Progress: 45/288 pending completed
+2025-11-08 14:59:02,926 - INFO - Row 46 completed
+2025-11-08 14:59:02,926 - INFO - Processing 50/288
+2025-11-08 14:59:02,930 - INFO - Saved answer 46 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:59:02,930 - INFO - Progress: 46/288 pending completed
+2025-11-08 14:59:34,051 - INFO - Row 47 completed
+2025-11-08 14:59:34,051 - INFO - Processing 51/288
+2025-11-08 14:59:34,055 - INFO - Saved answer 47 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 14:59:34,055 - INFO - Progress: 47/288 pending completed
+2025-11-08 15:00:05,276 - INFO - Row 48 completed
+2025-11-08 15:00:05,276 - INFO - Processing 52/288
+2025-11-08 15:00:05,280 - INFO - Saved answer 48 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:00:05,280 - INFO - Progress: 48/288 pending completed
+2025-11-08 15:00:32,238 - INFO - Row 49 completed
+2025-11-08 15:00:32,239 - INFO - Processing 53/288
+2025-11-08 15:00:32,242 - INFO - Saved answer 49 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:00:32,243 - INFO - Progress: 49/288 pending completed
+2025-11-08 15:01:02,962 - INFO - Row 50 completed
+2025-11-08 15:01:02,962 - INFO - Processing 54/288
+2025-11-08 15:01:02,965 - INFO - Saved answer 50 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:01:02,966 - INFO - Progress: 50/288 pending completed
+2025-11-08 15:01:33,152 - INFO - Row 51 completed
+2025-11-08 15:01:33,152 - INFO - Processing 55/288
+2025-11-08 15:01:33,155 - INFO - Saved answer 51 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:01:33,156 - INFO - Progress: 51/288 pending completed
+2025-11-08 15:02:03,153 - INFO - Row 52 completed
+2025-11-08 15:02:03,153 - INFO - Processing 56/288
+2025-11-08 15:02:03,157 - INFO - Saved answer 52 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:02:03,157 - INFO - Progress: 52/288 pending completed
+2025-11-08 15:02:33,086 - INFO - Row 53 completed
+2025-11-08 15:02:33,086 - INFO - Processing 57/288
+2025-11-08 15:02:33,089 - INFO - Saved answer 53 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:02:33,089 - INFO - Progress: 53/288 pending completed
+2025-11-08 15:03:03,674 - INFO - Row 54 completed
+2025-11-08 15:03:03,674 - INFO - Processing 58/288
+2025-11-08 15:03:03,679 - INFO - Saved answer 54 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:03:03,679 - INFO - Progress: 54/288 pending completed
+2025-11-08 15:03:34,403 - INFO - Row 55 completed
+2025-11-08 15:03:34,403 - INFO - Processing 59/288
+2025-11-08 15:03:34,407 - INFO - Saved answer 55 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:03:34,407 - INFO - Progress: 55/288 pending completed
+2025-11-08 15:04:03,962 - INFO - Row 56 completed
+2025-11-08 15:04:03,962 - INFO - Processing 60/288
+2025-11-08 15:04:03,966 - INFO - Saved answer 56 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:04:03,966 - INFO - Progress: 56/288 pending completed
+2025-11-08 15:04:34,076 - INFO - Row 57 completed
+2025-11-08 15:04:34,076 - INFO - Processing 61/288
+2025-11-08 15:04:34,081 - INFO - Saved answer 57 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:04:34,082 - INFO - Progress: 57/288 pending completed
+2025-11-08 15:05:03,556 - INFO - Row 58 completed
+2025-11-08 15:05:03,557 - INFO - Processing 62/288
+2025-11-08 15:05:03,561 - INFO - Saved answer 58 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:05:03,561 - INFO - Progress: 58/288 pending completed
+2025-11-08 15:05:30,469 - ERROR - Error processing row 59: OpenRouter returned status 429: {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio'}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-08 15:05:30,471 - INFO - Processing 63/288
+2025-11-08 15:05:30,476 - INFO - Saved answer 59 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:05:30,476 - INFO - Progress: 59/288 pending completed
+2025-11-08 15:06:03,130 - INFO - Row 60 completed
+2025-11-08 15:06:03,130 - INFO - Processing 64/288
+2025-11-08 15:06:03,135 - INFO - Saved answer 60 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:06:03,135 - INFO - Progress: 60/288 pending completed
+2025-11-08 15:06:33,223 - INFO - Row 61 completed
+2025-11-08 15:06:33,223 - INFO - Processing 65/288
+2025-11-08 15:06:33,227 - INFO - Saved answer 61 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:06:33,227 - INFO - Progress: 61/288 pending completed
+2025-11-08 15:07:04,367 - INFO - Row 62 completed
+2025-11-08 15:07:04,367 - INFO - Processing 66/288
+2025-11-08 15:07:04,371 - INFO - Saved answer 62 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:07:04,371 - INFO - Progress: 62/288 pending completed
+2025-11-08 15:07:32,926 - INFO - Row 63 completed
+2025-11-08 15:07:32,926 - INFO - Processing 67/288
+2025-11-08 15:07:32,930 - INFO - Saved answer 63 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:07:32,930 - INFO - Progress: 63/288 pending completed
+2025-11-08 15:08:04,010 - INFO - Row 64 completed
+2025-11-08 15:08:04,011 - INFO - Processing 68/288
+2025-11-08 15:08:04,015 - INFO - Saved answer 64 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:08:04,015 - INFO - Progress: 64/288 pending completed
+2025-11-08 15:08:33,573 - INFO - Row 65 completed
+2025-11-08 15:08:33,573 - INFO - Processing 69/288
+2025-11-08 15:08:33,577 - INFO - Saved answer 65 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:08:33,577 - INFO - Progress: 65/288 pending completed
+2025-11-08 15:09:03,338 - INFO - Row 66 completed
+2025-11-08 15:09:03,339 - INFO - Processing 70/288
+2025-11-08 15:09:03,342 - INFO - Saved answer 66 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:09:03,343 - INFO - Progress: 66/288 pending completed
+2025-11-08 15:09:32,986 - INFO - Row 67 completed
+2025-11-08 15:09:32,987 - INFO - Processing 71/288
+2025-11-08 15:09:32,990 - INFO - Saved answer 67 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:09:32,991 - INFO - Progress: 67/288 pending completed
+2025-11-08 15:10:03,940 - INFO - Row 68 completed
+2025-11-08 15:10:03,940 - INFO - Processing 72/288
+2025-11-08 15:10:03,944 - INFO - Saved answer 68 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:10:03,944 - INFO - Progress: 68/288 pending completed
+2025-11-08 15:10:34,435 - INFO - Row 69 completed
+2025-11-08 15:10:34,435 - INFO - Processing 73/288
+2025-11-08 15:10:34,440 - INFO - Saved answer 69 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:10:34,440 - INFO - Progress: 69/288 pending completed
+2025-11-08 15:11:02,837 - INFO - Row 70 completed
+2025-11-08 15:11:02,838 - INFO - Processing 74/288
+2025-11-08 15:11:02,842 - INFO - Saved answer 70 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:11:02,842 - INFO - Progress: 70/288 pending completed
+2025-11-08 15:11:34,058 - INFO - Row 71 completed
+2025-11-08 15:11:34,059 - INFO - Processing 75/288
+2025-11-08 15:11:34,062 - INFO - Saved answer 71 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:11:34,062 - INFO - Progress: 71/288 pending completed
+2025-11-08 15:12:03,321 - INFO - Row 72 completed
+2025-11-08 15:12:03,321 - INFO - Processing 76/288
+2025-11-08 15:12:03,325 - INFO - Saved answer 72 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:12:03,325 - INFO - Progress: 72/288 pending completed
+2025-11-08 15:12:32,465 - INFO - Row 73 completed
+2025-11-08 15:12:32,466 - INFO - Processing 77/288
+2025-11-08 15:12:32,470 - INFO - Saved answer 73 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:12:32,470 - INFO - Progress: 73/288 pending completed
+2025-11-08 15:13:02,236 - INFO - Row 74 completed
+2025-11-08 15:13:02,236 - INFO - Processing 78/288
+2025-11-08 15:13:02,240 - INFO - Saved answer 74 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:13:02,240 - INFO - Progress: 74/288 pending completed
+2025-11-08 15:13:32,606 - INFO - Row 75 completed
+2025-11-08 15:13:32,606 - INFO - Processing 79/288
+2025-11-08 15:13:32,610 - INFO - Saved answer 75 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:13:32,610 - INFO - Progress: 75/288 pending completed
+2025-11-08 15:14:01,991 - INFO - Row 76 completed
+2025-11-08 15:14:01,992 - INFO - Processing 80/288
+2025-11-08 15:14:01,996 - INFO - Saved answer 76 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:14:01,996 - INFO - Progress: 76/288 pending completed
+2025-11-08 15:14:33,110 - INFO - Row 77 completed
+2025-11-08 15:14:33,111 - INFO - Processing 81/288
+2025-11-08 15:14:33,117 - INFO - Saved answer 77 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:14:33,117 - INFO - Progress: 77/288 pending completed
+2025-11-08 15:15:02,147 - INFO - Row 78 completed
+2025-11-08 15:15:02,147 - INFO - Processing 82/288
+2025-11-08 15:15:02,151 - INFO - Saved answer 78 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:15:02,151 - INFO - Progress: 78/288 pending completed
+2025-11-08 15:15:32,230 - INFO - Row 79 completed
+2025-11-08 15:15:32,230 - INFO - Processing 83/288
+2025-11-08 15:15:32,234 - INFO - Saved answer 79 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:15:32,234 - INFO - Progress: 79/288 pending completed
+2025-11-08 15:16:02,946 - INFO - Row 80 completed
+2025-11-08 15:16:02,946 - INFO - Processing 84/288
+2025-11-08 15:16:02,950 - INFO - Saved answer 80 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:16:02,950 - INFO - Progress: 80/288 pending completed
+2025-11-08 15:16:32,818 - INFO - Row 81 completed
+2025-11-08 15:16:32,818 - INFO - Processing 85/288
+2025-11-08 15:16:32,822 - INFO - Saved answer 81 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:16:32,822 - INFO - Progress: 81/288 pending completed
+2025-11-08 15:17:03,004 - INFO - Row 82 completed
+2025-11-08 15:17:03,004 - INFO - Processing 86/288
+2025-11-08 15:17:03,008 - INFO - Saved answer 82 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:17:03,008 - INFO - Progress: 82/288 pending completed
+2025-11-08 15:17:33,064 - INFO - Row 83 completed
+2025-11-08 15:17:33,064 - INFO - Processing 87/288
+2025-11-08 15:17:33,067 - INFO - Saved answer 83 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:17:33,067 - INFO - Progress: 83/288 pending completed
+2025-11-08 15:18:02,847 - INFO - Row 84 completed
+2025-11-08 15:18:02,848 - INFO - Processing 88/288
+2025-11-08 15:18:02,851 - INFO - Saved answer 84 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:18:02,852 - INFO - Progress: 84/288 pending completed
+2025-11-08 15:18:32,772 - INFO - Row 85 completed
+2025-11-08 15:18:32,773 - INFO - Processing 89/288
+2025-11-08 15:18:32,776 - INFO - Saved answer 85 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:18:32,777 - INFO - Progress: 85/288 pending completed
+2025-11-08 15:19:03,128 - INFO - Row 86 completed
+2025-11-08 15:19:03,129 - INFO - Processing 90/288
+2025-11-08 15:19:03,133 - INFO - Saved answer 86 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:19:03,133 - INFO - Progress: 86/288 pending completed
+2025-11-08 15:19:33,785 - INFO - Row 87 completed
+2025-11-08 15:19:33,785 - INFO - Processing 91/288
+2025-11-08 15:19:33,790 - INFO - Saved answer 87 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:19:33,790 - INFO - Progress: 87/288 pending completed
+2025-11-08 15:20:02,465 - INFO - Row 88 completed
+2025-11-08 15:20:02,465 - INFO - Processing 92/288
+2025-11-08 15:20:02,469 - INFO - Saved answer 88 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:20:02,469 - INFO - Progress: 88/288 pending completed
+2025-11-08 15:20:30,427 - ERROR - Error processing row 89: OpenRouter returned status 429: {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio'}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-08 15:20:30,430 - INFO - Processing 93/288
+2025-11-08 15:20:30,434 - INFO - Saved answer 89 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:20:30,434 - INFO - Progress: 89/288 pending completed
+2025-11-08 15:21:03,084 - INFO - Row 90 completed
+2025-11-08 15:21:03,084 - INFO - Processing 94/288
+2025-11-08 15:21:03,088 - INFO - Saved answer 90 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:21:03,088 - INFO - Progress: 90/288 pending completed
+2025-11-08 15:21:32,838 - INFO - Row 91 completed
+2025-11-08 15:21:32,838 - INFO - Processing 95/288
+2025-11-08 15:21:32,843 - INFO - Saved answer 91 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:21:32,843 - INFO - Progress: 91/288 pending completed
+2025-11-08 15:22:03,205 - INFO - Row 92 completed
+2025-11-08 15:22:03,205 - INFO - Processing 96/288
+2025-11-08 15:22:03,210 - INFO - Saved answer 92 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:22:03,210 - INFO - Progress: 92/288 pending completed
+2025-11-08 15:22:32,578 - INFO - Row 93 completed
+2025-11-08 15:22:32,578 - INFO - Processing 97/288
+2025-11-08 15:22:32,582 - INFO - Saved answer 93 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:22:32,583 - INFO - Progress: 93/288 pending completed
+2025-11-08 15:23:03,138 - INFO - Row 94 completed
+2025-11-08 15:23:03,138 - INFO - Processing 98/288
+2025-11-08 15:23:03,142 - INFO - Saved answer 94 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:23:03,143 - INFO - Progress: 94/288 pending completed
+2025-11-08 15:23:33,354 - INFO - Row 95 completed
+2025-11-08 15:23:33,354 - INFO - Processing 99/288
+2025-11-08 15:23:33,359 - INFO - Saved answer 95 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:23:33,359 - INFO - Progress: 95/288 pending completed
+2025-11-08 15:24:03,685 - INFO - Row 96 completed
+2025-11-08 15:24:03,685 - INFO - Processing 100/288
+2025-11-08 15:24:03,690 - INFO - Saved answer 96 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:24:03,690 - INFO - Progress: 96/288 pending completed
+2025-11-08 15:24:33,681 - INFO - Row 97 completed
+2025-11-08 15:24:33,681 - INFO - Processing 101/288
+2025-11-08 15:24:33,686 - INFO - Saved answer 97 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:24:33,686 - INFO - Progress: 97/288 pending completed
+2025-11-08 15:25:02,913 - INFO - Row 98 completed
+2025-11-08 15:25:02,914 - INFO - Processing 102/288
+2025-11-08 15:25:02,918 - INFO - Saved answer 98 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:25:02,918 - INFO - Progress: 98/288 pending completed
+2025-11-08 15:25:32,212 - INFO - Row 99 completed
+2025-11-08 15:25:32,212 - INFO - Processing 103/288
+2025-11-08 15:25:32,217 - INFO - Saved answer 99 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:25:32,217 - INFO - Progress: 99/288 pending completed
+2025-11-08 15:26:02,324 - INFO - Row 100 completed
+2025-11-08 15:26:02,324 - INFO - Processing 104/288
+2025-11-08 15:26:02,329 - INFO - Saved answer 100 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:26:02,330 - INFO - Progress: 100/288 pending completed
+2025-11-08 15:26:32,296 - INFO - Row 101 completed
+2025-11-08 15:26:32,296 - INFO - Processing 105/288
+2025-11-08 15:26:32,301 - INFO - Saved answer 101 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:26:32,301 - INFO - Progress: 101/288 pending completed
+2025-11-08 15:27:02,576 - INFO - Row 102 completed
+2025-11-08 15:27:02,577 - INFO - Processing 106/288
+2025-11-08 15:27:02,581 - INFO - Saved answer 102 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:27:02,581 - INFO - Progress: 102/288 pending completed
+2025-11-08 15:27:32,768 - INFO - Row 103 completed
+2025-11-08 15:27:32,769 - INFO - Processing 107/288
+2025-11-08 15:27:32,773 - INFO - Saved answer 103 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:27:32,773 - INFO - Progress: 103/288 pending completed
+2025-11-08 15:28:03,352 - INFO - Row 104 completed
+2025-11-08 15:28:03,352 - INFO - Processing 108/288
+2025-11-08 15:28:03,356 - INFO - Saved answer 104 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:28:03,357 - INFO - Progress: 104/288 pending completed
+2025-11-08 15:28:32,728 - INFO - Row 105 completed
+2025-11-08 15:28:32,728 - INFO - Processing 109/288
+2025-11-08 15:28:32,732 - INFO - Saved answer 105 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:28:32,732 - INFO - Progress: 105/288 pending completed
+2025-11-08 15:29:03,375 - INFO - Row 106 completed
+2025-11-08 15:29:03,375 - INFO - Processing 110/288
+2025-11-08 15:29:03,379 - INFO - Saved answer 106 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:29:03,379 - INFO - Progress: 106/288 pending completed
+2025-11-08 15:29:32,123 - INFO - Row 107 completed
+2025-11-08 15:29:32,123 - INFO - Processing 111/288
+2025-11-08 15:29:32,127 - INFO - Saved answer 107 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:29:32,127 - INFO - Progress: 107/288 pending completed
+2025-11-08 15:30:02,277 - INFO - Row 108 completed
+2025-11-08 15:30:02,277 - INFO - Processing 112/288
+2025-11-08 15:30:02,282 - INFO - Saved answer 108 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:30:02,282 - INFO - Progress: 108/288 pending completed
+2025-11-08 15:30:32,451 - INFO - Row 109 completed
+2025-11-08 15:30:32,451 - INFO - Processing 113/288
+2025-11-08 15:30:32,456 - INFO - Saved answer 109 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:30:32,456 - INFO - Progress: 109/288 pending completed
+2025-11-08 15:31:02,235 - INFO - Row 110 completed
+2025-11-08 15:31:02,235 - INFO - Processing 114/288
+2025-11-08 15:31:02,239 - INFO - Saved answer 110 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:31:02,239 - INFO - Progress: 110/288 pending completed
+2025-11-08 15:31:32,792 - INFO - Row 111 completed
+2025-11-08 15:31:32,793 - INFO - Processing 115/288
+2025-11-08 15:31:32,798 - INFO - Saved answer 111 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:31:32,798 - INFO - Progress: 111/288 pending completed
+2025-11-08 15:32:03,153 - INFO - Row 112 completed
+2025-11-08 15:32:03,153 - INFO - Processing 116/288
+2025-11-08 15:32:03,156 - INFO - Saved answer 112 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:32:03,157 - INFO - Progress: 112/288 pending completed
+2025-11-08 15:32:32,512 - INFO - Row 113 completed
+2025-11-08 15:32:32,512 - INFO - Processing 117/288
+2025-11-08 15:32:32,516 - INFO - Saved answer 113 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:32:32,517 - INFO - Progress: 113/288 pending completed
+2025-11-08 15:33:02,825 - INFO - Row 114 completed
+2025-11-08 15:33:02,826 - INFO - Processing 118/288
+2025-11-08 15:33:02,829 - INFO - Saved answer 114 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:33:02,829 - INFO - Progress: 114/288 pending completed
+2025-11-08 15:33:32,944 - INFO - Row 115 completed
+2025-11-08 15:33:32,944 - INFO - Processing 119/288
+2025-11-08 15:33:32,948 - INFO - Saved answer 115 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:33:32,948 - INFO - Progress: 115/288 pending completed
+2025-11-08 15:34:01,981 - INFO - Row 116 completed
+2025-11-08 15:34:01,981 - INFO - Processing 120/288
+2025-11-08 15:34:01,985 - INFO - Saved answer 116 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:34:01,985 - INFO - Progress: 116/288 pending completed
+2025-11-08 15:34:32,105 - INFO - Row 117 completed
+2025-11-08 15:34:32,105 - INFO - Processing 121/288
+2025-11-08 15:34:32,110 - INFO - Saved answer 117 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:34:32,110 - INFO - Progress: 117/288 pending completed
+2025-11-08 15:35:03,509 - INFO - Row 118 completed
+2025-11-08 15:35:03,509 - INFO - Processing 122/288
+2025-11-08 15:35:03,513 - INFO - Saved answer 118 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:35:03,514 - INFO - Progress: 118/288 pending completed
+2025-11-08 15:35:33,121 - INFO - Row 119 completed
+2025-11-08 15:35:33,121 - INFO - Processing 123/288
+2025-11-08 15:35:33,125 - INFO - Saved answer 119 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:35:33,125 - INFO - Progress: 119/288 pending completed
+2025-11-08 15:36:04,105 - INFO - Row 120 completed
+2025-11-08 15:36:04,105 - INFO - Processing 124/288
+2025-11-08 15:36:04,109 - INFO - Saved answer 120 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:36:04,109 - INFO - Progress: 120/288 pending completed
+2025-11-08 15:36:33,207 - INFO - Row 121 completed
+2025-11-08 15:36:33,208 - INFO - Processing 125/288
+2025-11-08 15:36:33,213 - INFO - Saved answer 121 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:36:33,213 - INFO - Progress: 121/288 pending completed
+2025-11-08 15:37:02,777 - INFO - Row 122 completed
+2025-11-08 15:37:02,778 - INFO - Processing 126/288
+2025-11-08 15:37:02,783 - INFO - Saved answer 122 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:37:02,783 - INFO - Progress: 122/288 pending completed
+2025-11-08 15:37:32,617 - INFO - Row 123 completed
+2025-11-08 15:37:32,617 - INFO - Processing 127/288
+2025-11-08 15:37:32,623 - INFO - Saved answer 123 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:37:32,623 - INFO - Progress: 123/288 pending completed
+2025-11-08 15:38:04,340 - INFO - Row 124 completed
+2025-11-08 15:38:04,340 - INFO - Processing 128/288
+2025-11-08 15:38:04,345 - INFO - Saved answer 124 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:38:04,346 - INFO - Progress: 124/288 pending completed
+2025-11-08 15:38:33,774 - INFO - Row 125 completed
+2025-11-08 15:38:33,774 - INFO - Processing 129/288
+2025-11-08 15:38:33,780 - INFO - Saved answer 125 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:38:33,780 - INFO - Progress: 125/288 pending completed
+2025-11-08 15:39:03,953 - INFO - Row 126 completed
+2025-11-08 15:39:03,953 - INFO - Processing 130/288
+2025-11-08 15:39:03,958 - INFO - Saved answer 126 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:39:03,958 - INFO - Progress: 126/288 pending completed
+2025-11-08 15:39:33,612 - INFO - Row 127 completed
+2025-11-08 15:39:33,612 - INFO - Processing 131/288
+2025-11-08 15:39:33,617 - INFO - Saved answer 127 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:39:33,617 - INFO - Progress: 127/288 pending completed
+2025-11-08 15:40:03,662 - INFO - Row 128 completed
+2025-11-08 15:40:03,663 - INFO - Processing 132/288
+2025-11-08 15:40:03,671 - INFO - Saved answer 128 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:40:03,671 - INFO - Progress: 128/288 pending completed
+2025-11-08 15:40:33,442 - INFO - Row 129 completed
+2025-11-08 15:40:33,443 - INFO - Processing 133/288
+2025-11-08 15:40:33,448 - INFO - Saved answer 129 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:40:33,448 - INFO - Progress: 129/288 pending completed
+2025-11-08 15:41:03,655 - INFO - Row 130 completed
+2025-11-08 15:41:03,655 - INFO - Processing 134/288
+2025-11-08 15:41:03,660 - INFO - Saved answer 130 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:41:03,660 - INFO - Progress: 130/288 pending completed
+2025-11-08 15:41:32,128 - INFO - Row 131 completed
+2025-11-08 15:41:32,128 - INFO - Processing 135/288
+2025-11-08 15:41:32,132 - INFO - Saved answer 131 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:41:32,133 - INFO - Progress: 131/288 pending completed
+2025-11-08 15:42:03,047 - INFO - Row 132 completed
+2025-11-08 15:42:03,047 - INFO - Processing 136/288
+2025-11-08 15:42:03,055 - INFO - Saved answer 132 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:42:03,055 - INFO - Progress: 132/288 pending completed
+2025-11-08 15:42:33,133 - INFO - Row 133 completed
+2025-11-08 15:42:33,133 - INFO - Processing 137/288
+2025-11-08 15:42:33,143 - INFO - Saved answer 133 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:42:33,143 - INFO - Progress: 133/288 pending completed
+2025-11-08 15:43:03,284 - INFO - Row 134 completed
+2025-11-08 15:43:03,285 - INFO - Processing 138/288
+2025-11-08 15:43:03,290 - INFO - Saved answer 134 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:43:03,291 - INFO - Progress: 134/288 pending completed
+2025-11-08 15:43:33,271 - INFO - Row 135 completed
+2025-11-08 15:43:33,271 - INFO - Processing 139/288
+2025-11-08 15:43:33,277 - INFO - Saved answer 135 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:43:33,277 - INFO - Progress: 135/288 pending completed
+2025-11-08 15:44:02,521 - INFO - Row 136 completed
+2025-11-08 15:44:02,522 - INFO - Processing 140/288
+2025-11-08 15:44:02,527 - INFO - Saved answer 136 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:44:02,527 - INFO - Progress: 136/288 pending completed
+2025-11-08 15:44:33,224 - INFO - Row 137 completed
+2025-11-08 15:44:33,224 - INFO - Processing 141/288
+2025-11-08 15:44:33,230 - INFO - Saved answer 137 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:44:33,230 - INFO - Progress: 137/288 pending completed
+2025-11-08 15:45:03,524 - INFO - Row 138 completed
+2025-11-08 15:45:03,526 - INFO - Processing 142/288
+2025-11-08 15:45:03,532 - INFO - Saved answer 138 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:45:03,532 - INFO - Progress: 138/288 pending completed
+2025-11-08 15:45:33,731 - INFO - Row 139 completed
+2025-11-08 15:45:33,731 - INFO - Processing 143/288
+2025-11-08 15:45:33,736 - INFO - Saved answer 139 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:45:33,736 - INFO - Progress: 139/288 pending completed
+2025-11-08 15:46:02,922 - INFO - Row 140 completed
+2025-11-08 15:46:02,922 - INFO - Processing 144/288
+2025-11-08 15:46:02,928 - INFO - Saved answer 140 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:46:02,928 - INFO - Progress: 140/288 pending completed
+2025-11-08 15:46:33,031 - INFO - Row 141 completed
+2025-11-08 15:46:33,031 - INFO - Processing 145/288
+2025-11-08 15:46:33,037 - INFO - Saved answer 141 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:46:33,037 - INFO - Progress: 141/288 pending completed
+2025-11-08 15:47:02,617 - INFO - Row 142 completed
+2025-11-08 15:47:02,617 - INFO - Processing 146/288
+2025-11-08 15:47:02,622 - INFO - Saved answer 142 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:47:02,622 - INFO - Progress: 142/288 pending completed
+2025-11-08 15:47:33,980 - INFO - Row 143 completed
+2025-11-08 15:47:33,980 - INFO - Processing 147/288
+2025-11-08 15:47:33,985 - INFO - Saved answer 143 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:47:33,986 - INFO - Progress: 143/288 pending completed
+2025-11-08 15:48:03,114 - INFO - Row 144 completed
+2025-11-08 15:48:03,115 - INFO - Processing 148/288
+2025-11-08 15:48:03,121 - INFO - Saved answer 144 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:48:03,121 - INFO - Progress: 144/288 pending completed
+2025-11-08 15:48:32,981 - INFO - Row 145 completed
+2025-11-08 15:48:32,982 - INFO - Processing 149/288
+2025-11-08 15:48:32,988 - INFO - Saved answer 145 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:48:32,989 - INFO - Progress: 145/288 pending completed
+2025-11-08 15:49:03,520 - INFO - Row 146 completed
+2025-11-08 15:49:03,523 - INFO - Processing 150/288
+2025-11-08 15:49:03,528 - INFO - Saved answer 146 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:49:03,528 - INFO - Progress: 146/288 pending completed
+2025-11-08 15:49:32,702 - INFO - Row 147 completed
+2025-11-08 15:49:32,702 - INFO - Processing 151/288
+2025-11-08 15:49:32,708 - INFO - Saved answer 147 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:49:32,708 - INFO - Progress: 147/288 pending completed
+2025-11-08 15:50:02,406 - INFO - Row 148 completed
+2025-11-08 15:50:02,406 - INFO - Processing 152/288
+2025-11-08 15:50:02,416 - INFO - Saved answer 148 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:50:02,416 - INFO - Progress: 148/288 pending completed
+2025-11-08 15:50:33,108 - INFO - Row 149 completed
+2025-11-08 15:50:33,109 - INFO - Processing 153/288
+2025-11-08 15:50:33,114 - INFO - Saved answer 149 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:50:33,114 - INFO - Progress: 149/288 pending completed
+2025-11-08 15:51:04,056 - INFO - Row 150 completed
+2025-11-08 15:51:04,056 - INFO - Processing 154/288
+2025-11-08 15:51:04,061 - INFO - Saved answer 150 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:51:04,061 - INFO - Progress: 150/288 pending completed
+2025-11-08 15:51:33,185 - INFO - Row 151 completed
+2025-11-08 15:51:33,185 - INFO - Processing 155/288
+2025-11-08 15:51:33,191 - INFO - Saved answer 151 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:51:33,191 - INFO - Progress: 151/288 pending completed
+2025-11-08 15:52:02,819 - INFO - Row 152 completed
+2025-11-08 15:52:02,819 - INFO - Processing 156/288
+2025-11-08 15:52:02,824 - INFO - Saved answer 152 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:52:02,825 - INFO - Progress: 152/288 pending completed
+2025-11-08 15:52:33,427 - INFO - Row 153 completed
+2025-11-08 15:52:33,427 - INFO - Processing 157/288
+2025-11-08 15:52:33,432 - INFO - Saved answer 153 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:52:33,432 - INFO - Progress: 153/288 pending completed
+2025-11-08 15:53:03,419 - INFO - Row 154 completed
+2025-11-08 15:53:03,420 - INFO - Processing 158/288
+2025-11-08 15:53:03,425 - INFO - Saved answer 154 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:53:03,425 - INFO - Progress: 154/288 pending completed
+2025-11-08 15:53:33,569 - INFO - Row 155 completed
+2025-11-08 15:53:33,572 - INFO - Processing 159/288
+2025-11-08 15:53:33,577 - INFO - Saved answer 155 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:53:33,578 - INFO - Progress: 155/288 pending completed
+2025-11-08 15:54:04,360 - INFO - Row 156 completed
+2025-11-08 15:54:04,360 - INFO - Processing 160/288
+2025-11-08 15:54:04,365 - INFO - Saved answer 156 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:54:04,366 - INFO - Progress: 156/288 pending completed
+2025-11-08 15:54:32,617 - INFO - Row 157 completed
+2025-11-08 15:54:32,617 - INFO - Processing 161/288
+2025-11-08 15:54:32,622 - INFO - Saved answer 157 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:54:32,622 - INFO - Progress: 157/288 pending completed
+2025-11-08 15:55:05,866 - INFO - Row 158 completed
+2025-11-08 15:55:05,867 - INFO - Processing 162/288
+2025-11-08 15:55:05,872 - INFO - Saved answer 158 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:55:05,872 - INFO - Progress: 158/288 pending completed
+2025-11-08 15:55:34,852 - INFO - Row 159 completed
+2025-11-08 15:55:34,852 - INFO - Processing 163/288
+2025-11-08 15:55:34,858 - INFO - Saved answer 159 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:55:34,858 - INFO - Progress: 159/288 pending completed
+2025-11-08 15:56:02,615 - INFO - Row 160 completed
+2025-11-08 15:56:02,616 - INFO - Processing 164/288
+2025-11-08 15:56:02,621 - INFO - Saved answer 160 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:56:02,621 - INFO - Progress: 160/288 pending completed
+2025-11-08 15:56:33,856 - INFO - Row 161 completed
+2025-11-08 15:56:33,857 - INFO - Processing 165/288
+2025-11-08 15:56:33,861 - INFO - Saved answer 161 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:56:33,862 - INFO - Progress: 161/288 pending completed
+2025-11-08 15:57:05,515 - INFO - Row 162 completed
+2025-11-08 15:57:05,515 - INFO - Processing 166/288
+2025-11-08 15:57:05,520 - INFO - Saved answer 162 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:57:05,520 - INFO - Progress: 162/288 pending completed
+2025-11-08 15:57:33,287 - INFO - Row 163 completed
+2025-11-08 15:57:33,287 - INFO - Processing 167/288
+2025-11-08 15:57:33,293 - INFO - Saved answer 163 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:57:33,293 - INFO - Progress: 163/288 pending completed
+2025-11-08 15:58:04,948 - INFO - Row 164 completed
+2025-11-08 15:58:04,948 - INFO - Processing 168/288
+2025-11-08 15:58:04,953 - INFO - Saved answer 164 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:58:04,953 - INFO - Progress: 164/288 pending completed
+2025-11-08 15:58:34,077 - INFO - Row 165 completed
+2025-11-08 15:58:34,077 - INFO - Processing 169/288
+2025-11-08 15:58:34,083 - INFO - Saved answer 165 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:58:34,083 - INFO - Progress: 165/288 pending completed
+2025-11-08 15:59:03,892 - INFO - Row 166 completed
+2025-11-08 15:59:03,892 - INFO - Processing 170/288
+2025-11-08 15:59:03,897 - INFO - Saved answer 166 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:59:03,897 - INFO - Progress: 166/288 pending completed
+2025-11-08 15:59:37,233 - INFO - Row 167 completed
+2025-11-08 15:59:37,234 - INFO - Processing 171/288
+2025-11-08 15:59:37,239 - INFO - Saved answer 167 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 15:59:37,240 - INFO - Progress: 167/288 pending completed
+2025-11-08 16:00:04,377 - INFO - Row 168 completed
+2025-11-08 16:00:04,380 - INFO - Processing 172/288
+2025-11-08 16:00:04,386 - INFO - Saved answer 168 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:00:04,386 - INFO - Progress: 168/288 pending completed
+2025-11-08 16:00:32,642 - INFO - Row 169 completed
+2025-11-08 16:00:32,642 - INFO - Processing 173/288
+2025-11-08 16:00:32,647 - INFO - Saved answer 169 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:00:32,647 - INFO - Progress: 169/288 pending completed
+2025-11-08 16:01:04,312 - INFO - Row 170 completed
+2025-11-08 16:01:04,312 - INFO - Processing 174/288
+2025-11-08 16:01:04,318 - INFO - Saved answer 170 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:01:04,318 - INFO - Progress: 170/288 pending completed
+2025-11-08 16:01:33,268 - INFO - Row 171 completed
+2025-11-08 16:01:33,268 - INFO - Processing 175/288
+2025-11-08 16:01:33,274 - INFO - Saved answer 171 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:01:33,274 - INFO - Progress: 171/288 pending completed
+2025-11-08 16:02:02,141 - INFO - Row 172 completed
+2025-11-08 16:02:02,141 - INFO - Processing 176/288
+2025-11-08 16:02:02,147 - INFO - Saved answer 172 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:02:02,147 - INFO - Progress: 172/288 pending completed
+2025-11-08 16:02:32,265 - INFO - Row 173 completed
+2025-11-08 16:02:32,265 - INFO - Processing 177/288
+2025-11-08 16:02:32,271 - INFO - Saved answer 173 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:02:32,271 - INFO - Progress: 173/288 pending completed
+2025-11-08 16:03:02,139 - INFO - Row 174 completed
+2025-11-08 16:03:02,139 - INFO - Processing 178/288
+2025-11-08 16:03:02,145 - INFO - Saved answer 174 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:03:02,145 - INFO - Progress: 174/288 pending completed
+2025-11-08 16:03:32,363 - INFO - Row 175 completed
+2025-11-08 16:03:32,363 - INFO - Processing 179/288
+2025-11-08 16:03:32,369 - INFO - Saved answer 175 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:03:32,369 - INFO - Progress: 175/288 pending completed
+2025-11-08 16:04:02,916 - INFO - Row 176 completed
+2025-11-08 16:04:02,916 - INFO - Processing 180/288
+2025-11-08 16:04:02,922 - INFO - Saved answer 176 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:04:02,923 - INFO - Progress: 176/288 pending completed
+2025-11-08 16:04:32,186 - INFO - Row 177 completed
+2025-11-08 16:04:32,186 - INFO - Processing 181/288
+2025-11-08 16:04:32,193 - INFO - Saved answer 177 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:04:32,193 - INFO - Progress: 177/288 pending completed
+2025-11-08 16:05:02,306 - INFO - Row 178 completed
+2025-11-08 16:05:02,307 - INFO - Processing 182/288
+2025-11-08 16:05:02,312 - INFO - Saved answer 178 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:05:02,313 - INFO - Progress: 178/288 pending completed
+2025-11-08 16:05:32,309 - INFO - Row 179 completed
+2025-11-08 16:05:32,309 - INFO - Processing 183/288
+2025-11-08 16:05:32,315 - INFO - Saved answer 179 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:05:32,315 - INFO - Progress: 179/288 pending completed
+2025-11-08 16:06:01,597 - INFO - Row 180 completed
+2025-11-08 16:06:01,597 - INFO - Processing 184/288
+2025-11-08 16:06:01,603 - INFO - Saved answer 180 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:06:01,603 - INFO - Progress: 180/288 pending completed
+2025-11-08 16:06:32,289 - INFO - Row 181 completed
+2025-11-08 16:06:32,289 - INFO - Processing 185/288
+2025-11-08 16:06:32,295 - INFO - Saved answer 181 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:06:32,295 - INFO - Progress: 181/288 pending completed
+2025-11-08 16:07:02,018 - INFO - Row 182 completed
+2025-11-08 16:07:02,019 - INFO - Processing 186/288
+2025-11-08 16:07:02,024 - INFO - Saved answer 182 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:07:02,025 - INFO - Progress: 182/288 pending completed
+2025-11-08 16:07:32,290 - INFO - Row 183 completed
+2025-11-08 16:07:32,291 - INFO - Processing 187/288
+2025-11-08 16:07:32,302 - INFO - Saved answer 183 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:07:32,302 - INFO - Progress: 183/288 pending completed
+2025-11-08 16:08:02,307 - INFO - Row 184 completed
+2025-11-08 16:08:02,308 - INFO - Processing 188/288
+2025-11-08 16:08:02,313 - INFO - Saved answer 184 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:08:02,313 - INFO - Progress: 184/288 pending completed
+2025-11-08 16:08:31,547 - INFO - Row 185 completed
+2025-11-08 16:08:31,547 - INFO - Processing 189/288
+2025-11-08 16:08:31,552 - INFO - Saved answer 185 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:08:31,552 - INFO - Progress: 185/288 pending completed
+2025-11-08 16:09:03,398 - INFO - Row 186 completed
+2025-11-08 16:09:03,398 - INFO - Processing 190/288
+2025-11-08 16:09:03,404 - INFO - Saved answer 186 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:09:03,404 - INFO - Progress: 186/288 pending completed
+2025-11-08 16:09:33,434 - INFO - Row 187 completed
+2025-11-08 16:09:33,434 - INFO - Processing 191/288
+2025-11-08 16:09:33,439 - INFO - Saved answer 187 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:09:33,439 - INFO - Progress: 187/288 pending completed
+2025-11-08 16:10:02,256 - INFO - Row 188 completed
+2025-11-08 16:10:02,256 - INFO - Processing 192/288
+2025-11-08 16:10:02,262 - INFO - Saved answer 188 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:10:02,263 - INFO - Progress: 188/288 pending completed
+2025-11-08 16:10:32,204 - INFO - Row 189 completed
+2025-11-08 16:10:32,204 - INFO - Processing 193/288
+2025-11-08 16:10:32,211 - INFO - Saved answer 189 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:10:32,211 - INFO - Progress: 189/288 pending completed
+2025-11-08 16:11:03,698 - INFO - Row 190 completed
+2025-11-08 16:11:03,698 - INFO - Processing 194/288
+2025-11-08 16:11:03,703 - INFO - Saved answer 190 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:11:03,703 - INFO - Progress: 190/288 pending completed
+2025-11-08 16:11:35,229 - INFO - Row 191 completed
+2025-11-08 16:11:35,229 - INFO - Processing 195/288
+2025-11-08 16:11:35,234 - INFO - Saved answer 191 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:11:35,235 - INFO - Progress: 191/288 pending completed
+2025-11-08 16:12:04,217 - INFO - Row 192 completed
+2025-11-08 16:12:04,217 - INFO - Processing 196/288
+2025-11-08 16:12:04,222 - INFO - Saved answer 192 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:12:04,222 - INFO - Progress: 192/288 pending completed
+2025-11-08 16:12:32,852 - INFO - Row 193 completed
+2025-11-08 16:12:32,852 - INFO - Processing 197/288
+2025-11-08 16:12:32,858 - INFO - Saved answer 193 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:12:32,858 - INFO - Progress: 193/288 pending completed
+2025-11-08 16:13:02,839 - INFO - Row 194 completed
+2025-11-08 16:13:02,839 - INFO - Processing 198/288
+2025-11-08 16:13:02,845 - INFO - Saved answer 194 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:13:02,845 - INFO - Progress: 194/288 pending completed
+2025-11-08 16:13:32,879 - INFO - Row 195 completed
+2025-11-08 16:13:32,880 - INFO - Processing 199/288
+2025-11-08 16:13:32,885 - INFO - Saved answer 195 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:13:32,886 - INFO - Progress: 195/288 pending completed
+2025-11-08 16:14:03,263 - INFO - Row 196 completed
+2025-11-08 16:14:03,263 - INFO - Processing 200/288
+2025-11-08 16:14:03,269 - INFO - Saved answer 196 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:14:03,269 - INFO - Progress: 196/288 pending completed
+2025-11-08 16:14:35,971 - INFO - Row 197 completed
+2025-11-08 16:14:35,971 - INFO - Processing 201/288
+2025-11-08 16:14:35,976 - INFO - Saved answer 197 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:14:35,976 - INFO - Progress: 197/288 pending completed
+2025-11-08 16:15:03,037 - INFO - Row 198 completed
+2025-11-08 16:15:03,037 - INFO - Processing 202/288
+2025-11-08 16:15:03,043 - INFO - Saved answer 198 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:15:03,043 - INFO - Progress: 198/288 pending completed
+2025-11-08 16:15:34,222 - INFO - Row 199 completed
+2025-11-08 16:15:34,222 - INFO - Processing 203/288
+2025-11-08 16:15:34,229 - INFO - Saved answer 199 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:15:34,229 - INFO - Progress: 199/288 pending completed
+2025-11-08 16:16:03,017 - INFO - Row 200 completed
+2025-11-08 16:16:03,018 - INFO - Processing 204/288
+2025-11-08 16:16:03,023 - INFO - Saved answer 200 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:16:03,023 - INFO - Progress: 200/288 pending completed
+2025-11-08 16:16:33,615 - INFO - Row 201 completed
+2025-11-08 16:16:33,616 - INFO - Processing 205/288
+2025-11-08 16:16:33,621 - INFO - Saved answer 201 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:16:33,621 - INFO - Progress: 201/288 pending completed
+2025-11-08 16:17:03,398 - INFO - Row 202 completed
+2025-11-08 16:17:03,398 - INFO - Processing 206/288
+2025-11-08 16:17:03,404 - INFO - Saved answer 202 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:17:03,404 - INFO - Progress: 202/288 pending completed
+2025-11-08 16:17:32,541 - INFO - Row 203 completed
+2025-11-08 16:17:32,541 - INFO - Processing 207/288
+2025-11-08 16:17:32,547 - INFO - Saved answer 203 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:17:32,547 - INFO - Progress: 203/288 pending completed
+2025-11-08 16:18:03,098 - INFO - Row 204 completed
+2025-11-08 16:18:03,098 - INFO - Processing 208/288
+2025-11-08 16:18:03,104 - INFO - Saved answer 204 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:18:03,104 - INFO - Progress: 204/288 pending completed
+2025-11-08 16:18:33,781 - INFO - Row 205 completed
+2025-11-08 16:18:33,782 - INFO - Processing 209/288
+2025-11-08 16:18:33,787 - INFO - Saved answer 205 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:18:33,787 - INFO - Progress: 205/288 pending completed
+2025-11-08 16:19:04,381 - INFO - Row 206 completed
+2025-11-08 16:19:04,381 - INFO - Processing 210/288
+2025-11-08 16:19:04,387 - INFO - Saved answer 206 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:19:04,387 - INFO - Progress: 206/288 pending completed
+2025-11-08 16:19:33,057 - INFO - Row 207 completed
+2025-11-08 16:19:33,058 - INFO - Processing 211/288
+2025-11-08 16:19:33,063 - INFO - Saved answer 207 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:19:33,063 - INFO - Progress: 207/288 pending completed
+2025-11-08 16:20:05,015 - INFO - Row 208 completed
+2025-11-08 16:20:05,015 - INFO - Processing 212/288
+2025-11-08 16:20:05,021 - INFO - Saved answer 208 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:20:05,021 - INFO - Progress: 208/288 pending completed
+2025-11-08 16:20:34,885 - INFO - Row 209 completed
+2025-11-08 16:20:34,885 - INFO - Processing 213/288
+2025-11-08 16:20:34,891 - INFO - Saved answer 209 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:20:34,891 - INFO - Progress: 209/288 pending completed
+2025-11-08 16:21:03,474 - INFO - Row 210 completed
+2025-11-08 16:21:03,474 - INFO - Processing 214/288
+2025-11-08 16:21:03,480 - INFO - Saved answer 210 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:21:03,480 - INFO - Progress: 210/288 pending completed
+2025-11-08 16:21:33,047 - INFO - Row 211 completed
+2025-11-08 16:21:33,047 - INFO - Processing 215/288
+2025-11-08 16:21:33,053 - INFO - Saved answer 211 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:21:33,053 - INFO - Progress: 211/288 pending completed
+2025-11-08 16:22:04,464 - INFO - Row 212 completed
+2025-11-08 16:22:04,464 - INFO - Processing 216/288
+2025-11-08 16:22:04,470 - INFO - Saved answer 212 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:22:04,470 - INFO - Progress: 212/288 pending completed
+2025-11-08 16:22:34,046 - INFO - Row 213 completed
+2025-11-08 16:22:34,046 - INFO - Processing 217/288
+2025-11-08 16:22:34,052 - INFO - Saved answer 213 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:22:34,052 - INFO - Progress: 213/288 pending completed
+2025-11-08 16:23:04,775 - INFO - Row 214 completed
+2025-11-08 16:23:04,775 - INFO - Processing 218/288
+2025-11-08 16:23:04,780 - INFO - Saved answer 214 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:23:04,780 - INFO - Progress: 214/288 pending completed
+2025-11-08 16:23:34,924 - INFO - Row 215 completed
+2025-11-08 16:23:34,925 - INFO - Processing 219/288
+2025-11-08 16:23:34,930 - INFO - Saved answer 215 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:23:34,931 - INFO - Progress: 215/288 pending completed
+2025-11-08 16:24:03,365 - INFO - Row 216 completed
+2025-11-08 16:24:03,366 - INFO - Processing 220/288
+2025-11-08 16:24:03,371 - INFO - Saved answer 216 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:24:03,371 - INFO - Progress: 216/288 pending completed
+2025-11-08 16:24:33,399 - INFO - Row 217 completed
+2025-11-08 16:24:33,399 - INFO - Processing 221/288
+2025-11-08 16:24:33,405 - INFO - Saved answer 217 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:24:33,405 - INFO - Progress: 217/288 pending completed
+2025-11-08 16:25:04,059 - INFO - Row 218 completed
+2025-11-08 16:25:04,059 - INFO - Processing 222/288
+2025-11-08 16:25:04,064 - INFO - Saved answer 218 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:25:04,064 - INFO - Progress: 218/288 pending completed
+2025-11-08 16:25:33,445 - INFO - Row 219 completed
+2025-11-08 16:25:33,445 - INFO - Processing 223/288
+2025-11-08 16:25:33,451 - INFO - Saved answer 219 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:25:33,451 - INFO - Progress: 219/288 pending completed
+2025-11-08 16:26:02,387 - INFO - Row 220 completed
+2025-11-08 16:26:02,387 - INFO - Processing 224/288
+2025-11-08 16:26:02,393 - INFO - Saved answer 220 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:26:02,393 - INFO - Progress: 220/288 pending completed
+2025-11-08 16:26:33,364 - INFO - Row 221 completed
+2025-11-08 16:26:33,365 - INFO - Processing 225/288
+2025-11-08 16:26:33,371 - INFO - Saved answer 221 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:26:33,371 - INFO - Progress: 221/288 pending completed
+2025-11-08 16:27:03,293 - INFO - Row 222 completed
+2025-11-08 16:27:03,293 - INFO - Processing 226/288
+2025-11-08 16:27:03,299 - INFO - Saved answer 222 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:27:03,299 - INFO - Progress: 222/288 pending completed
+2025-11-08 16:27:33,861 - INFO - Row 223 completed
+2025-11-08 16:27:33,862 - INFO - Processing 227/288
+2025-11-08 16:27:33,867 - INFO - Saved answer 223 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:27:33,867 - INFO - Progress: 223/288 pending completed
+2025-11-08 16:28:03,855 - INFO - Row 224 completed
+2025-11-08 16:28:03,855 - INFO - Processing 228/288
+2025-11-08 16:28:03,861 - INFO - Saved answer 224 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:28:03,861 - INFO - Progress: 224/288 pending completed
+2025-11-08 16:28:33,572 - INFO - Row 225 completed
+2025-11-08 16:28:33,573 - INFO - Processing 229/288
+2025-11-08 16:28:33,578 - INFO - Saved answer 225 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:28:33,578 - INFO - Progress: 225/288 pending completed
+2025-11-08 16:29:03,018 - INFO - Row 226 completed
+2025-11-08 16:29:03,019 - INFO - Processing 230/288
+2025-11-08 16:29:03,024 - INFO - Saved answer 226 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:29:03,024 - INFO - Progress: 226/288 pending completed
+2025-11-08 16:29:33,611 - INFO - Row 227 completed
+2025-11-08 16:29:33,611 - INFO - Processing 231/288
+2025-11-08 16:29:33,618 - INFO - Saved answer 227 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:29:33,618 - INFO - Progress: 227/288 pending completed
+2025-11-08 16:30:04,285 - INFO - Row 228 completed
+2025-11-08 16:30:04,285 - INFO - Processing 232/288
+2025-11-08 16:30:04,291 - INFO - Saved answer 228 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:30:04,291 - INFO - Progress: 228/288 pending completed
+2025-11-08 16:30:33,714 - INFO - Row 229 completed
+2025-11-08 16:30:33,714 - INFO - Processing 233/288
+2025-11-08 16:30:33,720 - INFO - Saved answer 229 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:30:33,720 - INFO - Progress: 229/288 pending completed
+2025-11-08 16:31:03,830 - INFO - Row 230 completed
+2025-11-08 16:31:03,830 - INFO - Processing 234/288
+2025-11-08 16:31:03,836 - INFO - Saved answer 230 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:31:03,836 - INFO - Progress: 230/288 pending completed
+2025-11-08 16:31:34,338 - INFO - Row 231 completed
+2025-11-08 16:31:34,338 - INFO - Processing 235/288
+2025-11-08 16:31:34,344 - INFO - Saved answer 231 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:31:34,344 - INFO - Progress: 231/288 pending completed
+2025-11-08 16:32:03,425 - INFO - Row 232 completed
+2025-11-08 16:32:03,425 - INFO - Processing 236/288
+2025-11-08 16:32:03,431 - INFO - Saved answer 232 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:32:03,431 - INFO - Progress: 232/288 pending completed
+2025-11-08 16:32:34,145 - INFO - Row 233 completed
+2025-11-08 16:32:34,145 - INFO - Processing 237/288
+2025-11-08 16:32:34,151 - INFO - Saved answer 233 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:32:34,151 - INFO - Progress: 233/288 pending completed
+2025-11-08 16:33:03,429 - INFO - Row 234 completed
+2025-11-08 16:33:03,429 - INFO - Processing 238/288
+2025-11-08 16:33:03,434 - INFO - Saved answer 234 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:33:03,435 - INFO - Progress: 234/288 pending completed
+2025-11-08 16:33:32,812 - INFO - Row 235 completed
+2025-11-08 16:33:32,812 - INFO - Processing 239/288
+2025-11-08 16:33:32,819 - INFO - Saved answer 235 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:33:32,819 - INFO - Progress: 235/288 pending completed
+2025-11-08 16:34:04,287 - INFO - Row 236 completed
+2025-11-08 16:34:04,287 - INFO - Processing 240/288
+2025-11-08 16:34:04,293 - INFO - Saved answer 236 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:34:04,294 - INFO - Progress: 236/288 pending completed
+2025-11-08 16:34:34,196 - INFO - Row 237 completed
+2025-11-08 16:34:34,196 - INFO - Processing 241/288
+2025-11-08 16:34:34,205 - INFO - Saved answer 237 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:34:34,206 - INFO - Progress: 237/288 pending completed
+2025-11-08 16:35:03,729 - INFO - Row 238 completed
+2025-11-08 16:35:03,729 - INFO - Processing 242/288
+2025-11-08 16:35:03,736 - INFO - Saved answer 238 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:35:03,736 - INFO - Progress: 238/288 pending completed
+2025-11-08 16:35:33,091 - INFO - Row 239 completed
+2025-11-08 16:35:33,092 - INFO - Processing 243/288
+2025-11-08 16:35:33,098 - INFO - Saved answer 239 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:35:33,098 - INFO - Progress: 239/288 pending completed
+2025-11-08 16:36:04,548 - INFO - Row 240 completed
+2025-11-08 16:36:04,548 - INFO - Processing 244/288
+2025-11-08 16:36:04,555 - INFO - Saved answer 240 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:36:04,555 - INFO - Progress: 240/288 pending completed
+2025-11-08 16:36:32,370 - INFO - Row 241 completed
+2025-11-08 16:36:32,371 - INFO - Processing 245/288
+2025-11-08 16:36:32,377 - INFO - Saved answer 241 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:36:32,377 - INFO - Progress: 241/288 pending completed
+2025-11-08 16:37:03,782 - INFO - Row 242 completed
+2025-11-08 16:37:03,783 - INFO - Processing 246/288
+2025-11-08 16:37:03,788 - INFO - Saved answer 242 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:37:03,788 - INFO - Progress: 242/288 pending completed
+2025-11-08 16:37:34,117 - INFO - Row 243 completed
+2025-11-08 16:37:34,117 - INFO - Processing 247/288
+2025-11-08 16:37:34,124 - INFO - Saved answer 243 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:37:34,124 - INFO - Progress: 243/288 pending completed
+2025-11-08 16:38:02,647 - INFO - Row 244 completed
+2025-11-08 16:38:02,647 - INFO - Processing 248/288
+2025-11-08 16:38:02,653 - INFO - Saved answer 244 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:38:02,653 - INFO - Progress: 244/288 pending completed
+2025-11-08 16:38:32,459 - INFO - Row 245 completed
+2025-11-08 16:38:32,459 - INFO - Processing 249/288
+2025-11-08 16:38:32,465 - INFO - Saved answer 245 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:38:32,465 - INFO - Progress: 245/288 pending completed
+2025-11-08 16:39:02,198 - INFO - Row 246 completed
+2025-11-08 16:39:02,199 - INFO - Processing 250/288
+2025-11-08 16:39:02,204 - INFO - Saved answer 246 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:39:02,204 - INFO - Progress: 246/288 pending completed
+2025-11-08 16:39:32,343 - INFO - Row 247 completed
+2025-11-08 16:39:32,343 - INFO - Processing 251/288
+2025-11-08 16:39:32,351 - INFO - Saved answer 247 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:39:32,351 - INFO - Progress: 247/288 pending completed
+2025-11-08 16:40:01,780 - INFO - Row 248 completed
+2025-11-08 16:40:01,780 - INFO - Processing 252/288
+2025-11-08 16:40:01,787 - INFO - Saved answer 248 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:40:01,787 - INFO - Progress: 248/288 pending completed
+2025-11-08 16:40:32,714 - INFO - Row 249 completed
+2025-11-08 16:40:32,714 - INFO - Processing 253/288
+2025-11-08 16:40:32,719 - INFO - Saved answer 249 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:40:32,719 - INFO - Progress: 249/288 pending completed
+2025-11-08 16:41:02,760 - INFO - Row 250 completed
+2025-11-08 16:41:02,760 - INFO - Processing 254/288
+2025-11-08 16:41:02,766 - INFO - Saved answer 250 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:41:02,766 - INFO - Progress: 250/288 pending completed
+2025-11-08 16:41:32,005 - INFO - Row 251 completed
+2025-11-08 16:41:32,005 - INFO - Processing 255/288
+2025-11-08 16:41:32,011 - INFO - Saved answer 251 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:41:32,012 - INFO - Progress: 251/288 pending completed
+2025-11-08 16:42:02,216 - INFO - Row 252 completed
+2025-11-08 16:42:02,216 - INFO - Processing 256/288
+2025-11-08 16:42:02,223 - INFO - Saved answer 252 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:42:02,223 - INFO - Progress: 252/288 pending completed
+2025-11-08 16:42:33,018 - INFO - Row 253 completed
+2025-11-08 16:42:33,019 - INFO - Processing 257/288
+2025-11-08 16:42:33,026 - INFO - Saved answer 253 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:42:33,026 - INFO - Progress: 253/288 pending completed
+2025-11-08 16:43:02,386 - INFO - Row 254 completed
+2025-11-08 16:43:02,386 - INFO - Processing 258/288
+2025-11-08 16:43:02,392 - INFO - Saved answer 254 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:43:02,392 - INFO - Progress: 254/288 pending completed
+2025-11-08 16:43:32,839 - INFO - Row 255 completed
+2025-11-08 16:43:32,840 - INFO - Processing 259/288
+2025-11-08 16:43:32,845 - INFO - Saved answer 255 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:43:32,846 - INFO - Progress: 255/288 pending completed
+2025-11-08 16:44:02,689 - INFO - Row 256 completed
+2025-11-08 16:44:02,689 - INFO - Processing 260/288
+2025-11-08 16:44:02,695 - INFO - Saved answer 256 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:44:02,695 - INFO - Progress: 256/288 pending completed
+2025-11-08 16:44:32,668 - INFO - Row 257 completed
+2025-11-08 16:44:32,668 - INFO - Processing 261/288
+2025-11-08 16:44:32,674 - INFO - Saved answer 257 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:44:32,675 - INFO - Progress: 257/288 pending completed
+2025-11-08 16:45:03,089 - INFO - Row 258 completed
+2025-11-08 16:45:03,089 - INFO - Processing 262/288
+2025-11-08 16:45:03,094 - INFO - Saved answer 258 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:45:03,094 - INFO - Progress: 258/288 pending completed
+2025-11-08 16:45:32,592 - INFO - Row 259 completed
+2025-11-08 16:45:32,592 - INFO - Processing 263/288
+2025-11-08 16:45:32,598 - INFO - Saved answer 259 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:45:32,598 - INFO - Progress: 259/288 pending completed
+2025-11-08 16:46:02,184 - INFO - Row 260 completed
+2025-11-08 16:46:02,184 - INFO - Processing 264/288
+2025-11-08 16:46:02,190 - INFO - Saved answer 260 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:46:02,191 - INFO - Progress: 260/288 pending completed
+2025-11-08 16:46:33,182 - INFO - Row 261 completed
+2025-11-08 16:46:33,183 - INFO - Processing 265/288
+2025-11-08 16:46:33,188 - INFO - Saved answer 261 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:46:33,189 - INFO - Progress: 261/288 pending completed
+2025-11-08 16:47:03,424 - INFO - Row 262 completed
+2025-11-08 16:47:03,424 - INFO - Processing 266/288
+2025-11-08 16:47:03,430 - INFO - Saved answer 262 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:47:03,430 - INFO - Progress: 262/288 pending completed
+2025-11-08 16:47:33,195 - INFO - Row 263 completed
+2025-11-08 16:47:33,196 - INFO - Processing 267/288
+2025-11-08 16:47:33,202 - INFO - Saved answer 263 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:47:33,202 - INFO - Progress: 263/288 pending completed
+2025-11-08 16:48:03,913 - INFO - Row 264 completed
+2025-11-08 16:48:03,914 - INFO - Processing 268/288
+2025-11-08 16:48:03,920 - INFO - Saved answer 264 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:48:03,920 - INFO - Progress: 264/288 pending completed
+2025-11-08 16:48:32,850 - INFO - Row 265 completed
+2025-11-08 16:48:32,850 - INFO - Processing 269/288
+2025-11-08 16:48:32,859 - INFO - Saved answer 265 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:48:32,859 - INFO - Progress: 265/288 pending completed
+2025-11-08 16:49:04,483 - INFO - Row 266 completed
+2025-11-08 16:49:04,483 - INFO - Processing 270/288
+2025-11-08 16:49:04,492 - INFO - Saved answer 266 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:49:04,492 - INFO - Progress: 266/288 pending completed
+2025-11-08 16:49:32,416 - INFO - Row 267 completed
+2025-11-08 16:49:32,417 - INFO - Processing 271/288
+2025-11-08 16:49:32,423 - INFO - Saved answer 267 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:49:32,423 - INFO - Progress: 267/288 pending completed
+2025-11-08 16:50:03,099 - INFO - Row 268 completed
+2025-11-08 16:50:03,099 - INFO - Processing 272/288
+2025-11-08 16:50:03,105 - INFO - Saved answer 268 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:50:03,105 - INFO - Progress: 268/288 pending completed
+2025-11-08 16:50:35,490 - INFO - Row 269 completed
+2025-11-08 16:50:35,490 - INFO - Processing 273/288
+2025-11-08 16:50:35,496 - INFO - Saved answer 269 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:50:35,497 - INFO - Progress: 269/288 pending completed
+2025-11-08 16:51:04,388 - INFO - Row 270 completed
+2025-11-08 16:51:04,388 - INFO - Processing 274/288
+2025-11-08 16:51:04,394 - INFO - Saved answer 270 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:51:04,395 - INFO - Progress: 270/288 pending completed
+2025-11-08 16:51:34,345 - INFO - Row 271 completed
+2025-11-08 16:51:34,345 - INFO - Processing 275/288
+2025-11-08 16:51:34,351 - INFO - Saved answer 271 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:51:34,351 - INFO - Progress: 271/288 pending completed
+2025-11-08 16:52:03,851 - INFO - Row 272 completed
+2025-11-08 16:52:03,852 - INFO - Processing 276/288
+2025-11-08 16:52:03,857 - INFO - Saved answer 272 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:52:03,858 - INFO - Progress: 272/288 pending completed
+2025-11-08 16:52:33,953 - INFO - Row 273 completed
+2025-11-08 16:52:33,954 - INFO - Processing 277/288
+2025-11-08 16:52:33,959 - INFO - Saved answer 273 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:52:33,959 - INFO - Progress: 273/288 pending completed
+2025-11-08 16:53:03,799 - INFO - Row 274 completed
+2025-11-08 16:53:03,799 - INFO - Processing 278/288
+2025-11-08 16:53:03,805 - INFO - Saved answer 274 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:53:03,805 - INFO - Progress: 274/288 pending completed
+2025-11-08 16:53:32,984 - INFO - Row 275 completed
+2025-11-08 16:53:32,984 - INFO - Processing 279/288
+2025-11-08 16:53:32,990 - INFO - Saved answer 275 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:53:32,990 - INFO - Progress: 275/288 pending completed
+2025-11-08 16:54:02,549 - INFO - Row 276 completed
+2025-11-08 16:54:02,549 - INFO - Processing 280/288
+2025-11-08 16:54:02,555 - INFO - Saved answer 276 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:54:02,555 - INFO - Progress: 276/288 pending completed
+2025-11-08 16:54:33,144 - INFO - Row 277 completed
+2025-11-08 16:54:33,144 - INFO - Processing 281/288
+2025-11-08 16:54:33,150 - INFO - Saved answer 277 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:54:33,150 - INFO - Progress: 277/288 pending completed
+2025-11-08 16:55:03,382 - INFO - Row 278 completed
+2025-11-08 16:55:03,382 - INFO - Processing 282/288
+2025-11-08 16:55:03,388 - INFO - Saved answer 278 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:55:03,388 - INFO - Progress: 278/288 pending completed
+2025-11-08 16:55:32,776 - INFO - Row 279 completed
+2025-11-08 16:55:32,776 - INFO - Processing 283/288
+2025-11-08 16:55:32,782 - INFO - Saved answer 279 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:55:32,782 - INFO - Progress: 279/288 pending completed
+2025-11-08 16:56:02,864 - INFO - Row 280 completed
+2025-11-08 16:56:02,864 - INFO - Processing 284/288
+2025-11-08 16:56:02,870 - INFO - Saved answer 280 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:56:02,871 - INFO - Progress: 280/288 pending completed
+2025-11-08 16:56:32,615 - INFO - Row 281 completed
+2025-11-08 16:56:32,616 - INFO - Processing 285/288
+2025-11-08 16:56:32,650 - INFO - Saved answer 281 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:56:32,651 - INFO - Progress: 281/288 pending completed
+2025-11-08 16:57:03,611 - INFO - Row 282 completed
+2025-11-08 16:57:03,612 - INFO - Processing 286/288
+2025-11-08 16:57:03,618 - INFO - Saved answer 282 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:57:03,618 - INFO - Progress: 282/288 pending completed
+2025-11-08 16:57:34,339 - INFO - Row 283 completed
+2025-11-08 16:57:34,339 - INFO - Processing 287/288
+2025-11-08 16:57:34,346 - INFO - Saved answer 283 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:57:34,346 - INFO - Progress: 283/288 pending completed
+2025-11-08 16:58:04,174 - INFO - Row 284 completed
+2025-11-08 16:58:04,174 - INFO - Processing 288/288
+2025-11-08 16:58:04,184 - INFO - Saved answer 284 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:58:04,184 - INFO - Progress: 284/288 pending completed
+2025-11-08 16:58:33,455 - INFO - Row 285 completed
+2025-11-08 16:58:33,462 - INFO - Saved answer 285 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:58:33,462 - INFO - Progress: 285/288 pending completed
+2025-11-08 16:59:03,809 - INFO - Row 286 completed
+2025-11-08 16:59:03,815 - INFO - Saved answer 286 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:59:03,816 - INFO - Progress: 286/288 pending completed
+2025-11-08 16:59:33,993 - INFO - Row 287 completed
+2025-11-08 16:59:34,002 - INFO - Saved answer 287 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 16:59:34,002 - INFO - Progress: 287/288 pending completed
+2025-11-08 17:00:03,223 - INFO - Row 288 completed
+2025-11-08 17:00:03,230 - INFO - Saved answer 288 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemma-3-4b-it-free_answers.csv
+2025-11-08 17:00:03,230 - INFO - Progress: 288/288 pending completed
+2025-11-08 17:00:03,238 - INFO - Done. Successes: 4, Fails: 1
