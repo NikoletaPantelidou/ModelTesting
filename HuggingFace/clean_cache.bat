@@ -1,12 +1,34 @@
 @echo off
-REM Script para eliminar la cache de Hugging Face
+echo ========================================
+echo Limpiando cache de HuggingFace
+echo ========================================
+echo.
 
-SET HF_CACHE=%USERPROFILE%\.cache\huggingface
+set CACHE_DIR=%USERPROFILE%\.cache\huggingface
 
-echo Eliminando la cache de Hugging Face en:
-echo %HF_CACHE%
+if exist "%CACHE_DIR%" (
+    echo Cache encontrado en: %CACHE_DIR%
+    echo.
+    echo ADVERTENCIA: Esto eliminara todos los modelos descargados.
+    echo Tendras que descargarlos nuevamente la proxima vez.
+    echo.
+    choice /C SN /M "¿Estas seguro de que quieres continuar?"
 
-rmdir /s /q "%HF_CACHE%"
+    if errorlevel 2 (
+        echo.
+        echo Operacion cancelada.
+        pause
+        exit /b
+    )
 
-echo Cache eliminada.
+    echo.
+    echo Eliminando cache...
+    rd /s /q "%CACHE_DIR%"
+    echo ✓ Cache eliminado exitosamente
+) else (
+    echo No se encontro cache en: %CACHE_DIR%
+)
+
+echo.
 pause
+

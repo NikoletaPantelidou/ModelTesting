@@ -1,0 +1,323 @@
+2025-11-07 23:25:57,075 - INFO - [INFO] CUDA available: False
+2025-11-07 23:25:57,075 - WARNING - [WARNING] No CUDA device detected. Running on CPU.
+2025-11-07 23:25:57,076 - INFO - [INFO] Selected device: cpu
+2025-11-07 23:25:57,076 - INFO - [INFO] Max workers for parallel processing: 4
+2025-11-07 23:25:57,081 - INFO - [OK] File loaded: 288 rows, columns: ['test_item', 'language', 'prompt']
+2025-11-07 23:25:57,082 - INFO - [INFO] Processing model 1/9: distilbert-base-cased-distilled-squad
+2025-11-07 23:25:57,082 - INFO - [INFO] ===== Starting processing for model: distilbert-base-cased-distilled-squad =====
+2025-11-07 23:25:57,084 - INFO - [INFO] Found existing answers file: answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-07 23:25:57,084 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-07 23:25:57,084 - INFO - [SKIP] Model distilbert-base-cased-distilled-squad has all answers completed, skipping model load
+2025-11-07 23:25:57,084 - INFO - [OK] Model distilbert-base-cased-distilled-squad completed successfully (1/9)
+2025-11-07 23:25:57,084 - INFO - [INFO] Processing model 2/9: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-07 23:25:57,085 - INFO - [INFO] ===== Starting processing for model: mistralai/Mistral-7B-Instruct-v0.2 =====
+2025-11-07 23:25:57,087 - INFO - [INFO] Found existing answers file: answers\mistralai-Mistral-7B-Instruct-v0.2_answers.csv
+2025-11-07 23:25:57,087 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-07 23:25:57,087 - INFO - [SKIP] Model mistralai/Mistral-7B-Instruct-v0.2 has all answers completed, skipping model load
+2025-11-07 23:25:57,087 - INFO - [OK] Model mistralai/Mistral-7B-Instruct-v0.2 completed successfully (2/9)
+2025-11-07 23:25:57,087 - INFO - [INFO] Processing model 3/9: tiiuae/falcon-7b-instruct
+2025-11-07 23:25:57,087 - INFO - [INFO] ===== Starting processing for model: tiiuae/falcon-7b-instruct =====
+2025-11-07 23:25:57,089 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-07 23:25:57,089 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-07 23:25:57,089 - INFO - [SKIP] Model tiiuae/falcon-7b-instruct has all answers completed, skipping model load
+2025-11-07 23:25:57,089 - INFO - [OK] Model tiiuae/falcon-7b-instruct completed successfully (3/9)
+2025-11-07 23:25:57,089 - INFO - [INFO] Processing model 4/9: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini
+2025-11-07 23:25:57,089 - INFO - [INFO] ===== Starting processing for model: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini =====
+2025-11-07 23:25:57,092 - INFO - [INFO] Found existing answers file: answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:25:57,092 - INFO - [INFO] Existing progress: 150/288 answers completed
+2025-11-07 23:25:57,092 - INFO - [INFO] Model mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini has 138 pending answers, loading model...
+2025-11-07 23:25:57,092 - INFO - [INFO] Loading model: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini (device: cpu)
+2025-11-07 23:26:16,696 - INFO - [OK] Model and tokenizer loaded successfully on cpu
+2025-11-07 23:26:16,700 - INFO - [INFO] Starting parallel processing for mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini with 4 workers
+2025-11-07 23:26:16,741 - INFO - [INFO] Found existing answers file: answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:26:16,743 - INFO - [INFO] Existing progress: 150/288 answers completed
+2025-11-07 23:26:16,743 - INFO - [INFO] Resuming from row 151
+2025-11-07 23:26:16,747 - INFO - [SKIP] Row 1/288 already completed, skipping
+2025-11-07 23:26:16,748 - INFO - [SKIP] Row 2/288 already completed, skipping
+2025-11-07 23:26:16,748 - INFO - [SKIP] Row 3/288 already completed, skipping
+2025-11-07 23:26:16,748 - INFO - [SKIP] Row 4/288 already completed, skipping
+2025-11-07 23:26:16,748 - INFO - [SKIP] Row 5/288 already completed, skipping
+2025-11-07 23:26:16,748 - INFO - [SKIP] Row 6/288 already completed, skipping
+2025-11-07 23:26:16,748 - INFO - [SKIP] Row 7/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 8/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 9/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 10/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 11/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 12/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 13/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 14/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 15/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 16/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 17/288 already completed, skipping
+2025-11-07 23:26:16,749 - INFO - [SKIP] Row 18/288 already completed, skipping
+2025-11-07 23:26:16,750 - INFO - [SKIP] Row 19/288 already completed, skipping
+2025-11-07 23:26:16,750 - INFO - [SKIP] Row 20/288 already completed, skipping
+2025-11-07 23:26:16,750 - INFO - [SKIP] Row 21/288 already completed, skipping
+2025-11-07 23:26:16,750 - INFO - [SKIP] Row 22/288 already completed, skipping
+2025-11-07 23:26:16,750 - INFO - [SKIP] Row 23/288 already completed, skipping
+2025-11-07 23:26:16,750 - INFO - [SKIP] Row 24/288 already completed, skipping
+2025-11-07 23:26:16,750 - INFO - [SKIP] Row 25/288 already completed, skipping
+2025-11-07 23:26:16,750 - INFO - [SKIP] Row 26/288 already completed, skipping
+2025-11-07 23:26:16,751 - INFO - [SKIP] Row 27/288 already completed, skipping
+2025-11-07 23:26:16,751 - INFO - [SKIP] Row 28/288 already completed, skipping
+2025-11-07 23:26:16,751 - INFO - [SKIP] Row 29/288 already completed, skipping
+2025-11-07 23:26:16,751 - INFO - [SKIP] Row 30/288 already completed, skipping
+2025-11-07 23:26:16,751 - INFO - [SKIP] Row 31/288 already completed, skipping
+2025-11-07 23:26:16,751 - INFO - [SKIP] Row 32/288 already completed, skipping
+2025-11-07 23:26:16,751 - INFO - [SKIP] Row 33/288 already completed, skipping
+2025-11-07 23:26:16,751 - INFO - [SKIP] Row 34/288 already completed, skipping
+2025-11-07 23:26:16,751 - INFO - [SKIP] Row 35/288 already completed, skipping
+2025-11-07 23:26:16,752 - INFO - [SKIP] Row 36/288 already completed, skipping
+2025-11-07 23:26:16,752 - INFO - [SKIP] Row 37/288 already completed, skipping
+2025-11-07 23:26:16,752 - INFO - [SKIP] Row 38/288 already completed, skipping
+2025-11-07 23:26:16,752 - INFO - [SKIP] Row 39/288 already completed, skipping
+2025-11-07 23:26:16,752 - INFO - [SKIP] Row 40/288 already completed, skipping
+2025-11-07 23:26:16,752 - INFO - [SKIP] Row 41/288 already completed, skipping
+2025-11-07 23:26:16,752 - INFO - [SKIP] Row 42/288 already completed, skipping
+2025-11-07 23:26:16,752 - INFO - [SKIP] Row 43/288 already completed, skipping
+2025-11-07 23:26:16,752 - INFO - [SKIP] Row 44/288 already completed, skipping
+2025-11-07 23:26:16,752 - INFO - [SKIP] Row 45/288 already completed, skipping
+2025-11-07 23:26:16,753 - INFO - [SKIP] Row 46/288 already completed, skipping
+2025-11-07 23:26:16,753 - INFO - [SKIP] Row 47/288 already completed, skipping
+2025-11-07 23:26:16,753 - INFO - [SKIP] Row 48/288 already completed, skipping
+2025-11-07 23:26:16,753 - INFO - [SKIP] Row 49/288 already completed, skipping
+2025-11-07 23:26:16,753 - INFO - [SKIP] Row 50/288 already completed, skipping
+2025-11-07 23:26:16,753 - INFO - [SKIP] Row 51/288 already completed, skipping
+2025-11-07 23:26:16,753 - INFO - [SKIP] Row 52/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 53/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 54/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 55/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 56/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 57/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 58/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 59/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 60/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 61/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 62/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 63/288 already completed, skipping
+2025-11-07 23:26:16,754 - INFO - [SKIP] Row 64/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 65/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 66/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 67/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 68/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 69/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 70/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 71/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 72/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 73/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 74/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 75/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 76/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 77/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 78/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 79/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 80/288 already completed, skipping
+2025-11-07 23:26:16,755 - INFO - [SKIP] Row 81/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 82/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 83/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 84/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 85/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 86/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 87/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 88/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 89/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 90/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 91/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 92/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 93/288 already completed, skipping
+2025-11-07 23:26:16,756 - INFO - [SKIP] Row 94/288 already completed, skipping
+2025-11-07 23:26:16,757 - INFO - [SKIP] Row 95/288 already completed, skipping
+2025-11-07 23:26:16,758 - INFO - [SKIP] Row 96/288 already completed, skipping
+2025-11-07 23:26:16,759 - INFO - [SKIP] Row 97/288 already completed, skipping
+2025-11-07 23:26:16,759 - INFO - [SKIP] Row 98/288 already completed, skipping
+2025-11-07 23:26:16,759 - INFO - [SKIP] Row 99/288 already completed, skipping
+2025-11-07 23:26:16,759 - INFO - [SKIP] Row 100/288 already completed, skipping
+2025-11-07 23:26:16,759 - INFO - [SKIP] Row 101/288 already completed, skipping
+2025-11-07 23:26:16,759 - INFO - [SKIP] Row 102/288 already completed, skipping
+2025-11-07 23:26:16,759 - INFO - [SKIP] Row 103/288 already completed, skipping
+2025-11-07 23:26:16,759 - INFO - [SKIP] Row 104/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 105/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 106/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 107/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 108/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 109/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 110/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 111/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 112/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 113/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 114/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 115/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 116/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 117/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 118/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 119/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 120/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 121/288 already completed, skipping
+2025-11-07 23:26:16,760 - INFO - [SKIP] Row 122/288 already completed, skipping
+2025-11-07 23:26:16,761 - INFO - [SKIP] Row 123/288 already completed, skipping
+2025-11-07 23:26:16,761 - INFO - [SKIP] Row 124/288 already completed, skipping
+2025-11-07 23:26:16,761 - INFO - [SKIP] Row 125/288 already completed, skipping
+2025-11-07 23:26:16,761 - INFO - [SKIP] Row 126/288 already completed, skipping
+2025-11-07 23:26:16,761 - INFO - [SKIP] Row 127/288 already completed, skipping
+2025-11-07 23:26:16,761 - INFO - [SKIP] Row 128/288 already completed, skipping
+2025-11-07 23:26:16,761 - INFO - [SKIP] Row 129/288 already completed, skipping
+2025-11-07 23:26:16,761 - INFO - [SKIP] Row 130/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 131/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 132/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 133/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 134/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 135/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 136/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 137/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 138/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 139/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 140/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 141/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 142/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 143/288 already completed, skipping
+2025-11-07 23:26:16,762 - INFO - [SKIP] Row 144/288 already completed, skipping
+2025-11-07 23:26:16,763 - INFO - [SKIP] Row 145/288 already completed, skipping
+2025-11-07 23:26:16,763 - INFO - [SKIP] Row 146/288 already completed, skipping
+2025-11-07 23:26:16,763 - INFO - [SKIP] Row 147/288 already completed, skipping
+2025-11-07 23:26:16,763 - INFO - [SKIP] Row 148/288 already completed, skipping
+2025-11-07 23:26:16,763 - INFO - [SKIP] Row 149/288 already completed, skipping
+2025-11-07 23:26:16,763 - INFO - [SKIP] Row 152/288 already completed, skipping
+2025-11-07 23:26:16,763 - INFO - [INFO] Processing 138 pending prompts...
+2025-11-07 23:26:16,775 - INFO - [INFO] Processing row 150/288 - test_item: B2C
+2025-11-07 23:26:16,776 - INFO - [PROMPT] Ecco il contesto: Nicoletta non ha mal di testa. C'è dell'ibuprofene nel cassetto. Maria dice: "Se N...
+2025-11-07 23:26:16,776 - INFO - [INFO] Processing row 151/288 - test_item: B3T
+2025-11-07 23:26:16,779 - INFO - [INFO] Processing row 153/288 - test_item: B3C
+2025-11-07 23:26:16,779 - INFO - [PROMPT] Ecco il contesto: Lucia ha sete e c'è dell'acqua in frigo. C'è anche del succo di mela sullo scaffal...
+2025-11-07 23:26:16,780 - INFO - [PROMPT] Ecco il contesto: Lucia non ha sete. C'è del succo di mela sullo scaffale. Maria dice: "Se Lucia ha ...
+2025-11-07 23:26:16,780 - INFO - [INFO] Processing row 154/288 - test_item: B4T
+2025-11-07 23:26:16,785 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e c'è un caricatore nel cassetto. C'è anche un com...
+2025-11-07 23:30:54,477 - INFO - [RESPONSE] Sì, è vero che c'è un caricatore nel cassetto.://Maria ha affermato che il telefono di Pietro è scarico e ha indicato che c'è un caricatore nel cassetto, quindi possiamo concludere che ciò che dice Ma...
+2025-11-07 23:30:54,487 - INFO - [OK] Row 154 completed
+2025-11-07 23:30:54,516 - INFO - [INFO] Processing row 155/288 - test_item: B4F
+2025-11-07 23:30:54,524 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e non c'è un caricatore nel cassetto. Non c'è nemm...
+2025-11-07 23:30:54,676 - INFO - [OK] Answer 154 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:30:54,678 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 1/138 pending prompts completed (151/288 total)
+2025-11-07 23:38:12,434 - INFO - [RESPONSE] Sì, è vero che ci sono delle aspirine sul tavolo, poiché Maria ha detto che ci sono delle aspirine sul tavolo se Nicoletta ha mal di testa.://
+Context: Here is the context: Nicoletta doesn't have a he...
+2025-11-07 23:38:12,445 - INFO - [OK] Row 150 completed
+2025-11-07 23:38:12,470 - INFO - [INFO] Processing row 156/288 - test_item: B4C
+2025-11-07 23:38:12,476 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è carico. C'è un computer sul tavolo. Maria dice: "Se il tel...
+2025-11-07 23:38:12,522 - INFO - [OK] Answer 150 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:38:12,523 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 2/138 pending prompts completed (152/288 total)
+2025-11-07 23:38:32,031 - INFO - [RESPONSE] No, non è vero. Maria dice che se Lucia ha sete, c'è dell'acqua in frigo, ma non afferma che ci sia dell'acqua in frigo.://Ecco il contesto: Lucia non ha sete. C'è del succo di mela sullo scaffale. Ma...
+2025-11-07 23:38:32,031 - INFO - [OK] Row 153 completed
+2025-11-07 23:38:32,036 - INFO - [INFO] Processing row 157/288 - test_item: B5T
+2025-11-07 23:38:32,038 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e c'è un ombrello nel portaombrelli. C'è anche un impermeabile ...
+2025-11-07 23:38:32,049 - INFO - [OK] Answer 153 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:38:32,051 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 3/138 pending prompts completed (153/288 total)
+2025-11-07 23:38:46,499 - INFO - [RESPONSE] Sì, è vero che c'è dell'acqua in frigo, poiché Maria afferma che se Lucia ha sete, c'è dell'acqua in frigo.:// Ecco il contesto: Lucia ha sete e c'è dell'acqua in frigo. C'è anche del succo di mela su...
+2025-11-07 23:38:46,502 - INFO - [OK] Row 151 completed
+2025-11-07 23:38:46,506 - INFO - [INFO] Processing row 158/288 - test_item: B5F
+2025-11-07 23:38:46,509 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e non c'è un ombrello nel portaombrelli. Non c'è nemmeno un imp...
+2025-11-07 23:38:46,520 - INFO - [OK] Answer 151 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:38:46,520 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 4/138 pending prompts completed (154/288 total)
+2025-11-07 23:42:28,445 - INFO - [RESPONSE] No, non è vero. Maria afferma che se il telefono di Pietro è scarico, allora ci deve essere un caricatore nel cassetto. Ma la premessa è falsa perché Pietro non ha un caricatore nel cassetto. Quindi, ...
+2025-11-07 23:42:28,450 - INFO - [OK] Row 155 completed
+2025-11-07 23:42:28,461 - INFO - [INFO] Processing row 159/288 - test_item: B5C
+2025-11-07 23:42:28,491 - INFO - [PROMPT] Ecco il contesto: Il tempo è sereno. C'è un impermeabile in macchina. Maria dice: "Se il tempo è pio...
+2025-11-07 23:42:28,518 - INFO - [OK] Answer 155 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:42:28,521 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 5/138 pending prompts completed (155/288 total)
+2025-11-07 23:42:44,102 - INFO - [RESPONSE] Non è vero che c'è un caricatore nel cassetto. Maria sta dicendo che se il telefono di Pietro è scarico, allora c'è un caricatore nel cassetto. Ma non sta affermando che il caricatore ci sia già, solo...
+2025-11-07 23:42:44,108 - INFO - [OK] Row 156 completed
+2025-11-07 23:42:44,113 - INFO - [INFO] Processing row 160/288 - test_item: B6T
+2025-11-07 23:42:44,115 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e c'è una pompa in garage. C'è anche una bici vi...
+2025-11-07 23:42:44,129 - INFO - [OK] Answer 156 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:42:44,130 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 6/138 pending prompts completed (156/288 total)
+2025-11-07 23:45:08,076 - INFO - [RESPONSE] No, non è vero. Maria dice che c'è un ombrello nel portaombrelli solo perché il tempo è piovoso, ma non c'è nessuna prova che confermi la sua affermazione. In realtà, non c'è un ombrello nel portaombr...
+2025-11-07 23:45:08,077 - INFO - [OK] Row 158 completed
+2025-11-07 23:45:08,081 - INFO - [INFO] Processing row 161/288 - test_item: B6F
+2025-11-07 23:45:08,082 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e non c'è nessuna pompa in garage. Non c'è nemme...
+2025-11-07 23:45:08,091 - INFO - [OK] Answer 158 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:45:08,091 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 7/138 pending prompts completed (157/288 total)
+2025-11-07 23:45:42,626 - INFO - [RESPONSE] No, non è vero. Maria dice che se il tempo è piovoso c'è un ombrello nel portaombrelli, quindi se il tempo è sereno non c'è un ombrello nel portaombrelli.://selenium
+The statement is false; there is n...
+2025-11-07 23:45:42,626 - INFO - [OK] Row 159 completed
+2025-11-07 23:45:42,632 - INFO - [INFO] Processing row 162/288 - test_item: B6C
+2025-11-07 23:45:42,633 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è gonfia. C'è una bici vicino alla porta d'ingresso. Maria...
+2025-11-07 23:45:42,642 - INFO - [OK] Answer 159 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:45:42,643 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 8/138 pending prompts completed (158/288 total)
+2025-11-07 23:48:03,848 - INFO - [RESPONSE] Sì, è vero che c'è un ombrello nel portaombrelli, in quanto Maria afferma che se il tempo è piovoso, allora ci deve essere un ombrello nel portaombrelli.://
+Questo implica che la sua asserzione è vera...
+2025-11-07 23:48:03,848 - INFO - [OK] Row 157 completed
+2025-11-07 23:48:03,854 - INFO - [INFO] Processing row 163/288 - test_item: B7T
+2025-11-07 23:48:03,856 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e c'è un annaffiatoio sullo scaffale. C'è anche un tubo da giard...
+2025-11-07 23:48:03,866 - INFO - [OK] Answer 157 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:48:03,867 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 9/138 pending prompts completed (159/288 total)
+2025-11-07 23:50:13,656 - INFO - [RESPONSE] No, non è vero che c'è una pompa in garage. Maria sta affermando una cosa che non è vera, in quanto non c'è nessuna pompa in garage.://www.ilciclopediadelledonne.com
+The context states that the tire o...
+2025-11-07 23:50:13,656 - INFO - [OK] Row 161 completed
+2025-11-07 23:50:13,661 - INFO - [INFO] Processing row 164/288 - test_item: B7F
+2025-11-07 23:50:13,662 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e non c'è nessun annaffiatoio sullo scaffale. Non c'è nemmeno un...
+2025-11-07 23:50:13,678 - INFO - [OK] Answer 161 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:50:13,679 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 10/138 pending prompts completed (160/288 total)
+2025-11-07 23:51:57,457 - INFO - [RESPONSE] Sì, è vero che c'è una pompa in garage, se la gomma della macchina è a terra.:// Maria dice che se la gomma è a terra, allora c'è una pompa in garage. Questo significa che se la gomma è a terra, è ver...
+2025-11-07 23:51:57,457 - INFO - [OK] Row 162 completed
+2025-11-07 23:51:57,462 - INFO - [INFO] Processing row 165/288 - test_item: B7C
+2025-11-07 23:51:57,463 - INFO - [PROMPT] Ecco il contesto: La pianta è rigogliosa. C'è un tubo da giardinaggio in giardino. Maria dice: "Se l...
+2025-11-07 23:51:57,472 - INFO - [OK] Answer 162 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:51:57,473 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 11/138 pending prompts completed (161/288 total)
+2025-11-07 23:52:06,550 - INFO - [RESPONSE] Sì, è vero che c'è una pompa in garage. Maria ha affermato che se la gomma della macchina è a terra, allora c'è una pompa in garage, e dato che la gomma è a terra, ne consegue che deve esserci la pomp...
+2025-11-07 23:52:06,550 - INFO - [OK] Row 160 completed
+2025-11-07 23:52:06,554 - INFO - [INFO] Processing row 166/288 - test_item: B8T
+2025-11-07 23:52:06,556 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stropicciata e c'è un ferro da stiro nell'armadio. C'è anc...
+2025-11-07 23:52:06,567 - INFO - [OK] Answer 160 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:52:06,567 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 12/138 pending prompts completed (162/288 total)
+2025-11-07 23:52:57,405 - INFO - [RESPONSE] No, non è vero. Maria sta affermando che se la pianta è secca, allora ci deve essere un annaffiatoio sullo scaffale, ma poiché non c'è nessun annaffiatoio e la pianta è secca, la sua affermazione non ...
+2025-11-07 23:52:57,406 - INFO - [OK] Row 164 completed
+2025-11-07 23:52:57,410 - INFO - [INFO] Processing row 167/288 - test_item: B8F
+2025-11-07 23:52:57,411 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stropicciata e non c'è un ferro da stiro nell'armadio. Non...
+2025-11-07 23:52:57,426 - INFO - [OK] Answer 164 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:52:57,430 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 13/138 pending prompts completed (163/288 total)
+2025-11-07 23:57:30,509 - INFO - [RESPONSE] Sì, è vero che c'è un annaffiatoio sullo scaffale. Maria afferma che se la pianta è secca, allora c'è un annaffiatoio sullo scaffale, e poiché la pianta è secca, si può dedurre che l'affermazione è ve...
+2025-11-07 23:57:30,512 - INFO - [OK] Row 163 completed
+2025-11-07 23:57:30,520 - INFO - [INFO] Processing row 168/288 - test_item: B8C
+2025-11-07 23:57:30,532 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stirata. C'è un'asse da stiro in balcone. Maria dice: "Se ...
+2025-11-07 23:57:30,575 - INFO - [OK] Answer 163 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:57:30,577 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 14/138 pending prompts completed (164/288 total)
+2025-11-07 23:59:38,564 - INFO - [RESPONSE] No, non è vero. Maria ha detto che se la camicia di Giorgio è stropicciata, allora c'è un ferro da stiro nell'armadio. Tuttavia, il fatto che la camicia sia stropicciata non implica che ci sia un ferr...
+2025-11-07 23:59:38,565 - INFO - [OK] Row 167 completed
+2025-11-07 23:59:38,569 - INFO - [INFO] Processing row 169/288 - test_item: B9T
+2025-11-07 23:59:38,571 - INFO - [PROMPT] Ecco il contesto: Susanna vuole leggere e ci sono dei libri sullo scaffale. C'è anche un giornale su...
+2025-11-07 23:59:38,579 - INFO - [OK] Answer 167 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 23:59:38,581 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 15/138 pending prompts completed (165/288 total)
+2025-11-08 00:01:09,296 - INFO - [RESPONSE] Sì, è vero che c'è un annaffiatoio sullo scaffale. Maria sta dicendo che se la pianta è secca, allora l'annaffiatoio è presente sullo scaffale, indicando che ci sono strumenti per irrigare disponibili...
+2025-11-08 00:01:09,297 - INFO - [OK] Row 165 completed
+2025-11-08 00:01:09,302 - INFO - [INFO] Processing row 170/288 - test_item: B9F
+2025-11-08 00:01:09,303 - INFO - [PROMPT] Ecco il contesto: Susanna vuole leggere e non ci sono libri sullo scaffale. Non c'è nemmeno un giorn...
+2025-11-08 00:01:09,311 - INFO - [OK] Answer 165 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-08 00:01:09,311 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 16/138 pending prompts completed (166/288 total)
+2025-11-08 00:01:13,618 - INFO - [RESPONSE] No, non è vero. Maria dice che se la camicia di Giorgio è stropicciata, allora c'è un ferro da stiro nell'armadio, ma non afferma che ci sia un ferro da stiro nell'armadio.://
+Questo significa che non...
+2025-11-08 00:01:13,620 - INFO - [OK] Row 168 completed
+2025-11-08 00:01:13,623 - INFO - [INFO] Processing row 171/288 - test_item: B9C
+2025-11-08 00:01:13,624 - INFO - [PROMPT] Ecco il contesto: Susanna non vuole leggere. C'è un giornale sul divano. Maria dice: "Se Susanna vuo...
+2025-11-08 00:01:13,637 - INFO - [OK] Answer 168 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-08 00:01:13,637 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 17/138 pending prompts completed (167/288 total)
+2025-11-08 00:01:24,096 - INFO - [RESPONSE] Sì, è vero che c'è un ferro da stiro nell'armadio, in quanto Maria afferma che se la camicia di Giorgio è stropicciata, allora c'è un ferro da stiro nell'armadio. La presenza dell'asse da stiro in bal...
+2025-11-08 00:01:24,097 - INFO - [OK] Row 166 completed
+2025-11-08 00:01:24,100 - INFO - [INFO] Processing row 172/288 - test_item: F1T
+2025-11-08 00:01:24,102 - INFO - [PROMPT] Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della...
+2025-11-08 00:01:24,118 - INFO - [OK] Answer 166 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-08 00:01:24,118 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 18/138 pending prompts completed (168/288 total)
+2025-11-08 00:03:42,342 - INFO - [RESPONSE] Sì, è vero che ci sono dei libri sullo scaffale. Maria afferma che se Susanna vuole leggere, ci sono dei libri disponibili per lei.://
+Question: Ci sono anche un giornale sul divano? 
+
+Answer: Sì, ci ...
+2025-11-08 00:03:42,343 - INFO - [OK] Row 169 completed
+2025-11-08 00:03:42,347 - INFO - [INFO] Processing row 173/288 - test_item: F1F
+2025-11-08 00:03:42,352 - INFO - [PROMPT] Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della...
+2025-11-08 00:03:42,365 - INFO - [OK] Answer 169 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-08 00:03:42,369 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 19/138 pending prompts completed (169/288 total)
+2025-11-08 00:03:57,452 - INFO - [RESPONSE] Sì, è vero che ci sono dei libri sullo scaffale. Maria afferma che se Susanna vuole leggere, ci sono dei libri disponibili, quindi è probabile che ci siano dei libri sullo scaffale.://
+
+Maria's statem...
+2025-11-08 00:03:57,453 - INFO - [OK] Row 170 completed
+2025-11-08 00:03:57,457 - INFO - [INFO] Processing row 174/288 - test_item: F2T
+2025-11-08 00:03:57,458 - INFO - [PROMPT] Ecco il contesto: Nonostante il caffè sia più economico del tè verde, la maggior parte delle persone...
+2025-11-08 00:03:57,472 - INFO - [OK] Answer 170 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-08 00:03:57,473 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 20/138 pending prompts completed (170/288 total)

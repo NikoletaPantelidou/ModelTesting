@@ -1,0 +1,88 @@
+2025-11-06 14:38:13,514 - INFO - [INFO] CUDA available: False
+2025-11-06 14:38:13,514 - WARNING - [WARNING] No CUDA device detected. Running on CPU.
+2025-11-06 14:38:13,514 - INFO - [INFO] Selected device: cpu
+2025-11-06 14:38:13,514 - INFO - [INFO] Max workers for parallel processing: 4
+2025-11-06 14:38:13,520 - INFO - [OK] File loaded: 288 rows, columns: ['test_item', 'language', 'prompt']
+2025-11-06 14:38:13,522 - INFO - [INFO] Processing model 1/6: microsoft/phi-4
+2025-11-06 14:38:13,522 - INFO - [INFO] ===== Starting processing for model: microsoft/phi-4 =====
+2025-11-06 14:38:13,522 - INFO - [INFO] Model microsoft/phi-4 has 288 pending answers, loading model...
+2025-11-06 14:38:13,522 - INFO - [INFO] Loading model: microsoft/phi-4 (device: cpu)
+2025-11-06 14:39:09,212 - INFO - [OK] Model and tokenizer loaded successfully on cpu
+2025-11-06 14:39:09,303 - INFO - [INFO] Starting parallel processing for microsoft/phi-4 with 4 workers
+2025-11-06 14:39:09,349 - INFO - [INFO] Processing 288 pending prompts...
+2025-11-06 14:39:09,380 - INFO - [INFO] Processing row 1/288 - test_item: B1T
+2025-11-06 14:39:09,380 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-06 14:39:09,380 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:39:09,387 - INFO - [INFO] Processing row 2/288 - test_item: B1F
+2025-11-06 14:39:09,387 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-06 14:39:09,387 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:39:09,388 - INFO - [INFO] Processing row 3/288 - test_item: B1C
+2025-11-06 14:39:09,388 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-06 14:39:09,388 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:39:09,388 - INFO - [INFO] Processing row 4/288 - test_item: B2T
+2025-11-06 14:39:09,412 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-06 14:39:09,412 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:41:04,590 - INFO - [OK] Row 2 completed
+2025-11-06 14:41:04,600 - INFO - [OK] Row 4 completed
+2025-11-06 14:41:04,600 - INFO - [OK] Row 3 completed
+2025-11-06 14:41:04,588 - INFO - [OK] Row 1 completed
+2025-11-06 14:41:04,605 - INFO - [INFO] Processing row 5/288 - test_item: B2F
+2025-11-06 14:41:04,617 - INFO - [INFO] Processing row 6/288 - test_item: B2C
+2025-11-06 14:41:04,666 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-06 14:41:04,618 - INFO - [INFO] Processing row 8/288 - test_item: B3F
+2025-11-06 14:41:04,653 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-06 14:41:04,617 - INFO - [INFO] Processing row 7/288 - test_item: B3T
+2025-11-06 14:41:04,666 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:41:04,666 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-11-06 14:41:04,669 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:41:04,666 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-06 14:41:04,666 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:41:04,669 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:41:04,715 - INFO - [OK] Answer 2 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:41:04,715 - INFO - [PROGRESS] microsoft/phi-4 - 1/288 pending prompts completed (1/288 total)
+2025-11-06 14:41:04,721 - INFO - [OK] Answer 4 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:41:04,721 - INFO - [PROGRESS] microsoft/phi-4 - 2/288 pending prompts completed (2/288 total)
+2025-11-06 14:41:04,724 - INFO - [OK] Answer 3 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:41:04,725 - INFO - [PROGRESS] microsoft/phi-4 - 3/288 pending prompts completed (3/288 total)
+2025-11-06 14:41:04,729 - INFO - [OK] Answer 1 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:41:04,729 - INFO - [PROGRESS] microsoft/phi-4 - 4/288 pending prompts completed (4/288 total)
+2025-11-06 14:42:52,573 - INFO - [OK] Row 6 completed
+2025-11-06 14:42:52,582 - INFO - [OK] Row 7 completed
+2025-11-06 14:42:52,582 - INFO - [OK] Row 8 completed
+2025-11-06 14:42:52,582 - INFO - [OK] Row 5 completed
+2025-11-06 14:42:52,587 - INFO - [INFO] Processing row 9/288 - test_item: B3C
+2025-11-06 14:42:52,621 - INFO - [INFO] Processing row 10/288 - test_item: B4T
+2025-11-06 14:42:52,622 - INFO - [INFO] Processing row 11/288 - test_item: B4F
+2025-11-06 14:42:52,622 - INFO - [INFO] Processing row 12/288 - test_item: B4C
+2025-11-06 14:42:52,622 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-11-06 14:42:52,622 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...
+2025-11-06 14:42:52,622 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:42:52,622 - INFO - [PROMPT] Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: "If...
+2025-11-06 14:42:52,628 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-11-06 14:42:52,628 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:42:52,631 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:42:52,631 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:42:52,633 - INFO - [OK] Answer 6 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:42:52,633 - INFO - [PROGRESS] microsoft/phi-4 - 5/288 pending prompts completed (5/288 total)
+2025-11-06 14:42:52,635 - INFO - [OK] Answer 7 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:42:52,635 - INFO - [PROGRESS] microsoft/phi-4 - 6/288 pending prompts completed (6/288 total)
+2025-11-06 14:42:52,637 - INFO - [OK] Answer 8 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:42:52,637 - INFO - [PROGRESS] microsoft/phi-4 - 7/288 pending prompts completed (7/288 total)
+2025-11-06 14:42:52,652 - INFO - [OK] Answer 5 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 14:42:52,652 - INFO - [PROGRESS] microsoft/phi-4 - 8/288 pending prompts completed (8/288 total)
+2025-11-06 14:44:40,383 - INFO - [OK] Row 9 completed
+2025-11-06 14:44:40,390 - INFO - [OK] Row 11 completed
+2025-11-06 14:44:40,390 - INFO - [OK] Row 12 completed
+2025-11-06 14:44:40,390 - INFO - [OK] Row 10 completed
+2025-11-06 14:44:40,391 - INFO - [INFO] Processing row 13/288 - test_item: B5T
+2025-11-06 14:44:40,397 - INFO - [INFO] Processing row 14/288 - test_item: B5F
+2025-11-06 14:44:40,397 - INFO - [INFO] Processing row 15/288 - test_item: B5C
+2025-11-06 14:44:40,398 - INFO - [INFO] Processing row 16/288 - test_item: B6T
+2025-11-06 14:44:40,398 - INFO - [PROMPT] Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a ...
+2025-11-06 14:44:40,398 - INFO - [PROMPT] Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no rain...
+2025-11-06 14:44:40,398 - INFO - [PROMPT] Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: "If the weather...
+2025-11-06 14:44:40,398 - INFO - [PROMPT] Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the...
+2025-11-06 14:44:40,398 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:44:40,398 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:44:40,398 - INFO - [LANGUAGE] Detected language: English
+2025-11-06 14:44:40,398 - INFO - [LANGUAGE] Detected language: English

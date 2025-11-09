@@ -1,0 +1,60 @@
+2025-11-06 21:21:31,727 - INFO - [INFO] CUDA available: False
+2025-11-06 21:21:31,728 - WARNING - [WARNING] No CUDA device detected. Running on CPU.
+2025-11-06 21:21:31,728 - INFO - [INFO] Selected device: cpu
+2025-11-06 21:21:31,728 - INFO - [INFO] Max workers for parallel processing: 4
+2025-11-06 21:21:31,734 - INFO - [OK] File loaded: 288 rows, columns: ['test_item', 'language', 'prompt']
+2025-11-06 21:21:31,735 - INFO - [INFO] Processing model 1/8: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-06 21:21:31,735 - INFO - [INFO] ===== Starting processing for model: mistralai/Mistral-7B-Instruct-v0.2 =====
+2025-11-06 21:21:31,738 - INFO - [INFO] Found existing answers file: answers\mistralai-Mistral-7B-Instruct-v0.2_answers.csv
+2025-11-06 21:21:31,738 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-06 21:21:31,738 - INFO - [SKIP] Model mistralai/Mistral-7B-Instruct-v0.2 has all answers completed, skipping model load
+2025-11-06 21:21:31,738 - INFO - [OK] Model mistralai/Mistral-7B-Instruct-v0.2 completed successfully (1/8)
+2025-11-06 21:21:31,738 - INFO - [INFO] Processing model 2/8: tiiuae/falcon-7b-instruct
+2025-11-06 21:21:31,738 - INFO - [INFO] ===== Starting processing for model: tiiuae/falcon-7b-instruct =====
+2025-11-06 21:21:31,740 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 21:21:31,740 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-06 21:21:31,740 - INFO - [SKIP] Model tiiuae/falcon-7b-instruct has all answers completed, skipping model load
+2025-11-06 21:21:31,740 - INFO - [OK] Model tiiuae/falcon-7b-instruct completed successfully (2/8)
+2025-11-06 21:21:31,740 - INFO - [INFO] Processing model 3/8: microsoft/phi-4
+2025-11-06 21:21:31,740 - INFO - [INFO] ===== Starting processing for model: microsoft/phi-4 =====
+2025-11-06 21:21:31,742 - INFO - [INFO] Found existing answers file: answers\microsoft-phi-4_answers.csv
+2025-11-06 21:21:31,742 - INFO - [INFO] Existing progress: 0/288 answers completed
+2025-11-06 21:21:31,742 - INFO - [INFO] Model microsoft/phi-4 has 288 pending answers, loading model...
+2025-11-06 21:21:31,742 - INFO - [INFO] Loading model: microsoft/phi-4 (device: cpu)
+2025-11-06 21:22:29,407 - INFO - [OK] Model and tokenizer loaded successfully on cpu
+2025-11-06 21:22:29,417 - INFO - [INFO] Starting parallel processing for microsoft/phi-4 with 4 workers
+2025-11-06 21:22:29,480 - INFO - [INFO] Found existing answers file: answers\microsoft-phi-4_answers.csv
+2025-11-06 21:22:29,483 - INFO - [INFO] Existing progress: 0/288 answers completed
+2025-11-06 21:22:29,489 - INFO - [INFO] Processing 288 pending prompts...
+2025-11-06 21:22:29,508 - INFO - [INFO] Processing row 1/288 - test_item: B1T
+2025-11-06 21:22:29,508 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-06 21:22:29,511 - INFO - [INFO] Processing row 2/288 - test_item: B1F
+2025-11-06 21:22:29,511 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-06 21:22:29,511 - INFO - [INFO] Processing row 3/288 - test_item: B1C
+2025-11-06 21:22:29,511 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-06 21:22:29,512 - INFO - [INFO] Processing row 4/288 - test_item: B2T
+2025-11-06 21:22:29,521 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-06 21:54:10,094 - INFO - [RESPONSE] Yes, it is true that there is aspirin on the table. Mary's statement "If Nicole's head hurts, there is aspirin on the table" is a conditional statement. Since the context confirms that Nicole's head h...
+2025-11-06 21:54:10,111 - INFO - [OK] Row 4 completed
+2025-11-06 21:54:10,122 - INFO - [INFO] Processing row 5/288 - test_item: B2F
+2025-11-06 21:54:10,122 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-06 21:54:10,546 - INFO - [OK] Answer 4 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 21:54:10,548 - INFO - [PROGRESS] microsoft/phi-4 - 1/288 pending prompts completed (1/288 total)
+2025-11-06 21:55:03,007 - INFO - [RESPONSE] No, it is not true that there is pizza in the oven. Mary's statement "If John is hungry, there is pizza in the oven" is a conditional statement. Since John is not hungry, the condition for the stateme...
+2025-11-06 21:55:03,015 - INFO - [OK] Row 3 completed
+2025-11-06 21:55:03,020 - INFO - [INFO] Processing row 6/288 - test_item: B2C
+2025-11-06 21:55:03,032 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-06 21:55:03,093 - INFO - [OK] Answer 3 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 21:55:03,093 - INFO - [PROGRESS] microsoft/phi-4 - 2/288 pending prompts completed (2/288 total)
+2025-11-06 21:57:18,404 - INFO - [RESPONSE] No, it is not true that there is pizza in the oven. Mary's statement "If John is hungry, there is pizza in the oven" is a conditional statement. However, the context clearly states that there is no pi...
+2025-11-06 21:57:18,415 - INFO - [OK] Row 2 completed
+2025-11-06 21:57:18,419 - INFO - [INFO] Processing row 7/288 - test_item: B3T
+2025-11-06 21:57:18,420 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-06 21:57:18,549 - INFO - [OK] Answer 2 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 21:57:18,550 - INFO - [PROGRESS] microsoft/phi-4 - 3/288 pending prompts completed (3/288 total)
+2025-11-06 21:58:32,255 - INFO - [RESPONSE] Yes, it is true that there is pizza in the oven. Mary's statement "If John is hungry, there is pizza in the oven" establishes a conditional relationship between John's hunger and the presence of pizza...
+2025-11-06 21:58:32,268 - INFO - [OK] Row 1 completed
+2025-11-06 21:58:32,273 - INFO - [INFO] Processing row 8/288 - test_item: B3F
+2025-11-06 21:58:32,341 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-11-06 21:58:32,383 - INFO - [OK] Answer 1 saved to answers\microsoft-phi-4_answers.csv
+2025-11-06 21:58:32,384 - INFO - [PROGRESS] microsoft/phi-4 - 4/288 pending prompts completed (4/288 total)

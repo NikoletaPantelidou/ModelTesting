@@ -1,0 +1,1911 @@
+2025-11-06 22:44:26,379 - INFO - [INFO] CUDA available: False
+2025-11-06 22:44:26,379 - WARNING - [WARNING] No CUDA device detected. Running on CPU.
+2025-11-06 22:44:26,379 - INFO - [INFO] Selected device: cpu
+2025-11-06 22:44:26,379 - INFO - [INFO] Max workers for parallel processing: 4
+2025-11-06 22:44:26,384 - INFO - [OK] File loaded: 288 rows, columns: ['test_item', 'language', 'prompt']
+2025-11-06 22:44:26,385 - INFO - [INFO] Processing model 1/9: distilbert-base-cased-distilled-squad
+2025-11-06 22:44:26,385 - INFO - [INFO] ===== Starting processing for model: distilbert-base-cased-distilled-squad =====
+2025-11-06 22:44:26,385 - INFO - [INFO] Model distilbert-base-cased-distilled-squad has 288 pending answers, loading model...
+2025-11-06 22:44:26,385 - INFO - [INFO] Loading model: distilbert-base-cased-distilled-squad (device: cpu)
+2025-11-06 22:44:35,392 - INFO - [OK] QA pipeline loaded successfully
+2025-11-06 22:44:35,392 - INFO - [INFO] Starting parallel processing for distilbert-base-cased-distilled-squad with 4 workers
+2025-11-06 22:44:35,393 - INFO - [INFO] Processing 288 pending prompts...
+2025-11-06 22:44:35,393 - INFO - [INFO] Processing row 1/288 - test_item: B1T
+2025-11-06 22:44:35,393 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-06 22:44:35,394 - INFO - [INFO] Processing row 2/288 - test_item: B1F
+2025-11-06 22:44:35,394 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-06 22:44:35,395 - INFO - [INFO] Processing row 3/288 - test_item: B1C
+2025-11-06 22:44:35,395 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-06 22:44:35,395 - INFO - [INFO] Processing row 4/288 - test_item: B2T
+2025-11-06 22:44:35,459 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-06 22:44:35,540 - INFO - [RESPONSE] If John is hungry
+2025-11-06 22:44:35,540 - INFO - [RESPONSE] If Nicole's head hurts
+2025-11-06 22:44:35,540 - INFO - [RESPONSE] If John is hungry
+2025-11-06 22:44:35,540 - INFO - [RESPONSE] If John is hungry
+2025-11-06 22:44:35,540 - INFO - [OK] Row 2 completed
+2025-11-06 22:44:35,540 - INFO - [OK] Row 4 completed
+2025-11-06 22:44:35,540 - INFO - [OK] Row 3 completed
+2025-11-06 22:44:35,540 - INFO - [OK] Row 1 completed
+2025-11-06 22:44:35,540 - INFO - [INFO] Processing row 5/288 - test_item: B2F
+2025-11-06 22:44:35,540 - INFO - [INFO] Processing row 6/288 - test_item: B2C
+2025-11-06 22:44:35,541 - INFO - [INFO] Processing row 7/288 - test_item: B3T
+2025-11-06 22:44:35,541 - INFO - [INFO] Processing row 8/288 - test_item: B3F
+2025-11-06 22:44:35,541 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-06 22:44:35,541 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-06 22:44:35,541 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-06 22:44:35,541 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-11-06 22:44:35,546 - INFO - [OK] Answer 2 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,546 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 1/288 pending prompts completed (1/288 total)
+2025-11-06 22:44:35,549 - INFO - [OK] Answer 4 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,549 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 2/288 pending prompts completed (2/288 total)
+2025-11-06 22:44:35,552 - INFO - [OK] Answer 3 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,552 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 3/288 pending prompts completed (3/288 total)
+2025-11-06 22:44:35,554 - INFO - [OK] Answer 1 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,554 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 4/288 pending prompts completed (4/288 total)
+2025-11-06 22:44:35,574 - INFO - [RESPONSE] If Nicole's head hurts
+2025-11-06 22:44:35,574 - INFO - [OK] Row 6 completed
+2025-11-06 22:44:35,574 - INFO - [INFO] Processing row 9/288 - test_item: B3C
+2025-11-06 22:44:35,575 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-11-06 22:44:35,577 - INFO - [OK] Answer 6 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,577 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 5/288 pending prompts completed (5/288 total)
+2025-11-06 22:44:35,578 - INFO - [RESPONSE] If Lucy is thirsty
+2025-11-06 22:44:35,579 - INFO - [OK] Row 7 completed
+2025-11-06 22:44:35,579 - INFO - [INFO] Processing row 10/288 - test_item: B4T
+2025-11-06 22:44:35,579 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-11-06 22:44:35,579 - INFO - [RESPONSE] If Lucy is thirsty
+2025-11-06 22:44:35,580 - INFO - [OK] Row 8 completed
+2025-11-06 22:44:35,580 - INFO - [INFO] Processing row 11/288 - test_item: B4F
+2025-11-06 22:44:35,580 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...
+2025-11-06 22:44:35,583 - INFO - [OK] Answer 7 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,583 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 6/288 pending prompts completed (6/288 total)
+2025-11-06 22:44:35,584 - INFO - [RESPONSE] If Nicole's head hurts
+2025-11-06 22:44:35,584 - INFO - [OK] Row 5 completed
+2025-11-06 22:44:35,584 - INFO - [INFO] Processing row 12/288 - test_item: B4C
+2025-11-06 22:44:35,584 - INFO - [PROMPT] Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: "If...
+2025-11-06 22:44:35,586 - INFO - [OK] Answer 8 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,586 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 7/288 pending prompts completed (7/288 total)
+2025-11-06 22:44:35,589 - INFO - [OK] Answer 5 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,590 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 8/288 pending prompts completed (8/288 total)
+2025-11-06 22:44:35,610 - INFO - [RESPONSE] If Lucy is thirsty
+2025-11-06 22:44:35,610 - INFO - [OK] Row 9 completed
+2025-11-06 22:44:35,610 - INFO - [INFO] Processing row 13/288 - test_item: B5T
+2025-11-06 22:44:35,610 - INFO - [PROMPT] Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a ...
+2025-11-06 22:44:35,614 - INFO - [OK] Answer 9 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,615 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 9/288 pending prompts completed (9/288 total)
+2025-11-06 22:44:35,618 - INFO - [RESPONSE] If Peter's phone is dead
+2025-11-06 22:44:35,618 - INFO - [OK] Row 10 completed
+2025-11-06 22:44:35,618 - INFO - [INFO] Processing row 14/288 - test_item: B5F
+2025-11-06 22:44:35,618 - INFO - [PROMPT] Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no rain...
+2025-11-06 22:44:35,623 - INFO - [OK] Answer 10 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,623 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 10/288 pending prompts completed (10/288 total)
+2025-11-06 22:44:35,624 - INFO - [RESPONSE] If Peter's phone is dead
+2025-11-06 22:44:35,624 - INFO - [OK] Row 11 completed
+2025-11-06 22:44:35,624 - INFO - [INFO] Processing row 15/288 - test_item: B5C
+2025-11-06 22:44:35,624 - INFO - [PROMPT] Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: "If the weather...
+2025-11-06 22:44:35,629 - INFO - [OK] Answer 11 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,629 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 11/288 pending prompts completed (11/288 total)
+2025-11-06 22:44:35,629 - INFO - [RESPONSE] If Peter's phone is dead
+2025-11-06 22:44:35,630 - INFO - [OK] Row 12 completed
+2025-11-06 22:44:35,630 - INFO - [INFO] Processing row 16/288 - test_item: B6T
+2025-11-06 22:44:35,630 - INFO - [PROMPT] Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the...
+2025-11-06 22:44:35,634 - INFO - [OK] Answer 12 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,634 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 12/288 pending prompts completed (12/288 total)
+2025-11-06 22:44:35,650 - INFO - [RESPONSE] If the weather is rainy
+2025-11-06 22:44:35,650 - INFO - [OK] Row 13 completed
+2025-11-06 22:44:35,650 - INFO - [INFO] Processing row 17/288 - test_item: B6F
+2025-11-06 22:44:35,651 - INFO - [PROMPT] Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the fr...
+2025-11-06 22:44:35,654 - INFO - [OK] Answer 13 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,654 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 13/288 pending prompts completed (13/288 total)
+2025-11-06 22:44:35,661 - INFO - [RESPONSE] If the weather is rainy
+2025-11-06 22:44:35,661 - INFO - [OK] Row 15 completed
+2025-11-06 22:44:35,661 - INFO - [INFO] Processing row 18/288 - test_item: B6C
+2025-11-06 22:44:35,662 - INFO - [PROMPT] Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: "If your ti...
+2025-11-06 22:44:35,666 - INFO - [OK] Answer 15 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,666 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 14/288 pending prompts completed (14/288 total)
+2025-11-06 22:44:35,666 - INFO - [RESPONSE] If the weather is rainy
+2025-11-06 22:44:35,666 - INFO - [OK] Row 14 completed
+2025-11-06 22:44:35,666 - INFO - [INFO] Processing row 19/288 - test_item: B7T
+2025-11-06 22:44:35,666 - INFO - [PROMPT] Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in ...
+2025-11-06 22:44:35,670 - INFO - [OK] Answer 14 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,670 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 15/288 pending prompts completed (15/288 total)
+2025-11-06 22:44:35,673 - INFO - [RESPONSE] If your tire is flat
+2025-11-06 22:44:35,673 - INFO - [OK] Row 16 completed
+2025-11-06 22:44:35,673 - INFO - [INFO] Processing row 20/288 - test_item: B7F
+2025-11-06 22:44:35,673 - INFO - [PROMPT] Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the...
+2025-11-06 22:44:35,678 - INFO - [OK] Answer 16 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,678 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 16/288 pending prompts completed (16/288 total)
+2025-11-06 22:44:35,690 - INFO - [RESPONSE] If your tire is flat
+2025-11-06 22:44:35,690 - INFO - [OK] Row 17 completed
+2025-11-06 22:44:35,691 - INFO - [INFO] Processing row 21/288 - test_item: B7C
+2025-11-06 22:44:35,691 - INFO - [PROMPT] Here's the context: The plant is not dry. There is a hose in the garden. Mary says: "If the plant is...
+2025-11-06 22:44:35,695 - INFO - [OK] Answer 17 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,695 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 17/288 pending prompts completed (17/288 total)
+2025-11-06 22:44:35,702 - INFO - [RESPONSE] If your tire is flat
+2025-11-06 22:44:35,702 - INFO - [OK] Row 18 completed
+2025-11-06 22:44:35,702 - INFO - [INFO] Processing row 22/288 - test_item: B8T
+2025-11-06 22:44:35,703 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ...
+2025-11-06 22:44:35,707 - INFO - [OK] Answer 18 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,707 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 18/288 pending prompts completed (18/288 total)
+2025-11-06 22:44:35,708 - INFO - [RESPONSE] If the plant is dry
+2025-11-06 22:44:35,708 - INFO - [OK] Row 19 completed
+2025-11-06 22:44:35,708 - INFO - [INFO] Processing row 23/288 - test_item: B8F
+2025-11-06 22:44:35,709 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironi...
+2025-11-06 22:44:35,713 - INFO - [OK] Answer 19 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,713 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 19/288 pending prompts completed (19/288 total)
+2025-11-06 22:44:35,715 - INFO - [RESPONSE] If the plant is dry
+2025-11-06 22:44:35,715 - INFO - [OK] Row 20 completed
+2025-11-06 22:44:35,715 - INFO - [INFO] Processing row 24/288 - test_item: B8C
+2025-11-06 22:44:35,715 - INFO - [PROMPT] Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary s...
+2025-11-06 22:44:35,720 - INFO - [OK] Answer 20 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,720 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 20/288 pending prompts completed (20/288 total)
+2025-11-06 22:44:35,730 - INFO - [RESPONSE] If the plant is dry
+2025-11-06 22:44:35,730 - INFO - [OK] Row 21 completed
+2025-11-06 22:44:35,730 - INFO - [INFO] Processing row 25/288 - test_item: B9T
+2025-11-06 22:44:35,731 - INFO - [PROMPT] Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper o...
+2025-11-06 22:44:35,734 - INFO - [OK] Answer 21 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,734 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 21/288 pending prompts completed (21/288 total)
+2025-11-06 22:44:35,741 - INFO - [RESPONSE] If George's shirt is wrinkled
+2025-11-06 22:44:35,741 - INFO - [OK] Row 22 completed
+2025-11-06 22:44:35,741 - INFO - [INFO] Processing row 26/288 - test_item: B9F
+2025-11-06 22:44:35,742 - INFO - [PROMPT] Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on...
+2025-11-06 22:44:35,745 - INFO - [OK] Answer 22 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,745 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 22/288 pending prompts completed (22/288 total)
+2025-11-06 22:44:35,746 - INFO - [RESPONSE] If George's shirt is wrinkled
+2025-11-06 22:44:35,747 - INFO - [OK] Row 23 completed
+2025-11-06 22:44:35,747 - INFO - [INFO] Processing row 27/288 - test_item: B9C
+2025-11-06 22:44:35,747 - INFO - [PROMPT] Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: "If Su...
+2025-11-06 22:44:35,750 - INFO - [OK] Answer 23 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,751 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 23/288 pending prompts completed (23/288 total)
+2025-11-06 22:44:35,755 - INFO - [RESPONSE] If George's shirt is wrinkled
+2025-11-06 22:44:35,755 - INFO - [OK] Row 24 completed
+2025-11-06 22:44:35,755 - INFO - [INFO] Processing row 28/288 - test_item: F1T
+2025-11-06 22:44:35,755 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-06 22:44:35,758 - INFO - [OK] Answer 24 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,758 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 24/288 pending prompts completed (24/288 total)
+2025-11-06 22:44:35,767 - INFO - [RESPONSE] Here's the context
+2025-11-06 22:44:35,767 - INFO - [OK] Row 25 completed
+2025-11-06 22:44:35,767 - INFO - [INFO] Processing row 29/288 - test_item: F1F
+2025-11-06 22:44:35,768 - INFO - [PROMPT] Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza ...
+2025-11-06 22:44:35,770 - INFO - [OK] Answer 25 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,770 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 25/288 pending prompts completed (25/288 total)
+2025-11-06 22:44:35,777 - INFO - [RESPONSE] there are no books on the shelf
+2025-11-06 22:44:35,778 - INFO - [OK] Row 26 completed
+2025-11-06 22:44:35,778 - INFO - [INFO] Processing row 30/288 - test_item: F2T
+2025-11-06 22:44:35,778 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-06 22:44:35,782 - INFO - [RESPONSE] If Susy wants to read
+2025-11-06 22:44:35,782 - INFO - [OK] Row 27 completed
+2025-11-06 22:44:35,782 - INFO - [OK] Answer 26 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,782 - INFO - [INFO] Processing row 31/288 - test_item: F2F
+2025-11-06 22:44:35,782 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 26/288 pending prompts completed (26/288 total)
+2025-11-06 22:44:35,782 - INFO - [PROMPT] Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. T...
+2025-11-06 22:44:35,786 - INFO - [OK] Answer 27 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,786 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 27/288 pending prompts completed (27/288 total)
+2025-11-06 22:44:35,787 - INFO - [RESPONSE] more expensive
+2025-11-06 22:44:35,787 - INFO - [OK] Row 28 completed
+2025-11-06 22:44:35,787 - INFO - [INFO] Processing row 32/288 - test_item: F3T
+2025-11-06 22:44:35,787 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-06 22:44:35,790 - INFO - [OK] Answer 28 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,790 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 28/288 pending prompts completed (28/288 total)
+2025-11-06 22:44:35,795 - INFO - [RESPONSE] more expensive
+2025-11-06 22:44:35,796 - INFO - [OK] Row 29 completed
+2025-11-06 22:44:35,796 - INFO - [INFO] Processing row 33/288 - test_item: F3F
+2025-11-06 22:44:35,796 - INFO - [PROMPT] Here's the context: Although water is healthier than soda, many choose soda. There is water in the f...
+2025-11-06 22:44:35,799 - INFO - [OK] Answer 29 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,799 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 29/288 pending prompts completed (29/288 total)
+2025-11-06 22:44:35,810 - INFO - [RESPONSE] cheaper
+2025-11-06 22:44:35,810 - INFO - [OK] Row 30 completed
+2025-11-06 22:44:35,810 - INFO - [INFO] Processing row 34/288 - test_item: F4T
+2025-11-06 22:44:35,811 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-06 22:44:35,814 - INFO - [OK] Answer 30 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,814 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 30/288 pending prompts completed (30/288 total)
+2025-11-06 22:44:35,815 - INFO - [RESPONSE] healthier
+2025-11-06 22:44:35,815 - INFO - [OK] Row 32 completed
+2025-11-06 22:44:35,816 - INFO - [INFO] Processing row 35/288 - test_item: F4F
+2025-11-06 22:44:35,816 - INFO - [RESPONSE] cheaper
+2025-11-06 22:44:35,816 - INFO - [PROMPT] Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. Th...
+2025-11-06 22:44:35,817 - INFO - [OK] Row 31 completed
+2025-11-06 22:44:35,817 - INFO - [INFO] Processing row 36/288 - test_item: F5T
+2025-11-06 22:44:35,817 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-06 22:44:35,820 - INFO - [OK] Answer 32 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,820 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 31/288 pending prompts completed (31/288 total)
+2025-11-06 22:44:35,824 - INFO - [OK] Answer 31 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,824 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 32/288 pending prompts completed (32/288 total)
+2025-11-06 22:44:35,825 - INFO - [RESPONSE] healthier
+2025-11-06 22:44:35,825 - INFO - [OK] Row 33 completed
+2025-11-06 22:44:35,825 - INFO - [INFO] Processing row 37/288 - test_item: F5F
+2025-11-06 22:44:35,826 - INFO - [PROMPT] Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There i...
+2025-11-06 22:44:35,830 - INFO - [OK] Answer 33 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,831 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 33/288 pending prompts completed (33/288 total)
+2025-11-06 22:44:35,847 - INFO - [RESPONSE] broccoli is more difficult to cook
+2025-11-06 22:44:35,848 - INFO - [OK] Row 34 completed
+2025-11-06 22:44:35,848 - INFO - [INFO] Processing row 38/288 - test_item: F6T
+2025-11-06 22:44:35,848 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-06 22:44:35,852 - INFO - [OK] Answer 34 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,852 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 34/288 pending prompts completed (34/288 total)
+2025-11-06 22:44:35,854 - INFO - [RESPONSE] broccoli is more difficult to cook
+2025-11-06 22:44:35,854 - INFO - [OK] Row 35 completed
+2025-11-06 22:44:35,854 - INFO - [INFO] Processing row 39/288 - test_item: F6F
+2025-11-06 22:44:35,854 - INFO - [PROMPT] Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There...
+2025-11-06 22:44:35,856 - INFO - [RESPONSE] people eat burgers more often
+2025-11-06 22:44:35,856 - INFO - [OK] Row 36 completed
+2025-11-06 22:44:35,857 - INFO - [INFO] Processing row 40/288 - test_item: F7T
+2025-11-06 22:44:35,857 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-06 22:44:35,859 - INFO - [OK] Answer 35 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,859 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 35/288 pending prompts completed (35/288 total)
+2025-11-06 22:44:35,864 - INFO - [OK] Answer 36 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,864 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 36/288 pending prompts completed (36/288 total)
+2025-11-06 22:44:35,865 - INFO - [RESPONSE] sushi is healthier
+2025-11-06 22:44:35,865 - INFO - [OK] Row 37 completed
+2025-11-06 22:44:35,865 - INFO - [INFO] Processing row 41/288 - test_item: F7F
+2025-11-06 22:44:35,866 - INFO - [PROMPT] Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up i...
+2025-11-06 22:44:35,869 - INFO - [OK] Answer 37 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,869 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 37/288 pending prompts completed (37/288 total)
+2025-11-06 22:44:35,884 - INFO - [RESPONSE] more expensive
+2025-11-06 22:44:35,884 - INFO - [OK] Row 38 completed
+2025-11-06 22:44:35,884 - INFO - [INFO] Processing row 42/288 - test_item: F8T
+2025-11-06 22:44:35,884 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, most people watch T...
+2025-11-06 22:44:35,888 - INFO - [OK] Answer 38 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,888 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 38/288 pending prompts completed (38/288 total)
+2025-11-06 22:44:35,889 - INFO - [RESPONSE] Although dogs are more lively
+2025-11-06 22:44:35,889 - INFO - [OK] Row 40 completed
+2025-11-06 22:44:35,889 - INFO - [INFO] Processing row 43/288 - test_item: F8F
+2025-11-06 22:44:35,890 - INFO - [PROMPT] Here's the context: Although reading books is more educational than watching TV, most people watch T...
+2025-11-06 22:44:35,893 - INFO - [OK] Answer 40 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,893 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 39/288 pending prompts completed (39/288 total)
+2025-11-06 22:44:35,893 - INFO - [RESPONSE] more expensive
+2025-11-06 22:44:35,893 - INFO - [OK] Row 39 completed
+2025-11-06 22:44:35,893 - INFO - [INFO] Processing row 44/288 - test_item: F9T
+2025-11-06 22:44:35,894 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-06 22:44:35,896 - INFO - [RESPONSE] Although dogs are more lively
+2025-11-06 22:44:35,896 - INFO - [OK] Row 41 completed
+2025-11-06 22:44:35,896 - INFO - [INFO] Processing row 45/288 - test_item: F9F
+2025-11-06 22:44:35,896 - INFO - [PROMPT] Here's the context: Although running is better for fitness than walking, most people prefer walking....
+2025-11-06 22:44:35,896 - INFO - [OK] Answer 39 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,897 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 40/288 pending prompts completed (40/288 total)
+2025-11-06 22:44:35,899 - INFO - [OK] Answer 41 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,899 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 41/288 pending prompts completed (41/288 total)
+2025-11-06 22:44:35,918 - INFO - [RESPONSE] Although reading books is more educational
+2025-11-06 22:44:35,919 - INFO - [OK] Row 42 completed
+2025-11-06 22:44:35,919 - INFO - [INFO] Processing row 46/288 - test_item: S1T
+2025-11-06 22:44:35,920 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Mary had said: "If ...
+2025-11-06 22:44:35,921 - INFO - [RESPONSE] running is better for fitness than walking
+2025-11-06 22:44:35,922 - INFO - [OK] Row 44 completed
+2025-11-06 22:44:35,923 - INFO - [INFO] Processing row 47/288 - test_item: S1F
+2025-11-06 22:44:35,923 - INFO - [PROMPT] Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not brin...
+2025-11-06 22:44:35,923 - INFO - [RESPONSE] running is better for fitness than walking
+2025-11-06 22:44:35,923 - INFO - [OK] Row 45 completed
+2025-11-06 22:44:35,923 - INFO - [INFO] Processing row 48/288 - test_item: S1C
+2025-11-06 22:44:35,923 - INFO - [OK] Answer 42 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,924 - INFO - [PROMPT] Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had s...
+2025-11-06 22:44:35,924 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 42/288 pending prompts completed (42/288 total)
+2025-11-06 22:44:35,927 - INFO - [OK] Answer 44 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,928 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 43/288 pending prompts completed (43/288 total)
+2025-11-06 22:44:35,928 - INFO - [RESPONSE] more educational
+2025-11-06 22:44:35,929 - INFO - [OK] Row 43 completed
+2025-11-06 22:44:35,929 - INFO - [INFO] Processing row 49/288 - test_item: S2T
+2025-11-06 22:44:35,929 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: "If you...
+2025-11-06 22:44:35,931 - INFO - [OK] Answer 45 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,931 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 44/288 pending prompts completed (44/288 total)
+2025-11-06 22:44:35,934 - INFO - [OK] Answer 43 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,934 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 45/288 pending prompts completed (45/288 total)
+2025-11-06 22:44:35,954 - INFO - [RESPONSE] If the parrot is in the cage
+2025-11-06 22:44:35,954 - INFO - [OK] Row 46 completed
+2025-11-06 22:44:35,955 - INFO - [INFO] Processing row 50/288 - test_item: S2F
+2025-11-06 22:44:35,955 - INFO - [PROMPT] Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you ...
+2025-11-06 22:44:35,958 - INFO - [OK] Answer 46 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,958 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 46/288 pending prompts completed (46/288 total)
+2025-11-06 22:44:35,958 - INFO - [RESPONSE] If the parrot is in the cage
+2025-11-06 22:44:35,958 - INFO - [OK] Row 48 completed
+2025-11-06 22:44:35,958 - INFO - [INFO] Processing row 51/288 - test_item: S2C
+2025-11-06 22:44:35,959 - INFO - [PROMPT] Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had s...
+2025-11-06 22:44:35,959 - INFO - [RESPONSE] If the parrot is in the cage
+2025-11-06 22:44:35,959 - INFO - [OK] Row 47 completed
+2025-11-06 22:44:35,960 - INFO - [INFO] Processing row 52/288 - test_item: S3T
+2025-11-06 22:44:35,960 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: "If the fo...
+2025-11-06 22:44:35,962 - INFO - [OK] Answer 48 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,962 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 47/288 pending prompts completed (47/288 total)
+2025-11-06 22:44:35,966 - INFO - [RESPONSE] If you finish your broccoli
+2025-11-06 22:44:35,966 - INFO - [OK] Answer 47 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,966 - INFO - [OK] Row 49 completed
+2025-11-06 22:44:35,966 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 48/288 pending prompts completed (48/288 total)
+2025-11-06 22:44:35,966 - INFO - [INFO] Processing row 53/288 - test_item: S3F
+2025-11-06 22:44:35,967 - INFO - [PROMPT] Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shove...
+2025-11-06 22:44:35,970 - INFO - [OK] Answer 49 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,970 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 49/288 pending prompts completed (49/288 total)
+2025-11-06 22:44:35,991 - INFO - [RESPONSE] If you finish your broccoli
+2025-11-06 22:44:35,991 - INFO - [RESPONSE] If you finish your broccoli
+2025-11-06 22:44:35,991 - INFO - [OK] Row 50 completed
+2025-11-06 22:44:35,992 - INFO - [OK] Row 51 completed
+2025-11-06 22:44:35,992 - INFO - [INFO] Processing row 54/288 - test_item: S3C
+2025-11-06 22:44:35,992 - INFO - [INFO] Processing row 55/288 - test_item: S4T
+2025-11-06 22:44:35,992 - INFO - [PROMPT] Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: "...
+2025-11-06 22:44:35,992 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Mary had said: "If the TV is on, Matthew wil...
+2025-11-06 22:44:35,995 - INFO - [RESPONSE] If the foxes are dancing
+2025-11-06 22:44:35,995 - INFO - [OK] Row 52 completed
+2025-11-06 22:44:35,995 - INFO - [INFO] Processing row 56/288 - test_item: S4F
+2025-11-06 22:44:35,996 - INFO - [PROMPT] Here's the context: The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said:...
+2025-11-06 22:44:35,997 - INFO - [OK] Answer 50 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:35,997 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 50/288 pending prompts completed (50/288 total)
+2025-11-06 22:44:36,001 - INFO - [OK] Answer 51 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,001 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 51/288 pending prompts completed (51/288 total)
+2025-11-06 22:44:36,002 - INFO - [RESPONSE] If the foxes are dancing
+2025-11-06 22:44:36,003 - INFO - [OK] Row 53 completed
+2025-11-06 22:44:36,003 - INFO - [INFO] Processing row 57/288 - test_item: S4C
+2025-11-06 22:44:36,003 - INFO - [PROMPT] Here's the context: The TV is off. The radio is also off. Mary had said: "If the TV is on, Matthew w...
+2025-11-06 22:44:36,005 - INFO - [OK] Answer 52 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,006 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 52/288 pending prompts completed (52/288 total)
+2025-11-06 22:44:36,009 - INFO - [OK] Answer 53 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,009 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 53/288 pending prompts completed (53/288 total)
+2025-11-06 22:44:36,028 - INFO - [RESPONSE] If the foxes are dancing
+2025-11-06 22:44:36,028 - INFO - [OK] Row 54 completed
+2025-11-06 22:44:36,028 - INFO - [INFO] Processing row 58/288 - test_item: S5T
+2025-11-06 22:44:36,029 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Mary had said: "If the weat...
+2025-11-06 22:44:36,030 - INFO - [RESPONSE] If the TV is on
+2025-11-06 22:44:36,031 - INFO - [OK] Row 55 completed
+2025-11-06 22:44:36,031 - INFO - [INFO] Processing row 59/288 - test_item: S5F
+2025-11-06 22:44:36,031 - INFO - [PROMPT] Here's the context: Today, the weather is sunny. Also, there is no wind. Emma is wearing green. Mary...
+2025-11-06 22:44:36,032 - INFO - [OK] Answer 54 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,033 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 54/288 pending prompts completed (54/288 total)
+2025-11-06 22:44:36,037 - INFO - [OK] Answer 55 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,037 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 55/288 pending prompts completed (55/288 total)
+2025-11-06 22:44:36,037 - INFO - [RESPONSE] If the TV is on
+2025-11-06 22:44:36,037 - INFO - [OK] Row 56 completed
+2025-11-06 22:44:36,038 - INFO - [INFO] Processing row 60/288 - test_item: S5C
+2025-11-06 22:44:36,038 - INFO - [PROMPT] Here's the context: Today, the weather is rainy. Also, it is very windy. Mary had said: "If the weat...
+2025-11-06 22:44:36,041 - INFO - [OK] Answer 56 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,041 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 56/288 pending prompts completed (56/288 total)
+2025-11-06 22:44:36,044 - INFO - [RESPONSE] If the TV is on
+2025-11-06 22:44:36,044 - INFO - [OK] Row 57 completed
+2025-11-06 22:44:36,045 - INFO - [INFO] Processing row 61/288 - test_item: S6T
+2025-11-06 22:44:36,045 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Mary had said: "If the pl...
+2025-11-06 22:44:36,049 - INFO - [OK] Answer 57 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,049 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 57/288 pending prompts completed (57/288 total)
+2025-11-06 22:44:36,068 - INFO - [RESPONSE] If the weather is sunny
+2025-11-06 22:44:36,069 - INFO - [OK] Row 58 completed
+2025-11-06 22:44:36,069 - INFO - [INFO] Processing row 62/288 - test_item: S6F
+2025-11-06 22:44:36,069 - INFO - [PROMPT] Here's the context: The playground is empty.  Also, the streets are quiet. Angela did not take a sel...
+2025-11-06 22:44:36,074 - INFO - [OK] Answer 58 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,074 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 58/288 pending prompts completed (58/288 total)
+2025-11-06 22:44:36,074 - INFO - [RESPONSE] If the weather is sunny
+2025-11-06 22:44:36,075 - INFO - [OK] Row 59 completed
+2025-11-06 22:44:36,075 - INFO - [INFO] Processing row 63/288 - test_item: S6C
+2025-11-06 22:44:36,075 - INFO - [PROMPT] Here's the context: The playground is crowded.  Also, the streets are lively. Mary had said: "If the...
+2025-11-06 22:44:36,078 - INFO - [OK] Answer 59 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,078 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 59/288 pending prompts completed (59/288 total)
+2025-11-06 22:44:36,079 - INFO - [RESPONSE] If the weather is sunny
+2025-11-06 22:44:36,079 - INFO - [OK] Row 60 completed
+2025-11-06 22:44:36,079 - INFO - [INFO] Processing row 64/288 - test_item: S7T
+2025-11-06 22:44:36,079 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Mary had said: "If...
+2025-11-06 22:44:36,083 - INFO - [OK] Answer 60 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,084 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 60/288 pending prompts completed (60/288 total)
+2025-11-06 22:44:36,084 - INFO - [RESPONSE] If the playground is empty
+2025-11-06 22:44:36,084 - INFO - [OK] Row 61 completed
+2025-11-06 22:44:36,084 - INFO - [INFO] Processing row 65/288 - test_item: S7F
+2025-11-06 22:44:36,085 - INFO - [PROMPT] Here's the context: The lawn has been mowed. Also, the flowers have been watered. Paul did not get 5...
+2025-11-06 22:44:36,088 - INFO - [OK] Answer 61 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,089 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 61/288 pending prompts completed (61/288 total)
+2025-11-06 22:44:36,111 - INFO - [RESPONSE] If the playground is empty
+2025-11-06 22:44:36,111 - INFO - [OK] Row 62 completed
+2025-11-06 22:44:36,111 - INFO - [INFO] Processing row 66/288 - test_item: S7C
+2025-11-06 22:44:36,112 - INFO - [PROMPT] Here's the context: The lawn has not been mowed. Also, the flowers still need watering. Mary had sai...
+2025-11-06 22:44:36,115 - INFO - [OK] Answer 62 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,115 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 62/288 pending prompts completed (62/288 total)
+2025-11-06 22:44:36,116 - INFO - [RESPONSE] If the playground is empty
+2025-11-06 22:44:36,116 - INFO - [OK] Row 63 completed
+2025-11-06 22:44:36,117 - INFO - [INFO] Processing row 67/288 - test_item: S8T
+2025-11-06 22:44:36,117 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Mary had said: "If the d...
+2025-11-06 22:44:36,120 - INFO - [OK] Answer 63 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,121 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 63/288 pending prompts completed (63/288 total)
+2025-11-06 22:44:36,122 - INFO - [RESPONSE] If Paul mows the lawn
+2025-11-06 22:44:36,123 - INFO - [OK] Row 64 completed
+2025-11-06 22:44:36,123 - INFO - [INFO] Processing row 68/288 - test_item: S8F
+2025-11-06 22:44:36,123 - INFO - [PROMPT] Here's the context: The dog is playing. Also, the cat is climbing the tree. Anthony did not read a b...
+2025-11-06 22:44:36,126 - INFO - [OK] Answer 64 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,126 - INFO - [RESPONSE] Paul did not get 50 euros
+2025-11-06 22:44:36,126 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 64/288 pending prompts completed (64/288 total)
+2025-11-06 22:44:36,127 - INFO - [OK] Row 65 completed
+2025-11-06 22:44:36,127 - INFO - [INFO] Processing row 69/288 - test_item: S8C
+2025-11-06 22:44:36,128 - INFO - [PROMPT] Here's the context: The dog is not playing. Also, the cat is sleeping. Mary had said: "If the dog is...
+2025-11-06 22:44:36,131 - INFO - [OK] Answer 65 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,131 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 65/288 pending prompts completed (65/288 total)
+2025-11-06 22:44:36,149 - INFO - [RESPONSE] If Paul mows the lawn
+2025-11-06 22:44:36,149 - INFO - [OK] Row 66 completed
+2025-11-06 22:44:36,149 - INFO - [INFO] Processing row 70/288 - test_item: S9T
+2025-11-06 22:44:36,150 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Mary had said: "If the fridge is ...
+2025-11-06 22:44:36,153 - INFO - [OK] Answer 66 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,153 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 66/288 pending prompts completed (66/288 total)
+2025-11-06 22:44:36,155 - INFO - [RESPONSE] If the dog is playing
+2025-11-06 22:44:36,155 - INFO - [OK] Row 67 completed
+2025-11-06 22:44:36,155 - INFO - [INFO] Processing row 71/288 - test_item: S9F
+2025-11-06 22:44:36,156 - INFO - [PROMPT] Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary ha...
+2025-11-06 22:44:36,160 - INFO - [OK] Answer 67 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,160 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 67/288 pending prompts completed (67/288 total)
+2025-11-06 22:44:36,162 - INFO - [RESPONSE] Anthony did not read a book
+2025-11-06 22:44:36,163 - INFO - [OK] Row 68 completed
+2025-11-06 22:44:36,163 - INFO - [INFO] Processing row 72/288 - test_item: S9C
+2025-11-06 22:44:36,163 - INFO - [PROMPT] Here's the context: The fridge is full. Also, the oven is on. Mary had said: "If the fridge is empty...
+2025-11-06 22:44:36,166 - INFO - [RESPONSE] If the dog is playing
+2025-11-06 22:44:36,166 - INFO - [OK] Row 69 completed
+2025-11-06 22:44:36,166 - INFO - [INFO] Processing row 73/288 - test_item: B1T
+2025-11-06 22:44:36,167 - INFO - [PROMPT] Aquí tens el context: En Joan té gana i hi ha pizza al forn. També hi ha pasta a la nevera. La Maria...
+2025-11-06 22:44:36,167 - INFO - [OK] Answer 68 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,167 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 68/288 pending prompts completed (68/288 total)
+2025-11-06 22:44:36,171 - INFO - [OK] Answer 69 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,171 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 69/288 pending prompts completed (69/288 total)
+2025-11-06 22:44:36,187 - INFO - [RESPONSE] If the fridge is empty
+2025-11-06 22:44:36,187 - INFO - [OK] Row 70 completed
+2025-11-06 22:44:36,187 - INFO - [INFO] Processing row 74/288 - test_item: B1F
+2025-11-06 22:44:36,187 - INFO - [PROMPT] Aquí tens el context: En Joan té gana i no hi ha pizza al forn. Tampoc no hi ha pasta a la nevera. L...
+2025-11-06 22:44:36,192 - INFO - [RESPONSE] If the fridge is empty
+2025-11-06 22:44:36,192 - INFO - [OK] Row 71 completed
+2025-11-06 22:44:36,192 - INFO - [INFO] Processing row 75/288 - test_item: B1C
+2025-11-06 22:44:36,192 - INFO - [OK] Answer 70 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,192 - INFO - [PROMPT] Aquí tens el context: En Joan no té gana. Hi ha pasta a la nevera. La Maria diu: "Si en Joan té gana...
+2025-11-06 22:44:36,192 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 70/288 pending prompts completed (70/288 total)
+2025-11-06 22:44:36,196 - INFO - [OK] Answer 71 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,196 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 71/288 pending prompts completed (71/288 total)
+2025-11-06 22:44:36,200 - INFO - [RESPONSE] If the fridge is empty
+2025-11-06 22:44:36,200 - INFO - [OK] Row 72 completed
+2025-11-06 22:44:36,200 - INFO - [INFO] Processing row 76/288 - test_item: B2T
+2025-11-06 22:44:36,200 - INFO - [PROMPT] Aquí tens el context: La Núria té mal de cap i hi ha aspirines sobre la taula. També hi ha ibuprofèn...
+2025-11-06 22:44:36,204 - INFO - [OK] Answer 72 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,204 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 72/288 pending prompts completed (72/288 total)
+2025-11-06 22:44:36,207 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,207 - INFO - [OK] Row 73 completed
+2025-11-06 22:44:36,207 - INFO - [INFO] Processing row 77/288 - test_item: B2F
+2025-11-06 22:44:36,207 - INFO - [PROMPT] Aquí tens el context: La Núria té mal de cap i no hi ha aspirines sobre la taula. Tampoc no hi ha ib...
+2025-11-06 22:44:36,211 - INFO - [OK] Answer 73 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,211 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 73/288 pending prompts completed (73/288 total)
+2025-11-06 22:44:36,231 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,231 - INFO - [OK] Row 74 completed
+2025-11-06 22:44:36,232 - INFO - [INFO] Processing row 78/288 - test_item: B2C
+2025-11-06 22:44:36,232 - INFO - [PROMPT] Aquí tens el context: La Núria no té mal de cap. També hi ha ibuprofèn al calaix. La Maria diu: "Si ...
+2025-11-06 22:44:36,235 - INFO - [OK] Answer 74 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,236 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 74/288 pending prompts completed (74/288 total)
+2025-11-06 22:44:36,237 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,237 - INFO - [OK] Row 75 completed
+2025-11-06 22:44:36,237 - INFO - [INFO] Processing row 79/288 - test_item: B3T
+2025-11-06 22:44:36,237 - INFO - [PROMPT] Aquí tens el context: La Llúcia té set i hi ha aigua a la nevera. També hi ha suc de poma al rebost....
+2025-11-06 22:44:36,241 - INFO - [OK] Answer 75 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,242 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 75/288 pending prompts completed (75/288 total)
+2025-11-06 22:44:36,250 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,250 - INFO - [OK] Row 76 completed
+2025-11-06 22:44:36,250 - INFO - [INFO] Processing row 80/288 - test_item: B3F
+2025-11-06 22:44:36,250 - INFO - [PROMPT] Aquí tens el context: La Llúcia té set i no hi ha aigua a la nevera. Tampoc no hi ha suc de poma al ...
+2025-11-06 22:44:36,254 - INFO - [OK] Answer 76 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,255 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 76/288 pending prompts completed (76/288 total)
+2025-11-06 22:44:36,262 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,262 - INFO - [OK] Row 77 completed
+2025-11-06 22:44:36,262 - INFO - [INFO] Processing row 81/288 - test_item: B3C
+2025-11-06 22:44:36,262 - INFO - [PROMPT] Aquí tens el context: La Llúcia no té set. Hi ha suc de poma al rebost. La Maria diu: "Si la Llúcia ...
+2025-11-06 22:44:36,266 - INFO - [OK] Answer 77 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,266 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 77/288 pending prompts completed (77/288 total)
+2025-11-06 22:44:36,284 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,284 - INFO - [OK] Row 79 completed
+2025-11-06 22:44:36,284 - INFO - [INFO] Processing row 82/288 - test_item: B4T
+2025-11-06 22:44:36,285 - INFO - [PROMPT] Aquí tens el context: El mòbil del Pere no té bateria i hi ha un carregador al calaix. També hi ha u...
+2025-11-06 22:44:36,286 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,286 - INFO - [OK] Row 78 completed
+2025-11-06 22:44:36,286 - INFO - [INFO] Processing row 83/288 - test_item: B4F
+2025-11-06 22:44:36,286 - INFO - [PROMPT] Aquí tens el context: El mòbil del Pere no té bateria i no hi ha cap carregador al calaix. Tampoc no...
+2025-11-06 22:44:36,290 - INFO - [OK] Answer 79 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,290 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 78/288 pending prompts completed (78/288 total)
+2025-11-06 22:44:36,294 - INFO - [OK] Answer 78 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,294 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 79/288 pending prompts completed (79/288 total)
+2025-11-06 22:44:36,302 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,303 - INFO - [OK] Row 80 completed
+2025-11-06 22:44:36,303 - INFO - [INFO] Processing row 84/288 - test_item: B4C
+2025-11-06 22:44:36,303 - INFO - [PROMPT] Aquí tens el context: El mòbil del Pere està carregat. Hi ha un ordinador sobre la taula. La Maria d...
+2025-11-06 22:44:36,307 - INFO - [OK] Answer 80 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,307 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 80/288 pending prompts completed (80/288 total)
+2025-11-06 22:44:36,312 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,312 - INFO - [OK] Row 81 completed
+2025-11-06 22:44:36,312 - INFO - [INFO] Processing row 85/288 - test_item: B5T
+2025-11-06 22:44:36,313 - INFO - [PROMPT] Aquí tens el context: El temps és plujós i hi ha un paraigua al paraigüer. També hi ha un impermeabl...
+2025-11-06 22:44:36,317 - INFO - [OK] Answer 81 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,317 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 81/288 pending prompts completed (81/288 total)
+2025-11-06 22:44:36,336 - INFO - [RESPONSE] El mòbil del Pere no té bateria
+2025-11-06 22:44:36,336 - INFO - [OK] Row 82 completed
+2025-11-06 22:44:36,336 - INFO - [INFO] Processing row 86/288 - test_item: B5F
+2025-11-06 22:44:36,336 - INFO - [PROMPT] Aquí tens el context: El temps és plujós i no hi ha cap paraigua al paraigüer. Tampoc no hi ha cap i...
+2025-11-06 22:44:36,339 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,339 - INFO - [OK] Row 83 completed
+2025-11-06 22:44:36,340 - INFO - [INFO] Processing row 87/288 - test_item: B5C
+2025-11-06 22:44:36,340 - INFO - [OK] Answer 82 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,340 - INFO - [PROMPT] Aquí tens el context: El temps és serè. Hi ha un impermeable al cotxe. La Maria diu: "Si el temps és...
+2025-11-06 22:44:36,340 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 82/288 pending prompts completed (82/288 total)
+2025-11-06 22:44:36,344 - INFO - [OK] Answer 83 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,344 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 83/288 pending prompts completed (83/288 total)
+2025-11-06 22:44:36,351 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,351 - INFO - [OK] Row 84 completed
+2025-11-06 22:44:36,351 - INFO - [INFO] Processing row 88/288 - test_item: B6T
+2025-11-06 22:44:36,352 - INFO - [PROMPT] Aquí tens el context: La roda del cotxe està punxada i hi ha un inflador al garatge. També hi ha una...
+2025-11-06 22:44:36,355 - INFO - [OK] Answer 84 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,356 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 84/288 pending prompts completed (84/288 total)
+2025-11-06 22:44:36,363 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,363 - INFO - [OK] Row 85 completed
+2025-11-06 22:44:36,364 - INFO - [INFO] Processing row 89/288 - test_item: B6F
+2025-11-06 22:44:36,364 - INFO - [PROMPT] Aquí tens el context: La roda del cotxe està punxada i no hi ha cap inflador al garatge. Tampoc no h...
+2025-11-06 22:44:36,367 - INFO - [OK] Answer 85 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,368 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 85/288 pending prompts completed (85/288 total)
+2025-11-06 22:44:36,381 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,381 - INFO - [OK] Row 86 completed
+2025-11-06 22:44:36,381 - INFO - [INFO] Processing row 90/288 - test_item: B6C
+2025-11-06 22:44:36,382 - INFO - [PROMPT] Aquí tens el context: La roda del cotxe està inflada. Hi ha una bicicleta a la porta d'entrada. La M...
+2025-11-06 22:44:36,386 - INFO - [OK] Answer 86 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,386 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 86/288 pending prompts completed (86/288 total)
+2025-11-06 22:44:36,387 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,387 - INFO - [OK] Row 87 completed
+2025-11-06 22:44:36,387 - INFO - [INFO] Processing row 91/288 - test_item: B7T
+2025-11-06 22:44:36,388 - INFO - [PROMPT] Aquí tens el context: La planta està seca i hi ha una regadora a la prestatgeria. També hi ha una mà...
+2025-11-06 22:44:36,390 - INFO - [OK] Answer 87 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,391 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 87/288 pending prompts completed (87/288 total)
+2025-11-06 22:44:36,402 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,402 - INFO - [OK] Row 88 completed
+2025-11-06 22:44:36,402 - INFO - [INFO] Processing row 92/288 - test_item: B7F
+2025-11-06 22:44:36,403 - INFO - [PROMPT] Aquí tens el context: La planta està seca i no hi ha cap regadora a la prestatgeria. Tampoc no hi ha...
+2025-11-06 22:44:36,407 - INFO - [OK] Answer 88 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,407 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 88/288 pending prompts completed (88/288 total)
+2025-11-06 22:44:36,415 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,415 - INFO - [OK] Row 89 completed
+2025-11-06 22:44:36,415 - INFO - [INFO] Processing row 93/288 - test_item: B7C
+2025-11-06 22:44:36,416 - INFO - [PROMPT] Aquí tens el context: La planta no està seca. Hi ha una mànega al jardí. La Maria diu: "Si la planta...
+2025-11-06 22:44:36,419 - INFO - [OK] Answer 89 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,420 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 89/288 pending prompts completed (89/288 total)
+2025-11-06 22:44:36,429 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,430 - INFO - [OK] Row 90 completed
+2025-11-06 22:44:36,430 - INFO - [INFO] Processing row 94/288 - test_item: B8T
+2025-11-06 22:44:36,430 - INFO - [PROMPT] Aquí tens el context: La camisa del Jordi està arrugada i hi ha una planxa a l'armari. També hi ha u...
+2025-11-06 22:44:36,434 - INFO - [OK] Answer 90 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,434 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 90/288 pending prompts completed (90/288 total)
+2025-11-06 22:44:36,435 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,435 - INFO - [OK] Row 91 completed
+2025-11-06 22:44:36,435 - INFO - [INFO] Processing row 95/288 - test_item: B8F
+2025-11-06 22:44:36,436 - INFO - [PROMPT] Aquí tens el context: La camisa del Jordi està arrugada i no hi ha cap planxa a l'armari. Tampoc no ...
+2025-11-06 22:44:36,441 - INFO - [OK] Answer 91 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,441 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 91/288 pending prompts completed (91/288 total)
+2025-11-06 22:44:36,455 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,455 - INFO - [OK] Row 92 completed
+2025-11-06 22:44:36,455 - INFO - [INFO] Processing row 96/288 - test_item: B8C
+2025-11-06 22:44:36,455 - INFO - [PROMPT] Aquí tens el context: La camisa del Jordi no té arrugues. Hi ha una taula de planxar al balcó. La Ma...
+2025-11-06 22:44:36,460 - INFO - [OK] Answer 92 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,460 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 92/288 pending prompts completed (92/288 total)
+2025-11-06 22:44:36,462 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,462 - INFO - [OK] Row 93 completed
+2025-11-06 22:44:36,463 - INFO - [INFO] Processing row 97/288 - test_item: B9T
+2025-11-06 22:44:36,463 - INFO - [PROMPT] Aquí tens el context: La Susanna vol llegir i hi ha llibres a l'estanteria. També hi ha un diari al ...
+2025-11-06 22:44:36,467 - INFO - [OK] Answer 93 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,467 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 93/288 pending prompts completed (93/288 total)
+2025-11-06 22:44:36,481 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,482 - INFO - [OK] Row 94 completed
+2025-11-06 22:44:36,482 - INFO - [INFO] Processing row 98/288 - test_item: B9F
+2025-11-06 22:44:36,482 - INFO - [PROMPT] Aquí tens el context: La Susanna vol llegir i no hi ha llibres a l'estanteria. Tampoc no hi ha cap d...
+2025-11-06 22:44:36,485 - INFO - [OK] Answer 94 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,485 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 94/288 pending prompts completed (94/288 total)
+2025-11-06 22:44:36,489 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,489 - INFO - [OK] Row 95 completed
+2025-11-06 22:44:36,489 - INFO - [INFO] Processing row 99/288 - test_item: B9C
+2025-11-06 22:44:36,490 - INFO - [PROMPT] Aquí tens el context: La Susanna no vol llegir. Hi ha un diari al sofà. La Maria diu: "Si la Susanna...
+2025-11-06 22:44:36,494 - INFO - [OK] Answer 95 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,494 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 95/288 pending prompts completed (95/288 total)
+2025-11-06 22:44:36,508 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,509 - INFO - [OK] Row 96 completed
+2025-11-06 22:44:36,509 - INFO - [INFO] Processing row 100/288 - test_item: F1T
+2025-11-06 22:44:36,509 - INFO - [PROMPT] Aquí tens el context: Tot i que la pizza és més cara que la pasta, la gent la compra més. Hi ha pizz...
+2025-11-06 22:44:36,515 - INFO - [OK] Answer 96 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,515 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 96/288 pending prompts completed (96/288 total)
+2025-11-06 22:44:36,515 - INFO - [RESPONSE] Aquí tens el context: La Susanna vol llegir
+2025-11-06 22:44:36,515 - INFO - [OK] Row 97 completed
+2025-11-06 22:44:36,515 - INFO - [INFO] Processing row 101/288 - test_item: F1F
+2025-11-06 22:44:36,515 - INFO - [PROMPT] Aquí tens el context: Tot i que la pizza és més cara que la pasta, la gent la compra més. Hi ha pizz...
+2025-11-06 22:44:36,520 - INFO - [OK] Answer 97 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,520 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 97/288 pending prompts completed (97/288 total)
+2025-11-06 22:44:36,528 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,528 - INFO - [OK] Row 98 completed
+2025-11-06 22:44:36,528 - INFO - [INFO] Processing row 102/288 - test_item: F2T
+2025-11-06 22:44:36,529 - INFO - [PROMPT] Aquí tens el context: Tot i que el cafè és més barat que el te verd, la majoria de la gent prefereix...
+2025-11-06 22:44:36,533 - INFO - [OK] Answer 98 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,533 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 98/288 pending prompts completed (98/288 total)
+2025-11-06 22:44:36,538 - INFO - [RESPONSE] La Maria diu
+2025-11-06 22:44:36,538 - INFO - [OK] Row 99 completed
+2025-11-06 22:44:36,539 - INFO - [INFO] Processing row 103/288 - test_item: F2F
+2025-11-06 22:44:36,539 - INFO - [PROMPT] Aquí tens el context: Tot i que el cafè és més barat que el te verd, la majoria de la gent prefereix...
+2025-11-06 22:44:36,542 - INFO - [OK] Answer 99 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,542 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 99/288 pending prompts completed (99/288 total)
+2025-11-06 22:44:36,549 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,549 - INFO - [OK] Row 100 completed
+2025-11-06 22:44:36,549 - INFO - [INFO] Processing row 104/288 - test_item: F3T
+2025-11-06 22:44:36,549 - INFO - [PROMPT] Aquí tens el context: Tot i que l'aigua és més saludable que les begudes gasoses, molta gent tria le...
+2025-11-06 22:44:36,553 - INFO - [OK] Answer 100 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,553 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 100/288 pending prompts completed (100/288 total)
+2025-11-06 22:44:36,558 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,558 - INFO - [OK] Row 101 completed
+2025-11-06 22:44:36,558 - INFO - [INFO] Processing row 105/288 - test_item: F3F
+2025-11-06 22:44:36,558 - INFO - [PROMPT] Aquí tens el context: Tot i que l'aigua és més saludable que les begudes gasoses, molta gent tria le...
+2025-11-06 22:44:36,562 - INFO - [OK] Answer 101 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,563 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 101/288 pending prompts completed (101/288 total)
+2025-11-06 22:44:36,568 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,569 - INFO - [OK] Row 102 completed
+2025-11-06 22:44:36,569 - INFO - [INFO] Processing row 106/288 - test_item: F4T
+2025-11-06 22:44:36,570 - INFO - [PROMPT] Aquí tens el context: Tot i que els bròquils són més difícils de cuinar que els nyoquis, la gent els...
+2025-11-06 22:44:36,573 - INFO - [OK] Answer 102 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,573 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 102/288 pending prompts completed (102/288 total)
+2025-11-06 22:44:36,580 - INFO - [RESPONSE] verd
+2025-11-06 22:44:36,581 - INFO - [OK] Row 103 completed
+2025-11-06 22:44:36,581 - INFO - [INFO] Processing row 107/288 - test_item: F4F
+2025-11-06 22:44:36,581 - INFO - [PROMPT] Aquí tens el context: Tot i que els bròquils són més difícils de cuinar que els nyoquis, la gent els...
+2025-11-06 22:44:36,585 - INFO - [OK] Answer 103 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,585 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 103/288 pending prompts completed (103/288 total)
+2025-11-06 22:44:36,591 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,591 - INFO - [OK] Row 104 completed
+2025-11-06 22:44:36,592 - INFO - [INFO] Processing row 108/288 - test_item: F5T
+2025-11-06 22:44:36,592 - INFO - [PROMPT] Aquí tens el context: Tot i que el sushi és més saludable que les hamburgueses, la gent menja més so...
+2025-11-06 22:44:36,595 - INFO - [OK] Answer 104 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,596 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 104/288 pending prompts completed (104/288 total)
+2025-11-06 22:44:36,601 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,601 - INFO - [OK] Row 105 completed
+2025-11-06 22:44:36,601 - INFO - [INFO] Processing row 109/288 - test_item: F5F
+2025-11-06 22:44:36,601 - INFO - [PROMPT] Aquí tens el context: Tot i que el sushi és més saludable que les hamburgueses, la gent menja més so...
+2025-11-06 22:44:36,605 - INFO - [OK] Answer 105 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,606 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 105/288 pending prompts completed (105/288 total)
+2025-11-06 22:44:36,610 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,610 - INFO - [OK] Row 106 completed
+2025-11-06 22:44:36,610 - INFO - [INFO] Processing row 110/288 - test_item: F6T
+2025-11-06 22:44:36,611 - INFO - [PROMPT] Aquí tens el context: Tot i que els plàtans són més cars que els kiwis, la gent els compra més. Hi h...
+2025-11-06 22:44:36,613 - INFO - [OK] Answer 106 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,614 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 106/288 pending prompts completed (106/288 total)
+2025-11-06 22:44:36,621 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,621 - INFO - [OK] Row 107 completed
+2025-11-06 22:44:36,621 - INFO - [INFO] Processing row 111/288 - test_item: F6F
+2025-11-06 22:44:36,621 - INFO - [PROMPT] Aquí tens el context: Tot i que els plàtans són més cars que els kiwis, la gent els compra més. Hi h...
+2025-11-06 22:44:36,625 - INFO - [OK] Answer 107 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,626 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 107/288 pending prompts completed (107/288 total)
+2025-11-06 22:44:36,635 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,635 - INFO - [OK] Row 108 completed
+2025-11-06 22:44:36,635 - INFO - [INFO] Processing row 112/288 - test_item: F7T
+2025-11-06 22:44:36,636 - INFO - [PROMPT] Aquí tens el context: Tot i que els gossos són més alegres que els gats, la gent els prefereix. Hi h...
+2025-11-06 22:44:36,639 - INFO - [OK] Answer 108 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,639 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 108/288 pending prompts completed (108/288 total)
+2025-11-06 22:44:36,643 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,643 - INFO - [OK] Row 109 completed
+2025-11-06 22:44:36,643 - INFO - [INFO] Processing row 113/288 - test_item: F7F
+2025-11-06 22:44:36,643 - INFO - [PROMPT] Aquí tens el context: Tot i que els gossos són més alegres que els gats, la gent els prefereix. Hi h...
+2025-11-06 22:44:36,647 - INFO - [OK] Answer 109 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,648 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 109/288 pending prompts completed (109/288 total)
+2025-11-06 22:44:36,651 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,651 - INFO - [OK] Row 110 completed
+2025-11-06 22:44:36,651 - INFO - [INFO] Processing row 114/288 - test_item: F8T
+2025-11-06 22:44:36,651 - INFO - [PROMPT] Aquí tens el context: Tot i que llegir llibres és més educatiu que mirar la televisió, la majoria de...
+2025-11-06 22:44:36,655 - INFO - [OK] Answer 110 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,655 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 110/288 pending prompts completed (110/288 total)
+2025-11-06 22:44:36,666 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,666 - INFO - [OK] Row 111 completed
+2025-11-06 22:44:36,666 - INFO - [INFO] Processing row 115/288 - test_item: F8F
+2025-11-06 22:44:36,666 - INFO - [PROMPT] Aquí tens el context: Tot i que llegir llibres és més educatiu que mirar la televisió, la majoria de...
+2025-11-06 22:44:36,672 - INFO - [OK] Answer 111 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,672 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 111/288 pending prompts completed (111/288 total)
+2025-11-06 22:44:36,682 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,682 - INFO - [OK] Row 112 completed
+2025-11-06 22:44:36,682 - INFO - [INFO] Processing row 116/288 - test_item: F9T
+2025-11-06 22:44:36,682 - INFO - [PROMPT] Aquí tens el context: Tot i que córrer és millor per a la salut que caminar, la majoria de la gent p...
+2025-11-06 22:44:36,686 - INFO - [OK] Answer 112 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,687 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 112/288 pending prompts completed (112/288 total)
+2025-11-06 22:44:36,687 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,687 - INFO - [OK] Row 113 completed
+2025-11-06 22:44:36,687 - INFO - [INFO] Processing row 117/288 - test_item: F9F
+2025-11-06 22:44:36,687 - INFO - [PROMPT] Aquí tens el context: Tot i que córrer és millor per a la salut que caminar, la majoria de la gent p...
+2025-11-06 22:44:36,692 - INFO - [OK] Answer 113 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,693 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 113/288 pending prompts completed (113/288 total)
+2025-11-06 22:44:36,699 - INFO - [RESPONSE] Hi ha un llibre a la prestatgeria
+2025-11-06 22:44:36,699 - INFO - [OK] Row 114 completed
+2025-11-06 22:44:36,699 - INFO - [INFO] Processing row 118/288 - test_item: S1T
+2025-11-06 22:44:36,700 - INFO - [PROMPT] Aquí tens el context: El lloro és a la gàbia. A més, el gos és a la gossera. La Maria havia dit: "Si...
+2025-11-06 22:44:36,703 - INFO - [OK] Answer 114 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,704 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 114/288 pending prompts completed (114/288 total)
+2025-11-06 22:44:36,716 - INFO - [RESPONSE] Hi ha un llibre a la prestatgeria
+2025-11-06 22:44:36,717 - INFO - [OK] Row 115 completed
+2025-11-06 22:44:36,717 - INFO - [INFO] Processing row 119/288 - test_item: S1F
+2025-11-06 22:44:36,717 - INFO - [PROMPT] Aquí tens el context: El lloro és a la gàbia. A més, el gos és a la gossera. El Tomàs no ha portat p...
+2025-11-06 22:44:36,720 - INFO - [OK] Answer 115 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,721 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 115/288 pending prompts completed (115/288 total)
+2025-11-06 22:44:36,726 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,726 - INFO - [OK] Row 116 completed
+2025-11-06 22:44:36,727 - INFO - [INFO] Processing row 120/288 - test_item: S1C
+2025-11-06 22:44:36,727 - INFO - [PROMPT] Aquí tens el context: El lloro no és a la gàbia. El gos tampoc no és a la gossera. La Maria havia di...
+2025-11-06 22:44:36,732 - INFO - [OK] Answer 116 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,732 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 116/288 pending prompts completed (116/288 total)
+2025-11-06 22:44:36,733 - INFO - [RESPONSE] Aquí tens el context
+2025-11-06 22:44:36,733 - INFO - [OK] Row 117 completed
+2025-11-06 22:44:36,733 - INFO - [INFO] Processing row 121/288 - test_item: S2T
+2025-11-06 22:44:36,734 - INFO - [PROMPT] Aquí tens el context: T'has acabat els bròquils. També t'has acabat la pasta. La Maria havia dit: "S...
+2025-11-06 22:44:36,738 - INFO - [OK] Answer 117 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,738 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 117/288 pending prompts completed (117/288 total)
+2025-11-06 22:44:36,744 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,745 - INFO - [OK] Row 118 completed
+2025-11-06 22:44:36,745 - INFO - [INFO] Processing row 122/288 - test_item: S2F
+2025-11-06 22:44:36,746 - INFO - [PROMPT] Aquí tens el context: T'has acabat els bròquils. També t'has acabat la pasta. El Marc no t'ha donat ...
+2025-11-06 22:44:36,749 - INFO - [OK] Answer 118 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,749 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 118/288 pending prompts completed (118/288 total)
+2025-11-06 22:44:36,765 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,765 - INFO - [OK] Row 119 completed
+2025-11-06 22:44:36,765 - INFO - [INFO] Processing row 123/288 - test_item: S2C
+2025-11-06 22:44:36,766 - INFO - [PROMPT] Aquí tens el context: No t'has acabat els bròquils. Tampoc no t'has acabat la pasta. La Maria havia ...
+2025-11-06 22:44:36,769 - INFO - [OK] Answer 119 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,769 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 119/288 pending prompts completed (119/288 total)
+2025-11-06 22:44:36,773 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,773 - INFO - [OK] Row 120 completed
+2025-11-06 22:44:36,773 - INFO - [INFO] Processing row 124/288 - test_item: S3T
+2025-11-06 22:44:36,773 - INFO - [PROMPT] Aquí tens el context: Les guineus estan ballant. A més, els esquirols estan menjant. La Maria havia ...
+2025-11-06 22:44:36,777 - INFO - [OK] Answer 120 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,778 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 120/288 pending prompts completed (120/288 total)
+2025-11-06 22:44:36,779 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,779 - INFO - [OK] Row 121 completed
+2025-11-06 22:44:36,779 - INFO - [INFO] Processing row 125/288 - test_item: S3F
+2025-11-06 22:44:36,780 - INFO - [PROMPT] Aquí tens el context: Les guineus estan ballant. A més, els esquirols estan menjant. La Júlia no ha ...
+2025-11-06 22:44:36,784 - INFO - [OK] Answer 121 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,784 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 121/288 pending prompts completed (121/288 total)
+2025-11-06 22:44:36,791 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,791 - INFO - [OK] Row 122 completed
+2025-11-06 22:44:36,792 - INFO - [INFO] Processing row 126/288 - test_item: S3C
+2025-11-06 22:44:36,792 - INFO - [PROMPT] Aquí tens el context: Les guineus no estan ballant. Els esquirols tampoc no estan menjant. La Maria ...
+2025-11-06 22:44:36,796 - INFO - [OK] Answer 122 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,796 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 122/288 pending prompts completed (122/288 total)
+2025-11-06 22:44:36,811 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,811 - INFO - [OK] Row 123 completed
+2025-11-06 22:44:36,811 - INFO - [INFO] Processing row 127/288 - test_item: S4T
+2025-11-06 22:44:36,812 - INFO - [PROMPT] Aquí tens el context: La televisió està engegada. La ràdio també està engegada. La Maria havia dit: ...
+2025-11-06 22:44:36,816 - INFO - [OK] Answer 123 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,816 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 123/288 pending prompts completed (123/288 total)
+2025-11-06 22:44:36,822 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,823 - INFO - [OK] Row 124 completed
+2025-11-06 22:44:36,823 - INFO - [INFO] Processing row 128/288 - test_item: S4F
+2025-11-06 22:44:36,823 - INFO - [PROMPT] Aquí tens el context: La televisió està engegada. La ràdio també està engegada. El Mateu no ha fet g...
+2025-11-06 22:44:36,827 - INFO - [OK] Answer 124 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,827 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 124/288 pending prompts completed (124/288 total)
+2025-11-06 22:44:36,832 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,832 - INFO - [OK] Row 125 completed
+2025-11-06 22:44:36,832 - INFO - [INFO] Processing row 129/288 - test_item: S4C
+2025-11-06 22:44:36,833 - INFO - [PROMPT] Aquí tens el context: La televisió està apagada. La ràdio també està apagada. La Maria havia dit: "S...
+2025-11-06 22:44:36,836 - INFO - [OK] Answer 125 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,836 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 125/288 pending prompts completed (125/288 total)
+2025-11-06 22:44:36,839 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,839 - INFO - [OK] Row 126 completed
+2025-11-06 22:44:36,839 - INFO - [INFO] Processing row 130/288 - test_item: S5T
+2025-11-06 22:44:36,840 - INFO - [PROMPT] Aquí tens el context: Avui el temps és assolellat. Tampoc no fa vent. La Maria havia dit: "Si el tem...
+2025-11-06 22:44:36,844 - INFO - [OK] Answer 126 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,844 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 126/288 pending prompts completed (126/288 total)
+2025-11-06 22:44:36,857 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,858 - INFO - [OK] Row 127 completed
+2025-11-06 22:44:36,858 - INFO - [INFO] Processing row 131/288 - test_item: S5F
+2025-11-06 22:44:36,858 - INFO - [PROMPT] Aquí tens el context: Avui el temps és assolellat. Tampoc no fa vent. L'Emma va de verd. La Maria ha...
+2025-11-06 22:44:36,862 - INFO - [OK] Answer 127 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,862 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 127/288 pending prompts completed (127/288 total)
+2025-11-06 22:44:36,874 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,874 - INFO - [OK] Row 128 completed
+2025-11-06 22:44:36,874 - INFO - [INFO] Processing row 132/288 - test_item: S5C
+2025-11-06 22:44:36,875 - INFO - [PROMPT] Aquí tens el context: Avui el temps és plujós. A més, també fa molt de vent. La Maria havia dit: "Si...
+2025-11-06 22:44:36,878 - INFO - [OK] Answer 128 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,878 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 128/288 pending prompts completed (128/288 total)
+2025-11-06 22:44:36,879 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,879 - INFO - [OK] Row 129 completed
+2025-11-06 22:44:36,879 - INFO - [INFO] Processing row 133/288 - test_item: S6T
+2025-11-06 22:44:36,879 - INFO - [PROMPT] Aquí tens el context: El parc infantil està buit. Els carrers també estan tranquils. La Maria havia ...
+2025-11-06 22:44:36,884 - INFO - [OK] Answer 129 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,884 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 129/288 pending prompts completed (129/288 total)
+2025-11-06 22:44:36,886 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,886 - INFO - [OK] Row 130 completed
+2025-11-06 22:44:36,886 - INFO - [INFO] Processing row 134/288 - test_item: S6F
+2025-11-06 22:44:36,887 - INFO - [PROMPT] Aquí tens el context: El parc infantil està buit. Els carrers també estan tranquils. L'Alba no s'ha ...
+2025-11-06 22:44:36,891 - INFO - [OK] Answer 130 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,891 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 130/288 pending prompts completed (130/288 total)
+2025-11-06 22:44:36,904 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,905 - INFO - [OK] Row 131 completed
+2025-11-06 22:44:36,905 - INFO - [INFO] Processing row 135/288 - test_item: S6C
+2025-11-06 22:44:36,905 - INFO - [PROMPT] Aquí tens el context: El parc infantil està ple de gent. Els carrers també estan animats. La Maria h...
+2025-11-06 22:44:36,909 - INFO - [OK] Answer 131 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,909 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 131/288 pending prompts completed (131/288 total)
+2025-11-06 22:44:36,921 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,921 - INFO - [OK] Row 132 completed
+2025-11-06 22:44:36,922 - INFO - [INFO] Processing row 136/288 - test_item: S7T
+2025-11-06 22:44:36,922 - INFO - [PROMPT] Aquí tens el context: La gespa ha estat tallada. A més, les flors també han estat regades. La Maria ...
+2025-11-06 22:44:36,926 - INFO - [OK] Answer 132 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,927 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 132/288 pending prompts completed (132/288 total)
+2025-11-06 22:44:36,930 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,931 - INFO - [OK] Row 133 completed
+2025-11-06 22:44:36,931 - INFO - [INFO] Processing row 137/288 - test_item: S7F
+2025-11-06 22:44:36,932 - INFO - [PROMPT] Aquí tens el context: La gespa ha estat tallada. A més, les flors també han estat regades. El Pau no...
+2025-11-06 22:44:36,935 - INFO - [OK] Answer 133 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,936 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 133/288 pending prompts completed (133/288 total)
+2025-11-06 22:44:36,938 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,938 - INFO - [OK] Row 134 completed
+2025-11-06 22:44:36,938 - INFO - [INFO] Processing row 138/288 - test_item: S7C
+2025-11-06 22:44:36,939 - INFO - [PROMPT] Aquí tens el context: La gespa no ha estat tallada. Les flors tampoc no han estat regades. La Maria ...
+2025-11-06 22:44:36,942 - INFO - [OK] Answer 134 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,942 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 134/288 pending prompts completed (134/288 total)
+2025-11-06 22:44:36,956 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,956 - INFO - [OK] Row 135 completed
+2025-11-06 22:44:36,956 - INFO - [INFO] Processing row 139/288 - test_item: S8T
+2025-11-06 22:44:36,957 - INFO - [PROMPT] Aquí tens el context: El gos està jugant. A més, el gat està pujant a l'arbre. La Maria havia dit: "...
+2025-11-06 22:44:36,960 - INFO - [OK] Answer 135 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,960 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 135/288 pending prompts completed (135/288 total)
+2025-11-06 22:44:36,970 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,970 - INFO - [OK] Row 136 completed
+2025-11-06 22:44:36,970 - INFO - [INFO] Processing row 140/288 - test_item: S8F
+2025-11-06 22:44:36,971 - INFO - [PROMPT] Aquí tens el context: El gos està jugant. A més, el gat està pujant a l'arbre. L'Antoni no ha llegit...
+2025-11-06 22:44:36,974 - INFO - [OK] Answer 136 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,974 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 136/288 pending prompts completed (136/288 total)
+2025-11-06 22:44:36,978 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,978 - INFO - [OK] Row 137 completed
+2025-11-06 22:44:36,979 - INFO - [INFO] Processing row 141/288 - test_item: S8C
+2025-11-06 22:44:36,979 - INFO - [PROMPT] Aquí tens el context: El gos no està jugant. A més, el gat està dormint. La Maria havia dit: "Si el ...
+2025-11-06 22:44:36,983 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:36,983 - INFO - [OK] Row 138 completed
+2025-11-06 22:44:36,983 - INFO - [INFO] Processing row 142/288 - test_item: S9T
+2025-11-06 22:44:36,983 - INFO - [PROMPT] Aquí tens el context: La nevera està buida. A més, el forn està espatllat. La Maria havia dit: "Si l...
+2025-11-06 22:44:36,984 - INFO - [OK] Answer 137 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,984 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 137/288 pending prompts completed (137/288 total)
+2025-11-06 22:44:36,988 - INFO - [OK] Answer 138 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:36,988 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 138/288 pending prompts completed (138/288 total)
+2025-11-06 22:44:37,001 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:37,001 - INFO - [OK] Row 139 completed
+2025-11-06 22:44:37,001 - INFO - [INFO] Processing row 143/288 - test_item: S9F
+2025-11-06 22:44:37,002 - INFO - [PROMPT] Aquí tens el context: La nevera està buida. A més, el forn està espatllat. L'Anna no ha portat donut...
+2025-11-06 22:44:37,005 - INFO - [OK] Answer 139 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,005 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 139/288 pending prompts completed (139/288 total)
+2025-11-06 22:44:37,016 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:37,016 - INFO - [OK] Row 140 completed
+2025-11-06 22:44:37,016 - INFO - [INFO] Processing row 144/288 - test_item: S9C
+2025-11-06 22:44:37,017 - INFO - [PROMPT] Aquí tens el context: La nevera està plena. A més, el forn està engegat. La Maria havia dit: "Si la ...
+2025-11-06 22:44:37,020 - INFO - [OK] Answer 140 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,021 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 140/288 pending prompts completed (140/288 total)
+2025-11-06 22:44:37,023 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:37,024 - INFO - [OK] Row 141 completed
+2025-11-06 22:44:37,024 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:37,024 - INFO - [INFO] Processing row 145/288 - test_item: B1T
+2025-11-06 22:44:37,025 - INFO - [OK] Row 142 completed
+2025-11-06 22:44:37,025 - INFO - [PROMPT] Ecco il contesto: Gianni ha fame e c'è della pizza in forno. C'è anche della pasta in frigo. Maria d...
+2025-11-06 22:44:37,025 - INFO - [INFO] Processing row 146/288 - test_item: B1F
+2025-11-06 22:44:37,026 - INFO - [PROMPT] Ecco il contesto: Gianni ha fame e non c'è della pizza in forno. Non c'è nemmeno della pasta in frig...
+2025-11-06 22:44:37,028 - INFO - [OK] Answer 141 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,028 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 141/288 pending prompts completed (141/288 total)
+2025-11-06 22:44:37,031 - INFO - [OK] Answer 142 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,032 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 142/288 pending prompts completed (142/288 total)
+2025-11-06 22:44:37,044 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:37,044 - INFO - [OK] Row 143 completed
+2025-11-06 22:44:37,044 - INFO - [INFO] Processing row 147/288 - test_item: B1C
+2025-11-06 22:44:37,044 - INFO - [PROMPT] Ecco il contesto: Gianni non ha fame. C'è della pasta in frigo. Maria dice: "Se Gianni ha fame, c'è ...
+2025-11-06 22:44:37,048 - INFO - [OK] Answer 143 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,048 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 143/288 pending prompts completed (143/288 total)
+2025-11-06 22:44:37,059 - INFO - [RESPONSE] La Maria havia dit
+2025-11-06 22:44:37,059 - INFO - [OK] Row 144 completed
+2025-11-06 22:44:37,059 - INFO - [INFO] Processing row 148/288 - test_item: B2T
+2025-11-06 22:44:37,059 - INFO - [PROMPT] Ecco il contesto: Nicoletta ha mal di testa e ci sono delle aspirine sul tavolo. C'è anche dell'ibup...
+2025-11-06 22:44:37,063 - INFO - [OK] Answer 144 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,064 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 144/288 pending prompts completed (144/288 total)
+2025-11-06 22:44:37,065 - INFO - [RESPONSE] Gianni ha fame
+2025-11-06 22:44:37,065 - INFO - [OK] Row 145 completed
+2025-11-06 22:44:37,065 - INFO - [INFO] Processing row 149/288 - test_item: B2F
+2025-11-06 22:44:37,066 - INFO - [PROMPT] Ecco il contesto: Nicoletta ha mal di testa e non ci sono aspirine sul tavolo. Non c'è nemmeno dell'...
+2025-11-06 22:44:37,070 - INFO - [OK] Answer 145 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,070 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 145/288 pending prompts completed (145/288 total)
+2025-11-06 22:44:37,071 - INFO - [RESPONSE] Gianni ha fame
+2025-11-06 22:44:37,071 - INFO - [OK] Row 146 completed
+2025-11-06 22:44:37,071 - INFO - [INFO] Processing row 150/288 - test_item: B2C
+2025-11-06 22:44:37,071 - INFO - [PROMPT] Ecco il contesto: Nicoletta non ha mal di testa. C'è dell'ibuprofene nel cassetto. Maria dice: "Se N...
+2025-11-06 22:44:37,075 - INFO - [OK] Answer 146 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,075 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 146/288 pending prompts completed (146/288 total)
+2025-11-06 22:44:37,089 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,089 - INFO - [OK] Row 147 completed
+2025-11-06 22:44:37,089 - INFO - [INFO] Processing row 151/288 - test_item: B3T
+2025-11-06 22:44:37,090 - INFO - [PROMPT] Ecco il contesto: Lucia ha sete e c'è dell'acqua in frigo. C'è anche del succo di mela sullo scaffal...
+2025-11-06 22:44:37,094 - INFO - [OK] Answer 147 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,094 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 147/288 pending prompts completed (147/288 total)
+2025-11-06 22:44:37,110 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,110 - INFO - [OK] Row 148 completed
+2025-11-06 22:44:37,110 - INFO - [INFO] Processing row 152/288 - test_item: B3F
+2025-11-06 22:44:37,110 - INFO - [PROMPT] Ecco il contesto: Lucia ha sete e non c'è dell'acqua in frigo. Non c'è nemmeno del succo di mela sul...
+2025-11-06 22:44:37,115 - INFO - [OK] Answer 148 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,115 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 148/288 pending prompts completed (148/288 total)
+2025-11-06 22:44:37,116 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,116 - INFO - [OK] Row 150 completed
+2025-11-06 22:44:37,116 - INFO - [INFO] Processing row 153/288 - test_item: B3C
+2025-11-06 22:44:37,116 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,116 - INFO - [PROMPT] Ecco il contesto: Lucia non ha sete. C'è del succo di mela sullo scaffale. Maria dice: "Se Lucia ha ...
+2025-11-06 22:44:37,117 - INFO - [OK] Row 149 completed
+2025-11-06 22:44:37,117 - INFO - [INFO] Processing row 154/288 - test_item: B4T
+2025-11-06 22:44:37,117 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e c'è un caricatore nel cassetto. C'è anche un com...
+2025-11-06 22:44:37,121 - INFO - [OK] Answer 150 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,121 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 149/288 pending prompts completed (149/288 total)
+2025-11-06 22:44:37,125 - INFO - [OK] Answer 149 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,125 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 150/288 pending prompts completed (150/288 total)
+2025-11-06 22:44:37,138 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,138 - INFO - [OK] Row 151 completed
+2025-11-06 22:44:37,138 - INFO - [INFO] Processing row 155/288 - test_item: B4F
+2025-11-06 22:44:37,139 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è scarico e non c'è un caricatore nel cassetto. Non c'è nemm...
+2025-11-06 22:44:37,143 - INFO - [OK] Answer 151 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,143 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 151/288 pending prompts completed (151/288 total)
+2025-11-06 22:44:37,159 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,160 - INFO - [OK] Row 153 completed
+2025-11-06 22:44:37,160 - INFO - [INFO] Processing row 156/288 - test_item: B4C
+2025-11-06 22:44:37,161 - INFO - [PROMPT] Ecco il contesto: Il telefono di Pietro è carico. C'è un computer sul tavolo. Maria dice: "Se il tel...
+2025-11-06 22:44:37,164 - INFO - [OK] Answer 153 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,165 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 152/288 pending prompts completed (152/288 total)
+2025-11-06 22:44:37,165 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,165 - INFO - [OK] Row 152 completed
+2025-11-06 22:44:37,165 - INFO - [INFO] Processing row 157/288 - test_item: B5T
+2025-11-06 22:44:37,166 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e c'è un ombrello nel portaombrelli. C'è anche un impermeabile ...
+2025-11-06 22:44:37,167 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,167 - INFO - [OK] Row 154 completed
+2025-11-06 22:44:37,167 - INFO - [INFO] Processing row 158/288 - test_item: B5F
+2025-11-06 22:44:37,167 - INFO - [PROMPT] Ecco il contesto: Il tempo è piovoso e non c'è un ombrello nel portaombrelli. Non c'è nemmeno un imp...
+2025-11-06 22:44:37,170 - INFO - [OK] Answer 152 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,170 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 153/288 pending prompts completed (153/288 total)
+2025-11-06 22:44:37,174 - INFO - [OK] Answer 154 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,174 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 154/288 pending prompts completed (154/288 total)
+2025-11-06 22:44:37,186 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,186 - INFO - [OK] Row 155 completed
+2025-11-06 22:44:37,186 - INFO - [INFO] Processing row 159/288 - test_item: B5C
+2025-11-06 22:44:37,187 - INFO - [PROMPT] Ecco il contesto: Il tempo è sereno. C'è un impermeabile in macchina. Maria dice: "Se il tempo è pio...
+2025-11-06 22:44:37,191 - INFO - [OK] Answer 155 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,191 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 155/288 pending prompts completed (155/288 total)
+2025-11-06 22:44:37,201 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,202 - INFO - [OK] Row 156 completed
+2025-11-06 22:44:37,202 - INFO - [INFO] Processing row 160/288 - test_item: B6T
+2025-11-06 22:44:37,203 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e c'è una pompa in garage. C'è anche una bici vi...
+2025-11-06 22:44:37,206 - INFO - [OK] Answer 156 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,207 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 156/288 pending prompts completed (156/288 total)
+2025-11-06 22:44:37,213 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,213 - INFO - [OK] Row 157 completed
+2025-11-06 22:44:37,213 - INFO - [INFO] Processing row 161/288 - test_item: B6F
+2025-11-06 22:44:37,213 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è a terra e non c'è nessuna pompa in garage. Non c'è nemme...
+2025-11-06 22:44:37,217 - INFO - [OK] Answer 157 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,217 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 157/288 pending prompts completed (157/288 total)
+2025-11-06 22:44:37,218 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,218 - INFO - [OK] Row 158 completed
+2025-11-06 22:44:37,218 - INFO - [INFO] Processing row 162/288 - test_item: B6C
+2025-11-06 22:44:37,219 - INFO - [PROMPT] Ecco il contesto: La gomma della macchina è gonfia. C'è una bici vicino alla porta d'ingresso. Maria...
+2025-11-06 22:44:37,223 - INFO - [OK] Answer 158 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,223 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 158/288 pending prompts completed (158/288 total)
+2025-11-06 22:44:37,231 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,231 - INFO - [OK] Row 159 completed
+2025-11-06 22:44:37,231 - INFO - [INFO] Processing row 163/288 - test_item: B7T
+2025-11-06 22:44:37,232 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e c'è un annaffiatoio sullo scaffale. C'è anche un tubo da giard...
+2025-11-06 22:44:37,236 - INFO - [OK] Answer 159 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,237 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 159/288 pending prompts completed (159/288 total)
+2025-11-06 22:44:37,248 - INFO - [RESPONSE] La gomma della macchina
+2025-11-06 22:44:37,248 - INFO - [OK] Row 160 completed
+2025-11-06 22:44:37,248 - INFO - [INFO] Processing row 164/288 - test_item: B7F
+2025-11-06 22:44:37,248 - INFO - [PROMPT] Ecco il contesto: La pianta è secca e non c'è nessun annaffiatoio sullo scaffale. Non c'è nemmeno un...
+2025-11-06 22:44:37,252 - INFO - [OK] Answer 160 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,252 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 160/288 pending prompts completed (160/288 total)
+2025-11-06 22:44:37,265 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,265 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,265 - INFO - [OK] Row 161 completed
+2025-11-06 22:44:37,265 - INFO - [OK] Row 162 completed
+2025-11-06 22:44:37,265 - INFO - [INFO] Processing row 165/288 - test_item: B7C
+2025-11-06 22:44:37,266 - INFO - [INFO] Processing row 166/288 - test_item: B8T
+2025-11-06 22:44:37,266 - INFO - [PROMPT] Ecco il contesto: La pianta è rigogliosa. C'è un tubo da giardinaggio in giardino. Maria dice: "Se l...
+2025-11-06 22:44:37,266 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stropicciata e c'è un ferro da stiro nell'armadio. C'è anc...
+2025-11-06 22:44:37,270 - INFO - [OK] Answer 161 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,270 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 161/288 pending prompts completed (161/288 total)
+2025-11-06 22:44:37,273 - INFO - [OK] Answer 162 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,273 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 162/288 pending prompts completed (162/288 total)
+2025-11-06 22:44:37,284 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,285 - INFO - [OK] Row 163 completed
+2025-11-06 22:44:37,285 - INFO - [INFO] Processing row 167/288 - test_item: B8F
+2025-11-06 22:44:37,285 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stropicciata e non c'è un ferro da stiro nell'armadio. Non...
+2025-11-06 22:44:37,290 - INFO - [OK] Answer 163 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,290 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 163/288 pending prompts completed (163/288 total)
+2025-11-06 22:44:37,296 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,296 - INFO - [OK] Row 164 completed
+2025-11-06 22:44:37,296 - INFO - [INFO] Processing row 168/288 - test_item: B8C
+2025-11-06 22:44:37,296 - INFO - [PROMPT] Ecco il contesto: La camicia di Giorgio è stirata. C'è un'asse da stiro in balcone. Maria dice: "Se ...
+2025-11-06 22:44:37,301 - INFO - [OK] Answer 164 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,301 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 164/288 pending prompts completed (164/288 total)
+2025-11-06 22:44:37,317 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,317 - INFO - [OK] Row 165 completed
+2025-11-06 22:44:37,317 - INFO - [INFO] Processing row 169/288 - test_item: B9T
+2025-11-06 22:44:37,318 - INFO - [PROMPT] Ecco il contesto: Susanna vuole leggere e ci sono dei libri sullo scaffale. C'è anche un giornale su...
+2025-11-06 22:44:37,322 - INFO - [OK] Answer 165 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,323 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 165/288 pending prompts completed (165/288 total)
+2025-11-06 22:44:37,324 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,324 - INFO - [OK] Row 166 completed
+2025-11-06 22:44:37,324 - INFO - [INFO] Processing row 170/288 - test_item: B9F
+2025-11-06 22:44:37,324 - INFO - [PROMPT] Ecco il contesto: Susanna vuole leggere e non ci sono libri sullo scaffale. Non c'è nemmeno un giorn...
+2025-11-06 22:44:37,329 - INFO - [OK] Answer 166 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,329 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 166/288 pending prompts completed (166/288 total)
+2025-11-06 22:44:37,339 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,339 - INFO - [OK] Row 167 completed
+2025-11-06 22:44:37,339 - INFO - [INFO] Processing row 171/288 - test_item: B9C
+2025-11-06 22:44:37,339 - INFO - [PROMPT] Ecco il contesto: Susanna non vuole leggere. C'è un giornale sul divano. Maria dice: "Se Susanna vuo...
+2025-11-06 22:44:37,345 - INFO - [OK] Answer 167 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,345 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 167/288 pending prompts completed (167/288 total)
+2025-11-06 22:44:37,352 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,353 - INFO - [OK] Row 168 completed
+2025-11-06 22:44:37,353 - INFO - [INFO] Processing row 172/288 - test_item: F1T
+2025-11-06 22:44:37,353 - INFO - [PROMPT] Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della...
+2025-11-06 22:44:37,357 - INFO - [OK] Answer 168 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,357 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 168/288 pending prompts completed (168/288 total)
+2025-11-06 22:44:37,373 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,373 - INFO - [OK] Row 169 completed
+2025-11-06 22:44:37,373 - INFO - [INFO] Processing row 173/288 - test_item: F1F
+2025-11-06 22:44:37,374 - INFO - [PROMPT] Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della...
+2025-11-06 22:44:37,376 - INFO - [OK] Answer 169 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,377 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 169/288 pending prompts completed (169/288 total)
+2025-11-06 22:44:37,378 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,378 - INFO - [OK] Row 170 completed
+2025-11-06 22:44:37,378 - INFO - [INFO] Processing row 174/288 - test_item: F2T
+2025-11-06 22:44:37,378 - INFO - [PROMPT] Ecco il contesto: Nonostante il caffè sia più economico del tè verde, la maggior parte delle persone...
+2025-11-06 22:44:37,382 - INFO - [OK] Answer 170 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,382 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 170/288 pending prompts completed (170/288 total)
+2025-11-06 22:44:37,384 - INFO - [RESPONSE] Maria dice
+2025-11-06 22:44:37,384 - INFO - [OK] Row 171 completed
+2025-11-06 22:44:37,385 - INFO - [INFO] Processing row 175/288 - test_item: F2F
+2025-11-06 22:44:37,385 - INFO - [PROMPT] Ecco il contesto: Nonostante il caffè sia più economico del tè verde, la maggior parte delle persone...
+2025-11-06 22:44:37,389 - INFO - [OK] Answer 171 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,389 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 171/288 pending prompts completed (171/288 total)
+2025-11-06 22:44:37,392 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,392 - INFO - [OK] Row 172 completed
+2025-11-06 22:44:37,392 - INFO - [INFO] Processing row 176/288 - test_item: F3T
+2025-11-06 22:44:37,392 - INFO - [PROMPT] Ecco il contesto: Nonostante l'acqua sia più sana delle bibite gassate, molti scelgono le bibite gas...
+2025-11-06 22:44:37,396 - INFO - [OK] Answer 172 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,396 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 172/288 pending prompts completed (172/288 total)
+2025-11-06 22:44:37,413 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,413 - INFO - [OK] Row 173 completed
+2025-11-06 22:44:37,413 - INFO - [INFO] Processing row 177/288 - test_item: F3F
+2025-11-06 22:44:37,414 - INFO - [PROMPT] Ecco il contesto: Nonostante l'acqua sia più sana delle bibite gassate, molti scelgono le bibite gas...
+2025-11-06 22:44:37,418 - INFO - [OK] Answer 173 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,419 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 173/288 pending prompts completed (173/288 total)
+2025-11-06 22:44:37,419 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,419 - INFO - [OK] Row 174 completed
+2025-11-06 22:44:37,419 - INFO - [INFO] Processing row 178/288 - test_item: F4T
+2025-11-06 22:44:37,419 - INFO - [PROMPT] Ecco il contesto: Nonostante i broccoli siano più difficili da cucinare rispetto agli gnocchi, la ge...
+2025-11-06 22:44:37,422 - INFO - [OK] Answer 174 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,423 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 174/288 pending prompts completed (174/288 total)
+2025-11-06 22:44:37,426 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,426 - INFO - [OK] Row 175 completed
+2025-11-06 22:44:37,426 - INFO - [INFO] Processing row 179/288 - test_item: F4F
+2025-11-06 22:44:37,426 - INFO - [PROMPT] Ecco il contesto: Nonostante i broccoli siano più difficili da cucinare rispetto agli gnocchi, la ge...
+2025-11-06 22:44:37,430 - INFO - [OK] Answer 175 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,431 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 175/288 pending prompts completed (175/288 total)
+2025-11-06 22:44:37,432 - INFO - [RESPONSE] freezer
+2025-11-06 22:44:37,432 - INFO - [OK] Row 176 completed
+2025-11-06 22:44:37,432 - INFO - [INFO] Processing row 180/288 - test_item: F5T
+2025-11-06 22:44:37,432 - INFO - [PROMPT] Ecco il contesto: Nonostante il sushi sia più sano degli hamburger, la gente mangia più spesso gli h...
+2025-11-06 22:44:37,436 - INFO - [OK] Answer 176 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,437 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 176/288 pending prompts completed (176/288 total)
+2025-11-06 22:44:37,456 - INFO - [RESPONSE] freezer
+2025-11-06 22:44:37,456 - INFO - [OK] Row 177 completed
+2025-11-06 22:44:37,456 - INFO - [INFO] Processing row 181/288 - test_item: F5F
+2025-11-06 22:44:37,456 - INFO - [PROMPT] Ecco il contesto: Nonostante il sushi sia più sano degli hamburger, la gente mangia più spesso gli h...
+2025-11-06 22:44:37,461 - INFO - [OK] Answer 177 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,461 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 177/288 pending prompts completed (177/288 total)
+2025-11-06 22:44:37,462 - INFO - [RESPONSE] forno
+2025-11-06 22:44:37,462 - INFO - [OK] Row 178 completed
+2025-11-06 22:44:37,462 - INFO - [INFO] Processing row 182/288 - test_item: F6T
+2025-11-06 22:44:37,462 - INFO - [PROMPT] Ecco il contesto: Nonostante le banane siano più costose dei kiwi, la gente le acquista di più. Ci s...
+2025-11-06 22:44:37,468 - INFO - [OK] Answer 178 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,468 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 178/288 pending prompts completed (178/288 total)
+2025-11-06 22:44:37,469 - INFO - [RESPONSE] forno
+2025-11-06 22:44:37,469 - INFO - [OK] Row 179 completed
+2025-11-06 22:44:37,469 - INFO - [INFO] Processing row 183/288 - test_item: F6F
+2025-11-06 22:44:37,470 - INFO - [PROMPT] Ecco il contesto: Nonostante le banane siano più costose dei kiwi, la gente le acquista di più. Ci s...
+2025-11-06 22:44:37,474 - INFO - [OK] Answer 179 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,474 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 179/288 pending prompts completed (179/288 total)
+2025-11-06 22:44:37,475 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,475 - INFO - [OK] Row 180 completed
+2025-11-06 22:44:37,475 - INFO - [INFO] Processing row 184/288 - test_item: F7T
+2025-11-06 22:44:37,475 - INFO - [PROMPT] Ecco il contesto: Nonostante i cani siano più vivaci dei gatti, le persone li preferiscono. C'è un g...
+2025-11-06 22:44:37,480 - INFO - [OK] Answer 180 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,480 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 180/288 pending prompts completed (180/288 total)
+2025-11-06 22:44:37,503 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,503 - INFO - [OK] Row 181 completed
+2025-11-06 22:44:37,503 - INFO - [INFO] Processing row 185/288 - test_item: F7F
+2025-11-06 22:44:37,504 - INFO - [PROMPT] Ecco il contesto: Nonostante i cani siano più vivaci dei gatti, le persone li preferiscono. C'è un g...
+2025-11-06 22:44:37,508 - INFO - [OK] Answer 181 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,508 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 181/288 pending prompts completed (181/288 total)
+2025-11-06 22:44:37,509 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,509 - INFO - [OK] Row 182 completed
+2025-11-06 22:44:37,509 - INFO - [INFO] Processing row 186/288 - test_item: F8T
+2025-11-06 22:44:37,509 - INFO - [PROMPT] Ecco il contesto: Nonostante leggere sia più istruttivo di guardare la TV, la maggior parte delle pe...
+2025-11-06 22:44:37,513 - INFO - [OK] Answer 182 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,513 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 182/288 pending prompts completed (182/288 total)
+2025-11-06 22:44:37,514 - INFO - [RESPONSE] Ci sono banane nel cesto della frutta
+2025-11-06 22:44:37,514 - INFO - [OK] Row 183 completed
+2025-11-06 22:44:37,515 - INFO - [INFO] Processing row 187/288 - test_item: F8F
+2025-11-06 22:44:37,515 - INFO - [PROMPT] Ecco il contesto: Nonostante leggere sia più istruttivo di guardare la TV, la maggior parte delle pe...
+2025-11-06 22:44:37,518 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,518 - INFO - [OK] Row 184 completed
+2025-11-06 22:44:37,518 - INFO - [INFO] Processing row 188/288 - test_item: F9T
+2025-11-06 22:44:37,518 - INFO - [PROMPT] Ecco il contesto: Nonostante correre sia meglio per la forma fisica rispetto a camminare, la maggior...
+2025-11-06 22:44:37,520 - INFO - [OK] Answer 183 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,520 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 183/288 pending prompts completed (183/288 total)
+2025-11-06 22:44:37,524 - INFO - [OK] Answer 184 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,525 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 184/288 pending prompts completed (184/288 total)
+2025-11-06 22:44:37,547 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,547 - INFO - [OK] Row 185 completed
+2025-11-06 22:44:37,547 - INFO - [INFO] Processing row 189/288 - test_item: F9F
+2025-11-06 22:44:37,548 - INFO - [PROMPT] Ecco il contesto: Nonostante correre sia meglio per la forma fisica rispetto a camminare, la maggior...
+2025-11-06 22:44:37,552 - INFO - [OK] Answer 185 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,552 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 185/288 pending prompts completed (185/288 total)
+2025-11-06 22:44:37,553 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,554 - INFO - [OK] Row 186 completed
+2025-11-06 22:44:37,554 - INFO - [INFO] Processing row 190/288 - test_item: S1T
+2025-11-06 22:44:37,554 - INFO - [PROMPT] Ecco il contesto: Il pappagallo è nella gabbia. Inoltre, il cane è nella cuccia. Maria aveva detto: ...
+2025-11-06 22:44:37,558 - INFO - [OK] Answer 186 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,559 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 186/288 pending prompts completed (186/288 total)
+2025-11-06 22:44:37,560 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,560 - INFO - [OK] Row 187 completed
+2025-11-06 22:44:37,560 - INFO - [INFO] Processing row 191/288 - test_item: S1F
+2025-11-06 22:44:37,561 - INFO - [PROMPT] Ecco il contesto: Il pappagallo è nella gabbia. Inoltre, il cane è nella cuccia. Tommaso non ha port...
+2025-11-06 22:44:37,564 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,564 - INFO - [OK] Row 188 completed
+2025-11-06 22:44:37,564 - INFO - [INFO] Processing row 192/288 - test_item: S1C
+2025-11-06 22:44:37,564 - INFO - [OK] Answer 187 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,564 - INFO - [PROMPT] Ecco il contesto: Il pappagallo non è nella gabbia. Neanche il cane è nella cuccia. Maria aveva dett...
+2025-11-06 22:44:37,564 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 187/288 pending prompts completed (187/288 total)
+2025-11-06 22:44:37,568 - INFO - [OK] Answer 188 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,569 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 188/288 pending prompts completed (188/288 total)
+2025-11-06 22:44:37,594 - INFO - [RESPONSE] Ecco il contesto
+2025-11-06 22:44:37,594 - INFO - [OK] Row 189 completed
+2025-11-06 22:44:37,594 - INFO - [INFO] Processing row 193/288 - test_item: S2T
+2025-11-06 22:44:37,594 - INFO - [PROMPT] Ecco il contesto: Hai finito i broccoli. Hai finito anche la pasta. Maria aveva detto: "Se finisci i...
+2025-11-06 22:44:37,598 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,598 - INFO - [OK] Row 190 completed
+2025-11-06 22:44:37,598 - INFO - [INFO] Processing row 194/288 - test_item: S2F
+2025-11-06 22:44:37,598 - INFO - [PROMPT] Ecco il contesto: Hai finito i broccoli. Hai finito anche la pasta. Marco non ti ha dato nessuna car...
+2025-11-06 22:44:37,599 - INFO - [OK] Answer 189 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,599 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 189/288 pending prompts completed (189/288 total)
+2025-11-06 22:44:37,602 - INFO - [OK] Answer 190 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,603 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 190/288 pending prompts completed (190/288 total)
+2025-11-06 22:44:37,606 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,606 - INFO - [OK] Row 192 completed
+2025-11-06 22:44:37,606 - INFO - [INFO] Processing row 195/288 - test_item: S2C
+2025-11-06 22:44:37,607 - INFO - [PROMPT] Ecco il contesto: Non hai finito i broccoli. Non hai finito neanche la pasta. Maria aveva detto: "Se...
+2025-11-06 22:44:37,609 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,609 - INFO - [OK] Row 191 completed
+2025-11-06 22:44:37,609 - INFO - [INFO] Processing row 196/288 - test_item: S3T
+2025-11-06 22:44:37,609 - INFO - [PROMPT] Ecco il contesto: Le volpi stanno ballando. Inoltre, gli scoiattoli stanno mangiando. Maria aveva de...
+2025-11-06 22:44:37,610 - INFO - [OK] Answer 192 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,610 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 191/288 pending prompts completed (191/288 total)
+2025-11-06 22:44:37,613 - INFO - [OK] Answer 191 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,613 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 192/288 pending prompts completed (192/288 total)
+2025-11-06 22:44:37,637 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,637 - INFO - [OK] Row 193 completed
+2025-11-06 22:44:37,637 - INFO - [INFO] Processing row 197/288 - test_item: S3F
+2025-11-06 22:44:37,637 - INFO - [PROMPT] Ecco il contesto: Le volpi stanno ballando. Inoltre, gli scoiattoli stanno mangiando. Susanna non ha...
+2025-11-06 22:44:37,642 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,642 - INFO - [OK] Answer 193 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,642 - INFO - [OK] Row 194 completed
+2025-11-06 22:44:37,642 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 193/288 pending prompts completed (193/288 total)
+2025-11-06 22:44:37,642 - INFO - [INFO] Processing row 198/288 - test_item: S3C
+2025-11-06 22:44:37,643 - INFO - [PROMPT] Ecco il contesto: Le volpi non stanno ballando. Neanche gli scoiattoli stanno mangiando. Maria aveva...
+2025-11-06 22:44:37,646 - INFO - [OK] Answer 194 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,646 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 194/288 pending prompts completed (194/288 total)
+2025-11-06 22:44:37,647 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,648 - INFO - [OK] Row 195 completed
+2025-11-06 22:44:37,648 - INFO - [INFO] Processing row 199/288 - test_item: S4T
+2025-11-06 22:44:37,648 - INFO - [PROMPT] Ecco il contesto: La TV è accesa. Anche la radio è accesa. Maria aveva detto: "Se la TV è accesa, Ma...
+2025-11-06 22:44:37,652 - INFO - [OK] Answer 195 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,652 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 195/288 pending prompts completed (195/288 total)
+2025-11-06 22:44:37,653 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,653 - INFO - [OK] Row 196 completed
+2025-11-06 22:44:37,653 - INFO - [INFO] Processing row 200/288 - test_item: S4F
+2025-11-06 22:44:37,654 - INFO - [PROMPT] Ecco il contesto: La TV è accesa. Anche la radio è accesa. Matteo non ha preparato i biscotti. Maria...
+2025-11-06 22:44:37,658 - INFO - [OK] Answer 196 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,659 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 196/288 pending prompts completed (196/288 total)
+2025-11-06 22:44:37,686 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,686 - INFO - [OK] Row 199 completed
+2025-11-06 22:44:37,686 - INFO - [INFO] Processing row 201/288 - test_item: S4C
+2025-11-06 22:44:37,686 - INFO - [PROMPT] Ecco il contesto: La TV è spenta. Anche la radio è spenta. Maria aveva detto: "Se la TV è accesa, Ma...
+2025-11-06 22:44:37,691 - INFO - [OK] Answer 199 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,691 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 197/288 pending prompts completed (197/288 total)
+2025-11-06 22:44:37,691 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,692 - INFO - [OK] Row 197 completed
+2025-11-06 22:44:37,692 - INFO - [INFO] Processing row 202/288 - test_item: S5T
+2025-11-06 22:44:37,692 - INFO - [PROMPT] Ecco il contesto: Oggi il tempo è soleggiato. Inoltre, non c'è vento. Maria aveva detto: "Se il temp...
+2025-11-06 22:44:37,694 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,694 - INFO - [OK] Row 198 completed
+2025-11-06 22:44:37,695 - INFO - [INFO] Processing row 203/288 - test_item: S5F
+2025-11-06 22:44:37,695 - INFO - [PROMPT] Ecco il contesto: Oggi il tempo è soleggiato. Inoltre, non c'è vento. Emma si è vestita di verde. Ma...
+2025-11-06 22:44:37,696 - INFO - [OK] Answer 197 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,696 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 198/288 pending prompts completed (198/288 total)
+2025-11-06 22:44:37,700 - INFO - [OK] Answer 198 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,700 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 199/288 pending prompts completed (199/288 total)
+2025-11-06 22:44:37,701 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,701 - INFO - [OK] Row 200 completed
+2025-11-06 22:44:37,701 - INFO - [INFO] Processing row 204/288 - test_item: S5C
+2025-11-06 22:44:37,701 - INFO - [PROMPT] Ecco il contesto: Oggi il tempo è piovoso. Inoltre, c'è molto vento. Maria aveva detto: "Se il tempo...
+2025-11-06 22:44:37,707 - INFO - [OK] Answer 200 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,707 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 200/288 pending prompts completed (200/288 total)
+2025-11-06 22:44:37,730 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,730 - INFO - [OK] Row 201 completed
+2025-11-06 22:44:37,730 - INFO - [INFO] Processing row 205/288 - test_item: S6T
+2025-11-06 22:44:37,730 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è vuoto. Inoltre, le strade sono tranquille. Maria aveva detto: "S...
+2025-11-06 22:44:37,734 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,734 - INFO - [OK] Row 202 completed
+2025-11-06 22:44:37,735 - INFO - [OK] Answer 201 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,735 - INFO - [INFO] Processing row 206/288 - test_item: S6F
+2025-11-06 22:44:37,735 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 201/288 pending prompts completed (201/288 total)
+2025-11-06 22:44:37,735 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è vuoto. Inoltre, le strade sono tranquille. Angela non si è fatta...
+2025-11-06 22:44:37,740 - INFO - [OK] Answer 202 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,740 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 202/288 pending prompts completed (202/288 total)
+2025-11-06 22:44:37,742 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,742 - INFO - [OK] Row 203 completed
+2025-11-06 22:44:37,743 - INFO - [INFO] Processing row 207/288 - test_item: S6C
+2025-11-06 22:44:37,743 - INFO - [PROMPT] Ecco il contesto: Il parco giochi è pieno. Inoltre, le strade sono affollate. Maria aveva detto: "Se...
+2025-11-06 22:44:37,747 - INFO - [OK] Answer 203 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,747 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 203/288 pending prompts completed (203/288 total)
+2025-11-06 22:44:37,748 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,748 - INFO - [OK] Row 204 completed
+2025-11-06 22:44:37,748 - INFO - [INFO] Processing row 208/288 - test_item: S7T
+2025-11-06 22:44:37,748 - INFO - [PROMPT] Ecco il contesto: Il prato è stato tagliato. Inoltre, i fiori sono stati annaffiati. Maria aveva det...
+2025-11-06 22:44:37,752 - INFO - [OK] Answer 204 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,752 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 204/288 pending prompts completed (204/288 total)
+2025-11-06 22:44:37,776 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,776 - INFO - [OK] Row 205 completed
+2025-11-06 22:44:37,777 - INFO - [INFO] Processing row 209/288 - test_item: S7F
+2025-11-06 22:44:37,777 - INFO - [PROMPT] Ecco il contesto: Il prato è stato tagliato. Inoltre, i fiori sono stati annaffiati. Paolo non ha ri...
+2025-11-06 22:44:37,780 - INFO - [OK] Answer 205 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,781 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 205/288 pending prompts completed (205/288 total)
+2025-11-06 22:44:37,785 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,785 - INFO - [OK] Row 206 completed
+2025-11-06 22:44:37,785 - INFO - [INFO] Processing row 210/288 - test_item: S7C
+2025-11-06 22:44:37,785 - INFO - [PROMPT] Ecco il contesto: Il prato non è stato tagliato. Inoltre, i fiori devono ancora essere annaffiati.  ...
+2025-11-06 22:44:37,789 - INFO - [OK] Answer 206 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,790 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 206/288 pending prompts completed (206/288 total)
+2025-11-06 22:44:37,790 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,790 - INFO - [OK] Row 207 completed
+2025-11-06 22:44:37,790 - INFO - [INFO] Processing row 211/288 - test_item: S8T
+2025-11-06 22:44:37,791 - INFO - [PROMPT] Ecco il contesto: Il cane sta giocando. Inoltre, il gatto si sta arrampicando sull'albero. Maria ave...
+2025-11-06 22:44:37,795 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,795 - INFO - [OK] Answer 207 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,795 - INFO - [OK] Row 208 completed
+2025-11-06 22:44:37,795 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 207/288 pending prompts completed (207/288 total)
+2025-11-06 22:44:37,796 - INFO - [INFO] Processing row 212/288 - test_item: S8F
+2025-11-06 22:44:37,796 - INFO - [PROMPT] Ecco il contesto: Il cane sta giocando. Inoltre, il gatto si sta arrampicando sull'albero. Antonio n...
+2025-11-06 22:44:37,800 - INFO - [OK] Answer 208 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,800 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 208/288 pending prompts completed (208/288 total)
+2025-11-06 22:44:37,820 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,820 - INFO - [OK] Row 209 completed
+2025-11-06 22:44:37,820 - INFO - [INFO] Processing row 213/288 - test_item: S8C
+2025-11-06 22:44:37,821 - INFO - [PROMPT] Ecco il contesto: Il cane non sta giocando. Inoltre, il gatto sta dormendo. Maria aveva detto: "Se i...
+2025-11-06 22:44:37,825 - INFO - [OK] Answer 209 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,825 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 209/288 pending prompts completed (209/288 total)
+2025-11-06 22:44:37,829 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,830 - INFO - [OK] Row 210 completed
+2025-11-06 22:44:37,830 - INFO - [INFO] Processing row 214/288 - test_item: S9T
+2025-11-06 22:44:37,830 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Maria aveva detto: "Se il frigo...
+2025-11-06 22:44:37,834 - INFO - [OK] Answer 210 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,834 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 210/288 pending prompts completed (210/288 total)
+2025-11-06 22:44:37,836 - INFO - [RESPONSE] base
+2025-11-06 22:44:37,836 - INFO - [OK] Row 211 completed
+2025-11-06 22:44:37,836 - INFO - [INFO] Processing row 215/288 - test_item: S9F
+2025-11-06 22:44:37,836 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Anna non ha portato delle ciamb...
+2025-11-06 22:44:37,840 - INFO - [OK] Answer 211 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,841 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 211/288 pending prompts completed (211/288 total)
+2025-11-06 22:44:37,841 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,841 - INFO - [OK] Row 212 completed
+2025-11-06 22:44:37,841 - INFO - [INFO] Processing row 216/288 - test_item: S9C
+2025-11-06 22:44:37,842 - INFO - [PROMPT] Ecco il contesto: Il frigorifero è pieno. Inoltre, il forno è acceso. Maria aveva detto: "Se il frig...
+2025-11-06 22:44:37,845 - INFO - [OK] Answer 212 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,845 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 212/288 pending prompts completed (212/288 total)
+2025-11-06 22:44:37,861 - INFO - [RESPONSE] base
+2025-11-06 22:44:37,861 - INFO - [OK] Row 213 completed
+2025-11-06 22:44:37,861 - INFO - [INFO] Processing row 217/288 - test_item: B1T
+2025-11-06 22:44:37,861 - INFO - [PROMPT] Aquí tienes el contexto: Juan tiene hambre y hay pizza en el horno. También hay pasta en la nevera. ...
+2025-11-06 22:44:37,864 - INFO - [OK] Answer 213 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,865 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 213/288 pending prompts completed (213/288 total)
+2025-11-06 22:44:37,876 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,876 - INFO - [OK] Row 214 completed
+2025-11-06 22:44:37,876 - INFO - [INFO] Processing row 218/288 - test_item: B1F
+2025-11-06 22:44:37,876 - INFO - [PROMPT] Aquí tienes el contexto: Juan tiene hambre y no hay pizza en el horno. Tampoco hay pasta en la never...
+2025-11-06 22:44:37,880 - INFO - [OK] Answer 214 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,880 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 214/288 pending prompts completed (214/288 total)
+2025-11-06 22:44:37,882 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,882 - INFO - [OK] Row 215 completed
+2025-11-06 22:44:37,882 - INFO - [INFO] Processing row 219/288 - test_item: B1C
+2025-11-06 22:44:37,883 - INFO - [PROMPT] Aquí tienes el contexto: Juan no tiene hambre. Hay pasta en la nevera. María dice: "Si Juan tiene ha...
+2025-11-06 22:44:37,887 - INFO - [OK] Answer 215 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,887 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 215/288 pending prompts completed (215/288 total)
+2025-11-06 22:44:37,888 - INFO - [RESPONSE] Maria aveva detto
+2025-11-06 22:44:37,888 - INFO - [OK] Row 216 completed
+2025-11-06 22:44:37,888 - INFO - [INFO] Processing row 220/288 - test_item: B2T
+2025-11-06 22:44:37,889 - INFO - [PROMPT] Aquí tienes el contexto: A Noelia le duele la cabeza y hay aspirinas sobre la mesa. También hay ibup...
+2025-11-06 22:44:37,892 - INFO - [OK] Answer 216 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,892 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 216/288 pending prompts completed (216/288 total)
+2025-11-06 22:44:37,905 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:37,906 - INFO - [OK] Row 217 completed
+2025-11-06 22:44:37,906 - INFO - [INFO] Processing row 221/288 - test_item: B2F
+2025-11-06 22:44:37,907 - INFO - [PROMPT] Aquí tienes el contexto: A Noelia le duele la cabeza y no hay aspirinas sobre la mesa. Tampoco hay i...
+2025-11-06 22:44:37,911 - INFO - [OK] Answer 217 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,911 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 217/288 pending prompts completed (217/288 total)
+2025-11-06 22:44:37,925 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:37,925 - INFO - [OK] Row 219 completed
+2025-11-06 22:44:37,925 - INFO - [INFO] Processing row 222/288 - test_item: B2C
+2025-11-06 22:44:37,925 - INFO - [PROMPT] Aquí tienes el contexto: A Noelia no le duele la cabeza. Hay ibuprofeno en el cajón. María dice: "Si...
+2025-11-06 22:44:37,925 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:37,926 - INFO - [OK] Row 218 completed
+2025-11-06 22:44:37,926 - INFO - [INFO] Processing row 223/288 - test_item: B3T
+2025-11-06 22:44:37,927 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed y hay agua en la nevera. También hay zumo de manzana en la ...
+2025-11-06 22:44:37,930 - INFO - [OK] Answer 219 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,931 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 218/288 pending prompts completed (218/288 total)
+2025-11-06 22:44:37,935 - INFO - [OK] Answer 218 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,936 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:37,936 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 219/288 pending prompts completed (219/288 total)
+2025-11-06 22:44:37,936 - INFO - [OK] Row 220 completed
+2025-11-06 22:44:37,936 - INFO - [INFO] Processing row 224/288 - test_item: B3F
+2025-11-06 22:44:37,937 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed y no hay agua en la nevera. Tampoco hay zumo de manzana en ...
+2025-11-06 22:44:37,942 - INFO - [OK] Answer 220 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,942 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 220/288 pending prompts completed (220/288 total)
+2025-11-06 22:44:37,954 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:37,954 - INFO - [OK] Row 221 completed
+2025-11-06 22:44:37,954 - INFO - [INFO] Processing row 225/288 - test_item: B3C
+2025-11-06 22:44:37,954 - INFO - [PROMPT] Aquí tienes el contexto: Lucía tiene sed. Hay zumo de manzana en la estantería. María dice: "Si Lucí...
+2025-11-06 22:44:37,959 - INFO - [OK] Answer 221 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,959 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 221/288 pending prompts completed (221/288 total)
+2025-11-06 22:44:37,971 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:37,971 - INFO - [OK] Row 223 completed
+2025-11-06 22:44:37,971 - INFO - [INFO] Processing row 226/288 - test_item: B4T
+2025-11-06 22:44:37,972 - INFO - [PROMPT] Aquí tienes el contexto: El móvil de Pedro se ha quedado sin batería y hay un cargador en el cajón. ...
+2025-11-06 22:44:37,972 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:37,972 - INFO - [OK] Row 222 completed
+2025-11-06 22:44:37,972 - INFO - [INFO] Processing row 227/288 - test_item: B4F
+2025-11-06 22:44:37,973 - INFO - [PROMPT] Aquí tienes el contexto: El móvil de Pedro se ha quedado sin batería y no hay ningún cargador en el ...
+2025-11-06 22:44:37,976 - INFO - [OK] Answer 223 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,976 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 222/288 pending prompts completed (222/288 total)
+2025-11-06 22:44:37,980 - INFO - [OK] Answer 222 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,980 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 223/288 pending prompts completed (223/288 total)
+2025-11-06 22:44:37,982 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:37,982 - INFO - [OK] Row 224 completed
+2025-11-06 22:44:37,982 - INFO - [INFO] Processing row 228/288 - test_item: B4C
+2025-11-06 22:44:37,982 - INFO - [PROMPT] Aquí tienes el contexto: El móvil de Pedro tiene la batería llena. Hay un ordenador sobre la mesa. M...
+2025-11-06 22:44:37,987 - INFO - [OK] Answer 224 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:37,987 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 224/288 pending prompts completed (224/288 total)
+2025-11-06 22:44:37,997 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:37,997 - INFO - [OK] Row 225 completed
+2025-11-06 22:44:37,997 - INFO - [INFO] Processing row 229/288 - test_item: B5T
+2025-11-06 22:44:37,998 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está lluvioso y hay un paraguas en el paragüero. También hay un c...
+2025-11-06 22:44:38,001 - INFO - [OK] Answer 225 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,001 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 225/288 pending prompts completed (225/288 total)
+2025-11-06 22:44:38,021 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,021 - INFO - [OK] Row 226 completed
+2025-11-06 22:44:38,021 - INFO - [INFO] Processing row 230/288 - test_item: B5F
+2025-11-06 22:44:38,022 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está lluvioso y no hay paraguas en el paragüero. Tampoco hay ning...
+2025-11-06 22:44:38,023 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,023 - INFO - [OK] Row 227 completed
+2025-11-06 22:44:38,024 - INFO - [INFO] Processing row 231/288 - test_item: B5C
+2025-11-06 22:44:38,024 - INFO - [PROMPT] Aquí tienes el contexto: El tiempo está despejado. Hay un chubasquero en el coche. María dice: "Si e...
+2025-11-06 22:44:38,026 - INFO - [OK] Answer 226 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,026 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 226/288 pending prompts completed (226/288 total)
+2025-11-06 22:44:38,027 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,027 - INFO - [OK] Row 228 completed
+2025-11-06 22:44:38,027 - INFO - [INFO] Processing row 232/288 - test_item: B6T
+2025-11-06 22:44:38,027 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está pinchada y hay una bomba de aire en el garaje. Tamb...
+2025-11-06 22:44:38,030 - INFO - [OK] Answer 227 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,030 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 227/288 pending prompts completed (227/288 total)
+2025-11-06 22:44:38,034 - INFO - [OK] Answer 228 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,035 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 228/288 pending prompts completed (228/288 total)
+2025-11-06 22:44:38,043 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,043 - INFO - [OK] Row 229 completed
+2025-11-06 22:44:38,043 - INFO - [INFO] Processing row 233/288 - test_item: B6F
+2025-11-06 22:44:38,043 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está pinchada y no hay ninguna bomba de aire en el garaj...
+2025-11-06 22:44:38,047 - INFO - [OK] Answer 229 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,047 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 229/288 pending prompts completed (229/288 total)
+2025-11-06 22:44:38,067 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,067 - INFO - [OK] Row 231 completed
+2025-11-06 22:44:38,067 - INFO - [INFO] Processing row 234/288 - test_item: B6C
+2025-11-06 22:44:38,068 - INFO - [PROMPT] Aquí tienes el contexto: La rueda del coche está inflada. Hay una bicicleta junto a la puerta de ent...
+2025-11-06 22:44:38,072 - INFO - [OK] Answer 231 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,073 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 230/288 pending prompts completed (230/288 total)
+2025-11-06 22:44:38,073 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,073 - INFO - [OK] Row 230 completed
+2025-11-06 22:44:38,073 - INFO - [INFO] Processing row 235/288 - test_item: B7T
+2025-11-06 22:44:38,073 - INFO - [PROMPT] Aquí tienes el contexto: La planta está seca y hay un regador en la estantería. También hay una mang...
+2025-11-06 22:44:38,077 - INFO - [OK] Answer 230 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,077 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 231/288 pending prompts completed (231/288 total)
+2025-11-06 22:44:38,078 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,079 - INFO - [OK] Row 232 completed
+2025-11-06 22:44:38,079 - INFO - [INFO] Processing row 236/288 - test_item: B7F
+2025-11-06 22:44:38,080 - INFO - [PROMPT] Aquí tienes el contexto: La planta está seca y no hay ningún regador en la estantería. Tampoco hay u...
+2025-11-06 22:44:38,084 - INFO - [OK] Answer 232 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,084 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 232/288 pending prompts completed (232/288 total)
+2025-11-06 22:44:38,093 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,093 - INFO - [OK] Row 233 completed
+2025-11-06 22:44:38,093 - INFO - [INFO] Processing row 237/288 - test_item: B7C
+2025-11-06 22:44:38,094 - INFO - [PROMPT] Aquí tienes el contexto: La planta no está seca. Hay una manguera en el jardín. María dice: "Si la p...
+2025-11-06 22:44:38,098 - INFO - [OK] Answer 233 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,098 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 233/288 pending prompts completed (233/288 total)
+2025-11-06 22:44:38,120 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,120 - INFO - [OK] Row 234 completed
+2025-11-06 22:44:38,120 - INFO - [INFO] Processing row 238/288 - test_item: B8T
+2025-11-06 22:44:38,121 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está arrugada y hay una plancha en el armario. También h...
+2025-11-06 22:44:38,124 - INFO - [OK] Answer 234 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,125 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 234/288 pending prompts completed (234/288 total)
+2025-11-06 22:44:38,126 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,126 - INFO - [OK] Row 235 completed
+2025-11-06 22:44:38,126 - INFO - [INFO] Processing row 239/288 - test_item: B8F
+2025-11-06 22:44:38,126 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está arrugada y no hay ninguna plancha en el armario. Ta...
+2025-11-06 22:44:38,130 - INFO - [OK] Answer 235 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,130 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 235/288 pending prompts completed (235/288 total)
+2025-11-06 22:44:38,132 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,132 - INFO - [OK] Row 236 completed
+2025-11-06 22:44:38,132 - INFO - [INFO] Processing row 240/288 - test_item: B8C
+2025-11-06 22:44:38,132 - INFO - [PROMPT] Aquí tienes el contexto: La camisa de Jorge está planchada. Hay una tabla de planchar en el balcón. ...
+2025-11-06 22:44:38,137 - INFO - [OK] Answer 236 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,137 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 236/288 pending prompts completed (236/288 total)
+2025-11-06 22:44:38,138 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,138 - INFO - [OK] Row 237 completed
+2025-11-06 22:44:38,138 - INFO - [INFO] Processing row 241/288 - test_item: B9T
+2025-11-06 22:44:38,139 - INFO - [PROMPT] Aquí tienes el contexto: Susana quiere leer y hay libros en la estantería. También hay un periódico ...
+2025-11-06 22:44:38,143 - INFO - [OK] Answer 237 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,143 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 237/288 pending prompts completed (237/288 total)
+2025-11-06 22:44:38,173 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,173 - INFO - [OK] Row 238 completed
+2025-11-06 22:44:38,173 - INFO - [INFO] Processing row 242/288 - test_item: B9F
+2025-11-06 22:44:38,174 - INFO - [PROMPT] Aquí tienes el contexto: Susana quiere leer y no hay libros en la estantería. Tampoco hay un periódi...
+2025-11-06 22:44:38,178 - INFO - [OK] Answer 238 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,178 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 238/288 pending prompts completed (238/288 total)
+2025-11-06 22:44:38,179 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,179 - INFO - [OK] Row 239 completed
+2025-11-06 22:44:38,179 - INFO - [INFO] Processing row 243/288 - test_item: B9C
+2025-11-06 22:44:38,179 - INFO - [PROMPT] Aquí tienes el contexto: Susana no quiere leer. Hay un periódico en el sofá. María dice: "Si Susana ...
+2025-11-06 22:44:38,185 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,185 - INFO - [OK] Row 240 completed
+2025-11-06 22:44:38,185 - INFO - [OK] Answer 239 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,185 - INFO - [INFO] Processing row 244/288 - test_item: F1T
+2025-11-06 22:44:38,186 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 239/288 pending prompts completed (239/288 total)
+2025-11-06 22:44:38,186 - INFO - [PROMPT] Aquí tienes el contexto: Aunque la pizza sea más cara que la pasta, la gente la compra más. Hay pizz...
+2025-11-06 22:44:38,186 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,187 - INFO - [OK] Row 241 completed
+2025-11-06 22:44:38,187 - INFO - [INFO] Processing row 245/288 - test_item: F1F
+2025-11-06 22:44:38,187 - INFO - [PROMPT] Aquí tienes el contexto: Aunque la pizza sea más cara que la pasta, la gente la compra más. Hay pizz...
+2025-11-06 22:44:38,190 - INFO - [OK] Answer 240 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,190 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 240/288 pending prompts completed (240/288 total)
+2025-11-06 22:44:38,194 - INFO - [OK] Answer 241 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,195 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 241/288 pending prompts completed (241/288 total)
+2025-11-06 22:44:38,219 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,219 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,219 - INFO - [OK] Row 242 completed
+2025-11-06 22:44:38,219 - INFO - [OK] Row 243 completed
+2025-11-06 22:44:38,219 - INFO - [INFO] Processing row 246/288 - test_item: F2T
+2025-11-06 22:44:38,220 - INFO - [INFO] Processing row 247/288 - test_item: F2F
+2025-11-06 22:44:38,220 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el café negro sea más barato que el té verde, la mayoría de la gente...
+2025-11-06 22:44:38,221 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el café negro sea más barato que el té verde, la mayoría de la gente...
+2025-11-06 22:44:38,221 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,222 - INFO - [OK] Row 244 completed
+2025-11-06 22:44:38,222 - INFO - [INFO] Processing row 248/288 - test_item: F3T
+2025-11-06 22:44:38,223 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el agua sea más saludable que los refrescos, mucha gente prefiere lo...
+2025-11-06 22:44:38,223 - INFO - [OK] Answer 242 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,223 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,223 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 242/288 pending prompts completed (242/288 total)
+2025-11-06 22:44:38,223 - INFO - [OK] Row 245 completed
+2025-11-06 22:44:38,224 - INFO - [INFO] Processing row 249/288 - test_item: F3F
+2025-11-06 22:44:38,225 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el agua sea más saludable que los refrescos, mucha gente prefiere lo...
+2025-11-06 22:44:38,227 - INFO - [OK] Answer 243 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,228 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 243/288 pending prompts completed (243/288 total)
+2025-11-06 22:44:38,231 - INFO - [OK] Answer 244 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,231 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 244/288 pending prompts completed (244/288 total)
+2025-11-06 22:44:38,234 - INFO - [OK] Answer 245 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,235 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 245/288 pending prompts completed (245/288 total)
+2025-11-06 22:44:38,257 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,257 - INFO - [OK] Row 248 completed
+2025-11-06 22:44:38,257 - INFO - [INFO] Processing row 250/288 - test_item: F4T
+2025-11-06 22:44:38,258 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el brócoli sea más difícil de cocinar que los ñoquis, la gente lo co...
+2025-11-06 22:44:38,261 - INFO - [OK] Answer 248 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,261 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 246/288 pending prompts completed (246/288 total)
+2025-11-06 22:44:38,261 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,261 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,261 - INFO - [OK] Row 246 completed
+2025-11-06 22:44:38,262 - INFO - [OK] Row 249 completed
+2025-11-06 22:44:38,262 - INFO - [INFO] Processing row 251/288 - test_item: F4F
+2025-11-06 22:44:38,262 - INFO - [INFO] Processing row 252/288 - test_item: F5T
+2025-11-06 22:44:38,262 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,262 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el brócoli sea más difícil de cocinar que los ñoquis, la gente lo co...
+2025-11-06 22:44:38,262 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el sushi sea más sano que las hamburguesas, la gente come hamburgues...
+2025-11-06 22:44:38,263 - INFO - [OK] Row 247 completed
+2025-11-06 22:44:38,263 - INFO - [INFO] Processing row 253/288 - test_item: F5F
+2025-11-06 22:44:38,263 - INFO - [PROMPT] Aquí tienes el contexto: Aunque el sushi sea más sano que las hamburguesas, la gente come hamburgues...
+2025-11-06 22:44:38,265 - INFO - [OK] Answer 246 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,266 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 247/288 pending prompts completed (247/288 total)
+2025-11-06 22:44:38,269 - INFO - [OK] Answer 249 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,269 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 248/288 pending prompts completed (248/288 total)
+2025-11-06 22:44:38,272 - INFO - [OK] Answer 247 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,273 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 249/288 pending prompts completed (249/288 total)
+2025-11-06 22:44:38,298 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,298 - INFO - [OK] Row 250 completed
+2025-11-06 22:44:38,298 - INFO - [INFO] Processing row 254/288 - test_item: F6T
+2025-11-06 22:44:38,299 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los plátanos sean más caros que los kiwis, la gente los compra más. ...
+2025-11-06 22:44:38,303 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,303 - INFO - [OK] Answer 250 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,303 - INFO - [OK] Row 252 completed
+2025-11-06 22:44:38,303 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 250/288 pending prompts completed (250/288 total)
+2025-11-06 22:44:38,304 - INFO - [INFO] Processing row 255/288 - test_item: F6F
+2025-11-06 22:44:38,304 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los plátanos sean más caros que los kiwis, la gente los compra más. ...
+2025-11-06 22:44:38,305 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,305 - INFO - [OK] Row 251 completed
+2025-11-06 22:44:38,306 - INFO - [INFO] Processing row 256/288 - test_item: F7T
+2025-11-06 22:44:38,306 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los perros sean más vivaces que los gatos, la gente los prefiere. Ha...
+2025-11-06 22:44:38,308 - INFO - [OK] Answer 252 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,308 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 251/288 pending prompts completed (251/288 total)
+2025-11-06 22:44:38,310 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,310 - INFO - [OK] Row 253 completed
+2025-11-06 22:44:38,310 - INFO - [INFO] Processing row 257/288 - test_item: F7F
+2025-11-06 22:44:38,310 - INFO - [PROMPT] Aquí tienes el contexto: Aunque los perros sean más vivaces que los gatos, la gente los prefiere. Ha...
+2025-11-06 22:44:38,312 - INFO - [OK] Answer 251 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,313 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 252/288 pending prompts completed (252/288 total)
+2025-11-06 22:44:38,316 - INFO - [OK] Answer 253 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,316 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 253/288 pending prompts completed (253/288 total)
+2025-11-06 22:44:38,343 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,344 - INFO - [OK] Row 255 completed
+2025-11-06 22:44:38,344 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,344 - INFO - [INFO] Processing row 258/288 - test_item: F8T
+2025-11-06 22:44:38,344 - INFO - [OK] Row 254 completed
+2025-11-06 22:44:38,345 - INFO - [PROMPT] Aquí tienes el contexto: Aunque leer libros sea más educativo que ver la televisión, mucha gente ve ...
+2025-11-06 22:44:38,345 - INFO - [INFO] Processing row 259/288 - test_item: F8F
+2025-11-06 22:44:38,345 - INFO - [PROMPT] Aquí tienes el contexto: Aunque leer libros sea más educativo que ver la televisión, mucha gente ve ...
+2025-11-06 22:44:38,349 - INFO - [OK] Answer 255 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,349 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 254/288 pending prompts completed (254/288 total)
+2025-11-06 22:44:38,351 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,351 - INFO - [OK] Row 256 completed
+2025-11-06 22:44:38,351 - INFO - [INFO] Processing row 260/288 - test_item: F9T
+2025-11-06 22:44:38,351 - INFO - [PROMPT] Aquí tienes el contexto: Aunque correr sea mejor para la forma física que caminar, la mayoría de la ...
+2025-11-06 22:44:38,353 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,353 - INFO - [OK] Row 257 completed
+2025-11-06 22:44:38,354 - INFO - [INFO] Processing row 261/288 - test_item: F9F
+2025-11-06 22:44:38,354 - INFO - [PROMPT] Aquí tienes el contexto: Aunque correr sea mejor para la forma física que caminar, la mayoría de la ...
+2025-11-06 22:44:38,354 - INFO - [OK] Answer 254 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,354 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 255/288 pending prompts completed (255/288 total)
+2025-11-06 22:44:38,359 - INFO - [OK] Answer 256 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,359 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 256/288 pending prompts completed (256/288 total)
+2025-11-06 22:44:38,362 - INFO - [OK] Answer 257 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,362 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 257/288 pending prompts completed (257/288 total)
+2025-11-06 22:44:38,387 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,387 - INFO - [OK] Row 258 completed
+2025-11-06 22:44:38,387 - INFO - [INFO] Processing row 262/288 - test_item: S1T
+2025-11-06 22:44:38,388 - INFO - [PROMPT] Aquí tienes el contexto: El loro está en la jaula. Además, el perro está en la caseta. María había d...
+2025-11-06 22:44:38,392 - INFO - [OK] Answer 258 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,392 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 258/288 pending prompts completed (258/288 total)
+2025-11-06 22:44:38,393 - INFO - [RESPONSE] sea mejor para la forma física
+2025-11-06 22:44:38,393 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,393 - INFO - [OK] Row 260 completed
+2025-11-06 22:44:38,393 - INFO - [OK] Row 259 completed
+2025-11-06 22:44:38,393 - INFO - [INFO] Processing row 263/288 - test_item: S1F
+2025-11-06 22:44:38,393 - INFO - [INFO] Processing row 264/288 - test_item: S1C
+2025-11-06 22:44:38,394 - INFO - [PROMPT] Aquí tienes el contexto: El loro está en la jaula. Además, el perro está en la caseta. Tomás no traj...
+2025-11-06 22:44:38,394 - INFO - [PROMPT] Aquí tienes el contexto: El loro no está en la jaula. Además, el perro tampoco está en la caseta. Ma...
+2025-11-06 22:44:38,398 - INFO - [OK] Answer 260 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,398 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 259/288 pending prompts completed (259/288 total)
+2025-11-06 22:44:38,399 - INFO - [RESPONSE] Aquí tienes el contexto
+2025-11-06 22:44:38,399 - INFO - [OK] Row 261 completed
+2025-11-06 22:44:38,399 - INFO - [INFO] Processing row 265/288 - test_item: S2T
+2025-11-06 22:44:38,400 - INFO - [PROMPT] Aquí tienes el contexto: Te has comido el brócoli. También te has comido la pasta. María dice: "Si t...
+2025-11-06 22:44:38,402 - INFO - [OK] Answer 259 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,402 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 260/288 pending prompts completed (260/288 total)
+2025-11-06 22:44:38,406 - INFO - [OK] Answer 261 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,406 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 261/288 pending prompts completed (261/288 total)
+2025-11-06 22:44:38,429 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,429 - INFO - [OK] Row 262 completed
+2025-11-06 22:44:38,429 - INFO - [INFO] Processing row 266/288 - test_item: S2F
+2025-11-06 22:44:38,430 - INFO - [PROMPT] Aquí tienes el contexto: Te has comido el brócoli. También te has comido la pasta. Marcos no te dio ...
+2025-11-06 22:44:38,433 - INFO - [OK] Answer 262 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,434 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 262/288 pending prompts completed (262/288 total)
+2025-11-06 22:44:38,436 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,436 - INFO - [OK] Row 264 completed
+2025-11-06 22:44:38,436 - INFO - [INFO] Processing row 267/288 - test_item: S2C
+2025-11-06 22:44:38,436 - INFO - [PROMPT] Aquí tienes el contexto: No te has comido el brócoli. Tampoco te has comido la pasta. María había di...
+2025-11-06 22:44:38,440 - INFO - [OK] Answer 264 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,440 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 263/288 pending prompts completed (263/288 total)
+2025-11-06 22:44:38,441 - INFO - [RESPONSE] María dice
+2025-11-06 22:44:38,441 - INFO - [OK] Row 265 completed
+2025-11-06 22:44:38,441 - INFO - [INFO] Processing row 268/288 - test_item: S3T
+2025-11-06 22:44:38,441 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros están bailando. Además, las ardillas están comiendo. María había...
+2025-11-06 22:44:38,442 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,442 - INFO - [OK] Row 263 completed
+2025-11-06 22:44:38,442 - INFO - [INFO] Processing row 269/288 - test_item: S3F
+2025-11-06 22:44:38,442 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros están bailando. Además, las ardillas están comiendo. Irene no re...
+2025-11-06 22:44:38,445 - INFO - [OK] Answer 265 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,445 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 264/288 pending prompts completed (264/288 total)
+2025-11-06 22:44:38,450 - INFO - [OK] Answer 263 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,450 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 265/288 pending prompts completed (265/288 total)
+2025-11-06 22:44:38,472 - INFO - [RESPONSE] Según lo que decía María
+2025-11-06 22:44:38,472 - INFO - [OK] Row 266 completed
+2025-11-06 22:44:38,472 - INFO - [INFO] Processing row 270/288 - test_item: S3C
+2025-11-06 22:44:38,473 - INFO - [PROMPT] Aquí tienes el contexto: Los zorros no están bailando. Las ardillas tampoco están comiendo. María ha...
+2025-11-06 22:44:38,476 - INFO - [OK] Answer 266 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,476 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 266/288 pending prompts completed (266/288 total)
+2025-11-06 22:44:38,480 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,480 - INFO - [OK] Row 267 completed
+2025-11-06 22:44:38,480 - INFO - [INFO] Processing row 271/288 - test_item: S4T
+2025-11-06 22:44:38,480 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está encendida. Además, la radio también está encendida. Marí...
+2025-11-06 22:44:38,484 - INFO - [OK] Answer 267 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,484 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 267/288 pending prompts completed (267/288 total)
+2025-11-06 22:44:38,485 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,486 - INFO - [OK] Row 268 completed
+2025-11-06 22:44:38,486 - INFO - [INFO] Processing row 272/288 - test_item: S4F
+2025-11-06 22:44:38,486 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está encendida. Además, la radio también está encendida. Mate...
+2025-11-06 22:44:38,489 - INFO - [OK] Answer 268 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,490 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 268/288 pending prompts completed (268/288 total)
+2025-11-06 22:44:38,490 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,491 - INFO - [OK] Row 269 completed
+2025-11-06 22:44:38,491 - INFO - [INFO] Processing row 273/288 - test_item: S4C
+2025-11-06 22:44:38,491 - INFO - [PROMPT] Aquí tienes el contexto: La televisión está apagada. La radio también está apagada. María había dich...
+2025-11-06 22:44:38,495 - INFO - [OK] Answer 269 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,495 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 269/288 pending prompts completed (269/288 total)
+2025-11-06 22:44:38,516 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,516 - INFO - [OK] Row 270 completed
+2025-11-06 22:44:38,516 - INFO - [INFO] Processing row 274/288 - test_item: S5T
+2025-11-06 22:44:38,517 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está soleado. Además, no hay viento. María había dicho: "Si e...
+2025-11-06 22:44:38,521 - INFO - [OK] Answer 270 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,521 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 270/288 pending prompts completed (270/288 total)
+2025-11-06 22:44:38,527 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,527 - INFO - [OK] Row 271 completed
+2025-11-06 22:44:38,527 - INFO - [INFO] Processing row 275/288 - test_item: S5F
+2025-11-06 22:44:38,528 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está soleado. Además, no hay viento. Emma fue de verde. María...
+2025-11-06 22:44:38,531 - INFO - [OK] Answer 271 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,532 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 271/288 pending prompts completed (271/288 total)
+2025-11-06 22:44:38,536 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,536 - INFO - [OK] Row 272 completed
+2025-11-06 22:44:38,537 - INFO - [INFO] Processing row 276/288 - test_item: S5C
+2025-11-06 22:44:38,537 - INFO - [PROMPT] Aquí tienes el contexto: Hoy el tiempo está lluvioso. Además, hay mucho viento. María había dicho: "...
+2025-11-06 22:44:38,539 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,539 - INFO - [OK] Row 273 completed
+2025-11-06 22:44:38,540 - INFO - [INFO] Processing row 277/288 - test_item: S6T
+2025-11-06 22:44:38,540 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está vacío. Además, las calles están tranquilas. María h...
+2025-11-06 22:44:38,541 - INFO - [OK] Answer 272 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,541 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 272/288 pending prompts completed (272/288 total)
+2025-11-06 22:44:38,545 - INFO - [OK] Answer 273 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,545 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 273/288 pending prompts completed (273/288 total)
+2025-11-06 22:44:38,564 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,564 - INFO - [OK] Row 274 completed
+2025-11-06 22:44:38,564 - INFO - [INFO] Processing row 278/288 - test_item: S6F
+2025-11-06 22:44:38,565 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está vacío. Además, las calles están tranquilas. Júlia n...
+2025-11-06 22:44:38,569 - INFO - [OK] Answer 274 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,569 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 274/288 pending prompts completed (274/288 total)
+2025-11-06 22:44:38,573 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,573 - INFO - [OK] Row 275 completed
+2025-11-06 22:44:38,573 - INFO - [INFO] Processing row 279/288 - test_item: S6C
+2025-11-06 22:44:38,573 - INFO - [PROMPT] Aquí tienes el contexto: El parque infantil está lleno. Además, las calles están concurridas. María ...
+2025-11-06 22:44:38,578 - INFO - [OK] Answer 275 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,578 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 275/288 pending prompts completed (275/288 total)
+2025-11-06 22:44:38,584 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,584 - INFO - [OK] Row 276 completed
+2025-11-06 22:44:38,585 - INFO - [INFO] Processing row 280/288 - test_item: S7T
+2025-11-06 22:44:38,585 - INFO - [PROMPT] Aquí tienes el contexto: El césped ha sido cortado. Además, las flores han sido regadas. María había...
+2025-11-06 22:44:38,588 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,589 - INFO - [OK] Row 277 completed
+2025-11-06 22:44:38,589 - INFO - [OK] Answer 276 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,589 - INFO - [INFO] Processing row 281/288 - test_item: S7F
+2025-11-06 22:44:38,589 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 276/288 pending prompts completed (276/288 total)
+2025-11-06 22:44:38,590 - INFO - [PROMPT] Aquí tienes el contexto: El césped ha sido cortado. Además, las flores han sido regadas. María había...
+2025-11-06 22:44:38,594 - INFO - [OK] Answer 277 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,594 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 277/288 pending prompts completed (277/288 total)
+2025-11-06 22:44:38,614 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,615 - INFO - [OK] Row 278 completed
+2025-11-06 22:44:38,615 - INFO - [INFO] Processing row 282/288 - test_item: S7C
+2025-11-06 22:44:38,615 - INFO - [PROMPT] Aquí tienes el contexto: El césped no ha sido cortado. Además, las flores no han sido regadas. María...
+2025-11-06 22:44:38,619 - INFO - [OK] Answer 278 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,619 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 278/288 pending prompts completed (278/288 total)
+2025-11-06 22:44:38,621 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,621 - INFO - [OK] Row 279 completed
+2025-11-06 22:44:38,621 - INFO - [INFO] Processing row 283/288 - test_item: S8T
+2025-11-06 22:44:38,621 - INFO - [PROMPT] Aquí tienes el contexto: El perro está jugando. Además, el gato está subiendo al árbol. María había ...
+2025-11-06 22:44:38,625 - INFO - [OK] Answer 279 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,626 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 279/288 pending prompts completed (279/288 total)
+2025-11-06 22:44:38,631 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,631 - INFO - [OK] Row 280 completed
+2025-11-06 22:44:38,631 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,631 - INFO - [INFO] Processing row 284/288 - test_item: S8F
+2025-11-06 22:44:38,632 - INFO - [OK] Row 281 completed
+2025-11-06 22:44:38,632 - INFO - [PROMPT] Aquí tienes el contexto: El perro está jugando. Además, el gato está subiendo al árbol. Antonio no l...
+2025-11-06 22:44:38,632 - INFO - [INFO] Processing row 285/288 - test_item: S8C
+2025-11-06 22:44:38,633 - INFO - [PROMPT] Aquí tienes el contexto: El perro no está jugando. Además, el gato está durmiendo. María había dicho...
+2025-11-06 22:44:38,635 - INFO - [OK] Answer 280 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,636 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 280/288 pending prompts completed (280/288 total)
+2025-11-06 22:44:38,639 - INFO - [OK] Answer 281 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,639 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 281/288 pending prompts completed (281/288 total)
+2025-11-06 22:44:38,657 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,657 - INFO - [OK] Row 282 completed
+2025-11-06 22:44:38,657 - INFO - [INFO] Processing row 286/288 - test_item: S9T
+2025-11-06 22:44:38,658 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está vacía. Además, el horno está estropeado. María había dicho: ...
+2025-11-06 22:44:38,661 - INFO - [OK] Answer 282 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,661 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 282/288 pending prompts completed (282/288 total)
+2025-11-06 22:44:38,664 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,664 - INFO - [OK] Row 283 completed
+2025-11-06 22:44:38,664 - INFO - [INFO] Processing row 287/288 - test_item: S9F
+2025-11-06 22:44:38,664 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está vacía. Además, el horno está estropeado. Ana no trajo donuts...
+2025-11-06 22:44:38,668 - INFO - [OK] Answer 283 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,669 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 283/288 pending prompts completed (283/288 total)
+2025-11-06 22:44:38,675 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,675 - INFO - [OK] Row 285 completed
+2025-11-06 22:44:38,675 - INFO - [INFO] Processing row 288/288 - test_item: S9C
+2025-11-06 22:44:38,675 - INFO - [PROMPT] Aquí tienes el contexto: La nevera está llena. Además, el horno está encendido. María había dicho: "...
+2025-11-06 22:44:38,679 - INFO - [OK] Answer 285 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,679 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 284/288 pending prompts completed (284/288 total)
+2025-11-06 22:44:38,680 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,680 - INFO - [OK] Row 284 completed
+2025-11-06 22:44:38,684 - INFO - [OK] Answer 284 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,684 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 285/288 pending prompts completed (285/288 total)
+2025-11-06 22:44:38,692 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,692 - INFO - [OK] Row 286 completed
+2025-11-06 22:44:38,695 - INFO - [OK] Answer 286 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,695 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 286/288 pending prompts completed (286/288 total)
+2025-11-06 22:44:38,700 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,700 - INFO - [OK] Row 287 completed
+2025-11-06 22:44:38,702 - INFO - [OK] Answer 287 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,702 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 287/288 pending prompts completed (287/288 total)
+2025-11-06 22:44:38,706 - INFO - [RESPONSE] María había dicho
+2025-11-06 22:44:38,706 - INFO - [OK] Row 288 completed
+2025-11-06 22:44:38,708 - INFO - [OK] Answer 288 saved to answers\distilbert-base-cased-distilled-squad_answers.csv
+2025-11-06 22:44:38,708 - INFO - [PROGRESS] distilbert-base-cased-distilled-squad - 288/288 pending prompts completed (288/288 total)
+2025-11-06 22:44:38,709 - INFO - [OK] All rows processed for distilbert-base-cased-distilled-squad
+2025-11-06 22:44:38,709 - INFO - [INFO] Unloading model: distilbert-base-cased-distilled-squad
+2025-11-06 22:44:38,727 - INFO - [OK] Model distilbert-base-cased-distilled-squad unloaded successfully
+2025-11-06 22:44:38,727 - INFO - [OK] ===== Completed processing for model: distilbert-base-cased-distilled-squad =====
+
+2025-11-06 22:44:38,727 - INFO - [OK] Model distilbert-base-cased-distilled-squad completed successfully (1/9)
+2025-11-06 22:44:38,727 - INFO - [INFO] Processing model 2/9: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-06 22:44:38,727 - INFO - [INFO] ===== Starting processing for model: mistralai/Mistral-7B-Instruct-v0.2 =====
+2025-11-06 22:44:38,730 - INFO - [INFO] Found existing answers file: answers\mistralai-Mistral-7B-Instruct-v0.2_answers.csv
+2025-11-06 22:44:38,731 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-06 22:44:38,731 - INFO - [SKIP] Model mistralai/Mistral-7B-Instruct-v0.2 has all answers completed, skipping model load
+2025-11-06 22:44:38,731 - INFO - [OK] Model mistralai/Mistral-7B-Instruct-v0.2 completed successfully (2/9)
+2025-11-06 22:44:38,731 - INFO - [INFO] Processing model 3/9: tiiuae/falcon-7b-instruct
+2025-11-06 22:44:38,731 - INFO - [INFO] ===== Starting processing for model: tiiuae/falcon-7b-instruct =====
+2025-11-06 22:44:38,733 - INFO - [INFO] Found existing answers file: answers\tiiuae-falcon-7b-instruct_answers.csv
+2025-11-06 22:44:38,733 - INFO - [INFO] Existing progress: 288/288 answers completed
+2025-11-06 22:44:38,734 - INFO - [SKIP] Model tiiuae/falcon-7b-instruct has all answers completed, skipping model load
+2025-11-06 22:44:38,734 - INFO - [OK] Model tiiuae/falcon-7b-instruct completed successfully (3/9)
+2025-11-06 22:44:38,734 - INFO - [INFO] Processing model 4/9: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini
+2025-11-06 22:44:38,734 - INFO - [INFO] ===== Starting processing for model: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini =====
+2025-11-06 22:44:38,734 - INFO - [INFO] Model mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini has 288 pending answers, loading model...
+2025-11-06 22:44:38,734 - INFO - [INFO] Loading model: mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini (device: cpu)
+2025-11-06 22:47:01,514 - INFO - [OK] Model and tokenizer loaded successfully on cpu
+2025-11-06 22:47:01,522 - INFO - [INFO] Starting parallel processing for mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini with 4 workers
+2025-11-06 22:47:01,541 - INFO - [INFO] Processing 288 pending prompts...
+2025-11-06 22:47:01,556 - INFO - [INFO] Processing row 1/288 - test_item: B1T
+2025-11-06 22:47:01,556 - INFO - [PROMPT] Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge...
+2025-11-06 22:47:01,560 - INFO - [INFO] Processing row 2/288 - test_item: B1F
+2025-11-06 22:47:01,560 - INFO - [PROMPT] Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridg...
+2025-11-06 22:47:01,560 - INFO - [INFO] Processing row 3/288 - test_item: B1C
+2025-11-06 22:47:01,560 - INFO - [PROMPT] Here's the context: John is not hungry. There is pasta in the fridge. Mary says: "If John is hungry,...
+2025-11-06 22:47:01,561 - INFO - [INFO] Processing row 4/288 - test_item: B2T
+2025-11-06 22:47:01,566 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen i...
+2025-11-06 22:55:49,673 - INFO - [RESPONSE] Yes, it is true that there is pizza in the oven, based on what Mary says.://
+
+The statement "If John is hungry, there is pizza in the oven" implies that if the antecedent (John is hungry) is true, the...
+2025-11-06 22:55:49,683 - INFO - [OK] Row 1 completed
+2025-11-06 22:55:49,686 - INFO - [INFO] Processing row 5/288 - test_item: B2F
+2025-11-06 22:55:49,702 - INFO - [PROMPT] Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen ...
+2025-11-06 22:55:49,886 - INFO - [OK] Answer 1 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 22:55:49,887 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 1/288 pending prompts completed (1/288 total)
+2025-11-06 22:56:01,428 - INFO - [RESPONSE] No, it is not true that there is pizza in the oven. John is hungry, but there is no pizza in the oven according to the context provided. Mary's statement is false.://> 
+The answer is no. 
+
+If John is ...
+2025-11-06 22:56:01,432 - INFO - [OK] Row 2 completed
+2025-11-06 22:56:01,434 - INFO - [INFO] Processing row 6/288 - test_item: B2C
+2025-11-06 22:56:01,439 - INFO - [PROMPT] Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: "If Ni...
+2025-11-06 22:56:01,505 - INFO - [OK] Answer 2 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 22:56:01,505 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 2/288 pending prompts completed (2/288 total)
+2025-11-06 23:02:32,441 - INFO - [RESPONSE] No, it is not true that there is aspirin on the table. The statement made by Mary is false because it is explicitly stated that there is no aspirin on the table.:// Nicole's head hurts and there is no...
+2025-11-06 23:02:32,452 - INFO - [OK] Row 5 completed
+2025-11-06 23:02:32,454 - INFO - [INFO] Processing row 7/288 - test_item: B3T
+2025-11-06 23:02:32,459 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on t...
+2025-11-06 23:02:32,535 - INFO - [OK] Answer 5 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:02:32,536 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 3/288 pending prompts completed (3/288 total)
+2025-11-06 23:08:27,077 - INFO - [RESPONSE] The statement "If John is hungry, there is pizza in the oven" is a conditional statement. It does not provide information about the actual presence of pizza in the oven; it only states that if John is...
+2025-11-06 23:08:27,080 - INFO - [OK] Row 3 completed
+2025-11-06 23:08:27,084 - INFO - [INFO] Processing row 8/288 - test_item: B3F
+2025-11-06 23:08:27,109 - INFO - [PROMPT] Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on ...
+2025-11-06 23:08:27,159 - INFO - [OK] Answer 3 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:08:27,159 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 4/288 pending prompts completed (4/288 total)
+2025-11-06 23:09:49,961 - INFO - [RESPONSE] Yes, it is true that there is aspirin on the table, based on Mary's statement. She is affirming that if Nicole's head hurts, then there is aspirin on the table, which means that the presence of aspiri...
+2025-11-06 23:09:49,965 - INFO - [OK] Row 4 completed
+2025-11-06 23:09:49,967 - INFO - [INFO] Processing row 9/288 - test_item: B3C
+2025-11-06 23:09:49,973 - INFO - [PROMPT] Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: "If Lucy is t...
+2025-11-06 23:09:50,025 - INFO - [OK] Answer 4 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:09:50,026 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 5/288 pending prompts completed (5/288 total)
+2025-11-06 23:14:31,113 - INFO - [RESPONSE] Based on Mary's statement, it is not necessarily true that there is water in the fridge. Mary's statement is a conditional statement that suggests that if Lucy is thirsty, then there is water in the f...
+2025-11-06 23:14:31,119 - INFO - [OK] Row 7 completed
+2025-11-06 23:14:31,123 - INFO - [INFO] Processing row 10/288 - test_item: B4T
+2025-11-06 23:14:31,130 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a comp...
+2025-11-06 23:14:31,189 - INFO - [OK] Answer 7 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:14:31,190 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 6/288 pending prompts completed (6/288 total)
+2025-11-06 23:16:12,715 - INFO - [RESPONSE] No, it is not true that there is water in the fridge. Since Lucy is thirsty and there is no water in the fridge, Mary's statement is false. 
+
+Explanation: Mary's statement implies that if Lucy is thir...
+2025-11-06 23:16:12,718 - INFO - [OK] Row 8 completed
+2025-11-06 23:16:12,719 - INFO - [INFO] Processing row 11/288 - test_item: B4F
+2025-11-06 23:16:12,737 - INFO - [PROMPT] Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no compute...
+2025-11-06 23:16:12,766 - INFO - [OK] Answer 8 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:16:12,767 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 7/288 pending prompts completed (7/288 total)
+2025-11-06 23:16:38,238 - INFO - [RESPONSE] Based on Mary's statement, it is not true that there is aspirin on the table. The statement implies that if Nicole's head hurts, there is aspirin on the table, but since Nicole's head does not hurt, t...
+2025-11-06 23:16:38,239 - INFO - [OK] Row 6 completed
+2025-11-06 23:16:38,239 - INFO - [INFO] Processing row 12/288 - test_item: B4C
+2025-11-06 23:16:38,241 - INFO - [PROMPT] Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: "If...
+2025-11-06 23:16:38,253 - INFO - [OK] Answer 6 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:16:38,254 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 8/288 pending prompts completed (8/288 total)
+2025-11-06 23:19:09,354 - INFO - [RESPONSE] No, it is not true that there is a charger in the drawer. Since Peter's phone is dead and there is no charger in the drawer, Mary's statement is false.://
+The statement implies that a charger is prese...
+2025-11-06 23:19:09,357 - INFO - [OK] Row 11 completed
+2025-11-06 23:19:09,358 - INFO - [INFO] Processing row 13/288 - test_item: B5T
+2025-11-06 23:19:09,362 - INFO - [PROMPT] Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a ...
+2025-11-06 23:19:09,395 - INFO - [OK] Answer 11 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:19:09,395 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 9/288 pending prompts completed (9/288 total)
+2025-11-06 23:24:26,804 - INFO - [RESPONSE] Yes, it is true that there is a charger in the drawer. Mary's statement implies that if Peter's phone is dead (which it isn't, since it is fully charged), there is a charger available in the drawer. T...
+2025-11-06 23:24:26,809 - INFO - [OK] Row 12 completed
+2025-11-06 23:24:26,812 - INFO - [INFO] Processing row 14/288 - test_item: B5F
+2025-11-06 23:24:26,831 - INFO - [PROMPT] Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no rain...
+2025-11-06 23:24:26,869 - INFO - [OK] Answer 12 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:24:26,870 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 10/288 pending prompts completed (10/288 total)
+2025-11-06 23:27:34,208 - INFO - [RESPONSE] The statement made by Mary is conditional; it only holds true if Lucy is thirsty. Since it is given that Lucy is not thirsty, we cannot conclude that there is water in the fridge based on Mary's state...
+2025-11-06 23:27:34,221 - INFO - [OK] Row 9 completed
+2025-11-06 23:27:34,225 - INFO - [INFO] Processing row 15/288 - test_item: B5C
+2025-11-06 23:27:34,232 - INFO - [PROMPT] Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: "If the weather...
+2025-11-06 23:27:34,385 - INFO - [OK] Answer 9 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:27:34,386 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 11/288 pending prompts completed (11/288 total)
+2025-11-06 23:28:38,738 - INFO - [RESPONSE] Yes, it is true that there is a charger in the drawer, according to Mary's statement. She asserts that if Peter's phone is dead, then there is a charger in the drawer, and since it is stated that Pete...
+2025-11-06 23:28:38,741 - INFO - [OK] Row 10 completed
+2025-11-06 23:28:38,745 - INFO - [INFO] Processing row 16/288 - test_item: B6T
+2025-11-06 23:28:38,769 - INFO - [PROMPT] Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the...
+2025-11-06 23:28:38,784 - INFO - [OK] Answer 10 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:28:38,785 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 12/288 pending prompts completed (12/288 total)
+2025-11-06 23:36:35,114 - INFO - [RESPONSE] The truth of the statement cannot be determined based on the information provided. Mary's statement is conditional; it only asserts that if the weather is rainy, then there is an umbrella on the coat ...
+2025-11-06 23:36:35,120 - INFO - [OK] Row 15 completed
+2025-11-06 23:36:35,123 - INFO - [INFO] Processing row 17/288 - test_item: B6F
+2025-11-06 23:36:35,132 - INFO - [PROMPT] Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the fr...
+2025-11-06 23:36:35,190 - INFO - [OK] Answer 15 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:36:35,198 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 13/288 pending prompts completed (13/288 total)
+2025-11-06 23:36:47,751 - INFO - [RESPONSE] Yes, it is true that there is a pump in the garage, based on Mary's statement. She asserts that if the tire is flat, then there is a pump in the garage. Since the tire is flat, her statement implies t...
+2025-11-06 23:36:47,751 - INFO - [OK] Row 16 completed
+2025-11-06 23:36:47,751 - INFO - [INFO] Processing row 18/288 - test_item: B6C
+2025-11-06 23:36:47,753 - INFO - [PROMPT] Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: "If your ti...
+2025-11-06 23:36:47,766 - INFO - [OK] Answer 16 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:36:47,766 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 14/288 pending prompts completed (14/288 total)
+2025-11-06 23:42:17,193 - INFO - [RESPONSE] No, it is not true that there is an umbrella on the coat rack. The statement made by Mary is false because the context states that there is no umbrella on the coat rack. 
+
+In logical terms, Mary's sta...
+2025-11-06 23:42:17,198 - INFO - [OK] Row 14 completed
+2025-11-06 23:42:17,200 - INFO - [INFO] Processing row 19/288 - test_item: B7T
+2025-11-06 23:42:17,217 - INFO - [PROMPT] Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in ...
+2025-11-06 23:42:17,250 - INFO - [OK] Answer 14 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:42:17,250 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 15/288 pending prompts completed (15/288 total)
+2025-11-06 23:43:15,747 - INFO - [RESPONSE] Yes, it is true that there is an umbrella on the coat rack, based on Mary's statement. She claims that if the weather is rainy, then there is an umbrella on the coat rack, and since the weather is ind...
+2025-11-06 23:43:15,754 - INFO - [OK] Row 13 completed
+2025-11-06 23:43:15,758 - INFO - [INFO] Processing row 20/288 - test_item: B7F
+2025-11-06 23:43:15,816 - INFO - [PROMPT] Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the...
+2025-11-06 23:43:15,863 - INFO - [OK] Answer 13 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:43:15,864 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 16/288 pending prompts completed (16/288 total)
+2025-11-06 23:43:40,096 - INFO - [RESPONSE] No, it is not true that there is a pump in the garage. Mary's statement is conditional: it only holds true if your tire is flat. Since your tire is not flat, we cannot conclude that there is a pump in...
+2025-11-06 23:43:40,102 - INFO - [OK] Row 18 completed
+2025-11-06 23:43:40,104 - INFO - [INFO] Processing row 21/288 - test_item: B7C
+2025-11-06 23:43:40,111 - INFO - [PROMPT] Here's the context: The plant is not dry. There is a hose in the garden. Mary says: "If the plant is...
+2025-11-06 23:43:40,169 - INFO - [OK] Answer 18 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:43:40,170 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 17/288 pending prompts completed (17/288 total)
+2025-11-06 23:56:48,169 - INFO - [RESPONSE] No, it is not true that there is a pump in the garage. The statement "If your tire is flat, there is a pump in the garage" is a conditional statement. It means that if the tire is flat, then it follow...
+2025-11-06 23:56:48,177 - INFO - [OK] Row 17 completed
+2025-11-06 23:56:48,179 - INFO - [INFO] Processing row 22/288 - test_item: B8T
+2025-11-06 23:56:48,200 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ...
+2025-11-06 23:56:48,258 - INFO - [OK] Answer 17 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-06 23:56:48,258 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 18/288 pending prompts completed (18/288 total)
+2025-11-07 00:14:29,468 - INFO - [RESPONSE] Yes, it is true that there is a water can on the shelf, based on Mary's statement. She says that if the plant is dry, then there is a water can on the shelf. Since the plant is indeed dry, her stateme...
+2025-11-07 00:14:29,478 - INFO - [OK] Row 19 completed
+2025-11-07 00:14:29,480 - INFO - [INFO] Processing row 23/288 - test_item: B8F
+2025-11-07 00:14:29,506 - INFO - [PROMPT] Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironi...
+2025-11-07 00:14:29,611 - INFO - [OK] Answer 19 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 00:14:29,612 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 19/288 pending prompts completed (19/288 total)
+2025-11-07 00:15:37,077 - INFO - [RESPONSE] No, it is not true that there is a water can on the shelf. Mary's statement implies that if the plant is dry, then there is a water can on the shelf. Since the plant is not dry, it does not follow tha...
+2025-11-07 00:15:37,101 - INFO - [OK] Row 21 completed
+2025-11-07 00:15:37,106 - INFO - [INFO] Processing row 24/288 - test_item: B8C
+2025-11-07 00:15:37,107 - INFO - [PROMPT] Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary s...
+2025-11-07 00:15:37,272 - INFO - [OK] Answer 21 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 00:15:37,274 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 20/288 pending prompts completed (20/288 total)
+2025-11-07 00:16:49,197 - INFO - [RESPONSE] No, it is not true that there is a water can on the shelf. Mary's statement is false because there is no water can on the shelf, and the plant is indeed dry. 
+
+Explanation: Mary's statement implies th...
+2025-11-07 00:16:49,214 - INFO - [OK] Row 20 completed
+2025-11-07 00:16:49,217 - INFO - [INFO] Processing row 25/288 - test_item: B9T
+2025-11-07 00:16:49,220 - INFO - [PROMPT] Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper o...
+2025-11-07 00:16:49,342 - INFO - [OK] Answer 20 saved to answers\mlfoundations-dev-oh-dcft-v3.1-gpt-4o-mini_answers.csv
+2025-11-07 00:16:49,344 - INFO - [PROGRESS] mlfoundations-dev/oh-dcft-v3.1-gpt-4o-mini - 21/288 pending prompts completed (21/288 total)
