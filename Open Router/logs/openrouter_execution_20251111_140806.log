@@ -1,0 +1,681 @@
+2025-11-11 14:08:06,442 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-11 14:08:06,453 - INFO - Processing model openai/gpt-5
+2025-11-11 14:08:06,457 - INFO - No pending prompts
+2025-11-11 14:08:06,465 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-11 14:08:06,475 - INFO - No pending prompts
+2025-11-11 14:08:06,481 - INFO - Processing model meta-llama/llama-4-scout:free
+2025-11-11 14:08:06,487 - INFO - No pending prompts
+2025-11-11 14:08:06,492 - INFO - Processing model google/gemma-3-4b-it:free
+2025-11-11 14:08:06,497 - INFO - No pending prompts
+2025-11-11 14:08:06,503 - INFO - Processing model openai/chatgpt-4o-latest
+2025-11-11 14:08:06,508 - INFO - No pending prompts
+2025-11-11 14:08:06,513 - INFO - Processing model x-ai/grok-4-fast
+2025-11-11 14:08:06,518 - INFO - No pending prompts
+2025-11-11 14:08:06,525 - INFO - Processing model google/gemini-2.5-flash
+2025-11-11 14:08:06,532 - INFO - No pending prompts
+2025-11-11 14:08:06,537 - INFO - Processing model google/gemini-2.5-pro
+2025-11-11 14:08:06,543 - INFO - No pending prompts
+2025-11-11 14:08:06,550 - INFO - Processing model anthropic/claude-sonnet-4.5
+2025-11-11 14:08:06,558 - INFO - No pending prompts
+2025-11-11 14:08:06,566 - INFO - Processing model anthropic/claude-haiku-4.5
+2025-11-11 14:08:06,573 - INFO - No pending prompts
+2025-11-11 14:08:06,580 - INFO - Processing model anthropic/claude-opus-4
+2025-11-11 14:08:06,587 - INFO - No pending prompts
+2025-11-11 14:08:06,595 - INFO - Processing model microsoft/phi-4-reasoning-plus
+2025-11-11 14:08:06,602 - INFO - No pending prompts
+2025-11-11 14:08:06,611 - INFO - Processing model arcee-ai/virtuoso-large
+2025-11-11 14:08:06,618 - INFO - No pending prompts
+2025-11-11 14:08:06,618 - INFO - Processing model allenai/olmo-2-0325-32b-instruct
+2025-11-11 14:08:06,620 - INFO - Processing 1/288
+2025-11-11 14:08:06,620 - INFO - Processing 2/288
+2025-11-11 14:08:06,621 - INFO - Processing 3/288
+2025-11-11 14:08:06,621 - INFO - Processing 4/288
+2025-11-11 14:08:13,297 - INFO - Row 1 completed
+2025-11-11 14:08:13,297 - INFO - Processing 5/288
+2025-11-11 14:08:13,303 - INFO - Saved answer 1 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:08:13,304 - INFO - Progress: 1/288 pending completed
+2025-11-11 14:08:47,236 - INFO - Row 2 completed
+2025-11-11 14:08:47,236 - INFO - Processing 6/288
+2025-11-11 14:08:47,240 - INFO - Saved answer 2 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:08:47,240 - INFO - Progress: 2/288 pending completed
+2025-11-11 14:09:15,511 - INFO - Row 3 completed
+2025-11-11 14:09:15,512 - INFO - Processing 7/288
+2025-11-11 14:09:15,517 - INFO - Saved answer 3 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:09:15,517 - INFO - Progress: 3/288 pending completed
+2025-11-11 14:09:47,830 - INFO - Row 4 completed
+2025-11-11 14:09:47,830 - INFO - Processing 8/288
+2025-11-11 14:09:47,833 - INFO - Saved answer 4 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:09:47,834 - INFO - Progress: 4/288 pending completed
+2025-11-11 14:10:18,477 - INFO - Row 5 completed
+2025-11-11 14:10:18,477 - INFO - Processing 9/288
+2025-11-11 14:10:18,481 - INFO - Saved answer 5 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:10:18,481 - INFO - Progress: 5/288 pending completed
+2025-11-11 14:10:44,809 - INFO - Row 6 completed
+2025-11-11 14:10:44,809 - INFO - Processing 10/288
+2025-11-11 14:10:44,812 - INFO - Saved answer 6 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:10:44,812 - INFO - Progress: 6/288 pending completed
+2025-11-11 14:11:11,921 - INFO - Row 7 completed
+2025-11-11 14:11:11,921 - INFO - Processing 11/288
+2025-11-11 14:11:11,924 - INFO - Saved answer 7 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:11:11,924 - INFO - Progress: 7/288 pending completed
+2025-11-11 14:11:39,985 - INFO - Row 8 completed
+2025-11-11 14:11:39,985 - INFO - Processing 12/288
+2025-11-11 14:11:39,988 - INFO - Saved answer 8 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:11:39,989 - INFO - Progress: 8/288 pending completed
+2025-11-11 14:12:19,920 - INFO - Row 9 completed
+2025-11-11 14:12:19,920 - INFO - Processing 13/288
+2025-11-11 14:12:19,923 - INFO - Saved answer 9 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:12:19,924 - INFO - Progress: 9/288 pending completed
+2025-11-11 14:12:43,489 - INFO - Row 10 completed
+2025-11-11 14:12:43,489 - INFO - Processing 14/288
+2025-11-11 14:12:43,492 - INFO - Saved answer 10 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:12:43,493 - INFO - Progress: 10/288 pending completed
+2025-11-11 14:13:17,754 - INFO - Row 11 completed
+2025-11-11 14:13:17,754 - INFO - Processing 15/288
+2025-11-11 14:13:17,757 - INFO - Saved answer 11 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:13:17,758 - INFO - Progress: 11/288 pending completed
+2025-11-11 14:13:42,071 - INFO - Row 12 completed
+2025-11-11 14:13:42,071 - INFO - Processing 16/288
+2025-11-11 14:13:42,075 - INFO - Saved answer 12 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:13:42,075 - INFO - Progress: 12/288 pending completed
+2025-11-11 14:14:10,609 - INFO - Row 13 completed
+2025-11-11 14:14:10,609 - INFO - Processing 17/288
+2025-11-11 14:14:10,613 - INFO - Saved answer 13 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:14:10,613 - INFO - Progress: 13/288 pending completed
+2025-11-11 14:14:45,920 - INFO - Row 14 completed
+2025-11-11 14:14:45,920 - INFO - Processing 18/288
+2025-11-11 14:14:45,924 - INFO - Saved answer 14 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:14:45,924 - INFO - Progress: 14/288 pending completed
+2025-11-11 14:15:11,045 - INFO - Row 15 completed
+2025-11-11 14:15:11,046 - INFO - Processing 19/288
+2025-11-11 14:15:11,049 - INFO - Saved answer 15 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:15:11,050 - INFO - Progress: 15/288 pending completed
+2025-11-11 14:15:41,109 - INFO - Row 16 completed
+2025-11-11 14:15:41,109 - INFO - Processing 20/288
+2025-11-11 14:15:41,112 - INFO - Saved answer 16 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:15:41,112 - INFO - Progress: 16/288 pending completed
+2025-11-11 14:16:17,598 - INFO - Row 17 completed
+2025-11-11 14:16:17,599 - INFO - Processing 21/288
+2025-11-11 14:16:17,602 - INFO - Saved answer 17 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:16:17,602 - INFO - Progress: 17/288 pending completed
+2025-11-11 14:16:44,148 - INFO - Row 18 completed
+2025-11-11 14:16:44,148 - INFO - Processing 22/288
+2025-11-11 14:16:44,152 - INFO - Saved answer 18 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:16:44,152 - INFO - Progress: 18/288 pending completed
+2025-11-11 14:17:11,439 - INFO - Row 19 completed
+2025-11-11 14:17:11,439 - INFO - Processing 23/288
+2025-11-11 14:17:11,443 - INFO - Saved answer 19 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:17:11,443 - INFO - Progress: 19/288 pending completed
+2025-11-11 14:17:50,225 - INFO - Row 20 completed
+2025-11-11 14:17:50,225 - INFO - Processing 24/288
+2025-11-11 14:17:50,228 - INFO - Saved answer 20 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:17:50,228 - INFO - Progress: 20/288 pending completed
+2025-11-11 14:18:20,988 - INFO - Row 21 completed
+2025-11-11 14:18:20,988 - INFO - Processing 25/288
+2025-11-11 14:18:20,992 - INFO - Saved answer 21 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:18:20,992 - INFO - Progress: 21/288 pending completed
+2025-11-11 14:18:45,008 - INFO - Row 22 completed
+2025-11-11 14:18:45,008 - INFO - Processing 26/288
+2025-11-11 14:18:45,012 - INFO - Saved answer 22 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:18:45,012 - INFO - Progress: 22/288 pending completed
+2025-11-11 14:19:21,296 - INFO - Row 23 completed
+2025-11-11 14:19:21,296 - INFO - Processing 27/288
+2025-11-11 14:19:21,300 - INFO - Saved answer 23 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:19:21,301 - INFO - Progress: 23/288 pending completed
+2025-11-11 14:19:46,381 - INFO - Row 24 completed
+2025-11-11 14:19:46,381 - INFO - Processing 28/288
+2025-11-11 14:19:46,385 - INFO - Saved answer 24 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:19:46,385 - INFO - Progress: 24/288 pending completed
+2025-11-11 14:20:10,696 - INFO - Row 25 completed
+2025-11-11 14:20:10,696 - INFO - Processing 29/288
+2025-11-11 14:20:10,700 - INFO - Saved answer 25 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:20:10,700 - INFO - Progress: 25/288 pending completed
+2025-11-11 14:20:44,360 - INFO - Row 26 completed
+2025-11-11 14:20:44,360 - INFO - Processing 30/288
+2025-11-11 14:20:44,364 - INFO - Saved answer 26 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:20:44,364 - INFO - Progress: 26/288 pending completed
+2025-11-11 14:21:13,445 - INFO - Row 27 completed
+2025-11-11 14:21:13,445 - INFO - Processing 31/288
+2025-11-11 14:21:13,449 - INFO - Saved answer 27 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:21:13,449 - INFO - Progress: 27/288 pending completed
+2025-11-11 14:21:40,114 - INFO - Row 28 completed
+2025-11-11 14:21:40,114 - INFO - Processing 32/288
+2025-11-11 14:21:40,118 - INFO - Saved answer 28 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:21:40,118 - INFO - Progress: 28/288 pending completed
+2025-11-11 14:22:13,762 - INFO - Row 29 completed
+2025-11-11 14:22:13,762 - INFO - Processing 33/288
+2025-11-11 14:22:13,766 - INFO - Saved answer 29 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:22:13,766 - INFO - Progress: 29/288 pending completed
+2025-11-11 14:22:39,302 - INFO - Row 30 completed
+2025-11-11 14:22:39,302 - INFO - Processing 34/288
+2025-11-11 14:22:39,306 - INFO - Saved answer 30 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:22:39,306 - INFO - Progress: 30/288 pending completed
+2025-11-11 14:23:15,074 - INFO - Row 31 completed
+2025-11-11 14:23:15,074 - INFO - Processing 35/288
+2025-11-11 14:23:15,078 - INFO - Saved answer 31 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:23:15,078 - INFO - Progress: 31/288 pending completed
+2025-11-11 14:23:43,776 - INFO - Row 32 completed
+2025-11-11 14:23:43,777 - INFO - Processing 36/288
+2025-11-11 14:23:43,780 - INFO - Saved answer 32 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:23:43,781 - INFO - Progress: 32/288 pending completed
+2025-11-11 14:24:23,167 - INFO - Row 33 completed
+2025-11-11 14:24:23,167 - INFO - Processing 37/288
+2025-11-11 14:24:23,171 - INFO - Saved answer 33 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:24:23,171 - INFO - Progress: 33/288 pending completed
+2025-11-11 14:24:41,021 - INFO - Row 34 completed
+2025-11-11 14:24:41,021 - INFO - Processing 38/288
+2025-11-11 14:24:41,025 - INFO - Saved answer 34 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:24:41,026 - INFO - Progress: 34/288 pending completed
+2025-11-11 14:25:11,368 - INFO - Row 35 completed
+2025-11-11 14:25:11,368 - INFO - Processing 39/288
+2025-11-11 14:25:11,372 - INFO - Saved answer 35 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:25:11,372 - INFO - Progress: 35/288 pending completed
+2025-11-11 14:25:41,844 - INFO - Row 36 completed
+2025-11-11 14:25:41,844 - INFO - Processing 40/288
+2025-11-11 14:25:41,848 - INFO - Saved answer 36 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:25:41,848 - INFO - Progress: 36/288 pending completed
+2025-11-11 14:26:13,838 - INFO - Row 37 completed
+2025-11-11 14:26:13,838 - INFO - Processing 41/288
+2025-11-11 14:26:13,842 - INFO - Saved answer 37 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:26:13,842 - INFO - Progress: 37/288 pending completed
+2025-11-11 14:26:40,406 - INFO - Row 38 completed
+2025-11-11 14:26:40,407 - INFO - Processing 42/288
+2025-11-11 14:26:40,410 - INFO - Saved answer 38 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:26:40,410 - INFO - Progress: 38/288 pending completed
+2025-11-11 14:27:11,310 - INFO - Row 39 completed
+2025-11-11 14:27:11,310 - INFO - Processing 43/288
+2025-11-11 14:27:11,314 - INFO - Saved answer 39 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:27:11,314 - INFO - Progress: 39/288 pending completed
+2025-11-11 14:27:44,331 - INFO - Row 40 completed
+2025-11-11 14:27:44,331 - INFO - Processing 44/288
+2025-11-11 14:27:44,336 - INFO - Saved answer 40 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:27:44,336 - INFO - Progress: 40/288 pending completed
+2025-11-11 14:28:21,190 - INFO - Row 41 completed
+2025-11-11 14:28:21,190 - INFO - Processing 45/288
+2025-11-11 14:28:21,193 - INFO - Saved answer 41 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:28:21,194 - INFO - Progress: 41/288 pending completed
+2025-11-11 14:28:39,242 - INFO - Row 42 completed
+2025-11-11 14:28:39,242 - INFO - Processing 46/288
+2025-11-11 14:28:39,246 - INFO - Saved answer 42 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:28:39,246 - INFO - Progress: 42/288 pending completed
+2025-11-11 14:29:12,495 - INFO - Row 43 completed
+2025-11-11 14:29:12,495 - INFO - Processing 47/288
+2025-11-11 14:29:12,499 - INFO - Saved answer 43 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:29:12,499 - INFO - Progress: 43/288 pending completed
+2025-11-11 14:29:43,051 - INFO - Row 44 completed
+2025-11-11 14:29:43,051 - INFO - Processing 48/288
+2025-11-11 14:29:43,059 - INFO - Saved answer 44 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:29:43,059 - INFO - Progress: 44/288 pending completed
+2025-11-11 14:30:12,615 - INFO - Row 45 completed
+2025-11-11 14:30:12,615 - INFO - Processing 49/288
+2025-11-11 14:30:12,619 - INFO - Saved answer 45 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:30:12,619 - INFO - Progress: 45/288 pending completed
+2025-11-11 14:30:41,378 - INFO - Row 46 completed
+2025-11-11 14:30:41,378 - INFO - Processing 50/288
+2025-11-11 14:30:41,382 - INFO - Saved answer 46 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:30:41,383 - INFO - Progress: 46/288 pending completed
+2025-11-11 14:31:14,885 - INFO - Row 47 completed
+2025-11-11 14:31:14,885 - INFO - Processing 51/288
+2025-11-11 14:31:14,890 - INFO - Saved answer 47 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:31:14,890 - INFO - Progress: 47/288 pending completed
+2025-11-11 14:31:39,316 - INFO - Row 48 completed
+2025-11-11 14:31:39,316 - INFO - Processing 52/288
+2025-11-11 14:31:39,321 - INFO - Saved answer 48 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:31:39,321 - INFO - Progress: 48/288 pending completed
+2025-11-11 14:32:10,991 - INFO - Row 49 completed
+2025-11-11 14:32:10,991 - INFO - Processing 53/288
+2025-11-11 14:32:10,995 - INFO - Saved answer 49 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:32:10,996 - INFO - Progress: 49/288 pending completed
+2025-11-11 14:32:43,610 - INFO - Row 50 completed
+2025-11-11 14:32:43,610 - INFO - Processing 54/288
+2025-11-11 14:32:43,615 - INFO - Saved answer 50 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:32:43,615 - INFO - Progress: 50/288 pending completed
+2025-11-11 14:33:09,102 - INFO - Row 51 completed
+2025-11-11 14:33:09,102 - INFO - Processing 55/288
+2025-11-11 14:33:09,106 - INFO - Saved answer 51 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:33:09,106 - INFO - Progress: 51/288 pending completed
+2025-11-11 14:33:45,213 - INFO - Row 52 completed
+2025-11-11 14:33:45,213 - INFO - Processing 56/288
+2025-11-11 14:33:45,217 - INFO - Saved answer 52 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:33:45,217 - INFO - Progress: 52/288 pending completed
+2025-11-11 14:34:16,470 - INFO - Row 53 completed
+2025-11-11 14:34:16,470 - INFO - Processing 57/288
+2025-11-11 14:34:16,475 - INFO - Saved answer 53 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:34:16,475 - INFO - Progress: 53/288 pending completed
+2025-11-11 14:34:41,518 - INFO - Row 54 completed
+2025-11-11 14:34:41,518 - INFO - Processing 58/288
+2025-11-11 14:34:41,522 - INFO - Saved answer 54 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:34:41,522 - INFO - Progress: 54/288 pending completed
+2025-11-11 14:35:15,982 - INFO - Row 55 completed
+2025-11-11 14:35:15,983 - INFO - Processing 59/288
+2025-11-11 14:35:15,987 - INFO - Saved answer 55 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:35:15,987 - INFO - Progress: 55/288 pending completed
+2025-11-11 14:35:44,171 - INFO - Row 56 completed
+2025-11-11 14:35:44,171 - INFO - Processing 60/288
+2025-11-11 14:35:44,176 - INFO - Saved answer 56 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:35:44,176 - INFO - Progress: 56/288 pending completed
+2025-11-11 14:36:11,136 - INFO - Row 57 completed
+2025-11-11 14:36:11,136 - INFO - Processing 61/288
+2025-11-11 14:36:11,141 - INFO - Saved answer 57 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:36:11,141 - INFO - Progress: 57/288 pending completed
+2025-11-11 14:36:41,312 - INFO - Row 58 completed
+2025-11-11 14:36:41,313 - INFO - Processing 62/288
+2025-11-11 14:36:41,317 - INFO - Saved answer 58 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:36:41,317 - INFO - Progress: 58/288 pending completed
+2025-11-11 14:37:13,295 - INFO - Row 59 completed
+2025-11-11 14:37:13,295 - INFO - Processing 63/288
+2025-11-11 14:37:13,300 - INFO - Saved answer 59 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:37:13,300 - INFO - Progress: 59/288 pending completed
+2025-11-11 14:37:41,811 - INFO - Row 60 completed
+2025-11-11 14:37:41,811 - INFO - Processing 64/288
+2025-11-11 14:37:41,815 - INFO - Saved answer 60 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:37:41,815 - INFO - Progress: 60/288 pending completed
+2025-11-11 14:38:09,927 - INFO - Row 61 completed
+2025-11-11 14:38:09,927 - INFO - Processing 65/288
+2025-11-11 14:38:09,931 - INFO - Saved answer 61 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:38:09,931 - INFO - Progress: 61/288 pending completed
+2025-11-11 14:38:41,957 - INFO - Row 62 completed
+2025-11-11 14:38:41,957 - INFO - Processing 66/288
+2025-11-11 14:38:41,961 - INFO - Saved answer 62 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:38:41,961 - INFO - Progress: 62/288 pending completed
+2025-11-11 14:39:12,085 - INFO - Row 63 completed
+2025-11-11 14:39:12,085 - INFO - Processing 67/288
+2025-11-11 14:39:12,090 - INFO - Saved answer 63 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:39:12,090 - INFO - Progress: 63/288 pending completed
+2025-11-11 14:39:41,931 - INFO - Row 64 completed
+2025-11-11 14:39:41,931 - INFO - Processing 68/288
+2025-11-11 14:39:41,935 - INFO - Saved answer 64 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:39:41,935 - INFO - Progress: 64/288 pending completed
+2025-11-11 14:40:11,257 - INFO - Row 65 completed
+2025-11-11 14:40:11,257 - INFO - Processing 69/288
+2025-11-11 14:40:11,261 - INFO - Saved answer 65 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:40:11,261 - INFO - Progress: 65/288 pending completed
+2025-11-11 14:40:45,323 - INFO - Row 66 completed
+2025-11-11 14:40:45,323 - INFO - Processing 70/288
+2025-11-11 14:40:45,327 - INFO - Saved answer 66 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:40:45,327 - INFO - Progress: 66/288 pending completed
+2025-11-11 14:41:10,138 - INFO - Row 67 completed
+2025-11-11 14:41:10,139 - INFO - Processing 71/288
+2025-11-11 14:41:10,142 - INFO - Saved answer 67 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:41:10,143 - INFO - Progress: 67/288 pending completed
+2025-11-11 14:41:39,930 - INFO - Row 68 completed
+2025-11-11 14:41:39,930 - INFO - Processing 72/288
+2025-11-11 14:41:39,934 - INFO - Saved answer 68 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:41:39,934 - INFO - Progress: 68/288 pending completed
+2025-11-11 14:42:13,644 - INFO - Row 69 completed
+2025-11-11 14:42:13,644 - INFO - Processing 73/288
+2025-11-11 14:42:13,649 - INFO - Saved answer 69 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:42:13,649 - INFO - Progress: 69/288 pending completed
+2025-11-11 14:42:43,305 - INFO - Row 70 completed
+2025-11-11 14:42:43,305 - INFO - Processing 74/288
+2025-11-11 14:42:43,309 - INFO - Saved answer 70 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:42:43,309 - INFO - Progress: 70/288 pending completed
+2025-11-11 14:43:16,201 - INFO - Row 71 completed
+2025-11-11 14:43:16,201 - INFO - Processing 75/288
+2025-11-11 14:43:16,206 - INFO - Saved answer 71 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:43:16,206 - INFO - Progress: 71/288 pending completed
+2025-11-11 14:43:42,178 - INFO - Row 72 completed
+2025-11-11 14:43:42,178 - INFO - Processing 76/288
+2025-11-11 14:43:42,182 - INFO - Saved answer 72 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:43:42,182 - INFO - Progress: 72/288 pending completed
+2025-11-11 14:44:20,718 - INFO - Row 73 completed
+2025-11-11 14:44:20,719 - INFO - Processing 77/288
+2025-11-11 14:44:20,723 - INFO - Saved answer 73 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:44:20,723 - INFO - Progress: 73/288 pending completed
+2025-11-11 14:44:45,254 - INFO - Row 74 completed
+2025-11-11 14:44:45,254 - INFO - Processing 78/288
+2025-11-11 14:44:45,258 - INFO - Saved answer 74 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:44:45,258 - INFO - Progress: 74/288 pending completed
+2025-11-11 14:45:34,005 - INFO - Row 75 completed
+2025-11-11 14:45:34,005 - INFO - Processing 79/288
+2025-11-11 14:45:34,010 - INFO - Saved answer 75 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:45:34,010 - INFO - Progress: 75/288 pending completed
+2025-11-11 14:45:44,804 - INFO - Row 76 completed
+2025-11-11 14:45:44,804 - INFO - Processing 80/288
+2025-11-11 14:45:44,808 - INFO - Saved answer 76 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:45:44,809 - INFO - Progress: 76/288 pending completed
+2025-11-11 14:46:14,166 - INFO - Row 77 completed
+2025-11-11 14:46:14,166 - INFO - Processing 81/288
+2025-11-11 14:46:14,170 - INFO - Saved answer 77 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:46:14,170 - INFO - Progress: 77/288 pending completed
+2025-11-11 14:47:04,271 - INFO - Row 78 completed
+2025-11-11 14:47:04,272 - INFO - Processing 82/288
+2025-11-11 14:47:04,279 - INFO - Saved answer 78 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:47:04,279 - INFO - Progress: 78/288 pending completed
+2025-11-11 14:47:08,749 - INFO - Row 79 completed
+2025-11-11 14:47:08,749 - INFO - Processing 83/288
+2025-11-11 14:47:08,754 - INFO - Saved answer 79 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:47:08,754 - INFO - Progress: 79/288 pending completed
+2025-11-11 14:47:52,288 - INFO - Row 80 completed
+2025-11-11 14:47:52,288 - INFO - Processing 84/288
+2025-11-11 14:47:52,293 - INFO - Saved answer 80 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:47:52,293 - INFO - Progress: 80/288 pending completed
+2025-11-11 14:48:16,025 - INFO - Row 81 completed
+2025-11-11 14:48:16,025 - INFO - Processing 85/288
+2025-11-11 14:48:16,029 - INFO - Saved answer 81 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:48:16,029 - INFO - Progress: 81/288 pending completed
+2025-11-11 14:48:49,882 - INFO - Row 82 completed
+2025-11-11 14:48:49,882 - INFO - Processing 86/288
+2025-11-11 14:48:49,887 - INFO - Saved answer 82 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:48:49,887 - INFO - Progress: 82/288 pending completed
+2025-11-11 14:49:17,065 - INFO - Row 83 completed
+2025-11-11 14:49:17,065 - INFO - Processing 87/288
+2025-11-11 14:49:17,070 - INFO - Saved answer 83 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:49:17,070 - INFO - Progress: 83/288 pending completed
+2025-11-11 14:49:44,266 - INFO - Row 84 completed
+2025-11-11 14:49:44,266 - INFO - Processing 88/288
+2025-11-11 14:49:44,271 - INFO - Saved answer 84 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:49:44,271 - INFO - Progress: 84/288 pending completed
+2025-11-11 14:50:13,234 - INFO - Row 85 completed
+2025-11-11 14:50:13,234 - INFO - Processing 89/288
+2025-11-11 14:50:13,239 - INFO - Saved answer 85 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:50:13,239 - INFO - Progress: 85/288 pending completed
+2025-11-11 14:50:42,606 - INFO - Row 86 completed
+2025-11-11 14:50:42,606 - INFO - Processing 90/288
+2025-11-11 14:50:42,611 - INFO - Saved answer 86 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:50:42,611 - INFO - Progress: 86/288 pending completed
+2025-11-11 14:51:20,889 - INFO - Row 87 completed
+2025-11-11 14:51:20,890 - INFO - Processing 91/288
+2025-11-11 14:51:20,894 - INFO - Saved answer 87 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:51:20,894 - INFO - Progress: 87/288 pending completed
+2025-11-11 14:51:46,462 - INFO - Row 88 completed
+2025-11-11 14:51:46,463 - INFO - Processing 92/288
+2025-11-11 14:51:46,467 - INFO - Saved answer 88 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:51:46,467 - INFO - Progress: 88/288 pending completed
+2025-11-11 14:52:19,318 - INFO - Row 89 completed
+2025-11-11 14:52:19,319 - INFO - Processing 93/288
+2025-11-11 14:52:19,323 - INFO - Saved answer 89 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:52:19,323 - INFO - Progress: 89/288 pending completed
+2025-11-11 14:52:53,202 - INFO - Row 90 completed
+2025-11-11 14:52:53,202 - INFO - Processing 94/288
+2025-11-11 14:52:53,206 - INFO - Saved answer 90 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:52:53,206 - INFO - Progress: 90/288 pending completed
+2025-11-11 14:53:09,986 - INFO - Row 91 completed
+2025-11-11 14:53:09,986 - INFO - Processing 95/288
+2025-11-11 14:53:09,991 - INFO - Saved answer 91 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:53:09,991 - INFO - Progress: 91/288 pending completed
+2025-11-11 14:53:51,206 - INFO - Row 92 completed
+2025-11-11 14:53:51,206 - INFO - Processing 96/288
+2025-11-11 14:53:51,211 - INFO - Saved answer 92 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:53:51,211 - INFO - Progress: 92/288 pending completed
+2025-11-11 14:54:16,277 - INFO - Row 93 completed
+2025-11-11 14:54:16,277 - INFO - Processing 97/288
+2025-11-11 14:54:16,282 - INFO - Saved answer 93 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:54:16,283 - INFO - Progress: 93/288 pending completed
+2025-11-11 14:54:51,833 - INFO - Row 94 completed
+2025-11-11 14:54:51,833 - INFO - Processing 98/288
+2025-11-11 14:54:51,838 - INFO - Saved answer 94 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:54:51,838 - INFO - Progress: 94/288 pending completed
+2025-11-11 14:55:15,352 - INFO - Row 95 completed
+2025-11-11 14:55:15,353 - INFO - Processing 99/288
+2025-11-11 14:55:15,359 - INFO - Saved answer 95 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:55:15,359 - INFO - Progress: 95/288 pending completed
+2025-11-11 14:55:51,517 - INFO - Row 96 completed
+2025-11-11 14:55:51,517 - INFO - Processing 100/288
+2025-11-11 14:55:51,524 - INFO - Saved answer 96 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:55:51,524 - INFO - Progress: 96/288 pending completed
+2025-11-11 14:56:11,222 - INFO - Row 97 completed
+2025-11-11 14:56:11,223 - INFO - Processing 101/288
+2025-11-11 14:56:11,228 - INFO - Saved answer 97 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:56:11,228 - INFO - Progress: 97/288 pending completed
+2025-11-11 14:56:48,616 - INFO - Row 98 completed
+2025-11-11 14:56:48,616 - INFO - Processing 102/288
+2025-11-11 14:56:48,622 - INFO - Saved answer 98 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:56:48,622 - INFO - Progress: 98/288 pending completed
+2025-11-11 14:57:08,993 - INFO - Row 99 completed
+2025-11-11 14:57:08,993 - INFO - Processing 103/288
+2025-11-11 14:57:09,003 - INFO - Saved answer 99 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:57:09,004 - INFO - Progress: 99/288 pending completed
+2025-11-11 14:57:49,030 - INFO - Row 100 completed
+2025-11-11 14:57:49,030 - INFO - Processing 104/288
+2025-11-11 14:57:49,037 - INFO - Saved answer 100 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:57:49,037 - INFO - Progress: 100/288 pending completed
+2025-11-11 14:58:12,428 - INFO - Row 101 completed
+2025-11-11 14:58:12,429 - INFO - Processing 105/288
+2025-11-11 14:58:12,434 - INFO - Saved answer 101 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:58:12,434 - INFO - Progress: 101/288 pending completed
+2025-11-11 14:58:40,596 - INFO - Row 102 completed
+2025-11-11 14:58:40,597 - INFO - Processing 106/288
+2025-11-11 14:58:40,604 - INFO - Saved answer 102 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:58:40,604 - INFO - Progress: 102/288 pending completed
+2025-11-11 14:59:13,271 - INFO - Row 103 completed
+2025-11-11 14:59:13,271 - INFO - Processing 107/288
+2025-11-11 14:59:13,277 - INFO - Saved answer 103 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:59:13,277 - INFO - Progress: 103/288 pending completed
+2025-11-11 14:59:40,896 - INFO - Row 104 completed
+2025-11-11 14:59:40,896 - INFO - Processing 108/288
+2025-11-11 14:59:40,901 - INFO - Saved answer 104 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 14:59:40,902 - INFO - Progress: 104/288 pending completed
+2025-11-11 15:00:17,271 - INFO - Row 105 completed
+2025-11-11 15:00:17,271 - INFO - Processing 109/288
+2025-11-11 15:00:17,276 - INFO - Saved answer 105 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:00:17,277 - INFO - Progress: 105/288 pending completed
+2025-11-11 15:00:44,239 - INFO - Row 106 completed
+2025-11-11 15:00:44,240 - INFO - Processing 110/288
+2025-11-11 15:00:44,245 - INFO - Saved answer 106 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:00:44,246 - INFO - Progress: 106/288 pending completed
+2025-11-11 15:01:10,183 - INFO - Row 107 completed
+2025-11-11 15:01:10,183 - INFO - Processing 111/288
+2025-11-11 15:01:10,188 - INFO - Saved answer 107 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:01:10,189 - INFO - Progress: 107/288 pending completed
+2025-11-11 15:01:47,826 - INFO - Row 108 completed
+2025-11-11 15:01:47,826 - INFO - Processing 112/288
+2025-11-11 15:01:47,832 - INFO - Saved answer 108 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:01:47,832 - INFO - Progress: 108/288 pending completed
+2025-11-11 15:02:24,336 - INFO - Row 109 completed
+2025-11-11 15:02:24,336 - INFO - Processing 113/288
+2025-11-11 15:02:24,343 - INFO - Saved answer 109 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:02:24,343 - INFO - Progress: 109/288 pending completed
+2025-11-11 15:02:41,588 - INFO - Row 110 completed
+2025-11-11 15:02:41,588 - INFO - Processing 114/288
+2025-11-11 15:02:41,594 - INFO - Saved answer 110 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:02:41,594 - INFO - Progress: 110/288 pending completed
+2025-11-11 15:03:10,388 - INFO - Row 111 completed
+2025-11-11 15:03:10,389 - INFO - Processing 115/288
+2025-11-11 15:03:10,394 - INFO - Saved answer 111 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:03:10,394 - INFO - Progress: 111/288 pending completed
+2025-11-11 15:03:39,490 - INFO - Row 112 completed
+2025-11-11 15:03:39,490 - INFO - Processing 116/288
+2025-11-11 15:03:39,497 - INFO - Saved answer 112 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:03:39,497 - INFO - Progress: 112/288 pending completed
+2025-11-11 15:04:11,681 - INFO - Row 113 completed
+2025-11-11 15:04:11,682 - INFO - Processing 117/288
+2025-11-11 15:04:11,688 - INFO - Saved answer 113 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:04:11,688 - INFO - Progress: 113/288 pending completed
+2025-11-11 15:04:39,242 - INFO - Row 114 completed
+2025-11-11 15:04:39,242 - INFO - Processing 118/288
+2025-11-11 15:04:39,247 - INFO - Saved answer 114 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:04:39,248 - INFO - Progress: 114/288 pending completed
+2025-11-11 15:05:14,231 - INFO - Row 115 completed
+2025-11-11 15:05:14,231 - INFO - Processing 119/288
+2025-11-11 15:05:14,237 - INFO - Saved answer 115 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:05:14,238 - INFO - Progress: 115/288 pending completed
+2025-11-11 15:05:39,969 - INFO - Row 116 completed
+2025-11-11 15:05:39,969 - INFO - Processing 120/288
+2025-11-11 15:05:39,974 - INFO - Saved answer 116 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:05:39,975 - INFO - Progress: 116/288 pending completed
+2025-11-11 15:06:09,888 - INFO - Row 117 completed
+2025-11-11 15:06:09,889 - INFO - Processing 121/288
+2025-11-11 15:06:09,895 - INFO - Saved answer 117 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:06:09,895 - INFO - Progress: 117/288 pending completed
+2025-11-11 15:06:53,894 - INFO - Row 118 completed
+2025-11-11 15:06:53,894 - INFO - Processing 122/288
+2025-11-11 15:06:53,900 - INFO - Saved answer 118 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:06:53,900 - INFO - Progress: 118/288 pending completed
+2025-11-11 15:07:17,225 - INFO - Row 119 completed
+2025-11-11 15:07:17,225 - INFO - Processing 123/288
+2025-11-11 15:07:17,231 - INFO - Saved answer 119 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:07:17,232 - INFO - Progress: 119/288 pending completed
+2025-11-11 15:07:40,696 - INFO - Row 120 completed
+2025-11-11 15:07:40,696 - INFO - Processing 124/288
+2025-11-11 15:07:40,702 - INFO - Saved answer 120 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:07:40,702 - INFO - Progress: 120/288 pending completed
+2025-11-11 15:08:08,472 - INFO - Row 121 completed
+2025-11-11 15:08:08,473 - INFO - Processing 125/288
+2025-11-11 15:08:08,479 - INFO - Saved answer 121 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:08:08,479 - INFO - Progress: 121/288 pending completed
+2025-11-11 15:08:41,327 - INFO - Row 122 completed
+2025-11-11 15:08:41,327 - INFO - Processing 126/288
+2025-11-11 15:08:41,333 - INFO - Saved answer 122 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:08:41,333 - INFO - Progress: 122/288 pending completed
+2025-11-11 15:09:21,675 - INFO - Row 123 completed
+2025-11-11 15:09:21,675 - INFO - Processing 127/288
+2025-11-11 15:09:21,680 - INFO - Saved answer 123 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:09:21,681 - INFO - Progress: 123/288 pending completed
+2025-11-11 15:09:40,582 - INFO - Row 124 completed
+2025-11-11 15:09:40,582 - INFO - Processing 128/288
+2025-11-11 15:09:40,588 - INFO - Saved answer 124 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:09:40,589 - INFO - Progress: 124/288 pending completed
+2025-11-11 15:10:16,501 - INFO - Row 125 completed
+2025-11-11 15:10:16,502 - INFO - Processing 129/288
+2025-11-11 15:10:16,508 - INFO - Saved answer 125 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:10:16,508 - INFO - Progress: 125/288 pending completed
+2025-11-11 15:10:45,003 - INFO - Row 126 completed
+2025-11-11 15:10:45,003 - INFO - Processing 130/288
+2025-11-11 15:10:45,009 - INFO - Saved answer 126 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:10:45,009 - INFO - Progress: 126/288 pending completed
+2025-11-11 15:11:24,610 - INFO - Row 127 completed
+2025-11-11 15:11:24,610 - INFO - Processing 131/288
+2025-11-11 15:11:24,616 - INFO - Saved answer 127 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:11:24,616 - INFO - Progress: 127/288 pending completed
+2025-11-11 15:11:44,722 - INFO - Row 128 completed
+2025-11-11 15:11:44,722 - INFO - Processing 132/288
+2025-11-11 15:11:44,728 - INFO - Saved answer 128 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:11:44,728 - INFO - Progress: 128/288 pending completed
+2025-11-11 15:12:11,450 - INFO - Row 129 completed
+2025-11-11 15:12:11,450 - INFO - Processing 133/288
+2025-11-11 15:12:11,456 - INFO - Saved answer 129 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:12:11,456 - INFO - Progress: 129/288 pending completed
+2025-11-11 15:12:51,564 - INFO - Row 130 completed
+2025-11-11 15:12:51,564 - INFO - Processing 134/288
+2025-11-11 15:12:51,570 - INFO - Saved answer 130 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:12:51,570 - INFO - Progress: 130/288 pending completed
+2025-11-11 15:13:12,984 - INFO - Row 131 completed
+2025-11-11 15:13:12,984 - INFO - Processing 135/288
+2025-11-11 15:13:12,990 - INFO - Saved answer 131 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:13:12,990 - INFO - Progress: 131/288 pending completed
+2025-11-11 15:13:41,321 - INFO - Row 132 completed
+2025-11-11 15:13:41,321 - INFO - Processing 136/288
+2025-11-11 15:13:41,328 - INFO - Saved answer 132 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:13:41,328 - INFO - Progress: 132/288 pending completed
+2025-11-11 15:14:19,637 - INFO - Row 133 completed
+2025-11-11 15:14:19,637 - INFO - Processing 137/288
+2025-11-11 15:14:19,643 - INFO - Saved answer 133 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:14:19,643 - INFO - Progress: 133/288 pending completed
+2025-11-11 15:14:41,631 - INFO - Row 134 completed
+2025-11-11 15:14:41,631 - INFO - Processing 138/288
+2025-11-11 15:14:41,637 - INFO - Saved answer 134 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:14:41,637 - INFO - Progress: 134/288 pending completed
+2025-11-11 15:15:12,248 - INFO - Row 135 completed
+2025-11-11 15:15:12,248 - INFO - Processing 139/288
+2025-11-11 15:15:12,254 - INFO - Saved answer 135 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:15:12,254 - INFO - Progress: 135/288 pending completed
+2025-11-11 15:15:40,099 - INFO - Row 136 completed
+2025-11-11 15:15:40,100 - INFO - Processing 140/288
+2025-11-11 15:15:40,106 - INFO - Saved answer 136 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:15:40,106 - INFO - Progress: 136/288 pending completed
+2025-11-11 15:16:11,247 - INFO - Row 137 completed
+2025-11-11 15:16:11,247 - INFO - Processing 141/288
+2025-11-11 15:16:11,253 - INFO - Saved answer 137 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:16:11,253 - INFO - Progress: 137/288 pending completed
+2025-11-11 15:16:43,250 - INFO - Row 138 completed
+2025-11-11 15:16:43,251 - INFO - Processing 142/288
+2025-11-11 15:16:43,256 - INFO - Saved answer 138 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:16:43,256 - INFO - Progress: 138/288 pending completed
+2025-11-11 15:17:27,281 - INFO - Row 139 completed
+2025-11-11 15:17:27,282 - INFO - Processing 143/288
+2025-11-11 15:17:27,288 - INFO - Saved answer 139 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:17:27,288 - INFO - Progress: 139/288 pending completed
+2025-11-11 15:17:41,651 - INFO - Row 140 completed
+2025-11-11 15:17:41,652 - INFO - Processing 144/288
+2025-11-11 15:17:41,658 - INFO - Saved answer 140 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:17:41,658 - INFO - Progress: 140/288 pending completed
+2025-11-11 15:18:36,548 - INFO - Row 141 completed
+2025-11-11 15:18:36,549 - INFO - Processing 145/288
+2025-11-11 15:18:36,555 - INFO - Saved answer 141 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:18:36,555 - INFO - Progress: 141/288 pending completed
+2025-11-11 15:18:43,136 - INFO - Row 142 completed
+2025-11-11 15:18:43,136 - INFO - Processing 146/288
+2025-11-11 15:18:43,142 - INFO - Saved answer 142 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:18:43,142 - INFO - Progress: 142/288 pending completed
+2025-11-11 15:19:07,969 - ERROR - Error processing row 143: OpenRouter returned status 429: {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'allenai/olmo-2-0325-32b-instruct is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Parasail'}}, 'user_id': 'user_34xhcMXtgedcbls9etq9hhxsbWA'}
+2025-11-11 15:19:07,971 - INFO - Processing 147/288
+2025-11-11 15:19:07,976 - INFO - Saved answer 143 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:19:07,977 - INFO - Progress: 143/288 pending completed
+2025-11-11 15:19:50,768 - INFO - Row 144 completed
+2025-11-11 15:19:50,769 - INFO - Processing 148/288
+2025-11-11 15:19:50,775 - INFO - Saved answer 144 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:19:50,775 - INFO - Progress: 144/288 pending completed
+2025-11-11 15:20:15,694 - INFO - Row 145 completed
+2025-11-11 15:20:15,695 - INFO - Processing 149/288
+2025-11-11 15:20:15,701 - INFO - Saved answer 145 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:20:15,701 - INFO - Progress: 145/288 pending completed
+2025-11-11 15:20:44,099 - INFO - Row 146 completed
+2025-11-11 15:20:44,100 - INFO - Processing 150/288
+2025-11-11 15:20:44,105 - INFO - Saved answer 146 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:20:44,105 - INFO - Progress: 146/288 pending completed
+2025-11-11 15:21:24,188 - INFO - Row 147 completed
+2025-11-11 15:21:24,188 - INFO - Processing 151/288
+2025-11-11 15:21:24,195 - INFO - Saved answer 147 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:21:24,195 - INFO - Progress: 147/288 pending completed
+2025-11-11 15:21:42,400 - INFO - Row 148 completed
+2025-11-11 15:21:42,400 - INFO - Processing 152/288
+2025-11-11 15:21:42,407 - INFO - Saved answer 148 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:21:42,407 - INFO - Progress: 148/288 pending completed
+2025-11-11 15:22:13,167 - INFO - Row 149 completed
+2025-11-11 15:22:13,167 - INFO - Processing 153/288
+2025-11-11 15:22:13,173 - INFO - Saved answer 149 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:22:13,174 - INFO - Progress: 149/288 pending completed
+2025-11-11 15:22:42,207 - INFO - Row 150 completed
+2025-11-11 15:22:42,207 - INFO - Processing 154/288
+2025-11-11 15:22:42,213 - INFO - Saved answer 150 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:22:42,213 - INFO - Progress: 150/288 pending completed
+2025-11-11 15:23:17,931 - INFO - Row 151 completed
+2025-11-11 15:23:17,931 - INFO - Processing 155/288
+2025-11-11 15:23:17,937 - INFO - Saved answer 151 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:23:17,938 - INFO - Progress: 151/288 pending completed
+2025-11-11 15:23:47,276 - INFO - Row 152 completed
+2025-11-11 15:23:47,276 - INFO - Processing 156/288
+2025-11-11 15:23:47,283 - INFO - Saved answer 152 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:23:47,283 - INFO - Progress: 152/288 pending completed
+2025-11-11 15:24:22,714 - INFO - Row 153 completed
+2025-11-11 15:24:22,715 - INFO - Processing 157/288
+2025-11-11 15:24:22,721 - INFO - Saved answer 153 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:24:22,721 - INFO - Progress: 153/288 pending completed
+2025-11-11 15:24:43,134 - INFO - Row 154 completed
+2025-11-11 15:24:43,135 - INFO - Processing 158/288
+2025-11-11 15:24:43,140 - INFO - Saved answer 154 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:24:43,141 - INFO - Progress: 154/288 pending completed
+2025-11-11 15:25:22,560 - INFO - Row 155 completed
+2025-11-11 15:25:22,560 - INFO - Processing 159/288
+2025-11-11 15:25:22,567 - INFO - Saved answer 155 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:25:22,567 - INFO - Progress: 155/288 pending completed
+2025-11-11 15:25:52,763 - INFO - Row 156 completed
+2025-11-11 15:25:52,763 - INFO - Processing 160/288
+2025-11-11 15:25:52,770 - INFO - Saved answer 156 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:25:52,770 - INFO - Progress: 156/288 pending completed
+2025-11-11 15:26:12,339 - INFO - Row 157 completed
+2025-11-11 15:26:12,339 - INFO - Processing 161/288
+2025-11-11 15:26:12,345 - INFO - Saved answer 157 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:26:12,345 - INFO - Progress: 157/288 pending completed
+2025-11-11 15:26:45,572 - INFO - Row 158 completed
+2025-11-11 15:26:45,572 - INFO - Processing 162/288
+2025-11-11 15:26:45,579 - INFO - Saved answer 158 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:26:45,579 - INFO - Progress: 158/288 pending completed
+2025-11-11 15:27:26,418 - INFO - Row 159 completed
+2025-11-11 15:27:26,418 - INFO - Processing 163/288
+2025-11-11 15:27:26,424 - INFO - Saved answer 159 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:27:26,425 - INFO - Progress: 159/288 pending completed
+2025-11-11 15:27:49,467 - INFO - Row 160 completed
+2025-11-11 15:27:49,467 - INFO - Processing 164/288
+2025-11-11 15:27:49,473 - INFO - Saved answer 160 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:27:49,473 - INFO - Progress: 160/288 pending completed
+2025-11-11 15:28:19,154 - INFO - Row 161 completed
+2025-11-11 15:28:19,154 - INFO - Processing 165/288
+2025-11-11 15:28:19,161 - INFO - Saved answer 161 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:28:19,161 - INFO - Progress: 161/288 pending completed
+2025-11-11 15:28:52,233 - INFO - Row 162 completed
+2025-11-11 15:28:52,233 - INFO - Processing 166/288
+2025-11-11 15:28:52,239 - INFO - Saved answer 162 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\allenai-olmo-2-0325-32b-instruct_answers.csv
+2025-11-11 15:28:52,239 - INFO - Progress: 162/288 pending completed

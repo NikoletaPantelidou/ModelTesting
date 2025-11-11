@@ -1,0 +1,1180 @@
+2025-11-11 11:24:13,489 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-11 11:24:13,502 - INFO - Processing model openai/gpt-5
+2025-11-11 11:24:13,506 - INFO - No pending prompts
+2025-11-11 11:24:13,514 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-11 11:24:13,522 - INFO - No pending prompts
+2025-11-11 11:24:13,527 - INFO - Processing model meta-llama/llama-4-scout:free
+2025-11-11 11:24:13,533 - INFO - No pending prompts
+2025-11-11 11:24:13,539 - INFO - Processing model google/gemma-3-4b-it:free
+2025-11-11 11:24:13,543 - INFO - No pending prompts
+2025-11-11 11:24:13,549 - INFO - Processing model openai/chatgpt-4o-latest
+2025-11-11 11:24:13,555 - INFO - No pending prompts
+2025-11-11 11:24:13,559 - INFO - Processing model x-ai/grok-4-fast
+2025-11-11 11:24:13,564 - INFO - No pending prompts
+2025-11-11 11:24:13,571 - INFO - Processing model google/gemini-2.5-flash
+2025-11-11 11:24:13,578 - INFO - No pending prompts
+2025-11-11 11:24:13,583 - INFO - Processing model google/gemini-2.5-pro
+2025-11-11 11:24:13,589 - INFO - No pending prompts
+2025-11-11 11:24:13,596 - INFO - Processing model anthropic/claude-sonnet-4.5
+2025-11-11 11:24:13,603 - INFO - No pending prompts
+2025-11-11 11:24:13,610 - INFO - Processing model anthropic/claude-haiku-4.5
+2025-11-11 11:24:13,617 - INFO - No pending prompts
+2025-11-11 11:24:13,625 - INFO - Processing model anthropic/claude-opus-4
+2025-11-11 11:24:13,632 - INFO - No pending prompts
+2025-11-11 11:24:13,639 - INFO - Processing model microsoft/phi-4-reasoning-plus
+2025-11-11 11:24:13,646 - INFO - No pending prompts
+2025-11-11 11:24:13,646 - INFO - Processing model arcee-ai/virtuoso-large
+2025-11-11 11:24:13,648 - INFO - Processing 1/288
+2025-11-11 11:24:13,649 - INFO - Processing 2/288
+2025-11-11 11:24:13,649 - INFO - Processing 3/288
+2025-11-11 11:24:13,650 - INFO - Processing 4/288
+2025-11-11 11:24:16,046 - INFO - Row 1 completed
+2025-11-11 11:24:16,046 - INFO - Processing 5/288
+2025-11-11 11:24:16,058 - INFO - Saved answer 1 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:24:16,059 - INFO - Progress: 1/288 pending completed
+2025-11-11 11:24:46,495 - INFO - Row 2 completed
+2025-11-11 11:24:46,496 - INFO - Processing 6/288
+2025-11-11 11:24:46,500 - INFO - Saved answer 2 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:24:46,500 - INFO - Progress: 2/288 pending completed
+2025-11-11 11:25:16,763 - INFO - Row 3 completed
+2025-11-11 11:25:16,763 - INFO - Processing 7/288
+2025-11-11 11:25:16,767 - INFO - Saved answer 3 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:25:16,768 - INFO - Progress: 3/288 pending completed
+2025-11-11 11:25:45,686 - INFO - Row 4 completed
+2025-11-11 11:25:45,686 - INFO - Processing 8/288
+2025-11-11 11:25:45,691 - INFO - Saved answer 4 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:25:45,691 - INFO - Progress: 4/288 pending completed
+2025-11-11 11:26:15,978 - INFO - Row 5 completed
+2025-11-11 11:26:15,978 - INFO - Processing 9/288
+2025-11-11 11:26:15,983 - INFO - Saved answer 5 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:26:15,983 - INFO - Progress: 5/288 pending completed
+2025-11-11 11:26:47,748 - INFO - Row 6 completed
+2025-11-11 11:26:47,748 - INFO - Processing 10/288
+2025-11-11 11:26:47,753 - INFO - Saved answer 6 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:26:47,753 - INFO - Progress: 6/288 pending completed
+2025-11-11 11:27:15,960 - INFO - Row 7 completed
+2025-11-11 11:27:15,961 - INFO - Processing 11/288
+2025-11-11 11:27:15,965 - INFO - Saved answer 7 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:27:15,965 - INFO - Progress: 7/288 pending completed
+2025-11-11 11:27:46,025 - INFO - Row 8 completed
+2025-11-11 11:27:46,025 - INFO - Processing 12/288
+2025-11-11 11:27:46,029 - INFO - Saved answer 8 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:27:46,029 - INFO - Progress: 8/288 pending completed
+2025-11-11 11:28:16,209 - INFO - Row 9 completed
+2025-11-11 11:28:16,209 - INFO - Processing 13/288
+2025-11-11 11:28:16,213 - INFO - Saved answer 9 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:28:16,213 - INFO - Progress: 9/288 pending completed
+2025-11-11 11:28:45,696 - INFO - Row 10 completed
+2025-11-11 11:28:45,696 - INFO - Processing 14/288
+2025-11-11 11:28:45,700 - INFO - Saved answer 10 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:28:45,700 - INFO - Progress: 10/288 pending completed
+2025-11-11 11:29:17,178 - INFO - Row 11 completed
+2025-11-11 11:29:17,178 - INFO - Processing 15/288
+2025-11-11 11:29:17,183 - INFO - Saved answer 11 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:29:17,183 - INFO - Progress: 11/288 pending completed
+2025-11-11 11:29:45,613 - INFO - Row 12 completed
+2025-11-11 11:29:45,613 - INFO - Processing 16/288
+2025-11-11 11:29:45,618 - INFO - Saved answer 12 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:29:45,618 - INFO - Progress: 12/288 pending completed
+2025-11-11 11:30:15,773 - INFO - Row 13 completed
+2025-11-11 11:30:15,774 - INFO - Processing 17/288
+2025-11-11 11:30:15,779 - INFO - Saved answer 13 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:30:15,779 - INFO - Progress: 13/288 pending completed
+2025-11-11 11:30:46,620 - INFO - Row 14 completed
+2025-11-11 11:30:46,620 - INFO - Processing 18/288
+2025-11-11 11:30:46,623 - INFO - Saved answer 14 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:30:46,624 - INFO - Progress: 14/288 pending completed
+2025-11-11 11:31:15,643 - INFO - Row 15 completed
+2025-11-11 11:31:15,643 - INFO - Processing 19/288
+2025-11-11 11:31:15,647 - INFO - Saved answer 15 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:31:15,647 - INFO - Progress: 15/288 pending completed
+2025-11-11 11:31:45,640 - INFO - Row 16 completed
+2025-11-11 11:31:45,640 - INFO - Processing 20/288
+2025-11-11 11:31:45,645 - INFO - Saved answer 16 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:31:45,645 - INFO - Progress: 16/288 pending completed
+2025-11-11 11:32:18,208 - INFO - Row 17 completed
+2025-11-11 11:32:18,208 - INFO - Processing 21/288
+2025-11-11 11:32:18,213 - INFO - Saved answer 17 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:32:18,213 - INFO - Progress: 17/288 pending completed
+2025-11-11 11:32:46,378 - INFO - Row 18 completed
+2025-11-11 11:32:46,379 - INFO - Processing 22/288
+2025-11-11 11:32:46,383 - INFO - Saved answer 18 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:32:46,383 - INFO - Progress: 18/288 pending completed
+2025-11-11 11:33:16,062 - INFO - Row 19 completed
+2025-11-11 11:33:16,062 - INFO - Processing 23/288
+2025-11-11 11:33:16,066 - INFO - Saved answer 19 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:33:16,066 - INFO - Progress: 19/288 pending completed
+2025-11-11 11:33:47,341 - INFO - Row 20 completed
+2025-11-11 11:33:47,341 - INFO - Processing 24/288
+2025-11-11 11:33:47,346 - INFO - Saved answer 20 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:33:47,347 - INFO - Progress: 20/288 pending completed
+2025-11-11 11:34:16,348 - INFO - Row 21 completed
+2025-11-11 11:34:16,348 - INFO - Processing 25/288
+2025-11-11 11:34:16,353 - INFO - Saved answer 21 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:34:16,354 - INFO - Progress: 21/288 pending completed
+2025-11-11 11:34:46,080 - INFO - Row 22 completed
+2025-11-11 11:34:46,080 - INFO - Processing 26/288
+2025-11-11 11:34:46,085 - INFO - Saved answer 22 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:34:46,085 - INFO - Progress: 22/288 pending completed
+2025-11-11 11:35:16,881 - INFO - Row 23 completed
+2025-11-11 11:35:16,882 - INFO - Processing 27/288
+2025-11-11 11:35:16,887 - INFO - Saved answer 23 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:35:16,887 - INFO - Progress: 23/288 pending completed
+2025-11-11 11:35:46,825 - INFO - Row 24 completed
+2025-11-11 11:35:46,826 - INFO - Processing 28/288
+2025-11-11 11:35:46,830 - INFO - Saved answer 24 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:35:46,830 - INFO - Progress: 24/288 pending completed
+2025-11-11 11:36:15,597 - INFO - Row 25 completed
+2025-11-11 11:36:15,598 - INFO - Processing 29/288
+2025-11-11 11:36:15,602 - INFO - Saved answer 25 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:36:15,602 - INFO - Progress: 25/288 pending completed
+2025-11-11 11:36:47,189 - INFO - Row 26 completed
+2025-11-11 11:36:47,189 - INFO - Processing 30/288
+2025-11-11 11:36:47,193 - INFO - Saved answer 26 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:36:47,194 - INFO - Progress: 26/288 pending completed
+2025-11-11 11:37:15,633 - INFO - Row 27 completed
+2025-11-11 11:37:15,633 - INFO - Processing 31/288
+2025-11-11 11:37:15,637 - INFO - Saved answer 27 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:37:15,637 - INFO - Progress: 27/288 pending completed
+2025-11-11 11:37:45,168 - INFO - Row 28 completed
+2025-11-11 11:37:45,168 - INFO - Processing 32/288
+2025-11-11 11:37:45,173 - INFO - Saved answer 28 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:37:45,173 - INFO - Progress: 28/288 pending completed
+2025-11-11 11:38:15,717 - INFO - Row 29 completed
+2025-11-11 11:38:15,717 - INFO - Processing 33/288
+2025-11-11 11:38:15,722 - INFO - Saved answer 29 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:38:15,722 - INFO - Progress: 29/288 pending completed
+2025-11-11 11:38:46,095 - INFO - Row 30 completed
+2025-11-11 11:38:46,095 - INFO - Processing 34/288
+2025-11-11 11:38:46,100 - INFO - Saved answer 30 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:38:46,100 - INFO - Progress: 30/288 pending completed
+2025-11-11 11:39:15,588 - INFO - Row 31 completed
+2025-11-11 11:39:15,588 - INFO - Processing 35/288
+2025-11-11 11:39:15,594 - INFO - Saved answer 31 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:39:15,594 - INFO - Progress: 31/288 pending completed
+2025-11-11 11:39:46,350 - INFO - Row 32 completed
+2025-11-11 11:39:46,351 - INFO - Processing 36/288
+2025-11-11 11:39:46,356 - INFO - Saved answer 32 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:39:46,356 - INFO - Progress: 32/288 pending completed
+2025-11-11 11:40:16,437 - INFO - Row 33 completed
+2025-11-11 11:40:16,438 - INFO - Processing 37/288
+2025-11-11 11:40:16,443 - INFO - Saved answer 33 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:40:16,443 - INFO - Progress: 33/288 pending completed
+2025-11-11 11:40:45,674 - INFO - Row 34 completed
+2025-11-11 11:40:45,674 - INFO - Processing 38/288
+2025-11-11 11:40:45,678 - INFO - Saved answer 34 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:40:45,679 - INFO - Progress: 34/288 pending completed
+2025-11-11 11:41:15,621 - INFO - Row 35 completed
+2025-11-11 11:41:15,621 - INFO - Processing 39/288
+2025-11-11 11:41:15,625 - INFO - Saved answer 35 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:41:15,625 - INFO - Progress: 35/288 pending completed
+2025-11-11 11:41:45,384 - INFO - Row 36 completed
+2025-11-11 11:41:45,384 - INFO - Processing 40/288
+2025-11-11 11:41:45,388 - INFO - Saved answer 36 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:41:45,388 - INFO - Progress: 36/288 pending completed
+2025-11-11 11:42:15,764 - INFO - Row 37 completed
+2025-11-11 11:42:15,764 - INFO - Processing 41/288
+2025-11-11 11:42:15,770 - INFO - Saved answer 37 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:42:15,771 - INFO - Progress: 37/288 pending completed
+2025-11-11 11:42:45,156 - INFO - Row 38 completed
+2025-11-11 11:42:45,156 - INFO - Processing 42/288
+2025-11-11 11:42:45,161 - INFO - Saved answer 38 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:42:45,161 - INFO - Progress: 38/288 pending completed
+2025-11-11 11:43:14,974 - INFO - Row 39 completed
+2025-11-11 11:43:14,975 - INFO - Processing 43/288
+2025-11-11 11:43:14,979 - INFO - Saved answer 39 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:43:14,979 - INFO - Progress: 39/288 pending completed
+2025-11-11 11:43:46,002 - INFO - Row 40 completed
+2025-11-11 11:43:46,003 - INFO - Processing 44/288
+2025-11-11 11:43:46,008 - INFO - Saved answer 40 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:43:46,009 - INFO - Progress: 40/288 pending completed
+2025-11-11 11:44:16,329 - INFO - Row 41 completed
+2025-11-11 11:44:16,330 - INFO - Processing 45/288
+2025-11-11 11:44:16,334 - INFO - Saved answer 41 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:44:16,335 - INFO - Progress: 41/288 pending completed
+2025-11-11 11:44:45,487 - INFO - Row 42 completed
+2025-11-11 11:44:45,488 - INFO - Processing 46/288
+2025-11-11 11:44:45,493 - INFO - Saved answer 42 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:44:45,493 - INFO - Progress: 42/288 pending completed
+2025-11-11 11:45:16,396 - INFO - Row 43 completed
+2025-11-11 11:45:16,396 - INFO - Processing 47/288
+2025-11-11 11:45:16,402 - INFO - Saved answer 43 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:45:16,402 - INFO - Progress: 43/288 pending completed
+2025-11-11 11:45:44,859 - INFO - Row 44 completed
+2025-11-11 11:45:44,859 - INFO - Processing 48/288
+2025-11-11 11:45:44,863 - INFO - Saved answer 44 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:45:44,864 - INFO - Progress: 44/288 pending completed
+2025-11-11 11:46:16,206 - INFO - Row 45 completed
+2025-11-11 11:46:16,206 - INFO - Processing 49/288
+2025-11-11 11:46:16,211 - INFO - Saved answer 45 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:46:16,211 - INFO - Progress: 45/288 pending completed
+2025-11-11 11:46:46,634 - INFO - Row 46 completed
+2025-11-11 11:46:46,635 - INFO - Processing 50/288
+2025-11-11 11:46:46,639 - INFO - Saved answer 46 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:46:46,639 - INFO - Progress: 46/288 pending completed
+2025-11-11 11:47:16,724 - INFO - Row 47 completed
+2025-11-11 11:47:16,724 - INFO - Processing 51/288
+2025-11-11 11:47:16,729 - INFO - Saved answer 47 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:47:16,729 - INFO - Progress: 47/288 pending completed
+2025-11-11 11:47:47,517 - INFO - Row 48 completed
+2025-11-11 11:47:47,517 - INFO - Processing 52/288
+2025-11-11 11:47:47,524 - INFO - Saved answer 48 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:47:47,524 - INFO - Progress: 48/288 pending completed
+2025-11-11 11:48:15,981 - INFO - Row 49 completed
+2025-11-11 11:48:15,981 - INFO - Processing 53/288
+2025-11-11 11:48:15,986 - INFO - Saved answer 49 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:48:15,986 - INFO - Progress: 49/288 pending completed
+2025-11-11 11:48:46,006 - INFO - Row 50 completed
+2025-11-11 11:48:46,006 - INFO - Processing 54/288
+2025-11-11 11:48:46,012 - INFO - Saved answer 50 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:48:46,012 - INFO - Progress: 50/288 pending completed
+2025-11-11 11:49:15,637 - INFO - Row 51 completed
+2025-11-11 11:49:15,637 - INFO - Processing 55/288
+2025-11-11 11:49:15,642 - INFO - Saved answer 51 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:49:15,642 - INFO - Progress: 51/288 pending completed
+2025-11-11 11:49:46,673 - INFO - Row 52 completed
+2025-11-11 11:49:46,674 - INFO - Processing 56/288
+2025-11-11 11:49:46,678 - INFO - Saved answer 52 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:49:46,679 - INFO - Progress: 52/288 pending completed
+2025-11-11 11:50:16,301 - INFO - Row 53 completed
+2025-11-11 11:50:16,302 - INFO - Processing 57/288
+2025-11-11 11:50:16,306 - INFO - Saved answer 53 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:50:16,307 - INFO - Progress: 53/288 pending completed
+2025-11-11 11:50:46,647 - INFO - Row 54 completed
+2025-11-11 11:50:46,647 - INFO - Processing 58/288
+2025-11-11 11:50:46,652 - INFO - Saved answer 54 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:50:46,652 - INFO - Progress: 54/288 pending completed
+2025-11-11 11:51:16,438 - INFO - Row 55 completed
+2025-11-11 11:51:16,438 - INFO - Processing 59/288
+2025-11-11 11:51:16,444 - INFO - Saved answer 55 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:51:16,444 - INFO - Progress: 55/288 pending completed
+2025-11-11 11:51:47,634 - INFO - Row 56 completed
+2025-11-11 11:51:47,634 - INFO - Processing 60/288
+2025-11-11 11:51:47,639 - INFO - Saved answer 56 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:51:47,639 - INFO - Progress: 56/288 pending completed
+2025-11-11 11:52:15,961 - INFO - Row 57 completed
+2025-11-11 11:52:15,962 - INFO - Processing 61/288
+2025-11-11 11:52:15,966 - INFO - Saved answer 57 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:52:15,966 - INFO - Progress: 57/288 pending completed
+2025-11-11 11:52:45,679 - INFO - Row 58 completed
+2025-11-11 11:52:45,679 - INFO - Processing 62/288
+2025-11-11 11:52:45,684 - INFO - Saved answer 58 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:52:45,684 - INFO - Progress: 58/288 pending completed
+2025-11-11 11:53:15,815 - INFO - Row 59 completed
+2025-11-11 11:53:15,815 - INFO - Processing 63/288
+2025-11-11 11:53:15,821 - INFO - Saved answer 59 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:53:15,821 - INFO - Progress: 59/288 pending completed
+2025-11-11 11:53:46,114 - INFO - Row 60 completed
+2025-11-11 11:53:46,114 - INFO - Processing 64/288
+2025-11-11 11:53:46,119 - INFO - Saved answer 60 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:53:46,119 - INFO - Progress: 60/288 pending completed
+2025-11-11 11:54:16,002 - INFO - Row 61 completed
+2025-11-11 11:54:16,002 - INFO - Processing 65/288
+2025-11-11 11:54:16,008 - INFO - Saved answer 61 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:54:16,008 - INFO - Progress: 61/288 pending completed
+2025-11-11 11:54:45,887 - INFO - Row 62 completed
+2025-11-11 11:54:45,888 - INFO - Processing 66/288
+2025-11-11 11:54:45,892 - INFO - Saved answer 62 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:54:45,892 - INFO - Progress: 62/288 pending completed
+2025-11-11 11:55:16,468 - INFO - Row 63 completed
+2025-11-11 11:55:16,468 - INFO - Processing 67/288
+2025-11-11 11:55:16,473 - INFO - Saved answer 63 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:55:16,473 - INFO - Progress: 63/288 pending completed
+2025-11-11 11:55:46,951 - INFO - Row 64 completed
+2025-11-11 11:55:46,952 - INFO - Processing 68/288
+2025-11-11 11:55:46,957 - INFO - Saved answer 64 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:55:46,957 - INFO - Progress: 64/288 pending completed
+2025-11-11 11:56:16,946 - INFO - Row 65 completed
+2025-11-11 11:56:16,946 - INFO - Processing 69/288
+2025-11-11 11:56:16,951 - INFO - Saved answer 65 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:56:16,951 - INFO - Progress: 65/288 pending completed
+2025-11-11 11:56:45,926 - INFO - Row 66 completed
+2025-11-11 11:56:45,926 - INFO - Processing 70/288
+2025-11-11 11:56:45,932 - INFO - Saved answer 66 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:56:45,932 - INFO - Progress: 66/288 pending completed
+2025-11-11 11:57:15,781 - INFO - Row 67 completed
+2025-11-11 11:57:15,782 - INFO - Processing 71/288
+2025-11-11 11:57:15,786 - INFO - Saved answer 67 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:57:15,786 - INFO - Progress: 67/288 pending completed
+2025-11-11 11:57:47,984 - INFO - Row 68 completed
+2025-11-11 11:57:47,984 - INFO - Processing 72/288
+2025-11-11 11:57:47,989 - INFO - Saved answer 68 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:57:47,989 - INFO - Progress: 68/288 pending completed
+2025-11-11 11:58:16,064 - INFO - Row 69 completed
+2025-11-11 11:58:16,064 - INFO - Processing 73/288
+2025-11-11 11:58:16,068 - INFO - Saved answer 69 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:58:16,069 - INFO - Progress: 69/288 pending completed
+2025-11-11 11:58:46,250 - INFO - Row 70 completed
+2025-11-11 11:58:46,250 - INFO - Processing 74/288
+2025-11-11 11:58:46,256 - INFO - Saved answer 70 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:58:46,256 - INFO - Progress: 70/288 pending completed
+2025-11-11 11:59:16,048 - INFO - Row 71 completed
+2025-11-11 11:59:16,049 - INFO - Processing 75/288
+2025-11-11 11:59:16,054 - INFO - Saved answer 71 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:59:16,054 - INFO - Progress: 71/288 pending completed
+2025-11-11 11:59:45,591 - INFO - Row 72 completed
+2025-11-11 11:59:45,591 - INFO - Processing 76/288
+2025-11-11 11:59:45,596 - INFO - Saved answer 72 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 11:59:45,596 - INFO - Progress: 72/288 pending completed
+2025-11-11 12:00:15,934 - INFO - Row 73 completed
+2025-11-11 12:00:15,934 - INFO - Processing 77/288
+2025-11-11 12:00:15,939 - INFO - Saved answer 73 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:00:15,939 - INFO - Progress: 73/288 pending completed
+2025-11-11 12:00:46,763 - INFO - Row 74 completed
+2025-11-11 12:00:46,763 - INFO - Processing 78/288
+2025-11-11 12:00:46,770 - INFO - Saved answer 74 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:00:46,770 - INFO - Progress: 74/288 pending completed
+2025-11-11 12:01:17,255 - INFO - Row 75 completed
+2025-11-11 12:01:17,255 - INFO - Processing 79/288
+2025-11-11 12:01:17,260 - INFO - Saved answer 75 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:01:17,260 - INFO - Progress: 75/288 pending completed
+2025-11-11 12:01:46,098 - INFO - Row 76 completed
+2025-11-11 12:01:46,099 - INFO - Processing 80/288
+2025-11-11 12:01:46,105 - INFO - Saved answer 76 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:01:46,105 - INFO - Progress: 76/288 pending completed
+2025-11-11 12:02:17,632 - INFO - Row 77 completed
+2025-11-11 12:02:17,632 - INFO - Processing 81/288
+2025-11-11 12:02:17,652 - INFO - Saved answer 77 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:02:17,652 - INFO - Progress: 77/288 pending completed
+2025-11-11 12:02:46,617 - INFO - Row 78 completed
+2025-11-11 12:02:46,617 - INFO - Processing 82/288
+2025-11-11 12:02:46,622 - INFO - Saved answer 78 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:02:46,622 - INFO - Progress: 78/288 pending completed
+2025-11-11 12:03:16,808 - INFO - Row 79 completed
+2025-11-11 12:03:16,808 - INFO - Processing 83/288
+2025-11-11 12:03:16,813 - INFO - Saved answer 79 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:03:16,813 - INFO - Progress: 79/288 pending completed
+2025-11-11 12:03:47,925 - INFO - Row 80 completed
+2025-11-11 12:03:47,926 - INFO - Processing 84/288
+2025-11-11 12:03:47,931 - INFO - Saved answer 80 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:03:47,931 - INFO - Progress: 80/288 pending completed
+2025-11-11 12:04:17,354 - INFO - Row 81 completed
+2025-11-11 12:04:17,355 - INFO - Processing 85/288
+2025-11-11 12:04:17,360 - INFO - Saved answer 81 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:04:17,360 - INFO - Progress: 81/288 pending completed
+2025-11-11 12:04:46,641 - INFO - Row 82 completed
+2025-11-11 12:04:46,642 - INFO - Processing 86/288
+2025-11-11 12:04:46,646 - INFO - Saved answer 82 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:04:46,646 - INFO - Progress: 82/288 pending completed
+2025-11-11 12:05:19,196 - INFO - Row 83 completed
+2025-11-11 12:05:19,196 - INFO - Processing 87/288
+2025-11-11 12:05:19,201 - INFO - Saved answer 83 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:05:19,202 - INFO - Progress: 83/288 pending completed
+2025-11-11 12:05:46,053 - INFO - Row 84 completed
+2025-11-11 12:05:46,054 - INFO - Processing 88/288
+2025-11-11 12:05:46,059 - INFO - Saved answer 84 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:05:46,059 - INFO - Progress: 84/288 pending completed
+2025-11-11 12:06:15,619 - INFO - Row 85 completed
+2025-11-11 12:06:15,619 - INFO - Processing 89/288
+2025-11-11 12:06:15,624 - INFO - Saved answer 85 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:06:15,624 - INFO - Progress: 85/288 pending completed
+2025-11-11 12:06:48,030 - INFO - Row 86 completed
+2025-11-11 12:06:48,030 - INFO - Processing 90/288
+2025-11-11 12:06:48,035 - INFO - Saved answer 86 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:06:48,035 - INFO - Progress: 86/288 pending completed
+2025-11-11 12:07:16,716 - INFO - Row 87 completed
+2025-11-11 12:07:16,716 - INFO - Processing 91/288
+2025-11-11 12:07:16,720 - INFO - Saved answer 87 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:07:16,721 - INFO - Progress: 87/288 pending completed
+2025-11-11 12:07:46,882 - INFO - Row 88 completed
+2025-11-11 12:07:46,882 - INFO - Processing 92/288
+2025-11-11 12:07:46,890 - INFO - Saved answer 88 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:07:46,890 - INFO - Progress: 88/288 pending completed
+2025-11-11 12:08:19,576 - INFO - Row 89 completed
+2025-11-11 12:08:19,576 - INFO - Processing 93/288
+2025-11-11 12:08:19,582 - INFO - Saved answer 89 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:08:19,582 - INFO - Progress: 89/288 pending completed
+2025-11-11 12:08:46,495 - INFO - Row 90 completed
+2025-11-11 12:08:46,495 - INFO - Processing 94/288
+2025-11-11 12:08:46,500 - INFO - Saved answer 90 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:08:46,500 - INFO - Progress: 90/288 pending completed
+2025-11-11 12:09:15,882 - INFO - Row 91 completed
+2025-11-11 12:09:15,882 - INFO - Processing 95/288
+2025-11-11 12:09:15,887 - INFO - Saved answer 91 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:09:15,887 - INFO - Progress: 91/288 pending completed
+2025-11-11 12:09:47,193 - INFO - Row 92 completed
+2025-11-11 12:09:47,194 - INFO - Processing 96/288
+2025-11-11 12:09:47,200 - INFO - Saved answer 92 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:09:47,201 - INFO - Progress: 92/288 pending completed
+2025-11-11 12:10:17,561 - INFO - Row 93 completed
+2025-11-11 12:10:17,561 - INFO - Processing 97/288
+2025-11-11 12:10:17,567 - INFO - Saved answer 93 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:10:17,567 - INFO - Progress: 93/288 pending completed
+2025-11-11 12:10:45,743 - INFO - Row 94 completed
+2025-11-11 12:10:45,744 - INFO - Processing 98/288
+2025-11-11 12:10:45,749 - INFO - Saved answer 94 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:10:45,749 - INFO - Progress: 94/288 pending completed
+2025-11-11 12:11:16,660 - INFO - Row 95 completed
+2025-11-11 12:11:16,660 - INFO - Processing 99/288
+2025-11-11 12:11:16,665 - INFO - Saved answer 95 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:11:16,666 - INFO - Progress: 95/288 pending completed
+2025-11-11 12:11:46,987 - INFO - Row 96 completed
+2025-11-11 12:11:46,987 - INFO - Processing 100/288
+2025-11-11 12:11:46,993 - INFO - Saved answer 96 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:11:46,994 - INFO - Progress: 96/288 pending completed
+2025-11-11 12:12:16,308 - INFO - Row 97 completed
+2025-11-11 12:12:16,308 - INFO - Processing 101/288
+2025-11-11 12:12:16,314 - INFO - Saved answer 97 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:12:16,314 - INFO - Progress: 97/288 pending completed
+2025-11-11 12:12:45,946 - INFO - Row 98 completed
+2025-11-11 12:12:45,946 - INFO - Processing 102/288
+2025-11-11 12:12:45,952 - INFO - Saved answer 98 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:12:45,953 - INFO - Progress: 98/288 pending completed
+2025-11-11 12:13:15,128 - INFO - Row 99 completed
+2025-11-11 12:13:15,128 - INFO - Processing 103/288
+2025-11-11 12:13:15,134 - INFO - Saved answer 99 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:13:15,134 - INFO - Progress: 99/288 pending completed
+2025-11-11 12:13:45,284 - INFO - Row 100 completed
+2025-11-11 12:13:45,285 - INFO - Processing 104/288
+2025-11-11 12:13:45,290 - INFO - Saved answer 100 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:13:45,290 - INFO - Progress: 100/288 pending completed
+2025-11-11 12:14:15,076 - INFO - Row 101 completed
+2025-11-11 12:14:15,077 - INFO - Processing 105/288
+2025-11-11 12:14:15,082 - INFO - Saved answer 101 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:14:15,082 - INFO - Progress: 101/288 pending completed
+2025-11-11 12:14:46,671 - INFO - Row 102 completed
+2025-11-11 12:14:46,671 - INFO - Processing 106/288
+2025-11-11 12:14:46,676 - INFO - Saved answer 102 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:14:46,676 - INFO - Progress: 102/288 pending completed
+2025-11-11 12:15:16,862 - INFO - Row 103 completed
+2025-11-11 12:15:16,862 - INFO - Processing 107/288
+2025-11-11 12:15:16,867 - INFO - Saved answer 103 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:15:16,867 - INFO - Progress: 103/288 pending completed
+2025-11-11 12:15:47,440 - INFO - Row 104 completed
+2025-11-11 12:15:47,441 - INFO - Processing 108/288
+2025-11-11 12:15:47,447 - INFO - Saved answer 104 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:15:47,447 - INFO - Progress: 104/288 pending completed
+2025-11-11 12:16:16,809 - INFO - Row 105 completed
+2025-11-11 12:16:16,809 - INFO - Processing 109/288
+2025-11-11 12:16:16,815 - INFO - Saved answer 105 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:16:16,815 - INFO - Progress: 105/288 pending completed
+2025-11-11 12:16:45,510 - INFO - Row 106 completed
+2025-11-11 12:16:45,510 - INFO - Processing 110/288
+2025-11-11 12:16:45,517 - INFO - Saved answer 106 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:16:45,517 - INFO - Progress: 106/288 pending completed
+2025-11-11 12:17:15,417 - INFO - Row 107 completed
+2025-11-11 12:17:15,417 - INFO - Processing 111/288
+2025-11-11 12:17:15,423 - INFO - Saved answer 107 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:17:15,423 - INFO - Progress: 107/288 pending completed
+2025-11-11 12:17:45,229 - INFO - Row 108 completed
+2025-11-11 12:17:45,229 - INFO - Processing 112/288
+2025-11-11 12:17:45,235 - INFO - Saved answer 108 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:17:45,235 - INFO - Progress: 108/288 pending completed
+2025-11-11 12:18:15,617 - INFO - Row 109 completed
+2025-11-11 12:18:15,618 - INFO - Processing 113/288
+2025-11-11 12:18:15,623 - INFO - Saved answer 109 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:18:15,623 - INFO - Progress: 109/288 pending completed
+2025-11-11 12:18:45,477 - INFO - Row 110 completed
+2025-11-11 12:18:45,477 - INFO - Processing 114/288
+2025-11-11 12:18:45,483 - INFO - Saved answer 110 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:18:45,483 - INFO - Progress: 110/288 pending completed
+2025-11-11 12:19:15,274 - INFO - Row 111 completed
+2025-11-11 12:19:15,274 - INFO - Processing 115/288
+2025-11-11 12:19:15,280 - INFO - Saved answer 111 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:19:15,280 - INFO - Progress: 111/288 pending completed
+2025-11-11 12:19:48,738 - INFO - Row 112 completed
+2025-11-11 12:19:48,738 - INFO - Processing 116/288
+2025-11-11 12:19:48,743 - INFO - Saved answer 112 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:19:48,743 - INFO - Progress: 112/288 pending completed
+2025-11-11 12:20:15,780 - INFO - Row 113 completed
+2025-11-11 12:20:15,781 - INFO - Processing 117/288
+2025-11-11 12:20:15,786 - INFO - Saved answer 113 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:20:15,786 - INFO - Progress: 113/288 pending completed
+2025-11-11 12:20:45,557 - INFO - Row 114 completed
+2025-11-11 12:20:45,558 - INFO - Processing 118/288
+2025-11-11 12:20:45,565 - INFO - Saved answer 114 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:20:45,565 - INFO - Progress: 114/288 pending completed
+2025-11-11 12:21:15,825 - INFO - Row 115 completed
+2025-11-11 12:21:15,825 - INFO - Processing 119/288
+2025-11-11 12:21:15,831 - INFO - Saved answer 115 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:21:15,831 - INFO - Progress: 115/288 pending completed
+2025-11-11 12:21:45,646 - INFO - Row 116 completed
+2025-11-11 12:21:45,646 - INFO - Processing 120/288
+2025-11-11 12:21:45,651 - INFO - Saved answer 116 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:21:45,652 - INFO - Progress: 116/288 pending completed
+2025-11-11 12:22:15,654 - INFO - Row 117 completed
+2025-11-11 12:22:15,654 - INFO - Processing 121/288
+2025-11-11 12:22:15,660 - INFO - Saved answer 117 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:22:15,661 - INFO - Progress: 117/288 pending completed
+2025-11-11 12:22:46,130 - INFO - Row 118 completed
+2025-11-11 12:22:46,130 - INFO - Processing 122/288
+2025-11-11 12:22:46,135 - INFO - Saved answer 118 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:22:46,136 - INFO - Progress: 118/288 pending completed
+2025-11-11 12:23:16,776 - INFO - Row 119 completed
+2025-11-11 12:23:16,776 - INFO - Processing 123/288
+2025-11-11 12:23:16,782 - INFO - Saved answer 119 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:23:16,782 - INFO - Progress: 119/288 pending completed
+2025-11-11 12:23:46,769 - INFO - Row 120 completed
+2025-11-11 12:23:46,770 - INFO - Processing 124/288
+2025-11-11 12:23:46,775 - INFO - Saved answer 120 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:23:46,775 - INFO - Progress: 120/288 pending completed
+2025-11-11 12:24:16,416 - INFO - Row 121 completed
+2025-11-11 12:24:16,417 - INFO - Processing 125/288
+2025-11-11 12:24:16,423 - INFO - Saved answer 121 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:24:16,423 - INFO - Progress: 121/288 pending completed
+2025-11-11 12:24:46,255 - INFO - Row 122 completed
+2025-11-11 12:24:46,256 - INFO - Processing 126/288
+2025-11-11 12:24:46,261 - INFO - Saved answer 122 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:24:46,261 - INFO - Progress: 122/288 pending completed
+2025-11-11 12:25:16,862 - INFO - Row 123 completed
+2025-11-11 12:25:16,862 - INFO - Processing 127/288
+2025-11-11 12:25:16,868 - INFO - Saved answer 123 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:25:16,869 - INFO - Progress: 123/288 pending completed
+2025-11-11 12:25:46,755 - INFO - Row 124 completed
+2025-11-11 12:25:46,756 - INFO - Processing 128/288
+2025-11-11 12:25:46,761 - INFO - Saved answer 124 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:25:46,762 - INFO - Progress: 124/288 pending completed
+2025-11-11 12:26:16,796 - INFO - Row 125 completed
+2025-11-11 12:26:16,796 - INFO - Processing 129/288
+2025-11-11 12:26:16,803 - INFO - Saved answer 125 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:26:16,803 - INFO - Progress: 125/288 pending completed
+2025-11-11 12:26:46,672 - INFO - Row 126 completed
+2025-11-11 12:26:46,672 - INFO - Processing 130/288
+2025-11-11 12:26:46,677 - INFO - Saved answer 126 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:26:46,677 - INFO - Progress: 126/288 pending completed
+2025-11-11 12:27:16,668 - INFO - Row 127 completed
+2025-11-11 12:27:16,669 - INFO - Processing 131/288
+2025-11-11 12:27:16,674 - INFO - Saved answer 127 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:27:16,674 - INFO - Progress: 127/288 pending completed
+2025-11-11 12:27:46,051 - INFO - Row 128 completed
+2025-11-11 12:27:46,051 - INFO - Processing 132/288
+2025-11-11 12:27:46,057 - INFO - Saved answer 128 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:27:46,057 - INFO - Progress: 128/288 pending completed
+2025-11-11 12:28:15,994 - INFO - Row 129 completed
+2025-11-11 12:28:15,994 - INFO - Processing 133/288
+2025-11-11 12:28:16,000 - INFO - Saved answer 129 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:28:16,000 - INFO - Progress: 129/288 pending completed
+2025-11-11 12:28:46,054 - INFO - Row 130 completed
+2025-11-11 12:28:46,054 - INFO - Processing 134/288
+2025-11-11 12:28:46,062 - INFO - Saved answer 130 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:28:46,063 - INFO - Progress: 130/288 pending completed
+2025-11-11 12:29:15,719 - INFO - Row 131 completed
+2025-11-11 12:29:15,719 - INFO - Processing 135/288
+2025-11-11 12:29:15,725 - INFO - Saved answer 131 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:29:15,726 - INFO - Progress: 131/288 pending completed
+2025-11-11 12:29:46,629 - INFO - Row 132 completed
+2025-11-11 12:29:46,629 - INFO - Processing 136/288
+2025-11-11 12:29:46,635 - INFO - Saved answer 132 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:29:46,636 - INFO - Progress: 132/288 pending completed
+2025-11-11 12:30:16,277 - INFO - Row 133 completed
+2025-11-11 12:30:16,277 - INFO - Processing 137/288
+2025-11-11 12:30:16,282 - INFO - Saved answer 133 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:30:16,283 - INFO - Progress: 133/288 pending completed
+2025-11-11 12:30:46,144 - INFO - Row 134 completed
+2025-11-11 12:30:46,144 - INFO - Processing 138/288
+2025-11-11 12:30:46,153 - INFO - Saved answer 134 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:30:46,153 - INFO - Progress: 134/288 pending completed
+2025-11-11 12:31:15,962 - INFO - Row 135 completed
+2025-11-11 12:31:15,962 - INFO - Processing 139/288
+2025-11-11 12:31:15,967 - INFO - Saved answer 135 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:31:15,967 - INFO - Progress: 135/288 pending completed
+2025-11-11 12:31:47,707 - INFO - Row 136 completed
+2025-11-11 12:31:47,708 - INFO - Processing 140/288
+2025-11-11 12:31:47,713 - INFO - Saved answer 136 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:31:47,713 - INFO - Progress: 136/288 pending completed
+2025-11-11 12:32:16,536 - INFO - Row 137 completed
+2025-11-11 12:32:16,536 - INFO - Processing 141/288
+2025-11-11 12:32:16,542 - INFO - Saved answer 137 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:32:16,542 - INFO - Progress: 137/288 pending completed
+2025-11-11 12:32:46,244 - INFO - Row 138 completed
+2025-11-11 12:32:46,245 - INFO - Processing 142/288
+2025-11-11 12:32:46,251 - INFO - Saved answer 138 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:32:46,251 - INFO - Progress: 138/288 pending completed
+2025-11-11 12:33:17,412 - INFO - Row 139 completed
+2025-11-11 12:33:17,412 - INFO - Processing 143/288
+2025-11-11 12:33:17,417 - INFO - Saved answer 139 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:33:17,417 - INFO - Progress: 139/288 pending completed
+2025-11-11 12:33:46,565 - INFO - Row 140 completed
+2025-11-11 12:33:46,565 - INFO - Processing 144/288
+2025-11-11 12:33:46,571 - INFO - Saved answer 140 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:33:46,571 - INFO - Progress: 140/288 pending completed
+2025-11-11 12:34:18,226 - INFO - Row 141 completed
+2025-11-11 12:34:18,226 - INFO - Processing 145/288
+2025-11-11 12:34:18,232 - INFO - Saved answer 141 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:34:18,232 - INFO - Progress: 141/288 pending completed
+2025-11-11 12:34:45,826 - INFO - Row 142 completed
+2025-11-11 12:34:45,826 - INFO - Processing 146/288
+2025-11-11 12:34:45,833 - INFO - Saved answer 142 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:34:45,833 - INFO - Progress: 142/288 pending completed
+2025-11-11 12:35:15,656 - INFO - Row 143 completed
+2025-11-11 12:35:15,656 - INFO - Processing 147/288
+2025-11-11 12:35:15,662 - INFO - Saved answer 143 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:35:15,662 - INFO - Progress: 143/288 pending completed
+2025-11-11 12:35:46,730 - INFO - Row 144 completed
+2025-11-11 12:35:46,730 - INFO - Processing 148/288
+2025-11-11 12:35:46,735 - INFO - Saved answer 144 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:35:46,736 - INFO - Progress: 144/288 pending completed
+2025-11-11 12:36:16,279 - INFO - Row 145 completed
+2025-11-11 12:36:16,279 - INFO - Processing 149/288
+2025-11-11 12:36:16,285 - INFO - Saved answer 145 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:36:16,285 - INFO - Progress: 145/288 pending completed
+2025-11-11 12:36:47,156 - INFO - Row 146 completed
+2025-11-11 12:36:47,157 - INFO - Processing 150/288
+2025-11-11 12:36:47,162 - INFO - Saved answer 146 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:36:47,162 - INFO - Progress: 146/288 pending completed
+2025-11-11 12:37:16,406 - INFO - Row 147 completed
+2025-11-11 12:37:16,407 - INFO - Processing 151/288
+2025-11-11 12:37:16,412 - INFO - Saved answer 147 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:37:16,412 - INFO - Progress: 147/288 pending completed
+2025-11-11 12:37:47,214 - INFO - Row 148 completed
+2025-11-11 12:37:47,214 - INFO - Processing 152/288
+2025-11-11 12:37:47,220 - INFO - Saved answer 148 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:37:47,221 - INFO - Progress: 148/288 pending completed
+2025-11-11 12:38:18,647 - INFO - Row 149 completed
+2025-11-11 12:38:18,647 - INFO - Processing 153/288
+2025-11-11 12:38:18,652 - INFO - Saved answer 149 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:38:18,653 - INFO - Progress: 149/288 pending completed
+2025-11-11 12:38:46,284 - INFO - Row 150 completed
+2025-11-11 12:38:46,284 - INFO - Processing 154/288
+2025-11-11 12:38:46,292 - INFO - Saved answer 150 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:38:46,292 - INFO - Progress: 150/288 pending completed
+2025-11-11 12:39:16,050 - INFO - Row 151 completed
+2025-11-11 12:39:16,051 - INFO - Processing 155/288
+2025-11-11 12:39:16,056 - INFO - Saved answer 151 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:39:16,056 - INFO - Progress: 151/288 pending completed
+2025-11-11 12:39:46,760 - INFO - Row 152 completed
+2025-11-11 12:39:46,760 - INFO - Processing 156/288
+2025-11-11 12:39:46,766 - INFO - Saved answer 152 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:39:46,766 - INFO - Progress: 152/288 pending completed
+2025-11-11 12:40:16,418 - INFO - Row 153 completed
+2025-11-11 12:40:16,419 - INFO - Processing 157/288
+2025-11-11 12:40:16,424 - INFO - Saved answer 153 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:40:16,424 - INFO - Progress: 153/288 pending completed
+2025-11-11 12:40:45,569 - INFO - Row 154 completed
+2025-11-11 12:40:45,569 - INFO - Processing 158/288
+2025-11-11 12:40:45,575 - INFO - Saved answer 154 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:40:45,575 - INFO - Progress: 154/288 pending completed
+2025-11-11 12:41:19,468 - INFO - Row 155 completed
+2025-11-11 12:41:19,468 - INFO - Processing 159/288
+2025-11-11 12:41:19,474 - INFO - Saved answer 155 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:41:19,474 - INFO - Progress: 155/288 pending completed
+2025-11-11 12:41:46,964 - INFO - Row 156 completed
+2025-11-11 12:41:46,964 - INFO - Processing 160/288
+2025-11-11 12:41:46,971 - INFO - Saved answer 156 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:41:46,971 - INFO - Progress: 156/288 pending completed
+2025-11-11 12:42:15,703 - INFO - Row 157 completed
+2025-11-11 12:42:15,703 - INFO - Processing 161/288
+2025-11-11 12:42:15,710 - INFO - Saved answer 157 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:42:15,710 - INFO - Progress: 157/288 pending completed
+2025-11-11 12:42:46,475 - INFO - Row 158 completed
+2025-11-11 12:42:46,475 - INFO - Processing 162/288
+2025-11-11 12:42:46,482 - INFO - Saved answer 158 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:42:46,482 - INFO - Progress: 158/288 pending completed
+2025-11-11 12:43:16,657 - INFO - Row 159 completed
+2025-11-11 12:43:16,657 - INFO - Processing 163/288
+2025-11-11 12:43:16,663 - INFO - Saved answer 159 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:43:16,663 - INFO - Progress: 159/288 pending completed
+2025-11-11 12:43:47,499 - INFO - Row 160 completed
+2025-11-11 12:43:47,500 - INFO - Processing 164/288
+2025-11-11 12:43:47,506 - INFO - Saved answer 160 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:43:47,506 - INFO - Progress: 160/288 pending completed
+2025-11-11 12:44:17,287 - INFO - Row 161 completed
+2025-11-11 12:44:17,287 - INFO - Processing 165/288
+2025-11-11 12:44:17,293 - INFO - Saved answer 161 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:44:17,293 - INFO - Progress: 161/288 pending completed
+2025-11-11 12:44:48,187 - INFO - Row 162 completed
+2025-11-11 12:44:48,187 - INFO - Processing 166/288
+2025-11-11 12:44:48,193 - INFO - Saved answer 162 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:44:48,194 - INFO - Progress: 162/288 pending completed
+2025-11-11 12:45:16,165 - INFO - Row 163 completed
+2025-11-11 12:45:16,165 - INFO - Processing 167/288
+2025-11-11 12:45:16,172 - INFO - Saved answer 163 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:45:16,172 - INFO - Progress: 163/288 pending completed
+2025-11-11 12:45:52,502 - INFO - Row 164 completed
+2025-11-11 12:45:52,503 - INFO - Processing 168/288
+2025-11-11 12:45:52,510 - INFO - Saved answer 164 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:45:52,510 - INFO - Progress: 164/288 pending completed
+2025-11-11 12:46:17,334 - INFO - Row 165 completed
+2025-11-11 12:46:17,334 - INFO - Processing 169/288
+2025-11-11 12:46:17,340 - INFO - Saved answer 165 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:46:17,341 - INFO - Progress: 165/288 pending completed
+2025-11-11 12:46:46,054 - INFO - Row 166 completed
+2025-11-11 12:46:46,055 - INFO - Processing 170/288
+2025-11-11 12:46:46,060 - INFO - Saved answer 166 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:46:46,060 - INFO - Progress: 166/288 pending completed
+2025-11-11 12:47:17,094 - INFO - Row 167 completed
+2025-11-11 12:47:17,094 - INFO - Processing 171/288
+2025-11-11 12:47:17,100 - INFO - Saved answer 167 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:47:17,100 - INFO - Progress: 167/288 pending completed
+2025-11-11 12:47:47,141 - INFO - Row 168 completed
+2025-11-11 12:47:47,142 - INFO - Processing 172/288
+2025-11-11 12:47:47,151 - INFO - Saved answer 168 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:47:47,151 - INFO - Progress: 168/288 pending completed
+2025-11-11 12:48:15,552 - INFO - Row 169 completed
+2025-11-11 12:48:15,552 - INFO - Processing 173/288
+2025-11-11 12:48:15,557 - INFO - Saved answer 169 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:48:15,557 - INFO - Progress: 169/288 pending completed
+2025-11-11 12:48:46,561 - INFO - Row 170 completed
+2025-11-11 12:48:46,561 - INFO - Processing 174/288
+2025-11-11 12:48:46,567 - INFO - Saved answer 170 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:48:46,567 - INFO - Progress: 170/288 pending completed
+2025-11-11 12:49:15,493 - INFO - Row 171 completed
+2025-11-11 12:49:15,493 - INFO - Processing 175/288
+2025-11-11 12:49:15,499 - INFO - Saved answer 171 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:49:15,500 - INFO - Progress: 171/288 pending completed
+2025-11-11 12:49:45,946 - INFO - Row 172 completed
+2025-11-11 12:49:45,946 - INFO - Processing 176/288
+2025-11-11 12:49:45,953 - INFO - Saved answer 172 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:49:45,953 - INFO - Progress: 172/288 pending completed
+2025-11-11 12:50:15,927 - INFO - Row 173 completed
+2025-11-11 12:50:15,927 - INFO - Processing 177/288
+2025-11-11 12:50:15,933 - INFO - Saved answer 173 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:50:15,933 - INFO - Progress: 173/288 pending completed
+2025-11-11 12:50:47,355 - INFO - Row 174 completed
+2025-11-11 12:50:47,355 - INFO - Processing 178/288
+2025-11-11 12:50:47,362 - INFO - Saved answer 174 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:50:47,362 - INFO - Progress: 174/288 pending completed
+2025-11-11 12:51:16,383 - INFO - Row 175 completed
+2025-11-11 12:51:16,383 - INFO - Processing 179/288
+2025-11-11 12:51:16,390 - INFO - Saved answer 175 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:51:16,390 - INFO - Progress: 175/288 pending completed
+2025-11-11 12:51:48,680 - INFO - Row 176 completed
+2025-11-11 12:51:48,681 - INFO - Processing 180/288
+2025-11-11 12:51:48,687 - INFO - Saved answer 176 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:51:48,687 - INFO - Progress: 176/288 pending completed
+2025-11-11 12:52:18,068 - INFO - Row 177 completed
+2025-11-11 12:52:18,068 - INFO - Processing 181/288
+2025-11-11 12:52:18,074 - INFO - Saved answer 177 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:52:18,074 - INFO - Progress: 177/288 pending completed
+2025-11-11 12:52:45,634 - INFO - Row 178 completed
+2025-11-11 12:52:45,634 - INFO - Processing 182/288
+2025-11-11 12:52:45,640 - INFO - Saved answer 178 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:52:45,640 - INFO - Progress: 178/288 pending completed
+2025-11-11 12:53:15,930 - INFO - Row 179 completed
+2025-11-11 12:53:15,930 - INFO - Processing 183/288
+2025-11-11 12:53:15,938 - INFO - Saved answer 179 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:53:15,938 - INFO - Progress: 179/288 pending completed
+2025-11-11 12:53:45,359 - INFO - Row 180 completed
+2025-11-11 12:53:45,359 - INFO - Processing 184/288
+2025-11-11 12:53:45,365 - INFO - Saved answer 180 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:53:45,365 - INFO - Progress: 180/288 pending completed
+2025-11-11 12:54:15,944 - INFO - Row 181 completed
+2025-11-11 12:54:15,945 - INFO - Processing 185/288
+2025-11-11 12:54:15,951 - INFO - Saved answer 181 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:54:15,951 - INFO - Progress: 181/288 pending completed
+2025-11-11 12:54:45,629 - INFO - Row 182 completed
+2025-11-11 12:54:45,630 - INFO - Processing 186/288
+2025-11-11 12:54:45,635 - INFO - Saved answer 182 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:54:45,636 - INFO - Progress: 182/288 pending completed
+2025-11-11 12:55:16,533 - INFO - Row 183 completed
+2025-11-11 12:55:16,534 - INFO - Processing 187/288
+2025-11-11 12:55:16,540 - INFO - Saved answer 183 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:55:16,540 - INFO - Progress: 183/288 pending completed
+2025-11-11 12:55:47,139 - INFO - Row 184 completed
+2025-11-11 12:55:47,139 - INFO - Processing 188/288
+2025-11-11 12:55:47,146 - INFO - Saved answer 184 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:55:47,146 - INFO - Progress: 184/288 pending completed
+2025-11-11 12:56:15,796 - INFO - Row 185 completed
+2025-11-11 12:56:15,796 - INFO - Processing 189/288
+2025-11-11 12:56:15,803 - INFO - Saved answer 185 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:56:15,803 - INFO - Progress: 185/288 pending completed
+2025-11-11 12:56:45,757 - INFO - Row 186 completed
+2025-11-11 12:56:45,757 - INFO - Processing 190/288
+2025-11-11 12:56:45,763 - INFO - Saved answer 186 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:56:45,763 - INFO - Progress: 186/288 pending completed
+2025-11-11 12:57:15,219 - INFO - Row 187 completed
+2025-11-11 12:57:15,219 - INFO - Processing 191/288
+2025-11-11 12:57:15,226 - INFO - Saved answer 187 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:57:15,226 - INFO - Progress: 187/288 pending completed
+2025-11-11 12:57:51,741 - INFO - Row 188 completed
+2025-11-11 12:57:51,741 - INFO - Processing 192/288
+2025-11-11 12:57:51,747 - INFO - Saved answer 188 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:57:51,748 - INFO - Progress: 188/288 pending completed
+2025-11-11 12:58:17,895 - INFO - Row 189 completed
+2025-11-11 12:58:17,895 - INFO - Processing 193/288
+2025-11-11 12:58:17,901 - INFO - Saved answer 189 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:58:17,901 - INFO - Progress: 189/288 pending completed
+2025-11-11 12:58:45,909 - INFO - Row 190 completed
+2025-11-11 12:58:45,910 - INFO - Processing 194/288
+2025-11-11 12:58:45,916 - INFO - Saved answer 190 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:58:45,916 - INFO - Progress: 190/288 pending completed
+2025-11-11 12:59:16,946 - INFO - Row 191 completed
+2025-11-11 12:59:16,946 - INFO - Processing 195/288
+2025-11-11 12:59:16,953 - INFO - Saved answer 191 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:59:16,953 - INFO - Progress: 191/288 pending completed
+2025-11-11 12:59:49,667 - INFO - Row 192 completed
+2025-11-11 12:59:49,667 - INFO - Processing 196/288
+2025-11-11 12:59:49,674 - INFO - Saved answer 192 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 12:59:49,674 - INFO - Progress: 192/288 pending completed
+2025-11-11 13:00:16,062 - INFO - Row 193 completed
+2025-11-11 13:00:16,062 - INFO - Processing 197/288
+2025-11-11 13:00:16,068 - INFO - Saved answer 193 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:00:16,068 - INFO - Progress: 193/288 pending completed
+2025-11-11 13:00:45,813 - INFO - Row 194 completed
+2025-11-11 13:00:45,814 - INFO - Processing 198/288
+2025-11-11 13:00:45,819 - INFO - Saved answer 194 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:00:45,820 - INFO - Progress: 194/288 pending completed
+2025-11-11 13:01:15,365 - INFO - Row 195 completed
+2025-11-11 13:01:15,365 - INFO - Processing 199/288
+2025-11-11 13:01:15,370 - INFO - Saved answer 195 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:01:15,370 - INFO - Progress: 195/288 pending completed
+2025-11-11 13:01:46,290 - INFO - Row 196 completed
+2025-11-11 13:01:46,291 - INFO - Processing 200/288
+2025-11-11 13:01:46,296 - INFO - Saved answer 196 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:01:46,296 - INFO - Progress: 196/288 pending completed
+2025-11-11 13:02:17,506 - INFO - Row 197 completed
+2025-11-11 13:02:17,506 - INFO - Processing 201/288
+2025-11-11 13:02:17,511 - INFO - Saved answer 197 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:02:17,511 - INFO - Progress: 197/288 pending completed
+2025-11-11 13:02:48,871 - INFO - Row 198 completed
+2025-11-11 13:02:48,871 - INFO - Processing 202/288
+2025-11-11 13:02:48,876 - INFO - Saved answer 198 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:02:48,877 - INFO - Progress: 198/288 pending completed
+2025-11-11 13:03:16,162 - INFO - Row 199 completed
+2025-11-11 13:03:16,163 - INFO - Processing 203/288
+2025-11-11 13:03:16,168 - INFO - Saved answer 199 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:03:16,168 - INFO - Progress: 199/288 pending completed
+2025-11-11 13:03:46,543 - INFO - Row 200 completed
+2025-11-11 13:03:46,543 - INFO - Processing 204/288
+2025-11-11 13:03:46,549 - INFO - Saved answer 200 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:03:46,549 - INFO - Progress: 200/288 pending completed
+2025-11-11 13:04:16,197 - INFO - Row 201 completed
+2025-11-11 13:04:16,197 - INFO - Processing 205/288
+2025-11-11 13:04:16,212 - INFO - Saved answer 201 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:04:16,212 - INFO - Progress: 201/288 pending completed
+2025-11-11 13:04:45,659 - INFO - Row 202 completed
+2025-11-11 13:04:45,659 - INFO - Processing 206/288
+2025-11-11 13:04:45,664 - INFO - Saved answer 202 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:04:45,664 - INFO - Progress: 202/288 pending completed
+2025-11-11 13:05:16,330 - INFO - Row 203 completed
+2025-11-11 13:05:16,330 - INFO - Processing 207/288
+2025-11-11 13:05:16,335 - INFO - Saved answer 203 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:05:16,335 - INFO - Progress: 203/288 pending completed
+2025-11-11 13:05:45,930 - INFO - Row 204 completed
+2025-11-11 13:05:45,930 - INFO - Processing 208/288
+2025-11-11 13:05:45,935 - INFO - Saved answer 204 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:05:45,935 - INFO - Progress: 204/288 pending completed
+2025-11-11 13:06:15,806 - INFO - Row 205 completed
+2025-11-11 13:06:15,806 - INFO - Processing 209/288
+2025-11-11 13:06:15,811 - INFO - Saved answer 205 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:06:15,811 - INFO - Progress: 205/288 pending completed
+2025-11-11 13:06:47,616 - INFO - Row 206 completed
+2025-11-11 13:06:47,617 - INFO - Processing 210/288
+2025-11-11 13:06:47,623 - INFO - Saved answer 206 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:06:47,623 - INFO - Progress: 206/288 pending completed
+2025-11-11 13:07:18,675 - INFO - Row 207 completed
+2025-11-11 13:07:18,675 - INFO - Processing 211/288
+2025-11-11 13:07:18,680 - INFO - Saved answer 207 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:07:18,681 - INFO - Progress: 207/288 pending completed
+2025-11-11 13:07:46,770 - INFO - Row 208 completed
+2025-11-11 13:07:46,770 - INFO - Processing 212/288
+2025-11-11 13:07:46,775 - INFO - Saved answer 208 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:07:46,775 - INFO - Progress: 208/288 pending completed
+2025-11-11 13:08:16,660 - INFO - Row 209 completed
+2025-11-11 13:08:16,660 - INFO - Processing 213/288
+2025-11-11 13:08:16,665 - INFO - Saved answer 209 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:08:16,665 - INFO - Progress: 209/288 pending completed
+2025-11-11 13:08:45,948 - INFO - Row 210 completed
+2025-11-11 13:08:45,948 - INFO - Processing 214/288
+2025-11-11 13:08:45,954 - INFO - Saved answer 210 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:08:45,954 - INFO - Progress: 210/288 pending completed
+2025-11-11 13:09:16,382 - INFO - Row 211 completed
+2025-11-11 13:09:16,382 - INFO - Processing 215/288
+2025-11-11 13:09:16,390 - INFO - Saved answer 211 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:09:16,390 - INFO - Progress: 211/288 pending completed
+2025-11-11 13:09:46,055 - INFO - Row 212 completed
+2025-11-11 13:09:46,055 - INFO - Processing 216/288
+2025-11-11 13:09:46,061 - INFO - Saved answer 212 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:09:46,061 - INFO - Progress: 212/288 pending completed
+2025-11-11 13:10:17,816 - INFO - Row 213 completed
+2025-11-11 13:10:17,817 - INFO - Processing 217/288
+2025-11-11 13:10:17,822 - INFO - Saved answer 213 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:10:17,822 - INFO - Progress: 213/288 pending completed
+2025-11-11 13:10:46,420 - INFO - Row 214 completed
+2025-11-11 13:10:46,420 - INFO - Processing 218/288
+2025-11-11 13:10:46,426 - INFO - Saved answer 214 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:10:46,426 - INFO - Progress: 214/288 pending completed
+2025-11-11 13:11:19,081 - INFO - Row 215 completed
+2025-11-11 13:11:19,081 - INFO - Processing 219/288
+2025-11-11 13:11:19,087 - INFO - Saved answer 215 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:11:19,087 - INFO - Progress: 215/288 pending completed
+2025-11-11 13:11:46,713 - INFO - Row 216 completed
+2025-11-11 13:11:46,713 - INFO - Processing 220/288
+2025-11-11 13:11:46,719 - INFO - Saved answer 216 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:11:46,719 - INFO - Progress: 216/288 pending completed
+2025-11-11 13:12:15,703 - INFO - Row 217 completed
+2025-11-11 13:12:15,703 - INFO - Processing 221/288
+2025-11-11 13:12:15,708 - INFO - Saved answer 217 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:12:15,709 - INFO - Progress: 217/288 pending completed
+2025-11-11 13:12:47,215 - INFO - Row 218 completed
+2025-11-11 13:12:47,216 - INFO - Processing 222/288
+2025-11-11 13:12:47,221 - INFO - Saved answer 218 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:12:47,221 - INFO - Progress: 218/288 pending completed
+2025-11-11 13:13:17,764 - INFO - Row 219 completed
+2025-11-11 13:13:17,765 - INFO - Processing 223/288
+2025-11-11 13:13:17,770 - INFO - Saved answer 219 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:13:17,770 - INFO - Progress: 219/288 pending completed
+2025-11-11 13:13:45,909 - INFO - Row 220 completed
+2025-11-11 13:13:45,910 - INFO - Processing 224/288
+2025-11-11 13:13:45,915 - INFO - Saved answer 220 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:13:45,915 - INFO - Progress: 220/288 pending completed
+2025-11-11 13:14:16,747 - INFO - Row 221 completed
+2025-11-11 13:14:16,747 - INFO - Processing 225/288
+2025-11-11 13:14:16,753 - INFO - Saved answer 221 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:14:16,753 - INFO - Progress: 221/288 pending completed
+2025-11-11 13:14:48,082 - INFO - Row 222 completed
+2025-11-11 13:14:48,082 - INFO - Processing 226/288
+2025-11-11 13:14:48,087 - INFO - Saved answer 222 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:14:48,087 - INFO - Progress: 222/288 pending completed
+2025-11-11 13:15:15,118 - INFO - Row 223 completed
+2025-11-11 13:15:15,118 - INFO - Processing 227/288
+2025-11-11 13:15:15,123 - INFO - Saved answer 223 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:15:15,123 - INFO - Progress: 223/288 pending completed
+2025-11-11 13:15:45,639 - INFO - Row 224 completed
+2025-11-11 13:15:45,639 - INFO - Processing 228/288
+2025-11-11 13:15:45,644 - INFO - Saved answer 224 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:15:45,645 - INFO - Progress: 224/288 pending completed
+2025-11-11 13:16:15,219 - INFO - Row 225 completed
+2025-11-11 13:16:15,219 - INFO - Processing 229/288
+2025-11-11 13:16:15,225 - INFO - Saved answer 225 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:16:15,225 - INFO - Progress: 225/288 pending completed
+2025-11-11 13:16:46,440 - INFO - Row 226 completed
+2025-11-11 13:16:46,440 - INFO - Processing 230/288
+2025-11-11 13:16:46,445 - INFO - Saved answer 226 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:16:46,445 - INFO - Progress: 226/288 pending completed
+2025-11-11 13:17:16,482 - INFO - Row 227 completed
+2025-11-11 13:17:16,482 - INFO - Processing 231/288
+2025-11-11 13:17:16,487 - INFO - Saved answer 227 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:17:16,487 - INFO - Progress: 227/288 pending completed
+2025-11-11 13:17:47,091 - INFO - Row 228 completed
+2025-11-11 13:17:47,091 - INFO - Processing 232/288
+2025-11-11 13:17:47,097 - INFO - Saved answer 228 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:17:47,097 - INFO - Progress: 228/288 pending completed
+2025-11-11 13:18:16,033 - INFO - Row 229 completed
+2025-11-11 13:18:16,033 - INFO - Processing 233/288
+2025-11-11 13:18:16,038 - INFO - Saved answer 229 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:18:16,038 - INFO - Progress: 229/288 pending completed
+2025-11-11 13:18:46,053 - INFO - Row 230 completed
+2025-11-11 13:18:46,054 - INFO - Processing 234/288
+2025-11-11 13:18:46,059 - INFO - Saved answer 230 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:18:46,059 - INFO - Progress: 230/288 pending completed
+2025-11-11 13:19:16,544 - INFO - Row 231 completed
+2025-11-11 13:19:16,544 - INFO - Processing 235/288
+2025-11-11 13:19:16,550 - INFO - Saved answer 231 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:19:16,550 - INFO - Progress: 231/288 pending completed
+2025-11-11 13:19:45,902 - INFO - Row 232 completed
+2025-11-11 13:19:45,903 - INFO - Processing 236/288
+2025-11-11 13:19:45,908 - INFO - Saved answer 232 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:19:45,908 - INFO - Progress: 232/288 pending completed
+2025-11-11 13:20:18,066 - INFO - Row 233 completed
+2025-11-11 13:20:18,066 - INFO - Processing 237/288
+2025-11-11 13:20:18,078 - INFO - Saved answer 233 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:20:18,078 - INFO - Progress: 233/288 pending completed
+2025-11-11 13:20:47,365 - INFO - Row 234 completed
+2025-11-11 13:20:47,365 - INFO - Processing 238/288
+2025-11-11 13:20:47,371 - INFO - Saved answer 234 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:20:47,371 - INFO - Progress: 234/288 pending completed
+2025-11-11 13:21:17,103 - INFO - Row 235 completed
+2025-11-11 13:21:17,104 - INFO - Processing 239/288
+2025-11-11 13:21:17,109 - INFO - Saved answer 235 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:21:17,109 - INFO - Progress: 235/288 pending completed
+2025-11-11 13:21:47,263 - INFO - Row 236 completed
+2025-11-11 13:21:47,263 - INFO - Processing 240/288
+2025-11-11 13:21:47,268 - INFO - Saved answer 236 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:21:47,268 - INFO - Progress: 236/288 pending completed
+2025-11-11 13:22:17,250 - INFO - Row 237 completed
+2025-11-11 13:22:17,250 - INFO - Processing 241/288
+2025-11-11 13:22:17,255 - INFO - Saved answer 237 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:22:17,255 - INFO - Progress: 237/288 pending completed
+2025-11-11 13:22:45,770 - INFO - Row 238 completed
+2025-11-11 13:22:45,770 - INFO - Processing 242/288
+2025-11-11 13:22:45,776 - INFO - Saved answer 238 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:22:45,776 - INFO - Progress: 238/288 pending completed
+2025-11-11 13:23:16,949 - INFO - Row 239 completed
+2025-11-11 13:23:16,949 - INFO - Processing 243/288
+2025-11-11 13:23:16,955 - INFO - Saved answer 239 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:23:16,955 - INFO - Progress: 239/288 pending completed
+2025-11-11 13:23:47,668 - INFO - Row 240 completed
+2025-11-11 13:23:47,668 - INFO - Processing 244/288
+2025-11-11 13:23:47,674 - INFO - Saved answer 240 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:23:47,674 - INFO - Progress: 240/288 pending completed
+2025-11-11 13:24:15,485 - INFO - Row 241 completed
+2025-11-11 13:24:15,485 - INFO - Processing 245/288
+2025-11-11 13:24:15,491 - INFO - Saved answer 241 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:24:15,491 - INFO - Progress: 241/288 pending completed
+2025-11-11 13:24:47,156 - INFO - Row 242 completed
+2025-11-11 13:24:47,156 - INFO - Processing 246/288
+2025-11-11 13:24:47,162 - INFO - Saved answer 242 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:24:47,162 - INFO - Progress: 242/288 pending completed
+2025-11-11 13:25:15,455 - INFO - Row 243 completed
+2025-11-11 13:25:15,455 - INFO - Processing 247/288
+2025-11-11 13:25:15,461 - INFO - Saved answer 243 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:25:15,461 - INFO - Progress: 243/288 pending completed
+2025-11-11 13:25:45,358 - INFO - Row 244 completed
+2025-11-11 13:25:45,358 - INFO - Processing 248/288
+2025-11-11 13:25:45,364 - INFO - Saved answer 244 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:25:45,364 - INFO - Progress: 244/288 pending completed
+2025-11-11 13:26:16,068 - INFO - Row 245 completed
+2025-11-11 13:26:16,068 - INFO - Processing 249/288
+2025-11-11 13:26:16,074 - INFO - Saved answer 245 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:26:16,074 - INFO - Progress: 245/288 pending completed
+2025-11-11 13:26:47,763 - INFO - Row 246 completed
+2025-11-11 13:26:47,763 - INFO - Processing 250/288
+2025-11-11 13:26:47,768 - INFO - Saved answer 246 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:26:47,768 - INFO - Progress: 246/288 pending completed
+2025-11-11 13:27:16,629 - INFO - Row 247 completed
+2025-11-11 13:27:16,629 - INFO - Processing 251/288
+2025-11-11 13:27:16,636 - INFO - Saved answer 247 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:27:16,636 - INFO - Progress: 247/288 pending completed
+2025-11-11 13:27:48,665 - INFO - Row 248 completed
+2025-11-11 13:27:48,665 - INFO - Processing 252/288
+2025-11-11 13:27:48,670 - INFO - Saved answer 248 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:27:48,671 - INFO - Progress: 248/288 pending completed
+2025-11-11 13:28:16,518 - INFO - Row 249 completed
+2025-11-11 13:28:16,518 - INFO - Processing 253/288
+2025-11-11 13:28:16,524 - INFO - Saved answer 249 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:28:16,524 - INFO - Progress: 249/288 pending completed
+2025-11-11 13:28:45,715 - INFO - Row 250 completed
+2025-11-11 13:28:45,715 - INFO - Processing 254/288
+2025-11-11 13:28:45,721 - INFO - Saved answer 250 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:28:45,722 - INFO - Progress: 250/288 pending completed
+2025-11-11 13:29:15,703 - INFO - Row 251 completed
+2025-11-11 13:29:15,704 - INFO - Processing 255/288
+2025-11-11 13:29:15,710 - INFO - Saved answer 251 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:29:15,710 - INFO - Progress: 251/288 pending completed
+2025-11-11 13:29:45,080 - INFO - Row 252 completed
+2025-11-11 13:29:45,080 - INFO - Processing 256/288
+2025-11-11 13:29:45,085 - INFO - Saved answer 252 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:29:45,086 - INFO - Progress: 252/288 pending completed
+2025-11-11 13:30:16,593 - INFO - Row 253 completed
+2025-11-11 13:30:16,593 - INFO - Processing 257/288
+2025-11-11 13:30:16,598 - INFO - Saved answer 253 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:30:16,598 - INFO - Progress: 253/288 pending completed
+2025-11-11 13:30:45,409 - INFO - Row 254 completed
+2025-11-11 13:30:45,409 - INFO - Processing 258/288
+2025-11-11 13:30:45,415 - INFO - Saved answer 254 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:30:45,415 - INFO - Progress: 254/288 pending completed
+2025-11-11 13:31:15,388 - INFO - Row 255 completed
+2025-11-11 13:31:15,389 - INFO - Processing 259/288
+2025-11-11 13:31:15,395 - INFO - Saved answer 255 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:31:15,395 - INFO - Progress: 255/288 pending completed
+2025-11-11 13:31:45,251 - INFO - Row 256 completed
+2025-11-11 13:31:45,251 - INFO - Processing 260/288
+2025-11-11 13:31:45,257 - INFO - Saved answer 256 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:31:45,257 - INFO - Progress: 256/288 pending completed
+2025-11-11 13:32:15,409 - INFO - Row 257 completed
+2025-11-11 13:32:15,409 - INFO - Processing 261/288
+2025-11-11 13:32:15,415 - INFO - Saved answer 257 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:32:15,415 - INFO - Progress: 257/288 pending completed
+2025-11-11 13:32:45,872 - INFO - Row 258 completed
+2025-11-11 13:32:45,872 - INFO - Processing 262/288
+2025-11-11 13:32:45,878 - INFO - Saved answer 258 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:32:45,878 - INFO - Progress: 258/288 pending completed
+2025-11-11 13:33:16,089 - INFO - Row 259 completed
+2025-11-11 13:33:16,089 - INFO - Processing 263/288
+2025-11-11 13:33:16,094 - INFO - Saved answer 259 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:33:16,095 - INFO - Progress: 259/288 pending completed
+2025-11-11 13:33:46,120 - INFO - Row 260 completed
+2025-11-11 13:33:46,120 - INFO - Processing 264/288
+2025-11-11 13:33:46,126 - INFO - Saved answer 260 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:33:46,126 - INFO - Progress: 260/288 pending completed
+2025-11-11 13:34:16,056 - INFO - Row 261 completed
+2025-11-11 13:34:16,056 - INFO - Processing 265/288
+2025-11-11 13:34:16,062 - INFO - Saved answer 261 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:34:16,062 - INFO - Progress: 261/288 pending completed
+2025-11-11 13:34:45,699 - INFO - Row 262 completed
+2025-11-11 13:34:45,700 - INFO - Processing 266/288
+2025-11-11 13:34:45,706 - INFO - Saved answer 262 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:34:45,706 - INFO - Progress: 262/288 pending completed
+2025-11-11 13:35:16,185 - INFO - Row 263 completed
+2025-11-11 13:35:16,185 - INFO - Processing 267/288
+2025-11-11 13:35:16,191 - INFO - Saved answer 263 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:35:16,191 - INFO - Progress: 263/288 pending completed
+2025-11-11 13:35:46,676 - INFO - Row 264 completed
+2025-11-11 13:35:46,676 - INFO - Processing 268/288
+2025-11-11 13:35:46,682 - INFO - Saved answer 264 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:35:46,682 - INFO - Progress: 264/288 pending completed
+2025-11-11 13:36:16,370 - INFO - Row 265 completed
+2025-11-11 13:36:16,370 - INFO - Processing 269/288
+2025-11-11 13:36:16,376 - INFO - Saved answer 265 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:36:16,376 - INFO - Progress: 265/288 pending completed
+2025-11-11 13:36:46,271 - INFO - Row 266 completed
+2025-11-11 13:36:46,271 - INFO - Processing 270/288
+2025-11-11 13:36:46,276 - INFO - Saved answer 266 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:36:46,276 - INFO - Progress: 266/288 pending completed
+2025-11-11 13:37:15,646 - INFO - Row 267 completed
+2025-11-11 13:37:15,646 - INFO - Processing 271/288
+2025-11-11 13:37:15,652 - INFO - Saved answer 267 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:37:15,652 - INFO - Progress: 267/288 pending completed
+2025-11-11 13:37:45,981 - INFO - Row 268 completed
+2025-11-11 13:37:45,981 - INFO - Processing 272/288
+2025-11-11 13:37:45,986 - INFO - Saved answer 268 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:37:45,987 - INFO - Progress: 268/288 pending completed
+2025-11-11 13:38:16,624 - INFO - Row 269 completed
+2025-11-11 13:38:16,625 - INFO - Processing 273/288
+2025-11-11 13:38:16,633 - INFO - Saved answer 269 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:38:16,634 - INFO - Progress: 269/288 pending completed
+2025-11-11 13:38:47,500 - INFO - Row 270 completed
+2025-11-11 13:38:47,500 - INFO - Processing 274/288
+2025-11-11 13:38:47,506 - INFO - Saved answer 270 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:38:47,506 - INFO - Progress: 270/288 pending completed
+2025-11-11 13:39:15,728 - INFO - Row 271 completed
+2025-11-11 13:39:15,728 - INFO - Processing 275/288
+2025-11-11 13:39:15,733 - INFO - Saved answer 271 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:39:15,734 - INFO - Progress: 271/288 pending completed
+2025-11-11 13:39:49,297 - INFO - Row 272 completed
+2025-11-11 13:39:49,297 - INFO - Processing 276/288
+2025-11-11 13:39:49,303 - INFO - Saved answer 272 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:39:49,303 - INFO - Progress: 272/288 pending completed
+2025-11-11 13:40:16,541 - INFO - Row 273 completed
+2025-11-11 13:40:16,541 - INFO - Processing 277/288
+2025-11-11 13:40:16,549 - INFO - Saved answer 273 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:40:16,549 - INFO - Progress: 273/288 pending completed
+2025-11-11 13:40:45,736 - INFO - Row 274 completed
+2025-11-11 13:40:45,736 - INFO - Processing 278/288
+2025-11-11 13:40:45,741 - INFO - Saved answer 274 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:40:45,742 - INFO - Progress: 274/288 pending completed
+2025-11-11 13:41:15,453 - INFO - Row 275 completed
+2025-11-11 13:41:15,453 - INFO - Processing 279/288
+2025-11-11 13:41:15,460 - INFO - Saved answer 275 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:41:15,460 - INFO - Progress: 275/288 pending completed
+2025-11-11 13:41:46,191 - INFO - Row 276 completed
+2025-11-11 13:41:46,191 - INFO - Processing 280/288
+2025-11-11 13:41:46,197 - INFO - Saved answer 276 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:41:46,197 - INFO - Progress: 276/288 pending completed
+2025-11-11 13:42:17,473 - INFO - Row 277 completed
+2025-11-11 13:42:17,473 - INFO - Processing 281/288
+2025-11-11 13:42:17,479 - INFO - Saved answer 277 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:42:17,479 - INFO - Progress: 277/288 pending completed
+2025-11-11 13:42:47,670 - INFO - Row 278 completed
+2025-11-11 13:42:47,671 - INFO - Processing 282/288
+2025-11-11 13:42:47,676 - INFO - Saved answer 278 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:42:47,676 - INFO - Progress: 278/288 pending completed
+2025-11-11 13:43:16,368 - INFO - Row 279 completed
+2025-11-11 13:43:16,368 - INFO - Processing 283/288
+2025-11-11 13:43:16,374 - INFO - Saved answer 279 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:43:16,374 - INFO - Progress: 279/288 pending completed
+2025-11-11 13:43:46,548 - INFO - Row 280 completed
+2025-11-11 13:43:46,549 - INFO - Processing 284/288
+2025-11-11 13:43:46,555 - INFO - Saved answer 280 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:43:46,555 - INFO - Progress: 280/288 pending completed
+2025-11-11 13:44:16,664 - INFO - Row 281 completed
+2025-11-11 13:44:16,664 - INFO - Processing 285/288
+2025-11-11 13:44:16,670 - INFO - Saved answer 281 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:44:16,670 - INFO - Progress: 281/288 pending completed
+2025-11-11 13:44:46,048 - INFO - Row 282 completed
+2025-11-11 13:44:46,049 - INFO - Processing 286/288
+2025-11-11 13:44:46,055 - INFO - Saved answer 282 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:44:46,055 - INFO - Progress: 282/288 pending completed
+2025-11-11 13:45:15,639 - INFO - Row 283 completed
+2025-11-11 13:45:15,639 - INFO - Processing 287/288
+2025-11-11 13:45:15,645 - INFO - Saved answer 283 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:45:15,645 - INFO - Progress: 283/288 pending completed
+2025-11-11 13:45:45,652 - INFO - Row 284 completed
+2025-11-11 13:45:45,652 - INFO - Processing 288/288
+2025-11-11 13:45:45,658 - INFO - Saved answer 284 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:45:45,659 - INFO - Progress: 284/288 pending completed
+2025-11-11 13:46:17,706 - INFO - Row 285 completed
+2025-11-11 13:46:17,712 - INFO - Saved answer 285 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:46:17,712 - INFO - Progress: 285/288 pending completed
+2025-11-11 13:46:46,405 - INFO - Row 286 completed
+2025-11-11 13:46:46,410 - INFO - Saved answer 286 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:46:46,411 - INFO - Progress: 286/288 pending completed
+2025-11-11 13:47:15,789 - INFO - Row 287 completed
+2025-11-11 13:47:15,794 - INFO - Saved answer 287 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:47:15,795 - INFO - Progress: 287/288 pending completed
+2025-11-11 13:47:46,320 - INFO - Row 288 completed
+2025-11-11 13:47:46,326 - INFO - Saved answer 288 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\arcee-ai-virtuoso-large_answers.csv
+2025-11-11 13:47:46,326 - INFO - Progress: 288/288 pending completed
+2025-11-11 13:47:46,328 - INFO - Done. Successes: 13, Fails: 1

@@ -1,0 +1,1499 @@
+test_item,language,prompt,answer
+B1T,English,"Here's the context: John is hungry and there is pizza in the oven. There is also pasta in the fridge. Mary says: ""If John is hungry, there is pizza in the oven"". Based on what Mary says, is it true that there is pizza in the oven?","Yes, it is true.
+
+There are two reasons for this:
+
+1.  **The provided context explicitly states it:** The very first sentence says, ""...there is pizza in the oven.""
+2.  **We can deduce it from Mary's statement:** Mary makes a conditional statement (""If John is hungry, there is pizza in the oven""). We know the ""if"" part is true (John is hungry). For her statement to be correct, the ""then"" part must also be true."
+B1F,English,"Here's the context: John is hungry and there is no pizza in the oven. There is no pasta in the fridge either. Mary says: ""If John is hungry, there is pizza in the oven"". Based on what Mary says, is it true that there is pizza in the oven?","Based on the context you provided, the answer is:
+
+**No**, it is not true that there is pizza in the oven.
+
+The context explicitly states, ""**there is no pizza in the oven**."" Mary's statement is incorrect because the condition (""John is hungry"") is true, but the result she describes (""there is pizza in the oven"") is false."
+B1C,English,"Here's the context: John is not hungry. There is pasta in the fridge. Mary says: ""If John is hungry, there is pizza in the oven"". Based on what Mary says, is it true that there is pizza in the oven?","Based on the information given, it is **impossible to know** if there is pizza in the oven.
+
+Here's a simple breakdown:
+
+Mary's statement is, ""If John is hungry, there is pizza in the oven.""
+
+*   The condition is ""John is hungry.""
+*   We know from the context that this condition is **false** (John is not hungry).
+
+Because the ""if"" part 건물is not met, her statement tells us absolutely nothing about whether or not there is pizza in the oven. The pizza could be there, or it might not be. We lack the information to say for sure."
+B2T,English,"Here's the context: Nicole's head hurts and there is aspirin on the table. There is also ibuprofen in the drawer. Mary says: ""If Nicole's head hurts, there is aspirin on the table"". Based on what Mary says, is it true that there is aspirin on the table? ","Yes.
+
+Here's the logical breakdown:
+1.  Mary makes a conditional statement: ""If Nicole's head hurts, then there is aspirin on the table.""
+2.  The context confirms that the ""if"" part is true: ""Nicole's head hurts.""
+3.  Therefore, for Mary's statement to be logical and true, the ""then"" part must also be true."
+B2F,English,"Here's the context: Nicole's head hurts and there is no aspirin on the table. There is no ibuprofen in the drawer either. Mary says:  ""If Nicole's head hurts, there is aspirin on the table"". Based on what Mary says, is it true that there is aspirin on the table?","Based on the context, **No, it is not true that there is aspirin on the table.**
+
+Here's the breakdown:
+
+*   **The Context states the facts:** ""there is no aspirin on the table.""
+*   **Mary makes a statement:** ""If Nicole's head hurts, there is aspirin on the table"".
+
+Since we know from the context that Nicole's head does hurt, but there is no aspirin, Mary's statement is simply incorrect. The facts given in the context are the ground truth for this problem."
+B2C,English,"Here's the context: Nicole's head does not hurt. There is ibuprofen in the drawer. Mary says: ""If Nicole's head hurts, there is aspirin on the table"". Based on what Mary says, is it true that there is aspirin on the table?","Based on the information provided, we cannot determine if there is aspirin on the table.
+
+Here's why:
+
+Mary's statement is a conditional: ""If A, then B"".
+*   A = ""Nicole's head hurts""
+*   B = ""There is aspirin on the table""
+
+We know from the context that ""Nicole's head does not hurt"". This means the ""if"" part of Mary's statement (A) is false.
+
+In logic, if the ""if"" part of a statement is false, the entire statement is considered true, regardless of whether the ""then"" part is true or false. Therefore, Mary's statement is not a lie, but it gives us **no information** about whether or not there is aspirin on the table."
+B3T,English,"Here's the context: Lucy is thirsty and there is water in the fridge. There is also apple juice on the shelf. Mary says: ""If Lucy is thirsty, there is water in the fridge"". Based on what Mary says, is it true that there is water in the fridge? ","Based on what Mary says, **yes, it is true that there is water in the fridge.**
+
+Here's the logic:
+1.  Mary makes a conditional statement: ""If Lucy is thirsty, there is water in the fridge.""
+2.  The context confirms the ""if"" part of her statement is true: ""Lucy is thirsty.""
+3.  Since the ""if"" condition is met, the ""then"" part of her statement must also be true for her entire statement to be correct."
+B3F,English,"Here's the context: Lucy is thirsty and there is no water in the fridge. There is no apple juice on the shelf either. Mary says: ""If Lucy is thirsty, there is water in the fridge"". Based on what Mary says, is it true that there is water in the fridge?","Based on the context you provided, the answer is:
+
+**No, it is not true that there is water in the fridge.**
+
+The context explicitly states, ""there is no water in the fridge."" Mary's statement is incorrect."
+B3C,English,"Here's the context: Lucy is not thirsty. There is apple juice on the shelf. Mary says: ""If Lucy is thirsty, there is water in the fridge"". Based on what Mary says, is it true that there is water in the fridge? ","Based on the information given, it is **impossible to tell**.
+
+Here's why:
+
+Mary's statement is a conditional: ""If Lucy is thirsty, there is water in the fridge.""
+
+*   The condition is ""Lucy is thirsty.""
+*   The result is ""there is water in the fridge.""
+
+The context tells us that the condition is false (Lucy is not thirsty). When the ""if"" part of an ""if-then"" statement is false, the statement doesn't tell us anything about whether the ""then"" part is true or not. There might be water in the fridge for another reason, or there might not be any at all. Mary's statement only applies to the specific situation where Lucy is thirsty."
+B4T,English,"Here's the context: Peter's phone is dead and there is a charger in the drawer. There is also a computer on the table. Mary says: ""If Peter's phone is dead, there is a charger in the drawer"". Based on what Mary says, is it true that there is a charger in the drawer?","Yes, it is true.
+
+The context provides two pieces of information that confirm this:
+
+1.  The initial context states directly: ""**there is a charger in the drawer**.""
+2.  Mary's statement is ""If Peter's phone is dead, there is a charger in the drawer"". Since the context confirms that ""Peter's phone is dead"" (the 'if' part is true), the consequence she states (""there is a charger in the drawer"") is also presented as true."
+B4F,English,"Here's the context: Peter's phone is dead and there is no charger in the drawer. There is no computer on the table either. Mary says: ""If Peter's phone is dead, there is a charger in the drawer"". Based on what Mary says, is it true that there is a charger in the drawer?","Based on the context provided, the answer is:
+
+No, it is not true.
+
+The context explicitly states, ""**there is no charger in the drawer**."" Mary's statement is incorrect."
+B4C,English,"Here's the context: Peter's phone is fully charged. There is a computer on the table. Mary says: ""If Peter's phone is dead, there is a charger in the drawer"". Based on what Mary says, is it true that there is a charger in the drawer?","Based on what Mary says, it is **unknown** whether there is a charger in the drawer.
+
+**Here's the logical breakdown:**
+
+Mary's statement is a conditional ""if-then"" statement: ""If [Peter's phone is dead], then [there is a charger in the drawer].""
+
+*   The ""if"" part (the condition) is ""Peter's phone is dead."" We know from the context that this is **false**.
+*   The ""then"" part (the conclusion) is ""there is a charger in the drawer.""
+
+In logic, an ""if-then"" statement with a false condition is always considered true, regardless of whether the conclusion is true or false. Because the condition wasn't met, the statement tells us nothing about the conclusion. Mary's statement doesn't get triggered, so we can't learn anything about the drawer's contents from it."
+B5T,English,"Here's the context: The weather is rainy and there is an umbrella on the coat rack. There is also a raincoat in the car. Mary says: ""If the weather is rainy, there is an umbrella on the coat rack"". Based on what Mary says, is it true that there is an umbrella on the coat rack?","Based on what Mary says, we can't be certain.
+
+Here's the logical breakdown:
+
+Mary makes a conditional statement: ""If A, then B"".
+*   A = ""the weather is rainy""
+*   B = ""there is an umbrella on the coat rack""
+
+Her statement only tells you what is true *if* the condition (rainy weather) is met. Her words alone do not confirm that the condition is actually met. Therefore, based only on her statement, you cannot conclude that there is an umbrella on the coat rack."
+B5F,English,"Here's the context: The weather is rainy and there is no umbrella on the coat rack. There is no raincoat in the car either. Mary says: ""If the weather is rainy, there is an umbrella on the coat rack"". Based on what Mary says, is it true that there is an umbrella on the coat rack?","No, it is not true.
+
+Based on the context, what Mary says is incorrect. The context explicitly states, ""there is no umbrella on the coat rack."""
+B5C,English,"Here's the context: The weather is sunny. There is a raincoat in the car. Mary says: ""If the weather is rainy, there is an umbrella on the coat rack"". Based on what Mary says, is it true that there is an umbrella on the coat rack?","Based on what Mary says, it is **impossible to know**.
+
+Here's why:
+
+Mary's statement is a conditional (""If... then..."").
+
+*   **Condition:** ""If the weather is rainy""
+*   **Result:** ""there is an umbrella on the coat rack""
+
+The context states that the weather is sunny. Since the condition (""the weather is rainy"") is not true, her statement tells us nothing about the umbrella's location. The umbrella might be there, or it might not be, but Mary's words don't confirm or deny its presence in sunny weather."
+B6T,English,"Here's the context: Your tire is flat and there is a pump in the garage. There is also a bike by the front door. Mary says: ""If your tire is flat, there is a pump in the garage"". Based on what Mary says, is it true that there is a pump in the garage?","Yes.
+
+Based on what Mary says, her statement is ""If your tire is flat, there is a pump in the garage.""
+
+The context confirms that the ""if"" condition is met: ""Your tire is flat."" Therefore, the second part of her statement, ""there is a pump in the garage,"" must be true."
+B6F,English,"Here's the context: Your tire is flat and there is no pump in the garage. There is no bike by the front door either. Mary says: ""If your tire is flat, there is a pump in the garage"". Based on what Mary says, is it true that there is a pump in the garage?","Based on the context, the answer is:
+
+**No.**
+
+The context explicitly states, ""There is no pump in the garage."" Mary's statement is incorrect."
+B6C,English,"Here's the context: Your tire is not flat. There is a bike by the front door. Mary says: ""If your tire is flat, there is a pump in the garage"". Based on what Mary says, is it true that there is a pump in the garage?","Based on what Mary says, it is **unknown** whether there is a pump in the garage.
+
+Here's the logical breakdown:
+
+Mary's statement is a conditional: ""If X is true, then Y is true.""
+*   **X:** ""Your tire is flat.""
+*   **Y:** ""There is a pump in the garage.""
+
+The context states that ""Your tire is not flat,"" meaning the ""if"" part of her statement is false. When the ""if"" part of a conditional statement is false, the statement itself doesn't tell us anything about whether the ""then"" part is true or false.
+
+There might be a pump in the garage for other reasons, or there might not be one at all. Mary's statement only guarantees you'll find a pump if your tire is flat."
+B7T,English,"Here's the context: The plant is dry and there is a water can on the shelf. There is also a hose in the garden. Mary says: ""If the plant is dry, there is a water can on the shelf"". Based on what Mary says, is it true that there is a water can on the shelf? ","Yes.
+
+Here's the reasoning:
+
+1.  Mary makes a conditional statement: ""If the plant is dry, there is a water can on the shelf"".
+2.  The context confirms that the ""if"" part of her statement is true: ""The plant is dry"".
+3.  Because the condition is met, the conclusion of her statement must also be true.
+
+Therefore, based on what Mary says, it is true that there is a water can on the shelf."
+B7F,English,"Here's the context: The plant is dry and there is no water can on the shelf. There is no hose in the garden either. Mary says: ""If the plant is dry, there is a water can on the shelf"". Based on what Mary says, is it true that there is a water can on the shelf? ","Based on the context, **no, it is not true that there is a water can on the shelf.**
+
+The context explicitly states, ""there is no water can on the shelf."" Therefore, Mary's statement is incorrect."
+B7C,English,"Here's the context: The plant is not dry. There is a hose in the garden. Mary says: ""If the plant is dry, there is a water can on the shelf"". Based on what Mary says, is it true that there is a water can on the shelf? ","It is unknown.
+
+Here's why:
+
+Mary's statement is an ""if-then"" condition. ""IF the plant is dry, THEN there is a water can on the shelf.""
+
+The condition (""the plant is dry"") is false. Because the condition is not met, the statement tells us nothing about whether or not there is a water can on the shelf. The can might be there, or it might not be. We don't have enough information to know for sure."
+B8T,English,"Here's the context: George's shirt is wrinkled and there is an iron in the closet. There is also an ironing board on the balcony. Mary says: ""If George's shirt is wrinkled, there is an iron in the closet"". Based on what Mary says, is it true that there is an iron in the closet?","Yes.
+
+Here's the reasoning:
+
+1.  Mary makes a conditional statement: ""If George's shirt is wrinkled, there is an iron in the closet.""
+2.  The context confirms that the ""if"" part of her statement is true: ""George's shirt is wrinkled.""
+3.  Because the condition is met, the conclusion of her statement must also be true.
+
+Therefore, based on what Mary says, it is true that there is an iron in the closet."
+B8F,English,"Here's the context: George's shirt is wrinkled and there is no iron in the closet. There is no ironing board on the balcony either. Mary says: ""If George's shirt is wrinkled, there is an iron in the closet"". Based on what Mary says, is it true that there is an iron in the closet?","Based on the context, here is the answer:
+
+**No, it is not true that there is an iron in the closet.**
+
+Here's the breakdown:
+
+1.  **The Context is Fact:** The context explicitly states, ""...there is no iron in the closet."" This is presented as the reality of the situation.
+2.  **Mary's Statement is Incorrect:** Mary says, ""If George's shirt is wrinkled, there is an iron in the closet."" Since we know George's shirt *is* wrinkled but there *is not* an iron in the closet, Mary's statement is false."
+B8C,English,"Here's the context: George's shirt is not wrinkled. There is an ironing board on the balcony. Mary says: ""If George's shirt is wrinkled, there is an iron in the closet"". Based on what Mary says, is it true that there is an iron in the closet?","Based on what Mary says, it is **unknown** whether there is an iron in the closet.
+
+Here's why:
+
+Mary's statement is a conditional: ""If A, then B.""
+*   **A:** ""George's shirt is wrinkled.""
+*   **B:** ""There is an iron in the closet.""
+
+We know from the context that condition A is **false** (George's shirt is not wrinkled).
+
+In logic, if the ""if"" part of a statement is false, the entire statement is considered true, regardless of whether the ""then"" part is true or false. Since the condition for her statement isn't met, her claim doesn't give us any information about the iron's existence."
+B9T,English,"Here's the context: Susy wants to read and there are books on the shelf. There is also a newspaper on the couch. Mary says: ""If Susy wants to read, there are books on the shelf"". Based on what Mary says, is it true that there are books on the shelf?","Based on what Mary says, **yes, it is true that there are books on the shelf.**
+
+Here's the reasoning:
+Mary makes a conditional statement: ""If Susy wants to read, there are books on the shelf"".
+
+1.  The context tells us that the ""if"" part is true: ""Susy wants to read"".
+2.  Because the first part of her statement is true, the second part must also be true for her statement to be valid."
+B9F,English,"Here's the context: Susy wants to read and there are no books on the shelf. There is no newspaper on the couch either. Mary says: ""If Susy wants to read, there are books on the shelf"". Based on what Mary says, is it true that there are books on the shelf?","Based on the context you provided, the answer is:
+
+**No.**
+
+The context explicitly states, ""there are no books on the shelf."" Mary's statement is incorrect."
+B9C,English,"Here's the context: Susy does not want to read. There is a newspaper on the couch. Mary says: ""If Susy wants to read, there are books on the shelf"". Based on what Mary says, is it true that there are books on the shelf?","Based on what Mary says, it is **uncertain** whether there are books on the shelf.
+
+Here's the breakdown:
+
+Mary's statement is a conditional: ""If P, then Q"".
+
+*   **P:** Susy wants to read.
+*   **Q:** There are books on the shelf.
+
+The statement only guarantees that there are books on the shelf *if* the first part is true (if Susy wants to read).
+
+However, the context tells us that Susy **does not** want to read. Since the ""if"" condition is false, Mary's statement tells us nothing about the truth of the second part. There could be books on the shelf, or there might not be. Mary's statement is not a lie in either case."
+F1T,English,"Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza in the fridge. In this context, is pizza more popular than pasta?","Yes, based on the context, pizza is more popular than pasta. The text states that ""people buy it more."""
+F1F,English,"Here's the context: Although pizza is more expensive than pasta, people buy it more. There is pizza in the fridge. In this context, is pasta more popular than pizza?",No. The context states that people buy pizza more than pasta.
+F2T,English,"Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. There is black coffee in the pot. In this context, is green tea more used than black coffee?","Based on the context, yes. The context states that ""most people prefer green tea."" This implies it is more used or consumed than black coffee, despite its higher price."
+F2F,English,"Here's the context: Although black coffee is cheaper than green tea, most people prefer green tea. There is black coffee in the pot. In this context, is black coffee more used than green tea?","No.
+
+Based on the context, green tea is more used than black coffee. The text explicitly states that ""**most people prefer green tea**,"" which indicates higher usage or consumption despite its higher cost."
+F3T,English,"Here's the context: Although water is healthier than soda, many choose soda. There is water in the freezer. In this context, is soda more in demand than water?","Yes, based on the context provided.
+
+The statement, ""**many choose soda**,"" directly indicates that there is a higher demand for soda than for water in this specific situation, despite water being the healthier option."
+F3F,English,"Here's the context: Although water is healthier than soda, many choose soda. There is water in the freezer. In this context, is water more in demand than soda?","Based on the context provided, **no**, soda is more in demand.
+
+The text explicitly states, ""...**many choose soda**,"" which indicates it is the more popular choice despite water being healthier."
+F4T,English,"Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. There is broccoli in the oven. In this context, is broccoli more popular than gnocchi?","Yes. The context states that even though broccoli is more difficult to cook, ""people use it more"" than gnocchi."
+F4F,English,"Here's the context: Although broccoli is more difficult to cook than gnocchi, people use it more. There is broccoli in the oven. In this context,  are gnocchi more popular than broccoli?","No, the context states the opposite. It says that although broccoli is more difficult to cook, ""people use it more"" than gnocchi."
+F5T,English,"Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There is sushi on the table. In this context, are burgers more popular than sushi?","Yes, the context states that ""people eat burgers more often."""
+F5F,English,"Here's the context: Although sushi is healthier than burgers, people eat burgers more often. There is sushi on the table. In this context, is sushi more popular than burgers?","Based on the context provided, the answer is:
+
+No. The context states that ""people eat burgers more often,"" which indicates that burgers are more popular."
+F6T,English,"Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There are bananas in the basket. In this context, are bananas more popular than kiwis?","Yes.
+
+The context states that ""people purchase them [bananas] more"" than kiwis, which indicates they are more popular."
+F6F,English,"Here's the context: Although bananas are more expensive than kiwis, people purchase them more. There are bananas in the basket. In this context, are kiwis more popular than bananas?","No. The context states that ""people purchase them [bananas] more."""
+F7T,English,"Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up in the tree. In this context, are dogs more popular than cats?","Yes. The context states, ""Although dogs are more lively than cats, people prefer them."" In this sentence, ""them"" refers to dogs."
+F7F,English,"Here's the context: Although dogs are more lively than cats, people prefer them. There is a cat up in the tree. In this context, are cats more popular than dogs?","No, based on the context provided, dogs are more popular than cats. The text states, ""...people prefer them,"" referring to dogs."
+F8T,English,"Here's the context: Although reading books is more educational than watching TV, most people watch TV. There is a book on the shelf. In this context, are more people watching TV than reading books?","Yes, the context states that ""most people watch TV."""
+F8F,English,"Here's the context: Although reading books is more educational than watching TV, most people watch TV. There is a book on the shelf. In this context, are more people reading books than watching TV?","No, the context states that ""most people watch TV."""
+F9T,English,"Here's the context: Although running is better for fitness than walking, most people prefer walking. There is a runner on the track. In this context, is walking more popular than running?","Yes, based on the context provided, walking is more popular than running. The context explicitly states, ""...most people prefer walking."""
+F9F,English,"Here's the context: Although running is better for fitness than walking, most people prefer walking. There is a runner on the track. In this context, is running more popular than walking?","No. The context states that ""most people prefer walking."""
+S1T,English,"Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Mary had said: ""If the parrot is in the cage, Thomas will bring pizza"". Based on what Mary says, is it true that Thomas brought pizza?","Yes.
+
+Here's why:
+1.  Mary's statement is a conditional: ""If the parrot is in the cage, Thomas will bring pizza"".
+2.  The context confirms that the condition is true: ""The parrot is in the cage.""
+
+Because the ""if"" part of Mary's statement is true, the ""then"" part must also be true."
+S1F,English,"Here's the context: The parrot is in the cage. Also, the dog is in the doghouse. Thomas did not bring pizza. Mary had said: ""If the parrot is in the cage, Thomas will bring pizza"". Based on what Mary says, is it true that Thomas brought pizza?","No.
+
+The context explicitly states: ""**Thomas did not bring pizza**.""
+
+This means that Mary's statement (""If the parrot is in the cage, Thomas will bring pizza"") was incorrect. Even though the condition was met (the parrot was in the cage), the result did not happen."
+S1C,English,"Here's the context: The parrot is not in the cage. The dog is not in the doghouse either. Mary had said: ""If the parrot is in the cage, Thomas will bring pizza"". Based on what Mary says, is it true that Thomas brought pizza?","Based on the information given, it is **impossible to know** if Thomas brought pizza.
+
+Here's why:
+
+Mary's statement was, ""If the parrot is in the cage, Thomas will bring pizza.""
+
+*   The condition for Thomas bringing pizza (the ""if"" part) is that the parrot is in the cage.
+*   We know for a fact that the parrot is **not** in the cage.
+
+Since the condition was not met, Mary's statement tells us absolutely nothing about what happens. Thomas might have brought pizza for some other reason, or he might not have."
+S2T,English,"Here's the context: You finished your broccoli. You also finished your pasta. Mary had said: ""If you finish your broccoli, Mark will give you a candy"". Based on what Mary says, is it true that Mark gave you a candy?","Yes, it is true.
+
+Mary's statement created a rule: **If** you finish your broccoli, **then** Mark will give you a candy. Since you did finish your broccoli, the condition was met, and the consequence must be true."
+S2F,English,"Here's the context: You finished your broccoli. You also finished your pasta. Mary did not give you a candy. Mary had said: ""If you finish your broccoli, Mark will give you a candy"". Based on what Mary says, is it true that Mark gave you a candy?","Yes, it is true that Mark gave you a candy.
+
+Here's the logic:
+1.  Mary's statement was: ""If you finish your broccoli, Mark will give you a candy.""
+2.  The condition (""if you finish your broccoli"") was met.
+3.  Therefore, according to Mary's statement, the consequence (""Mark will give you a candy"") must be true."
+S2C,English,"Here's the context: You didn't finish your broccoli. You didn't finish your pasta either. Mary had said: ""If you finish your broccoli, Mark will give you a candy"". Based on what Mary says, is it true that Mark gave you a candy?","Based on what Mary said, it is impossible to know for sure.
+
+Here's why:
+
+Mary's statement was a condition: **If** you finish your broccoli, **then** Mark will give you a candy.
+
+Since you did not finish your broccoli, the condition was not met. Her statement only tells you what would happen if you *did* finish it; it says nothing about what happens if you *don't*. Mark is not obligated to give you a candy, but he still might have given you one for a different reason."
+S3T,English,"Here's the context: The foxes are dancing. Also, the squirrels are eating. Mary had said: ""If the foxes are dancing, Susan will get a camera"". Based on what Mary says, is it true that Susan got a camera?","Yes.
+
+Here's a simple breakdown:
+
+1.  **Mary's Rule:** Susan gets a camera *if* the foxes are dancing.
+2.  **The Situation:** The foxes are dancing.
+
+Since the condition in Mary's rule is true, the outcome must also be true."
+S3F,English,"Here's the context: The foxes are dancing. Also, the squirrels are eating. Susan did not get a shovel. Mary had said: ""If the foxes are dancing, Susan will get a camera"". Based on what Mary says, is it true that Susan got a camera?","Yes.
+
+Here's the reasoning:
+1.  Mary's statement creates a rule: ""If the foxes are dancing, Susan will get a camera.""
+2.  The context confirms that the ""if"" part of the rule is true: ""The foxes are dancing.""
+3.  Therefore, the ""then"" part of the rule must also be true: Susan got a camera."
+S3C,English,"Here's the context: The foxes are not dancing. The squirrels are not eating either. Mary had said: ""If the foxes are dancing, Susan will get a camera"". Based on what Mary says, is it true that Susan got a camera?","It is unknown.
+
+Here's why:
+
+Mary's statement only guarantees that Susan gets a camera *if* the foxes are dancing. Since the foxes are **not** dancing, the condition isn't met. The statement tells us nothing about what happens if the foxes are not dancing. Susan might have gotten a camera for another reason, or she might not have. We don't have enough information to know for sure."
+S4T,English,"Here's the context: The TV is on. The radio is also on. Mary had said: ""If the TV is on, Matthew will bake cookies"". Based on what Mary says, is it true that Matthew baked cookies?","Yes.
+
+Here's the reasoning:
+Mary's statement is a conditional rule: ""If the TV is on, Matthew will bake cookies.""
+
+1.  The condition is ""the TV is on"".
+2.  The context states that the TV is indeed on.
+
+Since the condition is met, the outcome must be true. Therefore, Matthew baked cookies. (The fact that the radio is also on is extra information that doesn't change the outcome)."
+S4F,English,"Here's the context: The TV is on. The radio is also on. Matthew did not bake cookies. Mary had said: ""If the TV is on, Matthew will bake cookies"". Based on what Mary says, is it true that Matthew baked cookies?","Based on the context, here is the answer:
+
+No, it is not true that Matthew baked cookies.
+
+The context explicitly states, ""Matthew did not bake cookies."" This means that what Mary said (""If the TV is on, Matthew will bake cookies"") turned out to be incorrect."
+S4C,English,"Here's the context: The TV is off. The radio is also off. Mary had said: ""If the TV is on, Matthew will bake cookies"". Based on what Mary says, is it true that Matthew baked cookies?","Based on what Mary said, it is **unknown** whether Matthew baked cookies.
+
+Here's why:
+
+Mary's statement only tells us what happens if a specific condition is met: ""If the TV is on...""
+
+Since the TV is off, the condition was not met. Therefore, Mary's statement doesn't give us any information about what Matthew did or didn't do. He might have baked cookies for another reason, or he might not have baked them at all."
+S5T,English,"Here's the context: Today, the weather is sunny. Also, there is no wind. Mary had said: ""If the weather is sunny, Emma will wear purple"". Based on what Mary says, is it true that Emma wore purple?","Yes.
+
+According to Mary's statement, if the condition ""the weather is sunny"" is true, then the outcome ""Emma will wear purple"" must also be true. Since the context confirms that the weather is sunny today, it is true that Emma wore purple."
+S5F,English,"Here's the context: Today, the weather is sunny. Also, there is no wind. Emma is wearing green. Mary had said: ""If the weather is sunny, Emma will wear purple"". Based on what Mary says, is it true that Emma wore purple?","Based on the context, here is the answer:
+
+No, it is not true that Emma wore purple. The context explicitly states that ""Emma is wearing green.""
+
+This means that what Mary said (""If the weather is sunny, Emma will wear purple"") was incorrect."
+S5C,English,"Here's the context: Today, the weather is rainy. Also, it is very windy. Mary had said: ""If the weather is sunny, Emma will wear purple"". Based on what Mary says, is it true that Emma wore purple?","Based on the information given, the answer is: **Unknown.**
+
+Here's why:
+
+Mary's statement only tells us what Emma would do **if** the weather were sunny. Since the weather is rainy, the condition of her statement isn't met. Therefore, we have no information about what color Emma is wearing."
+S6T,English,"Here's the context: The playground is empty.  Also, the streets are quiet. Mary had said: ""If the playground is empty, Angela will take a selfie"". Based on what Mary says, is it true that Angela took a selfie?","Yes, it is true.
+
+Here's why:
+*   **Mary's rule is:** ""If the playground is empty, Angela will take a selfie"".
+*   **The context states:** ""The playground is empty.""
+
+Since the condition stated in Mary's rule has been met, the consequence must be true."
+S6F,English,"Here's the context: The playground is empty.  Also, the streets are quiet. Angela did not take a selfie. Mary had said: ""If the playground is empty, Angela will take a selfie"". Based on what Mary says, is it true that Angela took a selfie?","Based on the context, here is the answer:
+
+**No**, it is not true that Angela took a selfie.
+
+The context explicitly states, ""Angela did not take a selfie."" This means that what Mary said would happen (""Angela will take a selfie"") turned out to be incorrect."
+S6C,English,"Here's the context: The playground is crowded.  Also, the streets are lively. Mary had said: ""If the playground is empty, Angela will take a selfie"". Based on what Mary says, is it true that Angela took a selfie?","Based on the information provided, the answer is: **We don't know.**
+
+Here's why:
+
+*   Mary's statement was a condition: Angela would take a selfie **if** the playground was empty.
+*   The context states that the playground is **crowded**.
+*   Since the condition (an empty playground) was not met, we have no information about what Angela did or didn't do."
+S7T,English,"Here's the context: The lawn has been mowed. Also, the flowers have been watered. Mary had said: ""If Paul mows the lawn, he will get 50 euros"". Based on what Mary says, is it true that Paul got 50 euros?","Based on the information given, the answer is: **It's not possible to know for sure.**
+
+Here's why:
+
+Mary's promise was conditional: Paul gets the money **if** he is the one who mows the lawn. We know the lawn was mowed, but we don't know **who** mowed it.
+
+*   **If Paul mowed the lawn**, then yes, he got 50 euros.
+*   **If someone else mowed the lawn**, then no, Paul did not get the 50 euros."
+S7F,English,"Here's the context: The lawn has been mowed. Also, the flowers have been watered. Paul did not get 50 euros. Mary had said: ""If Paul mows the lawn, he will get 50 euros"". Based on what Mary says, is it true that Paul got 50 euros?","Based on the context provided, the answer is:
+
+**No.**
+
+The context explicitly states, ""Paul did not get 50 euros."""
+S7C,English,"Here's the context: The lawn has not been mowed. Also, the flowers still need watering. Mary had said: ""If Paul mows the lawn, he will get 50 euros"". Based on what Mary says, is it true that Paul got 50 euros?","No.
+
+Paul only gets the 50 euros **if** he mows the lawn. The context states that the lawn has not been mowed, so he did not fulfill the condition to get the money."
+S8T,English,"Here's the context: The dog is playing. Also, the cat is climbing the tree. Mary had said: ""If the dog is playing, Anthony will read a book"". Based on what Mary says, is it true that Anthony read a book?","Yes, it is true that Anthony read a book.
+
+Here's why:
+1.  Mary's rule is: ""If the dog is playing, Anthony will read a book"".
+2.  The context states: ""The dog is playing"".
+
+Since the condition of Mary's statement (the dog playing) is true, the result (Anthony reading a book) must also be true."
+S8F,English,"Here's the context: The dog is playing. Also, the cat is climbing the tree. Anthony did not read a book. Mary had said: ""If the dog is playing, Anthony will read a book"". Based on what Mary says, is it true that Anthony read a book?","No, it is not true that Anthony read a book.
+
+The context explicitly states, ""Anthony did not read a book."" This means that what Mary said (""If the dog is playing, Anthony will read a book"") turned out to be incorrect."
+S8C,English,"Here's the context: The dog is not playing. Also, the cat is sleeping. Mary had said: ""If the dog is playing, Anthony will read a book"". Based on what Mary says, is it true that Anthony read a book?","Based on the information provided, the answer is **Uncertain**.
+
+Here's why:
+
+Mary's statement, ""If the dog is playing, Anthony will read a book,"" only tells us what happens when the dog is playing.
+
+Since the dog is **not** playing, the condition is not met. Her statement gives us no information about what Anthony will do in this situation. He might have read a book for another reason, or he might not have."
+S9T,English,"Here's the context: The fridge is empty. Also, the oven is broken. Mary had said: ""If the fridge is empty, Amy will bring donuts"". Based on what Mary says, is it true that Amy brought donuts?","Based on what Mary says, yes, it is true that Amy brought donuts.
+
+Here's the logical breakdown:
+1.  Mary's statement is a conditional rule: ""If the fridge is empty, Amy will bring donuts.""
+2.  The context confirms that the condition is met: ""The fridge is empty.""
+3.  Therefore, according to Mary's rule, the consequence must be true: Amy brought donuts.
+
+(The fact that the oven is broken is extra information that doesn't affect the outcome of Mary's statement.)"
+S9F,English,"Here's the context: The fridge is empty. Also, the oven is broken. Amy did not bring donuts. Mary had said: ""If the fridge is empty, Amy will bring donuts"". Based on what Mary says, is it true that Amy brought donuts?","No.
+
+The context explicitly states, ""**Amy did not bring donuts**.""
+
+This means that Mary's statement (""If the fridge is empty, Amy will bring donuts"") was incorrect."
+S9C,English,"Here's the context: The fridge is full. Also, the oven is on. Mary had said: ""If the fridge is empty, Amy will bring donuts"". Based on what Mary says, is it true that Amy brought donuts?","The answer is **undetermined**.
+
+Here's why:
+
+Mary's statement was, ""If the fridge is empty, Amy will bring donuts.""
+
+The condition for Amy bringing donuts (according to Mary) is an empty fridge. Since the fridge is full, the condition was not met. Therefore, Mary's statement tells us nothing about what happens when the fridge is full. Amy might have brought donuts, or she might not have. We can't know from the information given."
+B1T,Catalan,"Aquí tens el context: En Joan té gana i hi ha pizza al forn. També hi ha pasta a la nevera. La Maria diu: ""Si en Joan té gana, hi ha pizza al forn"". Segons el que diu la Maria, és veritat que hi ha pizza al forn?","No, basant-nos **només en el que diu la Maria**, no podem estar segurs que hi hagi pizza al forn.
+
+La Maria fa una afirmació condicional (""Si... llavors...""). Ella no diu ""Hi ha pizza al forn"". El que diu és que la presència de la pizza està condicionada al fet que en Joan tingui gana.
+
+Per tant, la seva frase per si sola no confirma que la pizza existeixi, només estableix una regla."
+B1F,Catalan,"Aquí tens el context: En Joan té gana i no hi ha pizza al forn. Tampoc no hi ha pasta a la nevera. La Maria diu: ""Si en Joan té gana, hi ha pizza al forn"". Segons el que diu la Maria, és veritat que hi ha pizza al forn?","Sí.
+
+**Explicació:**
+
+Segons la lògica del que diu la Maria (""Si en Joan té gana, hi ha pizza al forn""), i sabent que la primera part (""en Joan té gana"") és certa, la conclusió del seu raonament és que la segona part (""hi ha pizza al forn"") també ha de ser certa.
+
+Això no canvia el fet que, en realitat, el context ens diu que no hi ha pizza. Simplement, vol dir que **el que diu la Maria no és veritat**."
+B1C,Catalan,"Aquí tens el context: En Joan no té gana. Hi ha pasta a la nevera. La Maria diu: ""Si en Joan té gana, hi ha pizza al forn"". Segons el que diu la Maria, és veritat que hi ha pizza al forn?","No, no podem saber si és veritat que hi ha pizza al forn.
+
+**Explicació:**
+
+L'afirmació de la Maria és una condició: **si** passa una cosa (que en Joan tingui gana), **llavors** en passa una altra (hi ha pizza al forn).
+
+Com que sabem que en Joan **no té gana**, la condició inicial no es compleix. Per tant, la frase de la Maria no ens obliga a concloure res sobre l'existència de la pizza. Podria haver-hi pizza al forn o podria no haver-n'hi; en ambdós casos, el que diu la Maria no és mentida.
+
+En resum: amb la informació que tenim, és **indeterminat**."
+B2T,Catalan,"Aquí tens el context: La Núria té mal de cap i hi ha aspirines sobre la taula. També hi ha ibuprofèn al calaix. La Maria diu: ""Si la Núria té mal de cap, hi ha aspirines sobre la taula"". Segons el que diu la Maria, és veritat que hi ha aspirines sobre la taula?","Sí.
+
+Segons la lògica del que diu la Maria (""Si la Núria té mal de cap, hi ha aspirines sobre la taula""), i sabent que la primera part de la frase (""la Núria té mal de cap"") és certa, la segona part (""hi ha aspirines sobre la taula"") també ha de ser-ho."
+B2F,Catalan,"Aquí tens el context: La Núria té mal de cap i no hi ha aspirines sobre la taula. Tampoc no hi ha ibuprofèn al calaix. La Maria diu: ""Si la Núria té mal de cap, hi ha aspirines sobre la taula"". Segons el que diu la Maria, és veritat que hi ha aspirines sobre la taula?","No.
+
+El context diu explícitament que **""no hi ha aspirines sobre la taula""**.
+
+Per tant, el que diu la Maria és una afirmació incorrecta o falsa."
+B2C,Catalan,"Aquí tens el context: La Núria no té mal de cap. També hi ha ibuprofèn al calaix. La Maria diu: ""Si la Núria té mal de cap, hi ha aspirines sobre la taula"". Segons el que diu la Maria, és veritat que hi ha aspirines sobre la taula?","No, **no ho podem saber**.
+
+**Explicació:**
+
+El que diu la Maria és una frase condicional: ""**Si** la Núria té mal de cap (la condició), **llavors** hi ha aspirines sobre la taula (la conseqüència)"".
+
+Sabem pel context que la condició és **falsa** (la Núria **no** té mal de cap).
+
+En lògica, quan la primera part d'una afirmació (""si..."") és falsa, la frase sencera és tècnicament vàlida, però no ens diu absolutament res sobre si la segona part (""llavors..."") és certa o no.
+
+Per tant, basant-nos només en la informació que tenim, és impossible determinar si hi ha aspirines sobre la taula. Podria haver-n'hi o podria no haver-n'hi."
+B3T,Catalan,"Aquí tens el context: La Llúcia té set i hi ha aigua a la nevera. També hi ha suc de poma al rebost. La Maria diu: ""Si la Llúcia té set, hi ha aigua  a la nevera"". Segons el que diu la Maria, és veritat que hi ha aigua a la nevera?","Sí.
+
+Segons la lògica de la frase de la Maria (""Si la Llúcia té set, hi ha aigua a la nevera""), com que sabem que la primera part (""la Llúcia té set"") és veritat, la segona part (""hi ha aigua a la nevera"") també ha de ser-ho."
+B3F,Catalan,"Aquí tens el context: La Llúcia té set i no hi ha aigua a la nevera. Tampoc no hi ha suc de poma al rebost. La Maria diu: ""Si la Llúcia té set, hi ha aigua  a la nevera"". Segons el que diu la Maria, és veritat que hi ha aigua a la nevera?","No.
+
+El context diu explícitament que ""no hi ha aigua a la nevera"". Per tant, l'afirmació de la Maria és incorrecta."
+B3C,Catalan,"Aquí tens el context: La Llúcia no té set. Hi ha suc de poma al rebost. La Maria diu: ""Si la Llúcia té set, hi ha aigua  a la nevera"". Segons el que diu la Maria, és veritat que hi ha aigua a la nevera?","No ho podem saber.
+
+**Explicació:**
+
+L'afirmació de la Maria és una condició: ""Si la Llúcia té set, (llavors) hi ha aigua a la nevera"".
+
+Això només ens assegura que hi ha aigua si la condició (que la Llúcia tingui set) es compleix. Però el context ens diu just el contrari: **""La Llúcia no té set""**.
+
+Com que la condició no es compleix, l'afirmació de la Maria no ens diu res sobre si hi ha aigua a la nevera o no. Podria haver-n'hi o podria no haver-n'hi."
+B4T,Catalan,"Aquí tens el context: El mòbil del Pere no té bateria i hi ha un carregador al calaix. També hi ha un ordinador sobre la taula. La Maria diu: ""Si el mòbil del Pere no té bateria, hi ha un carregador al calaix"". Segons el que diu la Maria, és veritat que hi ha un carregador al calaix?","No necessàriament.
+
+Basant-nos només en el que diu la Maria, no podem afirmar que sigui veritat. La seva frase és una **condició**: ella només garanteix que hi ha un carregador al calaix **si es compleix** que el mòbil del Pere no tingui bateria.
+
+La seva afirmació, per si sola, no confirma l'existència del carregador, sinó la relació entre les dues situacions."
+B4F,Catalan,"Aquí tens el context: El mòbil del Pere no té bateria i no hi ha cap carregador al calaix. Tampoc no hi ha cap ordinador sobre la taula. La Maria diu: ""Si el mòbil del Pere no té bateria, hi ha un carregador al calaix"". Segons el que diu la Maria, és veritat que hi ha un carregador al calaix?","No, no és veritat.
+
+El context inicial diu explícitament que ""**no hi ha cap carregador al calaix**"".
+
+El que diu la Maria (""Si el mòbil del Pere no té bateria, hi ha un carregador al calaix"") és una afirmació que, segons el context, és falsa, perquè la primera part és certa (el mòbil no té bateria) però la segona és falsa (no hi ha carregador)."
+B4C,Catalan,"Aquí tens el context: El mòbil del Pere està carregat. Hi ha un ordinador sobre la taula. La Maria diu: ""Si el mòbil del Pere no té bateria, hi ha un carregador al calaix"". Segons el que diu la Maria, és veritat que hi ha un carregador al calaix?","No ho podem saber.
+
+El que diu la Maria és una afirmació condicional: només assegura que hi ha un carregador si es compleix la condició que el mòbil no tingui bateria.
+
+Com que el mòbil del Pere **sí que està carregat**, la condició no es compleix. Per tant, la seva frase no ens diu res sobre si finalment hi ha un carregador al calaix o no. Podria ser que hi fos, o podria ser que no."
+B5T,Catalan,"Aquí tens el context: El temps és plujós i hi ha un paraigua al paraigüer. També hi ha un impermeable al cotxe. La Maria diu: ""Si el temps és plujós, hi ha un paraigua al paraigüer"". Segons el que diu la Maria, és veritat que hi ha un paraigua al paraigüer?","Sí, és veritat.
+
+El context que has proporcionat ho afirma de dues maneres:
+
+1.  **Directament:** La primera frase del context diu explícitament que ""hi ha un paraigua al paraigüer"".
+2.  **Per deducció:** La Maria diu ""Si el temps és plujós, hi ha un paraigua al paraigüer"". Com que el context també confirma que ""el temps és plujós"", la condició es compleix i, per tant, la conseqüència que ella esmenta també és certa."
+B5F,Catalan,"Aquí tens el context: El temps és plujós i no hi ha cap paraigua al paraigüer. Tampoc no hi ha cap impermeable al cotxe. La Maria diu: ""Si el temps és plujós, hi ha un paraigua al paraigüer"". Segons el que diu la Maria, és veritat que hi ha un paraigua al paraigüer?","No.
+
+Segons el context que has proporcionat, és fals. El text diu explícitament: ""**no hi ha cap paraigua al paraigüer**"".
+
+L'afirmació de la Maria és incorrecta, ja que la condició (temps plujós) es compleix, però la conseqüència que ella enuncia (hi ha un paraigua) no es correspon amb la realitat descrita."
+B5C,Catalan,"Aquí tens el context: El temps és serè. Hi ha un impermeable al cotxe. La Maria diu: ""Si el temps és plujós, hi ha un paraigua al paraigüer"". Segons el que diu la Maria, és veritat que hi ha un paraigua al paraigüer?","No ho podem saber.
+
+L'afirmació de la Maria és una condició: ""SI el temps és plujós, LLAVORS hi ha un paraigua"".
+
+Com que el temps és serè, la condició inicial (""si el temps és plujós"") no es compleix. Per tant, la seva frase no ens diu res sobre què passa quan no plou. Podria haver-hi un paraigua o podria no haver-n'hi."
+B6T,Catalan,"Aquí tens el context: La roda del cotxe està punxada i hi ha un inflador al garatge. També hi ha una bicicleta a la porta d'entrada. La Maria diu: ""Si la roda del cotxe està punxada, hi ha un inflador al garatge"". Segons el que diu la Maria, és veritat que hi ha un inflador al garatge?","Sí, és veritat.
+
+**Explicació:**
+
+La Maria fa una afirmació condicional: ""Si la roda està punxada (condició), llavors hi ha un inflador al garatge (conseqüència)"".
+
+El context ens confirma que la condició és certa (""La roda del cotxe està punxada""). Per tant, segons l'afirmació de la Maria, la conseqüència també ha de ser certa."
+B6F,Catalan,"Aquí tens el context: La roda del cotxe està punxada i no hi ha cap inflador al garatge. Tampoc no hi ha cap bicicleta a la porta d'entrada. La Maria diu: ""Si la roda del cotxe està punxada, hi ha un inflador al garatge"". Segons el que diu la Maria, és veritat que hi ha un inflador al garatge?","No.
+
+Segons el context que has proporcionat, **no hi ha un inflador al garatge**.
+
+L'afirmació de la Maria (""Si la roda del cotxe està punxada, hi ha un inflador al garatge"") és, per tant, falsa, perquè la primera part és certa (la roda està punxada) però la segona és falsa."
+B6C,Catalan,"Aquí tens el context: La roda del cotxe està inflada. Hi ha una bicicleta a la porta d'entrada. La Maria diu: ""Si la roda del cotxe està punxada, hi ha un inflador al garatge"". Segons el que diu la Maria, és veritat que hi ha un inflador al garatge?","No, no ho podem saber.
+
+El que diu la Maria és una afirmació condicional: **SI** la roda està punxada, **LLAVORS** hi ha un inflador.
+
+Com que sabem que la roda **no** està punxada (està inflada), la condició no es compleix. Per tant, la seva frase no ens dona cap informació sobre si hi ha o no un inflador al garatge en la situació actual."
+B7T,Catalan,"Aquí tens el context: La planta està seca i hi ha una regadora a la prestatgeria. També hi ha una mànega al jardí. La Maria diu: ""Si la planta està seca, hi ha una regadora a la prestatgeria"". Segons el que diu la Maria, és veritat que hi ha una regadora a la prestatgeria?","Sí.
+
+Segons la lògica de la frase de la Maria (""Si la planta està seca, hi ha una regadora a la prestatgeria""), i com que el context ens confirma que la planta està seca, la seva afirmació implica que la conseqüència ha de ser certa.
+
+En altres paraules, com que la condició (""la planta està seca"") es compleix, la conseqüència (""hi ha una regadora a la prestatgeria"") també ha de ser veritat segons el seu raonament."
+B7F,Catalan,"Aquí tens el context: La planta està seca i no hi ha cap regadora a la prestatgeria. Tampoc no hi ha cap mànega al jardí. La Maria diu: ""Si la planta està seca, hi ha una regadora a la prestatgeria"". Segons el que diu la Maria, és veritat que hi ha una regadora a la prestatgeria?","No.
+
+Segons el que diu la Maria, com que la primera part de la seva frase (""la planta està seca"") és certa, la segona part (""hi ha una regadora a la prestatgeria"") també ho hauria de ser.
+
+No obstant això, el context inicial deixa molt clar que **no hi ha cap regadora a la prestatgeria**. Per tant, l'afirmació completa de la Maria és **falsa**."
+B7C,Catalan,"Aquí tens el context: La planta no està seca. Hi ha una mànega al jardí. La Maria diu: ""Si la planta està seca, hi ha una regadora a la prestatgeria"". Segons el que diu la Maria, és veritat que hi ha una regadora a la prestatgeria?","Segons el que diu la Maria, **no ho podem saber**.
+
+**Explicació:**
+
+L'afirmació de la Maria és una condició: ""Si la planta està seca, llavors hi ha una regadora"".
+
+*   La condició és ""que la planta estigui seca"".
+*   La conseqüència és ""que hi hagi una regadora"".
+
+Com que el context ens diu que **la planta no està seca**, la condició no es compleix. Per tant, l'afirmació de la Maria no ens dona cap informació sobre la conseqüència. Podria haver-hi una regadora a la prestatgeria o podria no haver-n'hi; en tots dos casos, el que ha dit la Maria no seria fals."
+B8T,Catalan,"Aquí tens el context: La camisa del Jordi està arrugada i hi ha una planxa a l'armari. També hi ha una taula de planxar al balcó. La Maria diu: ""Si la camisa del jordi està arrugada, hi ha una planxa a l'armari"". Segons el que diu la Maria, és veritat que hi ha una planxa a l'armari?","Sí.
+
+El que diu la Maria és una afirmació condicional: **Si** la camisa està arrugada (la condició), **llavors** hi ha una planxa a l'armari (la conseqüència).
+
+Com que el context ens confirma que la condició és certa (la camisa del Jordi està arrugada), la conseqüència que ella esmenta també ha de ser certa segons la seva pròpia afirmació."
+B8F,Catalan,"Aquí tens el context: La camisa del Jordi està arrugada i no hi ha cap planxa a l'armari. Tampoc no hi ha cap taula de planxar al balcó. La Maria diu: ""Si la camisa del jordi està arrugada, hi ha una planxa a l'armari"". Segons el que diu la Maria, és veritat que hi ha una planxa a l'armari?","No, no és veritat.
+
+El context diu explícitament que ""**no hi ha cap planxa a l'armari**"". Per tant, el que diu la Maria és fals."
+B8C,Catalan,"Aquí tens el context: La camisa del Jordi no té arrugues. Hi ha una taula de planxar al balcó. La Maria diu: ""Si la camisa del jordi està arrugada, hi ha una planxa a l'armari"". Segons el que diu la Maria, és veritat que hi ha una planxa a l'armari?","No, no ho podem saber.
+
+**Explicació:**
+
+L'afirmació de la Maria és una condició: ""Si la camisa està arrugada, llavors hi ha una planxa a l'armari"".
+
+El que sabem pel context és que la primera part de la seva frase (""la camisa està arrugada"") és **falsa**.
+
+Quan la condició d'un ""si... llavors..."" és falsa, l'afirmació no ens diu res sobre la veracitat de la segona part. Per tant, podria ser que hi hagués una planxa a l'armari o podria ser que no. La frase de la Maria no ens ajuda a determinar-ho."
+B9T,Catalan,"Aquí tens el context: La Susanna vol llegir i hi ha llibres a l'estanteria. També hi ha un diari al sofà. La Maria diu: ""Si la Susanna vol llegir, hi ha llibres a l'estanteria"". Segons el que diu la Maria, és veritat que hi ha llibres a l'estanteria?","Sí.
+
+La frase de la Maria és una afirmació condicional: ""Si la Susanna vol llegir [condició], hi ha llibres a l'estanteria [conseqüència]"".
+
+Com que el context ens confirma que la condició es compleix (la Susanna vol llegir), segons la lògica del que diu la Maria, la conseqüència també ha de ser certa. Per tant, és veritat que hi ha llibres a l'estanteria."
+B9F,Catalan,"Aquí tens el context: La Susanna vol llegir i no hi ha llibres a l'estanteria. Tampoc no hi ha cap diari al sofà. La Maria diu: ""Si la Susanna vol llegir, hi ha llibres a l'estanteria"". Segons el que diu la Maria, és veritat que hi ha llibres a l'estanteria?","Sí.
+
+Segons l'afirmació condicional de la Maria (""**Si** la Susanna vol llegir, **llavors** hi ha llibres a l'estanteria""), la conseqüència que la Susanna vulgui llegir és que hi hagi llibres. Com que el context ens diu que la Susanna vol llegir, segons la lògica de la Maria, hi hauria d'haver llibres a l'estanteria.
+
+(Tot i que el context general ens diu que en realitat no n'hi ha, la pregunta es refereix específicament al que es desprèn del que diu la Maria)."
+B9C,Catalan,"Aquí tens el context: La Susanna no vol llegir. Hi ha un diari al sofà. La Maria diu: ""Si la Susanna vol llegir, hi ha llibres a l'estanteria"". Segons el que diu la Maria, és veritat que hi ha llibres a l'estanteria?","No ho podem saber amb certesa.
+
+La frase de la Maria és una condició: **SI** la Susanna vol llegir, **LLAVORS** hi ha llibres.
+
+Com que la Susanna no vol llegir, la condició no es compleix. Per tant, la frase de la Maria no ens permet confirmar ni desmentir si realment hi ha llibres a l'estanteria."
+F1T,Catalan,"Aquí tens el context: Tot i que la pizza és més cara que la pasta, la gent la compra més. Hi ha pizza a la nevera. En aquest context, la pizza és més popular que la pasta?","Sí. El context afirma que la gent compra més pizza que pasta, la qual cosa indica que és més popular."
+F1F,Catalan,"Aquí tens el context: Tot i que la pizza és més cara que la pasta, la gent la compra més. Hi ha pizza a la nevera. En aquest context, la pasta és més popular que la pizza?","No. El context diu que, tot i ser més cara, la gent compra més pizza que pasta, la qual cosa indica que la pizza és més popular."
+F2T,Catalan,"Aquí tens el context: Tot i que el cafè és més barat que el te verd, la majoria de la gent prefereix el te verd. Hi ha cafè a la cafetera. En aquest context, el te s'utilitza més que el cafè?","Sí.
+
+El context diu explícitament que **""la majoria de la gent prefereix el te verd""**, la qual cosa implica que s'utilitza o es consumeix més que el cafè."
+F2F,Catalan,"Aquí tens el context: Tot i que el cafè és més barat que el te verd, la majoria de la gent prefereix el te verd. Hi ha cafè a la cafetera. En aquest context, el cafè s'utilitza més que el te?","No. Segons el context, ""la majoria de la gent prefereix el te verd"", la qual cosa implica que el te s'utilitza més que el cafè."
+F3T,Catalan,"Aquí tens el context: Tot i que l'aigua és més saludable que les begudes gasoses, molta gent tria les begudes gasoses. Hi ha aigua al congelador. En aquest context, les begudes gasoses tenen més demanda que l'aigua?","Sí. El text indica que ""molta gent tria les begudes gasoses"" en lloc de l'aigua, la qual cosa demostra que tenen més demanda en aquest escenari."
+F3F,Catalan,"Aquí tens el context: Tot i que l'aigua és més saludable que les begudes gasoses, molta gent tria les begudes gasoses. Hi ha aigua al congelador. En aquest context, l'aigua té més demanda que les begudes gasoses?","No, segons el context, les begudes gasoses tenen més demanda.
+
+El text diu que, tot i que l'aigua és més saludable, ""molta gent tria les begudes gasoses"". Això indica que la preferència o la demanda s'inclina cap a les begudes gasoses en lloc de l'aigua."
+F4T,Catalan,"Aquí tens el context: Tot i que els bròquils són més difícils de cuinar que els nyoquis, la gent els utilitza més. Hi ha bròquils al forn. En aquest context, els bròquils són més populars que els nyoquis?","Sí. El context diu que, tot i que els bròquils són més difícils de cuinar, ""la gent els utilitza més""."
+F4F,Catalan,"Aquí tens el context: Tot i que els bròquils són més difícils de cuinar que els nyoquis, la gent els utilitza més. Hi ha bròquils al forn. En aquest context, els nyoquis són més populars que els bròquils?","No. Segons el context, la gent utilitza més els bròquils, la qual cosa indica que són més populars que els nyoquis."
+F5T,Catalan,"Aquí tens el context: Tot i que el sushi és més saludable que les hamburgueses, la gent menja més sovint les hamburgueses. Hi ha sushi a la taula. En aquest context, les hamburgueses són més populars que el sushi?","Sí. Segons el context, ""la gent menja més sovint les hamburgueses"", la qual cosa indica que són més populars que el sushi."
+F5F,Catalan,"Aquí tens el context: Tot i que el sushi és més saludable que les hamburgueses, la gent menja més sovint les hamburgueses. Hi ha sushi a la taula. En aquest context, el sushi és més popular que les hamburgueses?","No. Segons el context, la gent menja hamburgueses més sovint, la qual cosa indica que són més populars que el sushi, encara que aquest sigui més saludable."
+F6T,Catalan,"Aquí tens el context: Tot i que els plàtans són més cars que els kiwis, la gent els compra més. Hi ha platans al cabàs. En aquest context, els platans són més populars que els kiwis?","Sí. El context indica que, tot i ser més cars, ""la gent els compra més"", la qual cosa demostra que són més populars."
+F6F,Catalan,"Aquí tens el context: Tot i que els plàtans són més cars que els kiwis, la gent els compra més. Hi ha platans al cabàs. En aquest context, els kiwis són més populars que els plàtans?","No. Segons el context, la gent compra més plàtans que kiwis, la qual cosa indica que els plàtans són més populars."
+F7T,Catalan,"Aquí tens el context: Tot i que els gossos són més alegres que els gats, la gent els prefereix. Hi ha un gat pujat a l'arbre. En aquest context, els gossos són més populars que els gats?","No, segons el context, és al revés.
+
+La frase ""Tot i que els gossos són més alegres que els gats, la gent els prefereix"" indica que, malgrat que els gossos són més alegres, la gent acaba preferint els gats. Per tant, els gats són més populars."
+F7F,Catalan,"Aquí tens el context: Tot i que els gossos són més alegres que els gats, la gent els prefereix. Hi ha un gat pujat a l'arbre. En aquest context, els gats són més populars que els gossos?","No. Segons el text, la gent prefereix els gossos."
+F8T,Catalan,"Aquí tens el context: Tot i que llegir llibres és més educatiu que mirar la televisió, la majoria de les persones miren la televisió. Hi ha un llibre a la prestatgeria. En aquest context, hi ha més persones que miren la televisó que no pas que llegeixen llibres?","Sí. El text diu explícitament que ""la majoria de les persones miren la televisió""."
+F8F,Catalan,"Aquí tens el context: Tot i que llegir llibres és més educatiu que mirar la televisió, la majoria de les persones miren la televisió. Hi ha un llibre a la prestatgeria. En aquest context, hi ha més persones que llegeixen llibres que no pas que miren la televisió?","No. Segons el context, ""la majoria de les persones miren la televisió"", la qual cosa implica que hi ha més persones que miren la televisió que no pas que llegeixen llibres."
+F9T,Catalan,"Aquí tens el context: Tot i que córrer és millor per a la salut que caminar, la majoria de la gent prefereix caminar. Hi ha un corredor a la pista. En aquest context, caminar és més popular que córrer?","Sí, segons el context, caminar és més popular que córrer, ja que s'afirma que ""la majoria de la gent prefereix caminar""."
+F9F,Catalan,"Aquí tens el context: Tot i que córrer és millor per a la salut que caminar, la majoria de la gent prefereix caminar. Hi ha un corredor a la pista. En aquest context, córrer és més popular que caminar?","No. Segons el context, és al contrari: ""la majoria de la gent prefereix caminar""."
+S1T,Catalan,"Aquí tens el context: El lloro és a la gàbia. A més, el gos és a la gossera. La Maria havia dit: ""Si el lloro és a la gàbia, el Tomàs portarà pizza"". Segons el que diu la Maria, és veritat que el Tomàs ha portat pizza?","Sí, és veritat.
+
+Segons el que diu la Maria, la condició per a que el Tomàs porti pizza és que el lloro estigui a la gàbia. El context confirma que ""El lloro és a la gàbia"", per tant, la condició s'ha complert i el Tomàs ha portat pizza."
+S1F,Catalan,"Aquí tens el context: El lloro és a la gàbia. A més, el gos és a la gossera. El Tomàs no ha portat pizza. La Maria havia dit: ""Si el lloro és a la gàbia, el Tomàs portarà pizza"". Segons el que diu la Maria, és veritat que el Tomàs ha portat pizza?","No, no és veritat.
+
+El text diu explícitament: **""El Tomàs no ha portat pizza""**.
+
+Això vol dir que el que havia dit la Maria no s'ha complert. Tot i que la condició (que el lloro fos a la gàbia) era certa, la conseqüència (que el Tomàs portés pizza) ha resultat ser falsa."
+S1C,Catalan,"Aquí tens el context: El lloro no és a la gàbia. El gos tampoc no és a la gossera. La Maria havia dit: ""Si el lloro és a la gàbia, el Tomàs portarà pizza"". Segons el que diu la Maria, és veritat que el Tomàs ha portat pizza?","No es pot saber.
+
+L'afirmació de la Maria és una condició: **SI** el lloro és a la gàbia, **LLAVORS** el Tomàs porta pizza.
+
+Com que sabem que el lloro **no és** a la gàbia, la condició no es compleix. L'afirmació no diu res sobre què passa si el lloro no és a la gàbia. Per tant, no tenim prou informació per saber si el Tomàs ha portat pizza o no."
+S2T,Catalan,"Aquí tens el context: T'has acabat els bròquils. També t'has acabat la pasta. La Maria havia dit: ""Si t'acabes els bròquils, el Marc et donarà un caramel"". Segons el que diu la Maria, és veritat que el Marc t'ha donat un caramel?","Sí.
+
+Segons la lògica de la frase de la Maria, la condició per rebre el caramel era acabar-se els bròquils. Com que t'has acabat els bròquils, la conseqüència és que el Marc t'ha donat un caramel."
+S2F,Catalan,"Aquí tens el context: T'has acabat els bròquils. També t'has acabat la pasta. El Marc no t'ha donat cap caramel. La Maria havia dit: ""Si t'acabes els bròquils, el Marc et donarà un caramel"". Segons el que diu la Maria, és veritat que el Marc t'ha donat un caramel?","No.
+
+Segons el context, és explícitament fals. El text diu clarament: **""El Marc no t'ha donat cap caramel""**.
+
+El que la Maria va dir era una condició que no s'ha complert. Tot i que tu vas fer la teva part (acabar-te els bròquils), el Marc no va complir la conseqüència que la Maria va anunciar. Per tant, el que va dir la Maria va resultar no ser veritat."
+S2C,Catalan,"Aquí tens el context: No t'has acabat els bròquils. Tampoc no t'has acabat la pasta. La Maria havia dit: ""Si t'acabes els bròquils, el Marc et donarà un caramel"". Segons el que diu la Maria, és veritat que el Marc t'ha donat un caramel?","No ho podem saber.
+
+El que diu la Maria és una condició: **si** t'acabes els bròquils, **llavors** el Marc et donarà un caramel.
+
+Com que no t'has acabat els bròquils, la condició no s'ha complert. Per tant, la promesa de la Maria no té per què complir-se. El seu comentari no diu res sobre què passa si **no** t'acabes els bròquils.
+
+És possible que el Marc te l'hagi donat per un altre motiu, o que no te l'hagi donat. No tenim prou informació per afirmar-ho o negar-ho."
+S3T,Catalan,"Aquí tens el context: Les guineus estan ballant. A més, els esquirols estan menjant. La Maria havia dit: ""Si les guineus estan ballant, La Júlia rebrà una càmera fotogràfica"". Segons el que diu la Maria, és veritat que la Júlia ha rebut una càmera fotogràfica?","Sí, és veritat.
+
+La Maria va establir una condició: si les guineus ballen, la Júlia rebrà una càmera. Com que el context afirma que ""Les guineus estan ballant"", la condició es compleix. Per tant, segons la lògica del que va dir la Maria, la Júlia ha de rebre la càmera fotogràfica."
+S3F,Catalan,"Aquí tens el context: Les guineus estan ballant. A més, els esquirols estan menjant. La Júlia no ha rebut cap càmera fotogràfica. La Maria havia dit: ""Si les guineus estan ballant, La Júlia rebrà una càmera fotogràfica"". Segons el que diu la Maria, és veritat que la Júlia ha rebut una càmera fotogràfica?","Segons la frase de la Maria, **sí**.
+
+La seva afirmació és una condició: ""Si les guineus estan ballant (condició), aleshores la Júlia rebrà una càmera (conseqüència)"".
+
+El context ens diu que la condició es compleix (""Les guineus estan ballant""), per tant, seguint la lògica del que ella diu, la conseqüència hauria de ser que la Júlia rep una càmera.
+
+(No obstant això, el context també afirma que la Júlia no ha rebut la càmera, la qual cosa vol dir que el que va dir la Maria ha resultat ser fals)."
+S3C,Catalan,"Aquí tens el context: Les guineus no estan ballant. Els esquirols tampoc no estan menjant. La Maria havia dit: ""Si les guineus estan ballant, La Júlia rebrà una càmera fotogràfica"". Segons el que diu la Maria, és veritat que la Júlia ha rebut una càmera fotogràfica?","No, no podem saber si és veritat o fals.
+
+**Explicació:**
+
+L'afirmació de la Maria és una condició: La Júlia només rebrà la càmera **si** les guineus estan ballant.
+
+Com que el context ens diu que ""les guineus **no** estan ballant"", la condició no es compleix. Per tant, l'afirmació de la Maria no ens dona cap informació sobre si la Júlia ha rebut la càmera o no. Podria haver-la rebut per un altre motiu, o podria no haver-la rebut."
+S4T,Catalan,"Aquí tens el context: La televisió està engegada. La ràdio també està engegada. La Maria havia dit: ""Si la televisió està engegada, el Mateu farà galetes"". Segons el que diu la Maria, és veritat que el Mateu ha fet galetes?","Sí.
+
+Segons la lògica de la frase de la Maria, si la televisió està engegada (que ho està), llavors el Mateu ha de fer galetes. Com que la condició es compleix, la conseqüència també s'ha de complir."
+S4F,Catalan,"Aquí tens el context: La televisió està engegada. La ràdio també està engegada. El Mateu no ha fet galetes. La Maria havia dit: ""Si la televisió està engegada, el Mateu farà galetes"". Segons el que diu la Maria, és veritat que el Mateu ha fet galetes?","Segons el que diu la Maria, **sí**.
+
+La seva afirmació és una condició: **Si** la televisió està engegada (condició), **llavors** el Mateu farà galetes (conseqüència).
+
+Com que la condició es compleix (la televisió està engegada), segons la lògica de la frase de la Maria, la conseqüència també s'hauria de complir. Per tant, segons ella, el Mateu hauria d'haver fet galetes.
+
+(Això demostra que el que va dir la Maria no era cert, perquè el context també diu que el Mateu finalment no en va fer)."
+S4C,Catalan,"Aquí tens el context: La televisió està apagada. La ràdio també està apagada. La Maria havia dit: ""Si la televisió està engegada, el Mateu farà galetes"". Segons el que diu la Maria, és veritat que el Mateu ha fet galetes?","No ho podem saber.
+
+L'afirmació de la Maria és una condició: només ens diu el que passaria *si la televisió estigués engegada*.
+
+Com que la televisió està apagada, la condició no es compleix. Per tant, no tenim cap informació per saber si el Mateu ha fet galetes o no. Podria haver-les fet per un altre motiu, o podria no haver-les fet."
+S5T,Catalan,"Aquí tens el context: Avui el temps és assolellat. Tampoc no fa vent. La Maria havia dit: ""Si el temps és assolellat, l'Emma anirà de morat"". Segons el que diu la Maria, és veritat que l'Emma va de morat?","Sí.
+
+Segons el que va dir la Maria, si el temps és assolellat, l'Emma anirà de morat. Com que el context confirma que efectivament el temps és assolellat, la condició es compleix i, per tant, l'Emma va de morat."
+S5F,Catalan,"Aquí tens el context: Avui el temps és assolellat. Tampoc no fa vent. L'Emma va de verd. La Maria havia dit: ""Si el temps és assolellat, l'Emma anirà de morat"". Segons el que diu la Maria, és veritat que l'Emma va de morat?","No.
+
+Segons la lògica del que va dir la Maria (""Si el temps és assolellat, l'Emma anirà de morat""), l'Emma hauria d'anar de morat, perquè la condició (temps assolellat) es compleix.
+
+No obstant això, el context ens diu que **en realitat l'Emma va de verd**. Per tant, la predicció de la Maria no és correcta."
+S5C,Catalan,"Aquí tens el context: Avui el temps és plujós. A més, també fa molt de vent. La Maria havia dit: ""Si el temps és assolellat, l'Emma anirà de morat"". Segons el que diu la Maria, és veritat que l'Emma va de morat?","No ho podem saber amb certesa.
+
+La Maria només va dir què faria l'Emma **si el temps fos assolellat**. Com que el temps és plujós, la condició no es compleix, i per tant, no tenim cap informació sobre com va vestida l'Emma. Podria anar de morat o de qualsevol altre color."
+S6T,Catalan,"Aquí tens el context: El parc infantil està buit. Els carrers també estan tranquils. La Maria havia dit: ""Si el parc infantil està buit, l'Alba es farà una selfie"". Segons el que diu la Maria, és veritat que l'Alba s'ha fet una selfie? ","Sí.
+
+Segons la lògica del que va dir la Maria, la condició per a que l'Alba es fes una selfie era que el parc infantil estigués buit. Com que el context confirma que **el parc està buit**, la condició s'ha complert i, per tant, l'Alba s'ha fet la selfie."
+S6F,Catalan,"Aquí tens el context: El parc infantil està buit. Els carrers també estan tranquils. L'Alba no s'ha fet cap selfie. La Maria havia dit: ""Si el parc infantil està buit, l'Alba es farà una selfie"". Segons el que diu la Maria, és veritat que l'Alba s'ha fet una selfie? ","No, no és veritat.
+
+El context diu explícitament que **""L'Alba no s'ha fet cap selfie""**.
+
+El que la Maria va dir era una predicció (""Si el parc infantil està buit, l'Alba es farà una selfie""). Com que el parc estava buit però l'Alba no es va fer la selfie, la predicció de la Maria va resultar ser incorrecta."
+S6C,Catalan,"Aquí tens el context: El parc infantil està ple de gent. Els carrers també estan animats. La Maria havia dit: ""Si el parc infantil està buit, l'Alba es farà una selfie"". Segons el que diu la Maria, és veritat que l'Alba s'ha fet una selfie? ","No, no ho podem saber.
+
+El que va dir la Maria és una condició: l'Alba es faria una selfie **només si** el parc estigués buit. Com que el parc està ple de gent, la condició no es compleix. Per tant, no tenim informació per saber si l'Alba s'ha fet la selfie o no (podria haver-se-la fet per un altre motiu, o no haver-se-la fet)."
+S7T,Catalan,"Aquí tens el context: La gespa ha estat tallada. A més, les flors també han estat regades. La Maria havia dit: ""Si el Pau talla la gespa, rebrà 50 euros"". Segons el que diu la Maria, és veritat que el Pau ha rebut 50 euros?","No necessàriament.
+
+El context diu que la gespa ha estat tallada, però no especifica **qui** ho ha fet. La condició de la Maria era que **el Pau** fos qui tallés la gespa per rebre els diners.
+
+Com que no sabem si ha estat el Pau o una altra persona qui ha tallat la gespa, no podem afirmar que hagi rebut els 50 euros."
+S7F,Catalan,"Aquí tens el context: La gespa ha estat tallada. A més, les flors també han estat regades. El Pau no ha rebut 50 euros. La Maria havia dit: ""Si el Pau talla la gespa, rebrà 50 euros"". Segons el que diu la Maria, és veritat que el Pau ha rebut 50 euros?","No, no és veritat.
+
+El context afirma explícitament: **""El Pau no ha rebut 50 euros""**."
+S7C,Catalan,"Aquí tens el context: La gespa no ha estat tallada. Les flors tampoc no han estat regades. La Maria havia dit: ""Si el Pau talla la gespa, rebrà 50 euros"". Segons el que diu la Maria, és veritat que el Pau ha rebut 50 euros?","No, no ho podem saber amb certesa.
+
+La frase de la Maria és una condició: el Pau rebria els diners **si** tallava la gespa. Com que no ha tallat la gespa, no ha complert la condició.
+
+Per tant, segons el que va dir la Maria, no hi ha cap motiu perquè ell hagi rebut els diners. Tanmateix, això no exclou que la Maria li hagi donat els diners per un altre motiu. Simplement, no ho podem saber només amb aquesta informació."
+S8T,Catalan,"Aquí tens el context: El gos està jugant. A més, el gat està pujant a l'arbre. La Maria havia dit: ""Si el gos està jugant, l'Antoni llegirà un llibre"". Segons el que diu la Maria, és veritat que l'Antoni ha llegit un llibre?","Sí, és veritat.
+
+**Explicació:**
+
+1.  **La regla de la Maria és:** Si el gos està jugant (condició), llavors l'Antoni llegirà un llibre (conseqüència).
+2.  **El context confirma que la condició es compleix:** ""El gos està jugant"".
+3.  Com que la condició és certa, la conseqüència també ho ha de ser.
+
+Per tant, segons el que va dir la Maria, l'Antoni ha llegit un llibre."
+S8F,Catalan,"Aquí tens el context: El gos està jugant. A més, el gat està pujant a l'arbre. L'Antoni no ha llegit cap llibre. La Maria havia dit: ""Si el gos està jugant, l'Antoni llegirà un llibre"". Segons el que diu la Maria, és veritat que l'Antoni ha llegit un llibre?","No, no és veritat que l'Antoni hagi llegit un llibre.
+
+El context afirma explícitament que **""L'Antoni no ha llegit cap llibre""**.
+
+El que passa és que l'afirmació de la Maria ha resultat ser falsa. Analitzem-ho:
+*   La condició que ella posa (""Si el gos està jugant..."") és **certa**.
+*   El resultat que ella prediu (""...l'Antoni llegirà un llibre"") és **fals**, segons el propi context.
+
+Per tant, l'afirmació de la Maria és incorrecta, i la realitat és que l'Antoni no ha llegit."
+S8C,Catalan,"Aquí tens el context: El gos no està jugant. A més, el gat està dormint. La Maria havia dit: ""Si el gos està jugant, l'Antoni llegirà un llibre"". Segons el que diu la Maria, és veritat que l'Antoni ha llegit un llibre?","No, no ho podem saber.
+
+**Explicació:**
+
+La frase de la Maria és una condició: només ens diu què passaria **si el gos estigués jugant**.
+
+Com que el gos **no** està jugant, la condició no es compleix. Per tant, no tenim cap informació sobre si l'Antoni ha llegit el llibre o no. Podria haver-lo llegit per un altre motiu, o podria no haver-ho fet."
+S9T,Catalan,"Aquí tens el context: La nevera està buida. A més, el forn està espatllat. La Maria havia dit: ""Si la nevera està buida, l'Anna portarà donuts"". Segons el que diu la Maria, és veritat que l'Anna ha portat donuts?","Sí, és veritat.
+
+La lògica és la següent:
+1.  **La regla de la Maria és:** Si la nevera està buida (A), aleshores l'Anna porta donuts (B).
+2.  **El context confirma que la condició es compleix:** La nevera està buida (A és cert).
+
+Per tant, segons el que diu la Maria, la conseqüència s'ha de complir: l'Anna ha portat donuts. La informació sobre el forn espatllat no afecta aquesta conclusió."
+S9F,Catalan,"Aquí tens el context: La nevera està buida. A més, el forn està espatllat. L'Anna no ha portat donuts. La Maria havia dit: ""Si la nevera està buida, l'Anna portarà donuts"". Segons el que diu la Maria, és veritat que l'Anna ha portat donuts?","Sí.
+
+Segons l'afirmació de la Maria (""Si la nevera està buida, l'Anna portarà donuts"") i el fet que la nevera està buida, la conclusió lògica és que l'Anna hauria d'haver portat donuts.
+
+No obstant això, el context ens informa que la realitat és que l'Anna no els ha portat, la qual cosa significa que l'afirmació de la Maria ha resultat ser falsa."
+S9C,Catalan,"Aquí tens el context: La nevera està plena. A més, el forn està engegat. La Maria havia dit: ""Si la nevera està buida, l'Anna portarà donuts"". Segons el que diu la Maria, és veritat que l'Anna ha portat donuts?","No ho podem saber.
+
+**Explicació:**
+
+La frase de la Maria és una condició: ""Si la nevera està buida..."".
+
+*   El context diu que **la nevera està plena**.
+*   Com que la condició (que la nevera estigui buida) no es compleix, la conseqüència (que l'Anna porti donuts) no té per què passar.
+
+La frase no diu res sobre què passa si la nevera està plena. L'Anna podria haver portat donuts per un altre motiu, o podria no haver-los portat. Amb la informació que tenim, és impossible confirmar-ho o negar-ho."
+B1T,Italian,"Ecco il contesto: Gianni ha fame e c'è della pizza in forno. C'è anche della pasta in frigo. Maria dice: ""Se Gianni ha fame, c'è della pizza in forno"". In base a quello che dice Maria, è vero che c'è della pizza in forno?","In base *solo e unicamente* a quello che dice Maria, non possiamo esserne certi.
+
+**Spiegazione:**
+La frase di Maria (""Se Gianni ha fame, c'è della pizza in forno"") è un'affermazione condizionale. Non afferma che la pizza c'è in assoluto, ma solo che c'è **a condizione che** Gianni abbia fame.
+
+Per poter concludere, seguendo la logica di Maria, che c'è la pizza, dobbiamo sapere che la prima parte della sua frase (""Gianni ha fame"") è vera.
+
+Dato che il contesto ci dice che Gianni ha effettivamente fame, possiamo usare la sua affermazione per concludere che, sì, c'è della pizza in forno."
+B1F,Italian,"Ecco il contesto: Gianni ha fame e non c'è della pizza in forno. Non c'è nemmeno della pasta in frigo. Maria dice: ""Se Gianni ha fame, c'è della pizza in forno"". In base a quello che dice Maria, è vero che c'è della pizza in forno?","No.
+
+Il contesto iniziale afferma chiaramente che **""non c'è della pizza in forno""**.
+
+Quello che dice Maria (""Se Gianni ha fame, c'è della pizza in forno"") è un'affermazione che, basandosi sui fatti, risulta essere **falsa**. Dato che la premessa (""Gianni ha fame"") è vera, ma la conseguenza (""c'è della pizza in forno"") è falsa, l'intera frase di Maria è scorretta."
+B1C,Italian,"Ecco il contesto: Gianni non ha fame. C'è della pasta in frigo. Maria dice: ""Se Gianni ha fame, c'è della pizza in forno"". In base a quello che dice Maria, è vero che c'è della pizza in forno?","In base a quello che dice Maria, **non possiamo saperlo con certezza.**
+
+Ecco la spiegazione:
+
+La frase di Maria è un'ipotesi (""**Se** Gianni ha fame...""). Ci dice cosa succede a una specifica condizione.
+
+*   La **condizione** è: ""Gianni ha fame"".
+*   La **conseguenza** è: ""c'è della pizza in forno"".
+
+Dal momento che il contesto ci dice che Gianni **non ha fame**, la condizione non si verifica. Di conseguenza, la frase di Maria non ci dà nessuna informazione sulla presenza o meno della pizza.
+
+In sintesi:
+*   Potrebbe esserci della pizza in forno.
+*   Potrebbe non esserci.
+
+Entrambe le situazioni sono compatibili con quello che ha detto Maria."
+B2T,Italian,"Ecco il contesto: Nicoletta ha mal di testa e ci sono delle aspirine sul tavolo. C'è anche dell'ibuprofene nel cassetto. Maria dice: ""Se Nicoletta ha mal di testa, ci sono delle aspirine sul tavolo"". In base a quello che dice Maria, è vero che ci sono delle aspirine sul tavolo?","Sì, è vero.
+
+**Spiegazione:**
+
+L'affermazione di Maria è una frase condizionale (""Se... allora..."").
+
+1.  La condizione è: ""Se Nicoletta ha mal di testa"". Il contesto ci dice che questa condizione è **vera**.
+2.  La conseguenza è: ""ci sono delle aspirine sul tavolo"".
+
+Poiché la condizione iniziale (""Nicoletta ha mal di testa"") è vera, anche la conseguenza che ne deriva deve essere vera affinché la frase di Maria abbia senso."
+B2F,Italian,"Ecco il contesto: Nicoletta ha mal di testa e non ci sono aspirine sul tavolo. Non c'è nemmeno dell'ibuprofene nel cassetto. Maria dice: ""Se Nicoletta ha mal di testa, ci sono delle aspirine sul tavolo"". In base a quello che dice Maria, è vero che ci sono delle aspirine sul tavolo?","No, non è vero.
+
+Il contesto afferma chiaramente che ""**non ci sono aspirine sul tavolo**"".
+
+L'affermazione di Maria (""Se Nicoletta ha mal di testa, ci sono delle aspirine sul tavolo"") è **falsa**, perché la premessa (Nicoletta ha mal di testa) è vera, ma la conclusione (ci sono delle aspirine sul tavolo) è falsa. In parole semplici, Maria si sbaglia."
+B2C,Italian,"Ecco il contesto: Nicoletta non ha mal di testa. C'è dell'ibuprofene nel cassetto. Maria dice: ""Se Nicoletta ha mal di testa, ci sono delle aspirine sul tavolo"". In base a quello che dice Maria, è vero che ci sono delle aspirine sul tavolo?","In base a quello che dice Maria, **non è possibile saperlo**.
+
+**Spiegazione:**
+
+La frase di Maria è un'ipotesi del tipo ""Se A, allora B"":
+*   **A:** Nicoletta ha mal di testa.
+*   **B:** Ci sono delle aspirine sul tavolo.
+
+La frase ci dice cosa succede **solo se** la condizione A è vera.
+Dal momento che sappiamo che ""Nicoletta non ha mal di testa"", la condizione A è falsa. Di conseguenza, la frase di Maria non ci dà nessuna informazione sulla presenza o meno delle aspirine sul tavolo. Potrebbero esserci, come no."
+B3T,Italian,"Ecco il contesto: Lucia ha sete e c'è dell'acqua in frigo. C'è anche del succo di mela sullo scaffale. Maria dice: ""Se Lucia ha sete, c'è dell'acqua in frigo"". In base a quello che dice Maria, è vero che c'è dell'acqua in frigo?","Sì, è vero.
+
+Ecco la spiegazione basata sulla logica di quello che dice Maria:
+
+La frase di Maria è un'implicazione logica del tipo ""SE A, ALLORA B"":
+*   **A (la condizione):** ""Lucia ha sete""
+*   **B (la conseguenza):** ""c'è dell'acqua in frigo""
+
+Il contesto ci informa che la condizione A (""Lucia ha sete"") è vera. Poiché l'affermazione di Maria è data come valida e la sua condizione è soddisfatta, anche la conseguenza B (""c'è dell'acqua in frigo"") deve essere vera."
+B3F,Italian,"Ecco il contesto: Lucia ha sete e non c'è dell'acqua in frigo. Non c'è nemmeno del succo di mela sullo scaffale. Maria dice: ""Se Lucia ha sete, c'è dell'acqua in frigo"". In base a quello che dice Maria, è vero che c'è dell'acqua in frigo?","No, non è vero.
+
+Il contesto iniziale afferma chiaramente che **""non c'è dell'acqua in frigo""**.
+
+L'affermazione di Maria (""Se Lucia ha sete, c'è dell'acqua in frigo"") è **falsa**, perché la premessa (""Lucia ha sete"") è vera, ma la conseguenza (""c'è dell'acqua in frigo"") è falsa. In poche parole, Maria si sbaglia."
+B3C,Italian,"Ecco il contesto: Lucia non ha sete. C'è del succo di mela sullo scaffale. Maria dice: ""Se Lucia ha sete, c'è dell'acqua in frigo"". In base a quello che dice Maria, è vero che c'è dell'acqua in frigo?","In base a quello che dice Maria, **non possiamo saperlo con certezza.**
+
+Ecco la spiegazione logica:
+
+La frase di Maria è un'implicazione del tipo ""SE A, ALLORA B"":
+*   **A (la condizione):** ""Lucia ha sete""
+*   **B (la conseguenza):** ""C'è dell'acqua in frigo""
+
+Noi sappiamo dal contesto che la condizione A (""Lucia ha sete"") è **falsa**.
+
+In logica, quando la condizione di un'implicazione è falsa, l'intera frase è considerata vera, **a prescindere dal fatto che la conseguenza sia vera o falsa**.
+
+Questo significa che entrambe le seguenti situazioni sono compatibili con la frase di Maria:
+1.  Lucia non ha sete e c'è dell'acqua in frigo.
+2.  Lucia non ha sete e non c'è dell'acqua in frigo.
+
+Poiché la frase di Maria è valida in entrambi i casi, non possiamo usarla per concludere se l'acqua ci sia o meno."
+B4T,Italian,"Ecco il contesto: Il telefono di Pietro è scarico e c'è un caricatore nel cassetto. C'è anche un computer sul tavolo. Maria dice: ""Se il telefono di Pietro è scarico, c'è un caricatore nel cassetto"". In base a quello che dice Maria, è vero che c'è un caricatore nel cassetto?","Sì, è vero.
+
+**Spiegazione:**
+
+La frase di Maria è una proposizione condizionale: ""Se [condizione], allora [conseguenza]"".
+
+*   **Condizione:** ""Il telefono di Pietro è scarico""
+*   **Conseguenza:** ""C'è un caricatore nel cassetto""
+
+Dal contesto, sappiamo che la condizione (""Il telefono di Pietro è scarico"") è vera. Affinché l'intera affermazione di Maria sia vera, anche la conseguenza deve essere vera.
+
+Quindi, basandoci su ciò che dice Maria, è vero che c'è un caricatore nel cassetto."
+B4F,Italian,"Ecco il contesto: Il telefono di Pietro è scarico e non c'è un caricatore nel cassetto. Non c'è nemmeno un computer sul tavolo. Maria dice: ""Se il telefono di Pietro è scarico, c'è un caricatore nel cassetto"". In base a quello che dice Maria, è vero che c'è un caricatore nel cassetto?","No, non è vero.
+
+Il contesto afferma esplicitamente: ""**non c'è un caricatore nel cassetto**"".
+
+L'affermazione di Maria (""Se il telefono di Pietro è scarico, c'è un caricatore nel cassetto"") è falsa, perché la premessa (""il telefono è scarico"") è vera, ma la conseguenza che lei enuncia (""c'è un caricatore nel cassetto"") è smentita dai fatti del contesto."
+B4C,Italian,"Ecco il contesto: Il telefono di Pietro è carico. C'è un computer sul tavolo. Maria dice: ""Se il telefono di Pietro è scarico, c'è un caricatore nel cassetto"". In base a quello che dice Maria, è vero che c'è un caricatore nel cassetto?","In base a quello che dice Maria, **non è possibile saperlo**.
+
+Ecco perché:
+
+La frase di Maria è un'ipotesi: ""SE il telefono è scarico, ALLORA c'è un caricatore"".
+
+*   La condizione (""il telefono è scarico"") è **falsa**, perché sappiamo dal contesto che il telefono è carico.
+*   Dato che la condizione non si è verificata, la frase di Maria non ci dà nessuna informazione su cosa succede nell'altro caso (cioè quando il telefono è carico).
+
+Il caricatore potrebbe esserci, come potrebbe non esserci. Le parole di Maria non ci permettono di stabilirlo."
+B5T,Italian,"Ecco il contesto: Il tempo è piovoso e c'è un ombrello nel portaombrelli. C'è anche un impermeabile in macchina. Maria dice: ""Se il tempo è piovoso, c'è un ombrello nel portaombrelli"". In base a quello che dice Maria, è vero che c'è un ombrello nel portaombrelli?","In base a quello che dice Maria, **non è possibile saperlo con certezza.**
+
+La sua è un'affermazione condizionale (""se... allora...""). Dice solo che *se* il tempo è piovoso, *allora* c'è un ombrello. La sua frase, da sola, non conferma che ci sia effettivamente un ombrello, ma stabilisce solo una relazione tra due eventi.
+
+Per poter concludere che c'è un ombrello basandoci sulle sue parole, dovremmo prima confermare che la condizione (il tempo piovoso) sia vera."
+B5F,Italian,"Ecco il contesto: Il tempo è piovoso e non c'è un ombrello nel portaombrelli. Non c'è nemmeno un impermeabile in macchina. Maria dice: ""Se il tempo è piovoso, c'è un ombrello nel portaombrelli"". In base a quello che dice Maria, è vero che c'è un ombrello nel portaombrelli?","No.
+
+Il contesto afferma chiaramente che ""non c'è un ombrello nel portaombrelli"".
+
+L'affermazione di Maria è in contraddizione con la realtà descritta dal contesto, quindi quello che dice Maria è falso."
+B5C,Italian,"Ecco il contesto: Il tempo è sereno. C'è un impermeabile in macchina. Maria dice: ""Se il tempo è piovoso, c'è un ombrello nel portaombrelli"". In base a quello che dice Maria, è vero che c'è un ombrello nel portaombrelli?","In base a quello che dice Maria, **non è possibile saperlo con certezza**.
+
+Ecco la spiegazione:
+Maria stabilisce una condizione: **SE** il tempo è piovoso, **ALLORA** c'è un ombrello.
+
+Dato che il tempo è sereno, la condizione non è soddisfatta. La sua frase non ci dà alcuna informazione su cosa succede quando non piove. L'ombrello potrebbe esserci, come potrebbe anche non esserci."
+B6T,Italian,"Ecco il contesto: La gomma della macchina è a terra e c'è una pompa in garage. C'è anche una bici vicino alla porta d'ingresso. Maria dice: ""Se la gomma della macchina è a terra, c'è una pompa in garage"". In base a quello che dice Maria, è vero che c'è una pompa in garage?","Sì, è vero.
+
+**Ecco la spiegazione:**
+
+La frase di Maria è un'implicazione logica del tipo ""Se A, allora B"":
+*   **A (la condizione):** ""la gomma della macchina è a terra""
+*   **B (la conseguenza):** ""c'è una pompa in garage""
+
+Il contesto ci dice che la condizione A è vera (la gomma è effettivamente a terra). Affinché l'intera affermazione di Maria sia corretta, anche la conseguenza B deve essere vera.
+
+In altre parole, dato che la premessa del suo discorso è confermata, anche la conclusione deve essere vera."
+B6F,Italian,"Ecco il contesto: La gomma della macchina è a terra e non c'è nessuna pompa in garage. Non c'è nemmeno una bici vicino alla porta d'ingresso. Maria dice: ""Se la gomma della macchina è a terra, c'è una pompa in garage"". In base a quello che dice Maria, è vero che c'è una pompa in garage?","No, non è vero.
+
+Il contesto iniziale stabilisce chiaramente che ""**non c'è nessuna pompa in garage**"".
+
+L'affermazione di Maria (""Se la gomma della macchina è a terra, c'è una pompa in garage"") è un'ipotesi che si rivela **falsa**, perché la condizione (la gomma è a terra) è vera, ma la conseguenza (c'è una pompa in garage) è falsa.
+
+In sintesi, Maria si sbaglia."
+B6C,Italian,"Ecco il contesto: La gomma della macchina è gonfia. C'è una bici vicino alla porta d'ingresso. Maria dice: ""Se la gomma della macchina è a terra, c'è una pompa in garage"". In base a quello che dice Maria, è vero che c'è una pompa in garage?","Non possiamo saperlo con certezza.
+
+**Spiegazione:**
+
+L'affermazione di Maria è una frase condizionale (""Se..., allora...""). Lei ci dice dove si trova la pompa **solo a condizione che** la gomma sia a terra.
+
+Dato che il contesto ci dice che la gomma è gonfia, la condizione non è soddisfatta. Di conseguenza, la frase di Maria non ci dà alcuna informazione sulla presenza o meno della pompa in garage in questa situazione. Potrebbe esserci, come no."
+B7T,Italian,"Ecco il contesto: La pianta è secca e c'è un annaffiatoio sullo scaffale. C'è anche un tubo da giardinaggio in giardino. Maria dice: ""Se la pianta è secca, c'è un annaffiatoio sullo scaffale"". In base a quello che dice Maria, è vero che c'è un annaffiatoio sullo scaffale?","Sì, è vero.
+
+**Spiegazione:**
+
+La frase di Maria è un'implicazione logica: ""Se si verifica la condizione A (la pianta è secca), allora si verifica la conseguenza B (c'è un annaffiatoio sullo scaffale)"".
+
+Dato che il contesto ci conferma che la condizione A (""La pianta è secca"") è vera, la frase di Maria ci porta a concludere che anche la conseguenza B (""c'è un annaffiatoio sullo scaffale"") deve essere vera."
+B7F,Italian,"Ecco il contesto: La pianta è secca e non c'è nessun annaffiatoio sullo scaffale. Non c'è nemmeno un tubo da giardinaggio in giardino. Maria dice: ""Se la pianta è secca, c'è un annaffiatoio sullo scaffale"". In base a quello che dice Maria, è vero che c'è un annaffiatoio sullo scaffale?","No.
+
+Quello che dice Maria è un'affermazione che, basandosi sul contesto, è **falsa**.
+
+Il contesto stabilisce due fatti:
+1. La pianta è secca (Vero).
+2. Non c'è un annaffiatoio sullo scaffale (Vero).
+
+L'affermazione di Maria (""Se la pianta è secca, c'è un annaffiatoio sullo scaffale"") risulta quindi falsa, perché la premessa è vera ma la conseguenza è falsa. Di conseguenza, non c'è nessun annaffiatoio sullo scaffale."
+B7C,Italian,"Ecco il contesto: La pianta è rigogliosa. C'è un tubo da giardinaggio in giardino. Maria dice: ""Se la pianta è secca, c'è un annaffiatoio sullo scaffale"". In base a quello che dice Maria, è vero che c'è un annaffiatoio sullo scaffale?","Non è possibile saperlo.
+
+**Spiegazione:**
+
+L'affermazione di Maria è una condizione: ""**Se** la pianta è secca, **allora** c'è un annaffiatoio"".
+
+Dal contesto sappiamo che la pianta è rigogliosa, quindi la condizione ""la pianta è secca"" è **falsa**.
+
+Quando la premessa di un'affermazione ""se... allora"" è falsa, l'affermazione non ci dà alcuna informazione sulla veridicità della seconda parte. L'annaffiatoio potrebbe esserci, come potrebbe non esserci. La frase di Maria non si applica a questa situazione."
+B8T,Italian,"Ecco il contesto: La camicia di Giorgio è stropicciata e c'è un ferro da stiro nell'armadio. C'è anche un'asse da stiro in balcone. Maria dice: ""Se la camicia di Giorgio è stropicciata, c'è un ferro da stiro nell'armadio"". In base a quello che dice Maria, è vero che c'è un ferro da stiro nell'armadio?","Sì, è vero.
+
+Il contesto iniziale stabilisce chiaramente che **""c'è un ferro da stiro nell'armadio""**.
+
+L'affermazione di Maria è corretta perché collega due fatti entrambi veri: la premessa (""la camicia di Giorgio è stropicciata"") e la conseguenza (""c'è un ferro da stiro nell'armadio"")."
+B8F,Italian,"Ecco il contesto: La camicia di Giorgio è stropicciata e non c'è un ferro da stiro nell'armadio. Non c'è nemmeno un'asse da stiro in balcone. Maria dice: ""Se la camicia di Giorgio è stropicciata, c'è un ferro da stiro nell'armadio"". In base a quello che dice Maria, è vero che c'è un ferro da stiro nell'armadio?","No.
+
+Il contesto afferma esplicitamente che ""**non c'è un ferro da stiro nell'armadio**"".
+
+L'affermazione di Maria è una frase condizionale (""Se... allora...""). Poiché sappiamo che la premessa (""la camicia è stropicciata"") è vera, ma la conseguenza (""c'è un ferro da stiro"") è falsa, si può concludere che l'intera frase di Maria è falsa."
+B8C,Italian,"Ecco il contesto: La camicia di Giorgio è stirata. C'è un'asse da stiro in balcone. Maria dice: ""Se la camicia di Giorgio è stropicciata, c'è un ferro da stiro nell'armadio"". In base a quello che dice Maria, è vero che c'è un ferro da stiro nell'armadio?","**Non è possibile saperlo.**
+
+Ecco la spiegazione logica:
+
+L'affermazione di Maria è una frase ipotetica del tipo ""Se A, allora B"".
+
+*   **A (la condizione):** ""la camicia di Giorgio è stropicciata""
+*   **B (la conseguenza):** ""c'è un ferro da stiro nell'armadio""
+
+Dal contesto sappiamo che la camicia di Giorgio **è stirata**, quindi la condizione A è **falsa**.
+
+Quando in una frase ipotetica la condizione è falsa, non possiamo dedurre assolutamente nulla sulla conseguenza. La frase di Maria ci dice cosa succede *solo nel caso in cui* la camicia fosse stropicciata, ma non ci dà nessuna informazione sulla situazione attuale (visto che la camicia è stirata).
+
+In breve: il ferro da stiro potrebbe esserci, come potrebbe non esserci. Non abbiamo abbastanza informazioni per dirlo con certezza."
+B9T,Italian,"Ecco il contesto: Susanna vuole leggere e ci sono dei libri sullo scaffale. C'è anche un giornale sul divano. Maria dice: ""Se Susanna vuole leggere, ci sono dei libri sullo scaffale"". In base a quello che dice Maria, è vero che ci sono dei libri sullo scaffale?","Sì, è vero.
+
+Anche se la frase di Maria ha la forma di un'ipotesi (""Se...""), nel linguaggio comune questa costruzione viene usata per dare un'informazione certa e pertinente a una specifica condizione.
+
+In altre parole, Maria non sta mettendo in dubbio l'esistenza dei libri. Sta affermando che ci sono dei libri sullo scaffale come soluzione al fatto che Susanna vuole leggere."
+B9F,Italian,"Ecco il contesto: Susanna vuole leggere e non ci sono libri sullo scaffale. Non c'è nemmeno un giornale sul divano. Maria dice: ""Se Susanna vuole leggere, ci sono dei libri sullo scaffale"". In base a quello che dice Maria, è vero che ci sono dei libri sullo scaffale?","No.
+
+In base al contesto fornito, è falso. Il testo dice chiaramente all'inizio: ""**non ci sono libri sullo scaffale**"".
+
+L'affermazione di Maria, quindi, non corrisponde alla realtà descritta."
+B9C,Italian,"Ecco il contesto: Susanna non vuole leggere. C'è un giornale sul divano. Maria dice: ""Se Susanna vuole leggere, ci sono dei libri sullo scaffale"". In base a quello che dice Maria, è vero che ci sono dei libri sullo scaffale?","Sì.
+
+La frase di Maria (""Se Susanna vuole leggere, ci sono dei libri sullo scaffale"") implica che i libri esistono e si trovano sullo scaffale. Anche se la condizione (la voglia di leggere di Susanna) non si verifica, Maria sta presentando l'esistenza dei libri come un dato di fatto, un'opzione disponibile."
+F1T,Italian,"Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della pizza in frigo. In questo contesto, la pizza è più popolare della pasta?","Sì. Il contesto afferma che, nonostante sia più cara, la gente compra più pizza che pasta, indicando che è più popolare."
+F1F,Italian,"Ecco il contesto: Nonostante la pizza sia più cara della pasta, la gente la compra di più. C'è della pizza in frigo. In questo contesto, la pasta è più popolare della pizza?","No, secondo il contesto è il contrario. Viene specificato che la gente compra più pizza che pasta, rendendola quindi più popolare."
+F2T,Italian,"Ecco il contesto: Nonostante il caffè sia più economico del tè verde, la maggior parte delle persone preferisce il tè verde. C'è del caffè nella moka. In questo contesto, il tè verde è usato più del caffè?","Sì.
+
+Il contesto afferma che ""la maggior parte delle persone preferisce il tè verde""."
+F2F,Italian,"Ecco il contesto: Nonostante il caffè sia più economico del tè verde, la maggior parte delle persone preferisce il tè verde. C'è del caffè nella moka. In questo contesto, il caffè è usato più del tè verde?","No. Il contesto afferma che ""la maggior parte delle persone preferisce il tè verde"", il che implica che sia usato più del caffè."
+F3T,Italian,"Ecco il contesto: Nonostante l'acqua sia più sana delle bibite gassate, molti scelgono le bibite gassate. C'è dell'acqua in freezer. In questo contesto, le bibite gassate sono più richieste dell'acqua?","Sì. Il contesto afferma che ""molti scelgono le bibite gassate"" nonostante l'acqua sia un'opzione più sana."
+F3F,Italian,"Ecco il contesto: Nonostante l'acqua sia più sana delle bibite gassate, molti scelgono le bibite gassate. C'è dell'acqua in freezer. In questo contesto, l'acqua è più richiesta delle bibite gassate?","No, in base al contesto è il contrario.
+
+Il testo dice esplicitamente che, nonostante l'acqua sia più sana, ""**molti scelgono le bibite gassate**"". Questo indica che le bibite gassate sono più richieste dell'acqua."
+F4T,Italian,"Ecco il contesto: Nonostante i broccoli siano più difficili da cucinare rispetto agli gnocchi, la gente li usa di più. Ci sono dei broccoli in forno. In questo contesto, i broccoli sono più popolari degli gnocchi?","Sì, in base a questo contesto i broccoli sono più popolari degli gnocchi.
+
+La frase chiave è: ""la gente li usa di più""."
+F4F,Italian,"Ecco il contesto: Nonostante i broccoli siano più difficili da cucinare rispetto agli gnocchi, la gente li usa di più. Ci sono dei broccoli in forno. In questo contesto, gli gnocchi sono più popolari dei broccoli?","No, il contesto afferma il contrario. Dice esplicitamente che, nonostante i broccoli siano più difficili da cucinare, ""**la gente li usa di più**""."
+F5T,Italian,"Ecco il contesto: Nonostante il sushi sia più sano degli hamburger, la gente mangia più spesso gli hamburger. C'è del sushi sul tavolo. In questo contesto, gli hamburger sono più popolari del sushi?","Sì. Il contesto afferma che ""la gente mangia più spesso gli hamburger"", il che indica che sono più popolari del sushi."
+F5F,Italian,"Ecco il contesto: Nonostante il sushi sia più sano degli hamburger, la gente mangia più spesso gli hamburger. C'è del sushi sul tavolo. In questo contesto,il sushi è più popolare degli hamburger?","No, in base al contesto, la gente mangia più spesso gli hamburger, quindi gli hamburger sono più popolari del sushi."
+F6T,Italian,"Ecco il contesto: Nonostante le banane siano più costose dei kiwi, la gente le acquista di più. Ci sono banane nel cesto della frutta. In questo contesto, le banane sono più popolari dei kiwi?","Sì. Il contesto afferma che, nonostante siano più costose, la gente acquista più banane che kiwi. Questo indica che sono più popolari."
+F6F,Italian,"Ecco il contesto: Nonostante le banane siano più costose dei kiwi, la gente le acquista di più. Ci sono banane nel cesto della frutta. In questo contesto, i kiwi sono più popolari delle banane?","No, il contesto afferma il contrario.
+
+Specifica che, nonostante le banane siano più costose, ""la gente le acquista di più"", indicando quindi che le banane sono più popolari dei kiwi."
+F7T,Italian,"Ecco il contesto: Nonostante i cani siano più vivaci dei gatti, le persone li preferiscono. C'è un gatto sull'albero. In questo contesto, i cani sono più popolari dei gatti?","Sì, secondo il testo le persone preferiscono i cani ai gatti."
+F7F,Italian,"Ecco il contesto: Nonostante i cani siano più vivaci dei gatti, le persone li preferiscono. C'è un gatto sull'albero. In questo contesto, i gatti sono più popolari dei cani?","No, secondo il contesto le persone preferiscono i cani.
+
+Il testo dice: ""Nonostante i cani siano più vivaci dei gatti, le persone **li preferiscono**"" (riferendosi ai cani)."
+F8T,Italian,"Ecco il contesto: Nonostante leggere sia più istruttivo di guardare la TV, la maggior parte delle persone guardano la TV. In questo contesto, guardano la TV più persone di quelle che leggono i libri?","Sì. Il testo afferma che ""la maggior parte delle persone guardano la TV"", il che implica che più persone guardano la TV di quante ne leggano."
+F8F,Italian,"Ecco il contesto: Nonostante leggere sia più istruttivo di guardare la TV, la maggior parte delle persone guardano la TV. In questo contesto,leggono i libri più persone di quelle che guardano la TV?","No. Stando al contesto, è vero il contrario: la maggior parte delle persone guarda la TV."
+F9T,Italian,"Ecco il contesto: Nonostante correre sia meglio per la forma fisica rispetto a camminare, la maggior parte delle persone preferisce camminare. C'è un corridore in pista. In questo contesto, correre è meglio per la forma fisica di camminare?","Sì, il contesto afferma che ""correre sia meglio per la forma fisica rispetto a camminare""."
+F9F,Italian,"Ecco il contesto: Nonostante correre sia meglio per la forma fisica rispetto a camminare, la maggior parte delle persone preferisce camminare. C'è un corridore in pista. In questo contesto, camminare è meglio per la forma fisica di correre?","No. Il contesto afferma esplicitamente il contrario: ""**correre sia meglio per la forma fisica rispetto a camminare**""."
+S1T,Italian,"Ecco il contesto: Il pappagallo è nella gabbia. Inoltre, il cane è nella cuccia. Maria aveva detto: ""Se il pappagallo è nella gabbia, Tommaso porterà la pizza"". In base a quello che dice Maria, è vero che Tommaso ha portato la pizza?","Sì.
+
+Secondo la logica di quanto detto da Maria, è vero. La sua affermazione è una condizione: **""Se** il pappagallo è nella gabbia (condizione), **allora** Tommaso porterà la pizza (conseguenza)"".
+
+Poiché il contesto conferma che la condizione è vera (""Il pappagallo è nella gabbia""), anche la conseguenza deve essere vera."
+S1F,Italian,"Ecco il contesto: Il pappagallo è nella gabbia. Inoltre, il cane è nella cuccia. Tommaso non ha portato la pizza. Maria aveva detto: ""Se il pappagallo è nella gabbia, Tommaso porterà la pizza"". In base a quello che dice Maria, è vero che Tommaso ha portato la pizza?","In base a quello che dice Maria, **sì, è vero che Tommaso ha portato la pizza**.
+
+La sua affermazione è una regola logica: ""Se il pappagallo è nella gabbia, Tommaso porterà la pizza"".
+
+Dato che il contesto conferma che ""il pappagallo è nella gabbia"", la condizione si è verificata. Di conseguenza, secondo la logica di Maria, Tommaso avrebbe dovuto portare la pizza.
+
+(Il fatto che il testo poi dica che Tommaso *non* ha portato la pizza significa che, nella realtà dei fatti, l'affermazione di Maria si è rivelata falsa)."
+S1C,Italian,"Ecco il contesto: Il pappagallo non è nella gabbia. Neanche il cane è nella cuccia. Maria aveva detto: ""Se il pappagallo è nella gabbia, Tommaso porterà la pizza"". In base a quello che dice Maria, è vero che Tommaso ha portato la pizza?","In base a quello che dice Maria, **non è possibile saperlo con certezza**.
+
+Ecco la spiegazione:
+
+La frase di Maria è una condizione: ""Se il pappagallo è nella gabbia (condizione), allora Tommaso porterà la pizza (conseguenza)"".
+
+1.  La condizione per cui Tommaso avrebbe portato la pizza era che **il pappagallo fosse nella gabbia**.
+2.  Dal contesto sappiamo che **il pappagallo non è nella gabbia**.
+
+Poiché la condizione non si è verificata, la frase di Maria non ci dice nulla su quello che farà Tommaso. Tommaso potrebbe aver portato la pizza per un altro motivo, oppure potrebbe non averla portata affatto. Entrambe le possibilità sono valide."
+S2T,Italian,"Ecco il contesto: Hai finito i broccoli. Hai finito anche la pasta. Maria aveva detto: ""Se finisci i broccoli, Marco ti darà una caramella"". In base a quello che dice Maria, è vero che Marco ti ha dato una caramella?","Non è possibile saperlo con certezza.
+
+**Spiegazione:**
+In base a quello che dice Maria, la condizione per ricevere la caramella (finire i broccoli) è stata soddisfatta. Di conseguenza, Marco **dovrebbe** averti dato una caramella.
+
+Tuttavia, il testo non ci dice se Marco l'abbia fatto davvero. Ci informa solo della promessa di Maria, non del suo esito."
+S2F,Italian,"Ecco il contesto: Hai finito i broccoli. Hai finito anche la pasta. Marco non ti ha dato nessuna caramella. Maria aveva detto: ""Se finisci i broccoli, Marco ti darà una caramella"". In base a quello che dice Maria, è vero che Marco ti ha dato una caramella?","No, non è vero.
+
+Il contesto dice esplicitamente: ""**Marco non ti ha dato nessuna caramella**"".
+
+Quindi, anche se hai rispettato la condizione posta da Maria (finire i broccoli), la sua previsione non si è avverata."
+S2C,Italian,"Ecco il contesto: Non hai finito i broccoli. Non hai finito neanche la pasta. Maria aveva detto: ""Se finisci i broccoli, Marco ti darà una caramella"". In base a quello che dice Maria, è vero che Marco ti ha dato una caramella?","No.
+
+La condizione per ricevere la caramella era finire i broccoli. Dato che non li hai finiti, Marco non ti ha dato la caramella."
+S3T,Italian,"Ecco il contesto: Le volpi stanno ballando. Inoltre, gli scoiattoli stanno mangiando. Maria aveva detto: ""Se le volpi stanno ballando, Susanna riceverà una macchina fotografica"". In base a quello che dice Maria, è vero che Susanna ha ricevuto una macchina fotografica?","Sì, in base a quello che dice Maria, **è vero che Susanna ha ricevuto una macchina fotografica**.
+
+La sua affermazione è una condizione: ""SE le volpi stanno ballando, ALLORA Susanna riceverà una macchina fotografica"".
+
+Poiché il contesto conferma che **le volpi stanno ballando**, la condizione è soddisfatta e quindi la conseguenza deve essere vera."
+S3F,Italian,"Ecco il contesto: Le volpi stanno ballando. Inoltre, gli scoiattoli stanno mangiando. Susanna non ha rivevuto nessuna macchina fotografica. Maria aveva detto: ""Se le volpi stanno ballando, Susanna riceverà una macchina fotografica"". In base a quello che dice Maria, è vero che Susanna ha ricevuto una macchina fotografica?","Sì. **In base a quello che dice Maria**, è vero che Susanna ha ricevuto una macchina fotografica.
+
+La logica è la seguente:
+1.  **L'affermazione di Maria è:** ""Se le volpi stanno ballando, Susanna riceverà una macchina fotografica"".
+2.  **La condizione si è verificata:** Il contesto ci informa che ""Le volpi stanno ballando"".
+3.  **Conclusione:** Poiché la condizione posta da Maria si è avverata, secondo la sua affermazione, la conseguenza deve essere vera.
+
+(Questo, tuttavia, crea una contraddizione con l'altra informazione data nel contesto, cioè che ""Susanna non ha ricevuto nessuna macchina fotografica"". Ciò significa che, nella realtà dei fatti, l'affermazione di Maria era falsa)."
+S3C,Italian,"Ecco il contesto: Le volpi non stanno ballando. Neanche gli scoiattoli stanno mangiando. Maria aveva detto: ""Se le volpi stanno ballando, Susanna riceverà una macchina fotografica"". In base a quello che dice Maria, è vero che Susanna ha ricevuto una macchina fotografica?","In base a quello che dice Maria, **non è possibile saperlo**.
+
+**Spiegazione:**
+
+L'affermazione di Maria è una condizione: ""**SE** le volpi stanno ballando, **ALLORA** Susanna riceverà una macchina fotografica"".
+
+Dato che il contesto ci dice che ""le volpi **non** stanno ballando"", la condizione iniziale non si è verificata. La frase di Maria non dice assolutamente nulla su cosa succede se le volpi *non* ballano. Susanna potrebbe aver ricevuto la macchina fotografica per un altro motivo, oppure potrebbe non averla ricevuta affatto."
+S4T,Italian,"Ecco il contesto: La TV è accesa. Anche la radio è accesa. Maria aveva detto: ""Se la TV è accesa, Matteo preparerà dei biscotti"". In base a quello che dice Maria, è vero che Matteo ha preparato dei biscotti?","Sì.
+
+**Spiegazione:** La frase di Maria è una condizione (""Se..., allora..."").
+Dato che la condizione iniziale (""La TV è accesa"") è vera, allora anche la conseguenza (""Matteo preparerà dei biscotti"") deve essere vera."
+S4F,Italian,"Ecco il contesto: La TV è accesa. Anche la radio è accesa. Matteo non ha preparato i biscotti. Maria aveva detto: ""Se la TV è accesa, Matteo preparerà dei biscotti"". In base a quello che dice Maria, è vero che Matteo ha preparato dei biscotti?","No.
+
+Il contesto afferma esplicitamente: ""**Matteo non ha preparato i biscotti**"".
+
+Questo significa che l'affermazione di Maria (""Se la TV è accesa, Matteo preparerà dei biscotti"") si è rivelata falsa, perché la condizione (la TV è accesa) si è verificata, ma la conseguenza (Matteo prepara i biscotti) non è avvenuta."
+S4C,Italian,"Ecco il contesto: La TV è spenta. Anche la radio è spenta. Maria aveva detto: ""Se la TV è accesa, Matteo preparerà dei biscotti"". In base a quello che dice Maria, è vero che Matteo ha preparato dei biscotti?","Non è possibile saperlo con certezza.
+
+Ecco la spiegazione:
+L'affermazione di Maria è una condizione: Matteo prepara i biscotti **solo se** la TV è accesa.
+
+Poiché la TV è spenta, la condizione non si è verificata. Questo non ci dice nulla su cosa fa Matteo quando la TV è spenta. Potrebbe aver preparato i biscotti per un altro motivo, oppure non averli preparati affatto. In base alle informazioni date, non possiamo saperlo."
+S5T,Italian,"Ecco il contesto: Oggi il tempo è soleggiato. Inoltre, non c'è vento. Maria aveva detto: ""Se il tempo è soleggiato, Emma si vestirà di viola"". In base a quello che dice Maria, è vero che Emma si è vestita di viola?","Sì, in base a quello che dice Maria, **è vero che Emma si è vestita di viola**.
+
+La frase di Maria è una proposizione condizionale:
+*   **Condizione:** ""Se il tempo è soleggiato""
+*   **Conseguenza:** ""allora Emma si vestirà di viola""
+
+Dato che la condizione (il tempo è soleggiato) è verificata, la conseguenza deve essere vera."
+S5F,Italian,"Ecco il contesto: Oggi il tempo è soleggiato. Inoltre, non c'è vento. Emma si è vestita di verde. Maria aveva detto: ""Se il tempo è soleggiato, Emma si vestirà di viola"". In base a quello che dice Maria, è vero che Emma si è vestita di viola?","No, non è vero.
+
+Il contesto afferma che ""Emma si è vestita di verde"". L'affermazione di Maria era solo una previsione che, basandosi sui fatti, si è rivelata sbagliata."
+S5C,Italian,"Ecco il contesto: Oggi il tempo è piovoso. Inoltre, c'è molto vento. Maria aveva detto: ""Se il tempo è soleggiato, Emma si vestirà di viola"". In base a quello che dice Maria, è vero che Emma si è vestita di viola?","Non è possibile saperlo.
+
+**Spiegazione:**
+La frase di Maria stabilisce una condizione: Emma si veste di viola **se** il tempo è soleggiato.
+
+Dato che oggi il tempo è piovoso, la condizione non si è verificata. Di conseguenza, non possiamo sapere come si è vestita Emma. Potrebbe essersi vestita di viola per altri motivi, oppure no."
+S6T,Italian,"Ecco il contesto: Il parco giochi è vuoto. Inoltre, le strade sono tranquille. Maria aveva detto: ""Se il parco giochi è vuoto, Angelà si farà un selfie"". In base a quello che dice Maria, è vero che Angela si è fatta un selfie?","Sì, in base a quello che dice Maria, è vero.
+
+La sua è un'affermazione condizionale: **SE** il parco giochi è vuoto, **ALLORA** Angela si fa un selfie.
+
+Dato che il contesto ci dice che la condizione (il parco giochi è vuoto) è vera, di conseguenza anche la conclusione (Angela si è fatta un selfie) è vera."
+S6F,Italian,"Ecco il contesto: Il parco giochi è vuoto. Inoltre, le strade sono tranquille. Angela non si è fatta un selfie. Maria aveva detto: ""Se il parco giochi è vuoto, Angelà si farà un selfie"". In base a quello che dice Maria, è vero che Angela si è fatta un selfie?","No.
+
+In base a quello che dice Maria, **Angela avrebbe dovuto farsi un selfie**, perché la condizione (""il parco giochi è vuoto"") si è verificata.
+
+Tuttavia, il contesto afferma chiaramente il contrario: **""Angela non si è fatta un selfie""**.
+
+Quindi, la previsione di Maria era sbagliata."
+S6C,Italian,"Ecco il contesto: Il parco giochi è pieno. Inoltre, le strade sono affollate. Maria aveva detto: ""Se il parco giochi è vuoto, Angelà si farà un selfie"". In base a quello che dice Maria, è vero che Angela si è fatta un selfie?","In base a quello che dice Maria, **non possiamo sapere con certezza** se Angela si sia fatta un selfie.
+
+Ecco perché:
+La condizione per cui Angela si sarebbe fatta un selfie era una sola: **""se il parco giochi è vuoto""**.
+Dal contesto sappiamo che il parco giochi è pieno, quindi la condizione non si è verificata.
+
+La frase di Maria non dice nulla su cosa sarebbe successo in altre circostanze (come con il parco pieno). Angela potrebbe essersi fatta un selfie per altri motivi, oppure potrebbe non averlo fatto."
+S7T,Italian,"Ecco il contesto: Il prato è stato tagliato. Inoltre, i fiori sono stati annaffiati. Maria aveva detto: ""Se Paolo taglia il prato, riceverà 50 euro"". In base a quello che dice Maria, è vero che Paolo ha ricevuto 50 euro?","Non è possibile saperlo con certezza.
+
+Il contesto ci dice che il prato è stato tagliato, ma non specifica **chi** lo ha tagliato. La condizione di Maria era che **Paolo** tagliasse il prato per ricevere i 50 euro.
+
+Se il prato è stato tagliato da Paolo, allora ha ricevuto i soldi. Ma se l'ha tagliato qualcun altro, non li ha ricevuti. Poiché non abbiamo questa informazione, non possiamo dare una risposta sicura."
+S7F,Italian,"Ecco il contesto: Il prato è stato tagliato. Inoltre, i fiori sono stati annaffiati. Paolo non ha ricevuto 50 euro. Maria aveva detto: ""Se Paolo taglia il prato, riceverà 50 euro"". In base a quello che dice Maria, è vero che Paolo ha ricevuto 50 euro?","No.
+
+Il testo afferma esplicitamente: ""**Paolo non ha ricevuto 50 euro**"".
+
+Anche se il prato è stato tagliato, il fatto che Paolo non abbia ricevuto i soldi (nonostante la promessa di Maria) implica che non sia stato lui a compiere l'azione."
+S7C,Italian,"Ecco il contesto: Il prato non è stato tagliato. Inoltre, i fiori devono ancora essere annaffiati.  Maria aveva detto: ""Se Paolo taglia il prato, riceverà 50 euro"". In base a quello che dice Maria, è vero che Paolo ha ricevuto 50 euro?","No.
+
+La promessa di Maria era condizionale: Paolo avrebbe ricevuto i 50 euro **solo se** avesse tagliato il prato. Poiché il contesto afferma che ""il prato non è stato tagliato"", la condizione non si è verificata e di conseguenza Paolo non ha ricevuto i soldi."
+S8T,Italian,"Ecco il contesto: Il cane sta giocando. Inoltre, il gatto si sta arrampicando sull'albero. Maria aveva detto: ""Se il cane sta giocando, Antonio leggerà un libro"". In base a quello che dice Maria, è vero che Antonio ha letto un libro?","Sì.
+
+**Spiegazione:**
+Maria ha stabilito una condizione: ""**Se** il cane sta giocando, **allora** Antonio leggerà un libro"".
+
+Dato che il contesto conferma che la condizione è vera (""Il cane sta giocando""), di conseguenza, secondo la logica di Maria, è vero che Antonio leggerà un libro."
+S8F,Italian,"Ecco il contesto: Il cane sta giocando. Inoltre, il gatto si sta arrampicando sull'albero. Antonio non ha letto nessun libro. Maria aveva detto: ""Se il cane sta giocando, Antonio leggerà un libro"". In base a quello che dice Maria, è vero che Antonio ha letto un libro?","In base alla logica di quello che dice Maria, **sì**.
+
+Ecco perché:
+1.  **La regola di Maria è:** ""Se il cane sta giocando, Antonio leggerà un libro"".
+2.  **La condizione si è verificata:** Il contesto ci dice che ""Il cane sta giocando"".
+
+Dato che la prima parte della frase di Maria (la condizione) è vera, secondo la sua logica dovrebbe esserlo anche la seconda parte (la conseguenza).
+
+**Tuttavia**, il contesto generale ci dice anche che ""Antonio non ha letto nessun libro"". Questo significa che l'affermazione di Maria si è rivelata **falsa** nella realtà."
+S8C,Italian,"Ecco il contesto: Il cane non sta giocando. Inoltre, il gatto sta dormendo. Maria aveva detto: ""Se il cane sta giocando, Antonio leggerà un libro"". In base a quello che dice Maria, è vero che Antonio ha letto un libro?","In base alle informazioni fornite, **non è possibile saperlo**.
+
+Ecco la spiegazione:
+
+La frase di Maria è un'implicazione logica: ""SE il cane sta giocando, ALLORA Antonio leggerà un libro"".
+
+1.  La condizione per cui Antonio legge un libro è che **il cane stia giocando**.
+2.  Il contesto ci dice chiaramente che ""**il cane non sta giocando**"".
+
+Dato che la condizione non si è verificata, la frase di Maria non ci dà alcuna informazione su quello che farà Antonio. Antonio potrebbe leggere un libro per altri motivi, oppure potrebbe non leggerlo affatto. Non abbiamo abbastanza dati per trarre una conclusione."
+S9T,Italian,"Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Maria aveva detto: ""Se il frigorifero è vuoto, Anna porterà delle ciambelle"". In base a quello che dice Maria, è vero che Anna ha portato delle ciambelle?","Sì, in base a quanto detto da Maria, **è vero che Anna ha portato delle ciambelle.**
+
+La logica è la seguente:
+
+1.  **La condizione posta da Maria è:** ""Se il frigorifero è vuoto...""
+2.  **Il contesto conferma che la condizione è vera:** ""Il frigorifero è vuoto.""
+3.  **La conseguenza della condizione è:** ""...Anna porterà delle ciambelle.""
+
+Dato che la condizione si è verificata, secondo la logica della frase di Maria, anche la conseguenza deve essere vera."
+S9F,Italian,"Ecco il contesto: Il frigorifero è vuoto. Inoltre, il forno è rotto. Anna non ha portato delle ciambelle. Maria aveva detto: ""Se il frigorifero è vuoto, Anna porterà delle ciambelle"". In base a quello che dice Maria, è vero che Anna ha portato delle ciambelle?","In base a quello che dice Maria, Anna avrebbe dovuto portare le ciambelle, perché la condizione (il frigorifero vuoto) si è verificata.
+
+Tuttavia, il contesto afferma esplicitamente il contrario: ""**Anna non ha portato delle ciambelle**"".
+
+Quindi, la risposta è: **No, non è vero che Anna ha portato delle ciambelle.** Ciò significa che l'affermazione di Maria si è rivelata falsa."
+S9C,Italian,"Ecco il contesto: Il frigorifero è pieno. Inoltre, il forno è acceso. Maria aveva detto: ""Se il frigorifero è vuoto, Anna porterà delle ciambelle"". In base a quello che dice Maria, è vero che Anna ha portato delle ciambelle?","No, non è possibile determinarlo con certezza.
+
+**Spiegazione:**
+
+La frase di Maria è un'ipotesi: ""SE il frigorifero è vuoto, ALLORA Anna porterà delle ciambelle"".
+
+1.  **La condizione:** che il frigorifero sia vuoto.
+2.  **Il contesto:** ci dice che ""il frigorifero è pieno"".
+
+Dato che la condizione non si è verificata, la frase di Maria non ci dà nessuna informazione su quello che ha fatto Anna. Anna potrebbe aver portato le ciambelle per un altro motivo, oppure non averle portate affatto. Non possiamo saperlo."
+B1T,Spanish,"Aquí tienes el contexto: Juan tiene hambre y hay pizza en el horno. También hay pasta en la nevera. María dice: ""Si Juan tiene hambre, hay pizza en el horno"". Según lo que dice María, ¿es verdad que hay pizza en el horno?","No, no se puede saber con certeza **solo basándose en la frase de María**.
+
+**Explicación:**
+
+La frase de María (""Si Juan tiene hambre, hay pizza en el horno"") es una **afirmación condicional**. Esto significa que solo nos asegura que hay pizza si la condición (que Juan tenga hambre) se cumple.
+
+*   Si Juan **sí** tiene hambre, entonces su afirmación nos dice que **sí** hay pizza.
+*   Si Juan **no** tuviera hambre, su afirmación no nos dice nada sobre la pizza. Podría haberla o no.
+
+Por lo tanto, la frase de María por sí sola no es suficiente para confirmar que hay pizza. Necesitas saber también si Juan tiene hambre para poder sacar una conclusión."
+B1F,Spanish,"Aquí tienes el contexto: Juan tiene hambre y no hay pizza en el horno. Tampoco hay pasta en la nevera. María dice: ""Si Juan tiene hambre, hay pizza en el horno"". Según lo que dice María, ¿es verdad que hay pizza en el horno?","No, no es verdad que hay pizza en el horno.
+
+El propio contexto inicial afirma que ""**no hay pizza en el horno**"". Lo que dice María es una afirmación incorrecta, ya que la condición que ella pone (que Juan tenga hambre) sí se cumple, pero la consecuencia (que haya pizza) no es cierta."
+B1C,Spanish,"Aquí tienes el contexto: Juan no tiene hambre. Hay pasta en la nevera. María dice: ""Si Juan tiene hambre, hay pizza en el horno"". Según lo que dice María, ¿es verdad que hay pizza en el horno?","No se puede saber con certeza.
+
+**Explicación:**
+
+La frase de María es un **condicional**: ""Si [pasa A], entonces [pasa B]"".
+
+*   **A (la condición):** ""Juan tiene hambre"".
+*   **B (la consecuencia):** ""Hay pizza en el horno"".
+
+Sabemos por el contexto que la condición (A) es **falsa** (Juan no tiene hambre). Cuando la condición de una frase ""si... entonces..."" es falsa, la frase no nos da ninguna información sobre si la consecuencia es verdadera o no.
+
+En resumen, lo que María dice no se contradice si no hay pizza, y tampoco se contradice si sí la hay. Simplemente, su afirmación no nos permite saberlo."
+B2T,Spanish,"Aquí tienes el contexto: A Noelia le duele la cabeza y hay aspirinas sobre la mesa. También hay ibuprofeno en el cajón. María dice: ""Si a Noelia le duele la cabeza, hay aspirinas sobre la mesa"". Según lo que dice María, ¿es verdad que hay aspirinas sobre la mesa?","Sí.
+
+El enunciado de María es una afirmación condicional: ""Si a Noelia le duele la cabeza, (entonces) hay aspirinas sobre la mesa"".
+
+Dado que el contexto confirma que la primera parte de su afirmación (""a Noelia le duele la cabeza"") es verdad, la segunda parte (""hay aspirinas sobre la mesa"") también se cumple según su lógica."
+B2F,Spanish,"Aquí tienes el contexto: A Noelia le duele la cabeza y no hay aspirinas sobre la mesa. Tampoco hay ibuprofeno en el cajón. María dice: ""Si a Noelia le duele la cabeza, hay aspirinas sobre la mesa"". Según lo que dice María, ¿es verdad que hay aspirinas sobre la mesa?","No, no es verdad.
+
+El propio contexto afirma claramente que ""**no hay aspirinas sobre la mesa**"".
+
+Lo que dice María es una afirmación **falsa**, porque se cumple la condición (a Noelia le duele la cabeza) pero no se cumple el resultado (no hay aspirinas)."
+B2C,Spanish,"Aquí tienes el contexto: A Noelia no le duele la cabeza. Hay ibuprofeno en el cajón. María dice: ""Si a Noelia le duele la cabeza, hay aspirinas sobre la mesa"". Según lo que dice María, ¿es verdad que hay aspirinas sobre la mesa?","No se puede saber.
+
+**Explicación:**
+
+La frase de María es una condición: ""Si [pasa A], entonces [pasa B]"".
+
+*   **A:** A Noelia le duele la cabeza.
+*   **B:** Hay aspirinas sobre la mesa.
+
+Según el contexto, sabemos que la condición A (""A Noelia le duele la cabeza"") es **falsa**.
+
+Cuando la primera parte de una condición ""Si... entonces..."" es falsa, la frase entera es lógicamente válida, pero **no nos da ninguna información sobre la segunda parte**. La existencia de aspirinas solo estaba garantizada si a Noelia le dolía la cabeza, pero como no le duele, no podemos afirmar ni negar que haya aspirinas en la mesa."
+B3T,Spanish,"Aquí tienes el contexto: Lucía tiene sed y hay agua en la nevera. También hay zumo de manzana en la estantería. María dice: ""Si Lucía tiene sed, hay agua en la nevera"". Según lo que dice María, ¿es verdad que hay agua en la nevera?","No, no se puede saber con certeza **solo a partir de la frase de María**.
+
+La frase de María es una condición: ""SI Lucía tiene sed, ENTONCES hay agua en la nevera"".
+
+Esto no afirma que haya agua en la nevera en todo momento, solo afirma que la hay si se cumple la primera parte (que Lucía tenga sed).
+
+Sin embargo, como el contexto nos dice que **Lucía sí tiene sed**, podemos aplicar la condición de María y concluir que, según su lógica, sí hay agua en la nevera."
+B3F,Spanish,"Aquí tienes el contexto: Lucía tiene sed y no hay agua en la nevera. Tampoco hay zumo de manzana en la estantería. María dice: ""Si Lucía tiene sed, hay agua en la nevera"". Según lo que dice María, ¿es verdad que hay agua en la nevera?","No, no es verdad.
+
+Lo que dice María es una frase condicional (""Si... entonces...""). Ella no afirma que ""hay agua en la nevera"" como un hecho, sino como una consecuencia de que Lucía tenga sed.
+
+Dado que el contexto nos dice claramente que **""no hay agua en la nevera""**, la segunda parte de la afirmación de María es falsa."
+B3C,Spanish,"Aquí tienes el contexto: Lucía tiene sed. Hay zumo de manzana en la estantería. María dice: ""Si Lucía tiene sed, hay agua en la nevera"". Según lo que dice María, ¿es verdad que hay agua en la nevera?","Sí, según la lógica de la frase de María, es verdad.
+
+María establece una condición: si Lucía tiene sed (condición), entonces hay agua en la nevera (consecuencia).
+
+Como el contexto confirma que la condición (Lucía tiene sed) se cumple, entonces la consecuencia (hay agua en la nevera) también debe ser cierta."
+B4T,Spanish,"Aquí tienes el contexto: El móvil de Pedro se ha quedado sin batería y hay un cargador en el cajón. También hay un ordenador sobre la mesa. María dice: ""Si el móvil de Pedro se ha quedado sin batería, hay un cargador en el cajón"". Según lo que dice María, ¿es verdad que hay un cargador en el cajón?","Sí, es verdad.
+
+La frase de María es una afirmación condicional: ""Si [pasa esto], entonces [pasa esto otro]"".
+
+1.  **La condición:** ""el móvil de Pedro se ha quedado sin batería"".
+2.  **La consecuencia:** ""hay un cargador en el cajón"".
+
+Según el contexto, la condición se cumple (el móvil de Pedro efectivamente se ha quedado sin batería). Por lo tanto, según la lógica de la afirmación de María, la consecuencia también debe ser cierta."
+B4F,Spanish,"Aquí tienes el contexto: El móvil de Pedro se ha quedado sin batería y no hay ningún cargador en el cajón. Tampoco hay un ordenador sobre la mesa. María dice: ""Si el móvil de Pedro se ha quedado sin batería, hay un cargador en el cajón"". Según lo que dice María, ¿es verdad que hay un cargador en el cajón?","No, **no es verdad que hay un cargador en el cajón**.
+
+El propio contexto inicial lo deja claro al afirmar: ""**no hay ningún cargador en el cajón**"".
+
+La frase de María es una afirmación que resulta ser **falsa**, porque aunque la primera parte es cierta (el móvil sí se ha quedado sin batería), la segunda parte (hay un cargador en el cajón) es mentira según el contexto."
+B4C,Spanish,"Aquí tienes el contexto: El móvil de Pedro tiene la batería llena. Hay un ordenador sobre la mesa. María dice: ""Si el móvil de Pedro se ha quedado sin batería, hay un cargador en el cajón"". Según lo que dice María, ¿es verdad que hay un cargador en el cajón?","Según lo que dice María, **no podemos saber si es verdad que hay un cargador en el cajón.**
+
+**Explicación:**
+
+La frase de María es una condición: ""**Si** el móvil se queda sin batería, **entonces** hay un cargador"".
+
+1.  La condición para que su afirmación nos dé información es que ""el móvil de Pedro se haya quedado sin batería"".
+2.  Sabemos por el contexto que esa condición **no se cumple**, porque el móvil tiene la batería llena.
+
+Como la condición inicial es falsa, la frase de María no nos permite confirmar ni negar si hay un cargador en el cajón. Podría haberlo o no, pero su afirmación no nos lo aclara."
+B5T,Spanish,"Aquí tienes el contexto: El tiempo está lluvioso y hay un paraguas en el paragüero. También hay un chubasquero en el coche. María dice: ""Si el tiempo está lluvioso, hay un paraguas en el paragüero"". Según lo que dice María, ¿es verdad que hay un paraguas en el paragüero?","Sí, es verdad.
+
+La frase de María es un condicional (""Si... entonces...""). Para que su frase sea correcta, dado que la condición (""el tiempo está lluvioso"") es cierta, la consecuencia (""hay un paraguas en el paragüero"") también debe serlo."
+B5F,Spanish,"Aquí tienes el contexto: El tiempo está lluvioso y no hay paraguas en el paragüero. Tampoco hay ningún chubasquero en el coche. María dice: ""Si el tiempo está lluvioso, hay un paraguas en el paragüero"". Según lo que dice María, ¿es verdad que hay un paraguas en el paragüero?","No.
+
+Según lo que dice María, si está lloviendo *debería* haber un paraguas. Sin embargo, el contexto inicial deja claro que **no hay ninguno**.
+
+Por lo tanto, lo que dice María es falso o incorrecto."
+B5C,Spanish,"Aquí tienes el contexto: El tiempo está despejado. Hay un chubasquero en el coche. María dice: ""Si el tiempo está lluvioso, hay un paraguas en el paragüero"". Según lo que dice María, ¿es verdad que hay un paraguas en el paragüero?","No se puede saber.
+
+Lo que dice María es una frase condicional. Ella solo afirma que habrá un paraguas **si** llueve.
+
+Como el tiempo está despejado, la condición (que llueva) no se cumple. Por lo tanto, su afirmación no nos dice nada sobre si hay o no un paraguas en el paragüero en este momento. Podría haberlo o no."
+B6T,Spanish,"Aquí tienes el contexto: La rueda del coche está pinchada y hay una bomba de aire en el garaje. También hay una bicicleta junto a la puerta de entrada. María dice: ""Si la rueda del coche está pinchada, hay una bomba de aire en el garaje"". Según lo que dice María, ¿es verdad que hay una bomba de aire en el garaje?","Sí, es verdad.
+
+La afirmación de María es una frase condicional: ""Si la rueda del coche está pinchada (condición), entonces hay una bomba de aire en el garaje (consecuencia)"".
+
+Dado que el contexto confirma que la condición es cierta (""La rueda del coche está pinchada""), la consecuencia también debe serlo para que la frase de María sea correcta."
+B6F,Spanish,"Aquí tienes el contexto: La rueda del coche está pinchada y no hay ninguna bomba de aire en el garaje. Tampoco hay ninguna bicicleta junto a la puerta de entrada. María dice: ""Si la rueda del coche está pinchada, hay una bomba de aire en el garaje"". Según lo que dice María, ¿es verdad que hay una bomba de aire en el garaje?","No, no es verdad.
+
+El contexto indica explícitamente que **""no hay ninguna bomba de aire en el garaje""**.
+
+Por lo tanto, lo que dice María es falso."
+B6C,Spanish,"Aquí tienes el contexto: La rueda del coche está inflada. Hay una bicicleta junto a la puerta de entrada. María dice: ""Si la rueda del coche está pinchada, hay una bomba de aire en el garaje"". Según lo que dice María, ¿es verdad que hay una bomba de aire en el garaje?","No se puede saber con certeza.
+
+**Explicación:**
+
+La frase de María es una **condición** (""Si..., entonces..."").
+
+*   **Condición:** Si la rueda está pinchada.
+*   **Consecuencia:** Hay una bomba en el garaje.
+
+Como la rueda **no está pinchada** (está inflada), la condición no se cumple. Por lo tanto, la frase de María no nos da ninguna información sobre si realmente hay una bomba en el garaje o no. Podría haberla, o podría no haberla."
+B7T,Spanish,"Aquí tienes el contexto: La planta está seca y hay un regador en la estantería. También hay una manguera en el jardín. María dice: ""Si la planta está seca, hay un regador en la estantería"". Segun lo que dice María, ¿es verdad que hay un regador en la estantería?","Sí, es verdad.
+
+**Explicación:**
+
+María establece una condición: ""Si la planta está seca..."". El contexto confirma que esta condición se cumple (""La planta está seca""). Por lo tanto, la consecuencia que ella menciona (""...hay un regador en la estantería"") es verdadera según su afirmación."
+B7F,Spanish,"Aquí tienes el contexto: La planta está seca y no hay ningún regador en la estantería. Tampoco hay una manguera en el jardín. María dice: ""Si la planta está seca, hay un regador en la estantería"". Segun lo que dice María, ¿es verdad que hay un regador en la estantería?","No, no es verdad.
+
+El propio contexto lo contradice al afirmar que ""**no hay ningún regador en la estantería**"".
+
+Lo que María dice es una afirmación que, según los datos que tenemos, es falsa."
+B7C,Spanish,"Aquí tienes el contexto: La planta no está seca. Hay una manguera en el jardín. María dice: ""Si la planta está seca, hay un regador en la estantería"". Segun lo que dice María, ¿es verdad que hay un regador en la estantería?","No se puede saber.
+
+**Explicación:**
+
+La frase de María es una condición: ""SI la planta está seca, ENTONCES hay un regador"".
+
+*   La condición es que ""la planta esté seca"".
+*   El contexto nos dice que ""la planta **no** está seca"".
+
+Como la condición no se cumple, la frase de María no nos da ninguna información sobre si hay o no un regador en la estantería. Podría haberlo, o podría no haberlo. Lo que ella dijo no nos sirve para confirmarlo ni para negarlo."
+B8T,Spanish,"Aquí tienes el contexto: La camisa de Jorge está arrugada y hay una plancha en el armario. También hay una tabla de planchar en el balcón. María dice: ""Si la camisa de Jorge está arrugada, hay una plancha en el armario"". Según lo que dice María, ¿es verdad que hay una plancha en el armario?","Sí.
+
+El razonamiento es el siguiente:
+
+1.  **María establece una condición:** ""Si la camisa de Jorge está arrugada...""
+2.  **El contexto confirma que esa condición se cumple:** La camisa de Jorge está arrugada.
+3.  **Por lo tanto, la consecuencia que ella menciona también es cierta:** ""...hay una plancha en el armario"".
+
+Dado que la primera parte de su frase es verdadera, la segunda parte también debe serlo para que su afirmación completa sea correcta."
+B8F,Spanish,"Aquí tienes el contexto: La camisa de Jorge está arrugada y no hay ninguna plancha en el armario. Tampoco hay ninguna tabla de planchar en el balcón. María dice: ""Si la camisa de Jorge está arrugada, hay una plancha en el armario"". Según lo que dice María, ¿es verdad que hay una plancha en el armario?","No, no es verdad que hay una plancha en el armario.
+
+El propio contexto lo indica claramente al principio: ""**no hay ninguna plancha en el armario**"".
+
+Lo que María dice es una afirmación falsa, porque aunque la primera parte es cierta (la camisa está arrugada), la segunda parte (hay una plancha en el armario) es falsa."
+B8C,Spanish,"Aquí tienes el contexto: La camisa de Jorge está planchada. Hay una tabla de planchar en el balcón. María dice: ""Si la camisa de Jorge está arrugada, hay una plancha en el armario"". Según lo que dice María, ¿es verdad que hay una plancha en el armario?","No se puede saber.
+
+La afirmación de María es una frase condicional: ""Si la camisa de Jorge está arrugada (A), entonces hay una plancha en el armario (B)"".
+
+Sabemos por el contexto que la condición (A) es **falsa**, porque ""la camisa de Jorge está planchada"".
+
+En lógica, cuando la primera parte de una afirmación ""si... entonces..."" es falsa, la afirmación completa es verdadera, **sin importar si la segunda parte es verdadera o falsa**.
+
+Por lo tanto, la frase de María no nos da ninguna información para confirmar si realmente hay o no una plancha en el armario."
+B9T,Spanish,"Aquí tienes el contexto: Susana quiere leer y hay libros en la estantería. También hay un periódico en el sofá. María dice: ""Si Susana quiere leer, hay libros en la estantería"". Según lo que dice María, ¿es verdad que hay libros en la estantería?","No, no se puede saber con total seguridad **solo por la frase de María**.
+
+**Explicación:**
+
+La frase de María es un condicional: ""Si A, entonces B"".
+
+*   **A:** Susana quiere leer.
+*   **B:** Hay libros en la estantería.
+
+Esta frase no afirma que haya libros en la estantería. Solo establece una condición: en el caso de que Susana quiera leer, entonces habrá libros. La frase podría ser cierta incluso si no hubiera libros, siempre y cuando Susana no quisiera leer.
+
+Sin embargo, si combinamos la frase de María con el resto del contexto (que nos dice que ""Susana quiere leer""), entonces la conclusión lógica es que **sí, es verdad que hay libros en la estantería.**"
+B9F,Spanish,"Aquí tienes el contexto: Susana quiere leer y no hay libros en la estantería. Tampoco hay un periódico en el sofá. María dice: ""Si Susana quiere leer, hay libros en la estantería"". Según lo que dice María, ¿es verdad que hay libros en la estantería?","No, no es verdad.
+
+El contexto inicial afirma claramente que **""no hay libros en la estantería""**.
+
+Lo que María dice (""Si Susana quiere leer, hay libros en la estantería"") es una afirmación incorrecta, porque la realidad es que la estantería está vacía."
+B9C,Spanish,"Aquí tienes el contexto: Susana no quiere leer. Hay un periódico en el sofá. María dice: ""Si Susana quiere leer, hay libros en la estantería"". Según lo que dice María, ¿es verdad que hay libros en la estantería?","No se puede saber con certeza.
+
+**Explicación:**
+
+La frase de María es una afirmación **condicional**: ""Si [pasa A], entonces [pasa B]"".
+
+*   **La condición (A):** ""Susana quiere leer"".
+*   **La consecuencia (B):** ""hay libros en la estantería"".
+
+El contexto nos dice que la condición (A) es **falsa** (Susana no quiere leer).
+
+En lógica, cuando la condición de una frase es falsa, la afirmación no nos da ninguna información sobre si la consecuencia es verdadera o no. Los libros podrían estar en la estantería, o podrían no estar. La frase de María no lo confirma ni lo desmiente."
+F1T,Spanish,"Aquí tienes el contexto: Aunque la pizza sea más cara que la pasta, la gente la compra más. Hay pizza en la nevera. En este contexto, ¿la pizza es más popular que la pasta?","Sí. Según el contexto, la gente compra más pizza que pasta, lo que indica que es más popular."
+F1F,Spanish,"Aquí tienes el contexto: Aunque la pizza sea más cara que la pasta, la gente la compra más. Hay pizza en la nevera. En este contexto, ¿la pasta es más popular que la pizza?","No. Según el contexto, la pizza es más popular que la pasta, porque ""la gente la compra más""."
+F2T,Spanish,"Aquí tienes el contexto: Aunque el café negro sea más barato que el té verde, la mayoría de la gente prefiere el té verde. Hay café negro en la cafetera. En este contexto, ¿se utiliza más el té verde que el café negro?","Sí.
+
+Según el contexto, ""la mayoría de la gente prefiere el té verde"", lo que implica que se utiliza o consume más que el café negro, a pesar de que este último sea más barato."
+F2F,Spanish,"Aquí tienes el contexto: Aunque el café negro sea más barato que el té verde, la mayoría de la gente prefiere el té verde. Hay café negro en la cafetera. En este contexto, ¿se utiliza más el café negro que el té verde?","No.
+
+Según el contexto, **la mayoría de la gente prefiere el té verde**, lo que implica que el té verde se utiliza más que el café negro."
+F3T,Spanish,"Aquí tienes el contexto: Aunque el agua sea más saludable que los refrescos, mucha gente prefiere los refrescos. Hay agua en el ordenador. En este contexto, ¿los refrescos tienen más demanda que el agua?","Sí. Según el texto, ""mucha gente prefiere los refrescos"", lo que implica que tienen una mayor demanda que el agua."
+F3F,Spanish,"Aquí tienes el contexto: Aunque el agua sea más saludable que los refrescos, mucha gente prefiere los refrescos. Hay agua en el ordenador. En este contexto, ¿el agua tiene más demanda que los refrescos?","No. Según el contexto, los refrescos tienen más demanda que el agua, ya que afirma que **""mucha gente prefiere los refrescos""**."
+F4T,Spanish,"Aquí tienes el contexto: Aunque el brócoli sea más difícil de cocinar que los ñoquis, la gente lo come más. Hay brócoli en el horno. En este contexto, ¿el brócoli es más popular que los ñoquis?","Sí, según el contexto, el brócoli es más popular, ya que se afirma que ""la gente lo come más"" que los ñoquis."
+F4F,Spanish,"Aquí tienes el contexto: Aunque el brócoli sea más difícil de cocinar que los ñoquis, la gente lo come más. Hay brócoli en el horno. En este contexto, ¿los ñoquis son más populare que el brócoli?","No, según el contexto, el brócoli es más popular. El texto dice que ""aunque el brócoli sea más difícil de cocinar que los ñoquis, **la gente lo come más**""."
+F5T,Spanish,"Aquí tienes el contexto: Aunque el sushi sea más sano que las hamburguesas, la gente come hamburguesas con más frecuencia. Hay sushi en la mesa. En este contexto, ¿las hamburguesas son más populares que el sushi?","Sí. Según el contexto, el hecho de que ""la gente come hamburguesas con más frecuencia"" indica que son más populares que el sushi."
+F5F,Spanish,"Aquí tienes el contexto: Aunque el sushi sea más sano que las hamburguesas, la gente come hamburguesas con más frecuencia. Hay sushi en la mesa. En este contexto, ¿el sushi es más popular que las hamburguesas?","No.
+
+Según el contexto, las hamburguesas son más populares, porque el texto dice explícitamente que **""la gente come hamburguesas con más frecuencia""**."
+F6T,Spanish,"Aquí tienes el contexto: Aunque los plátanos sean más caros que los kiwis, la gente los compra más. Hay plátanos en la cesta. En este contexto, ¿los plátanos son más populares que los kiwis?","Sí. El contexto lo confirma al decir que, a pesar de ser más caros, ""la gente los compra más""."
+F6F,Spanish,"Aquí tienes el contexto: Aunque los plátanos sean más caros que los kiwis, la gente los compra más. Hay plátanos en la cesta. En este contexto, ¿los kiwis son más populares que los platanos?","No.
+
+Según el contexto, los plátanos son más populares, porque ""la gente los compra más"" a pesar de ser más caros que los kiwis."
+F7T,Spanish,"Aquí tienes el contexto: Aunque los perros sean más vivaces que los gatos, la gente los prefiere. Hay un gato en lo alto del árbol. En este contexto, ¿los perros son más populares que los gatos?","Sí, según el texto, la gente prefiere a los perros. La primera frase lo indica claramente: ""Aunque los perros sean más vivaces que los gatos, **la gente los prefiere**""."
+F7F,Spanish,"Aquí tienes el contexto: Aunque los perros sean más vivaces que los gatos, la gente los prefiere. Hay un gato en lo alto del árbol. En este contexto, ¿los gatos son más populares que los perros?","No.
+
+Según el contexto, es lo contrario: **la gente prefiere a los perros**.
+
+La frase clave es: ""Aunque los perros sean más vivaces que los gatos, **la gente los prefiere**""."
+F8T,Spanish,"Aquí tienes el contexto: Aunque leer libros sea más educativo que ver la televisión, mucha gente ve la televisión. Hay un libro en la estantería. En este contexto, ¿más personas ven la televisión de las que leen libros?","Sí. El texto sugiere que sí.
+
+La frase ""Aunque leer libros sea más educativo que ver la televisión, **mucha gente ve la televisión**"" implica que, a pesar de que la lectura tiene más beneficios, ver la televisión es una actividad más popular o extendida."
+F8F,Spanish,"Aquí tienes el contexto: Aunque leer libros sea más educativo que ver la televisión, mucha gente ve la televisión. Hay un libro en la estantería. En este contexto, ¿más personas ven la televisión de las que leen libros?","Sí. El texto indica que ""mucha gente ve la televisión"", y lo presenta como un contraste al hecho de que leer es más educativo. Esto sugiere que ver la televisión es una actividad más popular que leer libros en este contexto."
+F9T,Spanish,"Aquí tienes el contexto: Aunque correr sea mejor para la forma física que caminar, la mayoría de la gente prefiere caminar. Hay un corredor en la pista. En este contexto, ¿caminar es más popular que correr?","Sí, según el contexto, caminar es más popular que correr porque ""la mayoría de la gente prefiere caminar""."
+F9F,Spanish,"Aquí tienes el contexto: Aunque correr sea mejor para la forma física que caminar, la mayoría de la gente prefiere caminar. Hay un corredor en la pista. En este contexto, ¿correr es más popular que caminar?","No. Según el contexto, caminar es más popular, ya que indica que ""la mayoría de la gente prefiere caminar""."
+S1T,Spanish,"Aquí tienes el contexto: El loro está en la jaula. Además, el perro está en la caseta. María había dicho: «Si el loro está en la jaula, Tomás traerá pizza». Según lo que decía María, ¿es verdad que Tomás trajo pizza?","Sí, es verdad que Tomás trajo pizza.
+
+La razón es que se cumplen las dos partes del argumento:
+1.  **La condición de María:** ""Si el loro está en la jaula, Tomás traerá pizza"".
+2.  **El hecho:** ""El loro está en la jaula"".
+
+Como la condición se ha cumplido, la consecuencia (que Tomás trajo pizza) es cierta, según la lógica de lo que dijo María."
+S1F,Spanish,"Aquí tienes el contexto: El loro está en la jaula. Además, el perro está en la caseta. Tomás no trajo pizza. María había dicho: «Si el loro está en la jaula, Tomás traerá pizza». Según lo que decía María, ¿es verdad que Tomás trajo pizza?","No.
+
+Según lo que decía María, si el loro está en la jaula, Tomás *debería haber traído* pizza. Sin embargo, el contexto deja claro que **Tomás no trajo pizza.**
+
+Esto significa que la afirmación de María resultó ser falsa."
+S1C,Spanish,"Aquí tienes el contexto: El loro no está en la jaula. Además, el perro tampoco está en la caseta. María había dicho: «Si el loro está en la jaula, Tomás traerá pizza». Según lo que decía María, ¿es verdad que Tomás trajo pizza?","No, no se puede saber si Tomás trajo pizza.
+
+**Explicación:**
+
+La frase de María es una condición: **Si** el loro está en la jaula, **entonces** Tomás traerá pizza.
+
+Como el contexto dice que ""el loro **no** está en la jaula"", la condición inicial no se cumple. Por lo tanto, la frase de María no nos dice nada sobre lo que hizo Tomás. Pudo haber traído pizza o no, pero no podemos saberlo con la información que tenemos."
+S2T,Spanish,"Aquí tienes el contexto: Te has comido el brócoli. También te has comido la pasta. María dice: ""Si te comes el brócoli, Marcos te dará un caramelo"". Según lo que decía María, ¿es verdad que Marcos te dio un caramelo?","Sí.
+
+Según la lógica de lo que dijo María, al haberte comido el brócoli (que era la condición), la consecuencia es que Marcos te dio un caramelo."
+S2F,Spanish,"Aquí tienes el contexto: Te has comido el brócoli. También te has comido la pasta. Marcos no te dio un caramelo. María dice: ""Si te comes el brócoli, Marcos te dará un caramelo"". Según lo que decía María, ¿es verdad que Marcos te dio un caramelo?","No, no es verdad.
+
+El contexto dice explícitamente: ""**Marcos no te dio un caramelo**"".
+
+Lo que dijo María (""Si te comes el brócoli, Marcos te dará un caramelo"") resultó ser falso, porque aunque cumpliste la condición (comerte el brócoli), la consecuencia (recibir el caramelo) no sucedió."
+S2C,Spanish,"Aquí tienes el contexto: No te has comido el brócoli. Tampoco te has comido la pasta. María había dicho:  ""Si te comes el brócoli, Marcos te dará un caramelo"". Según lo que decía María, ¿es verdad que Marcos te dio un caramelo?","No se puede saber con la información que se da.
+
+**Explicación:**
+La condición para que Marcos te diera un caramelo era que te comieras el brócoli. Como no te lo comiste, la promesa de María no se aplica. Esto no significa que Marcos no te diera el caramelo, podría habértelo dado por otra razón, pero tampoco podemos asegurar que sí lo hiciera."
+S3T,Spanish,"Aquí tienes el contexto: Los zorros están bailando. Además, las ardillas están comiendo. María había dicho: ""Si los zorros están bailando, Irene recibirá una cámara"". Según lo que decía María, ¿es verdad que Susana recibió una cámara?","Según lo que decía María, no es posible saber si Susana recibió una cámara.
+
+La frase dice que si los zorros bailan, **Irene** recibirá una cámara. No se menciona a Susana en ningún momento."
+S3F,Spanish,"Aquí tienes el contexto: Los zorros están bailando. Además, las ardillas están comiendo. Irene no recibió una cámara. María había dicho: ""Si los zorros están bailando, Susana recibirá una cámara"". Según lo que decía María, ¿es verdad que Irene recibió una cámara?","No, no es verdad que Irene recibió una cámara.
+
+El propio contexto lo dice explícitamente: ""**Irene no recibió una cámara**"".
+
+Además, lo que María dijo se refería a Susana, no a Irene: ""Si los zorros están bailando, **Susana** recibirá una cámara""."
+S3C,Spanish,"Aquí tienes el contexto: Los zorros no están bailando. Las ardillas tampoco están comiendo. María había dicho: ""Si los zorros están bailando, Irene recibirá una cámara"". Según lo que decía María, ¿es verdad que Susana recibió una cámara?","Es imposible saberlo.
+
+El contexto no menciona a ninguna persona llamada Susana. La frase de María se refiere a que **Irene** recibiría una cámara."
+S4T,Spanish,"Aquí tienes el contexto: La televisión está encendida. Además, la radio también está encendida. María había dicho: ""Si la televisión está encendida, Mateo hará galletas"". Según lo que decía María, ¿es verdad que Mateo hizo galletas?","Sí, es verdad.
+
+La condición que puso María fue: ""Si la televisión está encendida, Mateo hará galletas"".
+
+El contexto confirma que la televisión está encendida, por lo tanto, según la lógica de lo que dijo María, Mateo hizo galletas. El hecho de que la radio también esté encendida es un dato extra que no afecta a esta conclusión."
+S4F,Spanish,"Aquí tienes el contexto: La televisión está encendida. Además, la radio también está encendida. Mateo no hizo galletas. María había dicho: ""Si la televisión está encendida, Mateo hará galletas"". Según lo que decía María, ¿es verdad que Mateo hizo galletas?","Sí.
+
+Según la lógica de lo que dijo María (""Si la televisión está encendida, Mateo hará galletas"") y sabiendo que la televisión está encendida, la conclusión es que Mateo hizo galletas.
+
+(Esto nos demuestra que lo que María dijo era, en realidad, falso, porque el contexto aclara que Mateo no las hizo)."
+S4C,Spanish,"Aquí tienes el contexto: La televisión está apagada. La radio también está apagada. María había dicho: ""Si la televisión está encendida, Mateo hará galletas"". Según lo que decía María, ¿es verdad que Mateo hizo galletas?","No se puede saber.
+
+**Explicación:**
+
+La frase de María es una condición: ""**Si** la televisión está encendida,...""
+
+Como la televisión está apagada, la condición no se cumple. Por lo tanto, no tenemos ninguna información sobre si Mateo hizo galletas o no. Él podría haberlas hecho o no, y en ninguno de los dos casos se contradiría lo que dijo María."
+S5T,Spanish,"Aquí tienes el contexto: Hoy el tiempo está soleado. Además, no hay viento. María había dicho: ""Si el tiempo está soleado, Emma va a ir de morado"". Según lo que decía María, ¿es verdad que Emma fue de morado?","Sí, según lo que dijo María, es verdad.
+
+La lógica es la siguiente:
+1.  **La condición de María:** ""Si el tiempo está soleado, Emma va a ir de morado"".
+2.  **La realidad:** El tiempo está soleado.
+
+Como la condición se cumple, la consecuencia que María predijo (que Emma iría de morado) también se debe cumplir."
+S5F,Spanish,"Aquí tienes el contexto: Hoy el tiempo está soleado. Además, no hay viento. Emma fue de verde. María había dicho: ""Si el tiempo está soleado, Emma va a ir de morado"". Según lo que decía María, ¿es verdad que Emma fue de morado?","No, no es verdad.
+
+El contexto dice claramente que **Emma fue de verde**.
+
+La predicción de María (""Si el tiempo está soleado, Emma va a ir de morado"") no se cumplió, porque aunque el tiempo sí estaba soleado, Emma fue de verde."
+S5C,Spanish,"Aquí tienes el contexto: Hoy el tiempo está lluvioso. Además, hay mucho viento. María había dicho: ""Si el tiempo está soleado, Emma va a ir de morado"". Según lo que decía María, ¿es verdad que Emma fue de morado?","No se puede saber.
+
+La condición que puso María para que Emma fuera de morado era que el tiempo estuviera **soleado**. Como el tiempo está lluvioso, la condición no se cumple, por lo que no tenemos ninguna información sobre el color de la ropa de Emma."
+S6T,Spanish,"Aquí tienes el contexto: El parque infantil está vacío. Además, las calles están tranquilas. María había dicho: ""Si el parque infantil está vacío, Júlia se hará un selfie"". Según lo que decía María, ¿es verdad que Júlia se hizo un selfie?","Sí, según lo que dijo María, es verdad que Júlia se hizo un selfie.
+
+La razón es que se cumple la condición que María estableció:
+
+1.  **La condición de María:** ""Si el parque infantil está vacío, Júlia se hará un selfie"".
+2.  **El contexto:** Confirma que ""el parque infantil está vacío"".
+
+Por lo tanto, al cumplirse la condición, la consecuencia es que Júlia se hizo un selfie."
+S6F,Spanish,"Aquí tienes el contexto: El parque infantil está vacío. Además, las calles están tranquilas. Júlia no se hizo ningún selfie. María había dicho: ""Si el parque infantil está vacío, Júlia se hará un selfie"". Según lo que decía María, ¿es verdad que Júlia se hizo un selfie?","Sí.
+
+Según la afirmación de María (""Si el parque infantil está vacío, Júlia se hará un selfie""), es verdad que Júlia se hizo un selfie, porque la condición (el parque estaba vacío) se cumplió.
+
+No obstante, es importante señalar que la afirmación de María resultó ser falsa, ya que el contexto deja claro que, en realidad, Júlia no se hizo ningún selfie."
+S6C,Spanish,"Aquí tienes el contexto: El parque infantil está lleno. Además, las calles están concurridas. María había dicho: ""Si el parque infantil está vacío, Júlia se hará un selfie"". Según lo que decía María, ¿es verdad que Júlia se hizo un selfie?","No, no podemos saber si es verdad que Júlia se hizo un selfie.
+
+**Explicación:**
+La condición que puso María para que Júlia se hiciera un selfie era que **""el parque infantil estuviera vacío""**.
+
+Según el contexto, **el parque infantil está lleno**. Por lo tanto, la condición no se cumplió. Lo que dijo María solo nos informa de lo que pasaría si el parque estuviera vacío, pero no dice nada sobre lo que ocurriría si estuviera lleno."
+S7T,Spanish,"Aquí tienes el contexto: El césped ha sido cortado. Además, las flores han sido regadas. María había dicho: ""Si Pablo corta el césped, recibirá 50 euros"". Según lo que decía María, ¿es verdad que Pablo recibió 50 euros?","No se puede saber con certeza.
+
+El contexto nos dice que ""el césped ha sido cortado"", pero **no especifica quién lo cortó**.
+
+La condición de María era que *si Pablo cortaba el césped*, él recibiría el dinero. Como no sabemos si fue Pablo quien lo hizo, no podemos confirmar si recibió los 50 euros."
+S7F,Spanish,"Aquí tienes el contexto: El césped ha sido cortado. Además, las flores han sido regadas. María había dicho: ""Si Pablo corta el césped, recibirá 50 euros"". Según lo que decía María, ¿es verdad que Pablo recibió 50 euros?","No se puede saber con certeza.
+
+**Explicación:**
+
+El contexto dice que ""el césped ha sido cortado"", pero no especifica **quién** lo cortó.
+
+La condición que puso María era que **si Pablo** cortaba el césped, recibiría el dinero. Como no sabemos si fue Pablo o cualquier otra persona quien lo cortó, no podemos afirmar que haya recibido los 50 euros."
+S7C,Spanish,"Aquí tienes el contexto: El césped no ha sido cortado. Además, las flores no han sido regadas. María había dicho: ""Si Pablo corta el césped, recibirá 50 euros"". Según lo que decía María, ¿es verdad que Pablo recibió 50 euros?","No, no es verdad que Pablo recibió 50 euros.
+
+**Explicación:**
+María estableció una condición: Pablo recibiría el dinero **si** cortaba el césped. Como el césped no fue cortado, Pablo no cumplió la condición y, por lo tanto, no recibió los 50 euros."
+S8T,Spanish,"Aquí tienes el contexto: El perro está jugando. Además, el gato está subiendo al árbol. María había dicho: ""Si el perro está jugando, Antonio leerá un libro"". Según lo que decía María, ¿es verdad que Antonio leyó un libro?","Sí, es verdad.
+
+La frase de María es una condición: ""Si el perro está jugando, Antonio leerá un libro"".
+
+Como el contexto confirma que **el perro está jugando**, la condición se cumple, y por lo tanto, la consecuencia (que Antonio leerá un libro) también es verdadera."
+S8F,Spanish,"Aquí tienes el contexto: El perro está jugando. Además, el gato está subiendo al árbol. Antonio no leyó ningún libro. María había dicho: ""Si el perro está jugando, Antonio leerá un libro"". Según lo que decía María, ¿es verdad que Antonio leyó un libro?","Según la lógica de lo que dijo María, **sí, es verdad que Antonio leyó un libro**.
+
+**Explicación:**
+
+1.  **La condición de María:** ""Si el perro está jugando...""
+2.  **El hecho:** El contexto confirma que ""El perro está jugando"".
+3.  **La consecuencia según María:** ""...Antonio leerá un libro"".
+
+Dado que la condición que María puso se cumplió, la consecuencia de su afirmación es que Antonio leyó un libro.
+
+(Es importante notar que esto contradice el otro dato del contexto que dice ""Antonio no leyó ningún libro"", lo que significa que la afirmación de María resultó ser incorrecta)."
+S8C,Spanish,"Aquí tienes el contexto: El perro no está jugando. Además, el gato está durmiendo. María había dicho: ""Si el perro está jugando, Antonio leerá un libro"". Según lo que decía María, ¿es verdad que Antonio leyó un libro?","No, no se puede saber.
+
+La afirmación de María es una condición: Antonio leería **si** el perro estuviera jugando.
+
+Como el perro **no** está jugando, la condición no se cumple. Por lo tanto, no podemos saber qué hizo Antonio. Pudo haber leído por otro motivo o no haber leído en absoluto."
+S9T,Spanish,"Aquí tienes el contexto: La nevera está vacía. Además, el horno está estropeado. María había dicho: ""Si la nevera está vacía, Ana traerá donuts"". Según lo que decía María, ¿es verdad que Ana trajo donuts?","Sí, **es verdad que Ana trajo donuts.**
+
+La lógica es la siguiente:
+1.  **La condición:** María dijo que si la nevera estaba vacía, pasaría algo.
+2.  **El hecho:** El contexto confirma que la nevera está vacía.
+3.  **La consecuencia:** Al cumplirse la condición, la consecuencia (""Ana traerá donuts"") debe ser cierta.
+
+El que el horno esté estropeado es información extra que no afecta a la afirmación de María."
+S9F,Spanish,"Aquí tienes el contexto: La nevera está vacía. Además, el horno está estropeado. Ana no trajo donuts. María había dicho: ""Si la nevera está vacía, Ana traerá donuts"". Según lo que decía María, ¿es verdad que Ana trajo donuts?","Según la lógica de lo que dijo María, **sí, debería ser verdad que Ana trajo donuts**.
+
+La razón es la siguiente:
+1.  María dijo: ""**Si** la nevera está vacía, **entonces** Ana traerá donuts"".
+2.  La primera parte de la condición (""la nevera está vacía"") se cumple.
+3.  Por lo tanto, según la afirmación de María, la segunda parte (""Ana traerá donuts"") debería haber ocurrido.
+
+Sin embargo, el propio contexto nos dice que ""Ana no trajo donuts"", lo que significa que **lo que María dijo resultó ser falso**."
+S9C,Spanish,"Aquí tienes el contexto: La nevera está llena. Además, el horno está encendido. María había dicho: ""Si la nevera está vacía, Ana traerá donuts"". Según lo que decía María, ¿es verdad que Ana trajo donuts?","No, no podemos saber si es verdad.
+
+La condición que puso María para que Ana trajera donuts era que ""la nevera estuviera vacía"". Como la nevera está llena, esa condición no se cumple. Por lo tanto, la afirmación de María no nos da ninguna información sobre si Ana trajo donuts o no."

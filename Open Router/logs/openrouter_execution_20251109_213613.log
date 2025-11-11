@@ -1,0 +1,1170 @@
+2025-11-09 21:36:13,435 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-09 21:36:13,447 - INFO - Processing model openai/gpt-5
+2025-11-09 21:36:13,451 - INFO - No pending prompts
+2025-11-09 21:36:13,461 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-09 21:36:13,469 - INFO - No pending prompts
+2025-11-09 21:36:13,475 - INFO - Processing model meta-llama/llama-4-scout:free
+2025-11-09 21:36:13,480 - INFO - No pending prompts
+2025-11-09 21:36:13,486 - INFO - Processing model google/gemma-3-4b-it:free
+2025-11-09 21:36:13,491 - INFO - No pending prompts
+2025-11-09 21:36:13,498 - INFO - Processing model openai/chatgpt-4o-latest
+2025-11-09 21:36:13,504 - INFO - No pending prompts
+2025-11-09 21:36:13,509 - INFO - Processing model x-ai/grok-4-fast
+2025-11-09 21:36:13,514 - INFO - No pending prompts
+2025-11-09 21:36:13,521 - INFO - Processing model google/gemini-2.5-flash
+2025-11-09 21:36:13,528 - INFO - No pending prompts
+2025-11-09 21:36:13,528 - INFO - Processing model google/gemini-2.5-pro
+2025-11-09 21:36:13,530 - INFO - Processing 1/288
+2025-11-09 21:36:13,531 - INFO - Processing 2/288
+2025-11-09 21:36:13,531 - INFO - Processing 3/288
+2025-11-09 21:36:13,532 - INFO - Processing 4/288
+2025-11-09 21:36:25,312 - INFO - Row 1 completed
+2025-11-09 21:36:25,312 - INFO - Processing 5/288
+2025-11-09 21:36:25,321 - INFO - Saved answer 1 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:36:25,321 - INFO - Progress: 1/288 pending completed
+2025-11-09 21:36:53,894 - INFO - Row 2 completed
+2025-11-09 21:36:53,894 - INFO - Processing 6/288
+2025-11-09 21:36:53,913 - INFO - Saved answer 2 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:36:53,913 - INFO - Progress: 2/288 pending completed
+2025-11-09 21:37:22,672 - INFO - Row 3 completed
+2025-11-09 21:37:22,673 - INFO - Processing 7/288
+2025-11-09 21:37:22,677 - INFO - Saved answer 3 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:37:22,677 - INFO - Progress: 3/288 pending completed
+2025-11-09 21:37:52,684 - INFO - Row 4 completed
+2025-11-09 21:37:52,685 - INFO - Processing 8/288
+2025-11-09 21:37:52,689 - INFO - Saved answer 4 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:37:52,689 - INFO - Progress: 4/288 pending completed
+2025-11-09 21:38:23,751 - INFO - Row 5 completed
+2025-11-09 21:38:23,752 - INFO - Processing 9/288
+2025-11-09 21:38:23,756 - INFO - Saved answer 5 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:38:23,756 - INFO - Progress: 5/288 pending completed
+2025-11-09 21:38:51,977 - INFO - Row 6 completed
+2025-11-09 21:38:51,977 - INFO - Processing 10/288
+2025-11-09 21:38:51,981 - INFO - Saved answer 6 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:38:51,981 - INFO - Progress: 6/288 pending completed
+2025-11-09 21:39:21,598 - INFO - Row 7 completed
+2025-11-09 21:39:21,599 - INFO - Processing 11/288
+2025-11-09 21:39:21,604 - INFO - Saved answer 7 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:39:21,604 - INFO - Progress: 7/288 pending completed
+2025-11-09 21:39:53,857 - INFO - Row 8 completed
+2025-11-09 21:39:53,857 - INFO - Processing 12/288
+2025-11-09 21:39:53,862 - INFO - Saved answer 8 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:39:53,863 - INFO - Progress: 8/288 pending completed
+2025-11-09 21:40:22,956 - INFO - Row 9 completed
+2025-11-09 21:40:22,957 - INFO - Processing 13/288
+2025-11-09 21:40:22,961 - INFO - Saved answer 9 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:40:22,961 - INFO - Progress: 9/288 pending completed
+2025-11-09 21:40:53,457 - INFO - Row 10 completed
+2025-11-09 21:40:53,458 - INFO - Processing 14/288
+2025-11-09 21:40:53,462 - INFO - Saved answer 10 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:40:53,462 - INFO - Progress: 10/288 pending completed
+2025-11-09 21:41:22,307 - INFO - Row 11 completed
+2025-11-09 21:41:22,307 - INFO - Processing 15/288
+2025-11-09 21:41:22,312 - INFO - Saved answer 11 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:41:22,312 - INFO - Progress: 11/288 pending completed
+2025-11-09 21:41:54,928 - INFO - Row 12 completed
+2025-11-09 21:41:54,928 - INFO - Processing 16/288
+2025-11-09 21:41:54,933 - INFO - Saved answer 12 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:41:54,933 - INFO - Progress: 12/288 pending completed
+2025-11-09 21:42:25,929 - INFO - Row 13 completed
+2025-11-09 21:42:25,929 - INFO - Processing 17/288
+2025-11-09 21:42:25,934 - INFO - Saved answer 13 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:42:25,934 - INFO - Progress: 13/288 pending completed
+2025-11-09 21:42:53,215 - INFO - Row 14 completed
+2025-11-09 21:42:53,215 - INFO - Processing 18/288
+2025-11-09 21:42:53,219 - INFO - Saved answer 14 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:42:53,220 - INFO - Progress: 14/288 pending completed
+2025-11-09 21:43:25,903 - INFO - Row 15 completed
+2025-11-09 21:43:25,903 - INFO - Processing 19/288
+2025-11-09 21:43:25,907 - INFO - Saved answer 15 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:43:25,907 - INFO - Progress: 15/288 pending completed
+2025-11-09 21:43:53,255 - INFO - Row 16 completed
+2025-11-09 21:43:53,255 - INFO - Processing 20/288
+2025-11-09 21:43:53,262 - INFO - Saved answer 16 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:43:53,263 - INFO - Progress: 16/288 pending completed
+2025-11-09 21:44:21,889 - INFO - Row 17 completed
+2025-11-09 21:44:21,889 - INFO - Processing 21/288
+2025-11-09 21:44:21,894 - INFO - Saved answer 17 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:44:21,894 - INFO - Progress: 17/288 pending completed
+2025-11-09 21:44:52,137 - INFO - Row 18 completed
+2025-11-09 21:44:52,137 - INFO - Processing 22/288
+2025-11-09 21:44:52,141 - INFO - Saved answer 18 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:44:52,142 - INFO - Progress: 18/288 pending completed
+2025-11-09 21:45:24,608 - INFO - Row 19 completed
+2025-11-09 21:45:24,608 - INFO - Processing 23/288
+2025-11-09 21:45:24,612 - INFO - Saved answer 19 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:45:24,612 - INFO - Progress: 19/288 pending completed
+2025-11-09 21:45:53,088 - INFO - Row 20 completed
+2025-11-09 21:45:53,088 - INFO - Processing 24/288
+2025-11-09 21:45:53,093 - INFO - Saved answer 20 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:45:53,093 - INFO - Progress: 20/288 pending completed
+2025-11-09 21:46:24,790 - INFO - Row 21 completed
+2025-11-09 21:46:24,791 - INFO - Processing 25/288
+2025-11-09 21:46:24,796 - INFO - Saved answer 21 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:46:24,796 - INFO - Progress: 21/288 pending completed
+2025-11-09 21:46:53,923 - INFO - Row 22 completed
+2025-11-09 21:46:53,923 - INFO - Processing 26/288
+2025-11-09 21:46:53,927 - INFO - Saved answer 22 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:46:53,927 - INFO - Progress: 22/288 pending completed
+2025-11-09 21:47:24,778 - INFO - Row 23 completed
+2025-11-09 21:47:24,778 - INFO - Processing 27/288
+2025-11-09 21:47:24,783 - INFO - Saved answer 23 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:47:24,783 - INFO - Progress: 23/288 pending completed
+2025-11-09 21:47:55,242 - INFO - Row 24 completed
+2025-11-09 21:47:55,242 - INFO - Processing 28/288
+2025-11-09 21:47:55,247 - INFO - Saved answer 24 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:47:55,247 - INFO - Progress: 24/288 pending completed
+2025-11-09 21:48:23,140 - INFO - Row 25 completed
+2025-11-09 21:48:23,140 - INFO - Processing 29/288
+2025-11-09 21:48:23,145 - INFO - Saved answer 25 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:48:23,145 - INFO - Progress: 25/288 pending completed
+2025-11-09 21:48:51,413 - INFO - Row 26 completed
+2025-11-09 21:48:51,413 - INFO - Processing 30/288
+2025-11-09 21:48:51,418 - INFO - Saved answer 26 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:48:51,418 - INFO - Progress: 26/288 pending completed
+2025-11-09 21:49:22,251 - INFO - Row 27 completed
+2025-11-09 21:49:22,251 - INFO - Processing 31/288
+2025-11-09 21:49:22,255 - INFO - Saved answer 27 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:49:22,255 - INFO - Progress: 27/288 pending completed
+2025-11-09 21:49:49,164 - INFO - Row 28 completed
+2025-11-09 21:49:49,164 - INFO - Processing 32/288
+2025-11-09 21:49:49,168 - INFO - Saved answer 28 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:49:49,168 - INFO - Progress: 28/288 pending completed
+2025-11-09 21:50:19,280 - INFO - Row 29 completed
+2025-11-09 21:50:19,281 - INFO - Processing 33/288
+2025-11-09 21:50:19,285 - INFO - Saved answer 29 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:50:19,285 - INFO - Progress: 29/288 pending completed
+2025-11-09 21:50:51,383 - INFO - Row 30 completed
+2025-11-09 21:50:51,383 - INFO - Processing 34/288
+2025-11-09 21:50:51,388 - INFO - Saved answer 30 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:50:51,388 - INFO - Progress: 30/288 pending completed
+2025-11-09 21:51:23,179 - INFO - Row 31 completed
+2025-11-09 21:51:23,179 - INFO - Processing 35/288
+2025-11-09 21:51:23,184 - INFO - Saved answer 31 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:51:23,184 - INFO - Progress: 31/288 pending completed
+2025-11-09 21:51:52,614 - INFO - Row 32 completed
+2025-11-09 21:51:52,614 - INFO - Processing 36/288
+2025-11-09 21:51:52,618 - INFO - Saved answer 32 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:51:52,618 - INFO - Progress: 32/288 pending completed
+2025-11-09 21:52:22,137 - INFO - Row 33 completed
+2025-11-09 21:52:22,137 - INFO - Processing 37/288
+2025-11-09 21:52:22,141 - INFO - Saved answer 33 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:52:22,141 - INFO - Progress: 33/288 pending completed
+2025-11-09 21:52:49,784 - INFO - Row 34 completed
+2025-11-09 21:52:49,784 - INFO - Processing 38/288
+2025-11-09 21:52:49,789 - INFO - Saved answer 34 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:52:49,789 - INFO - Progress: 34/288 pending completed
+2025-11-09 21:53:19,330 - INFO - Row 35 completed
+2025-11-09 21:53:19,331 - INFO - Processing 39/288
+2025-11-09 21:53:19,336 - INFO - Saved answer 35 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:53:19,336 - INFO - Progress: 35/288 pending completed
+2025-11-09 21:53:51,562 - INFO - Row 36 completed
+2025-11-09 21:53:51,562 - INFO - Processing 40/288
+2025-11-09 21:53:51,566 - INFO - Saved answer 36 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:53:51,566 - INFO - Progress: 36/288 pending completed
+2025-11-09 21:54:19,970 - INFO - Row 37 completed
+2025-11-09 21:54:19,970 - INFO - Processing 41/288
+2025-11-09 21:54:19,975 - INFO - Saved answer 37 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:54:19,975 - INFO - Progress: 37/288 pending completed
+2025-11-09 21:54:52,037 - INFO - Row 38 completed
+2025-11-09 21:54:52,037 - INFO - Processing 42/288
+2025-11-09 21:54:52,042 - INFO - Saved answer 38 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:54:52,042 - INFO - Progress: 38/288 pending completed
+2025-11-09 21:55:20,518 - INFO - Row 39 completed
+2025-11-09 21:55:20,518 - INFO - Processing 43/288
+2025-11-09 21:55:20,523 - INFO - Saved answer 39 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:55:20,523 - INFO - Progress: 39/288 pending completed
+2025-11-09 21:56:03,729 - INFO - Row 40 completed
+2025-11-09 21:56:03,729 - INFO - Processing 44/288
+2025-11-09 21:56:03,733 - INFO - Saved answer 40 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:56:03,733 - INFO - Progress: 40/288 pending completed
+2025-11-09 21:56:19,425 - INFO - Row 41 completed
+2025-11-09 21:56:19,425 - INFO - Processing 45/288
+2025-11-09 21:56:19,430 - INFO - Saved answer 41 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:56:19,430 - INFO - Progress: 41/288 pending completed
+2025-11-09 21:56:50,559 - INFO - Row 42 completed
+2025-11-09 21:56:50,560 - INFO - Processing 46/288
+2025-11-09 21:56:50,564 - INFO - Saved answer 42 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:56:50,564 - INFO - Progress: 42/288 pending completed
+2025-11-09 21:57:19,232 - INFO - Row 43 completed
+2025-11-09 21:57:19,233 - INFO - Processing 47/288
+2025-11-09 21:57:19,237 - INFO - Saved answer 43 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:57:19,237 - INFO - Progress: 43/288 pending completed
+2025-11-09 21:57:49,832 - INFO - Row 44 completed
+2025-11-09 21:57:49,832 - INFO - Processing 48/288
+2025-11-09 21:57:49,836 - INFO - Saved answer 44 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:57:49,837 - INFO - Progress: 44/288 pending completed
+2025-11-09 21:58:19,664 - INFO - Row 45 completed
+2025-11-09 21:58:19,664 - INFO - Processing 49/288
+2025-11-09 21:58:19,668 - INFO - Saved answer 45 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:58:19,669 - INFO - Progress: 45/288 pending completed
+2025-11-09 21:58:52,634 - INFO - Row 46 completed
+2025-11-09 21:58:52,634 - INFO - Processing 50/288
+2025-11-09 21:58:52,639 - INFO - Saved answer 46 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:58:52,639 - INFO - Progress: 46/288 pending completed
+2025-11-09 21:59:22,132 - INFO - Row 47 completed
+2025-11-09 21:59:22,132 - INFO - Processing 51/288
+2025-11-09 21:59:22,137 - INFO - Saved answer 47 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:59:22,137 - INFO - Progress: 47/288 pending completed
+2025-11-09 21:59:53,744 - INFO - Row 48 completed
+2025-11-09 21:59:53,744 - INFO - Processing 52/288
+2025-11-09 21:59:53,750 - INFO - Saved answer 48 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 21:59:53,750 - INFO - Progress: 48/288 pending completed
+2025-11-09 22:00:19,918 - INFO - Row 49 completed
+2025-11-09 22:00:19,918 - INFO - Processing 53/288
+2025-11-09 22:00:19,923 - INFO - Saved answer 49 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:00:19,923 - INFO - Progress: 49/288 pending completed
+2025-11-09 22:00:52,505 - INFO - Row 50 completed
+2025-11-09 22:00:52,505 - INFO - Processing 54/288
+2025-11-09 22:00:52,510 - INFO - Saved answer 50 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:00:52,510 - INFO - Progress: 50/288 pending completed
+2025-11-09 22:01:22,665 - INFO - Row 51 completed
+2025-11-09 22:01:22,666 - INFO - Processing 55/288
+2025-11-09 22:01:22,671 - INFO - Saved answer 51 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:01:22,671 - INFO - Progress: 51/288 pending completed
+2025-11-09 22:01:50,560 - INFO - Row 52 completed
+2025-11-09 22:01:50,560 - INFO - Processing 56/288
+2025-11-09 22:01:50,564 - INFO - Saved answer 52 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:01:50,565 - INFO - Progress: 52/288 pending completed
+2025-11-09 22:02:23,177 - INFO - Row 53 completed
+2025-11-09 22:02:23,177 - INFO - Processing 57/288
+2025-11-09 22:02:23,182 - INFO - Saved answer 53 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:02:23,182 - INFO - Progress: 53/288 pending completed
+2025-11-09 22:02:53,309 - INFO - Row 54 completed
+2025-11-09 22:02:53,309 - INFO - Processing 58/288
+2025-11-09 22:02:53,314 - INFO - Saved answer 54 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:02:53,314 - INFO - Progress: 54/288 pending completed
+2025-11-09 22:03:22,505 - INFO - Row 55 completed
+2025-11-09 22:03:22,506 - INFO - Processing 59/288
+2025-11-09 22:03:22,510 - INFO - Saved answer 55 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:03:22,510 - INFO - Progress: 55/288 pending completed
+2025-11-09 22:03:52,875 - INFO - Row 56 completed
+2025-11-09 22:03:52,876 - INFO - Processing 60/288
+2025-11-09 22:03:52,881 - INFO - Saved answer 56 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:03:52,881 - INFO - Progress: 56/288 pending completed
+2025-11-09 22:04:22,795 - INFO - Row 57 completed
+2025-11-09 22:04:22,795 - INFO - Processing 61/288
+2025-11-09 22:04:22,800 - INFO - Saved answer 57 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:04:22,800 - INFO - Progress: 57/288 pending completed
+2025-11-09 22:04:50,747 - INFO - Row 58 completed
+2025-11-09 22:04:50,747 - INFO - Processing 62/288
+2025-11-09 22:04:50,751 - INFO - Saved answer 58 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:04:50,751 - INFO - Progress: 58/288 pending completed
+2025-11-09 22:05:23,457 - INFO - Row 59 completed
+2025-11-09 22:05:23,457 - INFO - Processing 63/288
+2025-11-09 22:05:23,461 - INFO - Saved answer 59 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:05:23,461 - INFO - Progress: 59/288 pending completed
+2025-11-09 22:05:51,457 - INFO - Row 60 completed
+2025-11-09 22:05:51,458 - INFO - Processing 64/288
+2025-11-09 22:05:51,462 - INFO - Saved answer 60 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:05:51,462 - INFO - Progress: 60/288 pending completed
+2025-11-09 22:06:22,512 - INFO - Row 61 completed
+2025-11-09 22:06:22,512 - INFO - Processing 65/288
+2025-11-09 22:06:22,517 - INFO - Saved answer 61 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:06:22,517 - INFO - Progress: 61/288 pending completed
+2025-11-09 22:06:53,034 - INFO - Row 62 completed
+2025-11-09 22:06:53,034 - INFO - Processing 66/288
+2025-11-09 22:06:53,038 - INFO - Saved answer 62 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:06:53,038 - INFO - Progress: 62/288 pending completed
+2025-11-09 22:07:22,178 - INFO - Row 63 completed
+2025-11-09 22:07:22,178 - INFO - Processing 67/288
+2025-11-09 22:07:22,184 - INFO - Saved answer 63 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:07:22,184 - INFO - Progress: 63/288 pending completed
+2025-11-09 22:07:53,791 - INFO - Row 64 completed
+2025-11-09 22:07:53,792 - INFO - Processing 68/288
+2025-11-09 22:07:53,796 - INFO - Saved answer 64 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:07:53,797 - INFO - Progress: 64/288 pending completed
+2025-11-09 22:08:22,330 - INFO - Row 65 completed
+2025-11-09 22:08:22,330 - INFO - Processing 69/288
+2025-11-09 22:08:22,334 - INFO - Saved answer 65 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:08:22,335 - INFO - Progress: 65/288 pending completed
+2025-11-09 22:08:54,383 - INFO - Row 66 completed
+2025-11-09 22:08:54,383 - INFO - Processing 70/288
+2025-11-09 22:08:54,388 - INFO - Saved answer 66 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:08:54,388 - INFO - Progress: 66/288 pending completed
+2025-11-09 22:09:21,841 - INFO - Row 67 completed
+2025-11-09 22:09:21,842 - INFO - Processing 71/288
+2025-11-09 22:09:21,846 - INFO - Saved answer 67 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:09:21,847 - INFO - Progress: 67/288 pending completed
+2025-11-09 22:09:53,528 - INFO - Row 68 completed
+2025-11-09 22:09:53,529 - INFO - Processing 72/288
+2025-11-09 22:09:53,534 - INFO - Saved answer 68 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:09:53,534 - INFO - Progress: 68/288 pending completed
+2025-11-09 22:10:24,186 - INFO - Row 69 completed
+2025-11-09 22:10:24,186 - INFO - Processing 73/288
+2025-11-09 22:10:24,191 - INFO - Saved answer 69 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:10:24,191 - INFO - Progress: 69/288 pending completed
+2025-11-09 22:10:52,268 - INFO - Row 70 completed
+2025-11-09 22:10:52,268 - INFO - Processing 74/288
+2025-11-09 22:10:52,272 - INFO - Saved answer 70 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:10:52,273 - INFO - Progress: 70/288 pending completed
+2025-11-09 22:11:25,488 - INFO - Row 71 completed
+2025-11-09 22:11:25,488 - INFO - Processing 75/288
+2025-11-09 22:11:25,493 - INFO - Saved answer 71 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:11:25,493 - INFO - Progress: 71/288 pending completed
+2025-11-09 22:11:56,940 - INFO - Row 72 completed
+2025-11-09 22:11:56,940 - INFO - Processing 76/288
+2025-11-09 22:11:56,945 - INFO - Saved answer 72 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:11:56,945 - INFO - Progress: 72/288 pending completed
+2025-11-09 22:12:25,655 - INFO - Row 73 completed
+2025-11-09 22:12:25,656 - INFO - Processing 77/288
+2025-11-09 22:12:25,661 - INFO - Saved answer 73 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:12:25,661 - INFO - Progress: 73/288 pending completed
+2025-11-09 22:12:54,039 - INFO - Row 74 completed
+2025-11-09 22:12:54,039 - INFO - Processing 78/288
+2025-11-09 22:12:54,044 - INFO - Saved answer 74 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:12:54,044 - INFO - Progress: 74/288 pending completed
+2025-11-09 22:13:29,863 - INFO - Row 75 completed
+2025-11-09 22:13:29,864 - INFO - Processing 79/288
+2025-11-09 22:13:29,871 - INFO - Saved answer 75 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:13:29,871 - INFO - Progress: 75/288 pending completed
+2025-11-09 22:13:56,017 - INFO - Row 76 completed
+2025-11-09 22:13:56,017 - INFO - Processing 80/288
+2025-11-09 22:13:56,027 - INFO - Saved answer 76 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:13:56,027 - INFO - Progress: 76/288 pending completed
+2025-11-09 22:14:23,045 - INFO - Row 77 completed
+2025-11-09 22:14:23,046 - INFO - Processing 81/288
+2025-11-09 22:14:23,050 - INFO - Saved answer 77 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:14:23,050 - INFO - Progress: 77/288 pending completed
+2025-11-09 22:14:56,728 - INFO - Row 78 completed
+2025-11-09 22:14:56,729 - INFO - Processing 82/288
+2025-11-09 22:14:56,734 - INFO - Saved answer 78 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:14:56,734 - INFO - Progress: 78/288 pending completed
+2025-11-09 22:15:24,174 - INFO - Row 79 completed
+2025-11-09 22:15:24,174 - INFO - Processing 83/288
+2025-11-09 22:15:24,180 - INFO - Saved answer 79 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:15:24,180 - INFO - Progress: 79/288 pending completed
+2025-11-09 22:15:55,857 - INFO - Row 80 completed
+2025-11-09 22:15:55,857 - INFO - Processing 84/288
+2025-11-09 22:15:55,862 - INFO - Saved answer 80 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:15:55,862 - INFO - Progress: 80/288 pending completed
+2025-11-09 22:16:24,178 - INFO - Row 81 completed
+2025-11-09 22:16:24,178 - INFO - Processing 85/288
+2025-11-09 22:16:24,183 - INFO - Saved answer 81 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:16:24,183 - INFO - Progress: 81/288 pending completed
+2025-11-09 22:16:58,413 - INFO - Row 82 completed
+2025-11-09 22:16:58,413 - INFO - Processing 86/288
+2025-11-09 22:16:58,418 - INFO - Saved answer 82 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:16:58,419 - INFO - Progress: 82/288 pending completed
+2025-11-09 22:17:25,090 - INFO - Row 83 completed
+2025-11-09 22:17:25,090 - INFO - Processing 87/288
+2025-11-09 22:17:25,095 - INFO - Saved answer 83 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:17:25,095 - INFO - Progress: 83/288 pending completed
+2025-11-09 22:17:56,215 - INFO - Row 84 completed
+2025-11-09 22:17:56,215 - INFO - Processing 88/288
+2025-11-09 22:17:56,219 - INFO - Saved answer 84 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:17:56,220 - INFO - Progress: 84/288 pending completed
+2025-11-09 22:18:34,507 - INFO - Row 85 completed
+2025-11-09 22:18:34,507 - INFO - Processing 89/288
+2025-11-09 22:18:34,512 - INFO - Saved answer 85 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:18:34,513 - INFO - Progress: 85/288 pending completed
+2025-11-09 22:18:53,963 - INFO - Row 86 completed
+2025-11-09 22:18:53,963 - INFO - Processing 90/288
+2025-11-09 22:18:53,967 - INFO - Saved answer 86 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:18:53,968 - INFO - Progress: 86/288 pending completed
+2025-11-09 22:19:26,764 - INFO - Row 87 completed
+2025-11-09 22:19:26,764 - INFO - Processing 91/288
+2025-11-09 22:19:26,769 - INFO - Saved answer 87 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:19:26,770 - INFO - Progress: 87/288 pending completed
+2025-11-09 22:19:57,174 - INFO - Row 88 completed
+2025-11-09 22:19:57,174 - INFO - Processing 92/288
+2025-11-09 22:19:57,178 - INFO - Saved answer 88 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:19:57,179 - INFO - Progress: 88/288 pending completed
+2025-11-09 22:20:25,269 - INFO - Row 89 completed
+2025-11-09 22:20:25,269 - INFO - Processing 93/288
+2025-11-09 22:20:25,274 - INFO - Saved answer 89 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:20:25,275 - INFO - Progress: 89/288 pending completed
+2025-11-09 22:20:54,156 - INFO - Row 90 completed
+2025-11-09 22:20:54,156 - INFO - Processing 94/288
+2025-11-09 22:20:54,160 - INFO - Saved answer 90 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:20:54,161 - INFO - Progress: 90/288 pending completed
+2025-11-09 22:21:28,808 - INFO - Row 91 completed
+2025-11-09 22:21:28,808 - INFO - Processing 95/288
+2025-11-09 22:21:28,814 - INFO - Saved answer 91 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:21:28,814 - INFO - Progress: 91/288 pending completed
+2025-11-09 22:21:59,676 - INFO - Row 92 completed
+2025-11-09 22:21:59,677 - INFO - Processing 96/288
+2025-11-09 22:21:59,682 - INFO - Saved answer 92 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:21:59,682 - INFO - Progress: 92/288 pending completed
+2025-11-09 22:22:25,369 - INFO - Row 93 completed
+2025-11-09 22:22:25,369 - INFO - Processing 97/288
+2025-11-09 22:22:25,374 - INFO - Saved answer 93 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:22:25,374 - INFO - Progress: 93/288 pending completed
+2025-11-09 22:22:59,073 - INFO - Row 94 completed
+2025-11-09 22:22:59,073 - INFO - Processing 98/288
+2025-11-09 22:22:59,078 - INFO - Saved answer 94 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:22:59,078 - INFO - Progress: 94/288 pending completed
+2025-11-09 22:23:23,532 - INFO - Row 95 completed
+2025-11-09 22:23:23,532 - INFO - Processing 99/288
+2025-11-09 22:23:23,537 - INFO - Saved answer 95 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:23:23,537 - INFO - Progress: 95/288 pending completed
+2025-11-09 22:23:56,180 - INFO - Row 96 completed
+2025-11-09 22:23:56,180 - INFO - Processing 100/288
+2025-11-09 22:23:56,185 - INFO - Saved answer 96 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:23:56,185 - INFO - Progress: 96/288 pending completed
+2025-11-09 22:24:28,441 - INFO - Row 97 completed
+2025-11-09 22:24:28,441 - INFO - Processing 101/288
+2025-11-09 22:24:28,446 - INFO - Saved answer 97 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:24:28,446 - INFO - Progress: 97/288 pending completed
+2025-11-09 22:24:54,553 - INFO - Row 98 completed
+2025-11-09 22:24:54,554 - INFO - Processing 102/288
+2025-11-09 22:24:54,559 - INFO - Saved answer 98 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:24:54,559 - INFO - Progress: 98/288 pending completed
+2025-11-09 22:25:27,462 - INFO - Row 99 completed
+2025-11-09 22:25:27,463 - INFO - Processing 103/288
+2025-11-09 22:25:27,467 - INFO - Saved answer 99 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:25:27,467 - INFO - Progress: 99/288 pending completed
+2025-11-09 22:25:52,132 - INFO - Row 100 completed
+2025-11-09 22:25:52,132 - INFO - Processing 104/288
+2025-11-09 22:25:52,138 - INFO - Saved answer 100 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:25:52,138 - INFO - Progress: 100/288 pending completed
+2025-11-09 22:26:19,567 - INFO - Row 101 completed
+2025-11-09 22:26:19,568 - INFO - Processing 105/288
+2025-11-09 22:26:19,572 - INFO - Saved answer 101 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:26:19,572 - INFO - Progress: 101/288 pending completed
+2025-11-09 22:26:53,824 - INFO - Row 102 completed
+2025-11-09 22:26:53,824 - INFO - Processing 106/288
+2025-11-09 22:26:53,829 - INFO - Saved answer 102 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:26:53,829 - INFO - Progress: 102/288 pending completed
+2025-11-09 22:27:21,109 - INFO - Row 103 completed
+2025-11-09 22:27:21,110 - INFO - Processing 107/288
+2025-11-09 22:27:21,115 - INFO - Saved answer 103 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:27:21,115 - INFO - Progress: 103/288 pending completed
+2025-11-09 22:27:58,526 - INFO - Row 104 completed
+2025-11-09 22:27:58,526 - INFO - Processing 108/288
+2025-11-09 22:27:58,530 - INFO - Saved answer 104 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:27:58,530 - INFO - Progress: 104/288 pending completed
+2025-11-09 22:28:22,384 - INFO - Row 105 completed
+2025-11-09 22:28:22,384 - INFO - Processing 109/288
+2025-11-09 22:28:22,388 - INFO - Saved answer 105 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:28:22,389 - INFO - Progress: 105/288 pending completed
+2025-11-09 22:28:51,717 - INFO - Row 106 completed
+2025-11-09 22:28:51,717 - INFO - Processing 110/288
+2025-11-09 22:28:51,722 - INFO - Saved answer 106 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:28:51,723 - INFO - Progress: 106/288 pending completed
+2025-11-09 22:29:19,368 - INFO - Row 107 completed
+2025-11-09 22:29:19,368 - INFO - Processing 111/288
+2025-11-09 22:29:19,373 - INFO - Saved answer 107 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:29:19,373 - INFO - Progress: 107/288 pending completed
+2025-11-09 22:29:50,906 - INFO - Row 108 completed
+2025-11-09 22:29:50,906 - INFO - Processing 112/288
+2025-11-09 22:29:50,912 - INFO - Saved answer 108 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:29:50,912 - INFO - Progress: 108/288 pending completed
+2025-11-09 22:30:22,630 - INFO - Row 109 completed
+2025-11-09 22:30:22,630 - INFO - Processing 113/288
+2025-11-09 22:30:22,635 - INFO - Saved answer 109 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:30:22,635 - INFO - Progress: 109/288 pending completed
+2025-11-09 22:30:51,777 - INFO - Row 110 completed
+2025-11-09 22:30:51,778 - INFO - Processing 114/288
+2025-11-09 22:30:51,782 - INFO - Saved answer 110 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:30:51,783 - INFO - Progress: 110/288 pending completed
+2025-11-09 22:31:21,814 - INFO - Row 111 completed
+2025-11-09 22:31:21,814 - INFO - Processing 115/288
+2025-11-09 22:31:21,819 - INFO - Saved answer 111 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:31:21,820 - INFO - Progress: 111/288 pending completed
+2025-11-09 22:32:01,992 - INFO - Row 112 completed
+2025-11-09 22:32:01,992 - INFO - Processing 116/288
+2025-11-09 22:32:01,997 - INFO - Saved answer 112 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:32:01,997 - INFO - Progress: 112/288 pending completed
+2025-11-09 22:32:24,668 - INFO - Row 113 completed
+2025-11-09 22:32:24,668 - INFO - Processing 117/288
+2025-11-09 22:32:24,674 - INFO - Saved answer 113 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:32:24,674 - INFO - Progress: 113/288 pending completed
+2025-11-09 22:32:51,144 - INFO - Row 114 completed
+2025-11-09 22:32:51,144 - INFO - Processing 118/288
+2025-11-09 22:32:51,150 - INFO - Saved answer 114 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:32:51,150 - INFO - Progress: 114/288 pending completed
+2025-11-09 22:33:20,655 - INFO - Row 115 completed
+2025-11-09 22:33:20,655 - INFO - Processing 119/288
+2025-11-09 22:33:20,660 - INFO - Saved answer 115 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:33:20,661 - INFO - Progress: 115/288 pending completed
+2025-11-09 22:33:49,033 - INFO - Row 116 completed
+2025-11-09 22:33:49,033 - INFO - Processing 120/288
+2025-11-09 22:33:49,040 - INFO - Saved answer 116 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:33:49,041 - INFO - Progress: 116/288 pending completed
+2025-11-09 22:34:22,762 - INFO - Row 117 completed
+2025-11-09 22:34:22,762 - INFO - Processing 121/288
+2025-11-09 22:34:22,766 - INFO - Saved answer 117 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:34:22,767 - INFO - Progress: 117/288 pending completed
+2025-11-09 22:34:52,068 - INFO - Row 118 completed
+2025-11-09 22:34:52,068 - INFO - Processing 122/288
+2025-11-09 22:34:52,073 - INFO - Saved answer 118 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:34:52,073 - INFO - Progress: 118/288 pending completed
+2025-11-09 22:35:25,200 - INFO - Row 119 completed
+2025-11-09 22:35:25,200 - INFO - Processing 123/288
+2025-11-09 22:35:25,205 - INFO - Saved answer 119 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:35:25,206 - INFO - Progress: 119/288 pending completed
+2025-11-09 22:35:54,806 - INFO - Row 120 completed
+2025-11-09 22:35:54,806 - INFO - Processing 124/288
+2025-11-09 22:35:54,811 - INFO - Saved answer 120 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:35:54,812 - INFO - Progress: 120/288 pending completed
+2025-11-09 22:36:26,079 - INFO - Row 121 completed
+2025-11-09 22:36:26,079 - INFO - Processing 125/288
+2025-11-09 22:36:26,084 - INFO - Saved answer 121 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:36:26,084 - INFO - Progress: 121/288 pending completed
+2025-11-09 22:36:55,454 - INFO - Row 122 completed
+2025-11-09 22:36:55,455 - INFO - Processing 126/288
+2025-11-09 22:36:55,459 - INFO - Saved answer 122 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:36:55,460 - INFO - Progress: 122/288 pending completed
+2025-11-09 22:37:27,583 - INFO - Row 123 completed
+2025-11-09 22:37:27,584 - INFO - Processing 127/288
+2025-11-09 22:37:27,588 - INFO - Saved answer 123 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:37:27,588 - INFO - Progress: 123/288 pending completed
+2025-11-09 22:37:56,971 - INFO - Row 124 completed
+2025-11-09 22:37:56,972 - INFO - Processing 128/288
+2025-11-09 22:37:56,976 - INFO - Saved answer 124 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:37:56,977 - INFO - Progress: 124/288 pending completed
+2025-11-09 22:38:28,800 - INFO - Row 125 completed
+2025-11-09 22:38:28,800 - INFO - Processing 129/288
+2025-11-09 22:38:28,805 - INFO - Saved answer 125 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:38:28,805 - INFO - Progress: 125/288 pending completed
+2025-11-09 22:38:58,519 - INFO - Row 126 completed
+2025-11-09 22:38:58,520 - INFO - Processing 130/288
+2025-11-09 22:38:58,524 - INFO - Saved answer 126 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:38:58,525 - INFO - Progress: 126/288 pending completed
+2025-11-09 22:39:23,471 - INFO - Row 127 completed
+2025-11-09 22:39:23,471 - INFO - Processing 131/288
+2025-11-09 22:39:23,476 - INFO - Saved answer 127 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:39:23,476 - INFO - Progress: 127/288 pending completed
+2025-11-09 22:39:59,851 - INFO - Row 128 completed
+2025-11-09 22:39:59,852 - INFO - Processing 132/288
+2025-11-09 22:39:59,857 - INFO - Saved answer 128 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:39:59,857 - INFO - Progress: 128/288 pending completed
+2025-11-09 22:40:25,352 - INFO - Row 129 completed
+2025-11-09 22:40:25,353 - INFO - Processing 133/288
+2025-11-09 22:40:25,358 - INFO - Saved answer 129 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:40:25,358 - INFO - Progress: 129/288 pending completed
+2025-11-09 22:40:52,999 - INFO - Row 130 completed
+2025-11-09 22:40:53,000 - INFO - Processing 134/288
+2025-11-09 22:40:53,004 - INFO - Saved answer 130 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:40:53,005 - INFO - Progress: 130/288 pending completed
+2025-11-09 22:41:29,548 - INFO - Row 131 completed
+2025-11-09 22:41:29,548 - INFO - Processing 135/288
+2025-11-09 22:41:29,553 - INFO - Saved answer 131 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:41:29,553 - INFO - Progress: 131/288 pending completed
+2025-11-09 22:41:54,330 - INFO - Row 132 completed
+2025-11-09 22:41:54,330 - INFO - Processing 136/288
+2025-11-09 22:41:54,334 - INFO - Saved answer 132 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:41:54,334 - INFO - Progress: 132/288 pending completed
+2025-11-09 22:42:23,146 - INFO - Row 133 completed
+2025-11-09 22:42:23,146 - INFO - Processing 137/288
+2025-11-09 22:42:23,153 - INFO - Saved answer 133 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:42:23,153 - INFO - Progress: 133/288 pending completed
+2025-11-09 22:43:04,586 - INFO - Row 134 completed
+2025-11-09 22:43:04,586 - INFO - Processing 138/288
+2025-11-09 22:43:04,590 - INFO - Saved answer 134 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:43:04,591 - INFO - Progress: 134/288 pending completed
+2025-11-09 22:43:24,022 - INFO - Row 135 completed
+2025-11-09 22:43:24,023 - INFO - Processing 139/288
+2025-11-09 22:43:24,028 - INFO - Saved answer 135 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:43:24,028 - INFO - Progress: 135/288 pending completed
+2025-11-09 22:43:55,525 - INFO - Row 136 completed
+2025-11-09 22:43:55,525 - INFO - Processing 140/288
+2025-11-09 22:43:55,530 - INFO - Saved answer 136 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:43:55,530 - INFO - Progress: 136/288 pending completed
+2025-11-09 22:44:25,701 - INFO - Row 137 completed
+2025-11-09 22:44:25,701 - INFO - Processing 141/288
+2025-11-09 22:44:25,706 - INFO - Saved answer 137 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:44:25,707 - INFO - Progress: 137/288 pending completed
+2025-11-09 22:45:04,094 - INFO - Row 138 completed
+2025-11-09 22:45:04,094 - INFO - Processing 142/288
+2025-11-09 22:45:04,099 - INFO - Saved answer 138 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:45:04,099 - INFO - Progress: 138/288 pending completed
+2025-11-09 22:45:24,439 - INFO - Row 139 completed
+2025-11-09 22:45:24,439 - INFO - Processing 143/288
+2025-11-09 22:45:24,444 - INFO - Saved answer 139 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:45:24,445 - INFO - Progress: 139/288 pending completed
+2025-11-09 22:46:07,563 - INFO - Row 140 completed
+2025-11-09 22:46:07,564 - INFO - Processing 144/288
+2025-11-09 22:46:07,569 - INFO - Saved answer 140 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:46:07,570 - INFO - Progress: 140/288 pending completed
+2025-11-09 22:46:26,392 - INFO - Row 141 completed
+2025-11-09 22:46:26,392 - INFO - Processing 145/288
+2025-11-09 22:46:26,397 - INFO - Saved answer 141 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:46:26,397 - INFO - Progress: 141/288 pending completed
+2025-11-09 22:46:55,808 - INFO - Row 142 completed
+2025-11-09 22:46:55,809 - INFO - Processing 146/288
+2025-11-09 22:46:55,813 - INFO - Saved answer 142 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:46:55,813 - INFO - Progress: 142/288 pending completed
+2025-11-09 22:47:29,618 - INFO - Row 143 completed
+2025-11-09 22:47:29,619 - INFO - Processing 147/288
+2025-11-09 22:47:29,623 - INFO - Saved answer 143 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:47:29,624 - INFO - Progress: 143/288 pending completed
+2025-11-09 22:47:56,669 - INFO - Row 144 completed
+2025-11-09 22:47:56,669 - INFO - Processing 148/288
+2025-11-09 22:47:56,674 - INFO - Saved answer 144 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:47:56,674 - INFO - Progress: 144/288 pending completed
+2025-11-09 22:48:28,649 - INFO - Row 145 completed
+2025-11-09 22:48:28,650 - INFO - Processing 149/288
+2025-11-09 22:48:28,655 - INFO - Saved answer 145 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:48:28,655 - INFO - Progress: 145/288 pending completed
+2025-11-09 22:48:55,164 - INFO - Row 146 completed
+2025-11-09 22:48:55,165 - INFO - Processing 150/288
+2025-11-09 22:48:55,170 - INFO - Saved answer 146 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:48:55,171 - INFO - Progress: 146/288 pending completed
+2025-11-09 22:49:27,154 - INFO - Row 147 completed
+2025-11-09 22:49:27,154 - INFO - Processing 151/288
+2025-11-09 22:49:27,159 - INFO - Saved answer 147 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:49:27,159 - INFO - Progress: 147/288 pending completed
+2025-11-09 22:49:54,460 - INFO - Row 148 completed
+2025-11-09 22:49:54,461 - INFO - Processing 152/288
+2025-11-09 22:49:54,466 - INFO - Saved answer 148 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:49:54,466 - INFO - Progress: 148/288 pending completed
+2025-11-09 22:50:27,091 - INFO - Row 149 completed
+2025-11-09 22:50:27,091 - INFO - Processing 153/288
+2025-11-09 22:50:27,095 - INFO - Saved answer 149 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:50:27,096 - INFO - Progress: 149/288 pending completed
+2025-11-09 22:50:53,616 - INFO - Row 150 completed
+2025-11-09 22:50:53,616 - INFO - Processing 154/288
+2025-11-09 22:50:53,621 - INFO - Saved answer 150 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:50:53,621 - INFO - Progress: 150/288 pending completed
+2025-11-09 22:51:32,237 - INFO - Row 151 completed
+2025-11-09 22:51:32,238 - INFO - Processing 155/288
+2025-11-09 22:51:32,242 - INFO - Saved answer 151 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:51:32,242 - INFO - Progress: 151/288 pending completed
+2025-11-09 22:51:56,410 - INFO - Row 152 completed
+2025-11-09 22:51:56,410 - INFO - Processing 156/288
+2025-11-09 22:51:56,415 - INFO - Saved answer 152 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:51:56,415 - INFO - Progress: 152/288 pending completed
+2025-11-09 22:52:29,292 - INFO - Row 153 completed
+2025-11-09 22:52:29,292 - INFO - Processing 157/288
+2025-11-09 22:52:29,297 - INFO - Saved answer 153 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:52:29,297 - INFO - Progress: 153/288 pending completed
+2025-11-09 22:52:55,343 - INFO - Row 154 completed
+2025-11-09 22:52:55,343 - INFO - Processing 158/288
+2025-11-09 22:52:55,348 - INFO - Saved answer 154 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:52:55,348 - INFO - Progress: 154/288 pending completed
+2025-11-09 22:53:25,026 - INFO - Row 155 completed
+2025-11-09 22:53:25,026 - INFO - Processing 159/288
+2025-11-09 22:53:25,032 - INFO - Saved answer 155 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:53:25,032 - INFO - Progress: 155/288 pending completed
+2025-11-09 22:53:57,946 - INFO - Row 156 completed
+2025-11-09 22:53:57,947 - INFO - Processing 160/288
+2025-11-09 22:53:57,952 - INFO - Saved answer 156 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:53:57,953 - INFO - Progress: 156/288 pending completed
+2025-11-09 22:54:25,731 - INFO - Row 157 completed
+2025-11-09 22:54:25,731 - INFO - Processing 161/288
+2025-11-09 22:54:25,736 - INFO - Saved answer 157 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:54:25,736 - INFO - Progress: 157/288 pending completed
+2025-11-09 22:54:54,574 - INFO - Row 158 completed
+2025-11-09 22:54:54,574 - INFO - Processing 162/288
+2025-11-09 22:54:54,579 - INFO - Saved answer 158 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:54:54,579 - INFO - Progress: 158/288 pending completed
+2025-11-09 22:55:27,433 - INFO - Row 159 completed
+2025-11-09 22:55:27,433 - INFO - Processing 163/288
+2025-11-09 22:55:27,438 - INFO - Saved answer 159 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:55:27,439 - INFO - Progress: 159/288 pending completed
+2025-11-09 22:55:53,855 - INFO - Row 160 completed
+2025-11-09 22:55:53,855 - INFO - Processing 164/288
+2025-11-09 22:55:53,860 - INFO - Saved answer 160 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:55:53,860 - INFO - Progress: 160/288 pending completed
+2025-11-09 22:56:25,104 - INFO - Row 161 completed
+2025-11-09 22:56:25,105 - INFO - Processing 165/288
+2025-11-09 22:56:25,110 - INFO - Saved answer 161 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:56:25,110 - INFO - Progress: 161/288 pending completed
+2025-11-09 22:57:01,661 - INFO - Row 162 completed
+2025-11-09 22:57:01,661 - INFO - Processing 166/288
+2025-11-09 22:57:01,666 - INFO - Saved answer 162 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:57:01,667 - INFO - Progress: 162/288 pending completed
+2025-11-09 22:57:29,389 - INFO - Row 163 completed
+2025-11-09 22:57:29,390 - INFO - Processing 167/288
+2025-11-09 22:57:29,395 - INFO - Saved answer 163 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:57:29,395 - INFO - Progress: 163/288 pending completed
+2025-11-09 22:57:55,367 - INFO - Row 164 completed
+2025-11-09 22:57:55,367 - INFO - Processing 168/288
+2025-11-09 22:57:55,373 - INFO - Saved answer 164 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:57:55,373 - INFO - Progress: 164/288 pending completed
+2025-11-09 22:58:25,589 - INFO - Row 165 completed
+2025-11-09 22:58:25,590 - INFO - Processing 169/288
+2025-11-09 22:58:25,595 - INFO - Saved answer 165 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:58:25,595 - INFO - Progress: 165/288 pending completed
+2025-11-09 22:58:55,553 - INFO - Row 166 completed
+2025-11-09 22:58:55,553 - INFO - Processing 170/288
+2025-11-09 22:58:55,558 - INFO - Saved answer 166 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:58:55,558 - INFO - Progress: 166/288 pending completed
+2025-11-09 22:59:25,186 - INFO - Row 167 completed
+2025-11-09 22:59:25,186 - INFO - Processing 171/288
+2025-11-09 22:59:25,192 - INFO - Saved answer 167 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:59:25,192 - INFO - Progress: 167/288 pending completed
+2025-11-09 22:59:55,066 - INFO - Row 168 completed
+2025-11-09 22:59:55,066 - INFO - Processing 172/288
+2025-11-09 22:59:55,074 - INFO - Saved answer 168 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 22:59:55,075 - INFO - Progress: 168/288 pending completed
+2025-11-09 23:00:29,494 - INFO - Row 169 completed
+2025-11-09 23:00:29,494 - INFO - Processing 173/288
+2025-11-09 23:00:29,499 - INFO - Saved answer 169 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:00:29,500 - INFO - Progress: 169/288 pending completed
+2025-11-09 23:00:53,119 - INFO - Row 170 completed
+2025-11-09 23:00:53,119 - INFO - Processing 174/288
+2025-11-09 23:00:53,125 - INFO - Saved answer 170 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:00:53,125 - INFO - Progress: 170/288 pending completed
+2025-11-09 23:01:29,224 - INFO - Row 171 completed
+2025-11-09 23:01:29,224 - INFO - Processing 175/288
+2025-11-09 23:01:29,230 - INFO - Saved answer 171 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:01:29,230 - INFO - Progress: 171/288 pending completed
+2025-11-09 23:01:51,699 - INFO - Row 172 completed
+2025-11-09 23:01:51,699 - INFO - Processing 176/288
+2025-11-09 23:01:51,705 - INFO - Saved answer 172 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:01:51,705 - INFO - Progress: 172/288 pending completed
+2025-11-09 23:02:21,141 - INFO - Row 173 completed
+2025-11-09 23:02:21,141 - INFO - Processing 177/288
+2025-11-09 23:02:21,147 - INFO - Saved answer 173 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:02:21,147 - INFO - Progress: 173/288 pending completed
+2025-11-09 23:02:52,538 - INFO - Row 174 completed
+2025-11-09 23:02:52,538 - INFO - Processing 178/288
+2025-11-09 23:02:52,543 - INFO - Saved answer 174 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:02:52,544 - INFO - Progress: 174/288 pending completed
+2025-11-09 23:03:21,368 - INFO - Row 175 completed
+2025-11-09 23:03:21,369 - INFO - Processing 179/288
+2025-11-09 23:03:21,374 - INFO - Saved answer 175 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:03:21,374 - INFO - Progress: 175/288 pending completed
+2025-11-09 23:03:52,187 - INFO - Row 176 completed
+2025-11-09 23:03:52,187 - INFO - Processing 180/288
+2025-11-09 23:03:52,193 - INFO - Saved answer 176 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:03:52,193 - INFO - Progress: 176/288 pending completed
+2025-11-09 23:04:21,679 - INFO - Row 177 completed
+2025-11-09 23:04:21,680 - INFO - Processing 181/288
+2025-11-09 23:04:21,685 - INFO - Saved answer 177 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:04:21,686 - INFO - Progress: 177/288 pending completed
+2025-11-09 23:04:50,703 - INFO - Row 178 completed
+2025-11-09 23:04:50,703 - INFO - Processing 182/288
+2025-11-09 23:04:50,709 - INFO - Saved answer 178 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:04:50,709 - INFO - Progress: 178/288 pending completed
+2025-11-09 23:05:20,702 - INFO - Row 179 completed
+2025-11-09 23:05:20,702 - INFO - Processing 183/288
+2025-11-09 23:05:20,707 - INFO - Saved answer 179 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:05:20,708 - INFO - Progress: 179/288 pending completed
+2025-11-09 23:05:51,130 - INFO - Row 180 completed
+2025-11-09 23:05:51,130 - INFO - Processing 184/288
+2025-11-09 23:05:51,135 - INFO - Saved answer 180 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:05:51,135 - INFO - Progress: 180/288 pending completed
+2025-11-09 23:06:20,942 - INFO - Row 181 completed
+2025-11-09 23:06:20,942 - INFO - Processing 185/288
+2025-11-09 23:06:20,948 - INFO - Saved answer 181 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:06:20,948 - INFO - Progress: 181/288 pending completed
+2025-11-09 23:06:50,227 - INFO - Row 182 completed
+2025-11-09 23:06:50,227 - INFO - Processing 186/288
+2025-11-09 23:06:50,233 - INFO - Saved answer 182 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:06:50,233 - INFO - Progress: 182/288 pending completed
+2025-11-09 23:07:21,116 - INFO - Row 183 completed
+2025-11-09 23:07:21,116 - INFO - Processing 187/288
+2025-11-09 23:07:21,122 - INFO - Saved answer 183 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:07:21,122 - INFO - Progress: 183/288 pending completed
+2025-11-09 23:07:50,463 - INFO - Row 184 completed
+2025-11-09 23:07:50,463 - INFO - Processing 188/288
+2025-11-09 23:07:50,468 - INFO - Saved answer 184 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:07:50,469 - INFO - Progress: 184/288 pending completed
+2025-11-09 23:08:22,661 - INFO - Row 185 completed
+2025-11-09 23:08:22,662 - INFO - Processing 189/288
+2025-11-09 23:08:22,667 - INFO - Saved answer 185 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:08:22,667 - INFO - Progress: 185/288 pending completed
+2025-11-09 23:08:52,625 - INFO - Row 186 completed
+2025-11-09 23:08:52,625 - INFO - Processing 190/288
+2025-11-09 23:08:52,630 - INFO - Saved answer 186 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:08:52,630 - INFO - Progress: 186/288 pending completed
+2025-11-09 23:09:22,776 - INFO - Row 187 completed
+2025-11-09 23:09:22,777 - INFO - Processing 191/288
+2025-11-09 23:09:22,784 - INFO - Saved answer 187 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:09:22,784 - INFO - Progress: 187/288 pending completed
+2025-11-09 23:09:51,358 - INFO - Row 188 completed
+2025-11-09 23:09:51,359 - INFO - Processing 192/288
+2025-11-09 23:09:51,365 - INFO - Saved answer 188 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:09:51,366 - INFO - Progress: 188/288 pending completed
+2025-11-09 23:10:21,897 - INFO - Row 189 completed
+2025-11-09 23:10:21,897 - INFO - Processing 193/288
+2025-11-09 23:10:21,902 - INFO - Saved answer 189 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:10:21,903 - INFO - Progress: 189/288 pending completed
+2025-11-09 23:10:53,688 - INFO - Row 190 completed
+2025-11-09 23:10:53,688 - INFO - Processing 194/288
+2025-11-09 23:10:53,694 - INFO - Saved answer 190 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:10:53,694 - INFO - Progress: 190/288 pending completed
+2025-11-09 23:11:29,199 - INFO - Row 191 completed
+2025-11-09 23:11:29,199 - INFO - Processing 195/288
+2025-11-09 23:11:29,205 - INFO - Saved answer 191 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:11:29,205 - INFO - Progress: 191/288 pending completed
+2025-11-09 23:11:59,495 - INFO - Row 192 completed
+2025-11-09 23:11:59,495 - INFO - Processing 196/288
+2025-11-09 23:11:59,501 - INFO - Saved answer 192 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:11:59,501 - INFO - Progress: 192/288 pending completed
+2025-11-09 23:12:27,290 - INFO - Row 193 completed
+2025-11-09 23:12:27,290 - INFO - Processing 197/288
+2025-11-09 23:12:27,296 - INFO - Saved answer 193 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:12:27,296 - INFO - Progress: 193/288 pending completed
+2025-11-09 23:12:53,949 - INFO - Row 194 completed
+2025-11-09 23:12:53,950 - INFO - Processing 198/288
+2025-11-09 23:12:53,955 - INFO - Saved answer 194 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:12:53,955 - INFO - Progress: 194/288 pending completed
+2025-11-09 23:13:22,442 - INFO - Row 195 completed
+2025-11-09 23:13:22,442 - INFO - Processing 199/288
+2025-11-09 23:13:22,447 - INFO - Saved answer 195 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:13:22,447 - INFO - Progress: 195/288 pending completed
+2025-11-09 23:13:53,246 - INFO - Row 196 completed
+2025-11-09 23:13:53,246 - INFO - Processing 200/288
+2025-11-09 23:13:53,251 - INFO - Saved answer 196 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:13:53,252 - INFO - Progress: 196/288 pending completed
+2025-11-09 23:14:26,532 - INFO - Row 197 completed
+2025-11-09 23:14:26,532 - INFO - Processing 201/288
+2025-11-09 23:14:26,537 - INFO - Saved answer 197 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:14:26,538 - INFO - Progress: 197/288 pending completed
+2025-11-09 23:14:54,982 - INFO - Row 198 completed
+2025-11-09 23:14:54,982 - INFO - Processing 202/288
+2025-11-09 23:14:54,988 - INFO - Saved answer 198 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:14:54,988 - INFO - Progress: 198/288 pending completed
+2025-11-09 23:15:26,762 - INFO - Row 199 completed
+2025-11-09 23:15:26,762 - INFO - Processing 203/288
+2025-11-09 23:15:26,768 - INFO - Saved answer 199 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:15:26,768 - INFO - Progress: 199/288 pending completed
+2025-11-09 23:15:55,230 - INFO - Row 200 completed
+2025-11-09 23:15:55,230 - INFO - Processing 204/288
+2025-11-09 23:15:55,236 - INFO - Saved answer 200 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:15:55,236 - INFO - Progress: 200/288 pending completed
+2025-11-09 23:16:25,189 - INFO - Row 201 completed
+2025-11-09 23:16:25,189 - INFO - Processing 205/288
+2025-11-09 23:16:25,196 - INFO - Saved answer 201 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:16:25,196 - INFO - Progress: 201/288 pending completed
+2025-11-09 23:16:54,040 - INFO - Row 202 completed
+2025-11-09 23:16:54,040 - INFO - Processing 206/288
+2025-11-09 23:16:54,045 - INFO - Saved answer 202 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:16:54,045 - INFO - Progress: 202/288 pending completed
+2025-11-09 23:17:24,124 - INFO - Row 203 completed
+2025-11-09 23:17:24,124 - INFO - Processing 207/288
+2025-11-09 23:17:24,129 - INFO - Saved answer 203 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:17:24,129 - INFO - Progress: 203/288 pending completed
+2025-11-09 23:17:55,621 - INFO - Row 204 completed
+2025-11-09 23:17:55,621 - INFO - Processing 208/288
+2025-11-09 23:17:55,626 - INFO - Saved answer 204 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:17:55,626 - INFO - Progress: 204/288 pending completed
+2025-11-09 23:18:26,840 - INFO - Row 205 completed
+2025-11-09 23:18:26,840 - INFO - Processing 209/288
+2025-11-09 23:18:26,846 - INFO - Saved answer 205 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:18:26,846 - INFO - Progress: 205/288 pending completed
+2025-11-09 23:18:57,102 - INFO - Row 206 completed
+2025-11-09 23:18:57,103 - INFO - Processing 210/288
+2025-11-09 23:18:57,108 - INFO - Saved answer 206 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:18:57,108 - INFO - Progress: 206/288 pending completed
+2025-11-09 23:19:24,971 - INFO - Row 207 completed
+2025-11-09 23:19:24,971 - INFO - Processing 211/288
+2025-11-09 23:19:24,978 - INFO - Saved answer 207 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:19:24,978 - INFO - Progress: 207/288 pending completed
+2025-11-09 23:19:54,556 - INFO - Row 208 completed
+2025-11-09 23:19:54,557 - INFO - Processing 212/288
+2025-11-09 23:19:54,562 - INFO - Saved answer 208 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:19:54,562 - INFO - Progress: 208/288 pending completed
+2025-11-09 23:20:25,725 - INFO - Row 209 completed
+2025-11-09 23:20:25,726 - INFO - Processing 213/288
+2025-11-09 23:20:25,732 - INFO - Saved answer 209 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:20:25,732 - INFO - Progress: 209/288 pending completed
+2025-11-09 23:20:53,402 - INFO - Row 210 completed
+2025-11-09 23:20:53,402 - INFO - Processing 214/288
+2025-11-09 23:20:53,407 - INFO - Saved answer 210 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:20:53,408 - INFO - Progress: 210/288 pending completed
+2025-11-09 23:21:28,691 - INFO - Row 211 completed
+2025-11-09 23:21:28,691 - INFO - Processing 215/288
+2025-11-09 23:21:28,696 - INFO - Saved answer 211 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:21:28,696 - INFO - Progress: 211/288 pending completed
+2025-11-09 23:21:54,329 - INFO - Row 212 completed
+2025-11-09 23:21:54,329 - INFO - Processing 216/288
+2025-11-09 23:21:54,334 - INFO - Saved answer 212 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:21:54,334 - INFO - Progress: 212/288 pending completed
+2025-11-09 23:22:27,258 - INFO - Row 213 completed
+2025-11-09 23:22:27,259 - INFO - Processing 217/288
+2025-11-09 23:22:27,265 - INFO - Saved answer 213 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:22:27,265 - INFO - Progress: 213/288 pending completed
+2025-11-09 23:22:55,029 - INFO - Row 214 completed
+2025-11-09 23:22:55,030 - INFO - Processing 218/288
+2025-11-09 23:22:55,035 - INFO - Saved answer 214 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:22:55,035 - INFO - Progress: 214/288 pending completed
+2025-11-09 23:23:23,770 - INFO - Row 215 completed
+2025-11-09 23:23:23,770 - INFO - Processing 219/288
+2025-11-09 23:23:23,776 - INFO - Saved answer 215 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:23:23,776 - INFO - Progress: 215/288 pending completed
+2025-11-09 23:23:57,383 - INFO - Row 216 completed
+2025-11-09 23:23:57,383 - INFO - Processing 220/288
+2025-11-09 23:23:57,388 - INFO - Saved answer 216 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:23:57,389 - INFO - Progress: 216/288 pending completed
+2025-11-09 23:24:30,067 - INFO - Row 217 completed
+2025-11-09 23:24:30,067 - INFO - Processing 221/288
+2025-11-09 23:24:30,073 - INFO - Saved answer 217 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:24:30,073 - INFO - Progress: 217/288 pending completed
+2025-11-09 23:24:52,889 - INFO - Row 218 completed
+2025-11-09 23:24:52,889 - INFO - Processing 222/288
+2025-11-09 23:24:52,894 - INFO - Saved answer 218 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:24:52,894 - INFO - Progress: 218/288 pending completed
+2025-11-09 23:25:26,499 - INFO - Row 219 completed
+2025-11-09 23:25:26,499 - INFO - Processing 223/288
+2025-11-09 23:25:26,505 - INFO - Saved answer 219 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:25:26,506 - INFO - Progress: 219/288 pending completed
+2025-11-09 23:25:53,891 - INFO - Row 220 completed
+2025-11-09 23:25:53,891 - INFO - Processing 224/288
+2025-11-09 23:25:53,898 - INFO - Saved answer 220 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:25:53,898 - INFO - Progress: 220/288 pending completed
+2025-11-09 23:26:28,712 - INFO - Row 221 completed
+2025-11-09 23:26:28,712 - INFO - Processing 225/288
+2025-11-09 23:26:28,718 - INFO - Saved answer 221 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:26:28,718 - INFO - Progress: 221/288 pending completed
+2025-11-09 23:26:56,889 - INFO - Row 222 completed
+2025-11-09 23:26:56,890 - INFO - Processing 226/288
+2025-11-09 23:26:56,896 - INFO - Saved answer 222 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:26:56,896 - INFO - Progress: 222/288 pending completed
+2025-11-09 23:27:31,132 - INFO - Row 223 completed
+2025-11-09 23:27:31,133 - INFO - Processing 227/288
+2025-11-09 23:27:31,138 - INFO - Saved answer 223 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:27:31,138 - INFO - Progress: 223/288 pending completed
+2025-11-09 23:27:53,447 - INFO - Row 224 completed
+2025-11-09 23:27:53,448 - INFO - Processing 228/288
+2025-11-09 23:27:53,454 - INFO - Saved answer 224 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:27:53,454 - INFO - Progress: 224/288 pending completed
+2025-11-09 23:28:22,761 - INFO - Row 225 completed
+2025-11-09 23:28:22,761 - INFO - Processing 229/288
+2025-11-09 23:28:22,767 - INFO - Saved answer 225 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:28:22,768 - INFO - Progress: 225/288 pending completed
+2025-11-09 23:28:55,755 - INFO - Row 226 completed
+2025-11-09 23:28:55,756 - INFO - Processing 230/288
+2025-11-09 23:28:55,761 - INFO - Saved answer 226 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:28:55,761 - INFO - Progress: 226/288 pending completed
+2025-11-09 23:29:24,415 - INFO - Row 227 completed
+2025-11-09 23:29:24,415 - INFO - Processing 231/288
+2025-11-09 23:29:24,421 - INFO - Saved answer 227 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:29:24,421 - INFO - Progress: 227/288 pending completed
+2025-11-09 23:29:55,832 - INFO - Row 228 completed
+2025-11-09 23:29:55,833 - INFO - Processing 232/288
+2025-11-09 23:29:55,842 - INFO - Saved answer 228 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:29:55,842 - INFO - Progress: 228/288 pending completed
+2025-11-09 23:30:24,301 - INFO - Row 229 completed
+2025-11-09 23:30:24,301 - INFO - Processing 233/288
+2025-11-09 23:30:24,307 - INFO - Saved answer 229 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:30:24,307 - INFO - Progress: 229/288 pending completed
+2025-11-09 23:30:53,176 - INFO - Row 230 completed
+2025-11-09 23:30:53,177 - INFO - Processing 234/288
+2025-11-09 23:30:53,182 - INFO - Saved answer 230 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:30:53,183 - INFO - Progress: 230/288 pending completed
+2025-11-09 23:31:22,346 - INFO - Row 231 completed
+2025-11-09 23:31:22,346 - INFO - Processing 235/288
+2025-11-09 23:31:22,352 - INFO - Saved answer 231 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:31:22,352 - INFO - Progress: 231/288 pending completed
+2025-11-09 23:31:54,287 - INFO - Row 232 completed
+2025-11-09 23:31:54,287 - INFO - Processing 236/288
+2025-11-09 23:31:54,293 - INFO - Saved answer 232 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:31:54,293 - INFO - Progress: 232/288 pending completed
+2025-11-09 23:32:23,502 - INFO - Row 233 completed
+2025-11-09 23:32:23,502 - INFO - Processing 237/288
+2025-11-09 23:32:23,507 - INFO - Saved answer 233 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:32:23,508 - INFO - Progress: 233/288 pending completed
+2025-11-09 23:32:54,367 - INFO - Row 234 completed
+2025-11-09 23:32:54,368 - INFO - Processing 238/288
+2025-11-09 23:32:54,373 - INFO - Saved answer 234 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:32:54,374 - INFO - Progress: 234/288 pending completed
+2025-11-09 23:33:23,724 - INFO - Row 235 completed
+2025-11-09 23:33:23,725 - INFO - Processing 239/288
+2025-11-09 23:33:23,730 - INFO - Saved answer 235 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:33:23,731 - INFO - Progress: 235/288 pending completed
+2025-11-09 23:33:54,162 - INFO - Row 236 completed
+2025-11-09 23:33:54,162 - INFO - Processing 240/288
+2025-11-09 23:33:54,168 - INFO - Saved answer 236 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:33:54,168 - INFO - Progress: 236/288 pending completed
+2025-11-09 23:34:25,011 - INFO - Row 237 completed
+2025-11-09 23:34:25,011 - INFO - Processing 241/288
+2025-11-09 23:34:25,017 - INFO - Saved answer 237 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:34:25,017 - INFO - Progress: 237/288 pending completed
+2025-11-09 23:34:55,077 - INFO - Row 238 completed
+2025-11-09 23:34:55,078 - INFO - Processing 242/288
+2025-11-09 23:34:55,083 - INFO - Saved answer 238 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:34:55,083 - INFO - Progress: 238/288 pending completed
+2025-11-09 23:35:23,459 - INFO - Row 239 completed
+2025-11-09 23:35:23,460 - INFO - Processing 243/288
+2025-11-09 23:35:23,465 - INFO - Saved answer 239 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:35:23,466 - INFO - Progress: 239/288 pending completed
+2025-11-09 23:35:53,703 - INFO - Row 240 completed
+2025-11-09 23:35:53,703 - INFO - Processing 244/288
+2025-11-09 23:35:53,710 - INFO - Saved answer 240 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:35:53,710 - INFO - Progress: 240/288 pending completed
+2025-11-09 23:36:25,890 - INFO - Row 241 completed
+2025-11-09 23:36:25,890 - INFO - Processing 245/288
+2025-11-09 23:36:25,896 - INFO - Saved answer 241 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:36:25,896 - INFO - Progress: 241/288 pending completed
+2025-11-09 23:36:56,534 - INFO - Row 242 completed
+2025-11-09 23:36:56,535 - INFO - Processing 246/288
+2025-11-09 23:36:56,540 - INFO - Saved answer 242 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:36:56,540 - INFO - Progress: 242/288 pending completed
+2025-11-09 23:37:27,823 - INFO - Row 243 completed
+2025-11-09 23:37:27,823 - INFO - Processing 247/288
+2025-11-09 23:37:27,829 - INFO - Saved answer 243 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:37:27,829 - INFO - Progress: 243/288 pending completed
+2025-11-09 23:37:51,627 - INFO - Row 244 completed
+2025-11-09 23:37:51,627 - INFO - Processing 248/288
+2025-11-09 23:37:51,632 - INFO - Saved answer 244 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:37:51,633 - INFO - Progress: 244/288 pending completed
+2025-11-09 23:38:19,849 - INFO - Row 245 completed
+2025-11-09 23:38:19,849 - INFO - Processing 249/288
+2025-11-09 23:38:19,854 - INFO - Saved answer 245 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:38:19,854 - INFO - Progress: 245/288 pending completed
+2025-11-09 23:38:50,540 - INFO - Row 246 completed
+2025-11-09 23:38:50,540 - INFO - Processing 250/288
+2025-11-09 23:38:50,546 - INFO - Saved answer 246 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:38:50,546 - INFO - Progress: 246/288 pending completed
+2025-11-09 23:39:22,481 - INFO - Row 247 completed
+2025-11-09 23:39:22,482 - INFO - Processing 251/288
+2025-11-09 23:39:22,487 - INFO - Saved answer 247 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:39:22,487 - INFO - Progress: 247/288 pending completed
+2025-11-09 23:39:49,906 - INFO - Row 248 completed
+2025-11-09 23:39:49,906 - INFO - Processing 252/288
+2025-11-09 23:39:49,911 - INFO - Saved answer 248 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:39:49,911 - INFO - Progress: 248/288 pending completed
+2025-11-09 23:40:24,337 - INFO - Row 249 completed
+2025-11-09 23:40:24,337 - INFO - Processing 253/288
+2025-11-09 23:40:24,342 - INFO - Saved answer 249 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:40:24,342 - INFO - Progress: 249/288 pending completed
+2025-11-09 23:40:50,225 - INFO - Row 250 completed
+2025-11-09 23:40:50,225 - INFO - Processing 254/288
+2025-11-09 23:40:50,229 - INFO - Saved answer 250 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:40:50,229 - INFO - Progress: 250/288 pending completed
+2025-11-09 23:41:21,163 - INFO - Row 251 completed
+2025-11-09 23:41:21,163 - INFO - Processing 255/288
+2025-11-09 23:41:21,169 - INFO - Saved answer 251 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:41:21,169 - INFO - Progress: 251/288 pending completed
+2025-11-09 23:41:50,722 - INFO - Row 252 completed
+2025-11-09 23:41:50,723 - INFO - Processing 256/288
+2025-11-09 23:41:50,727 - INFO - Saved answer 252 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:41:50,727 - INFO - Progress: 252/288 pending completed
+2025-11-09 23:42:23,303 - INFO - Row 253 completed
+2025-11-09 23:42:23,303 - INFO - Processing 257/288
+2025-11-09 23:42:23,308 - INFO - Saved answer 253 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:42:23,308 - INFO - Progress: 253/288 pending completed
+2025-11-09 23:42:50,840 - INFO - Row 254 completed
+2025-11-09 23:42:50,840 - INFO - Processing 258/288
+2025-11-09 23:42:50,845 - INFO - Saved answer 254 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:42:50,846 - INFO - Progress: 254/288 pending completed
+2025-11-09 23:43:19,583 - INFO - Row 255 completed
+2025-11-09 23:43:19,583 - INFO - Processing 259/288
+2025-11-09 23:43:19,588 - INFO - Saved answer 255 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:43:19,588 - INFO - Progress: 255/288 pending completed
+2025-11-09 23:43:50,868 - INFO - Row 256 completed
+2025-11-09 23:43:50,868 - INFO - Processing 260/288
+2025-11-09 23:43:50,873 - INFO - Saved answer 256 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:43:50,873 - INFO - Progress: 256/288 pending completed
+2025-11-09 23:44:19,652 - INFO - Row 257 completed
+2025-11-09 23:44:19,652 - INFO - Processing 261/288
+2025-11-09 23:44:19,657 - INFO - Saved answer 257 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:44:19,657 - INFO - Progress: 257/288 pending completed
+2025-11-09 23:44:58,932 - INFO - Row 258 completed
+2025-11-09 23:44:58,932 - INFO - Processing 262/288
+2025-11-09 23:44:58,937 - INFO - Saved answer 258 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:44:58,937 - INFO - Progress: 258/288 pending completed
+2025-11-09 23:45:26,681 - INFO - Row 259 completed
+2025-11-09 23:45:26,681 - INFO - Processing 263/288
+2025-11-09 23:45:26,686 - INFO - Saved answer 259 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:45:26,686 - INFO - Progress: 259/288 pending completed
+2025-11-09 23:45:48,756 - INFO - Row 260 completed
+2025-11-09 23:45:48,756 - INFO - Processing 264/288
+2025-11-09 23:45:48,761 - INFO - Saved answer 260 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:45:48,761 - INFO - Progress: 260/288 pending completed
+2025-11-09 23:46:21,817 - INFO - Row 261 completed
+2025-11-09 23:46:21,817 - INFO - Processing 265/288
+2025-11-09 23:46:21,823 - INFO - Saved answer 261 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:46:21,823 - INFO - Progress: 261/288 pending completed
+2025-11-09 23:46:53,607 - INFO - Row 262 completed
+2025-11-09 23:46:53,607 - INFO - Processing 266/288
+2025-11-09 23:46:53,612 - INFO - Saved answer 262 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:46:53,613 - INFO - Progress: 262/288 pending completed
+2025-11-09 23:47:26,801 - INFO - Row 263 completed
+2025-11-09 23:47:26,801 - INFO - Processing 267/288
+2025-11-09 23:47:26,806 - INFO - Saved answer 263 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:47:26,806 - INFO - Progress: 263/288 pending completed
+2025-11-09 23:47:54,496 - INFO - Row 264 completed
+2025-11-09 23:47:54,496 - INFO - Processing 268/288
+2025-11-09 23:47:54,501 - INFO - Saved answer 264 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:47:54,501 - INFO - Progress: 264/288 pending completed
+2025-11-09 23:48:24,924 - INFO - Row 265 completed
+2025-11-09 23:48:24,925 - INFO - Processing 269/288
+2025-11-09 23:48:24,930 - INFO - Saved answer 265 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:48:24,930 - INFO - Progress: 265/288 pending completed
+2025-11-09 23:48:53,808 - INFO - Row 266 completed
+2025-11-09 23:48:53,808 - INFO - Processing 270/288
+2025-11-09 23:48:53,813 - INFO - Saved answer 266 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:48:53,813 - INFO - Progress: 266/288 pending completed
+2025-11-09 23:49:24,900 - INFO - Row 267 completed
+2025-11-09 23:49:24,901 - INFO - Processing 271/288
+2025-11-09 23:49:24,906 - INFO - Saved answer 267 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:49:24,906 - INFO - Progress: 267/288 pending completed
+2025-11-09 23:49:52,871 - INFO - Row 268 completed
+2025-11-09 23:49:52,871 - INFO - Processing 272/288
+2025-11-09 23:49:52,876 - INFO - Saved answer 268 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:49:52,876 - INFO - Progress: 268/288 pending completed
+2025-11-09 23:50:21,459 - INFO - Row 269 completed
+2025-11-09 23:50:21,459 - INFO - Processing 273/288
+2025-11-09 23:50:21,464 - INFO - Saved answer 269 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:50:21,464 - INFO - Progress: 269/288 pending completed
+2025-11-09 23:50:55,962 - INFO - Row 270 completed
+2025-11-09 23:50:55,962 - INFO - Processing 274/288
+2025-11-09 23:50:55,967 - INFO - Saved answer 270 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:50:55,967 - INFO - Progress: 270/288 pending completed
+2025-11-09 23:51:22,582 - INFO - Row 271 completed
+2025-11-09 23:51:22,582 - INFO - Processing 275/288
+2025-11-09 23:51:22,587 - INFO - Saved answer 271 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:51:22,588 - INFO - Progress: 271/288 pending completed
+2025-11-09 23:51:56,934 - INFO - Row 272 completed
+2025-11-09 23:51:56,934 - INFO - Processing 276/288
+2025-11-09 23:51:56,939 - INFO - Saved answer 272 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:51:56,939 - INFO - Progress: 272/288 pending completed
+2025-11-09 23:52:23,075 - INFO - Row 273 completed
+2025-11-09 23:52:23,076 - INFO - Processing 277/288
+2025-11-09 23:52:23,081 - INFO - Saved answer 273 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:52:23,081 - INFO - Progress: 273/288 pending completed
+2025-11-09 23:52:54,930 - INFO - Row 274 completed
+2025-11-09 23:52:54,931 - INFO - Processing 278/288
+2025-11-09 23:52:54,935 - INFO - Saved answer 274 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:52:54,935 - INFO - Progress: 274/288 pending completed
+2025-11-09 23:53:24,698 - INFO - Row 275 completed
+2025-11-09 23:53:24,698 - INFO - Processing 279/288
+2025-11-09 23:53:24,704 - INFO - Saved answer 275 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:53:24,704 - INFO - Progress: 275/288 pending completed
+2025-11-09 23:53:53,454 - INFO - Row 276 completed
+2025-11-09 23:53:53,454 - INFO - Processing 280/288
+2025-11-09 23:53:53,459 - INFO - Saved answer 276 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:53:53,459 - INFO - Progress: 276/288 pending completed
+2025-11-09 23:54:22,905 - INFO - Row 277 completed
+2025-11-09 23:54:22,905 - INFO - Processing 281/288
+2025-11-09 23:54:22,911 - INFO - Saved answer 277 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:54:22,911 - INFO - Progress: 277/288 pending completed
+2025-11-09 23:54:54,368 - INFO - Row 278 completed
+2025-11-09 23:54:54,368 - INFO - Processing 282/288
+2025-11-09 23:54:54,373 - INFO - Saved answer 278 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:54:54,373 - INFO - Progress: 278/288 pending completed
+2025-11-09 23:55:23,637 - INFO - Row 279 completed
+2025-11-09 23:55:23,637 - INFO - Processing 283/288
+2025-11-09 23:55:23,643 - INFO - Saved answer 279 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:55:23,643 - INFO - Progress: 279/288 pending completed
+2025-11-09 23:55:54,433 - INFO - Row 280 completed
+2025-11-09 23:55:54,433 - INFO - Processing 284/288
+2025-11-09 23:55:54,438 - INFO - Saved answer 280 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:55:54,438 - INFO - Progress: 280/288 pending completed
+2025-11-09 23:56:24,126 - INFO - Row 281 completed
+2025-11-09 23:56:24,126 - INFO - Processing 285/288
+2025-11-09 23:56:24,131 - INFO - Saved answer 281 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:56:24,132 - INFO - Progress: 281/288 pending completed
+2025-11-09 23:56:53,064 - INFO - Row 282 completed
+2025-11-09 23:56:53,064 - INFO - Processing 286/288
+2025-11-09 23:56:53,069 - INFO - Saved answer 282 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:56:53,069 - INFO - Progress: 282/288 pending completed
+2025-11-09 23:57:24,676 - INFO - Row 283 completed
+2025-11-09 23:57:24,677 - INFO - Processing 287/288
+2025-11-09 23:57:24,681 - INFO - Saved answer 283 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:57:24,682 - INFO - Progress: 283/288 pending completed
+2025-11-09 23:57:52,224 - INFO - Row 284 completed
+2025-11-09 23:57:52,224 - INFO - Processing 288/288
+2025-11-09 23:57:52,229 - INFO - Saved answer 284 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:57:52,229 - INFO - Progress: 284/288 pending completed
+2025-11-09 23:58:27,894 - INFO - Row 285 completed
+2025-11-09 23:58:27,900 - INFO - Saved answer 285 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:58:27,900 - INFO - Progress: 285/288 pending completed
+2025-11-09 23:58:51,275 - INFO - Row 286 completed
+2025-11-09 23:58:51,281 - INFO - Saved answer 286 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:58:51,281 - INFO - Progress: 286/288 pending completed
+2025-11-09 23:59:24,788 - INFO - Row 287 completed
+2025-11-09 23:59:24,794 - INFO - Saved answer 287 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:59:24,794 - INFO - Progress: 287/288 pending completed
+2025-11-09 23:59:54,943 - INFO - Row 288 completed
+2025-11-09 23:59:54,948 - INFO - Saved answer 288 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\google-gemini-2.5-pro_answers.csv
+2025-11-09 23:59:54,948 - INFO - Progress: 288/288 pending completed
+2025-11-09 23:59:54,950 - INFO - Done. Successes: 8, Fails: 1

@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e57ccd58-678f-4a97-bca1-bf0221dafa74" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HuggingFace/clean_translations.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HuggingFace/clean_translations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HuggingFace/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/HuggingFace/script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Router/answers/meta-llama-llama-4-scout-free_answers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Open Router/answers/meta-llama-llama-4-scout-free_answers.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open Router/answers/meta-llama-llama-3.3-70b-instruct-free_answers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Open Router/answers/meta-llama-llama-3.3-70b-instruct-free_answers.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Open Router/script_models_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open Router/script_models_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,6 +165,13 @@
       <workItem from="1762544230506" duration="120000" />
       <workItem from="1762598039257" duration="12257000" />
       <workItem from="1762640963282" duration="4807000" />
+      <workItem from="1762691841628" duration="6074000" />
+      <workItem from="1762710028159" duration="4951000" />
+      <workItem from="1762763055076" duration="9264000" />
+      <workItem from="1762798912197" duration="6321000" />
+      <workItem from="1762846671348" duration="11780000" />
+      <workItem from="1762875021083" duration="4218000" />
+      <workItem from="1762885902249" duration="1244000" />
     </task>
     <servers />
   </component>
@@ -176,8 +180,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCharmMiscProject$script.coverage" NAME="script Coverage Results" MODIFIED="1762100958066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Helicone" />
-    <SUITE FILE_PATH="coverage/script_py$script_models_config.coverage" NAME="script_models_config Coverage Results" MODIFIED="1762618790956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Open Router" />
-    <SUITE FILE_PATH="coverage/script_py$script.coverage" NAME="script Coverage Results" MODIFIED="1762641025642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Open Router" />
+    <SUITE FILE_PATH="coverage/script_py$script_models_config.coverage" NAME="script_models_config Coverage Results" MODIFIED="1762799038335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Open Router" />
+    <SUITE FILE_PATH="coverage/script_py$script.coverage" NAME="script Coverage Results" MODIFIED="1762885941608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Open Router" />
     <SUITE FILE_PATH="coverage/PyCharmMiscProject$HuggingFace.coverage" NAME="HuggingFace Coverage Results" MODIFIED="1762012751583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ollama" />
     <SUITE FILE_PATH="coverage/PyCharmMiscProject$check_dependencies.coverage" NAME="check_dependencies Coverage Results" MODIFIED="1761508556812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/script_py$HuggingFace.coverage" NAME="HuggingFace Coverage Results" MODIFIED="1762641013437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ollama" />

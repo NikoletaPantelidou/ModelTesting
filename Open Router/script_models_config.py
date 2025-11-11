@@ -34,6 +34,61 @@ MODELS = [
         "use_qa_pipeline": False,
         "trust_remote_code": False
     },
+    {
+        "name": "x-ai/grok-4-fast",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+    {
+        "name": "google/gemini-2.5-flash",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+    {
+        "name": "google/gemini-2.5-pro",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+    {
+        "name": "anthropic/claude-sonnet-4.5",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+    {
+        "name": "anthropic/claude-haiku-4.5",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+    {
+        "name": "anthropic/claude-opus-4",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+    {
+        "name": "microsoft/phi-4-reasoning-plus",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+    {
+        "name": "arcee-ai/virtuoso-large",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+    {
+        "name": "allenai/olmo-2-0325-32b-instruct",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+    {
+        "name": "nvidia/nemotron-nano-9b-v2:free",
+        "use_qa_pipeline": False,
+        "trust_remote_code": False
+    },
+
+
+
+
+
 
 ]
 

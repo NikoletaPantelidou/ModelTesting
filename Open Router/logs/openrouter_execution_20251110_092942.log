@@ -1,0 +1,1172 @@
+2025-11-10 09:29:42,012 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-10 09:29:42,026 - INFO - Processing model openai/gpt-5
+2025-11-10 09:29:42,030 - INFO - No pending prompts
+2025-11-10 09:29:42,038 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-10 09:29:42,047 - INFO - No pending prompts
+2025-11-10 09:29:42,053 - INFO - Processing model meta-llama/llama-4-scout:free
+2025-11-10 09:29:42,058 - INFO - No pending prompts
+2025-11-10 09:29:42,064 - INFO - Processing model google/gemma-3-4b-it:free
+2025-11-10 09:29:42,070 - INFO - No pending prompts
+2025-11-10 09:29:42,079 - INFO - Processing model openai/chatgpt-4o-latest
+2025-11-10 09:29:42,085 - INFO - No pending prompts
+2025-11-10 09:29:42,090 - INFO - Processing model x-ai/grok-4-fast
+2025-11-10 09:29:42,094 - INFO - No pending prompts
+2025-11-10 09:29:42,102 - INFO - Processing model google/gemini-2.5-flash
+2025-11-10 09:29:42,109 - INFO - No pending prompts
+2025-11-10 09:29:42,115 - INFO - Processing model google/gemini-2.5-pro
+2025-11-10 09:29:42,121 - INFO - No pending prompts
+2025-11-10 09:29:42,121 - INFO - Processing model anthropic/claude-sonnet-4.5
+2025-11-10 09:29:42,123 - INFO - Processing 1/288
+2025-11-10 09:29:42,124 - INFO - Processing 2/288
+2025-11-10 09:29:42,125 - INFO - Processing 3/288
+2025-11-10 09:29:42,125 - INFO - Processing 4/288
+2025-11-10 09:29:48,035 - INFO - Row 1 completed
+2025-11-10 09:29:48,035 - INFO - Processing 5/288
+2025-11-10 09:29:48,048 - INFO - Saved answer 1 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:29:48,048 - INFO - Progress: 1/288 pending completed
+2025-11-10 09:30:16,549 - INFO - Row 2 completed
+2025-11-10 09:30:16,550 - INFO - Processing 6/288
+2025-11-10 09:30:16,758 - INFO - Saved answer 2 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:30:16,758 - INFO - Progress: 2/288 pending completed
+2025-11-10 09:30:48,235 - INFO - Row 3 completed
+2025-11-10 09:30:48,235 - INFO - Processing 7/288
+2025-11-10 09:30:48,239 - INFO - Saved answer 3 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:30:48,239 - INFO - Progress: 3/288 pending completed
+2025-11-10 09:31:17,897 - INFO - Row 4 completed
+2025-11-10 09:31:17,897 - INFO - Processing 8/288
+2025-11-10 09:31:17,901 - INFO - Saved answer 4 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:31:17,901 - INFO - Progress: 4/288 pending completed
+2025-11-10 09:31:47,480 - INFO - Row 5 completed
+2025-11-10 09:31:47,480 - INFO - Processing 9/288
+2025-11-10 09:31:47,485 - INFO - Saved answer 5 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:31:47,485 - INFO - Progress: 5/288 pending completed
+2025-11-10 09:32:17,846 - INFO - Row 6 completed
+2025-11-10 09:32:17,846 - INFO - Processing 10/288
+2025-11-10 09:32:17,852 - INFO - Saved answer 6 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:32:17,852 - INFO - Progress: 6/288 pending completed
+2025-11-10 09:32:48,775 - INFO - Row 7 completed
+2025-11-10 09:32:48,775 - INFO - Processing 11/288
+2025-11-10 09:32:48,780 - INFO - Saved answer 7 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:32:48,780 - INFO - Progress: 7/288 pending completed
+2025-11-10 09:33:17,334 - INFO - Row 8 completed
+2025-11-10 09:33:17,335 - INFO - Processing 12/288
+2025-11-10 09:33:17,340 - INFO - Saved answer 8 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:33:17,340 - INFO - Progress: 8/288 pending completed
+2025-11-10 09:33:48,888 - INFO - Row 9 completed
+2025-11-10 09:33:48,889 - INFO - Processing 13/288
+2025-11-10 09:33:48,894 - INFO - Saved answer 9 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:33:48,894 - INFO - Progress: 9/288 pending completed
+2025-11-10 09:34:19,037 - INFO - Row 10 completed
+2025-11-10 09:34:19,037 - INFO - Processing 14/288
+2025-11-10 09:34:19,041 - INFO - Saved answer 10 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:34:19,042 - INFO - Progress: 10/288 pending completed
+2025-11-10 09:34:46,975 - INFO - Row 11 completed
+2025-11-10 09:34:46,976 - INFO - Processing 15/288
+2025-11-10 09:34:46,980 - INFO - Saved answer 11 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:34:46,981 - INFO - Progress: 11/288 pending completed
+2025-11-10 09:35:17,864 - INFO - Row 12 completed
+2025-11-10 09:35:17,865 - INFO - Processing 16/288
+2025-11-10 09:35:17,869 - INFO - Saved answer 12 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:35:17,869 - INFO - Progress: 12/288 pending completed
+2025-11-10 09:35:48,867 - INFO - Row 13 completed
+2025-11-10 09:35:48,867 - INFO - Processing 17/288
+2025-11-10 09:35:48,872 - INFO - Saved answer 13 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:35:48,872 - INFO - Progress: 13/288 pending completed
+2025-11-10 09:36:18,013 - INFO - Row 14 completed
+2025-11-10 09:36:18,013 - INFO - Processing 18/288
+2025-11-10 09:36:18,018 - INFO - Saved answer 14 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:36:18,018 - INFO - Progress: 14/288 pending completed
+2025-11-10 09:36:47,400 - INFO - Row 15 completed
+2025-11-10 09:36:47,400 - INFO - Processing 19/288
+2025-11-10 09:36:47,405 - INFO - Saved answer 15 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:36:47,406 - INFO - Progress: 15/288 pending completed
+2025-11-10 09:37:19,249 - INFO - Row 16 completed
+2025-11-10 09:37:19,249 - INFO - Processing 20/288
+2025-11-10 09:37:19,254 - INFO - Saved answer 16 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:37:19,254 - INFO - Progress: 16/288 pending completed
+2025-11-10 09:37:47,014 - INFO - Row 17 completed
+2025-11-10 09:37:47,014 - INFO - Processing 21/288
+2025-11-10 09:37:47,019 - INFO - Saved answer 17 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:37:47,019 - INFO - Progress: 17/288 pending completed
+2025-11-10 09:38:18,071 - INFO - Row 18 completed
+2025-11-10 09:38:18,071 - INFO - Processing 22/288
+2025-11-10 09:38:18,075 - INFO - Saved answer 18 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:38:18,075 - INFO - Progress: 18/288 pending completed
+2025-11-10 09:38:49,484 - INFO - Row 19 completed
+2025-11-10 09:38:49,484 - INFO - Processing 23/288
+2025-11-10 09:38:49,489 - INFO - Saved answer 19 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:38:49,490 - INFO - Progress: 19/288 pending completed
+2025-11-10 09:39:17,862 - INFO - Row 20 completed
+2025-11-10 09:39:17,862 - INFO - Processing 24/288
+2025-11-10 09:39:17,868 - INFO - Saved answer 20 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:39:17,868 - INFO - Progress: 20/288 pending completed
+2025-11-10 09:39:48,387 - INFO - Row 21 completed
+2025-11-10 09:39:48,388 - INFO - Processing 25/288
+2025-11-10 09:39:48,392 - INFO - Saved answer 21 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:39:48,392 - INFO - Progress: 21/288 pending completed
+2025-11-10 09:40:19,180 - INFO - Row 22 completed
+2025-11-10 09:40:19,180 - INFO - Processing 26/288
+2025-11-10 09:40:19,185 - INFO - Saved answer 22 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:40:19,185 - INFO - Progress: 22/288 pending completed
+2025-11-10 09:40:48,310 - INFO - Row 23 completed
+2025-11-10 09:40:48,310 - INFO - Processing 27/288
+2025-11-10 09:40:48,314 - INFO - Saved answer 23 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:40:48,314 - INFO - Progress: 23/288 pending completed
+2025-11-10 09:41:17,966 - INFO - Row 24 completed
+2025-11-10 09:41:17,966 - INFO - Processing 28/288
+2025-11-10 09:41:17,971 - INFO - Saved answer 24 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:41:17,971 - INFO - Progress: 24/288 pending completed
+2025-11-10 09:41:49,668 - INFO - Row 25 completed
+2025-11-10 09:41:49,668 - INFO - Processing 29/288
+2025-11-10 09:41:49,673 - INFO - Saved answer 25 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:41:49,673 - INFO - Progress: 25/288 pending completed
+2025-11-10 09:42:17,225 - INFO - Row 26 completed
+2025-11-10 09:42:17,225 - INFO - Processing 30/288
+2025-11-10 09:42:17,229 - INFO - Saved answer 26 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:42:17,229 - INFO - Progress: 26/288 pending completed
+2025-11-10 09:42:50,730 - INFO - Row 27 completed
+2025-11-10 09:42:50,730 - INFO - Processing 31/288
+2025-11-10 09:42:50,735 - INFO - Saved answer 27 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:42:50,736 - INFO - Progress: 27/288 pending completed
+2025-11-10 09:43:16,861 - INFO - Row 28 completed
+2025-11-10 09:43:16,861 - INFO - Processing 32/288
+2025-11-10 09:43:16,865 - INFO - Saved answer 28 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:43:16,865 - INFO - Progress: 28/288 pending completed
+2025-11-10 09:43:45,461 - INFO - Row 29 completed
+2025-11-10 09:43:45,461 - INFO - Processing 33/288
+2025-11-10 09:43:45,466 - INFO - Saved answer 29 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:43:45,467 - INFO - Progress: 29/288 pending completed
+2025-11-10 09:44:15,795 - INFO - Row 30 completed
+2025-11-10 09:44:15,796 - INFO - Processing 34/288
+2025-11-10 09:44:15,800 - INFO - Saved answer 30 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:44:15,800 - INFO - Progress: 30/288 pending completed
+2025-11-10 09:44:45,916 - INFO - Row 31 completed
+2025-11-10 09:44:45,916 - INFO - Processing 35/288
+2025-11-10 09:44:45,922 - INFO - Saved answer 31 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:44:45,922 - INFO - Progress: 31/288 pending completed
+2025-11-10 09:45:16,796 - INFO - Row 32 completed
+2025-11-10 09:45:16,796 - INFO - Processing 36/288
+2025-11-10 09:45:16,801 - INFO - Saved answer 32 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:45:16,801 - INFO - Progress: 32/288 pending completed
+2025-11-10 09:45:45,984 - INFO - Row 33 completed
+2025-11-10 09:45:45,984 - INFO - Processing 37/288
+2025-11-10 09:45:45,989 - INFO - Saved answer 33 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:45:45,990 - INFO - Progress: 33/288 pending completed
+2025-11-10 09:46:15,265 - INFO - Row 34 completed
+2025-11-10 09:46:15,266 - INFO - Processing 38/288
+2025-11-10 09:46:15,270 - INFO - Saved answer 34 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:46:15,270 - INFO - Progress: 34/288 pending completed
+2025-11-10 09:46:45,118 - INFO - Row 35 completed
+2025-11-10 09:46:45,118 - INFO - Processing 39/288
+2025-11-10 09:46:45,124 - INFO - Saved answer 35 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:46:45,124 - INFO - Progress: 35/288 pending completed
+2025-11-10 09:47:16,944 - INFO - Row 36 completed
+2025-11-10 09:47:16,944 - INFO - Processing 40/288
+2025-11-10 09:47:16,950 - INFO - Saved answer 36 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:47:16,950 - INFO - Progress: 36/288 pending completed
+2025-11-10 09:47:46,539 - INFO - Row 37 completed
+2025-11-10 09:47:46,539 - INFO - Processing 41/288
+2025-11-10 09:47:46,544 - INFO - Saved answer 37 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:47:46,544 - INFO - Progress: 37/288 pending completed
+2025-11-10 09:48:15,213 - INFO - Row 38 completed
+2025-11-10 09:48:15,214 - INFO - Processing 42/288
+2025-11-10 09:48:15,218 - INFO - Saved answer 38 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:48:15,218 - INFO - Progress: 38/288 pending completed
+2025-11-10 09:48:44,971 - INFO - Row 39 completed
+2025-11-10 09:48:44,971 - INFO - Processing 43/288
+2025-11-10 09:48:44,975 - INFO - Saved answer 39 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:48:44,976 - INFO - Progress: 39/288 pending completed
+2025-11-10 09:49:16,359 - INFO - Row 40 completed
+2025-11-10 09:49:16,360 - INFO - Processing 44/288
+2025-11-10 09:49:16,365 - INFO - Saved answer 40 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:49:16,365 - INFO - Progress: 40/288 pending completed
+2025-11-10 09:49:45,119 - INFO - Row 41 completed
+2025-11-10 09:49:45,119 - INFO - Processing 45/288
+2025-11-10 09:49:45,124 - INFO - Saved answer 41 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:49:45,124 - INFO - Progress: 41/288 pending completed
+2025-11-10 09:50:15,112 - INFO - Row 42 completed
+2025-11-10 09:50:15,113 - INFO - Processing 46/288
+2025-11-10 09:50:15,118 - INFO - Saved answer 42 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:50:15,119 - INFO - Progress: 42/288 pending completed
+2025-11-10 09:50:44,850 - INFO - Row 43 completed
+2025-11-10 09:50:44,850 - INFO - Processing 47/288
+2025-11-10 09:50:44,855 - INFO - Saved answer 43 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:50:44,855 - INFO - Progress: 43/288 pending completed
+2025-11-10 09:51:17,418 - INFO - Row 44 completed
+2025-11-10 09:51:17,418 - INFO - Processing 48/288
+2025-11-10 09:51:17,423 - INFO - Saved answer 44 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:51:17,423 - INFO - Progress: 44/288 pending completed
+2025-11-10 09:51:44,963 - INFO - Row 45 completed
+2025-11-10 09:51:44,964 - INFO - Processing 49/288
+2025-11-10 09:51:44,969 - INFO - Saved answer 45 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:51:44,970 - INFO - Progress: 45/288 pending completed
+2025-11-10 09:52:19,611 - INFO - Row 46 completed
+2025-11-10 09:52:19,611 - INFO - Processing 50/288
+2025-11-10 09:52:19,616 - INFO - Saved answer 46 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:52:19,616 - INFO - Progress: 46/288 pending completed
+2025-11-10 09:52:46,696 - INFO - Row 47 completed
+2025-11-10 09:52:46,696 - INFO - Processing 51/288
+2025-11-10 09:52:46,700 - INFO - Saved answer 47 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:52:46,700 - INFO - Progress: 47/288 pending completed
+2025-11-10 09:53:17,040 - INFO - Row 48 completed
+2025-11-10 09:53:17,040 - INFO - Processing 52/288
+2025-11-10 09:53:17,044 - INFO - Saved answer 48 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:53:17,045 - INFO - Progress: 48/288 pending completed
+2025-11-10 09:53:48,581 - INFO - Row 49 completed
+2025-11-10 09:53:48,581 - INFO - Processing 53/288
+2025-11-10 09:53:48,586 - INFO - Saved answer 49 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:53:48,586 - INFO - Progress: 49/288 pending completed
+2025-11-10 09:54:18,441 - INFO - Row 50 completed
+2025-11-10 09:54:18,442 - INFO - Processing 54/288
+2025-11-10 09:54:18,446 - INFO - Saved answer 50 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:54:18,446 - INFO - Progress: 50/288 pending completed
+2025-11-10 09:54:46,325 - INFO - Row 51 completed
+2025-11-10 09:54:46,325 - INFO - Processing 55/288
+2025-11-10 09:54:46,330 - INFO - Saved answer 51 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:54:46,330 - INFO - Progress: 51/288 pending completed
+2025-11-10 09:55:18,608 - INFO - Row 52 completed
+2025-11-10 09:55:18,609 - INFO - Processing 56/288
+2025-11-10 09:55:18,614 - INFO - Saved answer 52 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:55:18,614 - INFO - Progress: 52/288 pending completed
+2025-11-10 09:55:46,208 - INFO - Row 53 completed
+2025-11-10 09:55:46,208 - INFO - Processing 57/288
+2025-11-10 09:55:46,214 - INFO - Saved answer 53 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:55:46,214 - INFO - Progress: 53/288 pending completed
+2025-11-10 09:56:17,499 - INFO - Row 54 completed
+2025-11-10 09:56:17,499 - INFO - Processing 58/288
+2025-11-10 09:56:17,504 - INFO - Saved answer 54 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:56:17,504 - INFO - Progress: 54/288 pending completed
+2025-11-10 09:56:49,560 - INFO - Row 55 completed
+2025-11-10 09:56:49,560 - INFO - Processing 59/288
+2025-11-10 09:56:49,566 - INFO - Saved answer 55 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:56:49,566 - INFO - Progress: 55/288 pending completed
+2025-11-10 09:57:15,638 - INFO - Row 56 completed
+2025-11-10 09:57:15,639 - INFO - Processing 60/288
+2025-11-10 09:57:15,643 - INFO - Saved answer 56 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:57:15,643 - INFO - Progress: 56/288 pending completed
+2025-11-10 09:57:47,817 - INFO - Row 57 completed
+2025-11-10 09:57:47,817 - INFO - Processing 61/288
+2025-11-10 09:57:47,822 - INFO - Saved answer 57 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:57:47,822 - INFO - Progress: 57/288 pending completed
+2025-11-10 09:58:20,053 - INFO - Row 58 completed
+2025-11-10 09:58:20,053 - INFO - Processing 62/288
+2025-11-10 09:58:20,059 - INFO - Saved answer 58 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:58:20,059 - INFO - Progress: 58/288 pending completed
+2025-11-10 09:58:48,230 - INFO - Row 59 completed
+2025-11-10 09:58:48,230 - INFO - Processing 63/288
+2025-11-10 09:58:48,236 - INFO - Saved answer 59 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:58:48,236 - INFO - Progress: 59/288 pending completed
+2025-11-10 09:59:17,656 - INFO - Row 60 completed
+2025-11-10 09:59:17,656 - INFO - Processing 64/288
+2025-11-10 09:59:17,661 - INFO - Saved answer 60 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:59:17,661 - INFO - Progress: 60/288 pending completed
+2025-11-10 09:59:50,101 - INFO - Row 61 completed
+2025-11-10 09:59:50,101 - INFO - Processing 65/288
+2025-11-10 09:59:50,106 - INFO - Saved answer 61 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 09:59:50,106 - INFO - Progress: 61/288 pending completed
+2025-11-10 10:00:22,302 - INFO - Row 62 completed
+2025-11-10 10:00:22,302 - INFO - Processing 66/288
+2025-11-10 10:00:22,309 - INFO - Saved answer 62 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:00:22,309 - INFO - Progress: 62/288 pending completed
+2025-11-10 10:00:46,717 - INFO - Row 63 completed
+2025-11-10 10:00:46,717 - INFO - Processing 67/288
+2025-11-10 10:00:46,722 - INFO - Saved answer 63 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:00:46,722 - INFO - Progress: 63/288 pending completed
+2025-11-10 10:01:27,572 - INFO - Row 64 completed
+2025-11-10 10:01:27,572 - INFO - Processing 68/288
+2025-11-10 10:01:27,577 - INFO - Saved answer 64 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:01:27,578 - INFO - Progress: 64/288 pending completed
+2025-11-10 10:01:53,961 - INFO - Row 65 completed
+2025-11-10 10:01:53,962 - INFO - Processing 69/288
+2025-11-10 10:01:53,967 - INFO - Saved answer 65 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:01:53,967 - INFO - Progress: 65/288 pending completed
+2025-11-10 10:02:20,856 - INFO - Row 66 completed
+2025-11-10 10:02:20,857 - INFO - Processing 70/288
+2025-11-10 10:02:20,862 - INFO - Saved answer 66 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:02:20,862 - INFO - Progress: 66/288 pending completed
+2025-11-10 10:02:50,074 - INFO - Row 67 completed
+2025-11-10 10:02:50,074 - INFO - Processing 71/288
+2025-11-10 10:02:50,079 - INFO - Saved answer 67 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:02:50,079 - INFO - Progress: 67/288 pending completed
+2025-11-10 10:03:20,539 - INFO - Row 68 completed
+2025-11-10 10:03:20,539 - INFO - Processing 72/288
+2025-11-10 10:03:20,545 - INFO - Saved answer 68 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:03:20,545 - INFO - Progress: 68/288 pending completed
+2025-11-10 10:03:51,329 - ERROR - Error processing row 69: Network error calling OpenRouter: ('Connection aborted.', ConnectionResetError(10054, 'Μια υπάρχουσα σύνδεση διακόπηκε υποχρεωτικά από τον απομακρυσμένο υπολογιστή', None, 10054, None))
+2025-11-10 10:03:51,330 - INFO - Processing 73/288
+2025-11-10 10:03:51,336 - INFO - Saved answer 69 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:03:51,336 - INFO - Progress: 69/288 pending completed
+2025-11-10 10:04:28,462 - INFO - Row 70 completed
+2025-11-10 10:04:28,462 - INFO - Processing 74/288
+2025-11-10 10:04:28,467 - INFO - Saved answer 70 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:04:28,468 - INFO - Progress: 70/288 pending completed
+2025-11-10 10:04:48,288 - INFO - Row 71 completed
+2025-11-10 10:04:48,288 - INFO - Processing 75/288
+2025-11-10 10:04:48,293 - INFO - Saved answer 71 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:04:48,294 - INFO - Progress: 71/288 pending completed
+2025-11-10 10:05:18,484 - INFO - Row 72 completed
+2025-11-10 10:05:18,484 - INFO - Processing 76/288
+2025-11-10 10:05:18,489 - INFO - Saved answer 72 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:05:18,490 - INFO - Progress: 72/288 pending completed
+2025-11-10 10:05:47,830 - INFO - Row 73 completed
+2025-11-10 10:05:47,830 - INFO - Processing 77/288
+2025-11-10 10:05:47,836 - INFO - Saved answer 73 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:05:47,836 - INFO - Progress: 73/288 pending completed
+2025-11-10 10:06:21,177 - INFO - Row 74 completed
+2025-11-10 10:06:21,177 - INFO - Processing 78/288
+2025-11-10 10:06:21,182 - INFO - Saved answer 74 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:06:21,182 - INFO - Progress: 74/288 pending completed
+2025-11-10 10:06:49,159 - INFO - Row 75 completed
+2025-11-10 10:06:49,159 - INFO - Processing 79/288
+2025-11-10 10:06:49,168 - INFO - Saved answer 75 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:06:49,169 - INFO - Progress: 75/288 pending completed
+2025-11-10 10:07:23,227 - ERROR - Error processing row 76: Network error calling OpenRouter: HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022CDD3A3ED0>: Failed to resolve 'openrouter.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-11-10 10:07:23,227 - INFO - Processing 80/288
+2025-11-10 10:07:23,233 - INFO - Saved answer 76 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:07:23,233 - INFO - Progress: 76/288 pending completed
+2025-11-10 10:08:00,284 - INFO - Row 77 completed
+2025-11-10 10:08:00,284 - INFO - Processing 81/288
+2025-11-10 10:08:00,298 - INFO - Saved answer 77 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:08:00,298 - INFO - Progress: 77/288 pending completed
+2025-11-10 10:08:59,831 - INFO - Row 79 completed
+2025-11-10 10:08:59,832 - INFO - Processing 82/288
+2025-11-10 10:08:59,837 - INFO - Saved answer 79 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:08:59,837 - INFO - Progress: 78/288 pending completed
+2025-11-10 10:09:15,402 - ERROR - Error processing row 78: Network error calling OpenRouter: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=60)
+2025-11-10 10:09:15,402 - INFO - Processing 83/288
+2025-11-10 10:09:15,419 - INFO - Saved answer 78 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:09:15,419 - INFO - Progress: 79/288 pending completed
+2025-11-10 10:09:23,234 - ERROR - Error processing row 80: Network error calling OpenRouter: HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022CDD3A34D0>: Failed to resolve 'openrouter.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-11-10 10:09:23,234 - INFO - Processing 84/288
+2025-11-10 10:09:23,240 - INFO - Saved answer 80 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:09:23,240 - INFO - Progress: 80/288 pending completed
+2025-11-10 10:09:57,879 - INFO - Row 81 completed
+2025-11-10 10:09:57,879 - INFO - Processing 85/288
+2025-11-10 10:09:57,884 - INFO - Saved answer 81 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:09:57,885 - INFO - Progress: 81/288 pending completed
+2025-11-10 10:10:17,450 - INFO - Row 82 completed
+2025-11-10 10:10:17,450 - INFO - Processing 86/288
+2025-11-10 10:10:17,455 - INFO - Saved answer 82 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:10:17,455 - INFO - Progress: 82/288 pending completed
+2025-11-10 10:10:52,234 - INFO - Row 83 completed
+2025-11-10 10:10:52,235 - INFO - Processing 87/288
+2025-11-10 10:10:52,240 - INFO - Saved answer 83 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:10:52,240 - INFO - Progress: 83/288 pending completed
+2025-11-10 10:11:19,533 - INFO - Row 84 completed
+2025-11-10 10:11:19,534 - INFO - Processing 88/288
+2025-11-10 10:11:19,539 - INFO - Saved answer 84 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:11:19,540 - INFO - Progress: 84/288 pending completed
+2025-11-10 10:11:47,050 - INFO - Row 85 completed
+2025-11-10 10:11:47,051 - INFO - Processing 89/288
+2025-11-10 10:11:47,056 - INFO - Saved answer 85 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:11:47,056 - INFO - Progress: 85/288 pending completed
+2025-11-10 10:12:17,649 - INFO - Row 86 completed
+2025-11-10 10:12:17,649 - INFO - Processing 90/288
+2025-11-10 10:12:17,654 - INFO - Saved answer 86 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:12:17,655 - INFO - Progress: 86/288 pending completed
+2025-11-10 10:12:50,263 - INFO - Row 87 completed
+2025-11-10 10:12:50,263 - INFO - Processing 91/288
+2025-11-10 10:12:50,269 - INFO - Saved answer 87 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:12:50,269 - INFO - Progress: 87/288 pending completed
+2025-11-10 10:13:16,993 - INFO - Row 88 completed
+2025-11-10 10:13:16,994 - INFO - Processing 92/288
+2025-11-10 10:13:16,999 - INFO - Saved answer 88 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:13:16,999 - INFO - Progress: 88/288 pending completed
+2025-11-10 10:13:48,699 - INFO - Row 89 completed
+2025-11-10 10:13:48,700 - INFO - Processing 93/288
+2025-11-10 10:13:48,706 - INFO - Saved answer 89 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:13:48,707 - INFO - Progress: 89/288 pending completed
+2025-11-10 10:14:21,236 - INFO - Row 90 completed
+2025-11-10 10:14:21,236 - INFO - Processing 94/288
+2025-11-10 10:14:21,241 - INFO - Saved answer 90 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:14:21,242 - INFO - Progress: 90/288 pending completed
+2025-11-10 10:14:47,194 - INFO - Row 91 completed
+2025-11-10 10:14:47,195 - INFO - Processing 95/288
+2025-11-10 10:14:47,200 - INFO - Saved answer 91 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:14:47,200 - INFO - Progress: 91/288 pending completed
+2025-11-10 10:15:18,861 - INFO - Row 92 completed
+2025-11-10 10:15:18,861 - INFO - Processing 96/288
+2025-11-10 10:15:18,866 - INFO - Saved answer 92 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:15:18,867 - INFO - Progress: 92/288 pending completed
+2025-11-10 10:15:49,713 - INFO - Row 93 completed
+2025-11-10 10:15:49,714 - INFO - Processing 97/288
+2025-11-10 10:15:49,722 - INFO - Saved answer 93 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:15:49,723 - INFO - Progress: 93/288 pending completed
+2025-11-10 10:16:18,583 - INFO - Row 94 completed
+2025-11-10 10:16:18,583 - INFO - Processing 98/288
+2025-11-10 10:16:18,588 - INFO - Saved answer 94 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:16:18,589 - INFO - Progress: 94/288 pending completed
+2025-11-10 10:16:49,882 - INFO - Row 95 completed
+2025-11-10 10:16:49,882 - INFO - Processing 99/288
+2025-11-10 10:16:49,888 - INFO - Saved answer 95 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:16:49,888 - INFO - Progress: 95/288 pending completed
+2025-11-10 10:17:20,004 - INFO - Row 96 completed
+2025-11-10 10:17:20,004 - INFO - Processing 100/288
+2025-11-10 10:17:20,010 - INFO - Saved answer 96 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:17:20,010 - INFO - Progress: 96/288 pending completed
+2025-11-10 10:17:47,397 - INFO - Row 97 completed
+2025-11-10 10:17:47,398 - INFO - Processing 101/288
+2025-11-10 10:17:47,407 - INFO - Saved answer 97 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:17:47,408 - INFO - Progress: 97/288 pending completed
+2025-11-10 10:18:20,430 - INFO - Row 98 completed
+2025-11-10 10:18:20,430 - INFO - Processing 102/288
+2025-11-10 10:18:20,436 - INFO - Saved answer 98 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:18:20,436 - INFO - Progress: 98/288 pending completed
+2025-11-10 10:18:48,727 - INFO - Row 99 completed
+2025-11-10 10:18:48,727 - INFO - Processing 103/288
+2025-11-10 10:18:48,733 - INFO - Saved answer 99 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:18:48,733 - INFO - Progress: 99/288 pending completed
+2025-11-10 10:19:16,368 - INFO - Row 100 completed
+2025-11-10 10:19:16,369 - INFO - Processing 104/288
+2025-11-10 10:19:16,375 - INFO - Saved answer 100 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:19:16,375 - INFO - Progress: 100/288 pending completed
+2025-11-10 10:19:46,208 - INFO - Row 101 completed
+2025-11-10 10:19:46,208 - INFO - Processing 105/288
+2025-11-10 10:19:46,214 - INFO - Saved answer 101 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:19:46,214 - INFO - Progress: 101/288 pending completed
+2025-11-10 10:20:16,544 - INFO - Row 102 completed
+2025-11-10 10:20:16,544 - INFO - Processing 106/288
+2025-11-10 10:20:16,550 - INFO - Saved answer 102 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:20:16,550 - INFO - Progress: 102/288 pending completed
+2025-11-10 10:20:47,136 - INFO - Row 103 completed
+2025-11-10 10:20:47,136 - INFO - Processing 107/288
+2025-11-10 10:20:47,141 - INFO - Saved answer 103 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:20:47,141 - INFO - Progress: 103/288 pending completed
+2025-11-10 10:21:17,291 - INFO - Row 104 completed
+2025-11-10 10:21:17,292 - INFO - Processing 108/288
+2025-11-10 10:21:17,297 - INFO - Saved answer 104 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:21:17,298 - INFO - Progress: 104/288 pending completed
+2025-11-10 10:21:46,704 - INFO - Row 105 completed
+2025-11-10 10:21:46,704 - INFO - Processing 109/288
+2025-11-10 10:21:46,710 - INFO - Saved answer 105 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:21:46,710 - INFO - Progress: 105/288 pending completed
+2025-11-10 10:22:15,676 - INFO - Row 106 completed
+2025-11-10 10:22:15,677 - INFO - Processing 110/288
+2025-11-10 10:22:15,683 - INFO - Saved answer 106 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:22:15,683 - INFO - Progress: 106/288 pending completed
+2025-11-10 10:22:45,785 - INFO - Row 107 completed
+2025-11-10 10:22:45,785 - INFO - Processing 111/288
+2025-11-10 10:22:45,791 - INFO - Saved answer 107 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:22:45,791 - INFO - Progress: 107/288 pending completed
+2025-11-10 10:23:29,032 - INFO - Row 108 completed
+2025-11-10 10:23:29,032 - INFO - Processing 112/288
+2025-11-10 10:23:29,038 - INFO - Saved answer 108 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:23:29,039 - INFO - Progress: 108/288 pending completed
+2025-11-10 10:23:47,182 - INFO - Row 109 completed
+2025-11-10 10:23:47,182 - INFO - Processing 113/288
+2025-11-10 10:23:47,187 - INFO - Saved answer 109 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:23:47,187 - INFO - Progress: 109/288 pending completed
+2025-11-10 10:24:17,457 - INFO - Row 110 completed
+2025-11-10 10:24:17,457 - INFO - Processing 114/288
+2025-11-10 10:24:17,462 - INFO - Saved answer 110 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:24:17,462 - INFO - Progress: 110/288 pending completed
+2025-11-10 10:24:44,650 - INFO - Row 111 completed
+2025-11-10 10:24:44,650 - INFO - Processing 115/288
+2025-11-10 10:24:44,656 - INFO - Saved answer 111 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:24:44,656 - INFO - Progress: 111/288 pending completed
+2025-11-10 10:25:16,685 - INFO - Row 112 completed
+2025-11-10 10:25:16,686 - INFO - Processing 116/288
+2025-11-10 10:25:16,692 - INFO - Saved answer 112 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:25:16,692 - INFO - Progress: 112/288 pending completed
+2025-11-10 10:25:46,494 - INFO - Row 113 completed
+2025-11-10 10:25:46,494 - INFO - Processing 117/288
+2025-11-10 10:25:46,500 - INFO - Saved answer 113 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:25:46,500 - INFO - Progress: 113/288 pending completed
+2025-11-10 10:26:15,606 - INFO - Row 114 completed
+2025-11-10 10:26:15,606 - INFO - Processing 118/288
+2025-11-10 10:26:15,612 - INFO - Saved answer 114 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:26:15,612 - INFO - Progress: 114/288 pending completed
+2025-11-10 10:26:47,204 - INFO - Row 115 completed
+2025-11-10 10:26:47,205 - INFO - Processing 119/288
+2025-11-10 10:26:47,211 - INFO - Saved answer 115 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:26:47,211 - INFO - Progress: 115/288 pending completed
+2025-11-10 10:27:15,692 - INFO - Row 116 completed
+2025-11-10 10:27:15,693 - INFO - Processing 120/288
+2025-11-10 10:27:15,699 - INFO - Saved answer 116 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:27:15,699 - INFO - Progress: 116/288 pending completed
+2025-11-10 10:27:45,308 - INFO - Row 117 completed
+2025-11-10 10:27:45,308 - INFO - Processing 121/288
+2025-11-10 10:27:45,314 - INFO - Saved answer 117 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:27:45,314 - INFO - Progress: 117/288 pending completed
+2025-11-10 10:28:18,516 - INFO - Row 118 completed
+2025-11-10 10:28:18,517 - INFO - Processing 122/288
+2025-11-10 10:28:18,522 - INFO - Saved answer 118 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:28:18,522 - INFO - Progress: 118/288 pending completed
+2025-11-10 10:28:47,427 - INFO - Row 119 completed
+2025-11-10 10:28:47,427 - INFO - Processing 123/288
+2025-11-10 10:28:47,434 - INFO - Saved answer 119 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:28:47,434 - INFO - Progress: 119/288 pending completed
+2025-11-10 10:29:20,708 - INFO - Row 120 completed
+2025-11-10 10:29:20,709 - INFO - Processing 124/288
+2025-11-10 10:29:20,715 - INFO - Saved answer 120 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:29:20,715 - INFO - Progress: 120/288 pending completed
+2025-11-10 10:29:47,042 - INFO - Row 121 completed
+2025-11-10 10:29:47,042 - INFO - Processing 125/288
+2025-11-10 10:29:47,048 - INFO - Saved answer 121 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:29:47,048 - INFO - Progress: 121/288 pending completed
+2025-11-10 10:30:14,683 - INFO - Row 122 completed
+2025-11-10 10:30:14,683 - INFO - Processing 126/288
+2025-11-10 10:30:14,688 - INFO - Saved answer 122 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:30:14,689 - INFO - Progress: 122/288 pending completed
+2025-11-10 10:30:47,758 - INFO - Row 123 completed
+2025-11-10 10:30:47,758 - INFO - Processing 127/288
+2025-11-10 10:30:47,765 - INFO - Saved answer 123 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:30:47,765 - INFO - Progress: 123/288 pending completed
+2025-11-10 10:31:17,707 - INFO - Row 124 completed
+2025-11-10 10:31:17,707 - INFO - Processing 128/288
+2025-11-10 10:31:17,714 - INFO - Saved answer 124 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:31:17,714 - INFO - Progress: 124/288 pending completed
+2025-11-10 10:31:48,178 - INFO - Row 125 completed
+2025-11-10 10:31:48,179 - INFO - Processing 129/288
+2025-11-10 10:31:48,184 - INFO - Saved answer 125 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:31:48,184 - INFO - Progress: 125/288 pending completed
+2025-11-10 10:32:19,096 - INFO - Row 126 completed
+2025-11-10 10:32:19,096 - INFO - Processing 130/288
+2025-11-10 10:32:19,103 - INFO - Saved answer 126 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:32:19,103 - INFO - Progress: 126/288 pending completed
+2025-11-10 10:32:46,627 - INFO - Row 127 completed
+2025-11-10 10:32:46,628 - INFO - Processing 131/288
+2025-11-10 10:32:46,633 - INFO - Saved answer 127 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:32:46,633 - INFO - Progress: 127/288 pending completed
+2025-11-10 10:33:16,025 - INFO - Row 128 completed
+2025-11-10 10:33:16,025 - INFO - Processing 132/288
+2025-11-10 10:33:16,032 - INFO - Saved answer 128 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:33:16,032 - INFO - Progress: 128/288 pending completed
+2025-11-10 10:33:48,996 - INFO - Row 129 completed
+2025-11-10 10:33:48,996 - INFO - Processing 133/288
+2025-11-10 10:33:49,002 - INFO - Saved answer 129 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:33:49,002 - INFO - Progress: 129/288 pending completed
+2025-11-10 10:34:17,191 - INFO - Row 130 completed
+2025-11-10 10:34:17,191 - INFO - Processing 134/288
+2025-11-10 10:34:17,198 - INFO - Saved answer 130 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:34:17,198 - INFO - Progress: 130/288 pending completed
+2025-11-10 10:34:47,472 - INFO - Row 131 completed
+2025-11-10 10:34:47,472 - INFO - Processing 135/288
+2025-11-10 10:34:47,478 - INFO - Saved answer 131 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:34:47,478 - INFO - Progress: 131/288 pending completed
+2025-11-10 10:35:18,105 - INFO - Row 132 completed
+2025-11-10 10:35:18,105 - INFO - Processing 136/288
+2025-11-10 10:35:18,110 - INFO - Saved answer 132 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:35:18,110 - INFO - Progress: 132/288 pending completed
+2025-11-10 10:35:50,937 - INFO - Row 133 completed
+2025-11-10 10:35:50,937 - INFO - Processing 137/288
+2025-11-10 10:35:50,943 - INFO - Saved answer 133 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:35:50,943 - INFO - Progress: 133/288 pending completed
+2025-11-10 10:36:17,139 - INFO - Row 134 completed
+2025-11-10 10:36:17,140 - INFO - Processing 138/288
+2025-11-10 10:36:17,146 - INFO - Saved answer 134 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:36:17,146 - INFO - Progress: 134/288 pending completed
+2025-11-10 10:36:48,776 - INFO - Row 135 completed
+2025-11-10 10:36:48,776 - INFO - Processing 139/288
+2025-11-10 10:36:48,782 - INFO - Saved answer 135 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:36:48,782 - INFO - Progress: 135/288 pending completed
+2025-11-10 10:37:19,583 - INFO - Row 136 completed
+2025-11-10 10:37:19,583 - INFO - Processing 140/288
+2025-11-10 10:37:19,590 - INFO - Saved answer 136 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:37:19,590 - INFO - Progress: 136/288 pending completed
+2025-11-10 10:37:47,516 - INFO - Row 137 completed
+2025-11-10 10:37:47,516 - INFO - Processing 141/288
+2025-11-10 10:37:47,522 - INFO - Saved answer 137 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:37:47,522 - INFO - Progress: 137/288 pending completed
+2025-11-10 10:38:17,300 - INFO - Row 138 completed
+2025-11-10 10:38:17,300 - INFO - Processing 142/288
+2025-11-10 10:38:17,307 - INFO - Saved answer 138 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:38:17,307 - INFO - Progress: 138/288 pending completed
+2025-11-10 10:38:48,698 - INFO - Row 139 completed
+2025-11-10 10:38:48,698 - INFO - Processing 143/288
+2025-11-10 10:38:48,704 - INFO - Saved answer 139 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:38:48,704 - INFO - Progress: 139/288 pending completed
+2025-11-10 10:39:18,101 - INFO - Row 140 completed
+2025-11-10 10:39:18,101 - INFO - Processing 144/288
+2025-11-10 10:39:18,107 - INFO - Saved answer 140 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:39:18,107 - INFO - Progress: 140/288 pending completed
+2025-11-10 10:39:50,431 - INFO - Row 141 completed
+2025-11-10 10:39:50,431 - INFO - Processing 145/288
+2025-11-10 10:39:50,436 - INFO - Saved answer 141 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:39:50,437 - INFO - Progress: 141/288 pending completed
+2025-11-10 10:40:18,341 - INFO - Row 142 completed
+2025-11-10 10:40:18,341 - INFO - Processing 146/288
+2025-11-10 10:40:18,347 - INFO - Saved answer 142 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:40:18,347 - INFO - Progress: 142/288 pending completed
+2025-11-10 10:40:46,600 - INFO - Row 143 completed
+2025-11-10 10:40:46,601 - INFO - Processing 147/288
+2025-11-10 10:40:46,609 - INFO - Saved answer 143 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:40:46,609 - INFO - Progress: 143/288 pending completed
+2025-11-10 10:41:18,955 - INFO - Row 144 completed
+2025-11-10 10:41:18,956 - INFO - Processing 148/288
+2025-11-10 10:41:18,962 - INFO - Saved answer 144 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:41:18,962 - INFO - Progress: 144/288 pending completed
+2025-11-10 10:41:49,238 - INFO - Row 145 completed
+2025-11-10 10:41:49,238 - INFO - Processing 149/288
+2025-11-10 10:41:49,244 - INFO - Saved answer 145 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:41:49,244 - INFO - Progress: 145/288 pending completed
+2025-11-10 10:42:18,766 - INFO - Row 146 completed
+2025-11-10 10:42:18,766 - INFO - Processing 150/288
+2025-11-10 10:42:18,772 - INFO - Saved answer 146 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:42:18,773 - INFO - Progress: 146/288 pending completed
+2025-11-10 10:42:49,722 - INFO - Row 147 completed
+2025-11-10 10:42:49,722 - INFO - Processing 151/288
+2025-11-10 10:42:49,728 - INFO - Saved answer 147 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:42:49,729 - INFO - Progress: 147/288 pending completed
+2025-11-10 10:43:18,462 - INFO - Row 148 completed
+2025-11-10 10:43:18,463 - INFO - Processing 152/288
+2025-11-10 10:43:18,469 - INFO - Saved answer 148 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:43:18,469 - INFO - Progress: 148/288 pending completed
+2025-11-10 10:43:50,827 - INFO - Row 149 completed
+2025-11-10 10:43:50,828 - INFO - Processing 153/288
+2025-11-10 10:43:50,834 - INFO - Saved answer 149 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:43:50,834 - INFO - Progress: 149/288 pending completed
+2025-11-10 10:44:19,229 - INFO - Row 150 completed
+2025-11-10 10:44:19,229 - INFO - Processing 154/288
+2025-11-10 10:44:19,236 - INFO - Saved answer 150 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:44:19,236 - INFO - Progress: 150/288 pending completed
+2025-11-10 10:44:50,323 - INFO - Row 151 completed
+2025-11-10 10:44:50,323 - INFO - Processing 155/288
+2025-11-10 10:44:50,329 - INFO - Saved answer 151 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:44:50,329 - INFO - Progress: 151/288 pending completed
+2025-11-10 10:45:18,938 - INFO - Row 152 completed
+2025-11-10 10:45:18,938 - INFO - Processing 156/288
+2025-11-10 10:45:18,944 - INFO - Saved answer 152 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:45:18,944 - INFO - Progress: 152/288 pending completed
+2025-11-10 10:45:49,409 - INFO - Row 153 completed
+2025-11-10 10:45:49,409 - INFO - Processing 157/288
+2025-11-10 10:45:49,415 - INFO - Saved answer 153 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:45:49,416 - INFO - Progress: 153/288 pending completed
+2025-11-10 10:46:18,334 - INFO - Row 154 completed
+2025-11-10 10:46:18,334 - INFO - Processing 158/288
+2025-11-10 10:46:18,341 - INFO - Saved answer 154 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:46:18,341 - INFO - Progress: 154/288 pending completed
+2025-11-10 10:46:48,224 - INFO - Row 155 completed
+2025-11-10 10:46:48,224 - INFO - Processing 159/288
+2025-11-10 10:46:48,228 - INFO - Saved answer 155 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:46:48,229 - INFO - Progress: 155/288 pending completed
+2025-11-10 10:47:17,910 - INFO - Row 156 completed
+2025-11-10 10:47:17,910 - INFO - Processing 160/288
+2025-11-10 10:47:17,915 - INFO - Saved answer 156 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:47:17,915 - INFO - Progress: 156/288 pending completed
+2025-11-10 10:47:48,646 - INFO - Row 157 completed
+2025-11-10 10:47:48,646 - INFO - Processing 161/288
+2025-11-10 10:47:48,652 - INFO - Saved answer 157 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:47:48,652 - INFO - Progress: 157/288 pending completed
+2025-11-10 10:48:18,447 - INFO - Row 158 completed
+2025-11-10 10:48:18,448 - INFO - Processing 162/288
+2025-11-10 10:48:18,453 - INFO - Saved answer 158 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:48:18,453 - INFO - Progress: 158/288 pending completed
+2025-11-10 10:48:50,354 - INFO - Row 159 completed
+2025-11-10 10:48:50,354 - INFO - Processing 163/288
+2025-11-10 10:48:50,359 - INFO - Saved answer 159 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:48:50,359 - INFO - Progress: 159/288 pending completed
+2025-11-10 10:49:21,178 - INFO - Row 160 completed
+2025-11-10 10:49:21,178 - INFO - Processing 164/288
+2025-11-10 10:49:21,184 - INFO - Saved answer 160 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:49:21,184 - INFO - Progress: 160/288 pending completed
+2025-11-10 10:49:48,176 - INFO - Row 161 completed
+2025-11-10 10:49:48,176 - INFO - Processing 165/288
+2025-11-10 10:49:48,181 - INFO - Saved answer 161 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:49:48,181 - INFO - Progress: 161/288 pending completed
+2025-11-10 10:50:18,467 - INFO - Row 162 completed
+2025-11-10 10:50:18,467 - INFO - Processing 166/288
+2025-11-10 10:50:18,474 - INFO - Saved answer 162 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:50:18,474 - INFO - Progress: 162/288 pending completed
+2025-11-10 10:50:47,175 - INFO - Row 163 completed
+2025-11-10 10:50:47,175 - INFO - Processing 167/288
+2025-11-10 10:50:47,180 - INFO - Saved answer 163 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:50:47,181 - INFO - Progress: 163/288 pending completed
+2025-11-10 10:51:18,461 - INFO - Row 164 completed
+2025-11-10 10:51:18,461 - INFO - Processing 168/288
+2025-11-10 10:51:18,467 - INFO - Saved answer 164 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:51:18,467 - INFO - Progress: 164/288 pending completed
+2025-11-10 10:51:47,247 - INFO - Row 165 completed
+2025-11-10 10:51:47,247 - INFO - Processing 169/288
+2025-11-10 10:51:47,252 - INFO - Saved answer 165 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:51:47,252 - INFO - Progress: 165/288 pending completed
+2025-11-10 10:52:19,612 - INFO - Row 166 completed
+2025-11-10 10:52:19,613 - INFO - Processing 170/288
+2025-11-10 10:52:19,618 - INFO - Saved answer 166 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:52:19,618 - INFO - Progress: 166/288 pending completed
+2025-11-10 10:52:47,963 - INFO - Row 167 completed
+2025-11-10 10:52:47,963 - INFO - Processing 171/288
+2025-11-10 10:52:47,968 - INFO - Saved answer 167 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:52:47,968 - INFO - Progress: 167/288 pending completed
+2025-11-10 10:53:19,685 - INFO - Row 168 completed
+2025-11-10 10:53:19,685 - INFO - Processing 172/288
+2025-11-10 10:53:19,691 - INFO - Saved answer 168 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:53:19,691 - INFO - Progress: 168/288 pending completed
+2025-11-10 10:53:49,484 - INFO - Row 169 completed
+2025-11-10 10:53:49,484 - INFO - Processing 173/288
+2025-11-10 10:53:49,490 - INFO - Saved answer 169 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:53:49,490 - INFO - Progress: 169/288 pending completed
+2025-11-10 10:54:18,706 - INFO - Row 170 completed
+2025-11-10 10:54:18,706 - INFO - Processing 174/288
+2025-11-10 10:54:18,712 - INFO - Saved answer 170 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:54:18,712 - INFO - Progress: 170/288 pending completed
+2025-11-10 10:54:50,576 - INFO - Row 171 completed
+2025-11-10 10:54:50,576 - INFO - Processing 175/288
+2025-11-10 10:54:50,582 - INFO - Saved answer 171 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:54:50,583 - INFO - Progress: 171/288 pending completed
+2025-11-10 10:55:16,031 - INFO - Row 172 completed
+2025-11-10 10:55:16,031 - INFO - Processing 176/288
+2025-11-10 10:55:16,037 - INFO - Saved answer 172 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:55:16,037 - INFO - Progress: 172/288 pending completed
+2025-11-10 10:55:44,780 - INFO - Row 173 completed
+2025-11-10 10:55:44,780 - INFO - Processing 177/288
+2025-11-10 10:55:44,786 - INFO - Saved answer 173 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:55:44,786 - INFO - Progress: 173/288 pending completed
+2025-11-10 10:56:16,995 - INFO - Row 174 completed
+2025-11-10 10:56:16,995 - INFO - Processing 178/288
+2025-11-10 10:56:17,000 - INFO - Saved answer 174 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:56:17,001 - INFO - Progress: 174/288 pending completed
+2025-11-10 10:56:46,320 - INFO - Row 175 completed
+2025-11-10 10:56:46,321 - INFO - Processing 179/288
+2025-11-10 10:56:46,326 - INFO - Saved answer 175 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:56:46,326 - INFO - Progress: 175/288 pending completed
+2025-11-10 10:57:15,677 - INFO - Row 176 completed
+2025-11-10 10:57:15,678 - INFO - Processing 180/288
+2025-11-10 10:57:15,683 - INFO - Saved answer 176 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:57:15,683 - INFO - Progress: 176/288 pending completed
+2025-11-10 10:57:45,547 - INFO - Row 177 completed
+2025-11-10 10:57:45,548 - INFO - Processing 181/288
+2025-11-10 10:57:45,553 - INFO - Saved answer 177 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:57:45,553 - INFO - Progress: 177/288 pending completed
+2025-11-10 10:58:15,633 - INFO - Row 178 completed
+2025-11-10 10:58:15,633 - INFO - Processing 182/288
+2025-11-10 10:58:15,639 - INFO - Saved answer 178 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:58:15,639 - INFO - Progress: 178/288 pending completed
+2025-11-10 10:58:46,735 - INFO - Row 179 completed
+2025-11-10 10:58:46,735 - INFO - Processing 183/288
+2025-11-10 10:58:46,741 - INFO - Saved answer 179 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:58:46,742 - INFO - Progress: 179/288 pending completed
+2025-11-10 10:59:16,539 - INFO - Row 180 completed
+2025-11-10 10:59:16,539 - INFO - Processing 184/288
+2025-11-10 10:59:16,544 - INFO - Saved answer 180 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:59:16,544 - INFO - Progress: 180/288 pending completed
+2025-11-10 10:59:44,890 - INFO - Row 181 completed
+2025-11-10 10:59:44,890 - INFO - Processing 185/288
+2025-11-10 10:59:44,896 - INFO - Saved answer 181 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 10:59:44,896 - INFO - Progress: 181/288 pending completed
+2025-11-10 11:00:15,870 - INFO - Row 182 completed
+2025-11-10 11:00:15,870 - INFO - Processing 186/288
+2025-11-10 11:00:15,876 - INFO - Saved answer 182 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:00:15,876 - INFO - Progress: 182/288 pending completed
+2025-11-10 11:00:45,921 - INFO - Row 183 completed
+2025-11-10 11:00:45,922 - INFO - Processing 187/288
+2025-11-10 11:00:45,927 - INFO - Saved answer 183 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:00:45,927 - INFO - Progress: 183/288 pending completed
+2025-11-10 11:01:14,952 - INFO - Row 184 completed
+2025-11-10 11:01:14,952 - INFO - Processing 188/288
+2025-11-10 11:01:14,957 - INFO - Saved answer 184 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:01:14,957 - INFO - Progress: 184/288 pending completed
+2025-11-10 11:01:45,961 - INFO - Row 185 completed
+2025-11-10 11:01:45,962 - INFO - Processing 189/288
+2025-11-10 11:01:45,967 - INFO - Saved answer 185 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:01:45,968 - INFO - Progress: 185/288 pending completed
+2025-11-10 11:02:15,361 - INFO - Row 186 completed
+2025-11-10 11:02:15,361 - INFO - Processing 190/288
+2025-11-10 11:02:15,367 - INFO - Saved answer 186 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:02:15,367 - INFO - Progress: 186/288 pending completed
+2025-11-10 11:02:45,503 - INFO - Row 187 completed
+2025-11-10 11:02:45,503 - INFO - Processing 191/288
+2025-11-10 11:02:45,508 - INFO - Saved answer 187 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:02:45,508 - INFO - Progress: 187/288 pending completed
+2025-11-10 11:03:15,161 - INFO - Row 188 completed
+2025-11-10 11:03:15,162 - INFO - Processing 192/288
+2025-11-10 11:03:15,167 - INFO - Saved answer 188 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:03:15,167 - INFO - Progress: 188/288 pending completed
+2025-11-10 11:03:44,921 - INFO - Row 189 completed
+2025-11-10 11:03:44,922 - INFO - Processing 193/288
+2025-11-10 11:03:44,927 - INFO - Saved answer 189 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:03:44,928 - INFO - Progress: 189/288 pending completed
+2025-11-10 11:04:20,052 - INFO - Row 190 completed
+2025-11-10 11:04:20,052 - INFO - Processing 194/288
+2025-11-10 11:04:20,058 - INFO - Saved answer 190 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:04:20,058 - INFO - Progress: 190/288 pending completed
+2025-11-10 11:04:47,598 - INFO - Row 191 completed
+2025-11-10 11:04:47,598 - INFO - Processing 195/288
+2025-11-10 11:04:47,604 - INFO - Saved answer 191 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:04:47,604 - INFO - Progress: 191/288 pending completed
+2025-11-10 11:05:19,304 - INFO - Row 192 completed
+2025-11-10 11:05:19,304 - INFO - Processing 196/288
+2025-11-10 11:05:19,310 - INFO - Saved answer 192 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:05:19,310 - INFO - Progress: 192/288 pending completed
+2025-11-10 11:05:50,397 - INFO - Row 193 completed
+2025-11-10 11:05:50,397 - INFO - Processing 197/288
+2025-11-10 11:05:50,403 - INFO - Saved answer 193 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:05:50,403 - INFO - Progress: 193/288 pending completed
+2025-11-10 11:06:17,490 - INFO - Row 194 completed
+2025-11-10 11:06:17,490 - INFO - Processing 198/288
+2025-11-10 11:06:17,495 - INFO - Saved answer 194 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:06:17,496 - INFO - Progress: 194/288 pending completed
+2025-11-10 11:06:48,323 - INFO - Row 195 completed
+2025-11-10 11:06:48,323 - INFO - Processing 199/288
+2025-11-10 11:06:48,328 - INFO - Saved answer 195 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:06:48,328 - INFO - Progress: 195/288 pending completed
+2025-11-10 11:07:15,710 - INFO - Row 196 completed
+2025-11-10 11:07:15,710 - INFO - Processing 200/288
+2025-11-10 11:07:15,716 - INFO - Saved answer 196 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:07:15,716 - INFO - Progress: 196/288 pending completed
+2025-11-10 11:07:49,275 - INFO - Row 197 completed
+2025-11-10 11:07:49,275 - INFO - Processing 201/288
+2025-11-10 11:07:49,281 - INFO - Saved answer 197 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:07:49,281 - INFO - Progress: 197/288 pending completed
+2025-11-10 11:08:18,975 - INFO - Row 198 completed
+2025-11-10 11:08:18,975 - INFO - Processing 202/288
+2025-11-10 11:08:18,982 - INFO - Saved answer 198 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:08:18,982 - INFO - Progress: 198/288 pending completed
+2025-11-10 11:08:48,422 - INFO - Row 199 completed
+2025-11-10 11:08:48,422 - INFO - Processing 203/288
+2025-11-10 11:08:48,429 - INFO - Saved answer 199 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:08:48,429 - INFO - Progress: 199/288 pending completed
+2025-11-10 11:09:17,081 - INFO - Row 200 completed
+2025-11-10 11:09:17,081 - INFO - Processing 204/288
+2025-11-10 11:09:17,086 - INFO - Saved answer 200 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:09:17,086 - INFO - Progress: 200/288 pending completed
+2025-11-10 11:09:50,393 - INFO - Row 201 completed
+2025-11-10 11:09:50,393 - INFO - Processing 205/288
+2025-11-10 11:09:50,399 - INFO - Saved answer 201 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:09:50,399 - INFO - Progress: 201/288 pending completed
+2025-11-10 11:10:18,918 - INFO - Row 202 completed
+2025-11-10 11:10:18,918 - INFO - Processing 206/288
+2025-11-10 11:10:18,924 - INFO - Saved answer 202 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:10:18,924 - INFO - Progress: 202/288 pending completed
+2025-11-10 11:10:46,412 - INFO - Row 203 completed
+2025-11-10 11:10:46,412 - INFO - Processing 207/288
+2025-11-10 11:10:46,418 - INFO - Saved answer 203 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:10:46,418 - INFO - Progress: 203/288 pending completed
+2025-11-10 11:11:18,767 - INFO - Row 204 completed
+2025-11-10 11:11:18,767 - INFO - Processing 208/288
+2025-11-10 11:11:18,773 - INFO - Saved answer 204 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:11:18,773 - INFO - Progress: 204/288 pending completed
+2025-11-10 11:11:46,923 - INFO - Row 205 completed
+2025-11-10 11:11:46,923 - INFO - Processing 209/288
+2025-11-10 11:11:46,930 - INFO - Saved answer 205 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:11:46,930 - INFO - Progress: 205/288 pending completed
+2025-11-10 11:12:18,970 - INFO - Row 206 completed
+2025-11-10 11:12:18,970 - INFO - Processing 210/288
+2025-11-10 11:12:18,976 - INFO - Saved answer 206 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:12:18,976 - INFO - Progress: 206/288 pending completed
+2025-11-10 11:12:47,910 - INFO - Row 207 completed
+2025-11-10 11:12:47,910 - INFO - Processing 211/288
+2025-11-10 11:12:47,915 - INFO - Saved answer 207 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:12:47,915 - INFO - Progress: 207/288 pending completed
+2025-11-10 11:13:18,972 - INFO - Row 208 completed
+2025-11-10 11:13:18,973 - INFO - Processing 212/288
+2025-11-10 11:13:18,978 - INFO - Saved answer 208 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:13:18,978 - INFO - Progress: 208/288 pending completed
+2025-11-10 11:13:49,551 - INFO - Row 209 completed
+2025-11-10 11:13:49,551 - INFO - Processing 213/288
+2025-11-10 11:13:49,557 - INFO - Saved answer 209 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:13:49,557 - INFO - Progress: 209/288 pending completed
+2025-11-10 11:14:16,335 - INFO - Row 210 completed
+2025-11-10 11:14:16,336 - INFO - Processing 214/288
+2025-11-10 11:14:16,341 - INFO - Saved answer 210 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:14:16,341 - INFO - Progress: 210/288 pending completed
+2025-11-10 11:14:48,940 - INFO - Row 211 completed
+2025-11-10 11:14:48,940 - INFO - Processing 215/288
+2025-11-10 11:14:48,946 - INFO - Saved answer 211 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:14:48,946 - INFO - Progress: 211/288 pending completed
+2025-11-10 11:15:19,578 - INFO - Row 212 completed
+2025-11-10 11:15:19,578 - INFO - Processing 216/288
+2025-11-10 11:15:19,584 - INFO - Saved answer 212 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:15:19,584 - INFO - Progress: 212/288 pending completed
+2025-11-10 11:15:49,132 - INFO - Row 213 completed
+2025-11-10 11:15:49,132 - INFO - Processing 217/288
+2025-11-10 11:15:49,138 - INFO - Saved answer 213 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:15:49,138 - INFO - Progress: 213/288 pending completed
+2025-11-10 11:16:19,872 - INFO - Row 214 completed
+2025-11-10 11:16:19,873 - INFO - Processing 218/288
+2025-11-10 11:16:19,879 - INFO - Saved answer 214 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:16:19,879 - INFO - Progress: 214/288 pending completed
+2025-11-10 11:16:47,096 - INFO - Row 215 completed
+2025-11-10 11:16:47,096 - INFO - Processing 219/288
+2025-11-10 11:16:47,101 - INFO - Saved answer 215 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:16:47,101 - INFO - Progress: 215/288 pending completed
+2025-11-10 11:17:20,202 - INFO - Row 216 completed
+2025-11-10 11:17:20,202 - INFO - Processing 220/288
+2025-11-10 11:17:20,208 - INFO - Saved answer 216 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:17:20,208 - INFO - Progress: 216/288 pending completed
+2025-11-10 11:17:51,205 - INFO - Row 217 completed
+2025-11-10 11:17:51,205 - INFO - Processing 221/288
+2025-11-10 11:17:51,211 - INFO - Saved answer 217 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:17:51,211 - INFO - Progress: 217/288 pending completed
+2025-11-10 11:18:19,619 - INFO - Row 218 completed
+2025-11-10 11:18:19,619 - INFO - Processing 222/288
+2025-11-10 11:18:19,624 - INFO - Saved answer 218 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:18:19,625 - INFO - Progress: 218/288 pending completed
+2025-11-10 11:18:50,838 - INFO - Row 219 completed
+2025-11-10 11:18:50,839 - INFO - Processing 223/288
+2025-11-10 11:18:50,844 - INFO - Saved answer 219 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:18:50,844 - INFO - Progress: 219/288 pending completed
+2025-11-10 11:19:18,183 - INFO - Row 220 completed
+2025-11-10 11:19:18,183 - INFO - Processing 224/288
+2025-11-10 11:19:18,189 - INFO - Saved answer 220 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:19:18,190 - INFO - Progress: 220/288 pending completed
+2025-11-10 11:19:49,799 - INFO - Row 221 completed
+2025-11-10 11:19:49,799 - INFO - Processing 225/288
+2025-11-10 11:19:49,805 - INFO - Saved answer 221 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:19:49,805 - INFO - Progress: 221/288 pending completed
+2025-11-10 11:20:21,556 - INFO - Row 222 completed
+2025-11-10 11:20:21,557 - INFO - Processing 226/288
+2025-11-10 11:20:21,562 - INFO - Saved answer 222 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:20:21,563 - INFO - Progress: 222/288 pending completed
+2025-11-10 11:20:49,359 - INFO - Row 223 completed
+2025-11-10 11:20:49,359 - INFO - Processing 227/288
+2025-11-10 11:20:49,365 - INFO - Saved answer 223 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:20:49,365 - INFO - Progress: 223/288 pending completed
+2025-11-10 11:21:17,824 - INFO - Row 224 completed
+2025-11-10 11:21:17,824 - INFO - Processing 228/288
+2025-11-10 11:21:17,830 - INFO - Saved answer 224 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:21:17,830 - INFO - Progress: 224/288 pending completed
+2025-11-10 11:21:49,823 - INFO - Row 225 completed
+2025-11-10 11:21:49,823 - INFO - Processing 229/288
+2025-11-10 11:21:49,829 - INFO - Saved answer 225 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:21:49,829 - INFO - Progress: 225/288 pending completed
+2025-11-10 11:22:20,558 - INFO - Row 226 completed
+2025-11-10 11:22:20,558 - INFO - Processing 230/288
+2025-11-10 11:22:20,564 - INFO - Saved answer 226 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:22:20,564 - INFO - Progress: 226/288 pending completed
+2025-11-10 11:22:50,100 - INFO - Row 227 completed
+2025-11-10 11:22:50,100 - INFO - Processing 231/288
+2025-11-10 11:22:50,106 - INFO - Saved answer 227 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:22:50,106 - INFO - Progress: 227/288 pending completed
+2025-11-10 11:23:17,712 - INFO - Row 228 completed
+2025-11-10 11:23:17,712 - INFO - Processing 232/288
+2025-11-10 11:23:17,718 - INFO - Saved answer 228 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:23:17,718 - INFO - Progress: 228/288 pending completed
+2025-11-10 11:23:47,227 - INFO - Row 229 completed
+2025-11-10 11:23:47,227 - INFO - Processing 233/288
+2025-11-10 11:23:47,235 - INFO - Saved answer 229 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:23:47,235 - INFO - Progress: 229/288 pending completed
+2025-11-10 11:24:19,606 - INFO - Row 230 completed
+2025-11-10 11:24:19,606 - INFO - Processing 234/288
+2025-11-10 11:24:19,612 - INFO - Saved answer 230 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:24:19,612 - INFO - Progress: 230/288 pending completed
+2025-11-10 11:24:49,851 - INFO - Row 231 completed
+2025-11-10 11:24:49,851 - INFO - Processing 235/288
+2025-11-10 11:24:49,857 - INFO - Saved answer 231 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:24:49,858 - INFO - Progress: 231/288 pending completed
+2025-11-10 11:25:19,623 - INFO - Row 232 completed
+2025-11-10 11:25:19,623 - INFO - Processing 236/288
+2025-11-10 11:25:19,630 - INFO - Saved answer 232 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:25:19,630 - INFO - Progress: 232/288 pending completed
+2025-11-10 11:25:49,358 - INFO - Row 233 completed
+2025-11-10 11:25:49,358 - INFO - Processing 237/288
+2025-11-10 11:25:49,364 - INFO - Saved answer 233 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:25:49,365 - INFO - Progress: 233/288 pending completed
+2025-11-10 11:26:18,255 - INFO - Row 234 completed
+2025-11-10 11:26:18,256 - INFO - Processing 238/288
+2025-11-10 11:26:18,262 - INFO - Saved answer 234 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:26:18,262 - INFO - Progress: 234/288 pending completed
+2025-11-10 11:26:47,796 - INFO - Row 235 completed
+2025-11-10 11:26:47,796 - INFO - Processing 239/288
+2025-11-10 11:26:47,802 - INFO - Saved answer 235 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:26:47,802 - INFO - Progress: 235/288 pending completed
+2025-11-10 11:27:17,403 - INFO - Row 236 completed
+2025-11-10 11:27:17,403 - INFO - Processing 240/288
+2025-11-10 11:27:17,409 - INFO - Saved answer 236 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:27:17,409 - INFO - Progress: 236/288 pending completed
+2025-11-10 11:27:48,819 - INFO - Row 237 completed
+2025-11-10 11:27:48,819 - INFO - Processing 241/288
+2025-11-10 11:27:48,826 - INFO - Saved answer 237 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:27:48,826 - INFO - Progress: 237/288 pending completed
+2025-11-10 11:28:17,009 - INFO - Row 238 completed
+2025-11-10 11:28:17,010 - INFO - Processing 242/288
+2025-11-10 11:28:17,016 - INFO - Saved answer 238 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:28:17,016 - INFO - Progress: 238/288 pending completed
+2025-11-10 11:28:48,491 - INFO - Row 239 completed
+2025-11-10 11:28:48,492 - INFO - Processing 243/288
+2025-11-10 11:28:48,498 - INFO - Saved answer 239 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:28:48,498 - INFO - Progress: 239/288 pending completed
+2025-11-10 11:29:18,195 - INFO - Row 240 completed
+2025-11-10 11:29:18,195 - INFO - Processing 244/288
+2025-11-10 11:29:18,202 - INFO - Saved answer 240 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:29:18,202 - INFO - Progress: 240/288 pending completed
+2025-11-10 11:29:48,927 - INFO - Row 241 completed
+2025-11-10 11:29:48,927 - INFO - Processing 245/288
+2025-11-10 11:29:48,933 - INFO - Saved answer 241 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:29:48,933 - INFO - Progress: 241/288 pending completed
+2025-11-10 11:30:19,135 - INFO - Row 242 completed
+2025-11-10 11:30:19,136 - INFO - Processing 246/288
+2025-11-10 11:30:19,142 - INFO - Saved answer 242 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:30:19,142 - INFO - Progress: 242/288 pending completed
+2025-11-10 11:30:48,053 - INFO - Row 243 completed
+2025-11-10 11:30:48,054 - INFO - Processing 247/288
+2025-11-10 11:30:48,060 - INFO - Saved answer 243 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:30:48,060 - INFO - Progress: 243/288 pending completed
+2025-11-10 11:31:15,682 - INFO - Row 244 completed
+2025-11-10 11:31:15,682 - INFO - Processing 248/288
+2025-11-10 11:31:15,688 - INFO - Saved answer 244 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:31:15,688 - INFO - Progress: 244/288 pending completed
+2025-11-10 11:31:45,209 - INFO - Row 245 completed
+2025-11-10 11:31:45,210 - INFO - Processing 249/288
+2025-11-10 11:31:45,216 - INFO - Saved answer 245 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:31:45,216 - INFO - Progress: 245/288 pending completed
+2025-11-10 11:32:16,232 - INFO - Row 246 completed
+2025-11-10 11:32:16,232 - INFO - Processing 250/288
+2025-11-10 11:32:16,238 - INFO - Saved answer 246 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:32:16,238 - INFO - Progress: 246/288 pending completed
+2025-11-10 11:32:46,664 - INFO - Row 247 completed
+2025-11-10 11:32:46,664 - INFO - Processing 251/288
+2025-11-10 11:32:46,671 - INFO - Saved answer 247 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:32:46,671 - INFO - Progress: 247/288 pending completed
+2025-11-10 11:33:18,383 - INFO - Row 248 completed
+2025-11-10 11:33:18,383 - INFO - Processing 252/288
+2025-11-10 11:33:18,390 - INFO - Saved answer 248 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:33:18,390 - INFO - Progress: 248/288 pending completed
+2025-11-10 11:33:45,507 - INFO - Row 249 completed
+2025-11-10 11:33:45,507 - INFO - Processing 253/288
+2025-11-10 11:33:45,514 - INFO - Saved answer 249 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:33:45,514 - INFO - Progress: 249/288 pending completed
+2025-11-10 11:34:15,839 - INFO - Row 250 completed
+2025-11-10 11:34:15,839 - INFO - Processing 254/288
+2025-11-10 11:34:15,845 - INFO - Saved answer 250 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:34:15,846 - INFO - Progress: 250/288 pending completed
+2025-11-10 11:34:47,231 - INFO - Row 251 completed
+2025-11-10 11:34:47,231 - INFO - Processing 255/288
+2025-11-10 11:34:47,237 - INFO - Saved answer 251 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:34:47,237 - INFO - Progress: 251/288 pending completed
+2025-11-10 11:35:16,424 - INFO - Row 252 completed
+2025-11-10 11:35:16,425 - INFO - Processing 256/288
+2025-11-10 11:35:16,431 - INFO - Saved answer 252 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:35:16,431 - INFO - Progress: 252/288 pending completed
+2025-11-10 11:35:46,661 - INFO - Row 253 completed
+2025-11-10 11:35:46,661 - INFO - Processing 257/288
+2025-11-10 11:35:46,668 - INFO - Saved answer 253 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:35:46,668 - INFO - Progress: 253/288 pending completed
+2025-11-10 11:36:15,979 - INFO - Row 254 completed
+2025-11-10 11:36:15,979 - INFO - Processing 258/288
+2025-11-10 11:36:15,985 - INFO - Saved answer 254 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:36:15,985 - INFO - Progress: 254/288 pending completed
+2025-11-10 11:36:45,598 - INFO - Row 255 completed
+2025-11-10 11:36:45,598 - INFO - Processing 259/288
+2025-11-10 11:36:45,604 - INFO - Saved answer 255 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:36:45,604 - INFO - Progress: 255/288 pending completed
+2025-11-10 11:37:15,592 - INFO - Row 256 completed
+2025-11-10 11:37:15,592 - INFO - Processing 260/288
+2025-11-10 11:37:15,598 - INFO - Saved answer 256 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:37:15,599 - INFO - Progress: 256/288 pending completed
+2025-11-10 11:37:45,381 - INFO - Row 257 completed
+2025-11-10 11:37:45,381 - INFO - Processing 261/288
+2025-11-10 11:37:45,388 - INFO - Saved answer 257 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:37:45,388 - INFO - Progress: 257/288 pending completed
+2025-11-10 11:38:15,776 - INFO - Row 258 completed
+2025-11-10 11:38:15,776 - INFO - Processing 262/288
+2025-11-10 11:38:15,783 - INFO - Saved answer 258 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:38:15,783 - INFO - Progress: 258/288 pending completed
+2025-11-10 11:38:46,298 - INFO - Row 259 completed
+2025-11-10 11:38:46,298 - INFO - Processing 263/288
+2025-11-10 11:38:46,305 - INFO - Saved answer 259 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:38:46,305 - INFO - Progress: 259/288 pending completed
+2025-11-10 11:39:15,056 - INFO - Row 260 completed
+2025-11-10 11:39:15,057 - INFO - Processing 264/288
+2025-11-10 11:39:15,063 - INFO - Saved answer 260 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:39:15,063 - INFO - Progress: 260/288 pending completed
+2025-11-10 11:39:46,975 - INFO - Row 261 completed
+2025-11-10 11:39:46,975 - INFO - Processing 265/288
+2025-11-10 11:39:46,982 - INFO - Saved answer 261 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:39:46,982 - INFO - Progress: 261/288 pending completed
+2025-11-10 11:40:18,202 - INFO - Row 262 completed
+2025-11-10 11:40:18,202 - INFO - Processing 266/288
+2025-11-10 11:40:18,208 - INFO - Saved answer 262 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:40:18,209 - INFO - Progress: 262/288 pending completed
+2025-11-10 11:40:52,970 - INFO - Row 263 completed
+2025-11-10 11:40:52,970 - INFO - Processing 267/288
+2025-11-10 11:40:52,976 - INFO - Saved answer 263 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:40:52,977 - INFO - Progress: 263/288 pending completed
+2025-11-10 11:41:18,947 - INFO - Row 264 completed
+2025-11-10 11:41:18,948 - INFO - Processing 268/288
+2025-11-10 11:41:18,954 - INFO - Saved answer 264 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:41:18,954 - INFO - Progress: 264/288 pending completed
+2025-11-10 11:41:48,197 - INFO - Row 265 completed
+2025-11-10 11:41:48,197 - INFO - Processing 269/288
+2025-11-10 11:41:48,203 - INFO - Saved answer 265 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:41:48,203 - INFO - Progress: 265/288 pending completed
+2025-11-10 11:42:16,710 - INFO - Row 266 completed
+2025-11-10 11:42:16,710 - INFO - Processing 270/288
+2025-11-10 11:42:16,716 - INFO - Saved answer 266 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:42:16,717 - INFO - Progress: 266/288 pending completed
+2025-11-10 11:42:45,958 - INFO - Row 267 completed
+2025-11-10 11:42:45,958 - INFO - Processing 271/288
+2025-11-10 11:42:45,964 - INFO - Saved answer 267 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:42:45,965 - INFO - Progress: 267/288 pending completed
+2025-11-10 11:43:17,984 - INFO - Row 268 completed
+2025-11-10 11:43:17,984 - INFO - Processing 272/288
+2025-11-10 11:43:17,990 - INFO - Saved answer 268 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:43:17,990 - INFO - Progress: 268/288 pending completed
+2025-11-10 11:43:47,470 - INFO - Row 269 completed
+2025-11-10 11:43:47,470 - INFO - Processing 273/288
+2025-11-10 11:43:47,476 - INFO - Saved answer 269 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:43:47,477 - INFO - Progress: 269/288 pending completed
+2025-11-10 11:44:18,537 - INFO - Row 270 completed
+2025-11-10 11:44:18,537 - INFO - Processing 274/288
+2025-11-10 11:44:18,544 - INFO - Saved answer 270 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:44:18,544 - INFO - Progress: 270/288 pending completed
+2025-11-10 11:44:48,557 - INFO - Row 271 completed
+2025-11-10 11:44:48,557 - INFO - Processing 275/288
+2025-11-10 11:44:48,563 - INFO - Saved answer 271 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:44:48,563 - INFO - Progress: 271/288 pending completed
+2025-11-10 11:45:16,624 - INFO - Row 272 completed
+2025-11-10 11:45:16,624 - INFO - Processing 276/288
+2025-11-10 11:45:16,630 - INFO - Saved answer 272 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:45:16,630 - INFO - Progress: 272/288 pending completed
+2025-11-10 11:45:49,308 - INFO - Row 273 completed
+2025-11-10 11:45:49,308 - INFO - Processing 277/288
+2025-11-10 11:45:49,314 - INFO - Saved answer 273 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:45:49,315 - INFO - Progress: 273/288 pending completed
+2025-11-10 11:46:16,808 - INFO - Row 274 completed
+2025-11-10 11:46:16,809 - INFO - Processing 278/288
+2025-11-10 11:46:16,815 - INFO - Saved answer 274 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:46:16,815 - INFO - Progress: 274/288 pending completed
+2025-11-10 11:46:46,720 - INFO - Row 275 completed
+2025-11-10 11:46:46,721 - INFO - Processing 279/288
+2025-11-10 11:46:46,727 - INFO - Saved answer 275 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:46:46,727 - INFO - Progress: 275/288 pending completed
+2025-11-10 11:47:17,781 - INFO - Row 276 completed
+2025-11-10 11:47:17,781 - INFO - Processing 280/288
+2025-11-10 11:47:17,788 - INFO - Saved answer 276 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:47:17,788 - INFO - Progress: 276/288 pending completed
+2025-11-10 11:47:50,352 - INFO - Row 277 completed
+2025-11-10 11:47:50,352 - INFO - Processing 281/288
+2025-11-10 11:47:50,359 - INFO - Saved answer 277 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:47:50,359 - INFO - Progress: 277/288 pending completed
+2025-11-10 11:48:17,840 - INFO - Row 278 completed
+2025-11-10 11:48:17,840 - INFO - Processing 282/288
+2025-11-10 11:48:17,847 - INFO - Saved answer 278 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:48:17,847 - INFO - Progress: 278/288 pending completed
+2025-11-10 11:48:48,116 - INFO - Row 279 completed
+2025-11-10 11:48:48,116 - INFO - Processing 283/288
+2025-11-10 11:48:48,122 - INFO - Saved answer 279 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:48:48,122 - INFO - Progress: 279/288 pending completed
+2025-11-10 11:49:18,564 - INFO - Row 280 completed
+2025-11-10 11:49:18,564 - INFO - Processing 284/288
+2025-11-10 11:49:18,571 - INFO - Saved answer 280 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:49:18,571 - INFO - Progress: 280/288 pending completed
+2025-11-10 11:49:48,761 - INFO - Row 281 completed
+2025-11-10 11:49:48,761 - INFO - Processing 285/288
+2025-11-10 11:49:48,768 - INFO - Saved answer 281 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:49:48,768 - INFO - Progress: 281/288 pending completed
+2025-11-10 11:50:18,052 - INFO - Row 282 completed
+2025-11-10 11:50:18,052 - INFO - Processing 286/288
+2025-11-10 11:50:18,058 - INFO - Saved answer 282 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:50:18,058 - INFO - Progress: 282/288 pending completed
+2025-11-10 11:50:49,278 - INFO - Row 283 completed
+2025-11-10 11:50:49,278 - INFO - Processing 287/288
+2025-11-10 11:50:49,285 - INFO - Saved answer 283 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:50:49,285 - INFO - Progress: 283/288 pending completed
+2025-11-10 11:51:17,017 - INFO - Row 284 completed
+2025-11-10 11:51:17,017 - INFO - Processing 288/288
+2025-11-10 11:51:17,024 - INFO - Saved answer 284 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:51:17,024 - INFO - Progress: 284/288 pending completed
+2025-11-10 11:51:49,815 - INFO - Row 285 completed
+2025-11-10 11:51:49,822 - INFO - Saved answer 285 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:51:49,822 - INFO - Progress: 285/288 pending completed
+2025-11-10 11:52:18,011 - INFO - Row 286 completed
+2025-11-10 11:52:18,018 - INFO - Saved answer 286 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:52:18,018 - INFO - Progress: 286/288 pending completed
+2025-11-10 11:52:46,087 - INFO - Row 287 completed
+2025-11-10 11:52:46,094 - INFO - Saved answer 287 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:52:46,094 - INFO - Progress: 287/288 pending completed
+2025-11-10 11:53:18,404 - INFO - Row 288 completed
+2025-11-10 11:53:18,410 - INFO - Saved answer 288 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\anthropic-claude-sonnet-4.5_answers.csv
+2025-11-10 11:53:18,410 - INFO - Progress: 288/288 pending completed
+2025-11-10 11:53:18,413 - INFO - Done. Successes: 9, Fails: 1

@@ -1,0 +1,229 @@
+2025-11-10 21:57:24,054 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-10 21:57:24,067 - INFO - Processing model openai/gpt-5
+2025-11-10 21:57:24,071 - INFO - No pending prompts
+2025-11-10 21:57:24,079 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-10 21:57:24,088 - INFO - No pending prompts
+2025-11-10 21:57:24,095 - INFO - Processing model meta-llama/llama-4-scout:free
+2025-11-10 21:57:24,101 - INFO - No pending prompts
+2025-11-10 21:57:24,107 - INFO - Processing model google/gemma-3-4b-it:free
+2025-11-10 21:57:24,112 - INFO - No pending prompts
+2025-11-10 21:57:24,118 - INFO - Processing model openai/chatgpt-4o-latest
+2025-11-10 21:57:24,124 - INFO - No pending prompts
+2025-11-10 21:57:24,129 - INFO - Processing model x-ai/grok-4-fast
+2025-11-10 21:57:24,134 - INFO - No pending prompts
+2025-11-10 21:57:24,141 - INFO - Processing model google/gemini-2.5-flash
+2025-11-10 21:57:24,148 - INFO - No pending prompts
+2025-11-10 21:57:24,154 - INFO - Processing model google/gemini-2.5-pro
+2025-11-10 21:57:24,159 - INFO - No pending prompts
+2025-11-10 21:57:24,167 - INFO - Processing model anthropic/claude-sonnet-4.5
+2025-11-10 21:57:24,175 - INFO - No pending prompts
+2025-11-10 21:57:24,184 - INFO - Processing model anthropic/claude-haiku-4.5
+2025-11-10 21:57:24,191 - INFO - No pending prompts
+2025-11-10 21:57:24,198 - INFO - Processing model anthropic/claude-opus-4
+2025-11-10 21:57:24,205 - INFO - No pending prompts
+2025-11-10 21:57:24,206 - INFO - Processing model microsoft/phi-4-reasoning-plus
+2025-11-10 21:57:24,207 - INFO - Processing 1/288
+2025-11-10 21:57:24,208 - INFO - Processing 2/288
+2025-11-10 21:57:24,209 - INFO - Processing 3/288
+2025-11-10 21:57:24,209 - INFO - Processing 4/288
+2025-11-10 21:57:27,684 - INFO - Row 1 completed
+2025-11-10 21:57:27,684 - INFO - Processing 5/288
+2025-11-10 21:57:27,693 - INFO - Saved answer 1 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 21:57:27,693 - INFO - Progress: 1/288 pending completed
+2025-11-10 21:58:00,556 - INFO - Row 2 completed
+2025-11-10 21:58:00,556 - INFO - Processing 6/288
+2025-11-10 21:58:00,565 - INFO - Saved answer 2 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 21:58:00,565 - INFO - Progress: 2/288 pending completed
+2025-11-10 21:58:28,913 - INFO - Row 3 completed
+2025-11-10 21:58:28,913 - INFO - Processing 7/288
+2025-11-10 21:58:28,919 - INFO - Saved answer 3 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 21:58:28,919 - INFO - Progress: 3/288 pending completed
+2025-11-10 21:58:57,179 - INFO - Row 4 completed
+2025-11-10 21:58:57,180 - INFO - Processing 8/288
+2025-11-10 21:58:57,184 - INFO - Saved answer 4 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 21:58:57,184 - INFO - Progress: 4/288 pending completed
+2025-11-10 21:59:28,159 - INFO - Row 5 completed
+2025-11-10 21:59:28,159 - INFO - Processing 9/288
+2025-11-10 21:59:28,164 - INFO - Saved answer 5 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 21:59:28,164 - INFO - Progress: 5/288 pending completed
+2025-11-10 21:59:57,947 - INFO - Row 6 completed
+2025-11-10 21:59:57,947 - INFO - Processing 10/288
+2025-11-10 21:59:57,952 - INFO - Saved answer 6 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 21:59:57,952 - INFO - Progress: 6/288 pending completed
+2025-11-10 22:00:26,856 - INFO - Row 7 completed
+2025-11-10 22:00:26,856 - INFO - Processing 11/288
+2025-11-10 22:00:26,861 - INFO - Saved answer 7 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:00:26,861 - INFO - Progress: 7/288 pending completed
+2025-11-10 22:00:58,377 - INFO - Row 8 completed
+2025-11-10 22:00:58,378 - INFO - Processing 12/288
+2025-11-10 22:00:58,382 - INFO - Saved answer 8 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:00:58,382 - INFO - Progress: 8/288 pending completed
+2025-11-10 22:01:31,082 - INFO - Row 9 completed
+2025-11-10 22:01:31,082 - INFO - Processing 13/288
+2025-11-10 22:01:31,087 - INFO - Saved answer 9 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:01:31,087 - INFO - Progress: 9/288 pending completed
+2025-11-10 22:01:56,560 - INFO - Row 10 completed
+2025-11-10 22:01:56,560 - INFO - Processing 14/288
+2025-11-10 22:01:56,565 - INFO - Saved answer 10 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:01:56,565 - INFO - Progress: 10/288 pending completed
+2025-11-10 22:02:30,788 - INFO - Row 11 completed
+2025-11-10 22:02:30,788 - INFO - Processing 15/288
+2025-11-10 22:02:30,793 - INFO - Saved answer 11 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:02:30,793 - INFO - Progress: 11/288 pending completed
+2025-11-10 22:02:58,791 - INFO - Row 12 completed
+2025-11-10 22:02:58,791 - INFO - Processing 16/288
+2025-11-10 22:02:58,796 - INFO - Saved answer 12 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:02:58,796 - INFO - Progress: 12/288 pending completed
+2025-11-10 22:03:27,717 - INFO - Row 13 completed
+2025-11-10 22:03:27,718 - INFO - Processing 17/288
+2025-11-10 22:03:27,723 - INFO - Saved answer 13 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:03:27,724 - INFO - Progress: 13/288 pending completed
+2025-11-10 22:04:00,175 - INFO - Row 14 completed
+2025-11-10 22:04:00,175 - INFO - Processing 18/288
+2025-11-10 22:04:00,179 - INFO - Saved answer 14 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:04:00,179 - INFO - Progress: 14/288 pending completed
+2025-11-10 22:04:28,579 - INFO - Row 15 completed
+2025-11-10 22:04:28,579 - INFO - Processing 19/288
+2025-11-10 22:04:28,583 - INFO - Saved answer 15 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:04:28,583 - INFO - Progress: 15/288 pending completed
+2025-11-10 22:04:57,789 - INFO - Row 16 completed
+2025-11-10 22:04:57,790 - INFO - Processing 20/288
+2025-11-10 22:04:57,794 - INFO - Saved answer 16 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:04:57,795 - INFO - Progress: 16/288 pending completed
+2025-11-10 22:05:30,226 - INFO - Row 17 completed
+2025-11-10 22:05:30,226 - INFO - Processing 21/288
+2025-11-10 22:05:30,231 - INFO - Saved answer 17 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:05:30,231 - INFO - Progress: 17/288 pending completed
+2025-11-10 22:05:59,641 - INFO - Row 18 completed
+2025-11-10 22:05:59,641 - INFO - Processing 22/288
+2025-11-10 22:05:59,646 - INFO - Saved answer 18 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:05:59,646 - INFO - Progress: 18/288 pending completed
+2025-11-10 22:06:28,215 - INFO - Row 19 completed
+2025-11-10 22:06:28,216 - INFO - Processing 23/288
+2025-11-10 22:06:28,221 - INFO - Saved answer 19 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:06:28,221 - INFO - Progress: 19/288 pending completed
+2025-11-10 22:06:59,018 - INFO - Row 20 completed
+2025-11-10 22:06:59,018 - INFO - Processing 24/288
+2025-11-10 22:06:59,023 - INFO - Saved answer 20 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:06:59,023 - INFO - Progress: 20/288 pending completed
+2025-11-10 22:07:30,814 - INFO - Row 21 completed
+2025-11-10 22:07:30,814 - INFO - Processing 25/288
+2025-11-10 22:07:30,819 - INFO - Saved answer 21 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:07:30,819 - INFO - Progress: 21/288 pending completed
+2025-11-10 22:07:58,777 - INFO - Row 22 completed
+2025-11-10 22:07:58,778 - INFO - Processing 26/288
+2025-11-10 22:07:58,782 - INFO - Saved answer 22 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:07:58,782 - INFO - Progress: 22/288 pending completed
+2025-11-10 22:08:31,854 - INFO - Row 23 completed
+2025-11-10 22:08:31,854 - INFO - Processing 27/288
+2025-11-10 22:08:31,858 - INFO - Saved answer 23 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:08:31,858 - INFO - Progress: 23/288 pending completed
+2025-11-10 22:09:02,144 - INFO - Row 24 completed
+2025-11-10 22:09:02,144 - INFO - Processing 28/288
+2025-11-10 22:09:02,149 - INFO - Saved answer 24 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:09:02,149 - INFO - Progress: 24/288 pending completed
+2025-11-10 22:09:27,091 - INFO - Row 25 completed
+2025-11-10 22:09:27,091 - INFO - Processing 29/288
+2025-11-10 22:09:27,095 - INFO - Saved answer 25 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:09:27,095 - INFO - Progress: 25/288 pending completed
+2025-11-10 22:09:58,910 - INFO - Row 26 completed
+2025-11-10 22:09:58,911 - INFO - Processing 30/288
+2025-11-10 22:09:58,915 - INFO - Saved answer 26 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:09:58,915 - INFO - Progress: 26/288 pending completed
+2025-11-10 22:10:27,941 - INFO - Row 27 completed
+2025-11-10 22:10:27,941 - INFO - Processing 31/288
+2025-11-10 22:10:27,946 - INFO - Saved answer 27 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:10:27,946 - INFO - Progress: 27/288 pending completed
+2025-11-10 22:10:57,842 - INFO - Row 28 completed
+2025-11-10 22:10:57,842 - INFO - Processing 32/288
+2025-11-10 22:10:57,847 - INFO - Saved answer 28 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:10:57,847 - INFO - Progress: 28/288 pending completed
+2025-11-10 22:11:27,312 - INFO - Row 29 completed
+2025-11-10 22:11:27,312 - INFO - Processing 33/288
+2025-11-10 22:11:27,317 - INFO - Saved answer 29 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:11:27,317 - INFO - Progress: 29/288 pending completed
+2025-11-10 22:11:58,094 - INFO - Row 30 completed
+2025-11-10 22:11:58,094 - INFO - Processing 34/288
+2025-11-10 22:11:58,098 - INFO - Saved answer 30 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:11:58,099 - INFO - Progress: 30/288 pending completed
+2025-11-10 22:12:28,718 - INFO - Row 31 completed
+2025-11-10 22:12:28,719 - INFO - Processing 35/288
+2025-11-10 22:12:28,723 - INFO - Saved answer 31 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:12:28,723 - INFO - Progress: 31/288 pending completed
+2025-11-10 22:12:57,153 - INFO - Row 32 completed
+2025-11-10 22:12:57,153 - INFO - Processing 36/288
+2025-11-10 22:12:57,158 - INFO - Saved answer 32 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:12:57,158 - INFO - Progress: 32/288 pending completed
+2025-11-10 22:13:27,344 - INFO - Row 33 completed
+2025-11-10 22:13:27,344 - INFO - Processing 37/288
+2025-11-10 22:13:27,350 - INFO - Saved answer 33 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:13:27,350 - INFO - Progress: 33/288 pending completed
+2025-11-10 22:13:57,515 - INFO - Row 34 completed
+2025-11-10 22:13:57,516 - INFO - Processing 38/288
+2025-11-10 22:13:57,520 - INFO - Saved answer 34 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:13:57,520 - INFO - Progress: 34/288 pending completed
+2025-11-10 22:14:26,932 - INFO - Row 35 completed
+2025-11-10 22:14:26,932 - INFO - Processing 39/288
+2025-11-10 22:14:26,937 - INFO - Saved answer 35 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:14:26,937 - INFO - Progress: 35/288 pending completed
+2025-11-10 22:14:57,688 - INFO - Row 36 completed
+2025-11-10 22:14:57,688 - INFO - Processing 40/288
+2025-11-10 22:14:57,693 - INFO - Saved answer 36 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:14:57,693 - INFO - Progress: 36/288 pending completed
+2025-11-10 22:15:26,400 - INFO - Row 37 completed
+2025-11-10 22:15:26,400 - INFO - Processing 41/288
+2025-11-10 22:15:26,405 - INFO - Saved answer 37 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:15:26,405 - INFO - Progress: 37/288 pending completed
+2025-11-10 22:15:57,075 - INFO - Row 38 completed
+2025-11-10 22:15:57,075 - INFO - Processing 42/288
+2025-11-10 22:15:57,080 - INFO - Saved answer 38 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:15:57,080 - INFO - Progress: 38/288 pending completed
+2025-11-10 22:16:27,054 - INFO - Row 39 completed
+2025-11-10 22:16:27,054 - INFO - Processing 43/288
+2025-11-10 22:16:27,060 - INFO - Saved answer 39 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:16:27,061 - INFO - Progress: 39/288 pending completed
+2025-11-10 22:16:57,451 - INFO - Row 40 completed
+2025-11-10 22:16:57,452 - INFO - Processing 44/288
+2025-11-10 22:16:57,456 - INFO - Saved answer 40 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:16:57,456 - INFO - Progress: 40/288 pending completed
+2025-11-10 22:17:27,588 - INFO - Row 41 completed
+2025-11-10 22:17:27,588 - INFO - Processing 45/288
+2025-11-10 22:17:27,593 - INFO - Saved answer 41 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:17:27,593 - INFO - Progress: 41/288 pending completed
+2025-11-10 22:17:56,162 - INFO - Row 42 completed
+2025-11-10 22:17:56,163 - INFO - Processing 46/288
+2025-11-10 22:17:56,167 - INFO - Saved answer 42 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:17:56,167 - INFO - Progress: 42/288 pending completed
+2025-11-10 22:18:27,172 - INFO - Row 43 completed
+2025-11-10 22:18:27,172 - INFO - Processing 47/288
+2025-11-10 22:18:27,176 - INFO - Saved answer 43 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:18:27,176 - INFO - Progress: 43/288 pending completed
+2025-11-10 22:18:59,446 - INFO - Row 44 completed
+2025-11-10 22:18:59,446 - INFO - Processing 48/288
+2025-11-10 22:18:59,452 - INFO - Saved answer 44 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:18:59,452 - INFO - Progress: 44/288 pending completed
+2025-11-10 22:19:27,544 - INFO - Row 45 completed
+2025-11-10 22:19:27,544 - INFO - Processing 49/288
+2025-11-10 22:19:27,549 - INFO - Saved answer 45 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:19:27,549 - INFO - Progress: 45/288 pending completed
+2025-11-10 22:19:59,404 - INFO - Row 46 completed
+2025-11-10 22:19:59,404 - INFO - Processing 50/288
+2025-11-10 22:19:59,409 - INFO - Saved answer 46 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:19:59,409 - INFO - Progress: 46/288 pending completed
+2025-11-10 22:20:30,451 - INFO - Row 47 completed
+2025-11-10 22:20:30,451 - INFO - Processing 51/288
+2025-11-10 22:20:30,455 - INFO - Saved answer 47 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:20:30,455 - INFO - Progress: 47/288 pending completed
+2025-11-10 22:20:58,394 - INFO - Row 48 completed
+2025-11-10 22:20:58,395 - INFO - Processing 52/288
+2025-11-10 22:20:58,402 - INFO - Saved answer 48 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:20:58,402 - INFO - Progress: 48/288 pending completed
+2025-11-10 22:21:27,403 - INFO - Row 49 completed
+2025-11-10 22:21:27,403 - INFO - Processing 53/288
+2025-11-10 22:21:27,408 - INFO - Saved answer 49 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:21:27,408 - INFO - Progress: 49/288 pending completed
+2025-11-10 22:21:59,005 - INFO - Row 50 completed
+2025-11-10 22:21:59,006 - INFO - Processing 54/288
+2025-11-10 22:21:59,011 - INFO - Saved answer 50 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\microsoft-phi-4-reasoning-plus_answers.csv
+2025-11-10 22:21:59,011 - INFO - Progress: 50/288 pending completed

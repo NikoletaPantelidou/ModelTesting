@@ -1,0 +1,640 @@
+2025-11-11 19:32:25,082 - WARNING - Initial CSV read failed with Error tokenizing data. C error: Expected 3 fields in line 47, saw 4
+; trying to auto-detect separator
+2025-11-11 19:32:25,099 - INFO - Processing model openai/gpt-5
+2025-11-11 19:32:25,104 - INFO - No pending prompts
+2025-11-11 19:32:25,113 - INFO - Processing model perplexity/sonar-reasoning-pro
+2025-11-11 19:32:25,121 - INFO - No pending prompts
+2025-11-11 19:32:25,128 - INFO - Processing model meta-llama/llama-4-scout:free
+2025-11-11 19:32:25,133 - INFO - No pending prompts
+2025-11-11 19:32:25,138 - INFO - Processing model google/gemma-3-4b-it:free
+2025-11-11 19:32:25,143 - INFO - No pending prompts
+2025-11-11 19:32:25,150 - INFO - Processing model openai/chatgpt-4o-latest
+2025-11-11 19:32:25,155 - INFO - No pending prompts
+2025-11-11 19:32:25,161 - INFO - Processing model x-ai/grok-4-fast
+2025-11-11 19:32:25,166 - INFO - No pending prompts
+2025-11-11 19:32:25,175 - INFO - Processing model google/gemini-2.5-flash
+2025-11-11 19:32:25,182 - INFO - No pending prompts
+2025-11-11 19:32:25,189 - INFO - Processing model google/gemini-2.5-pro
+2025-11-11 19:32:25,194 - INFO - No pending prompts
+2025-11-11 19:32:25,202 - INFO - Processing model anthropic/claude-sonnet-4.5
+2025-11-11 19:32:25,209 - INFO - No pending prompts
+2025-11-11 19:32:25,217 - INFO - Processing model anthropic/claude-haiku-4.5
+2025-11-11 19:32:25,225 - INFO - No pending prompts
+2025-11-11 19:32:25,233 - INFO - Processing model anthropic/claude-opus-4
+2025-11-11 19:32:25,241 - INFO - No pending prompts
+2025-11-11 19:32:25,250 - INFO - Processing model microsoft/phi-4-reasoning-plus
+2025-11-11 19:32:25,258 - INFO - No pending prompts
+2025-11-11 19:32:25,266 - INFO - Processing model arcee-ai/virtuoso-large
+2025-11-11 19:32:25,273 - INFO - No pending prompts
+2025-11-11 19:32:25,282 - INFO - Processing model allenai/olmo-2-0325-32b-instruct
+2025-11-11 19:32:25,289 - INFO - No pending prompts
+2025-11-11 19:32:25,295 - INFO - Processing model nvidia/nemotron-nano-9b-v2:free
+2025-11-11 19:32:25,302 - INFO - Processing 137/288
+2025-11-11 19:32:25,303 - INFO - Processing 138/288
+2025-11-11 19:32:25,304 - INFO - Processing 139/288
+2025-11-11 19:32:25,304 - INFO - Processing 140/288
+2025-11-11 19:32:31,465 - INFO - Row 137 completed
+2025-11-11 19:32:31,465 - INFO - Processing 141/288
+2025-11-11 19:32:31,485 - INFO - Saved answer 137 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:32:31,485 - INFO - Progress: 1/152 pending completed
+2025-11-11 19:33:00,601 - INFO - Row 138 completed
+2025-11-11 19:33:00,601 - INFO - Processing 142/288
+2025-11-11 19:33:00,606 - INFO - Saved answer 138 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:33:00,606 - INFO - Progress: 2/152 pending completed
+2025-11-11 19:33:30,906 - INFO - Row 139 completed
+2025-11-11 19:33:30,906 - INFO - Processing 143/288
+2025-11-11 19:33:30,912 - INFO - Saved answer 139 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:33:30,912 - INFO - Progress: 3/152 pending completed
+2025-11-11 19:34:01,664 - INFO - Row 140 completed
+2025-11-11 19:34:01,664 - INFO - Processing 144/288
+2025-11-11 19:34:01,670 - INFO - Saved answer 140 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:34:01,670 - INFO - Progress: 4/152 pending completed
+2025-11-11 19:34:31,839 - INFO - Row 141 completed
+2025-11-11 19:34:31,840 - INFO - Processing 145/288
+2025-11-11 19:34:31,845 - INFO - Saved answer 141 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:34:31,845 - INFO - Progress: 5/152 pending completed
+2025-11-11 19:35:01,446 - INFO - Row 142 completed
+2025-11-11 19:35:01,446 - INFO - Processing 146/288
+2025-11-11 19:35:01,451 - INFO - Saved answer 142 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:35:01,452 - INFO - Progress: 6/152 pending completed
+2025-11-11 19:35:30,654 - INFO - Row 143 completed
+2025-11-11 19:35:30,654 - INFO - Processing 147/288
+2025-11-11 19:35:30,660 - INFO - Saved answer 143 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:35:30,660 - INFO - Progress: 7/152 pending completed
+2025-11-11 19:36:02,627 - INFO - Row 144 completed
+2025-11-11 19:36:02,627 - INFO - Processing 148/288
+2025-11-11 19:36:02,632 - INFO - Saved answer 144 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:36:02,632 - INFO - Progress: 8/152 pending completed
+2025-11-11 19:36:31,769 - INFO - Row 145 completed
+2025-11-11 19:36:31,770 - INFO - Processing 149/288
+2025-11-11 19:36:31,775 - INFO - Saved answer 145 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:36:31,775 - INFO - Progress: 9/152 pending completed
+2025-11-11 19:37:05,802 - INFO - Row 146 completed
+2025-11-11 19:37:05,802 - INFO - Processing 150/288
+2025-11-11 19:37:05,808 - INFO - Saved answer 146 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:37:05,808 - INFO - Progress: 10/152 pending completed
+2025-11-11 19:37:37,504 - INFO - Row 147 completed
+2025-11-11 19:37:37,505 - INFO - Processing 151/288
+2025-11-11 19:37:37,511 - INFO - Saved answer 147 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:37:37,511 - INFO - Progress: 11/152 pending completed
+2025-11-11 19:38:01,551 - INFO - Row 148 completed
+2025-11-11 19:38:01,551 - INFO - Processing 152/288
+2025-11-11 19:38:01,556 - INFO - Saved answer 148 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:38:01,556 - INFO - Progress: 12/152 pending completed
+2025-11-11 19:38:33,447 - INFO - Row 149 completed
+2025-11-11 19:38:33,447 - INFO - Processing 153/288
+2025-11-11 19:38:33,453 - INFO - Saved answer 149 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:38:33,453 - INFO - Progress: 13/152 pending completed
+2025-11-11 19:39:02,630 - INFO - Row 150 completed
+2025-11-11 19:39:02,631 - INFO - Processing 154/288
+2025-11-11 19:39:02,636 - INFO - Saved answer 150 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:39:02,637 - INFO - Progress: 14/152 pending completed
+2025-11-11 19:39:29,854 - INFO - Row 151 completed
+2025-11-11 19:39:29,855 - INFO - Processing 155/288
+2025-11-11 19:39:29,861 - INFO - Saved answer 151 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:39:29,861 - INFO - Progress: 15/152 pending completed
+2025-11-11 19:40:26,828 - INFO - Row 152 completed
+2025-11-11 19:40:26,828 - INFO - Processing 156/288
+2025-11-11 19:40:26,834 - INFO - Saved answer 152 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:40:26,834 - INFO - Progress: 16/152 pending completed
+2025-11-11 19:40:29,287 - INFO - Row 153 completed
+2025-11-11 19:40:29,288 - INFO - Processing 157/288
+2025-11-11 19:40:29,296 - INFO - Saved answer 153 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:40:29,296 - INFO - Progress: 17/152 pending completed
+2025-11-11 19:41:01,543 - INFO - Row 154 completed
+2025-11-11 19:41:01,543 - INFO - Processing 158/288
+2025-11-11 19:41:01,548 - INFO - Saved answer 154 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:41:01,548 - INFO - Progress: 18/152 pending completed
+2025-11-11 19:41:33,541 - INFO - Row 155 completed
+2025-11-11 19:41:33,541 - INFO - Processing 159/288
+2025-11-11 19:41:33,549 - INFO - Saved answer 155 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:41:33,549 - INFO - Progress: 19/152 pending completed
+2025-11-11 19:41:59,852 - INFO - Row 156 completed
+2025-11-11 19:41:59,852 - INFO - Processing 160/288
+2025-11-11 19:41:59,859 - INFO - Saved answer 156 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:41:59,859 - INFO - Progress: 20/152 pending completed
+2025-11-11 19:42:31,316 - INFO - Row 157 completed
+2025-11-11 19:42:31,316 - INFO - Processing 161/288
+2025-11-11 19:42:31,322 - INFO - Saved answer 157 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:42:31,322 - INFO - Progress: 21/152 pending completed
+2025-11-11 19:43:13,848 - INFO - Row 158 completed
+2025-11-11 19:43:13,849 - INFO - Processing 162/288
+2025-11-11 19:43:13,854 - INFO - Saved answer 158 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:43:13,854 - INFO - Progress: 22/152 pending completed
+2025-11-11 19:43:30,173 - INFO - Row 159 completed
+2025-11-11 19:43:30,173 - INFO - Processing 163/288
+2025-11-11 19:43:30,178 - INFO - Saved answer 159 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:43:30,178 - INFO - Progress: 23/152 pending completed
+2025-11-11 19:44:01,712 - INFO - Row 160 completed
+2025-11-11 19:44:01,712 - INFO - Processing 164/288
+2025-11-11 19:44:01,718 - INFO - Saved answer 160 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:44:01,718 - INFO - Progress: 24/152 pending completed
+2025-11-11 19:44:40,994 - INFO - Row 161 completed
+2025-11-11 19:44:40,994 - INFO - Processing 165/288
+2025-11-11 19:44:40,999 - INFO - Saved answer 161 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:44:41,000 - INFO - Progress: 25/152 pending completed
+2025-11-11 19:45:00,180 - INFO - Row 162 completed
+2025-11-11 19:45:00,180 - INFO - Processing 166/288
+2025-11-11 19:45:00,188 - INFO - Saved answer 162 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:45:00,188 - INFO - Progress: 26/152 pending completed
+2025-11-11 19:45:29,418 - INFO - Row 163 completed
+2025-11-11 19:45:29,418 - INFO - Processing 167/288
+2025-11-11 19:45:29,424 - INFO - Saved answer 163 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:45:29,424 - INFO - Progress: 27/152 pending completed
+2025-11-11 19:45:59,717 - INFO - Row 164 completed
+2025-11-11 19:45:59,717 - INFO - Processing 168/288
+2025-11-11 19:45:59,723 - INFO - Saved answer 164 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:45:59,723 - INFO - Progress: 28/152 pending completed
+2025-11-11 19:46:36,293 - INFO - Row 165 completed
+2025-11-11 19:46:36,293 - INFO - Processing 169/288
+2025-11-11 19:46:36,299 - INFO - Saved answer 165 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:46:36,299 - INFO - Progress: 29/152 pending completed
+2025-11-11 19:47:02,279 - INFO - Row 166 completed
+2025-11-11 19:47:02,279 - INFO - Processing 170/288
+2025-11-11 19:47:02,284 - INFO - Saved answer 166 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:47:02,284 - INFO - Progress: 30/152 pending completed
+2025-11-11 19:47:32,263 - INFO - Row 167 completed
+2025-11-11 19:47:32,264 - INFO - Processing 171/288
+2025-11-11 19:47:32,269 - INFO - Saved answer 167 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:47:32,269 - INFO - Progress: 31/152 pending completed
+2025-11-11 19:48:02,753 - INFO - Row 168 completed
+2025-11-11 19:48:02,753 - INFO - Processing 172/288
+2025-11-11 19:48:02,758 - INFO - Saved answer 168 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:48:02,758 - INFO - Progress: 32/152 pending completed
+2025-11-11 19:48:29,446 - INFO - Row 169 completed
+2025-11-11 19:48:29,447 - INFO - Processing 173/288
+2025-11-11 19:48:29,451 - INFO - Saved answer 169 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:48:29,452 - INFO - Progress: 33/152 pending completed
+2025-11-11 19:49:10,717 - INFO - Row 170 completed
+2025-11-11 19:49:10,717 - INFO - Processing 174/288
+2025-11-11 19:49:10,722 - INFO - Saved answer 170 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:49:10,722 - INFO - Progress: 34/152 pending completed
+2025-11-11 19:49:29,558 - INFO - Row 171 completed
+2025-11-11 19:49:29,558 - INFO - Processing 175/288
+2025-11-11 19:49:29,563 - INFO - Saved answer 171 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:49:29,563 - INFO - Progress: 35/152 pending completed
+2025-11-11 19:49:58,435 - INFO - Row 172 completed
+2025-11-11 19:49:58,435 - INFO - Processing 176/288
+2025-11-11 19:49:58,440 - INFO - Saved answer 172 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:49:58,440 - INFO - Progress: 36/152 pending completed
+2025-11-11 19:50:29,251 - INFO - Row 173 completed
+2025-11-11 19:50:29,251 - INFO - Processing 177/288
+2025-11-11 19:50:29,257 - INFO - Saved answer 173 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:50:29,257 - INFO - Progress: 37/152 pending completed
+2025-11-11 19:51:00,975 - INFO - Row 174 completed
+2025-11-11 19:51:00,976 - INFO - Processing 178/288
+2025-11-11 19:51:00,980 - INFO - Saved answer 174 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:51:00,981 - INFO - Progress: 38/152 pending completed
+2025-11-11 19:51:30,397 - INFO - Row 175 completed
+2025-11-11 19:51:30,397 - INFO - Processing 179/288
+2025-11-11 19:51:30,402 - INFO - Saved answer 175 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:51:30,402 - INFO - Progress: 39/152 pending completed
+2025-11-11 19:51:59,740 - INFO - Row 176 completed
+2025-11-11 19:51:59,741 - INFO - Processing 180/288
+2025-11-11 19:51:59,746 - INFO - Saved answer 176 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:51:59,747 - INFO - Progress: 40/152 pending completed
+2025-11-11 19:52:28,576 - INFO - Row 177 completed
+2025-11-11 19:52:28,576 - INFO - Processing 181/288
+2025-11-11 19:52:28,581 - INFO - Saved answer 177 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:52:28,581 - INFO - Progress: 41/152 pending completed
+2025-11-11 19:53:01,395 - INFO - Row 178 completed
+2025-11-11 19:53:01,395 - INFO - Processing 182/288
+2025-11-11 19:53:01,400 - INFO - Saved answer 178 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:53:01,400 - INFO - Progress: 42/152 pending completed
+2025-11-11 19:53:28,983 - INFO - Row 179 completed
+2025-11-11 19:53:28,983 - INFO - Processing 183/288
+2025-11-11 19:53:28,987 - INFO - Saved answer 179 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:53:28,988 - INFO - Progress: 43/152 pending completed
+2025-11-11 19:54:01,681 - INFO - Row 180 completed
+2025-11-11 19:54:01,681 - INFO - Processing 184/288
+2025-11-11 19:54:01,687 - INFO - Saved answer 180 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:54:01,687 - INFO - Progress: 44/152 pending completed
+2025-11-11 19:54:32,099 - INFO - Row 181 completed
+2025-11-11 19:54:32,100 - INFO - Processing 185/288
+2025-11-11 19:54:32,105 - INFO - Saved answer 181 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:54:32,105 - INFO - Progress: 45/152 pending completed
+2025-11-11 19:55:00,455 - INFO - Row 182 completed
+2025-11-11 19:55:00,455 - INFO - Processing 186/288
+2025-11-11 19:55:00,459 - INFO - Saved answer 182 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:55:00,459 - INFO - Progress: 46/152 pending completed
+2025-11-11 19:55:28,549 - INFO - Row 183 completed
+2025-11-11 19:55:28,549 - INFO - Processing 187/288
+2025-11-11 19:55:28,555 - INFO - Saved answer 183 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:55:28,555 - INFO - Progress: 47/152 pending completed
+2025-11-11 19:55:59,420 - INFO - Row 184 completed
+2025-11-11 19:55:59,420 - INFO - Processing 188/288
+2025-11-11 19:55:59,425 - INFO - Saved answer 184 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:55:59,425 - INFO - Progress: 48/152 pending completed
+2025-11-11 19:56:28,765 - INFO - Row 185 completed
+2025-11-11 19:56:28,765 - INFO - Processing 189/288
+2025-11-11 19:56:28,770 - INFO - Saved answer 185 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:56:28,770 - INFO - Progress: 49/152 pending completed
+2025-11-11 19:57:00,116 - INFO - Row 186 completed
+2025-11-11 19:57:00,116 - INFO - Processing 190/288
+2025-11-11 19:57:00,121 - INFO - Saved answer 186 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:57:00,121 - INFO - Progress: 50/152 pending completed
+2025-11-11 19:57:28,723 - INFO - Row 187 completed
+2025-11-11 19:57:28,723 - INFO - Processing 191/288
+2025-11-11 19:57:28,728 - INFO - Saved answer 187 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:57:28,728 - INFO - Progress: 51/152 pending completed
+2025-11-11 19:58:02,755 - INFO - Row 188 completed
+2025-11-11 19:58:02,755 - INFO - Processing 192/288
+2025-11-11 19:58:02,760 - INFO - Saved answer 188 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:58:02,760 - INFO - Progress: 52/152 pending completed
+2025-11-11 19:58:28,899 - INFO - Row 189 completed
+2025-11-11 19:58:28,899 - INFO - Processing 193/288
+2025-11-11 19:58:28,904 - INFO - Saved answer 189 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:58:28,904 - INFO - Progress: 53/152 pending completed
+2025-11-11 19:58:59,195 - INFO - Row 190 completed
+2025-11-11 19:58:59,195 - INFO - Processing 194/288
+2025-11-11 19:58:59,200 - INFO - Saved answer 190 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:58:59,200 - INFO - Progress: 54/152 pending completed
+2025-11-11 19:59:48,298 - INFO - Row 191 completed
+2025-11-11 19:59:48,298 - INFO - Processing 195/288
+2025-11-11 19:59:48,303 - INFO - Saved answer 191 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 19:59:48,303 - INFO - Progress: 55/152 pending completed
+2025-11-11 20:00:05,245 - INFO - Row 192 completed
+2025-11-11 20:00:05,245 - INFO - Processing 196/288
+2025-11-11 20:00:05,250 - INFO - Saved answer 192 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:00:05,250 - INFO - Progress: 56/152 pending completed
+2025-11-11 20:00:33,605 - INFO - Row 193 completed
+2025-11-11 20:00:33,606 - INFO - Processing 197/288
+2025-11-11 20:00:33,610 - INFO - Saved answer 193 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:00:33,610 - INFO - Progress: 57/152 pending completed
+2025-11-11 20:01:10,635 - INFO - Row 194 completed
+2025-11-11 20:01:10,635 - INFO - Processing 198/288
+2025-11-11 20:01:10,641 - INFO - Saved answer 194 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:01:10,641 - INFO - Progress: 58/152 pending completed
+2025-11-11 20:01:28,574 - INFO - Row 195 completed
+2025-11-11 20:01:28,574 - INFO - Processing 199/288
+2025-11-11 20:01:28,579 - INFO - Saved answer 195 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:01:28,579 - INFO - Progress: 59/152 pending completed
+2025-11-11 20:02:02,759 - INFO - Row 196 completed
+2025-11-11 20:02:02,759 - INFO - Processing 200/288
+2025-11-11 20:02:02,764 - INFO - Saved answer 196 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:02:02,764 - INFO - Progress: 60/152 pending completed
+2025-11-11 20:02:30,608 - INFO - Row 197 completed
+2025-11-11 20:02:30,608 - INFO - Processing 201/288
+2025-11-11 20:02:30,613 - INFO - Saved answer 197 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:02:30,613 - INFO - Progress: 61/152 pending completed
+2025-11-11 20:03:00,128 - INFO - Row 198 completed
+2025-11-11 20:03:00,128 - INFO - Processing 202/288
+2025-11-11 20:03:00,134 - INFO - Saved answer 198 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:03:00,134 - INFO - Progress: 62/152 pending completed
+2025-11-11 20:03:36,170 - INFO - Row 199 completed
+2025-11-11 20:03:36,170 - INFO - Processing 203/288
+2025-11-11 20:03:36,176 - INFO - Saved answer 199 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:03:36,176 - INFO - Progress: 63/152 pending completed
+2025-11-11 20:04:00,431 - INFO - Row 200 completed
+2025-11-11 20:04:00,431 - INFO - Processing 204/288
+2025-11-11 20:04:00,436 - INFO - Saved answer 200 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:04:00,436 - INFO - Progress: 64/152 pending completed
+2025-11-11 20:04:33,302 - INFO - Row 201 completed
+2025-11-11 20:04:33,303 - INFO - Processing 205/288
+2025-11-11 20:04:33,309 - INFO - Saved answer 201 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:04:33,310 - INFO - Progress: 65/152 pending completed
+2025-11-11 20:04:59,346 - INFO - Row 202 completed
+2025-11-11 20:04:59,346 - INFO - Processing 206/288
+2025-11-11 20:04:59,352 - INFO - Saved answer 202 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:04:59,352 - INFO - Progress: 66/152 pending completed
+2025-11-11 20:05:30,339 - INFO - Row 203 completed
+2025-11-11 20:05:30,339 - INFO - Processing 207/288
+2025-11-11 20:05:30,344 - INFO - Saved answer 203 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:05:30,344 - INFO - Progress: 67/152 pending completed
+2025-11-11 20:06:00,052 - INFO - Row 204 completed
+2025-11-11 20:06:00,052 - INFO - Processing 208/288
+2025-11-11 20:06:00,057 - INFO - Saved answer 204 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:06:00,058 - INFO - Progress: 68/152 pending completed
+2025-11-11 20:06:33,549 - INFO - Row 205 completed
+2025-11-11 20:06:33,549 - INFO - Processing 209/288
+2025-11-11 20:06:33,554 - INFO - Saved answer 205 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:06:33,554 - INFO - Progress: 69/152 pending completed
+2025-11-11 20:07:01,607 - INFO - Row 206 completed
+2025-11-11 20:07:01,607 - INFO - Processing 210/288
+2025-11-11 20:07:01,612 - INFO - Saved answer 206 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:07:01,612 - INFO - Progress: 70/152 pending completed
+2025-11-11 20:07:29,977 - INFO - Row 207 completed
+2025-11-11 20:07:29,977 - INFO - Processing 211/288
+2025-11-11 20:07:29,983 - INFO - Saved answer 207 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:07:29,983 - INFO - Progress: 71/152 pending completed
+2025-11-11 20:08:05,655 - INFO - Row 208 completed
+2025-11-11 20:08:05,655 - INFO - Processing 212/288
+2025-11-11 20:08:05,660 - INFO - Saved answer 208 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:08:05,660 - INFO - Progress: 72/152 pending completed
+2025-11-11 20:09:03,430 - INFO - Row 210 completed
+2025-11-11 20:09:03,430 - INFO - Processing 213/288
+2025-11-11 20:09:03,445 - INFO - Saved answer 210 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:09:03,446 - INFO - Progress: 73/152 pending completed
+2025-11-11 20:09:19,005 - INFO - Row 209 completed
+2025-11-11 20:09:19,005 - INFO - Processing 214/288
+2025-11-11 20:09:19,010 - INFO - Saved answer 209 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:09:19,011 - INFO - Progress: 74/152 pending completed
+2025-11-11 20:09:33,817 - INFO - Row 211 completed
+2025-11-11 20:09:33,817 - INFO - Processing 215/288
+2025-11-11 20:09:33,822 - INFO - Saved answer 211 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:09:33,822 - INFO - Progress: 75/152 pending completed
+2025-11-11 20:10:03,612 - INFO - Row 212 completed
+2025-11-11 20:10:03,612 - INFO - Processing 216/288
+2025-11-11 20:10:03,618 - INFO - Saved answer 212 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:10:03,618 - INFO - Progress: 76/152 pending completed
+2025-11-11 20:10:36,904 - INFO - Row 213 completed
+2025-11-11 20:10:36,904 - INFO - Processing 217/288
+2025-11-11 20:10:36,909 - INFO - Saved answer 213 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:10:36,909 - INFO - Progress: 77/152 pending completed
+2025-11-11 20:11:15,986 - INFO - Row 214 completed
+2025-11-11 20:11:15,986 - INFO - Processing 218/288
+2025-11-11 20:11:16,004 - INFO - Saved answer 214 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:11:16,004 - INFO - Progress: 78/152 pending completed
+2025-11-11 20:11:38,395 - INFO - Row 215 completed
+2025-11-11 20:11:38,395 - INFO - Processing 219/288
+2025-11-11 20:11:38,400 - INFO - Saved answer 215 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:11:38,400 - INFO - Progress: 79/152 pending completed
+2025-11-11 20:12:00,381 - INFO - Row 216 completed
+2025-11-11 20:12:00,381 - INFO - Processing 220/288
+2025-11-11 20:12:00,386 - INFO - Saved answer 216 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:12:00,387 - INFO - Progress: 80/152 pending completed
+2025-11-11 20:12:32,701 - INFO - Row 217 completed
+2025-11-11 20:12:32,702 - INFO - Processing 221/288
+2025-11-11 20:12:32,707 - INFO - Saved answer 217 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:12:32,707 - INFO - Progress: 81/152 pending completed
+2025-11-11 20:13:00,659 - INFO - Row 218 completed
+2025-11-11 20:13:00,660 - INFO - Processing 222/288
+2025-11-11 20:13:00,665 - INFO - Saved answer 218 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:13:00,665 - INFO - Progress: 82/152 pending completed
+2025-11-11 20:13:30,927 - INFO - Row 219 completed
+2025-11-11 20:13:30,927 - INFO - Processing 223/288
+2025-11-11 20:13:30,932 - INFO - Saved answer 219 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:13:30,932 - INFO - Progress: 83/152 pending completed
+2025-11-11 20:14:05,081 - INFO - Row 220 completed
+2025-11-11 20:14:05,081 - INFO - Processing 224/288
+2025-11-11 20:14:05,086 - INFO - Saved answer 220 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:14:05,086 - INFO - Progress: 84/152 pending completed
+2025-11-11 20:14:33,177 - INFO - Row 221 completed
+2025-11-11 20:14:33,177 - INFO - Processing 225/288
+2025-11-11 20:14:33,183 - INFO - Saved answer 221 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:14:33,183 - INFO - Progress: 85/152 pending completed
+2025-11-11 20:15:01,041 - INFO - Row 222 completed
+2025-11-11 20:15:01,042 - INFO - Processing 226/288
+2025-11-11 20:15:01,047 - INFO - Saved answer 222 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:15:01,047 - INFO - Progress: 86/152 pending completed
+2025-11-11 20:15:33,734 - INFO - Row 223 completed
+2025-11-11 20:15:33,734 - INFO - Processing 227/288
+2025-11-11 20:15:33,739 - INFO - Saved answer 223 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:15:33,739 - INFO - Progress: 87/152 pending completed
+2025-11-11 20:16:05,725 - INFO - Row 224 completed
+2025-11-11 20:16:05,725 - INFO - Processing 228/288
+2025-11-11 20:16:05,730 - INFO - Saved answer 224 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:16:05,730 - INFO - Progress: 88/152 pending completed
+2025-11-11 20:16:33,204 - INFO - Row 225 completed
+2025-11-11 20:16:33,204 - INFO - Processing 229/288
+2025-11-11 20:16:33,209 - INFO - Saved answer 225 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:16:33,210 - INFO - Progress: 89/152 pending completed
+2025-11-11 20:17:02,152 - INFO - Row 226 completed
+2025-11-11 20:17:02,152 - INFO - Processing 230/288
+2025-11-11 20:17:02,157 - INFO - Saved answer 226 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:17:02,157 - INFO - Progress: 90/152 pending completed
+2025-11-11 20:17:43,490 - INFO - Row 227 completed
+2025-11-11 20:17:43,491 - INFO - Processing 231/288
+2025-11-11 20:17:43,496 - INFO - Saved answer 227 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:17:43,496 - INFO - Progress: 91/152 pending completed
+2025-11-11 20:18:03,646 - INFO - Row 228 completed
+2025-11-11 20:18:03,646 - INFO - Processing 232/288
+2025-11-11 20:18:03,651 - INFO - Saved answer 228 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:18:03,651 - INFO - Progress: 92/152 pending completed
+2025-11-11 20:18:30,729 - INFO - Row 229 completed
+2025-11-11 20:18:30,730 - INFO - Processing 233/288
+2025-11-11 20:18:30,735 - INFO - Saved answer 229 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:18:30,735 - INFO - Progress: 93/152 pending completed
+2025-11-11 20:19:03,814 - INFO - Row 230 completed
+2025-11-11 20:19:03,815 - INFO - Processing 234/288
+2025-11-11 20:19:03,820 - INFO - Saved answer 230 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:19:03,820 - INFO - Progress: 94/152 pending completed
+2025-11-11 20:19:29,807 - INFO - Row 231 completed
+2025-11-11 20:19:29,807 - INFO - Processing 235/288
+2025-11-11 20:19:29,812 - INFO - Saved answer 231 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:19:29,813 - INFO - Progress: 95/152 pending completed
+2025-11-11 20:19:59,026 - INFO - Row 232 completed
+2025-11-11 20:19:59,026 - INFO - Processing 236/288
+2025-11-11 20:19:59,031 - INFO - Saved answer 232 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:19:59,031 - INFO - Progress: 96/152 pending completed
+2025-11-11 20:20:45,801 - INFO - Row 233 completed
+2025-11-11 20:20:45,801 - INFO - Processing 237/288
+2025-11-11 20:20:45,806 - INFO - Saved answer 233 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:20:45,806 - INFO - Progress: 97/152 pending completed
+2025-11-11 20:21:03,777 - INFO - Row 234 completed
+2025-11-11 20:21:03,777 - INFO - Processing 238/288
+2025-11-11 20:21:03,782 - INFO - Saved answer 234 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:21:03,783 - INFO - Progress: 98/152 pending completed
+2025-11-11 20:21:31,148 - INFO - Row 235 completed
+2025-11-11 20:21:31,148 - INFO - Processing 239/288
+2025-11-11 20:21:31,153 - INFO - Saved answer 235 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:21:31,153 - INFO - Progress: 99/152 pending completed
+2025-11-11 20:22:01,626 - INFO - Row 236 completed
+2025-11-11 20:22:01,626 - INFO - Processing 240/288
+2025-11-11 20:22:01,632 - INFO - Saved answer 236 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:22:01,632 - INFO - Progress: 100/152 pending completed
+2025-11-11 20:22:32,130 - INFO - Row 237 completed
+2025-11-11 20:22:32,130 - INFO - Processing 241/288
+2025-11-11 20:22:32,136 - INFO - Saved answer 237 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:22:32,136 - INFO - Progress: 101/152 pending completed
+2025-11-11 20:23:02,802 - INFO - Row 238 completed
+2025-11-11 20:23:02,802 - INFO - Processing 242/288
+2025-11-11 20:23:02,807 - INFO - Saved answer 238 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:23:02,807 - INFO - Progress: 102/152 pending completed
+2025-11-11 20:23:48,818 - INFO - Row 239 completed
+2025-11-11 20:23:48,818 - INFO - Processing 243/288
+2025-11-11 20:23:48,823 - INFO - Saved answer 239 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:23:48,823 - INFO - Progress: 103/152 pending completed
+2025-11-11 20:24:04,293 - INFO - Row 240 completed
+2025-11-11 20:24:04,293 - INFO - Processing 244/288
+2025-11-11 20:24:04,299 - INFO - Saved answer 240 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:24:04,300 - INFO - Progress: 104/152 pending completed
+2025-11-11 20:24:29,981 - INFO - Row 241 completed
+2025-11-11 20:24:29,981 - INFO - Processing 245/288
+2025-11-11 20:24:29,987 - INFO - Saved answer 241 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:24:29,987 - INFO - Progress: 105/152 pending completed
+2025-11-11 20:25:02,004 - INFO - Row 242 completed
+2025-11-11 20:25:02,004 - INFO - Processing 246/288
+2025-11-11 20:25:02,010 - INFO - Saved answer 242 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:25:02,010 - INFO - Progress: 106/152 pending completed
+2025-11-11 20:25:29,562 - INFO - Row 243 completed
+2025-11-11 20:25:29,563 - INFO - Processing 247/288
+2025-11-11 20:25:29,570 - INFO - Saved answer 243 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:25:29,570 - INFO - Progress: 107/152 pending completed
+2025-11-11 20:25:58,953 - INFO - Row 244 completed
+2025-11-11 20:25:58,953 - INFO - Processing 248/288
+2025-11-11 20:25:58,959 - INFO - Saved answer 244 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:25:58,959 - INFO - Progress: 108/152 pending completed
+2025-11-11 20:26:28,607 - INFO - Row 245 completed
+2025-11-11 20:26:28,607 - INFO - Processing 249/288
+2025-11-11 20:26:28,612 - INFO - Saved answer 245 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:26:28,612 - INFO - Progress: 109/152 pending completed
+2025-11-11 20:26:59,849 - INFO - Row 246 completed
+2025-11-11 20:26:59,849 - INFO - Processing 250/288
+2025-11-11 20:26:59,854 - INFO - Saved answer 246 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:26:59,855 - INFO - Progress: 110/152 pending completed
+2025-11-11 20:27:29,901 - INFO - Row 247 completed
+2025-11-11 20:27:29,902 - INFO - Processing 251/288
+2025-11-11 20:27:29,907 - INFO - Saved answer 247 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:27:29,907 - INFO - Progress: 111/152 pending completed
+2025-11-11 20:27:58,809 - INFO - Row 248 completed
+2025-11-11 20:27:58,809 - INFO - Processing 252/288
+2025-11-11 20:27:58,814 - INFO - Saved answer 248 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:27:58,815 - INFO - Progress: 112/152 pending completed
+2025-11-11 20:28:28,971 - INFO - Row 249 completed
+2025-11-11 20:28:28,971 - INFO - Processing 253/288
+2025-11-11 20:28:28,976 - INFO - Saved answer 249 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:28:28,976 - INFO - Progress: 113/152 pending completed
+2025-11-11 20:28:58,954 - INFO - Row 250 completed
+2025-11-11 20:28:58,954 - INFO - Processing 254/288
+2025-11-11 20:28:58,959 - INFO - Saved answer 250 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:28:58,959 - INFO - Progress: 114/152 pending completed
+2025-11-11 20:29:31,387 - INFO - Row 251 completed
+2025-11-11 20:29:31,387 - INFO - Processing 255/288
+2025-11-11 20:29:31,393 - INFO - Saved answer 251 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:29:31,393 - INFO - Progress: 115/152 pending completed
+2025-11-11 20:29:58,693 - INFO - Row 252 completed
+2025-11-11 20:29:58,693 - INFO - Processing 256/288
+2025-11-11 20:29:58,699 - INFO - Saved answer 252 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:29:58,699 - INFO - Progress: 116/152 pending completed
+2025-11-11 20:30:31,835 - INFO - Row 253 completed
+2025-11-11 20:30:31,836 - INFO - Processing 257/288
+2025-11-11 20:30:31,841 - INFO - Saved answer 253 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:30:31,841 - INFO - Progress: 117/152 pending completed
+2025-11-11 20:31:00,230 - INFO - Row 254 completed
+2025-11-11 20:31:00,231 - INFO - Processing 258/288
+2025-11-11 20:31:00,236 - INFO - Saved answer 254 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:31:00,236 - INFO - Progress: 118/152 pending completed
+2025-11-11 20:31:30,138 - INFO - Row 255 completed
+2025-11-11 20:31:30,138 - INFO - Processing 259/288
+2025-11-11 20:31:30,143 - INFO - Saved answer 255 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:31:30,143 - INFO - Progress: 119/152 pending completed
+2025-11-11 20:31:59,487 - INFO - Row 256 completed
+2025-11-11 20:31:59,488 - INFO - Processing 260/288
+2025-11-11 20:31:59,494 - INFO - Saved answer 256 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:31:59,494 - INFO - Progress: 120/152 pending completed
+2025-11-11 20:32:29,817 - INFO - Row 257 completed
+2025-11-11 20:32:29,817 - INFO - Processing 261/288
+2025-11-11 20:32:29,823 - INFO - Saved answer 257 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:32:29,823 - INFO - Progress: 121/152 pending completed
+2025-11-11 20:33:00,002 - INFO - Row 258 completed
+2025-11-11 20:33:00,002 - INFO - Processing 262/288
+2025-11-11 20:33:00,008 - INFO - Saved answer 258 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:33:00,008 - INFO - Progress: 122/152 pending completed
+2025-11-11 20:33:34,825 - INFO - Row 259 completed
+2025-11-11 20:33:34,825 - INFO - Processing 263/288
+2025-11-11 20:33:34,831 - INFO - Saved answer 259 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:33:34,831 - INFO - Progress: 123/152 pending completed
+2025-11-11 20:33:58,833 - INFO - Row 260 completed
+2025-11-11 20:33:58,833 - INFO - Processing 264/288
+2025-11-11 20:33:58,839 - INFO - Saved answer 260 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:33:58,839 - INFO - Progress: 124/152 pending completed
+2025-11-11 20:34:29,265 - INFO - Row 261 completed
+2025-11-11 20:34:29,265 - INFO - Processing 265/288
+2025-11-11 20:34:29,270 - INFO - Saved answer 261 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:34:29,270 - INFO - Progress: 125/152 pending completed
+2025-11-11 20:35:06,651 - INFO - Row 262 completed
+2025-11-11 20:35:06,651 - INFO - Processing 266/288
+2025-11-11 20:35:06,656 - INFO - Saved answer 262 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:35:06,656 - INFO - Progress: 126/152 pending completed
+2025-11-11 20:35:54,728 - INFO - Row 263 completed
+2025-11-11 20:35:54,728 - INFO - Processing 267/288
+2025-11-11 20:35:54,734 - INFO - Saved answer 263 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:35:54,734 - INFO - Progress: 127/152 pending completed
+2025-11-11 20:36:04,393 - INFO - Row 264 completed
+2025-11-11 20:36:04,393 - INFO - Processing 268/288
+2025-11-11 20:36:04,398 - INFO - Saved answer 264 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:36:04,398 - INFO - Progress: 128/152 pending completed
+2025-11-11 20:36:28,855 - INFO - Row 265 completed
+2025-11-11 20:36:28,855 - INFO - Processing 269/288
+2025-11-11 20:36:28,861 - INFO - Saved answer 265 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:36:28,861 - INFO - Progress: 129/152 pending completed
+2025-11-11 20:36:59,222 - INFO - Row 266 completed
+2025-11-11 20:36:59,222 - INFO - Processing 270/288
+2025-11-11 20:36:59,227 - INFO - Saved answer 266 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:36:59,227 - INFO - Progress: 130/152 pending completed
+2025-11-11 20:37:30,576 - INFO - Row 267 completed
+2025-11-11 20:37:30,576 - INFO - Processing 271/288
+2025-11-11 20:37:30,582 - INFO - Saved answer 267 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:37:30,582 - INFO - Progress: 131/152 pending completed
+2025-11-11 20:37:59,600 - INFO - Row 268 completed
+2025-11-11 20:37:59,600 - INFO - Processing 272/288
+2025-11-11 20:37:59,607 - INFO - Saved answer 268 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:37:59,607 - INFO - Progress: 132/152 pending completed
+2025-11-11 20:38:31,302 - INFO - Row 269 completed
+2025-11-11 20:38:31,302 - INFO - Processing 273/288
+2025-11-11 20:38:31,307 - INFO - Saved answer 269 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:38:31,307 - INFO - Progress: 133/152 pending completed
+2025-11-11 20:38:58,918 - INFO - Row 270 completed
+2025-11-11 20:38:58,918 - INFO - Processing 274/288
+2025-11-11 20:38:58,923 - INFO - Saved answer 270 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:38:58,923 - INFO - Progress: 134/152 pending completed
+2025-11-11 20:39:30,707 - INFO - Row 271 completed
+2025-11-11 20:39:30,707 - INFO - Processing 275/288
+2025-11-11 20:39:30,712 - INFO - Saved answer 271 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:39:30,713 - INFO - Progress: 135/152 pending completed
+2025-11-11 20:40:06,119 - INFO - Row 272 completed
+2025-11-11 20:40:06,119 - INFO - Processing 276/288
+2025-11-11 20:40:06,125 - INFO - Saved answer 272 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:40:06,126 - INFO - Progress: 136/152 pending completed
+2025-11-11 20:40:29,903 - INFO - Row 273 completed
+2025-11-11 20:40:29,903 - INFO - Processing 277/288
+2025-11-11 20:40:29,909 - INFO - Saved answer 273 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:40:29,909 - INFO - Progress: 137/152 pending completed
+2025-11-11 20:40:58,591 - INFO - Row 274 completed
+2025-11-11 20:40:58,592 - INFO - Processing 278/288
+2025-11-11 20:40:58,597 - INFO - Saved answer 274 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:40:58,597 - INFO - Progress: 138/152 pending completed
+2025-11-11 20:41:46,118 - INFO - Row 275 completed
+2025-11-11 20:41:46,119 - INFO - Processing 279/288
+2025-11-11 20:41:46,124 - INFO - Saved answer 275 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:41:46,124 - INFO - Progress: 139/152 pending completed
+2025-11-11 20:42:02,058 - INFO - Row 276 completed
+2025-11-11 20:42:02,058 - INFO - Processing 280/288
+2025-11-11 20:42:02,063 - INFO - Saved answer 276 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:42:02,063 - INFO - Progress: 140/152 pending completed
+2025-11-11 20:42:37,142 - INFO - Row 277 completed
+2025-11-11 20:42:37,142 - INFO - Processing 281/288
+2025-11-11 20:42:37,147 - INFO - Saved answer 277 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:42:37,147 - INFO - Progress: 141/152 pending completed
+2025-11-11 20:43:03,685 - INFO - Row 278 completed
+2025-11-11 20:43:03,685 - INFO - Processing 282/288
+2025-11-11 20:43:03,691 - INFO - Saved answer 278 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:43:03,691 - INFO - Progress: 142/152 pending completed
+2025-11-11 20:43:31,090 - INFO - Row 279 completed
+2025-11-11 20:43:31,090 - INFO - Processing 283/288
+2025-11-11 20:43:31,096 - INFO - Saved answer 279 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:43:31,096 - INFO - Progress: 143/152 pending completed
+2025-11-11 20:44:00,770 - INFO - Row 280 completed
+2025-11-11 20:44:00,770 - INFO - Processing 284/288
+2025-11-11 20:44:00,776 - INFO - Saved answer 280 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:44:00,776 - INFO - Progress: 144/152 pending completed
+2025-11-11 20:44:30,112 - INFO - Row 281 completed
+2025-11-11 20:44:30,112 - INFO - Processing 285/288
+2025-11-11 20:44:30,117 - INFO - Saved answer 281 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:44:30,117 - INFO - Progress: 145/152 pending completed
+2025-11-11 20:44:59,075 - INFO - Row 282 completed
+2025-11-11 20:44:59,075 - INFO - Processing 286/288
+2025-11-11 20:44:59,082 - INFO - Saved answer 282 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:44:59,082 - INFO - Progress: 146/152 pending completed
+2025-11-11 20:45:36,140 - INFO - Row 283 completed
+2025-11-11 20:45:36,140 - INFO - Processing 287/288
+2025-11-11 20:45:36,145 - INFO - Saved answer 283 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:45:36,145 - INFO - Progress: 147/152 pending completed
+2025-11-11 20:46:27,807 - INFO - Row 284 completed
+2025-11-11 20:46:27,807 - INFO - Processing 288/288
+2025-11-11 20:46:27,813 - INFO - Saved answer 284 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:46:27,813 - INFO - Progress: 148/152 pending completed
+2025-11-11 20:46:32,080 - INFO - Row 285 completed
+2025-11-11 20:46:32,086 - INFO - Saved answer 285 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:46:32,086 - INFO - Progress: 149/152 pending completed
+2025-11-11 20:46:59,247 - INFO - Row 286 completed
+2025-11-11 20:46:59,253 - INFO - Saved answer 286 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:46:59,253 - INFO - Progress: 150/152 pending completed
+2025-11-11 20:47:32,734 - INFO - Row 287 completed
+2025-11-11 20:47:32,740 - INFO - Saved answer 287 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:47:32,740 - INFO - Progress: 151/152 pending completed
+2025-11-11 20:47:59,218 - INFO - Row 288 completed
+2025-11-11 20:47:59,224 - INFO - Saved answer 288 to C:\Users\nikol\PycharmProjects\ModelTesting\Open Router\answers\nvidia-nemotron-nano-9b-v2-free_answers.csv
+2025-11-11 20:47:59,224 - INFO - Progress: 152/152 pending completed
+2025-11-11 20:47:59,227 - INFO - Done. Successes: 15, Fails: 1
