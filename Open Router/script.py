@@ -25,7 +25,7 @@ INPUT_FILE = os.path.join(BASE_DIR, "prompts", "prompts_all.csv")
 OUTPUT_DIR = os.path.join(BASE_DIR, "answers")
 CSV_SEPARATOR = ","
 MAX_WORKERS = 4
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
 BASE_URL = "https://openrouter.ai/api/v1"
 # Optional metadata for rankings on openrouter.ai
 OPENROUTER_REFERER = os.getenv("OPENROUTER_REFERER")
