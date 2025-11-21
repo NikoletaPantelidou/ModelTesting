@@ -30,10 +30,14 @@ different types of conditionals
 Each folder in the project follows the **same internal logic**, regardless of the model provider (Hugging Face, Ollama, or OpenRouter):
 
 - **script.py** — main code for running the model tests  
-- **answers/** — contains the outputs of each model in a CSV file, automatically generated after execution  
+- **answers/** — contains the outputs of each model in a CSV file, automatically generated after execution
+- **script_models_config/** — configuration files that define parameters for each tested model  
 - **logs/** — contains the console log messages for each run  
 - **execute.bat** — Windows shortcut for running `script.py`  
 - **clean_cache.bat** — Windows shortcut for clearing the Hugging Face model cache (only relevant for HF-based tests)
+
+**Important:**  
+➡️ *Replace the API key placeholder with your own private key. Never share your key publicly.*
 
 ## Contributing
 
