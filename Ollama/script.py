@@ -13,7 +13,7 @@ from datetime import datetime
 
 # CONFIGURATION
 OLLAMA_API_BASE = "https://ollama.com/api"
-OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY", "9fe5315cf7ce4326bd5249373221cfc7.STrBgk70DS0dH888JwANFA3K")
+OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY", "YOUR_TOKEN")
 INPUT_FILE = "prompts/prompts_all.csv"
 OUTPUT_DIR = "answers"
 CSV_SEPARATOR = ";"
