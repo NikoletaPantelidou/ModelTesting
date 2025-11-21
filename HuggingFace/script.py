@@ -18,7 +18,7 @@ from script_models_config import MODELS
 from datetime import datetime
 from huggingface_hub import login
 
-login(token="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")
+login(token="YOUR_TOKEN")
 
 
 # HuggingFace authentication token (for gated models)
